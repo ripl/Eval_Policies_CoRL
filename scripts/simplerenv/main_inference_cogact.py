@@ -7,12 +7,14 @@ CogACT README's policy-model hook without modifying the SimplerEnv submodule.
 from __future__ import annotations
 
 import os
+from pathlib import Path
 
 import numpy as np
 import tensorflow as tf
 
 from simpler_env.evaluation.argparse import get_args
 from simpler_env.evaluation.maniskill2_evaluator import maniskill2_evaluator
+import sim_cogact.cogact_policy as cogact_policy
 from sim_cogact import CogACTInference
 
 
@@ -21,6 +23,23 @@ def _env_bool(name: str, default: bool = False) -> bool:
     if value is None:
         return default
     return value.lower() in {"1", "true", "yes", "on"}
+
+
+def _patch_hf_token_for_cogact() -> None:
+    token = os.environ.get("HF_TOKEN", "").strip()
+    token_file = os.environ.get("HF_TOKEN_FILE", "").strip()
+    if not token and token_file:
+        token = Path(token_file).expanduser().read_text().strip()
+    if not token:
+        return
+
+    original_load_vla = cogact_policy.load_vla
+
+    def load_vla_with_token(*args, **kwargs):
+        kwargs.setdefault("hf_token", token)
+        return original_load_vla(*args, **kwargs)
+
+    cogact_policy.load_vla = load_vla_with_token
 
 
 if __name__ == "__main__":
@@ -40,6 +59,8 @@ if __name__ == "__main__":
 
     if args.ckpt_path is None or args.ckpt_path == "None":
         raise ValueError("--ckpt-path must point to a CogACT checkpoint or Hugging Face model id")
+
+    _patch_hf_token_for_cogact()
 
     model = CogACTInference(
         saved_model_path=args.ckpt_path,
