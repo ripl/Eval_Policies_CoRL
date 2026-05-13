@@ -2,7 +2,7 @@
 #SBATCH -p gpu
 #SBATCH --gpus=1
 #SBATCH -c 8
-#SBATCH -t 12:00:00
+#SBATCH -t 08:00:00
 #SBATCH -J se_cogact
 #SBATCH -o logs/slurm/%x-%j.out
 #SBATCH -e logs/slurm/%x-%j.err
