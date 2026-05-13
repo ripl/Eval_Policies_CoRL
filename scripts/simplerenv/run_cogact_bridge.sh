@@ -17,6 +17,9 @@ export APPTAINER_CACHEDIR="${APPTAINER_CACHEDIR:-${PROJECT_ROOT}/cache/apptainer
 export SINGULARITY_CACHEDIR="${SINGULARITY_CACHEDIR:-${PROJECT_ROOT}/cache/singularity}"
 export WANDB_DIR="${WANDB_DIR:-${PROJECT_ROOT}/artifacts/wandb}"
 export TOKENIZERS_PARALLELISM="${TOKENIZERS_PARALLELISM:-false}"
+if [[ -z "${VK_ICD_FILENAMES:-}" && -f /etc/vulkan/icd.d/nvidia_icd.json ]]; then
+  export VK_ICD_FILENAMES=/etc/vulkan/icd.d/nvidia_icd.json
+fi
 
 mkdir -p \
   "${HF_HOME}" \
