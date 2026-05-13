@@ -60,7 +60,7 @@ python -m pip install \
 
 python - <<'PY'
 import importlib
-for name in ["torch", "tensorflow", "simpler_env", "sim_cogact", "vla"]:
+for name in ["numpy", "cv2", "torch", "tensorflow", "simpler_env", "sim_cogact", "vla"]:
     mod = importlib.import_module(name)
     print(f"{name}: {getattr(mod, '__version__', 'import-ok')}")
 PY
