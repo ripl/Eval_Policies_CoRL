@@ -50,7 +50,13 @@ python -m pip install --index-url https://download.pytorch.org/whl/cu121 \
 python -m pip install -e "${PROJECT_ROOT}/third_party/simpler_env/ManiSkill2_real2sim"
 python -m pip install -e "${PROJECT_ROOT}/third_party/simpler_env"
 python -m pip install -e "${PROJECT_ROOT}/third_party/cogact"
-python -m pip install opencv-python-headless transforms3d
+
+# TensorFlow 2.15 is not NumPy-2 compatible. Recent OpenCV wheels can pull
+# NumPy 2.x, so keep OpenCV on a NumPy-1-compatible build for this evaluator.
+python -m pip install \
+  "numpy==1.26.4" \
+  "opencv-python==4.11.0.86" \
+  transforms3d
 
 python - <<'PY'
 import importlib
