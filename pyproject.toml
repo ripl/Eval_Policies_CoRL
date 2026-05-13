@@ -1,0 +1,14 @@
+[project]
+name = "eval-policies-corl"
+version = "0.0.0"
+description = "Evaluation code for CoRL manipulation benchmark audit experiments."
+requires-python = ">=3.9"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["eval_policies_corl*"]
+

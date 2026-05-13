@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+
+# Local environment and package state
+.env
+.env.*
+envs/
+*.conda
+*.tar.gz
+
+# Large experiment state
+results/
+artifacts/
+checkpoints/
+cache/
+wandb/
+logs/
+*.out
+*.err
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+

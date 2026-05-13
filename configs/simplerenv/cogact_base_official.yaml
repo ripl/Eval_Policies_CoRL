@@ -1,0 +1,25 @@
+experiment:
+  name: simplerenv_widowx_bridge_cogact_base_official
+  benchmark: simplerenv
+  suite: widowx_bridge
+  variant: official_fixed_grid
+
+policy:
+  name: cogact_base
+  checkpoint: CogACT/CogACT-Base
+  expected_adapter: sim_cogact
+
+official_eval:
+  script: sim_cogact/scripts/cogact_bridge.sh
+  obj_episode_range: [0, 24]
+  calibration_required: true
+
+tasks:
+  - StackGreenCubeOnYellowCubeBakedTexInScene-v0
+  - PutCarrotOnPlateInScene-v0
+  - PutSpoonOnTableClothInScene-v0
+  - PutEggplantInBasketScene-v0
+
+outputs:
+  root: results/simplerenv/cogact_base/official_fixed_grid
+

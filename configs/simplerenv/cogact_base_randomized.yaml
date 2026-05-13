@@ -1,0 +1,28 @@
+experiment:
+  name: simplerenv_widowx_bridge_cogact_base_randomized_positions
+  benchmark: simplerenv
+  suite: widowx_bridge
+  variant: randomized_object_positions
+
+policy:
+  name: cogact_base
+  checkpoint: CogACT/CogACT-Base
+  expected_adapter: sim_cogact
+
+baseline:
+  compare_to_config: configs/simplerenv/cogact_base_official.yaml
+
+randomization:
+  status: todo
+  position_set_path: configs/simplerenv/randomized_positions/widowx_bridge_seed0.json
+  rule: sample valid table positions once and reuse across policies
+
+tasks:
+  - StackGreenCubeOnYellowCubeBakedTexInScene-v0
+  - PutCarrotOnPlateInScene-v0
+  - PutSpoonOnTableClothInScene-v0
+  - PutEggplantInBasketScene-v0
+
+outputs:
+  root: results/simplerenv/cogact_base/randomized_positions
+
