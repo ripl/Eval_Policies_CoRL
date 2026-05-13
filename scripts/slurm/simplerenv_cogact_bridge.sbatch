@@ -1,5 +1,6 @@
 #!/bin/bash
 #SBATCH -p gpu
+#SBATCH -C 48g
 #SBATCH --gpus=1
 #SBATCH -c 4
 #SBATCH -t 08:00:00
