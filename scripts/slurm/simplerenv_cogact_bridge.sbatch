@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -p gpu
 #SBATCH --gpus=1
-#SBATCH -c 8
+#SBATCH -c 4
 #SBATCH -t 08:00:00
 #SBATCH -J se_cogact
 #SBATCH -o logs/slurm/%x-%j.out
