@@ -34,6 +34,7 @@ mkdir -p \
 COGACT_REPO="${COGACT_REPO:-${PROJECT_ROOT}/third_party/cogact}"
 SIMPLER_ENV_REPO="${SIMPLER_ENV_REPO:-${PROJECT_ROOT}/third_party/simpler_env}"
 COGACT_MAIN="${PROJECT_ROOT}/scripts/simplerenv/main_inference_cogact.py"
+SIMPLER_OVERLAY_DIR="${SIMPLER_ENV_REPO}/ManiSkill2_real2sim/data/real_inpainting"
 CKPT_PATH="${CKPT_PATH:-CogACT/CogACT-Base}"
 EPISODE_START="${EPISODE_START:-0}"
 EPISODE_END="${EPISODE_END:-24}"
@@ -139,7 +140,7 @@ run_task stack \
   StackGreenCubeOnYellowCubeBakedTexInScene-v0 \
   bridge_table_1_v1 \
   widowx \
-  ManiSkill2_real2sim/data/real_inpainting/bridge_real_eval_1.png \
+  "${SIMPLER_OVERLAY_DIR}/bridge_real_eval_1.png" \
   0.147 \
   0.028
 
@@ -147,7 +148,7 @@ run_task carrot \
   PutCarrotOnPlateInScene-v0 \
   bridge_table_1_v1 \
   widowx \
-  ManiSkill2_real2sim/data/real_inpainting/bridge_real_eval_1.png \
+  "${SIMPLER_OVERLAY_DIR}/bridge_real_eval_1.png" \
   0.147 \
   0.028
 
@@ -155,7 +156,7 @@ run_task spoon \
   PutSpoonOnTableClothInScene-v0 \
   bridge_table_1_v1 \
   widowx \
-  ManiSkill2_real2sim/data/real_inpainting/bridge_real_eval_1.png \
+  "${SIMPLER_OVERLAY_DIR}/bridge_real_eval_1.png" \
   0.147 \
   0.028
 
@@ -163,6 +164,6 @@ run_task eggplant \
   PutEggplantInBasketScene-v0 \
   bridge_table_1_v2 \
   widowx_sink_camera_setup \
-  ManiSkill2_real2sim/data/real_inpainting/bridge_sink.png \
+  "${SIMPLER_OVERLAY_DIR}/bridge_sink.png" \
   0.127 \
   0.06
