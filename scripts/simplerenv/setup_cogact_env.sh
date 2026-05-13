@@ -30,6 +30,7 @@ cat > "${PIP_CONSTRAINT_FILE}" <<'EOF'
 numpy==1.26.4
 opencv-python==4.11.0.86
 opencv-python-headless==4.11.0.86
+setuptools==80.9.0
 EOF
 export PIP_CONSTRAINT="${PIP_CONSTRAINT_FILE}"
 
@@ -45,7 +46,7 @@ if [[ ! -x "${ENV_PREFIX}/bin/python" ]]; then
 fi
 conda activate "${ENV_PREFIX}"
 
-python -m pip install --upgrade pip setuptools wheel
+python -m pip install --upgrade pip "setuptools==80.9.0" wheel
 
 # SimplerEnv requires NumPy<2 and CogACT pins TensorFlow 2.15, which also
 # requires NumPy<2. Keep a single NumPy pin across all editable installs.
