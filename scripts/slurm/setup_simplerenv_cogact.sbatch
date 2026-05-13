@@ -15,6 +15,6 @@ mkdir -p logs/slurm artifacts/setup cache envs
 echo "node=$(hostname)"
 echo "SLURM_JOB_ID=${SLURM_JOB_ID:-}"
 echo "PROJECT_ROOT=${PROJECT_ROOT}"
-echo "ENV_PREFIX=${ENV_PREFIX:-${PROJECT_ROOT}/envs/simplerenv_cogact}"
+echo "ENV_PREFIX=${ENV_PREFIX:-${PROJECT_ROOT}/envs/simplerenv_cogact_py310_np126}"
 
 bash scripts/simplerenv/setup_cogact_env.sh

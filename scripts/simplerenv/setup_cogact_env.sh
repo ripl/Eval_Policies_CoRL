@@ -2,7 +2,7 @@
 set -euo pipefail
 
 PROJECT_ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/../.." && pwd)"
-ENV_PREFIX="${ENV_PREFIX:-${PROJECT_ROOT}/envs/simplerenv_cogact}"
+ENV_PREFIX="${ENV_PREFIX:-${PROJECT_ROOT}/envs/simplerenv_cogact_py310_np126}"
 PYTHON_VERSION="${PYTHON_VERSION:-3.10}"
 
 export HF_HOME="${HF_HOME:-${PROJECT_ROOT}/cache/huggingface}"
@@ -25,6 +25,14 @@ mkdir -p \
   "${PROJECT_ROOT}/logs/slurm" \
   "${PROJECT_ROOT}/envs"
 
+PIP_CONSTRAINT_FILE="${PROJECT_ROOT}/artifacts/setup/simplerenv_cogact_constraints.txt"
+cat > "${PIP_CONSTRAINT_FILE}" <<'EOF'
+numpy==1.26.4
+opencv-python==4.11.0.86
+opencv-python-headless==4.11.0.86
+EOF
+export PIP_CONSTRAINT="${PIP_CONSTRAINT_FILE}"
+
 cd "${PROJECT_ROOT}"
 git submodule update --init --recursive third_party/cogact third_party/simpler_env
 
@@ -39,8 +47,9 @@ conda activate "${ENV_PREFIX}"
 
 python -m pip install --upgrade pip setuptools wheel
 
-# SimplerEnv currently recommends numpy<2.0; 1.24.4 matches its README.
-python -m pip install "numpy==1.24.4"
+# SimplerEnv requires NumPy<2 and CogACT pins TensorFlow 2.15, which also
+# requires NumPy<2. Keep a single NumPy pin across all editable installs.
+python -m pip install "numpy==1.26.4"
 
 # Install CUDA-enabled PyTorch before editable packages so CogACT does not pull
 # an arbitrary torch build from the default PyPI index.

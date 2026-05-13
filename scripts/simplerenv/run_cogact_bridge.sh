@@ -4,7 +4,7 @@ set -euo pipefail
 MODE="${1:-official}"
 PROJECT_ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/../.." && pwd)"
 RUN_TAG="${RUN_TAG:-$(date -u +%Y%m%dT%H%M%SZ)}"
-ENV_PREFIX="${ENV_PREFIX:-${PROJECT_ROOT}/envs/simplerenv_cogact}"
+ENV_PREFIX="${ENV_PREFIX:-${PROJECT_ROOT}/envs/simplerenv_cogact_py310_np126}"
 
 export HF_HOME="${HF_HOME:-${PROJECT_ROOT}/cache/huggingface}"
 export HF_HUB_CACHE="${HF_HUB_CACHE:-${HF_HOME}/hub}"

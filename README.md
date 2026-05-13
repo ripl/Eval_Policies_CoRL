@@ -35,8 +35,10 @@ Build the runtime on the cluster with:
 sbatch scripts/slurm/setup_simplerenv_cogact.sbatch
 ```
 
-The conda env is created at `envs/simplerenv_cogact`, with package caches under
-`cache/`, so `/home-nfs/tianchong` is not used for large environment state.
+The conda env is created at `envs/simplerenv_cogact_py310_np126`, with package
+caches under `cache/`, so `/home-nfs/tianchong` is not used for large
+environment state. The setup script pins NumPy/OpenCV because CogACT's
+TensorFlow dependency is not NumPy-2 compatible.
 
 Run a one-episode smoke test:
 
