@@ -66,11 +66,12 @@ python -m pip install -e "${PROJECT_ROOT}/third_party/cogact"
 python -m pip install \
   "numpy==1.26.4" \
   "opencv-python==4.11.0.86" \
+  "mediapy==1.2.0" \
   transforms3d
 
 python - <<'PY'
 import importlib
-for name in ["numpy", "cv2", "torch", "tensorflow", "simpler_env", "sim_cogact", "vla"]:
+for name in ["numpy", "cv2", "mediapy", "torch", "tensorflow", "simpler_env", "sim_cogact", "vla"]:
     mod = importlib.import_module(name)
     print(f"{name}: {getattr(mod, '__version__', 'import-ok')}")
 PY
