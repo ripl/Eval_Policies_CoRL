@@ -5,7 +5,7 @@
 #SBATCH --gpus=1
 #SBATCH -c 4
 #SBATCH --mem=120G
-#SBATCH -t 24:00:00
+#SBATCH -t 08:00:00
 #SBATCH -J se_p1_100
 #SBATCH --array=0-8
 #SBATCH -o logs/slurm/%x-%A_%a.out
