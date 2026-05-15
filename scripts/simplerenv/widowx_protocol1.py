@@ -137,6 +137,9 @@ def install_from_env(*, required: bool = False) -> dict[str, Any] | None:
         obj_init_options = dict(options.get("obj_init_options") or {})
 
         if "episode_id" not in obj_init_options:
+            # ManiSkill performs a constructor-time reconfigure reset before evaluators pick an episode.
+            if options.get("reconfigure") is True:
+                return _ORIGINAL_RESET(self, seed=seed, options=options)
             raise RuntimeError(f"Protocol 1 requires obj_init_options.episode_id for {task_key}")
         episode_id = int(obj_init_options["episode_id"])
         episodes = task["episodes"]
