@@ -4,3 +4,18 @@
 [submodule "third_party/simpler_env"]
 	path = third_party/simpler_env
 	url = https://github.com/simpler-env/SimplerEnv.git
+[submodule "third_party/x_vla"]
+	path = third_party/x_vla
+	url = https://github.com/2toinf/X-VLA.git
+[submodule "third_party/xvla_simpler_env"]
+	path = third_party/xvla_simpler_env
+	url = https://github.com/255isWhite/SimplerEnv.git
+[submodule "third_party/simplerenv_openvla"]
+	path = third_party/simplerenv_openvla
+	url = https://github.com/DelinQu/SimplerEnv-OpenVLA.git
+[submodule "third_party/gr1"]
+	path = third_party/gr1
+	url = https://github.com/bytedance/GR-1.git
+[submodule "third_party/roboflamingo"]
+	path = third_party/roboflamingo
+	url = https://github.com/RoboFlamingo/RoboFlamingo.git

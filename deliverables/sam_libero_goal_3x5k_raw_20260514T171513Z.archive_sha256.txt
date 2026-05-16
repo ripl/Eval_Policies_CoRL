@@ -1,0 +1,2 @@
+415629715bb2421bc55a7bcaaaf5f635927a45386ba5f441fb123ba577aac0c2  /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/deliverables/sam_libero_goal_3x5k_raw_20260514T171513Z.tar.gz
+453fe1f7405801d1218b616282408b7a2c89d77087abf3690f21b2f4cb2e99f3  /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/deliverables/sam_libero_goal_3x5k_raw_20260514T171513Z.zip

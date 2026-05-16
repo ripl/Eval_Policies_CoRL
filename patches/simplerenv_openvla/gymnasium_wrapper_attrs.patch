@@ -1,0 +1,104 @@
+diff --git a/simpler_env/evaluation/maniskill2_evaluator.py b/simpler_env/evaluation/maniskill2_evaluator.py
+index a824479..6e6caae 100644
+--- a/simpler_env/evaluation/maniskill2_evaluator.py
++++ b/simpler_env/evaluation/maniskill2_evaluator.py
+@@ -15,6 +15,23 @@ from simpler_env.utils.env.observation_utils import get_image_from_maniskill2_ob
+ from simpler_env.utils.visualization import write_interval_video, write_video
+
+
++def _env_method(env, method_name):
++    """Return a custom environment method through Gymnasium wrappers."""
++    if hasattr(env, "get_wrapper_attr"):
++        try:
++            return env.get_wrapper_attr(method_name)
++        except AttributeError:
++            pass
++    return getattr(getattr(env, "unwrapped", env), method_name)
++
++
++def _get_eef_pos(obs):
++    agent_obs = obs.get("agent", {})
++    if isinstance(agent_obs, dict):
++        return agent_obs.get("eef_pos")
++    return None
++
++
+ def run_maniskill2_eval_single_episode(
+     model,
+     ckpt_path,
+@@ -86,14 +103,14 @@ def run_maniskill2_eval_single_episode(
+         }
+     obs, _ = env.reset(options=env_reset_options)
+     # for long-horizon environments, we check if the current subtask is the final subtask
+-    is_final_subtask = env.is_final_subtask()
++    is_final_subtask = _env_method(env, "is_final_subtask")()
+
+     # Obtain language instruction
+     if instruction is not None:
+         task_description = instruction
+     else:
+         # get default language instruction
+-        task_description = env.get_language_instruction()
++        task_description = _env_method(env, "get_language_instruction")()
+     print(task_description)
+
+     # Initialize logging
+@@ -113,14 +130,16 @@ def run_maniskill2_eval_single_episode(
+     task_descriptions = []
+     while not (predicted_terminated or truncated):
+         # step the model; "raw_action" is raw model action output; "action" is the processed action to be sent into maniskill env
+-        raw_action, action = model.step(image, task_description, eef_pos=obs["agent"]["eef_pos"])
++        raw_action, action = model.step(
++            image, task_description, eef_pos=_get_eef_pos(obs)
++        )
+         predicted_actions.append(raw_action)
+         predicted_terminated = bool(action["terminate_episode"][0] > 0)
+         if predicted_terminated:
+             if not is_final_subtask:
+                 # advance the environment to the next subtask
+                 predicted_terminated = False
+-                env.advance_to_next_subtask()
++                _env_method(env, "advance_to_next_subtask")()
+
+         # step the environment
+         obs, reward, done, truncated, info = env.step(
+@@ -130,11 +149,11 @@ def run_maniskill2_eval_single_episode(
+         )
+
+         success = "success" if done else "failure"
+-        new_task_description = env.get_language_instruction()
++        new_task_description = _env_method(env, "get_language_instruction")()
+         if new_task_description != task_description:
+             task_description = new_task_description
+             print(task_description)
+-        is_final_subtask = env.is_final_subtask()
++        is_final_subtask = _env_method(env, "is_final_subtask")()
+
+         print(timestep, info)
+
+diff --git a/simpler_env/utils/env/observation_utils.py b/simpler_env/utils/env/observation_utils.py
+index 0526842..322a919 100644
+--- a/simpler_env/utils/env/observation_utils.py
++++ b/simpler_env/utils/env/observation_utils.py
+@@ -1,9 +1,19 @@
++def _env_attr(env, attr_name):
++    if hasattr(env, "get_wrapper_attr"):
++        try:
++            return env.get_wrapper_attr(attr_name)
++        except AttributeError:
++            pass
++    return getattr(getattr(env, "unwrapped", env), attr_name)
++
++
+ def get_image_from_maniskill2_obs_dict(env, obs, camera_name=None):
+     # obtain image from observation dictionary returned by ManiSkill2 environment
+     if camera_name is None:
+-        if "google_robot" in env.robot_uid:
++        robot_uid = _env_attr(env, "robot_uid")
++        if "google_robot" in robot_uid:
+             camera_name = "overhead_camera"
+-        elif "widowx" in env.robot_uid:
++        elif "widowx" in robot_uid:
+             camera_name = "3rd_view_camera"
+         else:
+             raise NotImplementedError()
