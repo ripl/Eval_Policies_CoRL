@@ -1,0 +1,19 @@
+{
+  "run_group": "hif_vla_goal_5k_full_2042379_20260514T085751Z",
+  "policy_name": "hif_vla",
+  "policy_tracker_id": 271,
+  "suite": "libero_goal",
+  "task_id": 3,
+  "checkpoint_ref": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/hifvla-libero-goal",
+  "checkpoint_hf_repo": "minnielin/hifvla-libero-goal",
+  "checkpoint_hf_sha": "1d7af41cebb659a6fcb22d2967cb36bbb0fe2658",
+  "init_state_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_goal_5000",
+  "episode_csv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/hif_vla_goal_5k/hif_vla_goal_5k_full_2042379_20260514T085751Z/task_3/episodes.csv",
+  "rows": 500,
+  "successes": 452,
+  "errors": 0,
+  "videos": 0,
+  "slurm_job_id": "2042574",
+  "slurm_array_job_id": "2042379",
+  "slurm_array_task_id": "3"
+}

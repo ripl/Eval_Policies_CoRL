@@ -1,0 +1,16 @@
+{
+  "run_group": "openvla_oft_goal_5k_full_2042378_20260514T050307Z",
+  "policy_name": "openvla_oft",
+  "policy_tracker_id": 241,
+  "suite": "libero_goal",
+  "task_id": 0,
+  "checkpoint_ref": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/openvla-oft-libero-goal",
+  "init_state_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_goal_5000",
+  "episode_csv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/openvla_oft_goal_5k/openvla_oft_goal_5k_full_2042378_20260514T050307Z/task_0/episodes.csv",
+  "rows": 500,
+  "successes": 482,
+  "videos": 0,
+  "slurm_job_id": "2042419",
+  "slurm_array_job_id": "2042378",
+  "slurm_array_task_id": "0"
+}

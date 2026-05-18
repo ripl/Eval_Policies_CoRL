@@ -1,0 +1,23 @@
+{
+  "run_group": "sf_goal_5k_full_20260514T012904Z",
+  "policy_name": "spatial_forcing",
+  "policy_tracker_id": 438,
+  "suite": "libero_goal",
+  "task_id": 2,
+  "checkpoint_ref": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/spatial-forcing-7b-finetuned-libero-goal",
+  "init_state_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_goal_5000",
+  "episode_csv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/spatial_forcing_goal_5k/sf_goal_5k_full_20260514T012904Z/task_2/episodes.csv",
+  "rows": 500,
+  "successes": 499,
+  "videos": 0,
+  "slurm_job_id": "2042317",
+  "slurm_array_job_id": "2042163",
+  "slurm_array_task_id": "2",
+  "checkpoint_hf_repo": "haofuly/spatial-forcing-7b-finetuned-libero-goal",
+  "checkpoint_hf_sha": "c0093e70524ad781ae6fe644618f501af32a184d",
+  "init_state_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_goal_5000/MANIFEST.json",
+  "libero_config_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/libero_config/config.yaml",
+  "save_videos": false,
+  "command": "python experiments/robot/libero/run_libero_eval.py ...",
+  "metadata": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/spatial_forcing_goal_5k/sf_goal_5k_full_20260514T012904Z/task_2/metadata/metadata.txt"
+}

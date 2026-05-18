@@ -7,7 +7,9 @@ CALVIN_ROOT="${CALVIN_ROOT:-/share/data/ripl/tianchong/projects/Policy_Eval_Done
 DATASET_DIR="${DATASET_DIR:-/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right_cache/task_ABC_D}"
 GR1_REPO="${GR1_REPO:-${PROJECT_ROOT}/third_party/gr1}"
 NUM_SEQUENCES="${NUM_SEQUENCES:-50}"
-RUN_TAG="${RUN_TAG:-gr1_abc_d_${NUM_SEQUENCES}seq_$(date -u +%Y%m%dT%H%M%SZ)}"
+EVAL_START="${EVAL_START:-0}"
+EVAL_END="${EVAL_END:-${NUM_SEQUENCES}}"
+RUN_TAG="${RUN_TAG:-gr1_abc_d_${EVAL_START}_${EVAL_END}seq_$(date -u +%Y%m%dT%H%M%SZ)}"
 RESULTS_DIR="${RESULTS_DIR:-${PROJECT_ROOT}/results/calvin/gr1_abc_d/${RUN_TAG}}"
 CKPT_DIR="${CKPT_DIR:-${PROJECT_ROOT}/checkpoints/gr1}"
 
@@ -48,8 +50,13 @@ export PYTHONPATH="${PROJECT_ROOT}/envs/calvin_smoke_overlay:${GR1_REPO}:${CALVI
   echo "run_tag=${RUN_TAG}"
   echo "policy=GR-1"
   echo "num_sequences=${NUM_SEQUENCES}"
+  echo "eval_start=${EVAL_START}"
+  echo "eval_end=${EVAL_END}"
   echo "dataset_dir=${DATASET_DIR}"
   echo "results_dir=${RESULTS_DIR}"
+  echo "calvin_sequence_manifest=${CALVIN_SEQUENCE_MANIFEST:-}"
+  echo "calvin_reset_bank=${CALVIN_RESET_BANK:-}"
+  echo "calvin_reset_protocol=${CALVIN_RESET_PROTOCOL:-}"
   echo "hostname=$(hostname)"
   echo "date_utc=$(date -u --iso-8601=seconds)"
   echo "cuda_visible_devices=${CUDA_VISIBLE_DEVICES:-}"
@@ -62,6 +69,7 @@ PY
   nvidia-smi -L || true
 } > "${RESULTS_DIR}/metadata.txt" 2>&1
 
+export CALVIN_RESET_EVAL_START="${EVAL_START}"
 python -u "${PROJECT_ROOT}/scripts/calvin/gr1_smoke_eval.py" \
   --gr1-repo "${GR1_REPO}" \
   --calvin-root "${CALVIN_ROOT}" \
@@ -70,4 +78,6 @@ python -u "${PROJECT_ROOT}/scripts/calvin/gr1_smoke_eval.py" \
   --policy-ckpt "${CKPT_DIR}/snapshot_ABC.pt" \
   --mae-ckpt "${CKPT_DIR}/mae_pretrain_vit_base.pth" \
   --num-sequences "${NUM_SEQUENCES}" \
+  --eval-start "${EVAL_START}" \
+  --eval-end "${EVAL_END}" \
   --device 0

@@ -1,0 +1,63 @@
+run_group=pi05_goal_5k_repro98_2043126
+task_id=3
+date_utc=2026-05-14T19:16:17+00:00
+hostname=g14.ttic.edu
+cuda_visible_devices=0
+policy=pi05_lerobot
+policy_tracker_id=869
+suite=libero_goal
+checkpoint_hf_repo=lerobot/pi05_libero_finetuned
+checkpoint_hf_revision=
+checkpoint_dir=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/pi05-libero-finetuned
+tokenizer_repo=Shakalaka/paligemma-3b-pt-224
+n_action_steps=10
+init_root=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_goal_5000
+episodes_per_task=500
+save_videos=False
+433a1530b0739b066110157fe5244d6afccf70d5
+M  .gitmodules
+ M scripts/simplerenv/run_cogact_bridge.sh
+ M scripts/slurm/simplerenv_cogact_bridge.sbatch
+A  third_party/gr1
+A  third_party/roboflamingo
+Am third_party/simplerenv_openvla
+A  third_party/x_vla
+A  third_party/xvla_simpler_env
+?? deliverables/
+?? patches/
+?? scripts/calvin/
+?? scripts/libero/
+?? scripts/simplerenv/run_spatialvla_bridge.sh
+?? scripts/simplerenv/run_xvla_widowx.sh
+?? scripts/simplerenv/setup_spatialvla_env.sh
+?? scripts/simplerenv/setup_xvla_env.sh
+?? scripts/slurm/calvin_gr1_smoke.sbatch
+?? scripts/slurm/calvin_roboflamingo_smoke.sbatch
+?? scripts/slurm/calvin_xvla_smoke.sbatch
+?? scripts/slurm/cosmos_goal_smoke.sbatch
+?? scripts/slurm/cosmos_model_download.sbatch
+?? scripts/slurm/hif_vla_goal_5k_array.sbatch
+?? scripts/slurm/hif_vla_goal_download.sbatch
+?? scripts/slurm/hif_vla_goal_smoke.sbatch
+?? scripts/slurm/libero_openvla_oft_goal_5k_array.sbatch
+?? scripts/slurm/libero_openvla_oft_goal_smoke.sbatch
+?? scripts/slurm/libero_pi05_goal_5k_array.sbatch
+?? scripts/slurm/libero_pi05_goal_5k_repro98_array.sbatch
+?? scripts/slurm/libero_pi05_goal_repro_smoke.sbatch
+?? scripts/slurm/libero_pi05_goal_smoke.sbatch
+?? scripts/slurm/libero_spatial_forcing_goal_5k_array.sbatch
+?? scripts/slurm/setup_simplerenv_spatialvla.sbatch
+?? scripts/slurm/setup_simplerenv_xvla.sbatch
+?? scripts/slurm/simplerenv_spatialvla_bridge.sbatch
+?? scripts/slurm/simplerenv_xvla_widowx.sbatch
+?? scripts/slurm/simvla_goal_5k_array.sbatch
+?? scripts/slurm/simvla_goal_smoke.sbatch
+?? scripts/slurm/simvla_stage.sbatch
+?? third_party/alphabrain/
+?? third_party/hif_vla/
+?? third_party/lerobot/
+?? third_party/simvla/
+8fff0fde7c79f23a93d845d1a50e985de01f8b8a
+Python 3.10.16
+GPU 0: NVIDIA RTX A6000 (UUID: GPU-4f88d054-90b6-033a-14e9-b71db48b2bcf)
+NVIDIA RTX A6000, GPU-4f88d054-90b6-033a-14e9-b71db48b2bcf, 580.95.05, 49140 MiB

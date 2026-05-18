@@ -1,0 +1,23 @@
+{
+  "run_group": "openvla_oft_goal_5k_full_2042378_20260514T104132Z",
+  "policy_name": "openvla_oft",
+  "policy_tracker_id": 241,
+  "suite": "libero_goal",
+  "task_id": 6,
+  "checkpoint_ref": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/openvla-oft-libero-goal",
+  "init_state_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_goal_5000",
+  "episode_csv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/openvla_oft_goal_5k/openvla_oft_goal_5k_full_2042378_20260514T104132Z/task_6/episodes.csv",
+  "rows": 500,
+  "successes": 500,
+  "videos": 0,
+  "slurm_job_id": "2042634",
+  "slurm_array_job_id": "2042378",
+  "slurm_array_task_id": "6",
+  "checkpoint_hf_repo": "moojink/openvla-7b-oft-finetuned-libero-goal",
+  "checkpoint_hf_sha": "c2d0f9fbbd82674683b397ff923168a12f6a307b",
+  "init_state_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_goal_5000/MANIFEST.json",
+  "libero_config_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/libero_config/config.yaml",
+  "save_videos": false,
+  "command": "python experiments/robot/libero/run_libero_eval.py ...",
+  "metadata": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/openvla_oft_goal_5k/openvla_oft_goal_5k_full_2042378_20260514T104132Z/task_6/metadata/metadata.txt"
+}

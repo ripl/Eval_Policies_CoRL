@@ -1,0 +1,556 @@
+run_group=simvla_goal_5k_full_2042380_20260514T080011Z
+task_id=1
+date_utc=2026-05-14T08:01:19+00:00
+hostname=g6.ttic.edu
+cuda_visible_devices=0
+policy=simvla
+policy_tracker_id=798
+suite=libero_goal
+checkpoint_hf_repo=YuankaiLuo/SimVLA-LIBERO
+checkpoint_hf_sha=93dc4d90b0596c652ad2840ad743c62b9c4473fb
+checkpoint_dir=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/simvla-libero
+init_root=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_goal_5000
+episodes_per_task=500
+save_videos=False
+433a1530b0739b066110157fe5244d6afccf70d5
+M  .gitmodules
+ M scripts/simplerenv/run_cogact_bridge.sh
+ M scripts/slurm/simplerenv_cogact_bridge.sbatch
+A  third_party/gr1
+A  third_party/roboflamingo
+Am third_party/simplerenv_openvla
+A  third_party/x_vla
+A  third_party/xvla_simpler_env
+?? patches/
+?? scripts/calvin/
+?? scripts/libero/
+?? scripts/simplerenv/run_spatialvla_bridge.sh
+?? scripts/simplerenv/run_xvla_widowx.sh
+?? scripts/simplerenv/setup_spatialvla_env.sh
+?? scripts/simplerenv/setup_xvla_env.sh
+?? scripts/slurm/calvin_gr1_smoke.sbatch
+?? scripts/slurm/calvin_roboflamingo_smoke.sbatch
+?? scripts/slurm/calvin_xvla_smoke.sbatch
+?? scripts/slurm/cosmos_goal_smoke.sbatch
+?? scripts/slurm/cosmos_model_download.sbatch
+?? scripts/slurm/hif_vla_goal_5k_array.sbatch
+?? scripts/slurm/hif_vla_goal_download.sbatch
+?? scripts/slurm/hif_vla_goal_smoke.sbatch
+?? scripts/slurm/libero_openvla_oft_goal_5k_array.sbatch
+?? scripts/slurm/libero_openvla_oft_goal_smoke.sbatch
+?? scripts/slurm/libero_pi05_goal_5k_array.sbatch
+?? scripts/slurm/libero_pi05_goal_smoke.sbatch
+?? scripts/slurm/libero_spatial_forcing_goal_5k_array.sbatch
+?? scripts/slurm/setup_simplerenv_spatialvla.sbatch
+?? scripts/slurm/setup_simplerenv_xvla.sbatch
+?? scripts/slurm/simplerenv_spatialvla_bridge.sbatch
+?? scripts/slurm/simplerenv_xvla_widowx.sbatch
+?? scripts/slurm/simvla_goal_5k_array.sbatch
+?? scripts/slurm/simvla_goal_smoke.sbatch
+?? scripts/slurm/simvla_stage.sbatch
+?? third_party/alphabrain/
+?? third_party/hif_vla/
+?? third_party/lerobot/
+?? third_party/simvla/
+32700d0ad8991996e123e4b685abe370ce6e9aab
+diff --git a/evaluation/libero/libero_client.py b/evaluation/libero/libero_client.py
+index 0cfbc6e..a175f17 100644
+--- a/evaluation/libero/libero_client.py
++++ b/evaluation/libero/libero_client.py
+@@ -12,6 +12,7 @@ from __future__ import annotations
+ 
+ import argparse
+ import collections
++import csv
+ import json
+ import math
+ import os
+@@ -188,6 +189,61 @@ class HTTPClient:
+ # -----------------------------------------------------------------------------
+ # Evaluator
+ # -----------------------------------------------------------------------------
++def _task_key(task) -> str:
++    return Path(task.bddl_file).stem
++
++
++def _load_initial_states(task_suite_name: str, task, task_id: int, initial_states_path: Optional[str]):
++    if initial_states_path is None:
++        return None
++
++    root = Path(initial_states_path)
++    candidates = [
++        root / task_suite_name / f"{_task_key(task)}.pruned_init",
++        root / f"{_task_key(task)}.pruned_init",
++    ]
++    for path in candidates:
++        if path.exists():
++            try:
++                import torch
++            except ImportError as exc:
++                raise ImportError("Loading shared .pruned_init files requires torch") from exc
++            states = torch.load(path, map_location="cpu")
++            if len(states) == 0:
++                raise ValueError(f"No init states in {path}")
++            return states
++
++    searched = ", ".join(str(p) for p in candidates)
++    raise FileNotFoundError(f"Missing init states for task_id={task_id}, task={_task_key(task)}; searched: {searched}")
++
++
++def _make_episode_writer(csv_path: Optional[str]):
++    if csv_path is None:
++        return None, None
++
++    path = Path(csv_path)
++    path.parent.mkdir(parents=True, exist_ok=True)
++    fieldnames = [
++        "suite",
++        "task_id",
++        "task_name",
++        "episode_idx",
++        "instance_id",
++        "policy_name",
++        "checkpoint_ref",
++        "success",
++        "num_env_steps",
++        "error_type",
++    ]
++    needs_header = not path.exists() or path.stat().st_size == 0
++    handle = path.open("a", newline="")
++    writer = csv.DictWriter(handle, fieldnames=fieldnames)
++    if needs_header:
++        writer.writeheader()
++        handle.flush()
++    return writer, handle
++
++
+ def get_libero_env(task, resolution: int, seed: int):
+     """Initialize a LIBERO environment."""
+     task_description = task.language
+@@ -205,6 +261,14 @@ def eval_libero(
+     seed: int = 7,
+     video_out_path: str = "data/libero/videos",
+     save_video: bool = True,
++    initial_states_path: Optional[str] = None,
++    episode_results_path: Optional[str] = None,
++    policy_name: str = "simvla",
++    checkpoint_ref: str = "",
++    max_total_episodes: Optional[int] = None,
++    selected_task_id: Optional[int] = None,
++    episode_start_idx: int = 0,
++    episode_end_idx: Optional[int] = None,
+ ) -> float:
+     """
+     Run LIBERO evaluation across all tasks in a suite.
+@@ -223,85 +287,124 @@ def eval_libero(
+     print(f"   Max steps: {max_steps}")
+     
+     total_episodes, total_successes = 0, 0
+-    
+-    for task_id in tqdm(range(num_tasks - 1, -1, -1), desc="Tasks"):
+-        task = task_suite.get_task(task_id)
+-        initial_states = task_suite.get_task_init_states(task_id)
+-        env, task_description = get_libero_env(task, LIBERO_ENV_RESOLUTION, seed)
+-        
+-        task_successes = 0
+-        for ep in tqdm(range(num_trials), desc=f"{task_description[:30]}...", leave=False):
+-            # Reset
+-            env.reset()
+-            client.reset()
+-            obs = env.set_init_state(initial_states[ep % len(initial_states)])
++    writer, writer_handle = _make_episode_writer(episode_results_path)
++
++    task_ids = [selected_task_id] if selected_task_id is not None else range(num_tasks - 1, -1, -1)
++    try:
++        for task_id in tqdm(task_ids, desc="Tasks"):
++            if task_id < 0 or task_id >= num_tasks:
++                raise ValueError(f"selected_task_id={task_id} outside [0, {num_tasks})")
++            task = task_suite.get_task(task_id)
++            initial_states = _load_initial_states(task_suite_name, task, task_id, initial_states_path)
++            if initial_states is None:
++                initial_states = task_suite.get_task_init_states(task_id)
++            env, task_description = get_libero_env(task, LIBERO_ENV_RESOLUTION, seed)
++            task_name = _task_key(task)
+             
+-            replay_images = []
+-            t = 0
+-            done = False
+-            
+-            while t < max_steps + NUM_STEPS_WAIT:
+-                try:
+-                    # Wait for objects to stabilize
+-                    if t < NUM_STEPS_WAIT:
+-                        obs, reward, done, info = env.step(LIBERO_DUMMY_ACTION)
++            task_successes, task_episodes = 0, 0
++            end_idx = episode_end_idx if episode_end_idx is not None else episode_start_idx + num_trials
++            if episode_start_idx < 0 or end_idx > len(initial_states) or episode_start_idx >= end_idx:
++                raise ValueError(
++                    f"Invalid episode range [{episode_start_idx}, {end_idx}) for task_id={task_id}; "
++                    f"available init states={len(initial_states)}"
++                )
++            for ep in tqdm(range(episode_start_idx, end_idx), desc=f"{task_description[:30]}...", leave=False):
++                if max_total_episodes is not None and total_episodes >= max_total_episodes:
++                    break
++                # Reset
++                env.reset()
++                client.reset()
++                obs = env.set_init_state(initial_states[ep])
++                
++                replay_images = []
++                t = 0
++                done = False
++                error_type = ""
++                
++                while t < max_steps + NUM_STEPS_WAIT:
++                    try:
++                        # Wait for objects to stabilize
++                        if t < NUM_STEPS_WAIT:
++                            obs, reward, done, info = env.step(LIBERO_DUMMY_ACTION)
++                            t += 1
++                            continue
++                        
++                        # Get images (rotated 180 degrees)
++                        img = np.ascontiguousarray(obs["agentview_image"][::-1, ::-1])
++                        wrist_img = np.ascontiguousarray(obs["robot0_eye_in_hand_image"][::-1, ::-1])
++                        
++                        if save_video:
++                            replay_images.append(img)
++                        
++                        # Build state vector
++                        # [eef_pos(3), axis_angle(3), gripper_qpos(2)] = 8D
++                        state = np.concatenate([
++                            obs["robot0_eef_pos"],
++                            _quat2axisangle(obs["robot0_eef_quat"]),
++                            obs["robot0_gripper_qpos"],
++                        ])
++                        
++                        # Pack observation
++                        obs_dict = {
++                            "image": img,
++                            "wrist_image": wrist_img,
++                            "state": state,
++                        }
++                        
++                        # Get action (7D delta action)
++                        action = client.step(obs_dict, task_description)
++                        
++                        # Execute (send delta action directly)
++                        obs, reward, done, info = env.step(action.tolist())
++                        
++                        if done:
++                            task_successes += 1
++                            total_successes += 1
++                            break
++                        
+                         t += 1
+-                        continue
+-                    
+-                    # Get images (rotated 180 degrees)
+-                    img = np.ascontiguousarray(obs["agentview_image"][::-1, ::-1])
+-                    wrist_img = np.ascontiguousarray(obs["robot0_eye_in_hand_image"][::-1, ::-1])
+-                    
+-                    if save_video:
+-                        replay_images.append(img)
+-                    
+-                    # Build state vector
+-                    # [eef_pos(3), axis_angle(3), gripper_qpos(2)] = 8D
+-                    state = np.concatenate([
+-                        obs["robot0_eef_pos"],
+-                        _quat2axisangle(obs["robot0_eef_quat"]),
+-                        obs["robot0_gripper_qpos"],
+-                    ])
+-                    
+-                    # Pack observation
+-                    obs_dict = {
+-                        "image": img,
+-                        "wrist_image": wrist_img,
+-                        "state": state,
+-                    }
+-                    
+-                    # Get action (7D delta action)
+-                    action = client.step(obs_dict, task_description)
+-                    
+-                    # Execute (send delta action directly)
+-                    obs, reward, done, info = env.step(action.tolist())
+-                    
+-                    if done:
+-                        task_successes += 1
+-                        total_successes += 1
++                        
++                    except Exception as e:
++                        error_type = type(e).__name__
++                        print(f"Error in rollout: {e}")
+                         break
+-                    
+-                    t += 1
+-                    
+-                except Exception as e:
+-                    print(f"Error in rollout: {e}")
+-                    break
+-
+-            total_episodes += 1
+-            
+-            # Save video
+-            suffix = "success" if done else "failure"
+-            task_segment = task_description.replace(" ", "_")[:50]
+-            video_path = Path(video_out_path) / f"{task_segment}_ep{ep}_{suffix}.mp4"
+-            if replay_images and save_video:
+-                imageio.mimwrite(str(video_path), replay_images, fps=10)
+-            
+-            # Print episode result
+-            status_icon = "[OK]" if done else "[FAIL]"
+-            print(f"  {status_icon} Task {task_id} Ep {ep}: {suffix.upper()} (steps={t})")
+ 
+-        env.close()
+-        print(f"   Task {task_id}: {task_successes}/{num_trials} ({task_successes/num_trials*100:.1f}%)")
++                total_episodes += 1
++                task_episodes += 1
++                
++                # Save video
++                suffix = "success" if done else "failure"
++                task_segment = task_description.replace(" ", "_")[:50]
++                video_path = Path(video_out_path) / f"{task_segment}_ep{ep}_{suffix}.mp4"
++                if replay_images and save_video:
++                    imageio.mimwrite(str(video_path), replay_images, fps=10)
++                
++                # Print episode result
++                status_icon = "[OK]" if done else "[FAIL]"
++                print(f"  {status_icon} Task {task_id} Ep {ep}: {suffix.upper()} (steps={t})")
++                if writer is not None:
++                    writer.writerow({
++                        "suite": task_suite_name,
++                        "task_id": task_id,
++                        "task_name": task_name,
++                        "episode_idx": ep,
++                        "instance_id": f"{task_suite_name}/{task_name}/{ep:04d}",
++                        "policy_name": policy_name,
++                        "checkpoint_ref": checkpoint_ref,
++                        "success": int(bool(done)),
++                        "num_env_steps": t,
++                        "error_type": error_type,
++                    })
++                    writer_handle.flush()
++
++            env.close()
++            if task_episodes:
++                print(f"   Task {task_id}: {task_successes}/{task_episodes} ({task_successes/task_episodes*100:.1f}%)")
++            if max_total_episodes is not None and total_episodes >= max_total_episodes:
++                break
++    finally:
++        if writer_handle is not None:
++            writer_handle.close()
+     
+     success_rate = total_successes / max(total_episodes, 1)
+     print(f"\nTotal success rate: {total_successes}/{total_episodes} ({success_rate*100:.1f}%)")
+@@ -328,6 +431,16 @@ def main():
+     parser.add_argument("--replan_steps", type=int, default=5)
+     parser.add_argument("--video_out", type=str, default="./eval_results")
+     parser.add_argument("--no_video", action="store_true", help="Disable video recording for faster evaluation")
++    parser.add_argument("--initial_states_path", type=str, default=None,
++                        help="Shared LIBERO init-state artifact root")
++    parser.add_argument("--episode_results_path", type=str, default=None,
++                        help="Append per-episode results to this CSV")
++    parser.add_argument("--policy_name", type=str, default="simvla")
++    parser.add_argument("--checkpoint_ref", type=str, default="")
++    parser.add_argument("--max_total_episodes", type=int, default=None)
++    parser.add_argument("--selected_task_id", type=int, default=None)
++    parser.add_argument("--episode_start_idx", type=int, default=0)
++    parser.add_argument("--episode_end_idx", type=int, default=None)
+ 
+     args = parser.parse_args()
+ 
+@@ -367,6 +480,14 @@ def main():
+         seed=args.seed,
+         video_out_path=str(video_path),
+         save_video=not args.no_video,
++        initial_states_path=args.initial_states_path,
++        episode_results_path=args.episode_results_path,
++        policy_name=args.policy_name,
++        checkpoint_ref=args.checkpoint_ref,
++        max_total_episodes=args.max_total_episodes,
++        selected_task_id=args.selected_task_id,
++        episode_start_idx=args.episode_start_idx,
++        episode_end_idx=args.episode_end_idx,
+     )
+ 
+ 
+Python 3.10.16
+absl-py==2.4.0
+accelerate==1.12.0
+annotated-doc==0.0.4
+annotated-types==0.7.0
+anyio==4.12.0
+array_record==0.8.1
+astunparse==1.6.3
+attrs==26.1.0
+bddl==3.6.0
+cachetools==6.2.4
+certifi==2026.4.22
+charset-normalizer==3.4.7
+click==8.3.1
+cloudpickle==3.1.2
+contourpy==1.3.2
+cycler==0.12.1
+diffusers==0.33.0
+dlimp @ git+https://github.com/moojink/dlimp_openvla@040105d256bd28866cc6620621a3d5f7b6b91b46
+dm-tree==0.1.10
+draccus==0.8.0
+easydict==1.13
+einops==0.8.1
+etils==1.13.0
+evdev==1.9.2
+exceptiongroup==1.3.1
+fastapi==0.124.4
+fastjsonschema==2.21.2
+filelock==3.29.0
+flash-attn==2.7.3
+flatbuffers==25.9.23
+fonttools==4.61.1
+fsspec==2026.4.0
+future==1.0.0
+gast==0.7.0
+gitdb==4.0.12
+GitPython==3.1.45
+glfw==2.10.0
+google-auth==2.41.1
+google-auth-oauthlib==1.2.3
+google-pasta==0.2.0
+grpcio==1.76.0
+gym==0.26.2
+gym-notices==0.1.0
+h11==0.16.0
+h5py==3.15.1
+hf-xet==1.5.0
+huggingface_hub==0.36.2
+idna==3.15
+ImageIO==2.37.2
+imageio-ffmpeg==0.6.0
+importlib_metadata==8.7.0
+importlib_resources==6.5.2
+iniconfig==2.3.0
+Jinja2==3.1.6
+joblib==1.5.3
+json-numpy==2.1.1
+jsonlines==4.0.0
+jsonschema==4.25.1
+jsonschema-specifications==2025.9.1
+jupyter_core==5.9.1
+jupytext==1.18.1
+keras==2.15.0
+kiwisolver==1.4.9
+libclang==18.1.1
+-e git+ssh://git@github.com/ripl/LIBERO.git@be56e66961d93d8061466e215fc640f79f861a8e#egg=libero
+llvmlite==0.46.0
+Markdown==3.10
+markdown-it-py==4.0.0
+MarkupSafe==3.0.3
+matplotlib==3.10.8
+mdit-py-plugins==0.5.0
+mdurl==0.1.2
+mergedeep==1.3.4
+ml-dtypes==0.2.0
+mpmath==1.3.0
+msgpack==1.1.2
+msgpack-numpy==0.4.8
+mujoco==2.3.7
+mypy_extensions==1.1.0
+nbformat==5.10.4
+networkx==3.4.2
+ninja==1.13.0
+nltk==3.9.2
+numba==0.63.1
+numpy==1.26.4
+nvidia-cublas-cu12==12.1.3.1
+nvidia-cuda-cupti-cu12==12.1.105
+nvidia-cuda-nvrtc-cu12==12.1.105
+nvidia-cuda-runtime-cu12==12.1.105
+nvidia-cudnn-cu12==8.9.2.26
+nvidia-cufft-cu12==11.0.2.54
+nvidia-cufile-cu12==1.13.1.3
+nvidia-curand-cu12==10.3.2.106
+nvidia-cusolver-cu12==11.4.5.107
+nvidia-cusparse-cu12==12.1.0.106
+nvidia-cusparselt-cu12==0.7.1
+nvidia-nccl-cu12==2.19.3
+nvidia-nvjitlink-cu12==12.9.86
+nvidia-nvshmem-cu12==3.3.20
+nvidia-nvtx-cu12==12.1.105
+oauthlib==3.3.1
+opencv-python==4.11.0.86
+OpenEXR==3.4.4
+openpi-client==0.1.2
+opt_einsum==3.4.0
+packaging==26.2
+peft==0.11.1
+pillow==12.2.0
+platformdirs==4.5.1
+pluggy==1.6.0
+promise==2.3
+protobuf==4.21.12
+psutil==7.1.3
+pyasn1==0.6.1
+pyasn1_modules==0.4.2
+pydantic==2.12.5
+pydantic_core==2.41.5
+Pygments==2.19.2
+pynput==1.8.1
+PyOpenGL==3.1.10
+pyparsing==3.2.5
+pytest==9.0.2
+python-dateutil==2.9.0.post0
+python-xlib==0.33
+PyYAML==6.0.3
+pyyaml-include==1.4.1
+referencing==0.37.0
+regex==2026.5.9
+requests==2.34.1
+requests-oauthlib==2.0.0
+rich==14.2.0
+robosuite==1.4.1
+rpds-py==0.30.0
+rsa==4.9.1
+safetensors==0.7.0
+scipy==1.15.3
+sentencepiece==0.1.99
+sentry-sdk==2.47.0
+six==1.17.0
+smmap==5.0.2
+# Editable install with no version control (spatial-forcing==0.0.1)
+-e /share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/Spatial-Forcing/openvla-SF
+starlette==0.50.0
+sympy==1.14.0
+tensorboard==2.15.2
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-addons==0.23.0
+tensorflow-datasets==4.9.3
+tensorflow-estimator==2.15.0
+tensorflow-graphics==2021.12.3
+tensorflow-io-gcs-filesystem==0.37.1
+tensorflow-metadata==1.17.2
+termcolor==3.2.0
+timm==0.9.10
+tokenizers==0.22.2
+toml==0.10.2
+tomli==2.3.0
+torch==2.2.0
+torchaudio==2.2.0
+torchvision==0.17.0
+tqdm==4.67.3
+traitlets==5.14.3
+transformers==4.57.6
+trimesh==4.10.1
+triton==2.2.0
+typeguard==2.13.3
+typing-inspect==0.9.0
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+urllib3==2.7.0
+uvicorn==0.38.0
+wandb==0.23.1
+websockets==16.0
+Werkzeug==3.1.4
+wrapt==2.1.2
+zipp==3.23.0
+GPU 0: NVIDIA RTX A6000 (UUID: GPU-506f3a4b-00ae-b287-33f8-ac29e703ed4b)
+NVIDIA RTX A6000, GPU-506f3a4b-00ae-b287-33f8-ac29e703ed4b, 580.95.05, 49140 MiB

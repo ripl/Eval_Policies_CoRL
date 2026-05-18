@@ -1,0 +1,1023 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8583
+   Task suite: libero_goal
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_goal
+   Tasks: 10, Trials per task: 500
+   Max steps: 800
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+open the top drawer and put th...:   0%|          | 0/500 [00:00<?, ?it/s][A  [OK] Task 3 Ep 0: SUCCESS (steps=176)
+
+open the top drawer and put th...:   0%|          | 1/500 [00:16<2:13:27, 16.05s/it][A  [OK] Task 3 Ep 1: SUCCESS (steps=172)
+
+open the top drawer and put th...:   0%|          | 2/500 [00:31<2:08:21, 15.47s/it][A  [OK] Task 3 Ep 2: SUCCESS (steps=176)
+
+open the top drawer and put th...:   1%|          | 3/500 [00:46<2:07:56, 15.45s/it][A  [OK] Task 3 Ep 3: SUCCESS (steps=183)
+
+open the top drawer and put th...:   1%|          | 4/500 [01:03<2:13:52, 16.20s/it][A  [OK] Task 3 Ep 4: SUCCESS (steps=170)
+
+open the top drawer and put th...:   1%|          | 5/500 [01:19<2:10:26, 15.81s/it][A  [OK] Task 3 Ep 5: SUCCESS (steps=184)
+
+open the top drawer and put th...:   1%|          | 6/500 [01:34<2:09:46, 15.76s/it][A  [OK] Task 3 Ep 6: SUCCESS (steps=180)
+
+open the top drawer and put th...:   1%|▏         | 7/500 [01:51<2:12:08, 16.08s/it][A  [OK] Task 3 Ep 7: SUCCESS (steps=183)
+
+open the top drawer and put th...:   2%|▏         | 8/500 [02:07<2:12:47, 16.19s/it][A  [OK] Task 3 Ep 8: SUCCESS (steps=179)
+
+open the top drawer and put th...:   2%|▏         | 9/500 [02:23<2:11:02, 16.01s/it][A  [OK] Task 3 Ep 9: SUCCESS (steps=170)
+
+open the top drawer and put th...:   2%|▏         | 10/500 [02:38<2:08:16, 15.71s/it][A  [OK] Task 3 Ep 10: SUCCESS (steps=185)
+
+open the top drawer and put th...:   2%|▏         | 11/500 [02:54<2:08:48, 15.80s/it][A  [OK] Task 3 Ep 11: SUCCESS (steps=188)
+
+open the top drawer and put th...:   2%|▏         | 12/500 [03:11<2:10:16, 16.02s/it][A  [OK] Task 3 Ep 12: SUCCESS (steps=187)
+
+open the top drawer and put th...:   3%|▎         | 13/500 [03:27<2:11:24, 16.19s/it][A  [OK] Task 3 Ep 13: SUCCESS (steps=184)
+
+open the top drawer and put th...:   3%|▎         | 14/500 [03:43<2:10:37, 16.13s/it][A  [OK] Task 3 Ep 14: SUCCESS (steps=184)
+
+open the top drawer and put th...:   3%|▎         | 15/500 [04:00<2:13:18, 16.49s/it][A  [OK] Task 3 Ep 15: SUCCESS (steps=175)
+
+open the top drawer and put th...:   3%|▎         | 16/500 [04:16<2:10:10, 16.14s/it][A  [OK] Task 3 Ep 16: SUCCESS (steps=183)
+
+open the top drawer and put th...:   3%|▎         | 17/500 [04:32<2:09:06, 16.04s/it][A  [OK] Task 3 Ep 17: SUCCESS (steps=180)
+
+open the top drawer and put th...:   4%|▎         | 18/500 [04:47<2:08:17, 15.97s/it][A  [OK] Task 3 Ep 18: SUCCESS (steps=181)
+
+open the top drawer and put th...:   4%|▍         | 19/500 [05:03<2:07:51, 15.95s/it][A  [OK] Task 3 Ep 19: SUCCESS (steps=182)
+
+open the top drawer and put th...:   4%|▍         | 20/500 [05:19<2:06:52, 15.86s/it][A  [OK] Task 3 Ep 20: SUCCESS (steps=182)
+
+open the top drawer and put th...:   4%|▍         | 21/500 [05:35<2:07:22, 15.95s/it][A  [FAIL] Task 3 Ep 21: FAILURE (steps=810)
+
+open the top drawer and put th...:   4%|▍         | 22/500 [06:34<3:49:11, 28.77s/it][A  [OK] Task 3 Ep 22: SUCCESS (steps=175)
+
+open the top drawer and put th...:   5%|▍         | 23/500 [06:49<3:17:16, 24.81s/it][A  [OK] Task 3 Ep 23: SUCCESS (steps=241)
+
+open the top drawer and put th...:   5%|▍         | 24/500 [07:09<3:04:57, 23.31s/it][A  [OK] Task 3 Ep 24: SUCCESS (steps=184)
+
+open the top drawer and put th...:   5%|▌         | 25/500 [07:25<2:46:21, 21.01s/it][A  [OK] Task 3 Ep 25: SUCCESS (steps=243)
+
+open the top drawer and put th...:   5%|▌         | 26/500 [07:45<2:44:30, 20.82s/it][A  [OK] Task 3 Ep 26: SUCCESS (steps=176)
+
+open the top drawer and put th...:   5%|▌         | 27/500 [08:00<2:30:59, 19.15s/it][A  [OK] Task 3 Ep 27: SUCCESS (steps=186)
+
+open the top drawer and put th...:   6%|▌         | 28/500 [08:16<2:22:48, 18.15s/it][A  [OK] Task 3 Ep 28: SUCCESS (steps=174)
+
+open the top drawer and put th...:   6%|▌         | 29/500 [08:34<2:21:52, 18.07s/it][A  [OK] Task 3 Ep 29: SUCCESS (steps=187)
+
+open the top drawer and put th...:   6%|▌         | 30/500 [08:50<2:17:33, 17.56s/it][A  [OK] Task 3 Ep 30: SUCCESS (steps=184)
+
+open the top drawer and put th...:   6%|▌         | 31/500 [09:06<2:12:52, 17.00s/it][A  [OK] Task 3 Ep 31: SUCCESS (steps=183)
+
+open the top drawer and put th...:   6%|▋         | 32/500 [09:22<2:09:20, 16.58s/it][A  [OK] Task 3 Ep 32: SUCCESS (steps=233)
+
+open the top drawer and put th...:   7%|▋         | 33/500 [09:41<2:15:21, 17.39s/it][A  [OK] Task 3 Ep 33: SUCCESS (steps=189)
+
+open the top drawer and put th...:   7%|▋         | 34/500 [09:58<2:14:21, 17.30s/it][A  [OK] Task 3 Ep 34: SUCCESS (steps=179)
+
+open the top drawer and put th...:   7%|▋         | 35/500 [10:14<2:11:28, 16.97s/it][A  [OK] Task 3 Ep 35: SUCCESS (steps=184)
+
+open the top drawer and put th...:   7%|▋         | 36/500 [10:31<2:10:15, 16.84s/it][A  [OK] Task 3 Ep 36: SUCCESS (steps=244)
+
+open the top drawer and put th...:   7%|▋         | 37/500 [10:52<2:19:43, 18.11s/it][A  [OK] Task 3 Ep 37: SUCCESS (steps=188)
+
+open the top drawer and put th...:   8%|▊         | 38/500 [11:09<2:16:08, 17.68s/it][A  [OK] Task 3 Ep 38: SUCCESS (steps=182)
+
+open the top drawer and put th...:   8%|▊         | 39/500 [11:25<2:12:23, 17.23s/it][A  [OK] Task 3 Ep 39: SUCCESS (steps=188)
+
+open the top drawer and put th...:   8%|▊         | 40/500 [11:41<2:10:47, 17.06s/it][A  [OK] Task 3 Ep 40: SUCCESS (steps=184)
+
+open the top drawer and put th...:   8%|▊         | 41/500 [11:58<2:08:11, 16.76s/it][A  [OK] Task 3 Ep 41: SUCCESS (steps=174)
+
+open the top drawer and put th...:   8%|▊         | 42/500 [12:13<2:05:16, 16.41s/it][A  [OK] Task 3 Ep 42: SUCCESS (steps=178)
+
+open the top drawer and put th...:   9%|▊         | 43/500 [12:29<2:03:22, 16.20s/it][A  [OK] Task 3 Ep 43: SUCCESS (steps=250)
+
+open the top drawer and put th...:   9%|▉         | 44/500 [12:50<2:15:00, 17.76s/it][A  [OK] Task 3 Ep 44: SUCCESS (steps=174)
+
+open the top drawer and put th...:   9%|▉         | 45/500 [13:05<2:08:51, 16.99s/it][A  [OK] Task 3 Ep 45: SUCCESS (steps=187)
+
+open the top drawer and put th...:   9%|▉         | 46/500 [13:22<2:07:05, 16.80s/it][A  [OK] Task 3 Ep 46: SUCCESS (steps=185)
+
+open the top drawer and put th...:   9%|▉         | 47/500 [13:38<2:05:25, 16.61s/it][A  [OK] Task 3 Ep 47: SUCCESS (steps=190)
+
+open the top drawer and put th...:  10%|▉         | 48/500 [13:55<2:05:15, 16.63s/it][A  [OK] Task 3 Ep 48: SUCCESS (steps=177)
+
+open the top drawer and put th...:  10%|▉         | 49/500 [14:12<2:05:59, 16.76s/it][A  [OK] Task 3 Ep 49: SUCCESS (steps=178)
+
+open the top drawer and put th...:  10%|█         | 50/500 [14:27<2:02:29, 16.33s/it][A  [OK] Task 3 Ep 50: SUCCESS (steps=176)
+
+open the top drawer and put th...:  10%|█         | 51/500 [14:43<2:00:45, 16.14s/it][A  [OK] Task 3 Ep 51: SUCCESS (steps=185)
+
+open the top drawer and put th...:  10%|█         | 52/500 [14:59<2:00:56, 16.20s/it][A  [OK] Task 3 Ep 52: SUCCESS (steps=175)
+
+open the top drawer and put th...:  11%|█         | 53/500 [15:15<1:59:00, 15.97s/it][A  [OK] Task 3 Ep 53: SUCCESS (steps=194)
+
+open the top drawer and put th...:  11%|█         | 54/500 [15:31<2:00:26, 16.20s/it][A  [OK] Task 3 Ep 54: SUCCESS (steps=177)
+
+open the top drawer and put th...:  11%|█         | 55/500 [15:47<1:58:42, 16.01s/it][A  [OK] Task 3 Ep 55: SUCCESS (steps=176)
+
+open the top drawer and put th...:  11%|█         | 56/500 [16:02<1:56:57, 15.81s/it][A  [OK] Task 3 Ep 56: SUCCESS (steps=180)
+
+open the top drawer and put th...:  11%|█▏        | 57/500 [16:18<1:57:06, 15.86s/it][A  [OK] Task 3 Ep 57: SUCCESS (steps=211)
+
+open the top drawer and put th...:  12%|█▏        | 58/500 [16:36<2:01:54, 16.55s/it][A  [OK] Task 3 Ep 58: SUCCESS (steps=178)
+
+open the top drawer and put th...:  12%|█▏        | 59/500 [16:52<1:59:47, 16.30s/it][A  [OK] Task 3 Ep 59: SUCCESS (steps=179)
+
+open the top drawer and put th...:  12%|█▏        | 60/500 [17:07<1:57:34, 16.03s/it][A  [OK] Task 3 Ep 60: SUCCESS (steps=193)
+
+open the top drawer and put th...:  12%|█▏        | 61/500 [17:25<2:00:06, 16.42s/it][A  [OK] Task 3 Ep 61: SUCCESS (steps=184)
+
+open the top drawer and put th...:  12%|█▏        | 62/500 [17:41<1:59:02, 16.31s/it][A  [OK] Task 3 Ep 62: SUCCESS (steps=171)
+
+open the top drawer and put th...:  13%|█▎        | 63/500 [17:56<1:56:31, 16.00s/it][A  [OK] Task 3 Ep 63: SUCCESS (steps=189)
+
+open the top drawer and put th...:  13%|█▎        | 64/500 [18:12<1:56:17, 16.00s/it][A  [OK] Task 3 Ep 64: SUCCESS (steps=257)
+
+open the top drawer and put th...:  13%|█▎        | 65/500 [18:33<2:06:40, 17.47s/it][A  [OK] Task 3 Ep 65: SUCCESS (steps=179)
+
+open the top drawer and put th...:  13%|█▎        | 66/500 [18:48<2:02:10, 16.89s/it][A  [OK] Task 3 Ep 66: SUCCESS (steps=183)
+
+open the top drawer and put th...:  13%|█▎        | 67/500 [19:07<2:04:24, 17.24s/it][A  [OK] Task 3 Ep 67: SUCCESS (steps=180)
+
+open the top drawer and put th...:  14%|█▎        | 68/500 [19:23<2:01:40, 16.90s/it][A  [OK] Task 3 Ep 68: SUCCESS (steps=187)
+
+open the top drawer and put th...:  14%|█▍        | 69/500 [19:39<1:59:49, 16.68s/it][A  [OK] Task 3 Ep 69: SUCCESS (steps=186)
+
+open the top drawer and put th...:  14%|█▍        | 70/500 [19:55<1:58:39, 16.56s/it][A  [FAIL] Task 3 Ep 70: FAILURE (steps=810)
+
+open the top drawer and put th...:  14%|█▍        | 71/500 [20:55<3:31:29, 29.58s/it][A  [OK] Task 3 Ep 71: SUCCESS (steps=184)
+
+open the top drawer and put th...:  14%|█▍        | 72/500 [21:11<3:02:32, 25.59s/it][A  [OK] Task 3 Ep 72: SUCCESS (steps=181)
+
+open the top drawer and put th...:  15%|█▍        | 73/500 [21:27<2:40:52, 22.60s/it][A  [OK] Task 3 Ep 73: SUCCESS (steps=181)
+
+open the top drawer and put th...:  15%|█▍        | 74/500 [21:43<2:26:11, 20.59s/it][A  [OK] Task 3 Ep 74: SUCCESS (steps=182)
+
+open the top drawer and put th...:  15%|█▌        | 75/500 [22:01<2:20:02, 19.77s/it][A  [OK] Task 3 Ep 75: SUCCESS (steps=175)
+
+open the top drawer and put th...:  15%|█▌        | 76/500 [22:16<2:09:58, 18.39s/it][A  [OK] Task 3 Ep 76: SUCCESS (steps=182)
+
+open the top drawer and put th...:  15%|█▌        | 77/500 [22:32<2:04:17, 17.63s/it][A  [OK] Task 3 Ep 77: SUCCESS (steps=183)
+
+open the top drawer and put th...:  16%|█▌        | 78/500 [22:48<2:00:30, 17.13s/it][A  [OK] Task 3 Ep 78: SUCCESS (steps=183)
+
+open the top drawer and put th...:  16%|█▌        | 79/500 [23:03<1:57:13, 16.71s/it][A  [OK] Task 3 Ep 79: SUCCESS (steps=171)
+
+open the top drawer and put th...:  16%|█▌        | 80/500 [23:19<1:53:43, 16.25s/it][A  [OK] Task 3 Ep 80: SUCCESS (steps=189)
+
+open the top drawer and put th...:  16%|█▌        | 81/500 [23:35<1:52:49, 16.16s/it][A  [OK] Task 3 Ep 81: SUCCESS (steps=182)
+
+open the top drawer and put th...:  16%|█▋        | 82/500 [23:51<1:52:18, 16.12s/it][A  [OK] Task 3 Ep 82: SUCCESS (steps=178)
+
+open the top drawer and put th...:  17%|█▋        | 83/500 [24:06<1:51:08, 15.99s/it][A  [OK] Task 3 Ep 83: SUCCESS (steps=183)
+
+open the top drawer and put th...:  17%|█▋        | 84/500 [24:22<1:51:06, 16.02s/it][A  [OK] Task 3 Ep 84: SUCCESS (steps=177)
+
+open the top drawer and put th...:  17%|█▋        | 85/500 [24:38<1:49:50, 15.88s/it][A  [OK] Task 3 Ep 85: SUCCESS (steps=193)
+
+open the top drawer and put th...:  17%|█▋        | 86/500 [24:55<1:51:28, 16.16s/it][A  [OK] Task 3 Ep 86: SUCCESS (steps=185)
+
+open the top drawer and put th...:  17%|█▋        | 87/500 [25:11<1:51:33, 16.21s/it][A  [OK] Task 3 Ep 87: SUCCESS (steps=192)
+
+open the top drawer and put th...:  18%|█▊        | 88/500 [25:27<1:51:41, 16.26s/it][A  [OK] Task 3 Ep 88: SUCCESS (steps=179)
+
+open the top drawer and put th...:  18%|█▊        | 89/500 [25:43<1:50:04, 16.07s/it][A  [OK] Task 3 Ep 89: SUCCESS (steps=186)
+
+open the top drawer and put th...:  18%|█▊        | 90/500 [26:01<1:53:22, 16.59s/it][A  [OK] Task 3 Ep 90: SUCCESS (steps=178)
+
+open the top drawer and put th...:  18%|█▊        | 91/500 [26:17<1:51:23, 16.34s/it][A  [OK] Task 3 Ep 91: SUCCESS (steps=184)
+
+open the top drawer and put th...:  18%|█▊        | 92/500 [26:33<1:50:28, 16.25s/it][A  [OK] Task 3 Ep 92: SUCCESS (steps=183)
+
+open the top drawer and put th...:  19%|█▊        | 93/500 [26:49<1:49:38, 16.16s/it][A  [OK] Task 3 Ep 93: SUCCESS (steps=188)
+
+open the top drawer and put th...:  19%|█▉        | 94/500 [27:05<1:50:39, 16.35s/it][A  [OK] Task 3 Ep 94: SUCCESS (steps=181)
+
+open the top drawer and put th...:  19%|█▉        | 95/500 [27:21<1:49:17, 16.19s/it][A  [OK] Task 3 Ep 95: SUCCESS (steps=174)
+
+open the top drawer and put th...:  19%|█▉        | 96/500 [27:36<1:46:54, 15.88s/it][A  [OK] Task 3 Ep 96: SUCCESS (steps=170)
+
+open the top drawer and put th...:  19%|█▉        | 97/500 [27:52<1:45:43, 15.74s/it][A  [OK] Task 3 Ep 97: SUCCESS (steps=181)
+
+open the top drawer and put th...:  20%|█▉        | 98/500 [28:07<1:45:05, 15.68s/it][A  [OK] Task 3 Ep 98: SUCCESS (steps=180)
+
+open the top drawer and put th...:  20%|█▉        | 99/500 [28:24<1:46:02, 15.87s/it][A  [OK] Task 3 Ep 99: SUCCESS (steps=183)
+
+open the top drawer and put th...:  20%|██        | 100/500 [28:40<1:46:27, 15.97s/it][A  [OK] Task 3 Ep 100: SUCCESS (steps=178)
+
+open the top drawer and put th...:  20%|██        | 101/500 [28:57<1:48:14, 16.28s/it][A  [OK] Task 3 Ep 101: SUCCESS (steps=185)
+
+open the top drawer and put th...:  20%|██        | 102/500 [29:13<1:48:01, 16.28s/it][A  [OK] Task 3 Ep 102: SUCCESS (steps=178)
+
+open the top drawer and put th...:  21%|██        | 103/500 [29:29<1:46:30, 16.10s/it][A  [OK] Task 3 Ep 103: SUCCESS (steps=171)
+
+open the top drawer and put th...:  21%|██        | 104/500 [29:44<1:45:10, 15.94s/it][A  [OK] Task 3 Ep 104: SUCCESS (steps=268)
+
+open the top drawer and put th...:  21%|██        | 105/500 [30:06<1:56:32, 17.70s/it][A  [OK] Task 3 Ep 105: SUCCESS (steps=179)
+
+open the top drawer and put th...:  21%|██        | 106/500 [30:21<1:51:29, 16.98s/it][A  [OK] Task 3 Ep 106: SUCCESS (steps=235)
+
+open the top drawer and put th...:  21%|██▏       | 107/500 [30:42<1:57:26, 17.93s/it][A  [OK] Task 3 Ep 107: SUCCESS (steps=184)
+
+open the top drawer and put th...:  22%|██▏       | 108/500 [30:58<1:53:31, 17.38s/it][A  [OK] Task 3 Ep 108: SUCCESS (steps=360)
+
+open the top drawer and put th...:  22%|██▏       | 109/500 [31:26<2:14:37, 20.66s/it][A  [OK] Task 3 Ep 109: SUCCESS (steps=182)
+
+open the top drawer and put th...:  22%|██▏       | 110/500 [31:42<2:05:05, 19.24s/it][A  [OK] Task 3 Ep 110: SUCCESS (steps=177)
+
+open the top drawer and put th...:  22%|██▏       | 111/500 [31:58<1:57:50, 18.18s/it][A  [OK] Task 3 Ep 111: SUCCESS (steps=176)
+
+open the top drawer and put th...:  22%|██▏       | 112/500 [32:13<1:52:19, 17.37s/it][A  [OK] Task 3 Ep 112: SUCCESS (steps=170)
+
+open the top drawer and put th...:  23%|██▎       | 113/500 [32:28<1:47:08, 16.61s/it][A  [OK] Task 3 Ep 113: SUCCESS (steps=176)
+
+open the top drawer and put th...:  23%|██▎       | 114/500 [32:44<1:45:31, 16.40s/it][A  [OK] Task 3 Ep 114: SUCCESS (steps=177)
+
+open the top drawer and put th...:  23%|██▎       | 115/500 [33:00<1:43:57, 16.20s/it][A  [OK] Task 3 Ep 115: SUCCESS (steps=170)
+
+open the top drawer and put th...:  23%|██▎       | 116/500 [33:15<1:41:42, 15.89s/it][A  [OK] Task 3 Ep 116: SUCCESS (steps=232)
+
+open the top drawer and put th...:  23%|██▎       | 117/500 [33:34<1:48:36, 17.01s/it][A  [OK] Task 3 Ep 117: SUCCESS (steps=193)
+
+open the top drawer and put th...:  24%|██▎       | 118/500 [33:51<1:47:46, 16.93s/it][A  [OK] Task 3 Ep 118: SUCCESS (steps=182)
+
+open the top drawer and put th...:  24%|██▍       | 119/500 [34:07<1:45:28, 16.61s/it][A  [OK] Task 3 Ep 119: SUCCESS (steps=257)
+
+open the top drawer and put th...:  24%|██▍       | 120/500 [34:30<1:57:46, 18.60s/it][A  [FAIL] Task 3 Ep 120: FAILURE (steps=810)
+
+open the top drawer and put th...:  24%|██▍       | 121/500 [35:30<3:14:57, 30.87s/it][A  [OK] Task 3 Ep 121: SUCCESS (steps=180)
+
+open the top drawer and put th...:  24%|██▍       | 122/500 [35:46<2:46:53, 26.49s/it][A  [OK] Task 3 Ep 122: SUCCESS (steps=189)
+
+open the top drawer and put th...:  25%|██▍       | 123/500 [36:03<2:27:50, 23.53s/it][A  [OK] Task 3 Ep 123: SUCCESS (steps=188)
+
+open the top drawer and put th...:  25%|██▍       | 124/500 [36:19<2:14:08, 21.41s/it][A  [OK] Task 3 Ep 124: SUCCESS (steps=191)
+
+open the top drawer and put th...:  25%|██▌       | 125/500 [36:36<2:05:56, 20.15s/it][A  [FAIL] Task 3 Ep 125: FAILURE (steps=810)
+
+open the top drawer and put th...:  25%|██▌       | 126/500 [37:36<3:19:27, 32.00s/it][A  [OK] Task 3 Ep 126: SUCCESS (steps=184)
+
+open the top drawer and put th...:  25%|██▌       | 127/500 [37:53<2:50:07, 27.37s/it][A  [OK] Task 3 Ep 127: SUCCESS (steps=174)
+
+open the top drawer and put th...:  26%|██▌       | 128/500 [38:08<2:26:58, 23.70s/it][A  [OK] Task 3 Ep 128: SUCCESS (steps=182)
+
+open the top drawer and put th...:  26%|██▌       | 129/500 [38:24<2:12:32, 21.43s/it][A  [OK] Task 3 Ep 129: SUCCESS (steps=179)
+
+open the top drawer and put th...:  26%|██▌       | 130/500 [38:40<2:02:13, 19.82s/it][A  [OK] Task 3 Ep 130: SUCCESS (steps=173)
+
+open the top drawer and put th...:  26%|██▌       | 131/500 [38:57<1:56:06, 18.88s/it][A  [OK] Task 3 Ep 131: SUCCESS (steps=189)
+
+open the top drawer and put th...:  26%|██▋       | 132/500 [39:13<1:51:03, 18.11s/it][A  [OK] Task 3 Ep 132: SUCCESS (steps=180)
+
+open the top drawer and put th...:  27%|██▋       | 133/500 [39:29<1:46:33, 17.42s/it][A  [OK] Task 3 Ep 133: SUCCESS (steps=180)
+
+open the top drawer and put th...:  27%|██▋       | 134/500 [39:46<1:46:22, 17.44s/it][A  [OK] Task 3 Ep 134: SUCCESS (steps=187)
+
+open the top drawer and put th...:  27%|██▋       | 135/500 [40:03<1:44:06, 17.11s/it][A  [OK] Task 3 Ep 135: SUCCESS (steps=171)
+
+open the top drawer and put th...:  27%|██▋       | 136/500 [40:18<1:40:48, 16.62s/it][A  [OK] Task 3 Ep 136: SUCCESS (steps=179)
+
+open the top drawer and put th...:  27%|██▋       | 137/500 [40:34<1:39:03, 16.37s/it][A  [OK] Task 3 Ep 137: SUCCESS (steps=180)
+
+open the top drawer and put th...:  28%|██▊       | 138/500 [40:50<1:37:55, 16.23s/it][A  [OK] Task 3 Ep 138: SUCCESS (steps=190)
+
+open the top drawer and put th...:  28%|██▊       | 139/500 [41:07<1:38:54, 16.44s/it][A  [OK] Task 3 Ep 139: SUCCESS (steps=177)
+
+open the top drawer and put th...:  28%|██▊       | 140/500 [41:22<1:37:21, 16.23s/it][A  [OK] Task 3 Ep 140: SUCCESS (steps=179)
+
+open the top drawer and put th...:  28%|██▊       | 141/500 [41:38<1:36:38, 16.15s/it][A  [OK] Task 3 Ep 141: SUCCESS (steps=182)
+
+open the top drawer and put th...:  28%|██▊       | 142/500 [41:55<1:36:55, 16.25s/it][A  [OK] Task 3 Ep 142: SUCCESS (steps=183)
+
+open the top drawer and put th...:  29%|██▊       | 143/500 [42:11<1:36:55, 16.29s/it][A  [OK] Task 3 Ep 143: SUCCESS (steps=184)
+
+open the top drawer and put th...:  29%|██▉       | 144/500 [42:27<1:36:16, 16.23s/it][A  [OK] Task 3 Ep 144: SUCCESS (steps=169)
+
+open the top drawer and put th...:  29%|██▉       | 145/500 [42:42<1:33:31, 15.81s/it][A  [OK] Task 3 Ep 145: SUCCESS (steps=175)
+
+open the top drawer and put th...:  29%|██▉       | 146/500 [42:58<1:32:56, 15.75s/it][A  [OK] Task 3 Ep 146: SUCCESS (steps=185)
+
+open the top drawer and put th...:  29%|██▉       | 147/500 [43:14<1:33:28, 15.89s/it][A  [OK] Task 3 Ep 147: SUCCESS (steps=177)
+
+open the top drawer and put th...:  30%|██▉       | 148/500 [43:29<1:32:17, 15.73s/it][A  [OK] Task 3 Ep 148: SUCCESS (steps=396)
+
+open the top drawer and put th...:  30%|██▉       | 149/500 [44:01<2:00:42, 20.63s/it][A  [OK] Task 3 Ep 149: SUCCESS (steps=179)
+
+open the top drawer and put th...:  30%|███       | 150/500 [44:17<1:52:02, 19.21s/it][A  [OK] Task 3 Ep 150: SUCCESS (steps=176)
+
+open the top drawer and put th...:  30%|███       | 151/500 [44:33<1:45:12, 18.09s/it][A  [OK] Task 3 Ep 151: SUCCESS (steps=179)
+
+open the top drawer and put th...:  30%|███       | 152/500 [44:49<1:41:44, 17.54s/it][A  [OK] Task 3 Ep 152: SUCCESS (steps=183)
+
+open the top drawer and put th...:  31%|███       | 153/500 [45:05<1:38:22, 17.01s/it][A  [OK] Task 3 Ep 153: SUCCESS (steps=182)
+
+open the top drawer and put th...:  31%|███       | 154/500 [45:21<1:36:09, 16.68s/it][A  [OK] Task 3 Ep 154: SUCCESS (steps=176)
+
+open the top drawer and put th...:  31%|███       | 155/500 [45:36<1:34:02, 16.36s/it][A  [OK] Task 3 Ep 155: SUCCESS (steps=174)
+
+open the top drawer and put th...:  31%|███       | 156/500 [45:52<1:32:44, 16.18s/it][A  [OK] Task 3 Ep 156: SUCCESS (steps=181)
+
+open the top drawer and put th...:  31%|███▏      | 157/500 [46:08<1:32:43, 16.22s/it][A  [OK] Task 3 Ep 157: SUCCESS (steps=178)
+
+open the top drawer and put th...:  32%|███▏      | 158/500 [46:24<1:31:16, 16.01s/it][A  [OK] Task 3 Ep 158: SUCCESS (steps=174)
+
+open the top drawer and put th...:  32%|███▏      | 159/500 [46:41<1:32:35, 16.29s/it][A  [OK] Task 3 Ep 159: SUCCESS (steps=179)
+
+open the top drawer and put th...:  32%|███▏      | 160/500 [46:57<1:32:45, 16.37s/it][A  [OK] Task 3 Ep 160: SUCCESS (steps=177)
+
+open the top drawer and put th...:  32%|███▏      | 161/500 [47:13<1:31:28, 16.19s/it][A  [OK] Task 3 Ep 161: SUCCESS (steps=183)
+
+open the top drawer and put th...:  32%|███▏      | 162/500 [47:29<1:31:23, 16.22s/it][A  [OK] Task 3 Ep 162: SUCCESS (steps=299)
+
+open the top drawer and put th...:  33%|███▎      | 163/500 [47:54<1:45:41, 18.82s/it][A  [OK] Task 3 Ep 163: SUCCESS (steps=248)
+
+open the top drawer and put th...:  33%|███▎      | 164/500 [48:15<1:49:12, 19.50s/it][A  [OK] Task 3 Ep 164: SUCCESS (steps=181)
+
+open the top drawer and put th...:  33%|███▎      | 165/500 [48:31<1:42:46, 18.41s/it][A  [OK] Task 3 Ep 165: SUCCESS (steps=177)
+
+open the top drawer and put th...:  33%|███▎      | 166/500 [48:47<1:37:43, 17.55s/it][A  [OK] Task 3 Ep 166: SUCCESS (steps=184)
+
+open the top drawer and put th...:  33%|███▎      | 167/500 [49:03<1:34:44, 17.07s/it][A  [OK] Task 3 Ep 167: SUCCESS (steps=179)
+
+open the top drawer and put th...:  34%|███▎      | 168/500 [49:19<1:32:16, 16.67s/it][A  [OK] Task 3 Ep 168: SUCCESS (steps=184)
+
+open the top drawer and put th...:  34%|███▍      | 169/500 [49:34<1:30:45, 16.45s/it][A  [OK] Task 3 Ep 169: SUCCESS (steps=184)
+
+open the top drawer and put th...:  34%|███▍      | 170/500 [49:51<1:29:58, 16.36s/it][A  [OK] Task 3 Ep 170: SUCCESS (steps=174)
+
+open the top drawer and put th...:  34%|███▍      | 171/500 [50:06<1:28:12, 16.09s/it][A  [OK] Task 3 Ep 171: SUCCESS (steps=186)
+
+open the top drawer and put th...:  34%|███▍      | 172/500 [50:22<1:28:30, 16.19s/it][A  [OK] Task 3 Ep 172: SUCCESS (steps=174)
+
+open the top drawer and put th...:  35%|███▍      | 173/500 [50:38<1:26:39, 15.90s/it][A  [OK] Task 3 Ep 173: SUCCESS (steps=181)
+
+open the top drawer and put th...:  35%|███▍      | 174/500 [50:54<1:27:08, 16.04s/it][A  [OK] Task 3 Ep 174: SUCCESS (steps=182)
+
+open the top drawer and put th...:  35%|███▌      | 175/500 [51:11<1:28:10, 16.28s/it][A  [OK] Task 3 Ep 175: SUCCESS (steps=177)
+
+open the top drawer and put th...:  35%|███▌      | 176/500 [51:27<1:27:25, 16.19s/it][A  [OK] Task 3 Ep 176: SUCCESS (steps=180)
+
+open the top drawer and put th...:  35%|███▌      | 177/500 [51:43<1:27:17, 16.22s/it][A  [OK] Task 3 Ep 177: SUCCESS (steps=184)
+
+open the top drawer and put th...:  36%|███▌      | 178/500 [52:01<1:29:50, 16.74s/it][A  [OK] Task 3 Ep 178: SUCCESS (steps=183)
+
+open the top drawer and put th...:  36%|███▌      | 179/500 [52:17<1:28:56, 16.63s/it][A  [OK] Task 3 Ep 179: SUCCESS (steps=252)
+
+open the top drawer and put th...:  36%|███▌      | 180/500 [52:39<1:36:08, 18.03s/it][A  [OK] Task 3 Ep 180: SUCCESS (steps=184)
+
+open the top drawer and put th...:  36%|███▌      | 181/500 [52:55<1:33:22, 17.56s/it][A  [OK] Task 3 Ep 181: SUCCESS (steps=184)
+
+open the top drawer and put th...:  36%|███▋      | 182/500 [53:11<1:30:34, 17.09s/it][A  [OK] Task 3 Ep 182: SUCCESS (steps=174)
+
+open the top drawer and put th...:  37%|███▋      | 183/500 [53:27<1:27:59, 16.66s/it][A  [OK] Task 3 Ep 183: SUCCESS (steps=182)
+
+open the top drawer and put th...:  37%|███▋      | 184/500 [53:43<1:26:32, 16.43s/it][A  [OK] Task 3 Ep 184: SUCCESS (steps=186)
+
+open the top drawer and put th...:  37%|███▋      | 185/500 [54:00<1:27:59, 16.76s/it][A  [OK] Task 3 Ep 185: SUCCESS (steps=189)
+
+open the top drawer and put th...:  37%|███▋      | 186/500 [54:17<1:27:02, 16.63s/it][A  [OK] Task 3 Ep 186: SUCCESS (steps=179)
+
+open the top drawer and put th...:  37%|███▋      | 187/500 [54:32<1:25:21, 16.36s/it][A  [OK] Task 3 Ep 187: SUCCESS (steps=183)
+
+open the top drawer and put th...:  38%|███▊      | 188/500 [54:48<1:24:30, 16.25s/it][A  [OK] Task 3 Ep 188: SUCCESS (steps=184)
+
+open the top drawer and put th...:  38%|███▊      | 189/500 [55:06<1:26:16, 16.65s/it][A  [OK] Task 3 Ep 189: SUCCESS (steps=181)
+
+open the top drawer and put th...:  38%|███▊      | 190/500 [55:22<1:24:40, 16.39s/it][A  [OK] Task 3 Ep 190: SUCCESS (steps=179)
+
+open the top drawer and put th...:  38%|███▊      | 191/500 [55:37<1:23:03, 16.13s/it][A  [OK] Task 3 Ep 191: SUCCESS (steps=191)
+
+open the top drawer and put th...:  38%|███▊      | 192/500 [55:54<1:24:29, 16.46s/it][A  [OK] Task 3 Ep 192: SUCCESS (steps=178)
+
+open the top drawer and put th...:  39%|███▊      | 193/500 [56:11<1:23:39, 16.35s/it][A  [OK] Task 3 Ep 193: SUCCESS (steps=269)
+
+open the top drawer and put th...:  39%|███▉      | 194/500 [56:33<1:32:58, 18.23s/it][A  [OK] Task 3 Ep 194: SUCCESS (steps=182)
+
+open the top drawer and put th...:  39%|███▉      | 195/500 [56:50<1:29:51, 17.68s/it][A  [OK] Task 3 Ep 195: SUCCESS (steps=178)
+
+open the top drawer and put th...:  39%|███▉      | 196/500 [57:05<1:26:52, 17.15s/it][A  [OK] Task 3 Ep 196: SUCCESS (steps=180)
+
+open the top drawer and put th...:  39%|███▉      | 197/500 [57:22<1:24:54, 16.81s/it][A  [OK] Task 3 Ep 197: SUCCESS (steps=187)
+
+open the top drawer and put th...:  40%|███▉      | 198/500 [57:38<1:24:18, 16.75s/it][A  [OK] Task 3 Ep 198: SUCCESS (steps=174)
+
+open the top drawer and put th...:  40%|███▉      | 199/500 [57:53<1:21:43, 16.29s/it][A  [OK] Task 3 Ep 199: SUCCESS (steps=169)
+
+open the top drawer and put th...:  40%|████      | 200/500 [58:08<1:19:33, 15.91s/it][A  [OK] Task 3 Ep 200: SUCCESS (steps=179)
+
+open the top drawer and put th...:  40%|████      | 201/500 [58:24<1:18:28, 15.75s/it][A  [OK] Task 3 Ep 201: SUCCESS (steps=169)
+
+open the top drawer and put th...:  40%|████      | 202/500 [58:39<1:16:51, 15.48s/it][A  [OK] Task 3 Ep 202: SUCCESS (steps=188)
+
+open the top drawer and put th...:  41%|████      | 203/500 [58:55<1:17:43, 15.70s/it][A  [OK] Task 3 Ep 203: SUCCESS (steps=188)
+
+open the top drawer and put th...:  41%|████      | 204/500 [59:11<1:18:01, 15.82s/it][A  [OK] Task 3 Ep 204: SUCCESS (steps=172)
+
+open the top drawer and put th...:  41%|████      | 205/500 [59:26<1:16:32, 15.57s/it][A  [OK] Task 3 Ep 205: SUCCESS (steps=173)
+
+open the top drawer and put th...:  41%|████      | 206/500 [59:41<1:15:47, 15.47s/it][A  [OK] Task 3 Ep 206: SUCCESS (steps=184)
+
+open the top drawer and put th...:  41%|████▏     | 207/500 [59:57<1:16:06, 15.59s/it][A  [OK] Task 3 Ep 207: SUCCESS (steps=184)
+
+open the top drawer and put th...:  42%|████▏     | 208/500 [1:00:13<1:16:42, 15.76s/it][A  [OK] Task 3 Ep 208: SUCCESS (steps=247)
+
+open the top drawer and put th...:  42%|████▏     | 209/500 [1:00:34<1:24:35, 17.44s/it][A  [OK] Task 3 Ep 209: SUCCESS (steps=181)
+
+open the top drawer and put th...:  42%|████▏     | 210/500 [1:00:51<1:22:32, 17.08s/it][A  [OK] Task 3 Ep 210: SUCCESS (steps=187)
+
+open the top drawer and put th...:  42%|████▏     | 211/500 [1:01:07<1:21:29, 16.92s/it][A  [OK] Task 3 Ep 211: SUCCESS (steps=187)
+
+open the top drawer and put th...:  42%|████▏     | 212/500 [1:01:24<1:20:37, 16.80s/it][A  [OK] Task 3 Ep 212: SUCCESS (steps=198)
+
+open the top drawer and put th...:  43%|████▎     | 213/500 [1:01:42<1:21:41, 17.08s/it][A  [OK] Task 3 Ep 213: SUCCESS (steps=192)
+
+open the top drawer and put th...:  43%|████▎     | 214/500 [1:01:58<1:21:06, 17.02s/it][A  [OK] Task 3 Ep 214: SUCCESS (steps=186)
+
+open the top drawer and put th...:  43%|████▎     | 215/500 [1:02:15<1:20:00, 16.84s/it][A  [OK] Task 3 Ep 215: SUCCESS (steps=173)
+
+open the top drawer and put th...:  43%|████▎     | 216/500 [1:02:30<1:17:25, 16.36s/it][A  [OK] Task 3 Ep 216: SUCCESS (steps=629)
+
+open the top drawer and put th...:  43%|████▎     | 217/500 [1:03:22<2:07:38, 27.06s/it][A  [OK] Task 3 Ep 217: SUCCESS (steps=182)
+
+open the top drawer and put th...:  44%|████▎     | 218/500 [1:03:39<1:52:53, 24.02s/it][A  [OK] Task 3 Ep 218: SUCCESS (steps=179)
+
+open the top drawer and put th...:  44%|████▍     | 219/500 [1:03:55<1:40:52, 21.54s/it][A  [OK] Task 3 Ep 219: SUCCESS (steps=179)
+
+open the top drawer and put th...:  44%|████▍     | 220/500 [1:04:10<1:31:49, 19.68s/it][A  [OK] Task 3 Ep 220: SUCCESS (steps=173)
+
+open the top drawer and put th...:  44%|████▍     | 221/500 [1:04:25<1:24:53, 18.26s/it][A  [OK] Task 3 Ep 221: SUCCESS (steps=193)
+
+open the top drawer and put th...:  44%|████▍     | 222/500 [1:04:42<1:22:36, 17.83s/it][A  [OK] Task 3 Ep 222: SUCCESS (steps=178)
+
+open the top drawer and put th...:  45%|████▍     | 223/500 [1:04:58<1:19:38, 17.25s/it][A  [OK] Task 3 Ep 223: SUCCESS (steps=182)
+
+open the top drawer and put th...:  45%|████▍     | 224/500 [1:05:14<1:17:52, 16.93s/it][A  [OK] Task 3 Ep 224: SUCCESS (steps=187)
+
+open the top drawer and put th...:  45%|████▌     | 225/500 [1:05:30<1:16:45, 16.75s/it][A  [OK] Task 3 Ep 225: SUCCESS (steps=188)
+
+open the top drawer and put th...:  45%|████▌     | 226/500 [1:05:46<1:15:40, 16.57s/it][A  [OK] Task 3 Ep 226: SUCCESS (steps=243)
+
+open the top drawer and put th...:  45%|████▌     | 227/500 [1:06:07<1:21:19, 17.87s/it][A  [OK] Task 3 Ep 227: SUCCESS (steps=180)
+
+open the top drawer and put th...:  46%|████▌     | 228/500 [1:06:24<1:18:46, 17.38s/it][A  [OK] Task 3 Ep 228: SUCCESS (steps=175)
+
+open the top drawer and put th...:  46%|████▌     | 229/500 [1:06:39<1:16:00, 16.83s/it][A  [OK] Task 3 Ep 229: SUCCESS (steps=175)
+
+open the top drawer and put th...:  46%|████▌     | 230/500 [1:06:55<1:14:14, 16.50s/it][A  [OK] Task 3 Ep 230: SUCCESS (steps=174)
+
+open the top drawer and put th...:  46%|████▌     | 231/500 [1:07:10<1:12:06, 16.08s/it][A  [OK] Task 3 Ep 231: SUCCESS (steps=179)
+
+open the top drawer and put th...:  46%|████▋     | 232/500 [1:07:26<1:11:18, 15.96s/it][A  [OK] Task 3 Ep 232: SUCCESS (steps=187)
+
+open the top drawer and put th...:  47%|████▋     | 233/500 [1:07:42<1:11:40, 16.10s/it][A  [OK] Task 3 Ep 233: SUCCESS (steps=195)
+
+open the top drawer and put th...:  47%|████▋     | 234/500 [1:07:59<1:12:50, 16.43s/it][A  [OK] Task 3 Ep 234: SUCCESS (steps=178)
+
+open the top drawer and put th...:  47%|████▋     | 235/500 [1:08:15<1:11:36, 16.21s/it][A  [OK] Task 3 Ep 235: SUCCESS (steps=181)
+
+open the top drawer and put th...:  47%|████▋     | 236/500 [1:08:31<1:11:01, 16.14s/it][A  [OK] Task 3 Ep 236: SUCCESS (steps=272)
+
+open the top drawer and put th...:  47%|████▋     | 237/500 [1:08:54<1:19:25, 18.12s/it][A  [OK] Task 3 Ep 237: SUCCESS (steps=180)
+
+open the top drawer and put th...:  48%|████▊     | 238/500 [1:09:10<1:16:13, 17.46s/it][A  [OK] Task 3 Ep 238: SUCCESS (steps=180)
+
+open the top drawer and put th...:  48%|████▊     | 239/500 [1:09:25<1:13:33, 16.91s/it][A  [OK] Task 3 Ep 239: SUCCESS (steps=184)
+
+open the top drawer and put th...:  48%|████▊     | 240/500 [1:09:41<1:12:18, 16.69s/it][A  [OK] Task 3 Ep 240: SUCCESS (steps=190)
+
+open the top drawer and put th...:  48%|████▊     | 241/500 [1:09:58<1:12:15, 16.74s/it][A  [OK] Task 3 Ep 241: SUCCESS (steps=174)
+
+open the top drawer and put th...:  48%|████▊     | 242/500 [1:10:13<1:10:00, 16.28s/it][A  [OK] Task 3 Ep 242: SUCCESS (steps=177)
+
+open the top drawer and put th...:  49%|████▊     | 243/500 [1:10:29<1:09:18, 16.18s/it][A  [OK] Task 3 Ep 243: SUCCESS (steps=198)
+
+open the top drawer and put th...:  49%|████▉     | 244/500 [1:10:47<1:10:17, 16.47s/it][A  [OK] Task 3 Ep 244: SUCCESS (steps=179)
+
+open the top drawer and put th...:  49%|████▉     | 245/500 [1:11:03<1:09:36, 16.38s/it][A  [OK] Task 3 Ep 245: SUCCESS (steps=179)
+
+open the top drawer and put th...:  49%|████▉     | 246/500 [1:11:18<1:08:01, 16.07s/it][A  [OK] Task 3 Ep 246: SUCCESS (steps=187)
+
+open the top drawer and put th...:  49%|████▉     | 247/500 [1:11:34<1:07:32, 16.02s/it][A  [OK] Task 3 Ep 247: SUCCESS (steps=184)
+
+open the top drawer and put th...:  50%|████▉     | 248/500 [1:11:50<1:07:05, 15.98s/it][A  [OK] Task 3 Ep 248: SUCCESS (steps=229)
+
+open the top drawer and put th...:  50%|████▉     | 249/500 [1:12:09<1:10:45, 16.92s/it][A  [OK] Task 3 Ep 249: SUCCESS (steps=182)
+
+open the top drawer and put th...:  50%|█████     | 250/500 [1:12:25<1:09:29, 16.68s/it][A  [OK] Task 3 Ep 250: SUCCESS (steps=179)
+
+open the top drawer and put th...:  50%|█████     | 251/500 [1:12:41<1:07:42, 16.32s/it][A  [OK] Task 3 Ep 251: SUCCESS (steps=177)
+
+open the top drawer and put th...:  50%|█████     | 252/500 [1:12:57<1:07:57, 16.44s/it][A  [OK] Task 3 Ep 252: SUCCESS (steps=196)
+
+open the top drawer and put th...:  51%|█████     | 253/500 [1:13:14<1:08:02, 16.53s/it][A  [OK] Task 3 Ep 253: SUCCESS (steps=182)
+
+open the top drawer and put th...:  51%|█████     | 254/500 [1:13:30<1:06:35, 16.24s/it][A  [OK] Task 3 Ep 254: SUCCESS (steps=177)
+
+open the top drawer and put th...:  51%|█████     | 255/500 [1:13:45<1:05:44, 16.10s/it][A  [OK] Task 3 Ep 255: SUCCESS (steps=188)
+
+open the top drawer and put th...:  51%|█████     | 256/500 [1:14:01<1:05:22, 16.08s/it][A  [OK] Task 3 Ep 256: SUCCESS (steps=232)
+
+open the top drawer and put th...:  51%|█████▏    | 257/500 [1:14:21<1:09:10, 17.08s/it][A  [OK] Task 3 Ep 257: SUCCESS (steps=179)
+
+open the top drawer and put th...:  52%|█████▏    | 258/500 [1:14:37<1:07:20, 16.70s/it][A  [OK] Task 3 Ep 258: SUCCESS (steps=175)
+
+open the top drawer and put th...:  52%|█████▏    | 259/500 [1:14:52<1:05:38, 16.34s/it][A  [OK] Task 3 Ep 259: SUCCESS (steps=190)
+
+open the top drawer and put th...:  52%|█████▏    | 260/500 [1:15:08<1:05:17, 16.32s/it][A  [OK] Task 3 Ep 260: SUCCESS (steps=178)
+
+open the top drawer and put th...:  52%|█████▏    | 261/500 [1:15:24<1:04:01, 16.07s/it][A  [OK] Task 3 Ep 261: SUCCESS (steps=182)
+
+open the top drawer and put th...:  52%|█████▏    | 262/500 [1:15:40<1:03:30, 16.01s/it][A  [OK] Task 3 Ep 262: SUCCESS (steps=184)
+
+open the top drawer and put th...:  53%|█████▎    | 263/500 [1:15:57<1:05:05, 16.48s/it][A  [FAIL] Task 3 Ep 263: FAILURE (steps=810)
+
+open the top drawer and put th...:  53%|█████▎    | 264/500 [1:17:00<1:59:22, 30.35s/it][A  [OK] Task 3 Ep 264: SUCCESS (steps=176)
+
+open the top drawer and put th...:  53%|█████▎    | 265/500 [1:17:15<1:41:21, 25.88s/it][A  [OK] Task 3 Ep 265: SUCCESS (steps=180)
+
+open the top drawer and put th...:  53%|█████▎    | 266/500 [1:17:31<1:29:04, 22.84s/it][A  [OK] Task 3 Ep 266: SUCCESS (steps=192)
+
+open the top drawer and put th...:  53%|█████▎    | 267/500 [1:17:48<1:21:21, 20.95s/it][A  [OK] Task 3 Ep 267: SUCCESS (steps=492)
+
+open the top drawer and put th...:  54%|█████▎    | 268/500 [1:18:27<1:41:55, 26.36s/it][A  [OK] Task 3 Ep 268: SUCCESS (steps=186)
+
+open the top drawer and put th...:  54%|█████▍    | 269/500 [1:18:43<1:29:44, 23.31s/it][A  [OK] Task 3 Ep 269: SUCCESS (steps=177)
+
+open the top drawer and put th...:  54%|█████▍    | 270/500 [1:19:00<1:22:30, 21.53s/it][A  [OK] Task 3 Ep 270: SUCCESS (steps=179)
+
+open the top drawer and put th...:  54%|█████▍    | 271/500 [1:19:16<1:15:40, 19.83s/it][A  [OK] Task 3 Ep 271: SUCCESS (steps=183)
+
+open the top drawer and put th...:  54%|█████▍    | 272/500 [1:19:32<1:11:04, 18.70s/it][A  [OK] Task 3 Ep 272: SUCCESS (steps=182)
+
+open the top drawer and put th...:  55%|█████▍    | 273/500 [1:19:48<1:07:51, 17.94s/it][A  [OK] Task 3 Ep 273: SUCCESS (steps=184)
+
+open the top drawer and put th...:  55%|█████▍    | 274/500 [1:20:05<1:05:29, 17.39s/it][A  [OK] Task 3 Ep 274: SUCCESS (steps=189)
+
+open the top drawer and put th...:  55%|█████▌    | 275/500 [1:20:21<1:03:42, 16.99s/it][A  [OK] Task 3 Ep 275: SUCCESS (steps=175)
+
+open the top drawer and put th...:  55%|█████▌    | 276/500 [1:20:36<1:02:10, 16.65s/it][A  [OK] Task 3 Ep 276: SUCCESS (steps=184)
+
+open the top drawer and put th...:  55%|█████▌    | 277/500 [1:20:52<1:00:53, 16.38s/it][A  [OK] Task 3 Ep 277: SUCCESS (steps=199)
+
+open the top drawer and put th...:  56%|█████▌    | 278/500 [1:21:09<1:01:09, 16.53s/it][A  [OK] Task 3 Ep 278: SUCCESS (steps=183)
+
+open the top drawer and put th...:  56%|█████▌    | 279/500 [1:21:25<59:53, 16.26s/it]  [A  [OK] Task 3 Ep 279: SUCCESS (steps=185)
+
+open the top drawer and put th...:  56%|█████▌    | 280/500 [1:21:41<59:13, 16.15s/it][A  [OK] Task 3 Ep 280: SUCCESS (steps=174)
+
+open the top drawer and put th...:  56%|█████▌    | 281/500 [1:21:57<59:19, 16.25s/it][A  [OK] Task 3 Ep 281: SUCCESS (steps=177)
+
+open the top drawer and put th...:  56%|█████▋    | 282/500 [1:22:12<58:04, 15.99s/it][A  [OK] Task 3 Ep 282: SUCCESS (steps=179)
+
+open the top drawer and put th...:  57%|█████▋    | 283/500 [1:22:28<57:07, 15.79s/it][A  [OK] Task 3 Ep 283: SUCCESS (steps=184)
+
+open the top drawer and put th...:  57%|█████▋    | 284/500 [1:22:44<57:17, 15.91s/it][A  [OK] Task 3 Ep 284: SUCCESS (steps=180)
+
+open the top drawer and put th...:  57%|█████▋    | 285/500 [1:23:01<57:46, 16.12s/it][A  [OK] Task 3 Ep 285: SUCCESS (steps=181)
+
+open the top drawer and put th...:  57%|█████▋    | 286/500 [1:23:17<57:32, 16.13s/it][A  [OK] Task 3 Ep 286: SUCCESS (steps=189)
+
+open the top drawer and put th...:  57%|█████▋    | 287/500 [1:23:34<57:56, 16.32s/it][A  [OK] Task 3 Ep 287: SUCCESS (steps=189)
+
+open the top drawer and put th...:  58%|█████▊    | 288/500 [1:23:50<58:17, 16.50s/it][A  [OK] Task 3 Ep 288: SUCCESS (steps=172)
+
+open the top drawer and put th...:  58%|█████▊    | 289/500 [1:24:06<57:27, 16.34s/it][A  [OK] Task 3 Ep 289: SUCCESS (steps=190)
+
+open the top drawer and put th...:  58%|█████▊    | 290/500 [1:24:24<58:03, 16.59s/it][A  [OK] Task 3 Ep 290: SUCCESS (steps=179)
+
+open the top drawer and put th...:  58%|█████▊    | 291/500 [1:24:39<57:05, 16.39s/it][A  [OK] Task 3 Ep 291: SUCCESS (steps=175)
+
+open the top drawer and put th...:  58%|█████▊    | 292/500 [1:24:57<58:04, 16.75s/it][A  [OK] Task 3 Ep 292: SUCCESS (steps=174)
+
+open the top drawer and put th...:  59%|█████▊    | 293/500 [1:25:12<56:05, 16.26s/it][A  [OK] Task 3 Ep 293: SUCCESS (steps=179)
+
+open the top drawer and put th...:  59%|█████▉    | 294/500 [1:25:28<55:11, 16.07s/it][A  [OK] Task 3 Ep 294: SUCCESS (steps=172)
+
+open the top drawer and put th...:  59%|█████▉    | 295/500 [1:25:43<54:10, 15.86s/it][A  [OK] Task 3 Ep 295: SUCCESS (steps=183)
+
+open the top drawer and put th...:  59%|█████▉    | 296/500 [1:26:01<55:24, 16.29s/it][A  [OK] Task 3 Ep 296: SUCCESS (steps=175)
+
+open the top drawer and put th...:  59%|█████▉    | 297/500 [1:26:16<53:57, 15.95s/it][A  [OK] Task 3 Ep 297: SUCCESS (steps=172)
+
+open the top drawer and put th...:  60%|█████▉    | 298/500 [1:26:31<52:39, 15.64s/it][A  [OK] Task 3 Ep 298: SUCCESS (steps=181)
+
+open the top drawer and put th...:  60%|█████▉    | 299/500 [1:26:46<52:29, 15.67s/it][A  [OK] Task 3 Ep 299: SUCCESS (steps=177)
+
+open the top drawer and put th...:  60%|██████    | 300/500 [1:27:02<52:18, 15.69s/it][A  [OK] Task 3 Ep 300: SUCCESS (steps=355)
+
+open the top drawer and put th...:  60%|██████    | 301/500 [1:27:30<1:04:08, 19.34s/it][A  [OK] Task 3 Ep 301: SUCCESS (steps=190)
+
+open the top drawer and put th...:  60%|██████    | 302/500 [1:27:47<1:01:12, 18.55s/it][A  [OK] Task 3 Ep 302: SUCCESS (steps=186)
+
+open the top drawer and put th...:  61%|██████    | 303/500 [1:28:04<59:53, 18.24s/it]  [A  [OK] Task 3 Ep 303: SUCCESS (steps=175)
+
+open the top drawer and put th...:  61%|██████    | 304/500 [1:28:21<58:22, 17.87s/it][A  [OK] Task 3 Ep 304: SUCCESS (steps=187)
+
+open the top drawer and put th...:  61%|██████    | 305/500 [1:28:39<58:13, 17.91s/it][A  [OK] Task 3 Ep 305: SUCCESS (steps=171)
+
+open the top drawer and put th...:  61%|██████    | 306/500 [1:28:57<57:47, 17.87s/it][A  [OK] Task 3 Ep 306: SUCCESS (steps=239)
+
+open the top drawer and put th...:  61%|██████▏   | 307/500 [1:29:20<1:02:32, 19.45s/it][A  [OK] Task 3 Ep 307: SUCCESS (steps=187)
+
+open the top drawer and put th...:  62%|██████▏   | 308/500 [1:29:39<1:01:18, 19.16s/it][A  [OK] Task 3 Ep 308: SUCCESS (steps=171)
+
+open the top drawer and put th...:  62%|██████▏   | 309/500 [1:29:56<59:03, 18.55s/it]  [A  [OK] Task 3 Ep 309: SUCCESS (steps=176)
+
+open the top drawer and put th...:  62%|██████▏   | 310/500 [1:30:12<56:24, 17.81s/it][A  [OK] Task 3 Ep 310: SUCCESS (steps=171)
+
+open the top drawer and put th...:  62%|██████▏   | 311/500 [1:30:27<54:07, 17.18s/it][A  [OK] Task 3 Ep 311: SUCCESS (steps=184)
+
+open the top drawer and put th...:  62%|██████▏   | 312/500 [1:30:45<53:58, 17.23s/it][A  [OK] Task 3 Ep 312: SUCCESS (steps=180)
+
+open the top drawer and put th...:  63%|██████▎   | 313/500 [1:31:00<52:14, 16.76s/it][A  [OK] Task 3 Ep 313: SUCCESS (steps=189)
+
+open the top drawer and put th...:  63%|██████▎   | 314/500 [1:31:17<51:29, 16.61s/it][A  [OK] Task 3 Ep 314: SUCCESS (steps=185)
+
+open the top drawer and put th...:  63%|██████▎   | 315/500 [1:31:33<50:38, 16.42s/it][A  [OK] Task 3 Ep 315: SUCCESS (steps=177)
+
+open the top drawer and put th...:  63%|██████▎   | 316/500 [1:31:48<49:41, 16.20s/it][A  [OK] Task 3 Ep 316: SUCCESS (steps=178)
+
+open the top drawer and put th...:  63%|██████▎   | 317/500 [1:32:05<49:40, 16.28s/it][A  [OK] Task 3 Ep 317: SUCCESS (steps=185)
+
+open the top drawer and put th...:  64%|██████▎   | 318/500 [1:32:21<48:59, 16.15s/it][A  [OK] Task 3 Ep 318: SUCCESS (steps=171)
+
+open the top drawer and put th...:  64%|██████▍   | 319/500 [1:32:35<47:28, 15.74s/it][A  [OK] Task 3 Ep 319: SUCCESS (steps=187)
+
+open the top drawer and put th...:  64%|██████▍   | 320/500 [1:32:52<47:35, 15.87s/it][A  [OK] Task 3 Ep 320: SUCCESS (steps=177)
+
+open the top drawer and put th...:  64%|██████▍   | 321/500 [1:33:07<46:45, 15.67s/it][A  [OK] Task 3 Ep 321: SUCCESS (steps=182)
+
+open the top drawer and put th...:  64%|██████▍   | 322/500 [1:33:23<46:39, 15.73s/it][A  [OK] Task 3 Ep 322: SUCCESS (steps=198)
+
+open the top drawer and put th...:  65%|██████▍   | 323/500 [1:33:39<47:16, 16.02s/it][A  [OK] Task 3 Ep 323: SUCCESS (steps=183)
+
+open the top drawer and put th...:  65%|██████▍   | 324/500 [1:33:56<47:44, 16.28s/it][A  [OK] Task 3 Ep 324: SUCCESS (steps=313)
+
+open the top drawer and put th...:  65%|██████▌   | 325/500 [1:34:23<56:11, 19.26s/it][A  [FAIL] Task 3 Ep 325: FAILURE (steps=810)
+
+open the top drawer and put th...:  65%|██████▌   | 326/500 [1:35:26<1:34:01, 32.42s/it][A  [OK] Task 3 Ep 326: SUCCESS (steps=187)
+
+open the top drawer and put th...:  65%|██████▌   | 327/500 [1:35:42<1:19:44, 27.65s/it][A  [OK] Task 3 Ep 327: SUCCESS (steps=183)
+
+open the top drawer and put th...:  66%|██████▌   | 328/500 [1:35:59<1:09:44, 24.33s/it][A  [OK] Task 3 Ep 328: SUCCESS (steps=182)
+
+open the top drawer and put th...:  66%|██████▌   | 329/500 [1:36:15<1:02:39, 21.99s/it][A  [OK] Task 3 Ep 329: SUCCESS (steps=193)
+
+open the top drawer and put th...:  66%|██████▌   | 330/500 [1:36:32<57:39, 20.35s/it]  [A  [OK] Task 3 Ep 330: SUCCESS (steps=180)
+
+open the top drawer and put th...:  66%|██████▌   | 331/500 [1:36:49<54:23, 19.31s/it][A  [OK] Task 3 Ep 331: SUCCESS (steps=188)
+
+open the top drawer and put th...:  66%|██████▋   | 332/500 [1:37:06<51:58, 18.56s/it][A  [OK] Task 3 Ep 332: SUCCESS (steps=183)
+
+open the top drawer and put th...:  67%|██████▋   | 333/500 [1:37:22<49:52, 17.92s/it][A  [OK] Task 3 Ep 333: SUCCESS (steps=187)
+
+open the top drawer and put th...:  67%|██████▋   | 334/500 [1:37:38<48:21, 17.48s/it][A  [OK] Task 3 Ep 334: SUCCESS (steps=179)
+
+open the top drawer and put th...:  67%|██████▋   | 335/500 [1:37:54<46:33, 16.93s/it][A  [OK] Task 3 Ep 335: SUCCESS (steps=188)
+
+open the top drawer and put th...:  67%|██████▋   | 336/500 [1:38:10<45:48, 16.76s/it][A  [FAIL] Task 3 Ep 336: FAILURE (steps=810)
+
+open the top drawer and put th...:  67%|██████▋   | 337/500 [1:39:13<1:22:58, 30.54s/it][A  [OK] Task 3 Ep 337: SUCCESS (steps=182)
+
+open the top drawer and put th...:  68%|██████▊   | 338/500 [1:39:29<1:10:32, 26.12s/it][A  [OK] Task 3 Ep 338: SUCCESS (steps=179)
+
+open the top drawer and put th...:  68%|██████▊   | 339/500 [1:39:44<1:01:33, 22.94s/it][A  [OK] Task 3 Ep 339: SUCCESS (steps=180)
+
+open the top drawer and put th...:  68%|██████▊   | 340/500 [1:40:00<55:37, 20.86s/it]  [A  [OK] Task 3 Ep 340: SUCCESS (steps=175)
+
+open the top drawer and put th...:  68%|██████▊   | 341/500 [1:40:17<51:30, 19.44s/it][A  [OK] Task 3 Ep 341: SUCCESS (steps=347)
+
+open the top drawer and put th...:  68%|██████▊   | 342/500 [1:40:45<58:32, 22.23s/it][A  [OK] Task 3 Ep 342: SUCCESS (steps=177)
+
+open the top drawer and put th...:  69%|██████▊   | 343/500 [1:41:01<53:07, 20.30s/it][A  [OK] Task 3 Ep 343: SUCCESS (steps=182)
+
+open the top drawer and put th...:  69%|██████▉   | 344/500 [1:41:18<49:46, 19.14s/it][A  [OK] Task 3 Ep 344: SUCCESS (steps=188)
+
+open the top drawer and put th...:  69%|██████▉   | 345/500 [1:41:34<47:27, 18.37s/it][A  [FAIL] Task 3 Ep 345: FAILURE (steps=810)
+
+open the top drawer and put th...:  69%|██████▉   | 346/500 [1:42:34<1:18:58, 30.77s/it][A  [OK] Task 3 Ep 346: SUCCESS (steps=184)
+
+open the top drawer and put th...:  69%|██████▉   | 347/500 [1:42:51<1:07:46, 26.58s/it][A  [OK] Task 3 Ep 347: SUCCESS (steps=171)
+
+open the top drawer and put th...:  70%|██████▉   | 348/500 [1:43:06<58:56, 23.27s/it]  [A  [OK] Task 3 Ep 348: SUCCESS (steps=174)
+
+open the top drawer and put th...:  70%|██████▉   | 349/500 [1:43:22<53:00, 21.06s/it][A  [OK] Task 3 Ep 349: SUCCESS (steps=182)
+
+open the top drawer and put th...:  70%|███████   | 350/500 [1:43:38<49:02, 19.62s/it][A  [OK] Task 3 Ep 350: SUCCESS (steps=177)
+
+open the top drawer and put th...:  70%|███████   | 351/500 [1:43:55<46:17, 18.64s/it][A  [OK] Task 3 Ep 351: SUCCESS (steps=186)
+
+open the top drawer and put th...:  70%|███████   | 352/500 [1:44:11<44:19, 17.97s/it][A  [OK] Task 3 Ep 352: SUCCESS (steps=169)
+
+open the top drawer and put th...:  71%|███████   | 353/500 [1:44:26<41:53, 17.10s/it][A  [OK] Task 3 Ep 353: SUCCESS (steps=231)
+
+open the top drawer and put th...:  71%|███████   | 354/500 [1:44:46<43:27, 17.86s/it][A  [OK] Task 3 Ep 354: SUCCESS (steps=180)
+
+open the top drawer and put th...:  71%|███████   | 355/500 [1:45:02<42:00, 17.38s/it][A  [OK] Task 3 Ep 355: SUCCESS (steps=192)
+
+open the top drawer and put th...:  71%|███████   | 356/500 [1:45:19<41:10, 17.16s/it][A  [FAIL] Task 3 Ep 356: FAILURE (steps=810)
+
+open the top drawer and put th...:  71%|███████▏  | 357/500 [1:46:20<1:12:08, 30.27s/it][A  [OK] Task 3 Ep 357: SUCCESS (steps=175)
+
+open the top drawer and put th...:  72%|███████▏  | 358/500 [1:46:35<1:01:18, 25.91s/it][A  [OK] Task 3 Ep 358: SUCCESS (steps=672)
+
+open the top drawer and put th...:  72%|███████▏  | 359/500 [1:47:27<1:18:53, 33.57s/it][A  [OK] Task 3 Ep 359: SUCCESS (steps=479)
+
+open the top drawer and put th...:  72%|███████▏  | 360/500 [1:48:04<1:21:02, 34.73s/it][A  [OK] Task 3 Ep 360: SUCCESS (steps=188)
+
+open the top drawer and put th...:  72%|███████▏  | 361/500 [1:48:21<1:07:49, 29.28s/it][A  [OK] Task 3 Ep 361: SUCCESS (steps=184)
+
+open the top drawer and put th...:  72%|███████▏  | 362/500 [1:48:37<58:09, 25.29s/it]  [A  [OK] Task 3 Ep 362: SUCCESS (steps=172)
+
+open the top drawer and put th...:  73%|███████▎  | 363/500 [1:48:52<50:58, 22.32s/it][A  [OK] Task 3 Ep 363: SUCCESS (steps=176)
+
+open the top drawer and put th...:  73%|███████▎  | 364/500 [1:49:08<45:59, 20.29s/it][A  [OK] Task 3 Ep 364: SUCCESS (steps=187)
+
+open the top drawer and put th...:  73%|███████▎  | 365/500 [1:49:24<43:13, 19.21s/it][A  [OK] Task 3 Ep 365: SUCCESS (steps=174)
+
+open the top drawer and put th...:  73%|███████▎  | 366/500 [1:49:40<40:24, 18.09s/it][A  [OK] Task 3 Ep 366: SUCCESS (steps=176)
+
+open the top drawer and put th...:  73%|███████▎  | 367/500 [1:49:57<39:29, 17.82s/it][A  [OK] Task 3 Ep 367: SUCCESS (steps=178)
+
+open the top drawer and put th...:  74%|███████▎  | 368/500 [1:50:13<37:45, 17.16s/it][A  [OK] Task 3 Ep 368: SUCCESS (steps=182)
+
+open the top drawer and put th...:  74%|███████▍  | 369/500 [1:50:29<36:52, 16.89s/it][A  [OK] Task 3 Ep 369: SUCCESS (steps=176)
+
+open the top drawer and put th...:  74%|███████▍  | 370/500 [1:50:44<35:39, 16.46s/it][A  [OK] Task 3 Ep 370: SUCCESS (steps=183)
+
+open the top drawer and put th...:  74%|███████▍  | 371/500 [1:51:01<35:19, 16.43s/it][A  [OK] Task 3 Ep 371: SUCCESS (steps=175)
+
+open the top drawer and put th...:  74%|███████▍  | 372/500 [1:51:18<35:39, 16.71s/it][A  [OK] Task 3 Ep 372: SUCCESS (steps=199)
+
+open the top drawer and put th...:  75%|███████▍  | 373/500 [1:51:35<35:45, 16.89s/it][A  [OK] Task 3 Ep 373: SUCCESS (steps=179)
+
+open the top drawer and put th...:  75%|███████▍  | 374/500 [1:51:51<34:55, 16.63s/it][A  [OK] Task 3 Ep 374: SUCCESS (steps=183)
+
+open the top drawer and put th...:  75%|███████▌  | 375/500 [1:52:07<34:15, 16.44s/it][A  [OK] Task 3 Ep 375: SUCCESS (steps=339)
+
+open the top drawer and put th...:  75%|███████▌  | 376/500 [1:52:35<41:09, 19.91s/it][A  [OK] Task 3 Ep 376: SUCCESS (steps=182)
+
+open the top drawer and put th...:  75%|███████▌  | 377/500 [1:52:52<38:37, 18.84s/it][A  [OK] Task 3 Ep 377: SUCCESS (steps=178)
+
+open the top drawer and put th...:  76%|███████▌  | 378/500 [1:53:07<36:23, 17.90s/it][A  [OK] Task 3 Ep 378: SUCCESS (steps=183)
+
+open the top drawer and put th...:  76%|███████▌  | 379/500 [1:53:23<34:56, 17.33s/it][A  [OK] Task 3 Ep 379: SUCCESS (steps=176)
+
+open the top drawer and put th...:  76%|███████▌  | 380/500 [1:53:40<33:56, 16.97s/it][A  [OK] Task 3 Ep 380: SUCCESS (steps=196)
+
+open the top drawer and put th...:  76%|███████▌  | 381/500 [1:53:57<33:59, 17.14s/it][A  [OK] Task 3 Ep 381: SUCCESS (steps=184)
+
+open the top drawer and put th...:  76%|███████▋  | 382/500 [1:54:14<33:22, 16.97s/it][A  [OK] Task 3 Ep 382: SUCCESS (steps=173)
+
+open the top drawer and put th...:  77%|███████▋  | 383/500 [1:54:30<32:41, 16.77s/it][A  [OK] Task 3 Ep 383: SUCCESS (steps=170)
+
+open the top drawer and put th...:  77%|███████▋  | 384/500 [1:54:46<31:57, 16.53s/it][A  [OK] Task 3 Ep 384: SUCCESS (steps=180)
+
+open the top drawer and put th...:  77%|███████▋  | 385/500 [1:55:02<31:23, 16.38s/it][A  [OK] Task 3 Ep 385: SUCCESS (steps=191)
+
+open the top drawer and put th...:  77%|███████▋  | 386/500 [1:55:19<31:17, 16.47s/it][A  [OK] Task 3 Ep 386: SUCCESS (steps=178)
+
+open the top drawer and put th...:  77%|███████▋  | 387/500 [1:55:35<30:48, 16.36s/it][A  [OK] Task 3 Ep 387: SUCCESS (steps=181)
+
+open the top drawer and put th...:  78%|███████▊  | 388/500 [1:55:51<30:22, 16.27s/it][A  [OK] Task 3 Ep 388: SUCCESS (steps=302)
+
+open the top drawer and put th...:  78%|███████▊  | 389/500 [1:56:15<34:39, 18.73s/it][A  [OK] Task 3 Ep 389: SUCCESS (steps=179)
+
+open the top drawer and put th...:  78%|███████▊  | 390/500 [1:56:31<32:45, 17.86s/it][A  [OK] Task 3 Ep 390: SUCCESS (steps=183)
+
+open the top drawer and put th...:  78%|███████▊  | 391/500 [1:56:48<31:43, 17.47s/it][A  [OK] Task 3 Ep 391: SUCCESS (steps=223)
+
+open the top drawer and put th...:  78%|███████▊  | 392/500 [1:57:08<32:42, 18.17s/it][A  [OK] Task 3 Ep 392: SUCCESS (steps=196)
+
+open the top drawer and put th...:  79%|███████▊  | 393/500 [1:57:25<31:51, 17.86s/it][A  [OK] Task 3 Ep 393: SUCCESS (steps=190)
+
+open the top drawer and put th...:  79%|███████▉  | 394/500 [1:57:42<31:04, 17.59s/it][A  [OK] Task 3 Ep 394: SUCCESS (steps=170)
+
+open the top drawer and put th...:  79%|███████▉  | 395/500 [1:57:57<29:47, 17.03s/it][A  [OK] Task 3 Ep 395: SUCCESS (steps=180)
+
+open the top drawer and put th...:  79%|███████▉  | 396/500 [1:58:13<29:03, 16.76s/it][A  [OK] Task 3 Ep 396: SUCCESS (steps=327)
+
+open the top drawer and put th...:  79%|███████▉  | 397/500 [1:58:40<33:41, 19.63s/it][A  [OK] Task 3 Ep 397: SUCCESS (steps=176)
+
+open the top drawer and put th...:  80%|███████▉  | 398/500 [1:58:57<31:56, 18.79s/it][A  [OK] Task 3 Ep 398: SUCCESS (steps=186)
+
+open the top drawer and put th...:  80%|███████▉  | 399/500 [1:59:13<30:22, 18.05s/it][A  [OK] Task 3 Ep 399: SUCCESS (steps=226)
+
+open the top drawer and put th...:  80%|████████  | 400/500 [1:59:32<30:33, 18.34s/it][A  [OK] Task 3 Ep 400: SUCCESS (steps=270)
+
+open the top drawer and put th...:  80%|████████  | 401/500 [1:59:55<32:25, 19.65s/it][A  [OK] Task 3 Ep 401: SUCCESS (steps=171)
+
+open the top drawer and put th...:  80%|████████  | 402/500 [2:00:10<29:51, 18.28s/it][A  [OK] Task 3 Ep 402: SUCCESS (steps=171)
+
+open the top drawer and put th...:  81%|████████  | 403/500 [2:00:25<28:13, 17.46s/it][A  [OK] Task 3 Ep 403: SUCCESS (steps=182)
+
+open the top drawer and put th...:  81%|████████  | 404/500 [2:00:42<27:20, 17.08s/it][A  [OK] Task 3 Ep 404: SUCCESS (steps=186)
+
+open the top drawer and put th...:  81%|████████  | 405/500 [2:00:58<26:39, 16.83s/it][A  [OK] Task 3 Ep 405: SUCCESS (steps=194)
+
+open the top drawer and put th...:  81%|████████  | 406/500 [2:01:15<26:29, 16.91s/it][A  [OK] Task 3 Ep 406: SUCCESS (steps=176)
+
+open the top drawer and put th...:  81%|████████▏ | 407/500 [2:01:31<25:44, 16.61s/it][A  [OK] Task 3 Ep 407: SUCCESS (steps=186)
+
+open the top drawer and put th...:  82%|████████▏ | 408/500 [2:01:48<25:32, 16.66s/it][A  [OK] Task 3 Ep 408: SUCCESS (steps=241)
+
+open the top drawer and put th...:  82%|████████▏ | 409/500 [2:02:08<27:03, 17.84s/it][A  [OK] Task 3 Ep 409: SUCCESS (steps=180)
+
+open the top drawer and put th...:  82%|████████▏ | 410/500 [2:02:24<26:03, 17.38s/it][A  [OK] Task 3 Ep 410: SUCCESS (steps=194)
+
+open the top drawer and put th...:  82%|████████▏ | 411/500 [2:02:41<25:28, 17.18s/it][A  [OK] Task 3 Ep 411: SUCCESS (steps=184)
+
+open the top drawer and put th...:  82%|████████▏ | 412/500 [2:02:57<24:49, 16.92s/it][A  [OK] Task 3 Ep 412: SUCCESS (steps=178)
+
+open the top drawer and put th...:  83%|████████▎ | 413/500 [2:03:14<24:21, 16.80s/it][A  [OK] Task 3 Ep 413: SUCCESS (steps=178)
+
+open the top drawer and put th...:  83%|████████▎ | 414/500 [2:03:30<23:39, 16.51s/it][A  [OK] Task 3 Ep 414: SUCCESS (steps=185)
+
+open the top drawer and put th...:  83%|████████▎ | 415/500 [2:03:47<23:28, 16.57s/it][A  [OK] Task 3 Ep 415: SUCCESS (steps=183)
+
+open the top drawer and put th...:  83%|████████▎ | 416/500 [2:04:03<22:58, 16.42s/it][A  [OK] Task 3 Ep 416: SUCCESS (steps=181)
+
+open the top drawer and put th...:  83%|████████▎ | 417/500 [2:04:18<22:27, 16.23s/it][A  [OK] Task 3 Ep 417: SUCCESS (steps=173)
+
+open the top drawer and put th...:  84%|████████▎ | 418/500 [2:04:34<21:49, 15.97s/it][A  [OK] Task 3 Ep 418: SUCCESS (steps=172)
+
+open the top drawer and put th...:  84%|████████▍ | 419/500 [2:04:49<21:22, 15.83s/it][A  [OK] Task 3 Ep 419: SUCCESS (steps=183)
+
+open the top drawer and put th...:  84%|████████▍ | 420/500 [2:05:06<21:17, 15.97s/it][A  [OK] Task 3 Ep 420: SUCCESS (steps=183)
+
+open the top drawer and put th...:  84%|████████▍ | 421/500 [2:05:22<21:14, 16.13s/it][A  [OK] Task 3 Ep 421: SUCCESS (steps=181)
+
+open the top drawer and put th...:  84%|████████▍ | 422/500 [2:05:38<20:55, 16.10s/it][A  [OK] Task 3 Ep 422: SUCCESS (steps=183)
+
+open the top drawer and put th...:  85%|████████▍ | 423/500 [2:05:55<20:53, 16.28s/it][A  [OK] Task 3 Ep 423: SUCCESS (steps=185)
+
+open the top drawer and put th...:  85%|████████▍ | 424/500 [2:06:11<20:39, 16.31s/it][A  [OK] Task 3 Ep 424: SUCCESS (steps=190)
+
+open the top drawer and put th...:  85%|████████▌ | 425/500 [2:06:28<20:46, 16.62s/it][A  [OK] Task 3 Ep 425: SUCCESS (steps=181)
+
+open the top drawer and put th...:  85%|████████▌ | 426/500 [2:06:45<20:30, 16.62s/it][A  [OK] Task 3 Ep 426: SUCCESS (steps=185)
+
+open the top drawer and put th...:  85%|████████▌ | 427/500 [2:07:02<20:09, 16.57s/it][A  [OK] Task 3 Ep 427: SUCCESS (steps=246)
+
+open the top drawer and put th...:  86%|████████▌ | 428/500 [2:07:22<21:25, 17.86s/it][A  [OK] Task 3 Ep 428: SUCCESS (steps=174)
+
+open the top drawer and put th...:  86%|████████▌ | 429/500 [2:07:38<20:17, 17.15s/it][A  [OK] Task 3 Ep 429: SUCCESS (steps=187)
+
+open the top drawer and put th...:  86%|████████▌ | 430/500 [2:07:54<19:46, 16.95s/it][A  [OK] Task 3 Ep 430: SUCCESS (steps=178)
+
+open the top drawer and put th...:  86%|████████▌ | 431/500 [2:08:10<19:04, 16.58s/it][A  [OK] Task 3 Ep 431: SUCCESS (steps=180)
+
+open the top drawer and put th...:  86%|████████▋ | 432/500 [2:08:26<18:35, 16.40s/it][A  [OK] Task 3 Ep 432: SUCCESS (steps=171)
+
+open the top drawer and put th...:  87%|████████▋ | 433/500 [2:08:41<17:53, 16.03s/it][A  [OK] Task 3 Ep 433: SUCCESS (steps=178)
+
+open the top drawer and put th...:  87%|████████▋ | 434/500 [2:08:58<17:47, 16.17s/it][A  [OK] Task 3 Ep 434: SUCCESS (steps=169)
+
+open the top drawer and put th...:  87%|████████▋ | 435/500 [2:09:13<17:11, 15.87s/it][A  [OK] Task 3 Ep 435: SUCCESS (steps=184)
+
+open the top drawer and put th...:  87%|████████▋ | 436/500 [2:09:29<16:55, 15.87s/it][A  [OK] Task 3 Ep 436: SUCCESS (steps=179)
+
+open the top drawer and put th...:  87%|████████▋ | 437/500 [2:09:45<16:43, 15.94s/it][A  [OK] Task 3 Ep 437: SUCCESS (steps=179)
+
+open the top drawer and put th...:  88%|████████▊ | 438/500 [2:10:01<16:23, 15.86s/it][A  [FAIL] Task 3 Ep 438: FAILURE (steps=810)
+
+open the top drawer and put th...:  88%|████████▊ | 439/500 [2:11:02<30:00, 29.52s/it][A  [OK] Task 3 Ep 439: SUCCESS (steps=181)
+
+open the top drawer and put th...:  88%|████████▊ | 440/500 [2:11:18<25:32, 25.54s/it][A  [OK] Task 3 Ep 440: SUCCESS (steps=194)
+
+open the top drawer and put th...:  88%|████████▊ | 441/500 [2:11:35<22:37, 23.01s/it][A  [OK] Task 3 Ep 441: SUCCESS (steps=182)
+
+open the top drawer and put th...:  88%|████████▊ | 442/500 [2:11:52<20:24, 21.10s/it][A  [OK] Task 3 Ep 442: SUCCESS (steps=179)
+
+open the top drawer and put th...:  89%|████████▊ | 443/500 [2:12:08<18:31, 19.51s/it][A  [OK] Task 3 Ep 443: SUCCESS (steps=182)
+
+open the top drawer and put th...:  89%|████████▉ | 444/500 [2:12:24<17:15, 18.48s/it][A  [OK] Task 3 Ep 444: SUCCESS (steps=179)
+
+open the top drawer and put th...:  89%|████████▉ | 445/500 [2:12:40<16:15, 17.73s/it][A  [OK] Task 3 Ep 445: SUCCESS (steps=195)
+
+open the top drawer and put th...:  89%|████████▉ | 446/500 [2:12:59<16:18, 18.12s/it][A  [OK] Task 3 Ep 446: SUCCESS (steps=181)
+
+open the top drawer and put th...:  89%|████████▉ | 447/500 [2:13:15<15:26, 17.48s/it][A  [OK] Task 3 Ep 447: SUCCESS (steps=187)
+
+open the top drawer and put th...:  90%|████████▉ | 448/500 [2:13:31<14:50, 17.12s/it][A  [FAIL] Task 3 Ep 448: FAILURE (steps=810)
+
+open the top drawer and put th...:  90%|████████▉ | 449/500 [2:14:31<25:31, 30.04s/it][A  [OK] Task 3 Ep 449: SUCCESS (steps=265)
+
+open the top drawer and put th...:  90%|█████████ | 450/500 [2:14:54<23:07, 27.74s/it][A  [OK] Task 3 Ep 450: SUCCESS (steps=247)
+
+open the top drawer and put th...:  90%|█████████ | 451/500 [2:15:15<21:01, 25.75s/it][A  [OK] Task 3 Ep 451: SUCCESS (steps=177)
+
+open the top drawer and put th...:  90%|█████████ | 452/500 [2:15:32<18:27, 23.08s/it][A  [OK] Task 3 Ep 452: SUCCESS (steps=184)
+
+open the top drawer and put th...:  91%|█████████ | 453/500 [2:15:50<16:51, 21.53s/it][A  [OK] Task 3 Ep 453: SUCCESS (steps=186)
+
+open the top drawer and put th...:  91%|█████████ | 454/500 [2:16:07<15:28, 20.18s/it][A  [OK] Task 3 Ep 454: SUCCESS (steps=184)
+
+open the top drawer and put th...:  91%|█████████ | 455/500 [2:16:25<14:48, 19.74s/it][A  [OK] Task 3 Ep 455: SUCCESS (steps=190)
+
+open the top drawer and put th...:  91%|█████████ | 456/500 [2:16:45<14:25, 19.66s/it][A  [OK] Task 3 Ep 456: SUCCESS (steps=177)
+
+open the top drawer and put th...:  91%|█████████▏| 457/500 [2:17:00<13:12, 18.42s/it][A  [OK] Task 3 Ep 457: SUCCESS (steps=176)
+
+open the top drawer and put th...:  92%|█████████▏| 458/500 [2:17:16<12:14, 17.48s/it][A  [OK] Task 3 Ep 458: SUCCESS (steps=195)
+
+open the top drawer and put th...:  92%|█████████▏| 459/500 [2:17:33<11:52, 17.38s/it][A  [OK] Task 3 Ep 459: SUCCESS (steps=182)
+
+open the top drawer and put th...:  92%|█████████▏| 460/500 [2:17:49<11:17, 16.94s/it][A  [OK] Task 3 Ep 460: SUCCESS (steps=186)
+
+open the top drawer and put th...:  92%|█████████▏| 461/500 [2:18:06<11:00, 16.93s/it][A  [OK] Task 3 Ep 461: SUCCESS (steps=190)
+
+open the top drawer and put th...:  92%|█████████▏| 462/500 [2:18:22<10:40, 16.85s/it][A  [OK] Task 3 Ep 462: SUCCESS (steps=178)
+
+open the top drawer and put th...:  93%|█████████▎| 463/500 [2:18:38<10:12, 16.57s/it][A  [OK] Task 3 Ep 463: SUCCESS (steps=185)
+
+open the top drawer and put th...:  93%|█████████▎| 464/500 [2:18:55<09:55, 16.55s/it][A  [OK] Task 3 Ep 464: SUCCESS (steps=172)
+
+open the top drawer and put th...:  93%|█████████▎| 465/500 [2:19:10<09:27, 16.21s/it][A  [OK] Task 3 Ep 465: SUCCESS (steps=178)
+
+open the top drawer and put th...:  93%|█████████▎| 466/500 [2:19:26<09:07, 16.10s/it][A  [FAIL] Task 3 Ep 466: FAILURE (steps=810)
+
+open the top drawer and put th...:  93%|█████████▎| 467/500 [2:20:29<16:35, 30.16s/it][A  [OK] Task 3 Ep 467: SUCCESS (steps=178)
+
+open the top drawer and put th...:  94%|█████████▎| 468/500 [2:20:45<13:48, 25.89s/it][A  [OK] Task 3 Ep 468: SUCCESS (steps=195)
+
+open the top drawer and put th...:  94%|█████████▍| 469/500 [2:21:02<12:03, 23.34s/it][A  [OK] Task 3 Ep 469: SUCCESS (steps=180)
+
+open the top drawer and put th...:  94%|█████████▍| 470/500 [2:21:18<10:33, 21.13s/it][A  [OK] Task 3 Ep 470: SUCCESS (steps=477)
+
+open the top drawer and put th...:  94%|█████████▍| 471/500 [2:21:56<12:35, 26.05s/it][A  [OK] Task 3 Ep 471: SUCCESS (steps=182)
+
+open the top drawer and put th...:  94%|█████████▍| 472/500 [2:22:12<10:45, 23.05s/it][A  [OK] Task 3 Ep 472: SUCCESS (steps=183)
+
+open the top drawer and put th...:  95%|█████████▍| 473/500 [2:22:28<09:26, 21.00s/it][A  [OK] Task 3 Ep 473: SUCCESS (steps=184)
+
+open the top drawer and put th...:  95%|█████████▍| 474/500 [2:22:44<08:27, 19.51s/it][A  [OK] Task 3 Ep 474: SUCCESS (steps=170)
+
+open the top drawer and put th...:  95%|█████████▌| 475/500 [2:23:00<07:38, 18.34s/it][A  [OK] Task 3 Ep 475: SUCCESS (steps=181)
+
+open the top drawer and put th...:  95%|█████████▌| 476/500 [2:23:16<07:03, 17.65s/it][A  [OK] Task 3 Ep 476: SUCCESS (steps=179)
+
+open the top drawer and put th...:  95%|█████████▌| 477/500 [2:23:32<06:33, 17.12s/it][A  [OK] Task 3 Ep 477: SUCCESS (steps=180)
+
+open the top drawer and put th...:  96%|█████████▌| 478/500 [2:23:48<06:09, 16.80s/it][A  [OK] Task 3 Ep 478: SUCCESS (steps=184)
+
+open the top drawer and put th...:  96%|█████████▌| 479/500 [2:24:04<05:52, 16.77s/it][A  [OK] Task 3 Ep 479: SUCCESS (steps=180)
+
+open the top drawer and put th...:  96%|█████████▌| 480/500 [2:24:21<05:34, 16.73s/it][A  [OK] Task 3 Ep 480: SUCCESS (steps=181)
+
+open the top drawer and put th...:  96%|█████████▌| 481/500 [2:24:38<05:17, 16.72s/it][A  [OK] Task 3 Ep 481: SUCCESS (steps=185)
+
+open the top drawer and put th...:  96%|█████████▋| 482/500 [2:24:55<05:04, 16.91s/it][A  [OK] Task 3 Ep 482: SUCCESS (steps=192)
+
+open the top drawer and put th...:  97%|█████████▋| 483/500 [2:25:12<04:48, 16.96s/it][A  [OK] Task 3 Ep 483: SUCCESS (steps=174)
+
+open the top drawer and put th...:  97%|█████████▋| 484/500 [2:25:28<04:25, 16.62s/it][A  [OK] Task 3 Ep 484: SUCCESS (steps=186)
+
+open the top drawer and put th...:  97%|█████████▋| 485/500 [2:25:44<04:08, 16.58s/it][A  [OK] Task 3 Ep 485: SUCCESS (steps=188)
+
+open the top drawer and put th...:  97%|█████████▋| 486/500 [2:26:01<03:52, 16.63s/it][A  [OK] Task 3 Ep 486: SUCCESS (steps=184)
+
+open the top drawer and put th...:  97%|█████████▋| 487/500 [2:26:17<03:35, 16.55s/it][A  [OK] Task 3 Ep 487: SUCCESS (steps=288)
+
+open the top drawer and put th...:  98%|█████████▊| 488/500 [2:26:42<03:46, 18.90s/it][A  [OK] Task 3 Ep 488: SUCCESS (steps=186)
+
+open the top drawer and put th...:  98%|█████████▊| 489/500 [2:26:58<03:20, 18.18s/it][A  [OK] Task 3 Ep 489: SUCCESS (steps=188)
+
+open the top drawer and put th...:  98%|█████████▊| 490/500 [2:27:15<02:55, 17.59s/it][A  [OK] Task 3 Ep 490: SUCCESS (steps=188)
+
+open the top drawer and put th...:  98%|█████████▊| 491/500 [2:27:31<02:35, 17.31s/it][A  [OK] Task 3 Ep 491: SUCCESS (steps=191)
+
+open the top drawer and put th...:  98%|█████████▊| 492/500 [2:27:48<02:17, 17.15s/it][A  [OK] Task 3 Ep 492: SUCCESS (steps=179)
+
+open the top drawer and put th...:  99%|█████████▊| 493/500 [2:28:04<01:56, 16.67s/it][A  [OK] Task 3 Ep 493: SUCCESS (steps=177)
+
+open the top drawer and put th...:  99%|█████████▉| 494/500 [2:28:20<01:38, 16.50s/it][A  [OK] Task 3 Ep 494: SUCCESS (steps=183)
+
+open the top drawer and put th...:  99%|█████████▉| 495/500 [2:28:36<01:22, 16.43s/it][A  [OK] Task 3 Ep 495: SUCCESS (steps=176)
+
+open the top drawer and put th...:  99%|█████████▉| 496/500 [2:28:52<01:05, 16.30s/it][A  [OK] Task 3 Ep 496: SUCCESS (steps=280)
+
+open the top drawer and put th...:  99%|█████████▉| 497/500 [2:29:16<00:55, 18.56s/it][A  [OK] Task 3 Ep 497: SUCCESS (steps=180)
+
+open the top drawer and put th...: 100%|█████████▉| 498/500 [2:29:32<00:35, 17.87s/it][A  [OK] Task 3 Ep 498: SUCCESS (steps=180)
+
+open the top drawer and put th...: 100%|█████████▉| 499/500 [2:29:49<00:17, 17.63s/it][A  [OK] Task 3 Ep 499: SUCCESS (steps=191)
+
+open the top drawer and put th...: 100%|██████████| 500/500 [2:30:06<00:00, 17.51s/it][A
+                                                                                      [A   Task 3: 488/500 (97.6%)
+Tasks:   0%|          | 0/1 [2:30:11<?, ?it/s]
+
+Total success rate: 488/500 (97.6%)

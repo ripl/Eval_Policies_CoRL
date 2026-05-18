@@ -1,0 +1,3008 @@
+Task suite: libero_goal
+Using initial states from /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_goal_5000/libero_goal/put_the_bowl_on_the_stove.pruned_init
+
+Task: put the bowl on the stove
+Starting episode 1...
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 2...
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 3...
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 4...
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 5...
+Success: True
+# episodes completed so far: 5
+# successes: 5 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 6...
+Success: True
+# episodes completed so far: 6
+# successes: 6 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 7...
+Success: True
+# episodes completed so far: 7
+# successes: 7 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 8...
+Success: True
+# episodes completed so far: 8
+# successes: 8 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 9...
+Success: True
+# episodes completed so far: 9
+# successes: 9 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 10...
+Success: True
+# episodes completed so far: 10
+# successes: 10 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 11...
+Success: True
+# episodes completed so far: 11
+# successes: 11 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 12...
+Success: True
+# episodes completed so far: 12
+# successes: 12 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 13...
+Success: True
+# episodes completed so far: 13
+# successes: 13 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 14...
+Success: True
+# episodes completed so far: 14
+# successes: 14 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 15...
+Success: True
+# episodes completed so far: 15
+# successes: 15 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 16...
+Success: True
+# episodes completed so far: 16
+# successes: 16 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 17...
+Success: True
+# episodes completed so far: 17
+# successes: 17 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 18...
+Success: True
+# episodes completed so far: 18
+# successes: 18 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 19...
+Success: True
+# episodes completed so far: 19
+# successes: 19 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 20...
+Success: True
+# episodes completed so far: 20
+# successes: 20 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 21...
+Success: True
+# episodes completed so far: 21
+# successes: 21 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 22...
+Success: True
+# episodes completed so far: 22
+# successes: 22 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 23...
+Success: True
+# episodes completed so far: 23
+# successes: 23 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 24...
+Success: True
+# episodes completed so far: 24
+# successes: 24 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 25...
+Success: True
+# episodes completed so far: 25
+# successes: 25 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 26...
+Success: True
+# episodes completed so far: 26
+# successes: 26 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 27...
+Success: True
+# episodes completed so far: 27
+# successes: 27 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 28...
+Success: True
+# episodes completed so far: 28
+# successes: 28 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 29...
+Success: True
+# episodes completed so far: 29
+# successes: 29 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 30...
+Success: True
+# episodes completed so far: 30
+# successes: 30 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 31...
+Success: True
+# episodes completed so far: 31
+# successes: 31 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 32...
+Success: True
+# episodes completed so far: 32
+# successes: 32 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 33...
+Success: True
+# episodes completed so far: 33
+# successes: 33 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 34...
+Success: True
+# episodes completed so far: 34
+# successes: 34 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 35...
+Success: True
+# episodes completed so far: 35
+# successes: 35 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 36...
+Success: True
+# episodes completed so far: 36
+# successes: 36 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 37...
+Success: True
+# episodes completed so far: 37
+# successes: 37 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 38...
+Success: True
+# episodes completed so far: 38
+# successes: 38 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 39...
+Success: True
+# episodes completed so far: 39
+# successes: 39 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 40...
+Success: True
+# episodes completed so far: 40
+# successes: 40 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 41...
+Success: True
+# episodes completed so far: 41
+# successes: 41 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 42...
+Success: True
+# episodes completed so far: 42
+# successes: 42 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 43...
+Success: True
+# episodes completed so far: 43
+# successes: 43 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 44...
+Success: True
+# episodes completed so far: 44
+# successes: 44 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 45...
+Success: True
+# episodes completed so far: 45
+# successes: 45 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 46...
+Success: True
+# episodes completed so far: 46
+# successes: 46 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 47...
+Success: True
+# episodes completed so far: 47
+# successes: 47 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 48...
+Success: True
+# episodes completed so far: 48
+# successes: 48 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 49...
+Success: True
+# episodes completed so far: 49
+# successes: 49 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 50...
+Success: True
+# episodes completed so far: 50
+# successes: 50 (100.0%)
+
+Task: put the bowl on the stove
+Starting episode 51...
+Success: False
+# episodes completed so far: 51
+# successes: 50 (98.0%)
+
+Task: put the bowl on the stove
+Starting episode 52...
+Success: True
+# episodes completed so far: 52
+# successes: 51 (98.1%)
+
+Task: put the bowl on the stove
+Starting episode 53...
+Success: True
+# episodes completed so far: 53
+# successes: 52 (98.1%)
+
+Task: put the bowl on the stove
+Starting episode 54...
+Success: True
+# episodes completed so far: 54
+# successes: 53 (98.1%)
+
+Task: put the bowl on the stove
+Starting episode 55...
+Success: True
+# episodes completed so far: 55
+# successes: 54 (98.2%)
+
+Task: put the bowl on the stove
+Starting episode 56...
+Success: True
+# episodes completed so far: 56
+# successes: 55 (98.2%)
+
+Task: put the bowl on the stove
+Starting episode 57...
+Success: True
+# episodes completed so far: 57
+# successes: 56 (98.2%)
+
+Task: put the bowl on the stove
+Starting episode 58...
+Success: True
+# episodes completed so far: 58
+# successes: 57 (98.3%)
+
+Task: put the bowl on the stove
+Starting episode 59...
+Success: True
+# episodes completed so far: 59
+# successes: 58 (98.3%)
+
+Task: put the bowl on the stove
+Starting episode 60...
+Success: True
+# episodes completed so far: 60
+# successes: 59 (98.3%)
+
+Task: put the bowl on the stove
+Starting episode 61...
+Success: True
+# episodes completed so far: 61
+# successes: 60 (98.4%)
+
+Task: put the bowl on the stove
+Starting episode 62...
+Success: True
+# episodes completed so far: 62
+# successes: 61 (98.4%)
+
+Task: put the bowl on the stove
+Starting episode 63...
+Success: True
+# episodes completed so far: 63
+# successes: 62 (98.4%)
+
+Task: put the bowl on the stove
+Starting episode 64...
+Success: True
+# episodes completed so far: 64
+# successes: 63 (98.4%)
+
+Task: put the bowl on the stove
+Starting episode 65...
+Success: True
+# episodes completed so far: 65
+# successes: 64 (98.5%)
+
+Task: put the bowl on the stove
+Starting episode 66...
+Success: True
+# episodes completed so far: 66
+# successes: 65 (98.5%)
+
+Task: put the bowl on the stove
+Starting episode 67...
+Success: True
+# episodes completed so far: 67
+# successes: 66 (98.5%)
+
+Task: put the bowl on the stove
+Starting episode 68...
+Success: True
+# episodes completed so far: 68
+# successes: 67 (98.5%)
+
+Task: put the bowl on the stove
+Starting episode 69...
+Success: True
+# episodes completed so far: 69
+# successes: 68 (98.6%)
+
+Task: put the bowl on the stove
+Starting episode 70...
+Success: True
+# episodes completed so far: 70
+# successes: 69 (98.6%)
+
+Task: put the bowl on the stove
+Starting episode 71...
+Success: True
+# episodes completed so far: 71
+# successes: 70 (98.6%)
+
+Task: put the bowl on the stove
+Starting episode 72...
+Success: True
+# episodes completed so far: 72
+# successes: 71 (98.6%)
+
+Task: put the bowl on the stove
+Starting episode 73...
+Success: True
+# episodes completed so far: 73
+# successes: 72 (98.6%)
+
+Task: put the bowl on the stove
+Starting episode 74...
+Success: True
+# episodes completed so far: 74
+# successes: 73 (98.6%)
+
+Task: put the bowl on the stove
+Starting episode 75...
+Success: True
+# episodes completed so far: 75
+# successes: 74 (98.7%)
+
+Task: put the bowl on the stove
+Starting episode 76...
+Success: True
+# episodes completed so far: 76
+# successes: 75 (98.7%)
+
+Task: put the bowl on the stove
+Starting episode 77...
+Success: True
+# episodes completed so far: 77
+# successes: 76 (98.7%)
+
+Task: put the bowl on the stove
+Starting episode 78...
+Success: True
+# episodes completed so far: 78
+# successes: 77 (98.7%)
+
+Task: put the bowl on the stove
+Starting episode 79...
+Success: True
+# episodes completed so far: 79
+# successes: 78 (98.7%)
+
+Task: put the bowl on the stove
+Starting episode 80...
+Success: True
+# episodes completed so far: 80
+# successes: 79 (98.8%)
+
+Task: put the bowl on the stove
+Starting episode 81...
+Success: True
+# episodes completed so far: 81
+# successes: 80 (98.8%)
+
+Task: put the bowl on the stove
+Starting episode 82...
+Success: True
+# episodes completed so far: 82
+# successes: 81 (98.8%)
+
+Task: put the bowl on the stove
+Starting episode 83...
+Success: True
+# episodes completed so far: 83
+# successes: 82 (98.8%)
+
+Task: put the bowl on the stove
+Starting episode 84...
+Success: True
+# episodes completed so far: 84
+# successes: 83 (98.8%)
+
+Task: put the bowl on the stove
+Starting episode 85...
+Success: True
+# episodes completed so far: 85
+# successes: 84 (98.8%)
+
+Task: put the bowl on the stove
+Starting episode 86...
+Success: True
+# episodes completed so far: 86
+# successes: 85 (98.8%)
+
+Task: put the bowl on the stove
+Starting episode 87...
+Success: True
+# episodes completed so far: 87
+# successes: 86 (98.9%)
+
+Task: put the bowl on the stove
+Starting episode 88...
+Success: True
+# episodes completed so far: 88
+# successes: 87 (98.9%)
+
+Task: put the bowl on the stove
+Starting episode 89...
+Success: True
+# episodes completed so far: 89
+# successes: 88 (98.9%)
+
+Task: put the bowl on the stove
+Starting episode 90...
+Success: True
+# episodes completed so far: 90
+# successes: 89 (98.9%)
+
+Task: put the bowl on the stove
+Starting episode 91...
+Success: True
+# episodes completed so far: 91
+# successes: 90 (98.9%)
+
+Task: put the bowl on the stove
+Starting episode 92...
+Success: True
+# episodes completed so far: 92
+# successes: 91 (98.9%)
+
+Task: put the bowl on the stove
+Starting episode 93...
+Success: True
+# episodes completed so far: 93
+# successes: 92 (98.9%)
+
+Task: put the bowl on the stove
+Starting episode 94...
+Success: True
+# episodes completed so far: 94
+# successes: 93 (98.9%)
+
+Task: put the bowl on the stove
+Starting episode 95...
+Success: True
+# episodes completed so far: 95
+# successes: 94 (98.9%)
+
+Task: put the bowl on the stove
+Starting episode 96...
+Success: True
+# episodes completed so far: 96
+# successes: 95 (99.0%)
+
+Task: put the bowl on the stove
+Starting episode 97...
+Success: True
+# episodes completed so far: 97
+# successes: 96 (99.0%)
+
+Task: put the bowl on the stove
+Starting episode 98...
+Success: True
+# episodes completed so far: 98
+# successes: 97 (99.0%)
+
+Task: put the bowl on the stove
+Starting episode 99...
+Success: True
+# episodes completed so far: 99
+# successes: 98 (99.0%)
+
+Task: put the bowl on the stove
+Starting episode 100...
+Success: True
+# episodes completed so far: 100
+# successes: 99 (99.0%)
+
+Task: put the bowl on the stove
+Starting episode 101...
+Success: True
+# episodes completed so far: 101
+# successes: 100 (99.0%)
+
+Task: put the bowl on the stove
+Starting episode 102...
+Success: True
+# episodes completed so far: 102
+# successes: 101 (99.0%)
+
+Task: put the bowl on the stove
+Starting episode 103...
+Success: True
+# episodes completed so far: 103
+# successes: 102 (99.0%)
+
+Task: put the bowl on the stove
+Starting episode 104...
+Success: True
+# episodes completed so far: 104
+# successes: 103 (99.0%)
+
+Task: put the bowl on the stove
+Starting episode 105...
+Success: True
+# episodes completed so far: 105
+# successes: 104 (99.0%)
+
+Task: put the bowl on the stove
+Starting episode 106...
+Success: True
+# episodes completed so far: 106
+# successes: 105 (99.1%)
+
+Task: put the bowl on the stove
+Starting episode 107...
+Success: True
+# episodes completed so far: 107
+# successes: 106 (99.1%)
+
+Task: put the bowl on the stove
+Starting episode 108...
+Success: True
+# episodes completed so far: 108
+# successes: 107 (99.1%)
+
+Task: put the bowl on the stove
+Starting episode 109...
+Success: True
+# episodes completed so far: 109
+# successes: 108 (99.1%)
+
+Task: put the bowl on the stove
+Starting episode 110...
+Success: True
+# episodes completed so far: 110
+# successes: 109 (99.1%)
+
+Task: put the bowl on the stove
+Starting episode 111...
+Success: True
+# episodes completed so far: 111
+# successes: 110 (99.1%)
+
+Task: put the bowl on the stove
+Starting episode 112...
+Success: True
+# episodes completed so far: 112
+# successes: 111 (99.1%)
+
+Task: put the bowl on the stove
+Starting episode 113...
+Success: True
+# episodes completed so far: 113
+# successes: 112 (99.1%)
+
+Task: put the bowl on the stove
+Starting episode 114...
+Success: True
+# episodes completed so far: 114
+# successes: 113 (99.1%)
+
+Task: put the bowl on the stove
+Starting episode 115...
+Success: True
+# episodes completed so far: 115
+# successes: 114 (99.1%)
+
+Task: put the bowl on the stove
+Starting episode 116...
+Success: True
+# episodes completed so far: 116
+# successes: 115 (99.1%)
+
+Task: put the bowl on the stove
+Starting episode 117...
+Success: True
+# episodes completed so far: 117
+# successes: 116 (99.1%)
+
+Task: put the bowl on the stove
+Starting episode 118...
+Success: True
+# episodes completed so far: 118
+# successes: 117 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 119...
+Success: True
+# episodes completed so far: 119
+# successes: 118 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 120...
+Success: True
+# episodes completed so far: 120
+# successes: 119 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 121...
+Success: True
+# episodes completed so far: 121
+# successes: 120 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 122...
+Success: True
+# episodes completed so far: 122
+# successes: 121 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 123...
+Success: True
+# episodes completed so far: 123
+# successes: 122 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 124...
+Success: True
+# episodes completed so far: 124
+# successes: 123 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 125...
+Success: True
+# episodes completed so far: 125
+# successes: 124 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 126...
+Success: True
+# episodes completed so far: 126
+# successes: 125 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 127...
+Success: True
+# episodes completed so far: 127
+# successes: 126 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 128...
+Success: True
+# episodes completed so far: 128
+# successes: 127 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 129...
+Success: True
+# episodes completed so far: 129
+# successes: 128 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 130...
+Success: True
+# episodes completed so far: 130
+# successes: 129 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 131...
+Success: True
+# episodes completed so far: 131
+# successes: 130 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 132...
+Success: True
+# episodes completed so far: 132
+# successes: 131 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 133...
+Success: True
+# episodes completed so far: 133
+# successes: 132 (99.2%)
+
+Task: put the bowl on the stove
+Starting episode 134...
+Success: True
+# episodes completed so far: 134
+# successes: 133 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 135...
+Success: True
+# episodes completed so far: 135
+# successes: 134 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 136...
+Success: True
+# episodes completed so far: 136
+# successes: 135 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 137...
+Success: True
+# episodes completed so far: 137
+# successes: 136 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 138...
+Success: True
+# episodes completed so far: 138
+# successes: 137 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 139...
+Success: True
+# episodes completed so far: 139
+# successes: 138 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 140...
+Success: True
+# episodes completed so far: 140
+# successes: 139 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 141...
+Success: True
+# episodes completed so far: 141
+# successes: 140 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 142...
+Success: True
+# episodes completed so far: 142
+# successes: 141 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 143...
+Success: True
+# episodes completed so far: 143
+# successes: 142 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 144...
+Success: True
+# episodes completed so far: 144
+# successes: 143 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 145...
+Success: True
+# episodes completed so far: 145
+# successes: 144 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 146...
+Success: True
+# episodes completed so far: 146
+# successes: 145 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 147...
+Success: True
+# episodes completed so far: 147
+# successes: 146 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 148...
+Success: True
+# episodes completed so far: 148
+# successes: 147 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 149...
+Success: True
+# episodes completed so far: 149
+# successes: 148 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 150...
+Success: True
+# episodes completed so far: 150
+# successes: 149 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 151...
+Success: True
+# episodes completed so far: 151
+# successes: 150 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 152...
+Success: True
+# episodes completed so far: 152
+# successes: 151 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 153...
+Success: True
+# episodes completed so far: 153
+# successes: 152 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 154...
+Success: True
+# episodes completed so far: 154
+# successes: 153 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 155...
+Success: True
+# episodes completed so far: 155
+# successes: 154 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 156...
+Success: True
+# episodes completed so far: 156
+# successes: 155 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 157...
+Success: True
+# episodes completed so far: 157
+# successes: 156 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 158...
+Success: True
+# episodes completed so far: 158
+# successes: 157 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 159...
+Success: True
+# episodes completed so far: 159
+# successes: 158 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 160...
+Success: True
+# episodes completed so far: 160
+# successes: 159 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 161...
+Success: True
+# episodes completed so far: 161
+# successes: 160 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 162...
+Success: True
+# episodes completed so far: 162
+# successes: 161 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 163...
+Success: True
+# episodes completed so far: 163
+# successes: 162 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 164...
+Success: True
+# episodes completed so far: 164
+# successes: 163 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 165...
+Success: True
+# episodes completed so far: 165
+# successes: 164 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 166...
+Success: True
+# episodes completed so far: 166
+# successes: 165 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 167...
+Success: True
+# episodes completed so far: 167
+# successes: 166 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 168...
+Success: True
+# episodes completed so far: 168
+# successes: 167 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 169...
+Success: True
+# episodes completed so far: 169
+# successes: 168 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 170...
+Success: True
+# episodes completed so far: 170
+# successes: 169 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 171...
+Success: True
+# episodes completed so far: 171
+# successes: 170 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 172...
+Success: True
+# episodes completed so far: 172
+# successes: 171 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 173...
+Success: True
+# episodes completed so far: 173
+# successes: 172 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 174...
+Success: True
+# episodes completed so far: 174
+# successes: 173 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 175...
+Success: True
+# episodes completed so far: 175
+# successes: 174 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 176...
+Success: True
+# episodes completed so far: 176
+# successes: 175 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 177...
+Success: True
+# episodes completed so far: 177
+# successes: 176 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 178...
+Success: True
+# episodes completed so far: 178
+# successes: 177 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 179...
+Success: True
+# episodes completed so far: 179
+# successes: 178 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 180...
+Success: True
+# episodes completed so far: 180
+# successes: 179 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 181...
+Success: True
+# episodes completed so far: 181
+# successes: 180 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 182...
+Success: True
+# episodes completed so far: 182
+# successes: 181 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 183...
+Success: True
+# episodes completed so far: 183
+# successes: 182 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 184...
+Success: True
+# episodes completed so far: 184
+# successes: 183 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 185...
+Success: True
+# episodes completed so far: 185
+# successes: 184 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 186...
+Success: True
+# episodes completed so far: 186
+# successes: 185 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 187...
+Success: True
+# episodes completed so far: 187
+# successes: 186 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 188...
+Success: True
+# episodes completed so far: 188
+# successes: 187 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 189...
+Success: True
+# episodes completed so far: 189
+# successes: 188 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 190...
+Success: True
+# episodes completed so far: 190
+# successes: 189 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 191...
+Success: True
+# episodes completed so far: 191
+# successes: 190 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 192...
+Success: True
+# episodes completed so far: 192
+# successes: 191 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 193...
+Success: True
+# episodes completed so far: 193
+# successes: 192 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 194...
+Success: True
+# episodes completed so far: 194
+# successes: 193 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 195...
+Success: True
+# episodes completed so far: 195
+# successes: 194 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 196...
+Success: True
+# episodes completed so far: 196
+# successes: 195 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 197...
+Success: True
+# episodes completed so far: 197
+# successes: 196 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 198...
+Success: True
+# episodes completed so far: 198
+# successes: 197 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 199...
+Success: True
+# episodes completed so far: 199
+# successes: 198 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 200...
+Success: True
+# episodes completed so far: 200
+# successes: 199 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 201...
+Success: True
+# episodes completed so far: 201
+# successes: 200 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 202...
+Success: True
+# episodes completed so far: 202
+# successes: 201 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 203...
+Success: True
+# episodes completed so far: 203
+# successes: 202 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 204...
+Success: True
+# episodes completed so far: 204
+# successes: 203 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 205...
+Success: True
+# episodes completed so far: 205
+# successes: 204 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 206...
+Success: True
+# episodes completed so far: 206
+# successes: 205 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 207...
+Success: True
+# episodes completed so far: 207
+# successes: 206 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 208...
+Success: True
+# episodes completed so far: 208
+# successes: 207 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 209...
+Success: True
+# episodes completed so far: 209
+# successes: 208 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 210...
+Success: True
+# episodes completed so far: 210
+# successes: 209 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 211...
+Success: True
+# episodes completed so far: 211
+# successes: 210 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 212...
+Success: True
+# episodes completed so far: 212
+# successes: 211 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 213...
+Success: True
+# episodes completed so far: 213
+# successes: 212 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 214...
+Success: True
+# episodes completed so far: 214
+# successes: 213 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 215...
+Success: True
+# episodes completed so far: 215
+# successes: 214 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 216...
+Success: True
+# episodes completed so far: 216
+# successes: 215 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 217...
+Success: True
+# episodes completed so far: 217
+# successes: 216 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 218...
+Success: True
+# episodes completed so far: 218
+# successes: 217 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 219...
+Success: True
+# episodes completed so far: 219
+# successes: 218 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 220...
+Success: True
+# episodes completed so far: 220
+# successes: 219 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 221...
+Success: True
+# episodes completed so far: 221
+# successes: 220 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 222...
+Success: True
+# episodes completed so far: 222
+# successes: 221 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 223...
+Success: True
+# episodes completed so far: 223
+# successes: 222 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 224...
+Success: True
+# episodes completed so far: 224
+# successes: 223 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 225...
+Success: True
+# episodes completed so far: 225
+# successes: 224 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 226...
+Success: True
+# episodes completed so far: 226
+# successes: 225 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 227...
+Success: True
+# episodes completed so far: 227
+# successes: 226 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 228...
+Success: True
+# episodes completed so far: 228
+# successes: 227 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 229...
+Success: True
+# episodes completed so far: 229
+# successes: 228 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 230...
+Success: True
+# episodes completed so far: 230
+# successes: 229 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 231...
+Success: True
+# episodes completed so far: 231
+# successes: 230 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 232...
+Success: True
+# episodes completed so far: 232
+# successes: 231 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 233...
+Success: True
+# episodes completed so far: 233
+# successes: 232 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 234...
+Success: True
+# episodes completed so far: 234
+# successes: 233 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 235...
+Success: True
+# episodes completed so far: 235
+# successes: 234 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 236...
+Success: True
+# episodes completed so far: 236
+# successes: 235 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 237...
+Success: True
+# episodes completed so far: 237
+# successes: 236 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 238...
+Success: True
+# episodes completed so far: 238
+# successes: 237 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 239...
+Success: True
+# episodes completed so far: 239
+# successes: 238 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 240...
+Success: True
+# episodes completed so far: 240
+# successes: 239 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 241...
+Success: True
+# episodes completed so far: 241
+# successes: 240 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 242...
+Success: True
+# episodes completed so far: 242
+# successes: 241 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 243...
+Success: True
+# episodes completed so far: 243
+# successes: 242 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 244...
+Success: True
+# episodes completed so far: 244
+# successes: 243 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 245...
+Success: True
+# episodes completed so far: 245
+# successes: 244 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 246...
+Success: True
+# episodes completed so far: 246
+# successes: 245 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 247...
+Success: True
+# episodes completed so far: 247
+# successes: 246 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 248...
+Success: True
+# episodes completed so far: 248
+# successes: 247 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 249...
+Success: True
+# episodes completed so far: 249
+# successes: 248 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 250...
+Success: True
+# episodes completed so far: 250
+# successes: 249 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 251...
+Success: True
+# episodes completed so far: 251
+# successes: 250 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 252...
+Success: True
+# episodes completed so far: 252
+# successes: 251 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 253...
+Success: True
+# episodes completed so far: 253
+# successes: 252 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 254...
+Success: True
+# episodes completed so far: 254
+# successes: 253 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 255...
+Success: True
+# episodes completed so far: 255
+# successes: 254 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 256...
+Success: True
+# episodes completed so far: 256
+# successes: 255 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 257...
+Success: True
+# episodes completed so far: 257
+# successes: 256 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 258...
+Success: True
+# episodes completed so far: 258
+# successes: 257 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 259...
+Success: True
+# episodes completed so far: 259
+# successes: 258 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 260...
+Success: True
+# episodes completed so far: 260
+# successes: 259 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 261...
+Success: True
+# episodes completed so far: 261
+# successes: 260 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 262...
+Success: True
+# episodes completed so far: 262
+# successes: 261 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 263...
+Success: True
+# episodes completed so far: 263
+# successes: 262 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 264...
+Success: True
+# episodes completed so far: 264
+# successes: 263 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 265...
+Success: True
+# episodes completed so far: 265
+# successes: 264 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 266...
+Success: True
+# episodes completed so far: 266
+# successes: 265 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 267...
+Success: True
+# episodes completed so far: 267
+# successes: 266 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 268...
+Success: True
+# episodes completed so far: 268
+# successes: 267 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 269...
+Success: True
+# episodes completed so far: 269
+# successes: 268 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 270...
+Success: True
+# episodes completed so far: 270
+# successes: 269 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 271...
+Success: True
+# episodes completed so far: 271
+# successes: 270 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 272...
+Success: True
+# episodes completed so far: 272
+# successes: 271 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 273...
+Success: True
+# episodes completed so far: 273
+# successes: 272 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 274...
+Success: True
+# episodes completed so far: 274
+# successes: 273 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 275...
+Success: True
+# episodes completed so far: 275
+# successes: 274 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 276...
+Success: True
+# episodes completed so far: 276
+# successes: 275 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 277...
+Success: True
+# episodes completed so far: 277
+# successes: 276 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 278...
+Success: True
+# episodes completed so far: 278
+# successes: 277 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 279...
+Success: True
+# episodes completed so far: 279
+# successes: 278 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 280...
+Success: True
+# episodes completed so far: 280
+# successes: 279 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 281...
+Success: True
+# episodes completed so far: 281
+# successes: 280 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 282...
+Success: True
+# episodes completed so far: 282
+# successes: 281 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 283...
+Success: True
+# episodes completed so far: 283
+# successes: 282 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 284...
+Success: True
+# episodes completed so far: 284
+# successes: 283 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 285...
+Success: True
+# episodes completed so far: 285
+# successes: 284 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 286...
+Success: True
+# episodes completed so far: 286
+# successes: 285 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 287...
+Success: True
+# episodes completed so far: 287
+# successes: 286 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 288...
+Success: True
+# episodes completed so far: 288
+# successes: 287 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 289...
+Success: True
+# episodes completed so far: 289
+# successes: 288 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 290...
+Success: True
+# episodes completed so far: 290
+# successes: 289 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 291...
+Success: True
+# episodes completed so far: 291
+# successes: 290 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 292...
+Success: True
+# episodes completed so far: 292
+# successes: 291 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 293...
+Success: True
+# episodes completed so far: 293
+# successes: 292 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 294...
+Success: True
+# episodes completed so far: 294
+# successes: 293 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 295...
+Success: True
+# episodes completed so far: 295
+# successes: 294 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 296...
+Success: True
+# episodes completed so far: 296
+# successes: 295 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 297...
+Success: True
+# episodes completed so far: 297
+# successes: 296 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 298...
+Success: True
+# episodes completed so far: 298
+# successes: 297 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 299...
+Success: True
+# episodes completed so far: 299
+# successes: 298 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 300...
+Success: True
+# episodes completed so far: 300
+# successes: 299 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 301...
+Success: True
+# episodes completed so far: 301
+# successes: 300 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 302...
+Success: True
+# episodes completed so far: 302
+# successes: 301 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 303...
+Success: True
+# episodes completed so far: 303
+# successes: 302 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 304...
+Success: True
+# episodes completed so far: 304
+# successes: 303 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 305...
+Success: True
+# episodes completed so far: 305
+# successes: 304 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 306...
+Success: True
+# episodes completed so far: 306
+# successes: 305 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 307...
+Success: True
+# episodes completed so far: 307
+# successes: 306 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 308...
+Success: True
+# episodes completed so far: 308
+# successes: 307 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 309...
+Success: True
+# episodes completed so far: 309
+# successes: 308 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 310...
+Success: True
+# episodes completed so far: 310
+# successes: 309 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 311...
+Success: True
+# episodes completed so far: 311
+# successes: 310 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 312...
+Success: True
+# episodes completed so far: 312
+# successes: 311 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 313...
+Success: True
+# episodes completed so far: 313
+# successes: 312 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 314...
+Success: True
+# episodes completed so far: 314
+# successes: 313 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 315...
+Success: True
+# episodes completed so far: 315
+# successes: 314 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 316...
+Success: True
+# episodes completed so far: 316
+# successes: 315 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 317...
+Success: True
+# episodes completed so far: 317
+# successes: 316 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 318...
+Success: True
+# episodes completed so far: 318
+# successes: 317 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 319...
+Success: True
+# episodes completed so far: 319
+# successes: 318 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 320...
+Success: True
+# episodes completed so far: 320
+# successes: 319 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 321...
+Success: True
+# episodes completed so far: 321
+# successes: 320 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 322...
+Success: True
+# episodes completed so far: 322
+# successes: 321 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 323...
+Success: True
+# episodes completed so far: 323
+# successes: 322 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 324...
+Success: True
+# episodes completed so far: 324
+# successes: 323 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 325...
+Success: True
+# episodes completed so far: 325
+# successes: 324 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 326...
+Success: True
+# episodes completed so far: 326
+# successes: 325 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 327...
+Success: True
+# episodes completed so far: 327
+# successes: 326 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 328...
+Success: True
+# episodes completed so far: 328
+# successes: 327 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 329...
+Success: True
+# episodes completed so far: 329
+# successes: 328 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 330...
+Success: True
+# episodes completed so far: 330
+# successes: 329 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 331...
+Success: True
+# episodes completed so far: 331
+# successes: 330 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 332...
+Success: True
+# episodes completed so far: 332
+# successes: 331 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 333...
+Success: True
+# episodes completed so far: 333
+# successes: 332 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 334...
+Success: True
+# episodes completed so far: 334
+# successes: 333 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 335...
+Success: True
+# episodes completed so far: 335
+# successes: 334 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 336...
+Success: True
+# episodes completed so far: 336
+# successes: 335 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 337...
+Success: True
+# episodes completed so far: 337
+# successes: 336 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 338...
+Success: True
+# episodes completed so far: 338
+# successes: 337 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 339...
+Success: True
+# episodes completed so far: 339
+# successes: 338 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 340...
+Success: True
+# episodes completed so far: 340
+# successes: 339 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 341...
+Success: True
+# episodes completed so far: 341
+# successes: 340 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 342...
+Success: True
+# episodes completed so far: 342
+# successes: 341 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 343...
+Success: True
+# episodes completed so far: 343
+# successes: 342 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 344...
+Success: True
+# episodes completed so far: 344
+# successes: 343 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 345...
+Success: True
+# episodes completed so far: 345
+# successes: 344 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 346...
+Success: True
+# episodes completed so far: 346
+# successes: 345 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 347...
+Success: True
+# episodes completed so far: 347
+# successes: 346 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 348...
+Success: True
+# episodes completed so far: 348
+# successes: 347 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 349...
+Success: True
+# episodes completed so far: 349
+# successes: 348 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 350...
+Success: True
+# episodes completed so far: 350
+# successes: 349 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 351...
+Success: True
+# episodes completed so far: 351
+# successes: 350 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 352...
+Success: True
+# episodes completed so far: 352
+# successes: 351 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 353...
+Success: True
+# episodes completed so far: 353
+# successes: 352 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 354...
+Success: True
+# episodes completed so far: 354
+# successes: 353 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 355...
+Success: True
+# episodes completed so far: 355
+# successes: 354 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 356...
+Success: True
+# episodes completed so far: 356
+# successes: 355 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 357...
+Success: True
+# episodes completed so far: 357
+# successes: 356 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 358...
+Success: True
+# episodes completed so far: 358
+# successes: 357 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 359...
+Success: True
+# episodes completed so far: 359
+# successes: 358 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 360...
+Success: True
+# episodes completed so far: 360
+# successes: 359 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 361...
+Success: True
+# episodes completed so far: 361
+# successes: 360 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 362...
+Success: True
+# episodes completed so far: 362
+# successes: 361 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 363...
+Success: True
+# episodes completed so far: 363
+# successes: 362 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 364...
+Success: True
+# episodes completed so far: 364
+# successes: 363 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 365...
+Success: True
+# episodes completed so far: 365
+# successes: 364 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 366...
+Success: True
+# episodes completed so far: 366
+# successes: 365 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 367...
+Success: True
+# episodes completed so far: 367
+# successes: 366 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 368...
+Success: True
+# episodes completed so far: 368
+# successes: 367 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 369...
+Success: True
+# episodes completed so far: 369
+# successes: 368 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 370...
+Success: True
+# episodes completed so far: 370
+# successes: 369 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 371...
+Success: True
+# episodes completed so far: 371
+# successes: 370 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 372...
+Success: True
+# episodes completed so far: 372
+# successes: 371 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 373...
+Success: True
+# episodes completed so far: 373
+# successes: 372 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 374...
+Success: True
+# episodes completed so far: 374
+# successes: 373 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 375...
+Success: True
+# episodes completed so far: 375
+# successes: 374 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 376...
+Success: True
+# episodes completed so far: 376
+# successes: 375 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 377...
+Success: True
+# episodes completed so far: 377
+# successes: 376 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 378...
+Success: True
+# episodes completed so far: 378
+# successes: 377 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 379...
+Success: True
+# episodes completed so far: 379
+# successes: 378 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 380...
+Success: True
+# episodes completed so far: 380
+# successes: 379 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 381...
+Success: True
+# episodes completed so far: 381
+# successes: 380 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 382...
+Success: True
+# episodes completed so far: 382
+# successes: 381 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 383...
+Success: True
+# episodes completed so far: 383
+# successes: 382 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 384...
+Success: True
+# episodes completed so far: 384
+# successes: 383 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 385...
+Success: True
+# episodes completed so far: 385
+# successes: 384 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 386...
+Success: True
+# episodes completed so far: 386
+# successes: 385 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 387...
+Success: True
+# episodes completed so far: 387
+# successes: 386 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 388...
+Success: True
+# episodes completed so far: 388
+# successes: 387 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 389...
+Success: True
+# episodes completed so far: 389
+# successes: 388 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 390...
+Success: True
+# episodes completed so far: 390
+# successes: 389 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 391...
+Success: True
+# episodes completed so far: 391
+# successes: 390 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 392...
+Success: True
+# episodes completed so far: 392
+# successes: 391 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 393...
+Success: True
+# episodes completed so far: 393
+# successes: 392 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 394...
+Success: True
+# episodes completed so far: 394
+# successes: 393 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 395...
+Success: True
+# episodes completed so far: 395
+# successes: 394 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 396...
+Success: True
+# episodes completed so far: 396
+# successes: 395 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 397...
+Success: True
+# episodes completed so far: 397
+# successes: 396 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 398...
+Success: True
+# episodes completed so far: 398
+# successes: 397 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 399...
+Success: True
+# episodes completed so far: 399
+# successes: 398 (99.7%)
+
+Task: put the bowl on the stove
+Starting episode 400...
+Success: True
+# episodes completed so far: 400
+# successes: 399 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 401...
+Success: True
+# episodes completed so far: 401
+# successes: 400 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 402...
+Success: True
+# episodes completed so far: 402
+# successes: 401 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 403...
+Success: True
+# episodes completed so far: 403
+# successes: 402 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 404...
+Success: True
+# episodes completed so far: 404
+# successes: 403 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 405...
+Success: True
+# episodes completed so far: 405
+# successes: 404 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 406...
+Success: True
+# episodes completed so far: 406
+# successes: 405 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 407...
+Success: True
+# episodes completed so far: 407
+# successes: 406 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 408...
+Success: True
+# episodes completed so far: 408
+# successes: 407 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 409...
+Success: True
+# episodes completed so far: 409
+# successes: 408 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 410...
+Success: True
+# episodes completed so far: 410
+# successes: 409 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 411...
+Success: True
+# episodes completed so far: 411
+# successes: 410 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 412...
+Success: True
+# episodes completed so far: 412
+# successes: 411 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 413...
+Success: True
+# episodes completed so far: 413
+# successes: 412 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 414...
+Success: True
+# episodes completed so far: 414
+# successes: 413 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 415...
+Success: True
+# episodes completed so far: 415
+# successes: 414 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 416...
+Success: True
+# episodes completed so far: 416
+# successes: 415 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 417...
+Success: True
+# episodes completed so far: 417
+# successes: 416 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 418...
+Success: True
+# episodes completed so far: 418
+# successes: 417 (99.8%)
+
+Task: put the bowl on the stove
+Starting episode 419...
+Success: False
+# episodes completed so far: 419
+# successes: 417 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 420...
+Success: True
+# episodes completed so far: 420
+# successes: 418 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 421...
+Success: True
+# episodes completed so far: 421
+# successes: 419 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 422...
+Success: True
+# episodes completed so far: 422
+# successes: 420 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 423...
+Success: True
+# episodes completed so far: 423
+# successes: 421 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 424...
+Success: True
+# episodes completed so far: 424
+# successes: 422 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 425...
+Success: True
+# episodes completed so far: 425
+# successes: 423 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 426...
+Success: True
+# episodes completed so far: 426
+# successes: 424 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 427...
+Success: True
+# episodes completed so far: 427
+# successes: 425 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 428...
+Success: True
+# episodes completed so far: 428
+# successes: 426 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 429...
+Success: True
+# episodes completed so far: 429
+# successes: 427 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 430...
+Success: True
+# episodes completed so far: 430
+# successes: 428 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 431...
+Success: True
+# episodes completed so far: 431
+# successes: 429 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 432...
+Success: True
+# episodes completed so far: 432
+# successes: 430 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 433...
+Success: True
+# episodes completed so far: 433
+# successes: 431 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 434...
+Success: True
+# episodes completed so far: 434
+# successes: 432 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 435...
+Success: True
+# episodes completed so far: 435
+# successes: 433 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 436...
+Success: True
+# episodes completed so far: 436
+# successes: 434 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 437...
+Success: True
+# episodes completed so far: 437
+# successes: 435 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 438...
+Success: True
+# episodes completed so far: 438
+# successes: 436 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 439...
+Success: True
+# episodes completed so far: 439
+# successes: 437 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 440...
+Success: True
+# episodes completed so far: 440
+# successes: 438 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 441...
+Success: True
+# episodes completed so far: 441
+# successes: 439 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 442...
+Success: True
+# episodes completed so far: 442
+# successes: 440 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 443...
+Success: True
+# episodes completed so far: 443
+# successes: 441 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 444...
+Success: True
+# episodes completed so far: 444
+# successes: 442 (99.5%)
+
+Task: put the bowl on the stove
+Starting episode 445...
+Success: True
+# episodes completed so far: 445
+# successes: 443 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 446...
+Success: True
+# episodes completed so far: 446
+# successes: 444 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 447...
+Success: True
+# episodes completed so far: 447
+# successes: 445 (99.6%)
+
+Task: put the bowl on the stove
+Starting episode 448...
+Success: False
+# episodes completed so far: 448
+# successes: 445 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 449...
+Success: True
+# episodes completed so far: 449
+# successes: 446 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 450...
+Success: True
+# episodes completed so far: 450
+# successes: 447 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 451...
+Success: True
+# episodes completed so far: 451
+# successes: 448 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 452...
+Success: True
+# episodes completed so far: 452
+# successes: 449 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 453...
+Success: True
+# episodes completed so far: 453
+# successes: 450 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 454...
+Success: True
+# episodes completed so far: 454
+# successes: 451 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 455...
+Success: True
+# episodes completed so far: 455
+# successes: 452 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 456...
+Success: True
+# episodes completed so far: 456
+# successes: 453 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 457...
+Success: True
+# episodes completed so far: 457
+# successes: 454 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 458...
+Success: True
+# episodes completed so far: 458
+# successes: 455 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 459...
+Success: True
+# episodes completed so far: 459
+# successes: 456 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 460...
+Success: True
+# episodes completed so far: 460
+# successes: 457 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 461...
+Success: True
+# episodes completed so far: 461
+# successes: 458 (99.3%)
+
+Task: put the bowl on the stove
+Starting episode 462...
+Success: True
+# episodes completed so far: 462
+# successes: 459 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 463...
+Success: True
+# episodes completed so far: 463
+# successes: 460 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 464...
+Success: True
+# episodes completed so far: 464
+# successes: 461 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 465...
+Success: True
+# episodes completed so far: 465
+# successes: 462 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 466...
+Success: True
+# episodes completed so far: 466
+# successes: 463 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 467...
+Success: True
+# episodes completed so far: 467
+# successes: 464 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 468...
+Success: True
+# episodes completed so far: 468
+# successes: 465 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 469...
+Success: True
+# episodes completed so far: 469
+# successes: 466 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 470...
+Success: True
+# episodes completed so far: 470
+# successes: 467 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 471...
+Success: True
+# episodes completed so far: 471
+# successes: 468 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 472...
+Success: True
+# episodes completed so far: 472
+# successes: 469 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 473...
+Success: True
+# episodes completed so far: 473
+# successes: 470 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 474...
+Success: True
+# episodes completed so far: 474
+# successes: 471 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 475...
+Success: True
+# episodes completed so far: 475
+# successes: 472 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 476...
+Success: True
+# episodes completed so far: 476
+# successes: 473 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 477...
+Success: True
+# episodes completed so far: 477
+# successes: 474 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 478...
+Success: True
+# episodes completed so far: 478
+# successes: 475 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 479...
+Success: True
+# episodes completed so far: 479
+# successes: 476 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 480...
+Success: True
+# episodes completed so far: 480
+# successes: 477 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 481...
+Success: True
+# episodes completed so far: 481
+# successes: 478 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 482...
+Success: True
+# episodes completed so far: 482
+# successes: 479 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 483...
+Success: True
+# episodes completed so far: 483
+# successes: 480 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 484...
+Success: True
+# episodes completed so far: 484
+# successes: 481 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 485...
+Success: True
+# episodes completed so far: 485
+# successes: 482 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 486...
+Success: True
+# episodes completed so far: 486
+# successes: 483 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 487...
+Success: True
+# episodes completed so far: 487
+# successes: 484 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 488...
+Success: True
+# episodes completed so far: 488
+# successes: 485 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 489...
+Success: True
+# episodes completed so far: 489
+# successes: 486 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 490...
+Success: True
+# episodes completed so far: 490
+# successes: 487 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 491...
+Success: True
+# episodes completed so far: 491
+# successes: 488 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 492...
+Success: True
+# episodes completed so far: 492
+# successes: 489 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 493...
+Success: True
+# episodes completed so far: 493
+# successes: 490 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 494...
+Success: True
+# episodes completed so far: 494
+# successes: 491 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 495...
+Success: True
+# episodes completed so far: 495
+# successes: 492 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 496...
+Success: True
+# episodes completed so far: 496
+# successes: 493 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 497...
+Success: True
+# episodes completed so far: 497
+# successes: 494 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 498...
+Success: True
+# episodes completed so far: 498
+# successes: 495 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 499...
+Success: True
+# episodes completed so far: 499
+# successes: 496 (99.4%)
+
+Task: put the bowl on the stove
+Starting episode 500...
+Success: True
+# episodes completed so far: 500
+# successes: 497 (99.4%)
+Current task success rate: 0.994
+Current total success rate: 0.994
+Final results:
+Total episodes: 500
+Total successes: 497
+Overall success rate: 0.9940 (99.4%)

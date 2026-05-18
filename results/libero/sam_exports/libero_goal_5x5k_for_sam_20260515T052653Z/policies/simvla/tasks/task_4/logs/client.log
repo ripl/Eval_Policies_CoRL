@@ -1,0 +1,1023 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8584
+   Task suite: libero_goal
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_goal
+   Tasks: 10, Trials per task: 500
+   Max steps: 800
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+put the bowl on top of the cab...:   0%|          | 0/500 [00:00<?, ?it/s][A  [OK] Task 4 Ep 0: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:   0%|          | 1/500 [00:11<1:38:18, 11.82s/it][A  [OK] Task 4 Ep 1: SUCCESS (steps=101)
+
+put the bowl on top of the cab...:   0%|          | 2/500 [00:23<1:36:20, 11.61s/it][A  [OK] Task 4 Ep 2: SUCCESS (steps=90)
+
+put the bowl on top of the cab...:   1%|          | 3/500 [00:33<1:29:15, 10.78s/it][A  [OK] Task 4 Ep 3: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:   1%|          | 4/500 [00:42<1:26:11, 10.43s/it][A  [OK] Task 4 Ep 4: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:   1%|          | 5/500 [00:55<1:32:10, 11.17s/it][A  [OK] Task 4 Ep 5: SUCCESS (steps=102)
+
+put the bowl on top of the cab...:   1%|          | 6/500 [01:06<1:32:13, 11.20s/it][A  [OK] Task 4 Ep 6: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:   1%|▏         | 7/500 [01:16<1:28:26, 10.76s/it][A  [OK] Task 4 Ep 7: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:   2%|▏         | 8/500 [01:26<1:26:50, 10.59s/it][A  [OK] Task 4 Ep 8: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:   2%|▏         | 9/500 [01:36<1:24:45, 10.36s/it][A  [OK] Task 4 Ep 9: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:   2%|▏         | 10/500 [01:46<1:23:33, 10.23s/it][A  [OK] Task 4 Ep 10: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:   2%|▏         | 11/500 [01:56<1:23:18, 10.22s/it][A  [OK] Task 4 Ep 11: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:   2%|▏         | 12/500 [02:06<1:21:58, 10.08s/it][A  [OK] Task 4 Ep 12: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:   3%|▎         | 13/500 [02:16<1:22:30, 10.17s/it][A  [OK] Task 4 Ep 13: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:   3%|▎         | 14/500 [02:27<1:22:45, 10.22s/it][A  [OK] Task 4 Ep 14: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:   3%|▎         | 15/500 [02:37<1:22:43, 10.23s/it][A  [OK] Task 4 Ep 15: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:   3%|▎         | 16/500 [02:47<1:22:23, 10.21s/it][A  [OK] Task 4 Ep 16: SUCCESS (steps=90)
+
+put the bowl on top of the cab...:   3%|▎         | 17/500 [02:57<1:20:40, 10.02s/it][A  [OK] Task 4 Ep 17: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:   4%|▎         | 18/500 [03:06<1:19:22,  9.88s/it][A  [OK] Task 4 Ep 18: SUCCESS (steps=90)
+
+put the bowl on top of the cab...:   4%|▍         | 19/500 [03:16<1:18:32,  9.80s/it][A  [OK] Task 4 Ep 19: SUCCESS (steps=90)
+
+put the bowl on top of the cab...:   4%|▍         | 20/500 [03:25<1:17:39,  9.71s/it][A  [OK] Task 4 Ep 20: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:   4%|▍         | 21/500 [03:35<1:18:03,  9.78s/it][A  [OK] Task 4 Ep 21: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:   4%|▍         | 22/500 [03:45<1:18:43,  9.88s/it][A  [OK] Task 4 Ep 22: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:   5%|▍         | 23/500 [03:55<1:18:47,  9.91s/it][A  [OK] Task 4 Ep 23: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:   5%|▍         | 24/500 [04:05<1:18:53,  9.95s/it][A  [OK] Task 4 Ep 24: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:   5%|▌         | 25/500 [04:15<1:18:38,  9.93s/it][A  [OK] Task 4 Ep 25: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:   5%|▌         | 26/500 [04:25<1:17:51,  9.86s/it][A  [OK] Task 4 Ep 26: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:   5%|▌         | 27/500 [04:35<1:17:29,  9.83s/it][A  [OK] Task 4 Ep 27: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:   6%|▌         | 28/500 [04:45<1:17:55,  9.91s/it][A  [OK] Task 4 Ep 28: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:   6%|▌         | 29/500 [04:55<1:18:59, 10.06s/it][A  [OK] Task 4 Ep 29: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:   6%|▌         | 30/500 [05:05<1:18:52, 10.07s/it][A  [OK] Task 4 Ep 30: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:   6%|▌         | 31/500 [05:16<1:18:52, 10.09s/it][A  [OK] Task 4 Ep 31: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:   6%|▋         | 32/500 [05:26<1:19:44, 10.22s/it][A  [OK] Task 4 Ep 32: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:   7%|▋         | 33/500 [05:36<1:18:57, 10.14s/it][A  [OK] Task 4 Ep 33: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:   7%|▋         | 34/500 [05:47<1:19:52, 10.28s/it][A  [OK] Task 4 Ep 34: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:   7%|▋         | 35/500 [05:56<1:18:20, 10.11s/it][A  [OK] Task 4 Ep 35: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:   7%|▋         | 36/500 [06:06<1:18:11, 10.11s/it][A  [OK] Task 4 Ep 36: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:   7%|▋         | 37/500 [06:17<1:17:48, 10.08s/it][A  [OK] Task 4 Ep 37: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:   8%|▊         | 38/500 [06:27<1:17:58, 10.13s/it][A  [OK] Task 4 Ep 38: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:   8%|▊         | 39/500 [06:37<1:17:05, 10.03s/it][A  [OK] Task 4 Ep 39: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:   8%|▊         | 40/500 [06:47<1:17:54, 10.16s/it][A  [OK] Task 4 Ep 40: SUCCESS (steps=89)
+
+put the bowl on top of the cab...:   8%|▊         | 41/500 [06:56<1:15:40,  9.89s/it][A  [OK] Task 4 Ep 41: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:   8%|▊         | 42/500 [07:07<1:17:03, 10.09s/it][A  [OK] Task 4 Ep 42: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:   9%|▊         | 43/500 [07:17<1:16:20, 10.02s/it][A  [OK] Task 4 Ep 43: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:   9%|▉         | 44/500 [07:27<1:16:34, 10.08s/it][A  [OK] Task 4 Ep 44: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:   9%|▉         | 45/500 [07:37<1:16:34, 10.10s/it][A  [OK] Task 4 Ep 45: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:   9%|▉         | 46/500 [07:47<1:16:00, 10.05s/it][A  [OK] Task 4 Ep 46: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:   9%|▉         | 47/500 [07:57<1:15:11,  9.96s/it][A  [OK] Task 4 Ep 47: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  10%|▉         | 48/500 [08:07<1:14:46,  9.93s/it][A  [OK] Task 4 Ep 48: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  10%|▉         | 49/500 [08:16<1:13:44,  9.81s/it][A  [OK] Task 4 Ep 49: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  10%|█         | 50/500 [08:29<1:20:50, 10.78s/it][A  [OK] Task 4 Ep 50: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  10%|█         | 51/500 [08:39<1:19:29, 10.62s/it][A  [OK] Task 4 Ep 51: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  10%|█         | 52/500 [08:50<1:20:06, 10.73s/it][A  [OK] Task 4 Ep 52: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  11%|█         | 53/500 [09:00<1:17:59, 10.47s/it][A  [OK] Task 4 Ep 53: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  11%|█         | 54/500 [09:10<1:17:01, 10.36s/it][A  [OK] Task 4 Ep 54: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  11%|█         | 55/500 [09:20<1:15:22, 10.16s/it][A  [OK] Task 4 Ep 55: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  11%|█         | 56/500 [09:30<1:14:55, 10.13s/it][A  [OK] Task 4 Ep 56: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  11%|█▏        | 57/500 [09:40<1:13:21,  9.94s/it][A  [FAIL] Task 4 Ep 57: FAILURE (steps=810)
+
+put the bowl on top of the cab...:  12%|█▏        | 58/500 [10:43<3:12:01, 26.07s/it][A  [OK] Task 4 Ep 58: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  12%|█▏        | 59/500 [10:54<2:37:59, 21.50s/it][A  [OK] Task 4 Ep 59: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  12%|█▏        | 60/500 [11:04<2:12:06, 18.02s/it][A  [OK] Task 4 Ep 60: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  12%|█▏        | 61/500 [11:14<1:54:23, 15.64s/it][A  [OK] Task 4 Ep 61: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  12%|█▏        | 62/500 [11:24<1:41:33, 13.91s/it][A  [OK] Task 4 Ep 62: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  13%|█▎        | 63/500 [11:34<1:32:38, 12.72s/it][A  [OK] Task 4 Ep 63: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  13%|█▎        | 64/500 [11:44<1:27:36, 12.06s/it][A  [OK] Task 4 Ep 64: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  13%|█▎        | 65/500 [11:54<1:22:29, 11.38s/it][A  [OK] Task 4 Ep 65: SUCCESS (steps=88)
+
+put the bowl on top of the cab...:  13%|█▎        | 66/500 [12:04<1:18:09, 10.81s/it][A  [OK] Task 4 Ep 66: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  13%|█▎        | 67/500 [12:14<1:16:30, 10.60s/it][A  [OK] Task 4 Ep 67: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  14%|█▎        | 68/500 [12:24<1:15:06, 10.43s/it][A  [OK] Task 4 Ep 68: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  14%|█▍        | 69/500 [12:34<1:13:22, 10.21s/it][A  [OK] Task 4 Ep 69: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  14%|█▍        | 70/500 [12:44<1:13:30, 10.26s/it][A  [OK] Task 4 Ep 70: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  14%|█▍        | 71/500 [12:54<1:12:39, 10.16s/it][A  [OK] Task 4 Ep 71: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  14%|█▍        | 72/500 [13:04<1:11:52, 10.08s/it][A  [OK] Task 4 Ep 72: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  15%|█▍        | 73/500 [13:14<1:11:41, 10.07s/it][A  [OK] Task 4 Ep 73: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  15%|█▍        | 74/500 [13:24<1:11:10, 10.03s/it][A  [OK] Task 4 Ep 74: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  15%|█▌        | 75/500 [13:34<1:11:00, 10.02s/it][A  [OK] Task 4 Ep 75: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  15%|█▌        | 76/500 [13:44<1:11:37, 10.14s/it][A  [OK] Task 4 Ep 76: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  15%|█▌        | 77/500 [13:54<1:11:01, 10.07s/it][A  [OK] Task 4 Ep 77: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  16%|█▌        | 78/500 [14:04<1:10:24, 10.01s/it][A  [OK] Task 4 Ep 78: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  16%|█▌        | 79/500 [14:14<1:09:40,  9.93s/it][A  [OK] Task 4 Ep 79: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  16%|█▌        | 80/500 [14:24<1:09:56,  9.99s/it][A  [OK] Task 4 Ep 80: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  16%|█▌        | 81/500 [14:34<1:10:09, 10.05s/it][A  [OK] Task 4 Ep 81: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  16%|█▋        | 82/500 [14:45<1:11:05, 10.21s/it][A  [OK] Task 4 Ep 82: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  17%|█▋        | 83/500 [14:55<1:10:53, 10.20s/it][A  [OK] Task 4 Ep 83: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  17%|█▋        | 84/500 [15:05<1:09:49, 10.07s/it][A  [OK] Task 4 Ep 84: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  17%|█▋        | 85/500 [15:14<1:08:34,  9.91s/it][A  [OK] Task 4 Ep 85: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  17%|█▋        | 86/500 [15:24<1:08:10,  9.88s/it][A  [OK] Task 4 Ep 86: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  17%|█▋        | 87/500 [15:33<1:07:25,  9.80s/it][A  [OK] Task 4 Ep 87: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  18%|█▊        | 88/500 [15:44<1:08:24,  9.96s/it][A  [OK] Task 4 Ep 88: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  18%|█▊        | 89/500 [15:53<1:07:39,  9.88s/it][A  [OK] Task 4 Ep 89: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  18%|█▊        | 90/500 [16:03<1:07:34,  9.89s/it][A  [OK] Task 4 Ep 90: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  18%|█▊        | 91/500 [16:13<1:07:39,  9.92s/it][A  [OK] Task 4 Ep 91: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  18%|█▊        | 92/500 [16:23<1:07:48,  9.97s/it][A  [OK] Task 4 Ep 92: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  19%|█▊        | 93/500 [16:34<1:07:48, 10.00s/it][A  [OK] Task 4 Ep 93: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  19%|█▉        | 94/500 [16:44<1:08:12, 10.08s/it][A  [OK] Task 4 Ep 94: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  19%|█▉        | 95/500 [16:54<1:08:07, 10.09s/it][A  [OK] Task 4 Ep 95: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  19%|█▉        | 96/500 [17:04<1:07:31, 10.03s/it][A  [OK] Task 4 Ep 96: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  19%|█▉        | 97/500 [17:14<1:07:22, 10.03s/it][A  [OK] Task 4 Ep 97: SUCCESS (steps=89)
+
+put the bowl on top of the cab...:  20%|█▉        | 98/500 [17:24<1:07:02, 10.01s/it][A  [OK] Task 4 Ep 98: SUCCESS (steps=142)
+
+put the bowl on top of the cab...:  20%|█▉        | 99/500 [17:37<1:13:42, 11.03s/it][A  [OK] Task 4 Ep 99: SUCCESS (steps=101)
+
+put the bowl on top of the cab...:  20%|██        | 100/500 [17:48<1:12:30, 10.88s/it][A  [OK] Task 4 Ep 100: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  20%|██        | 101/500 [17:59<1:12:22, 10.88s/it][A  [OK] Task 4 Ep 101: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  20%|██        | 102/500 [18:09<1:11:00, 10.71s/it][A  [OK] Task 4 Ep 102: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  21%|██        | 103/500 [18:19<1:09:58, 10.58s/it][A  [OK] Task 4 Ep 103: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  21%|██        | 104/500 [18:29<1:08:36, 10.40s/it][A  [OK] Task 4 Ep 104: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  21%|██        | 105/500 [18:39<1:07:37, 10.27s/it][A  [OK] Task 4 Ep 105: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  21%|██        | 106/500 [18:51<1:09:47, 10.63s/it][A  [OK] Task 4 Ep 106: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  21%|██▏       | 107/500 [19:01<1:08:47, 10.50s/it][A  [OK] Task 4 Ep 107: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  22%|██▏       | 108/500 [19:12<1:08:56, 10.55s/it][A  [OK] Task 4 Ep 108: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  22%|██▏       | 109/500 [19:22<1:08:09, 10.46s/it][A  [OK] Task 4 Ep 109: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  22%|██▏       | 110/500 [19:32<1:07:40, 10.41s/it][A  [OK] Task 4 Ep 110: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  22%|██▏       | 111/500 [19:42<1:07:12, 10.37s/it][A  [OK] Task 4 Ep 111: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  22%|██▏       | 112/500 [19:52<1:06:40, 10.31s/it][A  [OK] Task 4 Ep 112: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  23%|██▎       | 113/500 [20:03<1:05:58, 10.23s/it][A  [OK] Task 4 Ep 113: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  23%|██▎       | 114/500 [20:13<1:05:35, 10.20s/it][A  [OK] Task 4 Ep 114: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  23%|██▎       | 115/500 [20:22<1:04:29, 10.05s/it][A  [FAIL] Task 4 Ep 115: FAILURE (steps=810)
+
+put the bowl on top of the cab...:  23%|██▎       | 116/500 [21:23<2:42:01, 25.32s/it][A  [OK] Task 4 Ep 116: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:  23%|██▎       | 117/500 [21:34<2:13:44, 20.95s/it][A  [OK] Task 4 Ep 117: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  24%|██▎       | 118/500 [21:44<1:53:07, 17.77s/it][A  [OK] Task 4 Ep 118: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  24%|██▍       | 119/500 [21:55<1:38:59, 15.59s/it][A  [OK] Task 4 Ep 119: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  24%|██▍       | 120/500 [22:05<1:27:59, 13.89s/it][A  [OK] Task 4 Ep 120: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  24%|██▍       | 121/500 [22:15<1:20:22, 12.72s/it][A  [OK] Task 4 Ep 121: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  24%|██▍       | 122/500 [22:25<1:14:51, 11.88s/it][A  [OK] Task 4 Ep 122: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  25%|██▍       | 123/500 [22:35<1:11:26, 11.37s/it][A  [OK] Task 4 Ep 123: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  25%|██▍       | 124/500 [22:46<1:10:27, 11.24s/it][A  [OK] Task 4 Ep 124: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  25%|██▌       | 125/500 [22:56<1:07:33, 10.81s/it][A  [OK] Task 4 Ep 125: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  25%|██▌       | 126/500 [23:06<1:06:05, 10.60s/it][A  [OK] Task 4 Ep 126: SUCCESS (steps=152)
+
+put the bowl on top of the cab...:  25%|██▌       | 127/500 [23:20<1:12:21, 11.64s/it][A  [OK] Task 4 Ep 127: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  26%|██▌       | 128/500 [23:30<1:09:31, 11.21s/it][A  [OK] Task 4 Ep 128: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  26%|██▌       | 129/500 [23:40<1:06:48, 10.81s/it][A  [OK] Task 4 Ep 129: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  26%|██▌       | 130/500 [23:50<1:05:59, 10.70s/it][A  [OK] Task 4 Ep 130: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  26%|██▌       | 131/500 [24:01<1:04:56, 10.56s/it][A  [OK] Task 4 Ep 131: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  26%|██▋       | 132/500 [24:12<1:05:52, 10.74s/it][A  [OK] Task 4 Ep 132: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  27%|██▋       | 133/500 [24:22<1:04:47, 10.59s/it][A  [OK] Task 4 Ep 133: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  27%|██▋       | 134/500 [24:32<1:03:53, 10.47s/it][A  [OK] Task 4 Ep 134: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  27%|██▋       | 135/500 [24:42<1:02:43, 10.31s/it][A  [OK] Task 4 Ep 135: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  27%|██▋       | 136/500 [24:52<1:01:33, 10.15s/it][A  [OK] Task 4 Ep 136: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  27%|██▋       | 137/500 [25:02<1:00:48, 10.05s/it][A  [OK] Task 4 Ep 137: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  28%|██▊       | 138/500 [25:12<1:00:06,  9.96s/it][A  [OK] Task 4 Ep 138: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  28%|██▊       | 139/500 [25:21<59:33,  9.90s/it]  [A  [OK] Task 4 Ep 139: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  28%|██▊       | 140/500 [25:31<58:54,  9.82s/it][A  [OK] Task 4 Ep 140: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  28%|██▊       | 141/500 [25:41<58:28,  9.77s/it][A  [OK] Task 4 Ep 141: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  28%|██▊       | 142/500 [25:51<59:32,  9.98s/it][A  [OK] Task 4 Ep 142: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  29%|██▊       | 143/500 [26:01<58:43,  9.87s/it][A  [OK] Task 4 Ep 143: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  29%|██▉       | 144/500 [26:10<58:28,  9.86s/it][A  [OK] Task 4 Ep 144: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:  29%|██▉       | 145/500 [26:21<59:09, 10.00s/it][A  [OK] Task 4 Ep 145: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  29%|██▉       | 146/500 [26:31<59:03, 10.01s/it][A  [OK] Task 4 Ep 146: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  29%|██▉       | 147/500 [26:41<58:39,  9.97s/it][A  [OK] Task 4 Ep 147: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  30%|██▉       | 148/500 [26:51<59:32, 10.15s/it][A  [OK] Task 4 Ep 148: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  30%|██▉       | 149/500 [27:02<1:00:19, 10.31s/it][A  [OK] Task 4 Ep 149: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  30%|███       | 150/500 [27:12<59:38, 10.23s/it]  [A  [OK] Task 4 Ep 150: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  30%|███       | 151/500 [27:22<59:16, 10.19s/it][A  [OK] Task 4 Ep 151: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  30%|███       | 152/500 [27:32<59:12, 10.21s/it][A  [OK] Task 4 Ep 152: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  31%|███       | 153/500 [27:42<58:25, 10.10s/it][A  [FAIL] Task 4 Ep 153: FAILURE (steps=810)
+
+put the bowl on top of the cab...:  31%|███       | 154/500 [28:47<2:32:41, 26.48s/it][A  [OK] Task 4 Ep 154: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  31%|███       | 155/500 [28:57<2:04:07, 21.59s/it][A  [OK] Task 4 Ep 155: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  31%|███       | 156/500 [29:07<1:44:06, 18.16s/it][A  [OK] Task 4 Ep 156: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  31%|███▏      | 157/500 [29:17<1:29:28, 15.65s/it][A  [OK] Task 4 Ep 157: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  32%|███▏      | 158/500 [29:27<1:19:25, 13.93s/it][A  [OK] Task 4 Ep 158: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  32%|███▏      | 159/500 [29:37<1:13:14, 12.89s/it][A  [OK] Task 4 Ep 159: SUCCESS (steps=149)
+
+put the bowl on top of the cab...:  32%|███▏      | 160/500 [29:51<1:14:56, 13.22s/it][A  [OK] Task 4 Ep 160: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  32%|███▏      | 161/500 [30:01<1:09:19, 12.27s/it][A  [OK] Task 4 Ep 161: SUCCESS (steps=135)
+
+put the bowl on top of the cab...:  32%|███▏      | 162/500 [30:14<1:10:03, 12.44s/it][A  [OK] Task 4 Ep 162: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  33%|███▎      | 163/500 [30:24<1:05:28, 11.66s/it][A  [OK] Task 4 Ep 163: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  33%|███▎      | 164/500 [30:34<1:02:50, 11.22s/it][A  [OK] Task 4 Ep 164: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  33%|███▎      | 165/500 [30:45<1:02:00, 11.10s/it][A  [OK] Task 4 Ep 165: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  33%|███▎      | 166/500 [30:55<59:54, 10.76s/it]  [A  [OK] Task 4 Ep 166: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  33%|███▎      | 167/500 [31:05<58:24, 10.52s/it][A  [OK] Task 4 Ep 167: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  34%|███▎      | 168/500 [31:15<56:58, 10.30s/it][A  [OK] Task 4 Ep 168: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  34%|███▍      | 169/500 [31:25<56:36, 10.26s/it][A  [OK] Task 4 Ep 169: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  34%|███▍      | 170/500 [31:35<56:41, 10.31s/it][A  [OK] Task 4 Ep 170: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  34%|███▍      | 171/500 [31:45<55:57, 10.21s/it][A  [OK] Task 4 Ep 171: SUCCESS (steps=90)
+
+put the bowl on top of the cab...:  34%|███▍      | 172/500 [31:55<54:51, 10.03s/it][A  [OK] Task 4 Ep 172: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  35%|███▍      | 173/500 [32:05<54:29, 10.00s/it][A  [OK] Task 4 Ep 173: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  35%|███▍      | 174/500 [32:15<53:52,  9.91s/it][A  [OK] Task 4 Ep 174: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  35%|███▌      | 175/500 [32:24<53:32,  9.88s/it][A  [OK] Task 4 Ep 175: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  35%|███▌      | 176/500 [32:35<53:37,  9.93s/it][A  [OK] Task 4 Ep 176: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  35%|███▌      | 177/500 [32:45<53:41,  9.97s/it][A  [OK] Task 4 Ep 177: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  36%|███▌      | 178/500 [32:55<53:47, 10.02s/it][A  [OK] Task 4 Ep 178: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  36%|███▌      | 179/500 [33:05<54:08, 10.12s/it][A  [OK] Task 4 Ep 179: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  36%|███▌      | 180/500 [33:15<53:35, 10.05s/it][A  [OK] Task 4 Ep 180: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  36%|███▌      | 181/500 [33:25<53:09, 10.00s/it][A  [OK] Task 4 Ep 181: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  36%|███▋      | 182/500 [33:35<53:42, 10.14s/it][A  [OK] Task 4 Ep 182: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  37%|███▋      | 183/500 [33:46<54:31, 10.32s/it][A  [OK] Task 4 Ep 183: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  37%|███▋      | 184/500 [33:56<53:30, 10.16s/it][A  [OK] Task 4 Ep 184: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  37%|███▋      | 185/500 [34:06<53:26, 10.18s/it][A  [OK] Task 4 Ep 185: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  37%|███▋      | 186/500 [34:16<53:25, 10.21s/it][A  [OK] Task 4 Ep 186: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  37%|███▋      | 187/500 [34:26<53:06, 10.18s/it][A  [OK] Task 4 Ep 187: SUCCESS (steps=101)
+
+put the bowl on top of the cab...:  38%|███▊      | 188/500 [34:37<53:49, 10.35s/it][A  [OK] Task 4 Ep 188: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  38%|███▊      | 189/500 [34:48<54:20, 10.48s/it][A  [OK] Task 4 Ep 189: SUCCESS (steps=88)
+
+put the bowl on top of the cab...:  38%|███▊      | 190/500 [34:58<52:41, 10.20s/it][A  [OK] Task 4 Ep 190: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  38%|███▊      | 191/500 [35:07<51:55, 10.08s/it][A  [OK] Task 4 Ep 191: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  38%|███▊      | 192/500 [35:18<52:22, 10.20s/it][A  [OK] Task 4 Ep 192: SUCCESS (steps=149)
+
+put the bowl on top of the cab...:  39%|███▊      | 193/500 [35:32<58:11, 11.37s/it][A  [OK] Task 4 Ep 193: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  39%|███▉      | 194/500 [35:43<57:30, 11.28s/it][A  [OK] Task 4 Ep 194: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  39%|███▉      | 195/500 [35:55<58:03, 11.42s/it][A  [OK] Task 4 Ep 195: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  39%|███▉      | 196/500 [36:05<56:22, 11.13s/it][A  [OK] Task 4 Ep 196: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  39%|███▉      | 197/500 [36:16<55:11, 10.93s/it][A  [OK] Task 4 Ep 197: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  40%|███▉      | 198/500 [36:27<54:54, 10.91s/it][A  [OK] Task 4 Ep 198: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  40%|███▉      | 199/500 [36:37<53:48, 10.72s/it][A  [OK] Task 4 Ep 199: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  40%|████      | 200/500 [36:48<53:35, 10.72s/it][A  [OK] Task 4 Ep 200: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  40%|████      | 201/500 [36:58<52:54, 10.62s/it][A  [OK] Task 4 Ep 201: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  40%|████      | 202/500 [37:08<52:33, 10.58s/it][A  [OK] Task 4 Ep 202: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  41%|████      | 203/500 [37:18<51:37, 10.43s/it][A  [OK] Task 4 Ep 203: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  41%|████      | 204/500 [37:29<51:18, 10.40s/it][A  [OK] Task 4 Ep 204: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  41%|████      | 205/500 [37:39<51:19, 10.44s/it][A  [OK] Task 4 Ep 205: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:  41%|████      | 206/500 [37:52<53:42, 10.96s/it][A  [OK] Task 4 Ep 206: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  41%|████▏     | 207/500 [38:02<52:43, 10.80s/it][A  [OK] Task 4 Ep 207: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  42%|████▏     | 208/500 [38:12<51:19, 10.55s/it][A  [OK] Task 4 Ep 208: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  42%|████▏     | 209/500 [38:22<50:26, 10.40s/it][A  [OK] Task 4 Ep 209: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  42%|████▏     | 210/500 [38:32<49:21, 10.21s/it][A  [OK] Task 4 Ep 210: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  42%|████▏     | 211/500 [38:42<49:00, 10.17s/it][A  [OK] Task 4 Ep 211: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  42%|████▏     | 212/500 [38:52<48:52, 10.18s/it][A  [OK] Task 4 Ep 212: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  43%|████▎     | 213/500 [39:02<48:24, 10.12s/it][A  [OK] Task 4 Ep 213: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  43%|████▎     | 214/500 [39:12<48:06, 10.09s/it][A  [OK] Task 4 Ep 214: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  43%|████▎     | 215/500 [39:22<48:13, 10.15s/it][A  [OK] Task 4 Ep 215: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:  43%|████▎     | 216/500 [39:33<48:24, 10.23s/it][A  [OK] Task 4 Ep 216: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  43%|████▎     | 217/500 [39:43<48:57, 10.38s/it][A  [OK] Task 4 Ep 217: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  44%|████▎     | 218/500 [39:54<48:58, 10.42s/it][A  [OK] Task 4 Ep 218: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  44%|████▍     | 219/500 [40:04<47:47, 10.21s/it][A  [OK] Task 4 Ep 219: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  44%|████▍     | 220/500 [40:14<47:31, 10.18s/it][A  [OK] Task 4 Ep 220: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  44%|████▍     | 221/500 [40:24<47:16, 10.17s/it][A  [OK] Task 4 Ep 221: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  44%|████▍     | 222/500 [40:34<46:53, 10.12s/it][A  [OK] Task 4 Ep 222: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  45%|████▍     | 223/500 [40:44<46:17, 10.03s/it][A  [OK] Task 4 Ep 223: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  45%|████▍     | 224/500 [40:54<46:45, 10.16s/it][A  [OK] Task 4 Ep 224: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  45%|████▌     | 225/500 [41:05<46:58, 10.25s/it][A  [OK] Task 4 Ep 225: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  45%|████▌     | 226/500 [41:15<47:30, 10.40s/it][A  [OK] Task 4 Ep 226: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  45%|████▌     | 227/500 [41:26<46:53, 10.30s/it][A  [OK] Task 4 Ep 227: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  46%|████▌     | 228/500 [41:35<46:05, 10.17s/it][A  [OK] Task 4 Ep 228: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  46%|████▌     | 229/500 [41:46<46:46, 10.35s/it][A  [OK] Task 4 Ep 229: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  46%|████▌     | 230/500 [41:57<46:59, 10.44s/it][A  [OK] Task 4 Ep 230: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  46%|████▌     | 231/500 [42:08<47:41, 10.64s/it][A  [OK] Task 4 Ep 231: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  46%|████▋     | 232/500 [42:18<46:43, 10.46s/it][A  [OK] Task 4 Ep 232: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  47%|████▋     | 233/500 [42:28<46:29, 10.45s/it][A  [OK] Task 4 Ep 233: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  47%|████▋     | 234/500 [42:39<46:02, 10.39s/it][A  [OK] Task 4 Ep 234: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  47%|████▋     | 235/500 [42:49<45:39, 10.34s/it][A  [OK] Task 4 Ep 235: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  47%|████▋     | 236/500 [42:59<44:55, 10.21s/it][A  [OK] Task 4 Ep 236: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  47%|████▋     | 237/500 [43:09<45:01, 10.27s/it][A  [OK] Task 4 Ep 237: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  48%|████▊     | 238/500 [43:19<44:46, 10.25s/it][A  [OK] Task 4 Ep 238: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  48%|████▊     | 239/500 [43:30<44:41, 10.27s/it][A  [OK] Task 4 Ep 239: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  48%|████▊     | 240/500 [43:40<43:58, 10.15s/it][A  [OK] Task 4 Ep 240: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  48%|████▊     | 241/500 [43:51<45:12, 10.47s/it][A  [OK] Task 4 Ep 241: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  48%|████▊     | 242/500 [44:01<44:22, 10.32s/it][A  [OK] Task 4 Ep 242: SUCCESS (steps=266)
+
+put the bowl on top of the cab...:  49%|████▊     | 243/500 [44:24<1:00:16, 14.07s/it][A  [OK] Task 4 Ep 243: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  49%|████▉     | 244/500 [44:34<55:27, 13.00s/it]  [A  [OK] Task 4 Ep 244: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  49%|████▉     | 245/500 [44:45<52:43, 12.41s/it][A  [OK] Task 4 Ep 245: SUCCESS (steps=101)
+
+put the bowl on top of the cab...:  49%|████▉     | 246/500 [44:56<50:04, 11.83s/it][A  [OK] Task 4 Ep 246: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  49%|████▉     | 247/500 [45:05<47:27, 11.26s/it][A  [OK] Task 4 Ep 247: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:  50%|████▉     | 248/500 [45:16<46:23, 11.05s/it][A  [OK] Task 4 Ep 248: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  50%|████▉     | 249/500 [45:26<45:15, 10.82s/it][A  [OK] Task 4 Ep 249: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  50%|█████     | 250/500 [45:37<44:32, 10.69s/it][A  [OK] Task 4 Ep 250: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  50%|█████     | 251/500 [45:48<44:50, 10.80s/it][A  [OK] Task 4 Ep 251: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  50%|█████     | 252/500 [45:58<43:56, 10.63s/it][A  [OK] Task 4 Ep 252: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  51%|█████     | 253/500 [46:09<43:40, 10.61s/it][A  [OK] Task 4 Ep 253: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:  51%|█████     | 254/500 [46:19<43:42, 10.66s/it][A  [OK] Task 4 Ep 254: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  51%|█████     | 255/500 [46:30<43:04, 10.55s/it][A  [OK] Task 4 Ep 255: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  51%|█████     | 256/500 [46:41<43:30, 10.70s/it][A  [OK] Task 4 Ep 256: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  51%|█████▏    | 257/500 [46:51<43:25, 10.72s/it][A  [OK] Task 4 Ep 257: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  52%|█████▏    | 258/500 [47:02<43:22, 10.75s/it][A  [OK] Task 4 Ep 258: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  52%|█████▏    | 259/500 [47:13<42:55, 10.69s/it][A  [OK] Task 4 Ep 259: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  52%|█████▏    | 260/500 [47:24<42:54, 10.73s/it][A  [OK] Task 4 Ep 260: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  52%|█████▏    | 261/500 [47:33<41:37, 10.45s/it][A  [OK] Task 4 Ep 261: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  52%|█████▏    | 262/500 [47:44<41:23, 10.43s/it][A  [OK] Task 4 Ep 262: SUCCESS (steps=89)
+
+put the bowl on top of the cab...:  53%|█████▎    | 263/500 [47:54<40:21, 10.22s/it][A  [OK] Task 4 Ep 263: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  53%|█████▎    | 264/500 [48:04<40:27, 10.29s/it][A  [OK] Task 4 Ep 264: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  53%|█████▎    | 265/500 [48:14<39:49, 10.17s/it][A  [OK] Task 4 Ep 265: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  53%|█████▎    | 266/500 [48:24<39:12, 10.06s/it][A  [OK] Task 4 Ep 266: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  53%|█████▎    | 267/500 [48:34<39:05, 10.07s/it][A  [OK] Task 4 Ep 267: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  54%|█████▎    | 268/500 [48:44<38:51, 10.05s/it][A  [OK] Task 4 Ep 268: SUCCESS (steps=90)
+
+put the bowl on top of the cab...:  54%|█████▍    | 269/500 [48:53<38:12,  9.92s/it][A  [OK] Task 4 Ep 269: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  54%|█████▍    | 270/500 [49:03<37:53,  9.89s/it][A  [OK] Task 4 Ep 270: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  54%|█████▍    | 271/500 [49:13<37:48,  9.90s/it][A  [OK] Task 4 Ep 271: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  54%|█████▍    | 272/500 [49:23<37:58,  9.99s/it][A  [OK] Task 4 Ep 272: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  55%|█████▍    | 273/500 [49:33<37:56, 10.03s/it][A  [OK] Task 4 Ep 273: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  55%|█████▍    | 274/500 [49:44<37:59, 10.09s/it][A  [OK] Task 4 Ep 274: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  55%|█████▌    | 275/500 [49:54<37:53, 10.10s/it][A  [OK] Task 4 Ep 275: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  55%|█████▌    | 276/500 [50:04<38:03, 10.19s/it][A  [OK] Task 4 Ep 276: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  55%|█████▌    | 277/500 [50:14<37:39, 10.13s/it][A  [OK] Task 4 Ep 277: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  56%|█████▌    | 278/500 [50:25<37:46, 10.21s/it][A  [OK] Task 4 Ep 278: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  56%|█████▌    | 279/500 [50:35<38:18, 10.40s/it][A  [OK] Task 4 Ep 279: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  56%|█████▌    | 280/500 [50:46<38:18, 10.45s/it][A  [OK] Task 4 Ep 280: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  56%|█████▌    | 281/500 [50:56<38:07, 10.44s/it][A  [OK] Task 4 Ep 281: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  56%|█████▋    | 282/500 [51:07<37:59, 10.46s/it][A  [OK] Task 4 Ep 282: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  57%|█████▋    | 283/500 [51:18<38:39, 10.69s/it][A  [OK] Task 4 Ep 283: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  57%|█████▋    | 284/500 [51:28<37:47, 10.50s/it][A  [OK] Task 4 Ep 284: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  57%|█████▋    | 285/500 [51:38<37:03, 10.34s/it][A  [OK] Task 4 Ep 285: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  57%|█████▋    | 286/500 [51:49<36:53, 10.34s/it][A  [OK] Task 4 Ep 286: SUCCESS (steps=90)
+
+put the bowl on top of the cab...:  57%|█████▋    | 287/500 [51:58<36:07, 10.17s/it][A  [OK] Task 4 Ep 287: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  58%|█████▊    | 288/500 [52:09<35:59, 10.19s/it][A  [OK] Task 4 Ep 288: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  58%|█████▊    | 289/500 [52:19<35:56, 10.22s/it][A  [OK] Task 4 Ep 289: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  58%|█████▊    | 290/500 [52:29<35:17, 10.09s/it][A  [OK] Task 4 Ep 290: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  58%|█████▊    | 291/500 [52:39<34:59, 10.04s/it][A  [OK] Task 4 Ep 291: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  58%|█████▊    | 292/500 [52:49<34:52, 10.06s/it][A  [OK] Task 4 Ep 292: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  59%|█████▊    | 293/500 [52:59<35:05, 10.17s/it][A  [OK] Task 4 Ep 293: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  59%|█████▉    | 294/500 [53:09<35:05, 10.22s/it][A  [OK] Task 4 Ep 294: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  59%|█████▉    | 295/500 [53:20<34:56, 10.23s/it][A  [OK] Task 4 Ep 295: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  59%|█████▉    | 296/500 [53:30<34:47, 10.23s/it][A  [OK] Task 4 Ep 296: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  59%|█████▉    | 297/500 [53:40<34:33, 10.21s/it][A  [OK] Task 4 Ep 297: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  60%|█████▉    | 298/500 [53:51<35:03, 10.41s/it][A  [OK] Task 4 Ep 298: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  60%|█████▉    | 299/500 [54:01<34:09, 10.20s/it][A  [OK] Task 4 Ep 299: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  60%|██████    | 300/500 [54:11<34:02, 10.21s/it][A  [OK] Task 4 Ep 300: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  60%|██████    | 301/500 [54:21<33:49, 10.20s/it][A  [OK] Task 4 Ep 301: SUCCESS (steps=142)
+
+put the bowl on top of the cab...:  60%|██████    | 302/500 [54:34<36:49, 11.16s/it][A  [OK] Task 4 Ep 302: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  61%|██████    | 303/500 [54:45<35:54, 10.94s/it][A  [OK] Task 4 Ep 303: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  61%|██████    | 304/500 [54:55<34:42, 10.63s/it][A  [OK] Task 4 Ep 304: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  61%|██████    | 305/500 [55:06<35:05, 10.80s/it][A  [OK] Task 4 Ep 305: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  61%|██████    | 306/500 [55:16<33:55, 10.49s/it][A  [OK] Task 4 Ep 306: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  61%|██████▏   | 307/500 [55:26<33:27, 10.40s/it][A  [OK] Task 4 Ep 307: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  62%|██████▏   | 308/500 [55:36<33:07, 10.35s/it][A  [OK] Task 4 Ep 308: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  62%|██████▏   | 309/500 [55:47<33:43, 10.60s/it][A  [OK] Task 4 Ep 309: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  62%|██████▏   | 310/500 [55:59<34:33, 10.92s/it][A  [OK] Task 4 Ep 310: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  62%|██████▏   | 311/500 [56:09<33:30, 10.64s/it][A  [OK] Task 4 Ep 311: SUCCESS (steps=90)
+
+put the bowl on top of the cab...:  62%|██████▏   | 312/500 [56:19<32:40, 10.43s/it][A  [OK] Task 4 Ep 312: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  63%|██████▎   | 313/500 [56:30<32:43, 10.50s/it][A  [OK] Task 4 Ep 313: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  63%|██████▎   | 314/500 [56:40<32:24, 10.46s/it][A  [OK] Task 4 Ep 314: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  63%|██████▎   | 315/500 [56:51<32:38, 10.58s/it][A  [OK] Task 4 Ep 315: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  63%|██████▎   | 316/500 [57:02<32:53, 10.72s/it][A  [OK] Task 4 Ep 316: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  63%|██████▎   | 317/500 [57:12<32:00, 10.49s/it][A  [OK] Task 4 Ep 317: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  64%|██████▎   | 318/500 [57:23<32:14, 10.63s/it][A  [OK] Task 4 Ep 318: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  64%|██████▍   | 319/500 [57:34<32:27, 10.76s/it][A  [OK] Task 4 Ep 319: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  64%|██████▍   | 320/500 [57:45<32:35, 10.86s/it][A  [OK] Task 4 Ep 320: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  64%|██████▍   | 321/500 [57:55<31:48, 10.66s/it][A  [OK] Task 4 Ep 321: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  64%|██████▍   | 322/500 [58:05<30:59, 10.44s/it][A  [OK] Task 4 Ep 322: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  65%|██████▍   | 323/500 [58:15<30:16, 10.26s/it][A  [OK] Task 4 Ep 323: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  65%|██████▍   | 324/500 [58:25<29:47, 10.15s/it][A  [OK] Task 4 Ep 324: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  65%|██████▌   | 325/500 [58:35<29:29, 10.11s/it][A  [OK] Task 4 Ep 325: SUCCESS (steps=88)
+
+put the bowl on top of the cab...:  65%|██████▌   | 326/500 [58:45<29:01, 10.01s/it][A  [OK] Task 4 Ep 326: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  65%|██████▌   | 327/500 [58:54<28:36,  9.92s/it][A  [OK] Task 4 Ep 327: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  66%|██████▌   | 328/500 [59:05<28:44, 10.03s/it][A  [OK] Task 4 Ep 328: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  66%|██████▌   | 329/500 [59:15<28:32, 10.02s/it][A  [OK] Task 4 Ep 329: SUCCESS (steps=102)
+
+put the bowl on top of the cab...:  66%|██████▌   | 330/500 [59:25<28:46, 10.15s/it][A  [OK] Task 4 Ep 330: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  66%|██████▌   | 331/500 [59:35<28:33, 10.14s/it][A  [OK] Task 4 Ep 331: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  66%|██████▋   | 332/500 [59:45<28:25, 10.15s/it][A  [OK] Task 4 Ep 332: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  67%|██████▋   | 333/500 [59:55<28:03, 10.08s/it][A  [OK] Task 4 Ep 333: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  67%|██████▋   | 334/500 [1:00:06<28:14, 10.21s/it][A  [OK] Task 4 Ep 334: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  67%|██████▋   | 335/500 [1:00:16<27:44, 10.09s/it][A  [OK] Task 4 Ep 335: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  67%|██████▋   | 336/500 [1:00:26<27:39, 10.12s/it][A  [FAIL] Task 4 Ep 336: FAILURE (steps=810)
+
+put the bowl on top of the cab...:  67%|██████▋   | 337/500 [1:01:29<1:10:46, 26.05s/it][A  [OK] Task 4 Ep 337: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  68%|██████▊   | 338/500 [1:01:40<58:29, 21.67s/it]  [A  [OK] Task 4 Ep 338: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  68%|██████▊   | 339/500 [1:01:52<49:53, 18.60s/it][A  [OK] Task 4 Ep 339: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  68%|██████▊   | 340/500 [1:02:02<43:12, 16.20s/it][A  [OK] Task 4 Ep 340: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  68%|██████▊   | 341/500 [1:02:13<38:17, 14.45s/it][A  [OK] Task 4 Ep 341: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  68%|██████▊   | 342/500 [1:02:23<34:24, 13.06s/it][A  [OK] Task 4 Ep 342: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  69%|██████▊   | 343/500 [1:02:32<31:37, 12.08s/it][A  [OK] Task 4 Ep 343: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  69%|██████▉   | 344/500 [1:02:43<30:34, 11.76s/it][A  [OK] Task 4 Ep 344: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  69%|██████▉   | 345/500 [1:02:54<29:31, 11.43s/it][A  [OK] Task 4 Ep 345: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  69%|██████▉   | 346/500 [1:03:04<28:26, 11.08s/it][A  [OK] Task 4 Ep 346: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  69%|██████▉   | 347/500 [1:03:14<27:20, 10.72s/it][A  [OK] Task 4 Ep 347: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  70%|██████▉   | 348/500 [1:03:24<26:23, 10.42s/it][A  [OK] Task 4 Ep 348: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  70%|██████▉   | 349/500 [1:03:34<26:09, 10.40s/it][A  [OK] Task 4 Ep 349: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  70%|███████   | 350/500 [1:03:45<26:11, 10.48s/it][A  [OK] Task 4 Ep 350: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  70%|███████   | 351/500 [1:03:55<25:38, 10.33s/it][A  [OK] Task 4 Ep 351: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  70%|███████   | 352/500 [1:04:05<25:27, 10.32s/it][A  [OK] Task 4 Ep 352: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  71%|███████   | 353/500 [1:04:15<24:51, 10.15s/it][A  [OK] Task 4 Ep 353: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  71%|███████   | 354/500 [1:04:25<24:43, 10.16s/it][A  [OK] Task 4 Ep 354: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  71%|███████   | 355/500 [1:04:35<24:36, 10.18s/it][A  [OK] Task 4 Ep 355: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  71%|███████   | 356/500 [1:04:46<24:34, 10.24s/it][A  [OK] Task 4 Ep 356: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  71%|███████▏  | 357/500 [1:04:56<24:11, 10.15s/it][A  [OK] Task 4 Ep 357: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  72%|███████▏  | 358/500 [1:05:07<24:27, 10.34s/it][A  [OK] Task 4 Ep 358: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  72%|███████▏  | 359/500 [1:05:16<24:00, 10.22s/it][A  [OK] Task 4 Ep 359: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  72%|███████▏  | 360/500 [1:05:27<23:55, 10.26s/it][A  [OK] Task 4 Ep 360: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  72%|███████▏  | 361/500 [1:05:37<23:27, 10.13s/it][A  [OK] Task 4 Ep 361: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  72%|███████▏  | 362/500 [1:05:47<23:13, 10.10s/it][A  [OK] Task 4 Ep 362: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  73%|███████▎  | 363/500 [1:05:57<23:31, 10.31s/it][A  [OK] Task 4 Ep 363: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  73%|███████▎  | 364/500 [1:06:08<23:18, 10.28s/it][A  [OK] Task 4 Ep 364: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  73%|███████▎  | 365/500 [1:06:19<23:48, 10.58s/it][A  [OK] Task 4 Ep 365: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  73%|███████▎  | 366/500 [1:06:29<23:12, 10.39s/it][A  [OK] Task 4 Ep 366: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  73%|███████▎  | 367/500 [1:06:39<23:01, 10.39s/it][A  [OK] Task 4 Ep 367: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  74%|███████▎  | 368/500 [1:06:51<23:50, 10.84s/it][A  [OK] Task 4 Ep 368: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  74%|███████▍  | 369/500 [1:07:02<23:41, 10.85s/it][A  [OK] Task 4 Ep 369: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  74%|███████▍  | 370/500 [1:07:12<23:08, 10.68s/it][A  [OK] Task 4 Ep 370: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  74%|███████▍  | 371/500 [1:07:23<22:56, 10.67s/it][A  [OK] Task 4 Ep 371: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  74%|███████▍  | 372/500 [1:07:33<22:34, 10.58s/it][A  [OK] Task 4 Ep 372: SUCCESS (steps=89)
+
+put the bowl on top of the cab...:  75%|███████▍  | 373/500 [1:07:43<22:04, 10.43s/it][A  [OK] Task 4 Ep 373: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  75%|███████▍  | 374/500 [1:07:56<22:59, 10.95s/it][A  [OK] Task 4 Ep 374: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  75%|███████▌  | 375/500 [1:08:06<22:24, 10.76s/it][A  [OK] Task 4 Ep 375: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  75%|███████▌  | 376/500 [1:08:17<22:07, 10.71s/it][A  [OK] Task 4 Ep 376: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  75%|███████▌  | 377/500 [1:08:27<21:42, 10.59s/it][A  [OK] Task 4 Ep 377: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  76%|███████▌  | 378/500 [1:08:37<21:12, 10.43s/it][A  [OK] Task 4 Ep 378: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  76%|███████▌  | 379/500 [1:08:48<21:29, 10.66s/it][A  [OK] Task 4 Ep 379: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  76%|███████▌  | 380/500 [1:08:59<21:30, 10.75s/it][A  [OK] Task 4 Ep 380: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  76%|███████▌  | 381/500 [1:09:10<21:19, 10.75s/it][A  [OK] Task 4 Ep 381: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  76%|███████▋  | 382/500 [1:09:21<21:10, 10.77s/it][A  [OK] Task 4 Ep 382: SUCCESS (steps=174)
+
+put the bowl on top of the cab...:  77%|███████▋  | 383/500 [1:09:38<24:46, 12.70s/it][A  [FAIL] Task 4 Ep 383: FAILURE (steps=810)
+
+put the bowl on top of the cab...:  77%|███████▋  | 384/500 [1:10:43<55:03, 28.48s/it][A  [OK] Task 4 Ep 384: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  77%|███████▋  | 385/500 [1:10:54<44:29, 23.21s/it][A  [OK] Task 4 Ep 385: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  77%|███████▋  | 386/500 [1:11:04<36:44, 19.34s/it][A  [OK] Task 4 Ep 386: SUCCESS (steps=88)
+
+put the bowl on top of the cab...:  77%|███████▋  | 387/500 [1:11:14<31:14, 16.59s/it][A  [OK] Task 4 Ep 387: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  78%|███████▊  | 388/500 [1:11:26<27:58, 14.99s/it][A  [OK] Task 4 Ep 388: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  78%|███████▊  | 389/500 [1:11:37<25:34, 13.82s/it][A  [OK] Task 4 Ep 389: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  78%|███████▊  | 390/500 [1:11:48<23:41, 12.93s/it][A  [OK] Task 4 Ep 390: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  78%|███████▊  | 391/500 [1:11:58<22:16, 12.26s/it][A  [OK] Task 4 Ep 391: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  78%|███████▊  | 392/500 [1:12:09<21:12, 11.79s/it][A  [OK] Task 4 Ep 392: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  79%|███████▊  | 393/500 [1:12:20<20:34, 11.54s/it][A  [OK] Task 4 Ep 393: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  79%|███████▉  | 394/500 [1:12:31<19:58, 11.31s/it][A  [OK] Task 4 Ep 394: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  79%|███████▉  | 395/500 [1:12:41<19:27, 11.12s/it][A  [OK] Task 4 Ep 395: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  79%|███████▉  | 396/500 [1:12:53<19:17, 11.13s/it][A  [OK] Task 4 Ep 396: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  79%|███████▉  | 397/500 [1:13:04<18:59, 11.07s/it][A  [OK] Task 4 Ep 397: SUCCESS (steps=101)
+
+put the bowl on top of the cab...:  80%|███████▉  | 398/500 [1:13:15<18:55, 11.13s/it][A  [OK] Task 4 Ep 398: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  80%|███████▉  | 399/500 [1:13:26<18:36, 11.06s/it][A  [OK] Task 4 Ep 399: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  80%|████████  | 400/500 [1:13:36<18:14, 10.95s/it][A  [OK] Task 4 Ep 400: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  80%|████████  | 401/500 [1:13:47<18:06, 10.97s/it][A  [OK] Task 4 Ep 401: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  80%|████████  | 402/500 [1:13:58<17:54, 10.96s/it][A  [OK] Task 4 Ep 402: SUCCESS (steps=90)
+
+put the bowl on top of the cab...:  81%|████████  | 403/500 [1:14:09<17:31, 10.84s/it][A  [OK] Task 4 Ep 403: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  81%|████████  | 404/500 [1:14:21<17:47, 11.12s/it][A  [OK] Task 4 Ep 404: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  81%|████████  | 405/500 [1:14:33<17:56, 11.33s/it][A  [OK] Task 4 Ep 405: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  81%|████████  | 406/500 [1:14:44<17:56, 11.45s/it][A  [OK] Task 4 Ep 406: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  81%|████████▏ | 407/500 [1:14:55<17:34, 11.34s/it][A  [OK] Task 4 Ep 407: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  82%|████████▏ | 408/500 [1:15:06<17:11, 11.22s/it][A  [OK] Task 4 Ep 408: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  82%|████████▏ | 409/500 [1:15:18<17:01, 11.23s/it][A  [OK] Task 4 Ep 409: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  82%|████████▏ | 410/500 [1:15:31<17:42, 11.81s/it][A  [OK] Task 4 Ep 410: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  82%|████████▏ | 411/500 [1:15:41<17:00, 11.47s/it][A  [OK] Task 4 Ep 411: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  82%|████████▏ | 412/500 [1:15:52<16:22, 11.16s/it][A  [OK] Task 4 Ep 412: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  83%|████████▎ | 413/500 [1:16:02<15:58, 11.01s/it][A  [OK] Task 4 Ep 413: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  83%|████████▎ | 414/500 [1:16:13<15:37, 10.90s/it][A  [OK] Task 4 Ep 414: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  83%|████████▎ | 415/500 [1:16:24<15:27, 10.91s/it][A  [OK] Task 4 Ep 415: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:  83%|████████▎ | 416/500 [1:16:35<15:25, 11.02s/it][A  [OK] Task 4 Ep 416: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  83%|████████▎ | 417/500 [1:16:46<15:00, 10.85s/it][A  [OK] Task 4 Ep 417: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  84%|████████▎ | 418/500 [1:16:56<14:43, 10.77s/it][A  [OK] Task 4 Ep 418: SUCCESS (steps=104)
+
+put the bowl on top of the cab...:  84%|████████▍ | 419/500 [1:17:08<14:55, 11.05s/it][A  [OK] Task 4 Ep 419: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  84%|████████▍ | 420/500 [1:17:19<14:53, 11.16s/it][A  [OK] Task 4 Ep 420: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:  84%|████████▍ | 421/500 [1:17:31<14:45, 11.21s/it][A  [OK] Task 4 Ep 421: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  84%|████████▍ | 422/500 [1:17:42<14:27, 11.13s/it][A  [OK] Task 4 Ep 422: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  85%|████████▍ | 423/500 [1:17:53<14:13, 11.08s/it][A  [OK] Task 4 Ep 423: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  85%|████████▍ | 424/500 [1:18:03<13:53, 10.96s/it][A  [OK] Task 4 Ep 424: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  85%|████████▌ | 425/500 [1:18:14<13:36, 10.89s/it][A  [OK] Task 4 Ep 425: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  85%|████████▌ | 426/500 [1:18:24<13:13, 10.73s/it][A  [OK] Task 4 Ep 426: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  85%|████████▌ | 427/500 [1:18:35<13:08, 10.80s/it][A  [OK] Task 4 Ep 427: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  86%|████████▌ | 428/500 [1:18:47<13:05, 10.91s/it][A  [OK] Task 4 Ep 428: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  86%|████████▌ | 429/500 [1:18:59<13:29, 11.40s/it][A  [OK] Task 4 Ep 429: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  86%|████████▌ | 430/500 [1:19:11<13:18, 11.41s/it][A  [OK] Task 4 Ep 430: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  86%|████████▌ | 431/500 [1:19:22<13:00, 11.31s/it][A  [OK] Task 4 Ep 431: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  86%|████████▋ | 432/500 [1:19:33<12:56, 11.42s/it][A  [OK] Task 4 Ep 432: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  87%|████████▋ | 433/500 [1:19:46<13:01, 11.67s/it][A  [OK] Task 4 Ep 433: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  87%|████████▋ | 434/500 [1:19:57<12:40, 11.52s/it][A  [OK] Task 4 Ep 434: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  87%|████████▋ | 435/500 [1:20:08<12:25, 11.47s/it][A  [OK] Task 4 Ep 435: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  87%|████████▋ | 436/500 [1:20:19<12:00, 11.26s/it][A  [OK] Task 4 Ep 436: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  87%|████████▋ | 437/500 [1:20:29<11:34, 11.02s/it][A  [OK] Task 4 Ep 437: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  88%|████████▊ | 438/500 [1:20:40<11:19, 10.96s/it][A  [OK] Task 4 Ep 438: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  88%|████████▊ | 439/500 [1:20:52<11:25, 11.24s/it][A  [OK] Task 4 Ep 439: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  88%|████████▊ | 440/500 [1:21:03<11:05, 11.09s/it][A  [OK] Task 4 Ep 440: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  88%|████████▊ | 441/500 [1:21:13<10:38, 10.82s/it][A  [OK] Task 4 Ep 441: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  88%|████████▊ | 442/500 [1:21:24<10:31, 10.89s/it][A  [OK] Task 4 Ep 442: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:  89%|████████▊ | 443/500 [1:21:35<10:26, 10.98s/it][A  [OK] Task 4 Ep 443: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  89%|████████▉ | 444/500 [1:21:46<10:11, 10.93s/it][A  [OK] Task 4 Ep 444: SUCCESS (steps=90)
+
+put the bowl on top of the cab...:  89%|████████▉ | 445/500 [1:21:57<09:55, 10.83s/it][A  [OK] Task 4 Ep 445: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  89%|████████▉ | 446/500 [1:22:08<09:48, 10.90s/it][A  [OK] Task 4 Ep 446: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  89%|████████▉ | 447/500 [1:22:19<09:40, 10.96s/it][A  [OK] Task 4 Ep 447: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  90%|████████▉ | 448/500 [1:22:30<09:31, 10.98s/it][A  [OK] Task 4 Ep 448: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  90%|████████▉ | 449/500 [1:22:41<09:18, 10.95s/it][A  [OK] Task 4 Ep 449: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  90%|█████████ | 450/500 [1:22:52<09:11, 11.03s/it][A  [OK] Task 4 Ep 450: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  90%|█████████ | 451/500 [1:23:03<09:00, 11.03s/it][A  [OK] Task 4 Ep 451: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  90%|█████████ | 452/500 [1:23:14<08:56, 11.17s/it][A  [FAIL] Task 4 Ep 452: FAILURE (steps=810)
+
+put the bowl on top of the cab...:  91%|█████████ | 453/500 [1:24:21<21:43, 27.74s/it][A  [OK] Task 4 Ep 453: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  91%|█████████ | 454/500 [1:24:32<17:21, 22.65s/it][A  [OK] Task 4 Ep 454: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  91%|█████████ | 455/500 [1:24:42<14:17, 19.06s/it][A  [OK] Task 4 Ep 455: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  91%|█████████ | 456/500 [1:24:57<13:02, 17.78s/it][A  [OK] Task 4 Ep 456: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  91%|█████████▏| 457/500 [1:25:08<11:19, 15.79s/it][A  [OK] Task 4 Ep 457: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  92%|█████████▏| 458/500 [1:25:20<10:08, 14.49s/it][A  [OK] Task 4 Ep 458: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  92%|█████████▏| 459/500 [1:25:31<09:16, 13.56s/it][A  [OK] Task 4 Ep 459: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  92%|█████████▏| 460/500 [1:25:42<08:28, 12.70s/it][A  [OK] Task 4 Ep 460: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:  92%|█████████▏| 461/500 [1:25:53<07:57, 12.24s/it][A  [OK] Task 4 Ep 461: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  92%|█████████▏| 462/500 [1:26:04<07:34, 11.97s/it][A  [OK] Task 4 Ep 462: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  93%|█████████▎| 463/500 [1:26:16<07:19, 11.87s/it][A  [OK] Task 4 Ep 463: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:  93%|█████████▎| 464/500 [1:26:27<07:00, 11.69s/it][A  [OK] Task 4 Ep 464: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  93%|█████████▎| 465/500 [1:26:38<06:39, 11.41s/it][A  [OK] Task 4 Ep 465: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  93%|█████████▎| 466/500 [1:26:49<06:25, 11.35s/it][A  [OK] Task 4 Ep 466: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  93%|█████████▎| 467/500 [1:27:00<06:12, 11.29s/it][A  [OK] Task 4 Ep 467: SUCCESS (steps=96)
+
+put the bowl on top of the cab...:  94%|█████████▎| 468/500 [1:27:11<05:58, 11.20s/it][A  [OK] Task 4 Ep 468: SUCCESS (steps=102)
+
+put the bowl on top of the cab...:  94%|█████████▍| 469/500 [1:27:23<05:53, 11.40s/it][A  [OK] Task 4 Ep 469: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  94%|█████████▍| 470/500 [1:27:34<05:34, 11.15s/it][A  [OK] Task 4 Ep 470: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  94%|█████████▍| 471/500 [1:27:45<05:20, 11.04s/it][A  [OK] Task 4 Ep 471: SUCCESS (steps=90)
+
+put the bowl on top of the cab...:  94%|█████████▍| 472/500 [1:27:56<05:15, 11.27s/it][A  [OK] Task 4 Ep 472: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  95%|█████████▍| 473/500 [1:28:08<05:08, 11.44s/it][A  [OK] Task 4 Ep 473: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  95%|█████████▍| 474/500 [1:28:19<04:54, 11.32s/it][A  [OK] Task 4 Ep 474: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  95%|█████████▌| 475/500 [1:28:31<04:49, 11.56s/it][A  [OK] Task 4 Ep 475: SUCCESS (steps=98)
+
+put the bowl on top of the cab...:  95%|█████████▌| 476/500 [1:28:44<04:45, 11.88s/it][A  [OK] Task 4 Ep 476: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  95%|█████████▌| 477/500 [1:28:56<04:37, 12.08s/it][A  [OK] Task 4 Ep 477: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:  96%|█████████▌| 478/500 [1:29:11<04:38, 12.68s/it][A  [OK] Task 4 Ep 478: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  96%|█████████▌| 479/500 [1:29:23<04:22, 12.49s/it][A  [OK] Task 4 Ep 479: SUCCESS (steps=101)
+
+put the bowl on top of the cab...:  96%|█████████▌| 480/500 [1:29:35<04:11, 12.56s/it][A  [OK] Task 4 Ep 480: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  96%|█████████▌| 481/500 [1:29:47<03:53, 12.30s/it][A  [OK] Task 4 Ep 481: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  96%|█████████▋| 482/500 [1:29:59<03:38, 12.12s/it][A  [OK] Task 4 Ep 482: SUCCESS (steps=102)
+
+put the bowl on top of the cab...:  97%|█████████▋| 483/500 [1:30:11<03:26, 12.13s/it][A  [OK] Task 4 Ep 483: SUCCESS (steps=95)
+
+put the bowl on top of the cab...:  97%|█████████▋| 484/500 [1:30:23<03:12, 12.04s/it][A  [OK] Task 4 Ep 484: SUCCESS (steps=100)
+
+put the bowl on top of the cab...:  97%|█████████▋| 485/500 [1:30:35<03:00, 12.04s/it][A  [OK] Task 4 Ep 485: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  97%|█████████▋| 486/500 [1:30:46<02:46, 11.86s/it][A  [OK] Task 4 Ep 486: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  97%|█████████▋| 487/500 [1:30:57<02:28, 11.45s/it][A  [OK] Task 4 Ep 487: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  98%|█████████▊| 488/500 [1:31:08<02:16, 11.38s/it][A  [OK] Task 4 Ep 488: SUCCESS (steps=97)
+
+put the bowl on top of the cab...:  98%|█████████▊| 489/500 [1:31:19<02:03, 11.19s/it][A  [OK] Task 4 Ep 489: SUCCESS (steps=94)
+
+put the bowl on top of the cab...:  98%|█████████▊| 490/500 [1:31:29<01:49, 10.95s/it][A  [OK] Task 4 Ep 490: SUCCESS (steps=102)
+
+put the bowl on top of the cab...:  98%|█████████▊| 491/500 [1:31:40<01:38, 10.99s/it][A  [OK] Task 4 Ep 491: SUCCESS (steps=99)
+
+put the bowl on top of the cab...:  98%|█████████▊| 492/500 [1:31:51<01:28, 11.09s/it][A  [OK] Task 4 Ep 492: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  99%|█████████▊| 493/500 [1:32:02<01:16, 10.88s/it][A  [OK] Task 4 Ep 493: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  99%|█████████▉| 494/500 [1:32:12<01:04, 10.79s/it][A  [OK] Task 4 Ep 494: SUCCESS (steps=93)
+
+put the bowl on top of the cab...:  99%|█████████▉| 495/500 [1:32:23<00:53, 10.71s/it][A  [OK] Task 4 Ep 495: SUCCESS (steps=91)
+
+put the bowl on top of the cab...:  99%|█████████▉| 496/500 [1:32:34<00:42, 10.70s/it][A  [OK] Task 4 Ep 496: SUCCESS (steps=92)
+
+put the bowl on top of the cab...:  99%|█████████▉| 497/500 [1:32:44<00:32, 10.71s/it][A  [OK] Task 4 Ep 497: SUCCESS (steps=92)
+
+put the bowl on top of the cab...: 100%|█████████▉| 498/500 [1:32:55<00:21, 10.62s/it][A  [OK] Task 4 Ep 498: SUCCESS (steps=93)
+
+put the bowl on top of the cab...: 100%|█████████▉| 499/500 [1:33:05<00:10, 10.64s/it][A  [OK] Task 4 Ep 499: SUCCESS (steps=102)
+
+put the bowl on top of the cab...: 100%|██████████| 500/500 [1:33:17<00:00, 10.88s/it][A
+                                                                                      [A   Task 4: 494/500 (98.8%)
+Tasks:   0%|          | 0/1 [1:33:22<?, ?it/s]
+
+Total success rate: 494/500 (98.8%)

@@ -7,6 +7,32 @@ from pathlib import Path
 import sys
 import types
 
+import numpy as np
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+from calvin_reset_override import patch_module_from_env
+from calvin_sequence_manifest import (
+    load_manifest,
+    validate_bank_metadata_against_manifest,
+    validate_sequences_against_manifest,
+)
+
+
+def stable_json(value):
+    return json.dumps(value, sort_keys=True, separators=(",", ":"))
+
+
+def reset_bank_metadata():
+    path = os.environ.get("CALVIN_RESET_BANK")
+    if not path:
+        return None, None
+    data = np.load(path, allow_pickle=False)
+    metadata = json.loads(str(data["metadata_json"].item()))
+    return data, metadata
+
 
 def main() -> None:
     parser = argparse.ArgumentParser()
@@ -17,11 +43,17 @@ def main() -> None:
     parser.add_argument("--checkpoint", required=True)
     parser.add_argument("--openflamingo-checkpoint", required=True)
     parser.add_argument("--num-sequences", type=int, default=50)
+    parser.add_argument("--eval-start", type=int, default=0)
+    parser.add_argument("--eval-end", type=int, default=None)
     parser.add_argument("--llm-name", default="mpt_dolly_3b")
     parser.add_argument("--lang-encoder", default="anas-awadalla/mpt-1b-redpajama-200b-dolly")
     parser.add_argument("--tokenizer", default="anas-awadalla/mpt-1b-redpajama-200b-dolly")
     parser.add_argument("--precision", default="fp32")
     args = parser.parse_args()
+    if args.eval_end is None:
+        args.eval_end = args.num_sequences
+    if args.eval_start < 0 or args.eval_start > args.eval_end:
+        raise ValueError(f"invalid eval range: eval_start={args.eval_start}, eval_end={args.eval_end}")
 
     repo = Path(args.repo).resolve()
     eval_dir = Path(args.eval_dir).resolve()
@@ -35,7 +67,9 @@ def main() -> None:
         zarr_stub = types.ModuleType("zarr")
         zarr_stub.Array = type("Array", (), {})
         sys.modules["zarr"] = zarr_stub
-    if "pyhash" not in sys.modules:
+    try:
+        import pyhash  # noqa: F401
+    except ImportError:
         pyhash_stub = types.ModuleType("pyhash")
 
         def fnv1_32():
@@ -87,7 +121,30 @@ def main() -> None:
         builtins.__import__ = original_import
 
     os.environ["PYOPENGL_PLATFORM"] = "egl"
-    eval_utils.NUM_SEQUENCES = args.num_sequences
+    manifest = load_manifest(os.environ["CALVIN_SEQUENCE_MANIFEST"]) if os.environ.get("CALVIN_SEQUENCE_MANIFEST") else None
+    reset_bank, metadata = reset_bank_metadata()
+    sequence_count = int(manifest["num_sequences"]) if manifest is not None else int(args.num_sequences)
+    workers = int(manifest.get("sequence_workers", 4)) if manifest is not None else 4
+    if metadata is not None:
+        if manifest is not None:
+            validate_bank_metadata_against_manifest(metadata, manifest, "RoboFlamingo")
+        sequence_count = int(metadata["num_sequences"])
+        workers = int(metadata.get("sequence_workers", 4))
+    if args.eval_end > sequence_count:
+        raise RuntimeError(f"eval_end={args.eval_end} exceeds canonical sequence count {sequence_count}")
+    eval_sequences = eval_utils.get_sequences(sequence_count, num_workers=workers)
+    if manifest is not None:
+        validate_sequences_against_manifest(eval_sequences, manifest, "RoboFlamingo")
+    if reset_bank is not None:
+        expected = str(reset_bank["initial_state_json"][args.eval_start])
+        actual = stable_json(eval_sequences[args.eval_start][0])
+        if actual != expected:
+            raise RuntimeError(f"canonical RoboFlamingo sequence mismatch at {args.eval_start}: actual={actual}, expected={expected}")
+    selected_sequences = eval_sequences[args.eval_start : args.eval_end]
+    if len(selected_sequences) != args.eval_end - args.eval_start:
+        raise RuntimeError(f"bad selected sequence range: got {len(selected_sequences)}")
+    eval_utils.NUM_SEQUENCES = len(selected_sequences)
+    patch_module_from_env(eval_utils, eval_start=args.eval_start)
 
     def fixed_log_dir(log_dir):
         eval_dir.mkdir(parents=True, exist_ok=True)
@@ -96,8 +153,26 @@ def main() -> None:
 
     eval_utils.get_log_dir = fixed_log_dir
 
+    local_sequences = eval_dir / "eval_sequences_protocol1.json"
+    local_sequences.write_text(json.dumps(selected_sequences) + "\n")
+
+    original_print_and_save = eval_utils.print_and_save
+
+    def print_and_save_with_rows(results, eval_sequences_for_save, eval_log_dir, epoch):
+        rows = []
+        for offset, (result, (initial_state, eval_sequence)) in enumerate(zip(results, eval_sequences_for_save)):
+            rows.append({
+                "global_index": int(args.eval_start + offset),
+                "success": int(result),
+                "initial_state_json": stable_json(initial_state),
+                "eval_sequence": eval_sequence,
+            })
+        Path(eval_log_dir, "per_sequence_results.json").write_text(json.dumps(rows, indent=2, sort_keys=True) + "\n")
+        return original_print_and_save(results, eval_sequences_for_save, eval_log_dir, epoch)
+
+    eval_utils.print_and_save = print_and_save_with_rows
+
     original_open = builtins.open
-    local_sequences = repo / "eval_sequences.json"
 
     def redirected_open(file, *open_args, **open_kwargs):
         if str(file) == "/mnt/bn/robotics/lxh/robot-flamingo/eval_sequences.json":
@@ -134,6 +209,14 @@ def main() -> None:
     if results.exists():
         data = json.loads(results.read_text())
         payload = data.get("0", data.get("null", data))
+        if isinstance(payload, dict):
+            payload.update({
+                "eval_start": int(args.eval_start),
+                "eval_end": int(args.eval_end),
+                "num_sequences": int(args.eval_end - args.eval_start),
+                "calvin_sequence_manifest": os.environ.get("CALVIN_SEQUENCE_MANIFEST", ""),
+                "calvin_reset_bank": os.environ.get("CALVIN_RESET_BANK", ""),
+            })
         (eval_dir / "summary.json").write_text(json.dumps(payload, indent=2, default=float) + "\n")
 
 

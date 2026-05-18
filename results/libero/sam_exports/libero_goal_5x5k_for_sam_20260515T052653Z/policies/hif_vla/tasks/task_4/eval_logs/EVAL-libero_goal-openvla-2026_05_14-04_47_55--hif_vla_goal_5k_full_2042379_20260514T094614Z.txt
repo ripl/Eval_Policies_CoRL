@@ -1,0 +1,3008 @@
+Task suite: libero_goal
+Using initial states from /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_goal_5000/libero_goal/put_the_bowl_on_top_of_the_cabinet.pruned_init
+
+Task: put the bowl on top of the cabinet
+Starting episode 1...
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 2...
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 3...
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 4...
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 5...
+Success: True
+# episodes completed so far: 5
+# successes: 5 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 6...
+Success: True
+# episodes completed so far: 6
+# successes: 6 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 7...
+Success: True
+# episodes completed so far: 7
+# successes: 7 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 8...
+Success: True
+# episodes completed so far: 8
+# successes: 8 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 9...
+Success: True
+# episodes completed so far: 9
+# successes: 9 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 10...
+Success: True
+# episodes completed so far: 10
+# successes: 10 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 11...
+Success: True
+# episodes completed so far: 11
+# successes: 11 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 12...
+Success: True
+# episodes completed so far: 12
+# successes: 12 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 13...
+Success: True
+# episodes completed so far: 13
+# successes: 13 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 14...
+Success: True
+# episodes completed so far: 14
+# successes: 14 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 15...
+Success: True
+# episodes completed so far: 15
+# successes: 15 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 16...
+Success: True
+# episodes completed so far: 16
+# successes: 16 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 17...
+Success: True
+# episodes completed so far: 17
+# successes: 17 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 18...
+Success: True
+# episodes completed so far: 18
+# successes: 18 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 19...
+Success: True
+# episodes completed so far: 19
+# successes: 19 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 20...
+Success: True
+# episodes completed so far: 20
+# successes: 20 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 21...
+Success: True
+# episodes completed so far: 21
+# successes: 21 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 22...
+Success: True
+# episodes completed so far: 22
+# successes: 22 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 23...
+Success: True
+# episodes completed so far: 23
+# successes: 23 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 24...
+Success: True
+# episodes completed so far: 24
+# successes: 24 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 25...
+Success: True
+# episodes completed so far: 25
+# successes: 25 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 26...
+Success: True
+# episodes completed so far: 26
+# successes: 26 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 27...
+Success: True
+# episodes completed so far: 27
+# successes: 27 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 28...
+Success: True
+# episodes completed so far: 28
+# successes: 28 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 29...
+Success: True
+# episodes completed so far: 29
+# successes: 29 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 30...
+Success: True
+# episodes completed so far: 30
+# successes: 30 (100.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 31...
+Success: False
+# episodes completed so far: 31
+# successes: 30 (96.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 32...
+Success: True
+# episodes completed so far: 32
+# successes: 31 (96.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 33...
+Success: True
+# episodes completed so far: 33
+# successes: 32 (97.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 34...
+Success: True
+# episodes completed so far: 34
+# successes: 33 (97.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 35...
+Success: True
+# episodes completed so far: 35
+# successes: 34 (97.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 36...
+Success: True
+# episodes completed so far: 36
+# successes: 35 (97.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 37...
+Success: True
+# episodes completed so far: 37
+# successes: 36 (97.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 38...
+Success: True
+# episodes completed so far: 38
+# successes: 37 (97.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 39...
+Success: True
+# episodes completed so far: 39
+# successes: 38 (97.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 40...
+Success: True
+# episodes completed so far: 40
+# successes: 39 (97.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 41...
+Success: True
+# episodes completed so far: 41
+# successes: 40 (97.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 42...
+Success: True
+# episodes completed so far: 42
+# successes: 41 (97.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 43...
+Success: True
+# episodes completed so far: 43
+# successes: 42 (97.7%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 44...
+Success: True
+# episodes completed so far: 44
+# successes: 43 (97.7%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 45...
+Success: True
+# episodes completed so far: 45
+# successes: 44 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 46...
+Success: True
+# episodes completed so far: 46
+# successes: 45 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 47...
+Success: True
+# episodes completed so far: 47
+# successes: 46 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 48...
+Success: True
+# episodes completed so far: 48
+# successes: 47 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 49...
+Success: True
+# episodes completed so far: 49
+# successes: 48 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 50...
+Success: True
+# episodes completed so far: 50
+# successes: 49 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 51...
+Success: True
+# episodes completed so far: 51
+# successes: 50 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 52...
+Success: True
+# episodes completed so far: 52
+# successes: 51 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 53...
+Success: True
+# episodes completed so far: 53
+# successes: 52 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 54...
+Success: True
+# episodes completed so far: 54
+# successes: 53 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 55...
+Success: True
+# episodes completed so far: 55
+# successes: 54 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 56...
+Success: True
+# episodes completed so far: 56
+# successes: 55 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 57...
+Success: True
+# episodes completed so far: 57
+# successes: 56 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 58...
+Success: True
+# episodes completed so far: 58
+# successes: 57 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 59...
+Success: True
+# episodes completed so far: 59
+# successes: 58 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 60...
+Success: True
+# episodes completed so far: 60
+# successes: 59 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 61...
+Success: True
+# episodes completed so far: 61
+# successes: 60 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 62...
+Success: True
+# episodes completed so far: 62
+# successes: 61 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 63...
+Success: True
+# episodes completed so far: 63
+# successes: 62 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 64...
+Success: True
+# episodes completed so far: 64
+# successes: 63 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 65...
+Success: True
+# episodes completed so far: 65
+# successes: 64 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 66...
+Success: True
+# episodes completed so far: 66
+# successes: 65 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 67...
+Success: True
+# episodes completed so far: 67
+# successes: 66 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 68...
+Success: True
+# episodes completed so far: 68
+# successes: 67 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 69...
+Success: True
+# episodes completed so far: 69
+# successes: 68 (98.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 70...
+Success: False
+# episodes completed so far: 70
+# successes: 68 (97.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 71...
+Success: True
+# episodes completed so far: 71
+# successes: 69 (97.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 72...
+Success: True
+# episodes completed so far: 72
+# successes: 70 (97.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 73...
+Success: True
+# episodes completed so far: 73
+# successes: 71 (97.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 74...
+Success: True
+# episodes completed so far: 74
+# successes: 72 (97.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 75...
+Success: True
+# episodes completed so far: 75
+# successes: 73 (97.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 76...
+Success: True
+# episodes completed so far: 76
+# successes: 74 (97.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 77...
+Success: True
+# episodes completed so far: 77
+# successes: 75 (97.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 78...
+Success: True
+# episodes completed so far: 78
+# successes: 76 (97.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 79...
+Success: True
+# episodes completed so far: 79
+# successes: 77 (97.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 80...
+Success: True
+# episodes completed so far: 80
+# successes: 78 (97.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 81...
+Success: True
+# episodes completed so far: 81
+# successes: 79 (97.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 82...
+Success: True
+# episodes completed so far: 82
+# successes: 80 (97.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 83...
+Success: True
+# episodes completed so far: 83
+# successes: 81 (97.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 84...
+Success: True
+# episodes completed so far: 84
+# successes: 82 (97.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 85...
+Success: True
+# episodes completed so far: 85
+# successes: 83 (97.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 86...
+Success: True
+# episodes completed so far: 86
+# successes: 84 (97.7%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 87...
+Success: True
+# episodes completed so far: 87
+# successes: 85 (97.7%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 88...
+Success: True
+# episodes completed so far: 88
+# successes: 86 (97.7%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 89...
+Success: True
+# episodes completed so far: 89
+# successes: 87 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 90...
+Success: True
+# episodes completed so far: 90
+# successes: 88 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 91...
+Success: True
+# episodes completed so far: 91
+# successes: 89 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 92...
+Success: True
+# episodes completed so far: 92
+# successes: 90 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 93...
+Success: True
+# episodes completed so far: 93
+# successes: 91 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 94...
+Success: True
+# episodes completed so far: 94
+# successes: 92 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 95...
+Success: True
+# episodes completed so far: 95
+# successes: 93 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 96...
+Success: False
+# episodes completed so far: 96
+# successes: 93 (96.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 97...
+Success: True
+# episodes completed so far: 97
+# successes: 94 (96.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 98...
+Success: True
+# episodes completed so far: 98
+# successes: 95 (96.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 99...
+Success: True
+# episodes completed so far: 99
+# successes: 96 (97.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 100...
+Success: True
+# episodes completed so far: 100
+# successes: 97 (97.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 101...
+Success: True
+# episodes completed so far: 101
+# successes: 98 (97.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 102...
+Success: True
+# episodes completed so far: 102
+# successes: 99 (97.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 103...
+Success: True
+# episodes completed so far: 103
+# successes: 100 (97.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 104...
+Success: True
+# episodes completed so far: 104
+# successes: 101 (97.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 105...
+Success: True
+# episodes completed so far: 105
+# successes: 102 (97.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 106...
+Success: True
+# episodes completed so far: 106
+# successes: 103 (97.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 107...
+Success: True
+# episodes completed so far: 107
+# successes: 104 (97.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 108...
+Success: True
+# episodes completed so far: 108
+# successes: 105 (97.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 109...
+Success: True
+# episodes completed so far: 109
+# successes: 106 (97.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 110...
+Success: True
+# episodes completed so far: 110
+# successes: 107 (97.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 111...
+Success: True
+# episodes completed so far: 111
+# successes: 108 (97.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 112...
+Success: True
+# episodes completed so far: 112
+# successes: 109 (97.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 113...
+Success: True
+# episodes completed so far: 113
+# successes: 110 (97.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 114...
+Success: True
+# episodes completed so far: 114
+# successes: 111 (97.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 115...
+Success: True
+# episodes completed so far: 115
+# successes: 112 (97.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 116...
+Success: True
+# episodes completed so far: 116
+# successes: 113 (97.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 117...
+Success: True
+# episodes completed so far: 117
+# successes: 114 (97.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 118...
+Success: True
+# episodes completed so far: 118
+# successes: 115 (97.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 119...
+Success: True
+# episodes completed so far: 119
+# successes: 116 (97.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 120...
+Success: True
+# episodes completed so far: 120
+# successes: 117 (97.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 121...
+Success: True
+# episodes completed so far: 121
+# successes: 118 (97.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 122...
+Success: True
+# episodes completed so far: 122
+# successes: 119 (97.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 123...
+Success: True
+# episodes completed so far: 123
+# successes: 120 (97.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 124...
+Success: True
+# episodes completed so far: 124
+# successes: 121 (97.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 125...
+Success: True
+# episodes completed so far: 125
+# successes: 122 (97.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 126...
+Success: True
+# episodes completed so far: 126
+# successes: 123 (97.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 127...
+Success: True
+# episodes completed so far: 127
+# successes: 124 (97.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 128...
+Success: True
+# episodes completed so far: 128
+# successes: 125 (97.7%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 129...
+Success: True
+# episodes completed so far: 129
+# successes: 126 (97.7%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 130...
+Success: True
+# episodes completed so far: 130
+# successes: 127 (97.7%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 131...
+Success: True
+# episodes completed so far: 131
+# successes: 128 (97.7%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 132...
+Success: True
+# episodes completed so far: 132
+# successes: 129 (97.7%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 133...
+Success: True
+# episodes completed so far: 133
+# successes: 130 (97.7%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 134...
+Success: True
+# episodes completed so far: 134
+# successes: 131 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 135...
+Success: True
+# episodes completed so far: 135
+# successes: 132 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 136...
+Success: True
+# episodes completed so far: 136
+# successes: 133 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 137...
+Success: True
+# episodes completed so far: 137
+# successes: 134 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 138...
+Success: True
+# episodes completed so far: 138
+# successes: 135 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 139...
+Success: True
+# episodes completed so far: 139
+# successes: 136 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 140...
+Success: True
+# episodes completed so far: 140
+# successes: 137 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 141...
+Success: True
+# episodes completed so far: 141
+# successes: 138 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 142...
+Success: True
+# episodes completed so far: 142
+# successes: 139 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 143...
+Success: True
+# episodes completed so far: 143
+# successes: 140 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 144...
+Success: True
+# episodes completed so far: 144
+# successes: 141 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 145...
+Success: True
+# episodes completed so far: 145
+# successes: 142 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 146...
+Success: True
+# episodes completed so far: 146
+# successes: 143 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 147...
+Success: True
+# episodes completed so far: 147
+# successes: 144 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 148...
+Success: True
+# episodes completed so far: 148
+# successes: 145 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 149...
+Success: True
+# episodes completed so far: 149
+# successes: 146 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 150...
+Success: True
+# episodes completed so far: 150
+# successes: 147 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 151...
+Success: True
+# episodes completed so far: 151
+# successes: 148 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 152...
+Success: True
+# episodes completed so far: 152
+# successes: 149 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 153...
+Success: True
+# episodes completed so far: 153
+# successes: 150 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 154...
+Success: True
+# episodes completed so far: 154
+# successes: 151 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 155...
+Success: True
+# episodes completed so far: 155
+# successes: 152 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 156...
+Success: True
+# episodes completed so far: 156
+# successes: 153 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 157...
+Success: True
+# episodes completed so far: 157
+# successes: 154 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 158...
+Success: True
+# episodes completed so far: 158
+# successes: 155 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 159...
+Success: True
+# episodes completed so far: 159
+# successes: 156 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 160...
+Success: True
+# episodes completed so far: 160
+# successes: 157 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 161...
+Success: True
+# episodes completed so far: 161
+# successes: 158 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 162...
+Success: True
+# episodes completed so far: 162
+# successes: 159 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 163...
+Success: True
+# episodes completed so far: 163
+# successes: 160 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 164...
+Success: True
+# episodes completed so far: 164
+# successes: 161 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 165...
+Success: True
+# episodes completed so far: 165
+# successes: 162 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 166...
+Success: True
+# episodes completed so far: 166
+# successes: 163 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 167...
+Success: True
+# episodes completed so far: 167
+# successes: 164 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 168...
+Success: True
+# episodes completed so far: 168
+# successes: 165 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 169...
+Success: True
+# episodes completed so far: 169
+# successes: 166 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 170...
+Success: True
+# episodes completed so far: 170
+# successes: 167 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 171...
+Success: True
+# episodes completed so far: 171
+# successes: 168 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 172...
+Success: True
+# episodes completed so far: 172
+# successes: 169 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 173...
+Success: True
+# episodes completed so far: 173
+# successes: 170 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 174...
+Success: True
+# episodes completed so far: 174
+# successes: 171 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 175...
+Success: True
+# episodes completed so far: 175
+# successes: 172 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 176...
+Success: True
+# episodes completed so far: 176
+# successes: 173 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 177...
+Success: True
+# episodes completed so far: 177
+# successes: 174 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 178...
+Success: True
+# episodes completed so far: 178
+# successes: 175 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 179...
+Success: True
+# episodes completed so far: 179
+# successes: 176 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 180...
+Success: True
+# episodes completed so far: 180
+# successes: 177 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 181...
+Success: True
+# episodes completed so far: 181
+# successes: 178 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 182...
+Success: True
+# episodes completed so far: 182
+# successes: 179 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 183...
+Success: True
+# episodes completed so far: 183
+# successes: 180 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 184...
+Success: False
+# episodes completed so far: 184
+# successes: 180 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 185...
+Success: True
+# episodes completed so far: 185
+# successes: 181 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 186...
+Success: True
+# episodes completed so far: 186
+# successes: 182 (97.8%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 187...
+Success: True
+# episodes completed so far: 187
+# successes: 183 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 188...
+Success: True
+# episodes completed so far: 188
+# successes: 184 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 189...
+Success: True
+# episodes completed so far: 189
+# successes: 185 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 190...
+Success: True
+# episodes completed so far: 190
+# successes: 186 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 191...
+Success: True
+# episodes completed so far: 191
+# successes: 187 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 192...
+Success: True
+# episodes completed so far: 192
+# successes: 188 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 193...
+Success: True
+# episodes completed so far: 193
+# successes: 189 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 194...
+Success: True
+# episodes completed so far: 194
+# successes: 190 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 195...
+Success: True
+# episodes completed so far: 195
+# successes: 191 (97.9%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 196...
+Success: True
+# episodes completed so far: 196
+# successes: 192 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 197...
+Success: True
+# episodes completed so far: 197
+# successes: 193 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 198...
+Success: True
+# episodes completed so far: 198
+# successes: 194 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 199...
+Success: True
+# episodes completed so far: 199
+# successes: 195 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 200...
+Success: True
+# episodes completed so far: 200
+# successes: 196 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 201...
+Success: True
+# episodes completed so far: 201
+# successes: 197 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 202...
+Success: True
+# episodes completed so far: 202
+# successes: 198 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 203...
+Success: True
+# episodes completed so far: 203
+# successes: 199 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 204...
+Success: True
+# episodes completed so far: 204
+# successes: 200 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 205...
+Success: True
+# episodes completed so far: 205
+# successes: 201 (98.0%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 206...
+Success: True
+# episodes completed so far: 206
+# successes: 202 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 207...
+Success: True
+# episodes completed so far: 207
+# successes: 203 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 208...
+Success: True
+# episodes completed so far: 208
+# successes: 204 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 209...
+Success: True
+# episodes completed so far: 209
+# successes: 205 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 210...
+Success: True
+# episodes completed so far: 210
+# successes: 206 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 211...
+Success: True
+# episodes completed so far: 211
+# successes: 207 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 212...
+Success: True
+# episodes completed so far: 212
+# successes: 208 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 213...
+Success: True
+# episodes completed so far: 213
+# successes: 209 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 214...
+Success: True
+# episodes completed so far: 214
+# successes: 210 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 215...
+Success: True
+# episodes completed so far: 215
+# successes: 211 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 216...
+Success: True
+# episodes completed so far: 216
+# successes: 212 (98.1%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 217...
+Success: True
+# episodes completed so far: 217
+# successes: 213 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 218...
+Success: True
+# episodes completed so far: 218
+# successes: 214 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 219...
+Success: True
+# episodes completed so far: 219
+# successes: 215 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 220...
+Success: True
+# episodes completed so far: 220
+# successes: 216 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 221...
+Success: True
+# episodes completed so far: 221
+# successes: 217 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 222...
+Success: True
+# episodes completed so far: 222
+# successes: 218 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 223...
+Success: True
+# episodes completed so far: 223
+# successes: 219 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 224...
+Success: True
+# episodes completed so far: 224
+# successes: 220 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 225...
+Success: True
+# episodes completed so far: 225
+# successes: 221 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 226...
+Success: True
+# episodes completed so far: 226
+# successes: 222 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 227...
+Success: True
+# episodes completed so far: 227
+# successes: 223 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 228...
+Success: True
+# episodes completed so far: 228
+# successes: 224 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 229...
+Success: True
+# episodes completed so far: 229
+# successes: 225 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 230...
+Success: True
+# episodes completed so far: 230
+# successes: 226 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 231...
+Success: True
+# episodes completed so far: 231
+# successes: 227 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 232...
+Success: True
+# episodes completed so far: 232
+# successes: 228 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 233...
+Success: True
+# episodes completed so far: 233
+# successes: 229 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 234...
+Success: True
+# episodes completed so far: 234
+# successes: 230 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 235...
+Success: True
+# episodes completed so far: 235
+# successes: 231 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 236...
+Success: True
+# episodes completed so far: 236
+# successes: 232 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 237...
+Success: True
+# episodes completed so far: 237
+# successes: 233 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 238...
+Success: True
+# episodes completed so far: 238
+# successes: 234 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 239...
+Success: True
+# episodes completed so far: 239
+# successes: 235 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 240...
+Success: True
+# episodes completed so far: 240
+# successes: 236 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 241...
+Success: True
+# episodes completed so far: 241
+# successes: 237 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 242...
+Success: True
+# episodes completed so far: 242
+# successes: 238 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 243...
+Success: True
+# episodes completed so far: 243
+# successes: 239 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 244...
+Success: True
+# episodes completed so far: 244
+# successes: 240 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 245...
+Success: True
+# episodes completed so far: 245
+# successes: 241 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 246...
+Success: True
+# episodes completed so far: 246
+# successes: 242 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 247...
+Success: True
+# episodes completed so far: 247
+# successes: 243 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 248...
+Success: True
+# episodes completed so far: 248
+# successes: 244 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 249...
+Success: True
+# episodes completed so far: 249
+# successes: 245 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 250...
+Success: True
+# episodes completed so far: 250
+# successes: 246 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 251...
+Success: True
+# episodes completed so far: 251
+# successes: 247 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 252...
+Success: True
+# episodes completed so far: 252
+# successes: 248 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 253...
+Success: True
+# episodes completed so far: 253
+# successes: 249 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 254...
+Success: True
+# episodes completed so far: 254
+# successes: 250 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 255...
+Success: True
+# episodes completed so far: 255
+# successes: 251 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 256...
+Success: True
+# episodes completed so far: 256
+# successes: 252 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 257...
+Success: True
+# episodes completed so far: 257
+# successes: 253 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 258...
+Success: True
+# episodes completed so far: 258
+# successes: 254 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 259...
+Success: True
+# episodes completed so far: 259
+# successes: 255 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 260...
+Success: True
+# episodes completed so far: 260
+# successes: 256 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 261...
+Success: True
+# episodes completed so far: 261
+# successes: 257 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 262...
+Success: True
+# episodes completed so far: 262
+# successes: 258 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 263...
+Success: True
+# episodes completed so far: 263
+# successes: 259 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 264...
+Success: True
+# episodes completed so far: 264
+# successes: 260 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 265...
+Success: True
+# episodes completed so far: 265
+# successes: 261 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 266...
+Success: True
+# episodes completed so far: 266
+# successes: 262 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 267...
+Success: True
+# episodes completed so far: 267
+# successes: 263 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 268...
+Success: True
+# episodes completed so far: 268
+# successes: 264 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 269...
+Success: True
+# episodes completed so far: 269
+# successes: 265 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 270...
+Success: True
+# episodes completed so far: 270
+# successes: 266 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 271...
+Success: True
+# episodes completed so far: 271
+# successes: 267 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 272...
+Success: True
+# episodes completed so far: 272
+# successes: 268 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 273...
+Success: True
+# episodes completed so far: 273
+# successes: 269 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 274...
+Success: True
+# episodes completed so far: 274
+# successes: 270 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 275...
+Success: True
+# episodes completed so far: 275
+# successes: 271 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 276...
+Success: True
+# episodes completed so far: 276
+# successes: 272 (98.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 277...
+Success: True
+# episodes completed so far: 277
+# successes: 273 (98.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 278...
+Success: True
+# episodes completed so far: 278
+# successes: 274 (98.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 279...
+Success: True
+# episodes completed so far: 279
+# successes: 275 (98.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 280...
+Success: True
+# episodes completed so far: 280
+# successes: 276 (98.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 281...
+Success: True
+# episodes completed so far: 281
+# successes: 277 (98.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 282...
+Success: True
+# episodes completed so far: 282
+# successes: 278 (98.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 283...
+Success: True
+# episodes completed so far: 283
+# successes: 279 (98.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 284...
+Success: True
+# episodes completed so far: 284
+# successes: 280 (98.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 285...
+Success: True
+# episodes completed so far: 285
+# successes: 281 (98.6%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 286...
+Success: False
+# episodes completed so far: 286
+# successes: 281 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 287...
+Success: True
+# episodes completed so far: 287
+# successes: 282 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 288...
+Success: True
+# episodes completed so far: 288
+# successes: 283 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 289...
+Success: True
+# episodes completed so far: 289
+# successes: 284 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 290...
+Success: True
+# episodes completed so far: 290
+# successes: 285 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 291...
+Success: True
+# episodes completed so far: 291
+# successes: 286 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 292...
+Success: True
+# episodes completed so far: 292
+# successes: 287 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 293...
+Success: True
+# episodes completed so far: 293
+# successes: 288 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 294...
+Success: True
+# episodes completed so far: 294
+# successes: 289 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 295...
+Success: True
+# episodes completed so far: 295
+# successes: 290 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 296...
+Success: True
+# episodes completed so far: 296
+# successes: 291 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 297...
+Success: True
+# episodes completed so far: 297
+# successes: 292 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 298...
+Success: True
+# episodes completed so far: 298
+# successes: 293 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 299...
+Success: True
+# episodes completed so far: 299
+# successes: 294 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 300...
+Success: True
+# episodes completed so far: 300
+# successes: 295 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 301...
+Success: True
+# episodes completed so far: 301
+# successes: 296 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 302...
+Success: True
+# episodes completed so far: 302
+# successes: 297 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 303...
+Success: True
+# episodes completed so far: 303
+# successes: 298 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 304...
+Success: True
+# episodes completed so far: 304
+# successes: 299 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 305...
+Success: True
+# episodes completed so far: 305
+# successes: 300 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 306...
+Success: True
+# episodes completed so far: 306
+# successes: 301 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 307...
+Success: True
+# episodes completed so far: 307
+# successes: 302 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 308...
+Success: True
+# episodes completed so far: 308
+# successes: 303 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 309...
+Success: True
+# episodes completed so far: 309
+# successes: 304 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 310...
+Success: True
+# episodes completed so far: 310
+# successes: 305 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 311...
+Success: True
+# episodes completed so far: 311
+# successes: 306 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 312...
+Success: True
+# episodes completed so far: 312
+# successes: 307 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 313...
+Success: True
+# episodes completed so far: 313
+# successes: 308 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 314...
+Success: True
+# episodes completed so far: 314
+# successes: 309 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 315...
+Success: True
+# episodes completed so far: 315
+# successes: 310 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 316...
+Success: True
+# episodes completed so far: 316
+# successes: 311 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 317...
+Success: True
+# episodes completed so far: 317
+# successes: 312 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 318...
+Success: True
+# episodes completed so far: 318
+# successes: 313 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 319...
+Success: True
+# episodes completed so far: 319
+# successes: 314 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 320...
+Success: True
+# episodes completed so far: 320
+# successes: 315 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 321...
+Success: True
+# episodes completed so far: 321
+# successes: 316 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 322...
+Success: True
+# episodes completed so far: 322
+# successes: 317 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 323...
+Success: True
+# episodes completed so far: 323
+# successes: 318 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 324...
+Success: True
+# episodes completed so far: 324
+# successes: 319 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 325...
+Success: True
+# episodes completed so far: 325
+# successes: 320 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 326...
+Success: True
+# episodes completed so far: 326
+# successes: 321 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 327...
+Success: True
+# episodes completed so far: 327
+# successes: 322 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 328...
+Success: False
+# episodes completed so far: 328
+# successes: 322 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 329...
+Success: True
+# episodes completed so far: 329
+# successes: 323 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 330...
+Success: True
+# episodes completed so far: 330
+# successes: 324 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 331...
+Success: True
+# episodes completed so far: 331
+# successes: 325 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 332...
+Success: True
+# episodes completed so far: 332
+# successes: 326 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 333...
+Success: True
+# episodes completed so far: 333
+# successes: 327 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 334...
+Success: True
+# episodes completed so far: 334
+# successes: 328 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 335...
+Success: True
+# episodes completed so far: 335
+# successes: 329 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 336...
+Success: True
+# episodes completed so far: 336
+# successes: 330 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 337...
+Success: True
+# episodes completed so far: 337
+# successes: 331 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 338...
+Success: True
+# episodes completed so far: 338
+# successes: 332 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 339...
+Success: True
+# episodes completed so far: 339
+# successes: 333 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 340...
+Success: True
+# episodes completed so far: 340
+# successes: 334 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 341...
+Success: True
+# episodes completed so far: 341
+# successes: 335 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 342...
+Success: True
+# episodes completed so far: 342
+# successes: 336 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 343...
+Success: True
+# episodes completed so far: 343
+# successes: 337 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 344...
+Success: True
+# episodes completed so far: 344
+# successes: 338 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 345...
+Success: True
+# episodes completed so far: 345
+# successes: 339 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 346...
+Success: True
+# episodes completed so far: 346
+# successes: 340 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 347...
+Success: True
+# episodes completed so far: 347
+# successes: 341 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 348...
+Success: True
+# episodes completed so far: 348
+# successes: 342 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 349...
+Success: True
+# episodes completed so far: 349
+# successes: 343 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 350...
+Success: True
+# episodes completed so far: 350
+# successes: 344 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 351...
+Success: True
+# episodes completed so far: 351
+# successes: 345 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 352...
+Success: True
+# episodes completed so far: 352
+# successes: 346 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 353...
+Success: True
+# episodes completed so far: 353
+# successes: 347 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 354...
+Success: True
+# episodes completed so far: 354
+# successes: 348 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 355...
+Success: True
+# episodes completed so far: 355
+# successes: 349 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 356...
+Success: True
+# episodes completed so far: 356
+# successes: 350 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 357...
+Success: True
+# episodes completed so far: 357
+# successes: 351 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 358...
+Success: True
+# episodes completed so far: 358
+# successes: 352 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 359...
+Success: True
+# episodes completed so far: 359
+# successes: 353 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 360...
+Success: True
+# episodes completed so far: 360
+# successes: 354 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 361...
+Success: True
+# episodes completed so far: 361
+# successes: 355 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 362...
+Success: True
+# episodes completed so far: 362
+# successes: 356 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 363...
+Success: True
+# episodes completed so far: 363
+# successes: 357 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 364...
+Success: True
+# episodes completed so far: 364
+# successes: 358 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 365...
+Success: True
+# episodes completed so far: 365
+# successes: 359 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 366...
+Success: True
+# episodes completed so far: 366
+# successes: 360 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 367...
+Success: True
+# episodes completed so far: 367
+# successes: 361 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 368...
+Success: True
+# episodes completed so far: 368
+# successes: 362 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 369...
+Success: True
+# episodes completed so far: 369
+# successes: 363 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 370...
+Success: True
+# episodes completed so far: 370
+# successes: 364 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 371...
+Success: True
+# episodes completed so far: 371
+# successes: 365 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 372...
+Success: True
+# episodes completed so far: 372
+# successes: 366 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 373...
+Success: True
+# episodes completed so far: 373
+# successes: 367 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 374...
+Success: True
+# episodes completed so far: 374
+# successes: 368 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 375...
+Success: True
+# episodes completed so far: 375
+# successes: 369 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 376...
+Success: True
+# episodes completed so far: 376
+# successes: 370 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 377...
+Success: True
+# episodes completed so far: 377
+# successes: 371 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 378...
+Success: True
+# episodes completed so far: 378
+# successes: 372 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 379...
+Success: True
+# episodes completed so far: 379
+# successes: 373 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 380...
+Success: True
+# episodes completed so far: 380
+# successes: 374 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 381...
+Success: True
+# episodes completed so far: 381
+# successes: 375 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 382...
+Success: True
+# episodes completed so far: 382
+# successes: 376 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 383...
+Success: True
+# episodes completed so far: 383
+# successes: 377 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 384...
+Success: True
+# episodes completed so far: 384
+# successes: 378 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 385...
+Success: True
+# episodes completed so far: 385
+# successes: 379 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 386...
+Success: True
+# episodes completed so far: 386
+# successes: 380 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 387...
+Success: True
+# episodes completed so far: 387
+# successes: 381 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 388...
+Success: True
+# episodes completed so far: 388
+# successes: 382 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 389...
+Success: True
+# episodes completed so far: 389
+# successes: 383 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 390...
+Success: True
+# episodes completed so far: 390
+# successes: 384 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 391...
+Success: True
+# episodes completed so far: 391
+# successes: 385 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 392...
+Success: True
+# episodes completed so far: 392
+# successes: 386 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 393...
+Success: True
+# episodes completed so far: 393
+# successes: 387 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 394...
+Success: True
+# episodes completed so far: 394
+# successes: 388 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 395...
+Success: True
+# episodes completed so far: 395
+# successes: 389 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 396...
+Success: True
+# episodes completed so far: 396
+# successes: 390 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 397...
+Success: True
+# episodes completed so far: 397
+# successes: 391 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 398...
+Success: True
+# episodes completed so far: 398
+# successes: 392 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 399...
+Success: True
+# episodes completed so far: 399
+# successes: 393 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 400...
+Success: True
+# episodes completed so far: 400
+# successes: 394 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 401...
+Success: False
+# episodes completed so far: 401
+# successes: 394 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 402...
+Success: True
+# episodes completed so far: 402
+# successes: 395 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 403...
+Success: True
+# episodes completed so far: 403
+# successes: 396 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 404...
+Success: True
+# episodes completed so far: 404
+# successes: 397 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 405...
+Success: True
+# episodes completed so far: 405
+# successes: 398 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 406...
+Success: True
+# episodes completed so far: 406
+# successes: 399 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 407...
+Success: True
+# episodes completed so far: 407
+# successes: 400 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 408...
+Success: True
+# episodes completed so far: 408
+# successes: 401 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 409...
+Success: True
+# episodes completed so far: 409
+# successes: 402 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 410...
+Success: True
+# episodes completed so far: 410
+# successes: 403 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 411...
+Success: True
+# episodes completed so far: 411
+# successes: 404 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 412...
+Success: True
+# episodes completed so far: 412
+# successes: 405 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 413...
+Success: True
+# episodes completed so far: 413
+# successes: 406 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 414...
+Success: True
+# episodes completed so far: 414
+# successes: 407 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 415...
+Success: True
+# episodes completed so far: 415
+# successes: 408 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 416...
+Success: True
+# episodes completed so far: 416
+# successes: 409 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 417...
+Success: True
+# episodes completed so far: 417
+# successes: 410 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 418...
+Success: True
+# episodes completed so far: 418
+# successes: 411 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 419...
+Success: True
+# episodes completed so far: 419
+# successes: 412 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 420...
+Success: True
+# episodes completed so far: 420
+# successes: 413 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 421...
+Success: True
+# episodes completed so far: 421
+# successes: 414 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 422...
+Success: True
+# episodes completed so far: 422
+# successes: 415 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 423...
+Success: True
+# episodes completed so far: 423
+# successes: 416 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 424...
+Success: True
+# episodes completed so far: 424
+# successes: 417 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 425...
+Success: True
+# episodes completed so far: 425
+# successes: 418 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 426...
+Success: True
+# episodes completed so far: 426
+# successes: 419 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 427...
+Success: True
+# episodes completed so far: 427
+# successes: 420 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 428...
+Success: True
+# episodes completed so far: 428
+# successes: 421 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 429...
+Success: True
+# episodes completed so far: 429
+# successes: 422 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 430...
+Success: True
+# episodes completed so far: 430
+# successes: 423 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 431...
+Success: True
+# episodes completed so far: 431
+# successes: 424 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 432...
+Success: True
+# episodes completed so far: 432
+# successes: 425 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 433...
+Success: True
+# episodes completed so far: 433
+# successes: 426 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 434...
+Success: True
+# episodes completed so far: 434
+# successes: 427 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 435...
+Success: True
+# episodes completed so far: 435
+# successes: 428 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 436...
+Success: True
+# episodes completed so far: 436
+# successes: 429 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 437...
+Success: True
+# episodes completed so far: 437
+# successes: 430 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 438...
+Success: True
+# episodes completed so far: 438
+# successes: 431 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 439...
+Success: True
+# episodes completed so far: 439
+# successes: 432 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 440...
+Success: True
+# episodes completed so far: 440
+# successes: 433 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 441...
+Success: True
+# episodes completed so far: 441
+# successes: 434 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 442...
+Success: True
+# episodes completed so far: 442
+# successes: 435 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 443...
+Success: True
+# episodes completed so far: 443
+# successes: 436 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 444...
+Success: True
+# episodes completed so far: 444
+# successes: 437 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 445...
+Success: True
+# episodes completed so far: 445
+# successes: 438 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 446...
+Success: True
+# episodes completed so far: 446
+# successes: 439 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 447...
+Success: True
+# episodes completed so far: 447
+# successes: 440 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 448...
+Success: True
+# episodes completed so far: 448
+# successes: 441 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 449...
+Success: True
+# episodes completed so far: 449
+# successes: 442 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 450...
+Success: True
+# episodes completed so far: 450
+# successes: 443 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 451...
+Success: True
+# episodes completed so far: 451
+# successes: 444 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 452...
+Success: True
+# episodes completed so far: 452
+# successes: 445 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 453...
+Success: True
+# episodes completed so far: 453
+# successes: 446 (98.5%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 454...
+Success: False
+# episodes completed so far: 454
+# successes: 446 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 455...
+Success: True
+# episodes completed so far: 455
+# successes: 447 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 456...
+Success: True
+# episodes completed so far: 456
+# successes: 448 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 457...
+Success: True
+# episodes completed so far: 457
+# successes: 449 (98.2%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 458...
+Success: True
+# episodes completed so far: 458
+# successes: 450 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 459...
+Success: True
+# episodes completed so far: 459
+# successes: 451 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 460...
+Success: True
+# episodes completed so far: 460
+# successes: 452 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 461...
+Success: True
+# episodes completed so far: 461
+# successes: 453 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 462...
+Success: True
+# episodes completed so far: 462
+# successes: 454 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 463...
+Success: True
+# episodes completed so far: 463
+# successes: 455 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 464...
+Success: True
+# episodes completed so far: 464
+# successes: 456 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 465...
+Success: True
+# episodes completed so far: 465
+# successes: 457 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 466...
+Success: True
+# episodes completed so far: 466
+# successes: 458 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 467...
+Success: True
+# episodes completed so far: 467
+# successes: 459 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 468...
+Success: True
+# episodes completed so far: 468
+# successes: 460 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 469...
+Success: True
+# episodes completed so far: 469
+# successes: 461 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 470...
+Success: True
+# episodes completed so far: 470
+# successes: 462 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 471...
+Success: True
+# episodes completed so far: 471
+# successes: 463 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 472...
+Success: True
+# episodes completed so far: 472
+# successes: 464 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 473...
+Success: True
+# episodes completed so far: 473
+# successes: 465 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 474...
+Success: True
+# episodes completed so far: 474
+# successes: 466 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 475...
+Success: True
+# episodes completed so far: 475
+# successes: 467 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 476...
+Success: True
+# episodes completed so far: 476
+# successes: 468 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 477...
+Success: True
+# episodes completed so far: 477
+# successes: 469 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 478...
+Success: True
+# episodes completed so far: 478
+# successes: 470 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 479...
+Success: True
+# episodes completed so far: 479
+# successes: 471 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 480...
+Success: True
+# episodes completed so far: 480
+# successes: 472 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 481...
+Success: True
+# episodes completed so far: 481
+# successes: 473 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 482...
+Success: True
+# episodes completed so far: 482
+# successes: 474 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 483...
+Success: True
+# episodes completed so far: 483
+# successes: 475 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 484...
+Success: True
+# episodes completed so far: 484
+# successes: 476 (98.3%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 485...
+Success: True
+# episodes completed so far: 485
+# successes: 477 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 486...
+Success: True
+# episodes completed so far: 486
+# successes: 478 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 487...
+Success: True
+# episodes completed so far: 487
+# successes: 479 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 488...
+Success: True
+# episodes completed so far: 488
+# successes: 480 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 489...
+Success: True
+# episodes completed so far: 489
+# successes: 481 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 490...
+Success: True
+# episodes completed so far: 490
+# successes: 482 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 491...
+Success: True
+# episodes completed so far: 491
+# successes: 483 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 492...
+Success: True
+# episodes completed so far: 492
+# successes: 484 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 493...
+Success: True
+# episodes completed so far: 493
+# successes: 485 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 494...
+Success: True
+# episodes completed so far: 494
+# successes: 486 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 495...
+Success: True
+# episodes completed so far: 495
+# successes: 487 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 496...
+Success: True
+# episodes completed so far: 496
+# successes: 488 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 497...
+Success: True
+# episodes completed so far: 497
+# successes: 489 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 498...
+Success: True
+# episodes completed so far: 498
+# successes: 490 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 499...
+Success: True
+# episodes completed so far: 499
+# successes: 491 (98.4%)
+
+Task: put the bowl on top of the cabinet
+Starting episode 500...
+Success: True
+# episodes completed so far: 500
+# successes: 492 (98.4%)
+Current task success rate: 0.984
+Current total success rate: 0.984
+Final results:
+Total episodes: 500
+Total successes: 492
+Overall success rate: 0.9840 (98.4%)

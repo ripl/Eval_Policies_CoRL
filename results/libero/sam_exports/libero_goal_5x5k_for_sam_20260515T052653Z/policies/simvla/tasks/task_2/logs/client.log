@@ -1,0 +1,1023 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8582
+   Task suite: libero_goal
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_goal
+   Tasks: 10, Trials per task: 500
+   Max steps: 800
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+put the wine bottle on top of ...:   0%|          | 0/500 [00:00<?, ?it/s][A  [OK] Task 2 Ep 0: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:   0%|          | 1/500 [00:17<2:27:31, 17.74s/it][A  [OK] Task 2 Ep 1: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:   0%|          | 2/500 [00:28<1:54:53, 13.84s/it][A  [OK] Task 2 Ep 2: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:   1%|          | 3/500 [00:41<1:49:40, 13.24s/it][A  [OK] Task 2 Ep 3: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:   1%|          | 4/500 [00:52<1:43:06, 12.47s/it][A  [OK] Task 2 Ep 4: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:   1%|          | 5/500 [01:03<1:38:24, 11.93s/it][A  [OK] Task 2 Ep 5: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:   1%|          | 6/500 [01:14<1:36:23, 11.71s/it][A  [OK] Task 2 Ep 6: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:   1%|▏         | 7/500 [01:25<1:32:47, 11.29s/it][A  [OK] Task 2 Ep 7: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:   2%|▏         | 8/500 [01:37<1:35:28, 11.64s/it][A  [OK] Task 2 Ep 8: SUCCESS (steps=104)
+
+put the wine bottle on top of ...:   2%|▏         | 9/500 [01:48<1:33:15, 11.40s/it][A  [OK] Task 2 Ep 9: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:   2%|▏         | 10/500 [01:59<1:32:30, 11.33s/it][A  [OK] Task 2 Ep 10: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:   2%|▏         | 11/500 [02:12<1:34:38, 11.61s/it][A  [OK] Task 2 Ep 11: SUCCESS (steps=103)
+
+put the wine bottle on top of ...:   2%|▏         | 12/500 [02:22<1:32:33, 11.38s/it][A  [OK] Task 2 Ep 12: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:   3%|▎         | 13/500 [02:33<1:31:09, 11.23s/it][A  [OK] Task 2 Ep 13: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:   3%|▎         | 14/500 [02:44<1:29:13, 11.02s/it][A  [OK] Task 2 Ep 14: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:   3%|▎         | 15/500 [02:54<1:27:40, 10.85s/it][A  [OK] Task 2 Ep 15: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:   3%|▎         | 16/500 [03:06<1:30:51, 11.26s/it][A  [OK] Task 2 Ep 16: SUCCESS (steps=89)
+
+put the wine bottle on top of ...:   3%|▎         | 17/500 [03:16<1:27:22, 10.85s/it][A  [OK] Task 2 Ep 17: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:   4%|▎         | 18/500 [03:27<1:26:14, 10.73s/it][A  [OK] Task 2 Ep 18: SUCCESS (steps=109)
+
+put the wine bottle on top of ...:   4%|▍         | 19/500 [03:38<1:27:16, 10.89s/it][A  [OK] Task 2 Ep 19: SUCCESS (steps=91)
+
+put the wine bottle on top of ...:   4%|▍         | 20/500 [03:48<1:25:17, 10.66s/it][A  [OK] Task 2 Ep 20: SUCCESS (steps=90)
+
+put the wine bottle on top of ...:   4%|▍         | 21/500 [03:59<1:24:52, 10.63s/it][A  [OK] Task 2 Ep 21: SUCCESS (steps=105)
+
+put the wine bottle on top of ...:   4%|▍         | 22/500 [04:11<1:28:37, 11.12s/it][A  [OK] Task 2 Ep 22: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:   5%|▍         | 23/500 [04:22<1:28:34, 11.14s/it][A  [OK] Task 2 Ep 23: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:   5%|▍         | 24/500 [04:33<1:26:21, 10.89s/it][A  [OK] Task 2 Ep 24: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:   5%|▌         | 25/500 [04:44<1:26:30, 10.93s/it][A  [OK] Task 2 Ep 25: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:   5%|▌         | 26/500 [04:55<1:27:13, 11.04s/it][A  [OK] Task 2 Ep 26: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:   5%|▌         | 27/500 [05:07<1:29:37, 11.37s/it][A  [OK] Task 2 Ep 27: SUCCESS (steps=91)
+
+put the wine bottle on top of ...:   6%|▌         | 28/500 [05:18<1:27:42, 11.15s/it][A  [OK] Task 2 Ep 28: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:   6%|▌         | 29/500 [05:29<1:28:01, 11.21s/it][A  [OK] Task 2 Ep 29: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:   6%|▌         | 30/500 [05:39<1:25:49, 10.96s/it][A  [OK] Task 2 Ep 30: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:   6%|▌         | 31/500 [05:50<1:24:45, 10.84s/it][A  [OK] Task 2 Ep 31: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:   6%|▋         | 32/500 [06:01<1:24:10, 10.79s/it][A  [OK] Task 2 Ep 32: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:   7%|▋         | 33/500 [06:11<1:23:26, 10.72s/it][A  [OK] Task 2 Ep 33: SUCCESS (steps=103)
+
+put the wine bottle on top of ...:   7%|▋         | 34/500 [06:22<1:23:11, 10.71s/it][A  [OK] Task 2 Ep 34: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:   7%|▋         | 35/500 [06:32<1:21:04, 10.46s/it][A  [OK] Task 2 Ep 35: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:   7%|▋         | 36/500 [06:42<1:19:41, 10.30s/it][A  [OK] Task 2 Ep 36: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:   7%|▋         | 37/500 [06:52<1:18:57, 10.23s/it][A  [OK] Task 2 Ep 37: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:   8%|▊         | 38/500 [07:02<1:19:25, 10.32s/it][A  [OK] Task 2 Ep 38: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:   8%|▊         | 39/500 [07:13<1:19:15, 10.32s/it][A  [OK] Task 2 Ep 39: SUCCESS (steps=107)
+
+put the wine bottle on top of ...:   8%|▊         | 40/500 [07:23<1:20:29, 10.50s/it][A  [OK] Task 2 Ep 40: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:   8%|▊         | 41/500 [07:34<1:20:01, 10.46s/it][A  [OK] Task 2 Ep 41: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:   8%|▊         | 42/500 [07:44<1:19:29, 10.41s/it][A  [OK] Task 2 Ep 42: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:   9%|▊         | 43/500 [07:55<1:19:13, 10.40s/it][A  [OK] Task 2 Ep 43: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:   9%|▉         | 44/500 [08:07<1:23:48, 11.03s/it][A  [OK] Task 2 Ep 44: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:   9%|▉         | 45/500 [08:17<1:21:40, 10.77s/it][A  [OK] Task 2 Ep 45: SUCCESS (steps=109)
+
+put the wine bottle on top of ...:   9%|▉         | 46/500 [08:29<1:23:28, 11.03s/it][A  [OK] Task 2 Ep 46: SUCCESS (steps=107)
+
+put the wine bottle on top of ...:   9%|▉         | 47/500 [08:40<1:23:55, 11.12s/it][A  [OK] Task 2 Ep 47: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  10%|▉         | 48/500 [08:51<1:23:40, 11.11s/it][A  [OK] Task 2 Ep 48: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  10%|▉         | 49/500 [09:02<1:23:52, 11.16s/it][A  [OK] Task 2 Ep 49: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  10%|█         | 50/500 [09:14<1:24:10, 11.22s/it][A  [OK] Task 2 Ep 50: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  10%|█         | 51/500 [09:25<1:23:45, 11.19s/it][A  [OK] Task 2 Ep 51: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  10%|█         | 52/500 [09:35<1:22:01, 10.99s/it][A  [OK] Task 2 Ep 52: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  11%|█         | 53/500 [09:46<1:21:19, 10.92s/it][A  [OK] Task 2 Ep 53: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  11%|█         | 54/500 [09:57<1:20:27, 10.82s/it][A  [OK] Task 2 Ep 54: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  11%|█         | 55/500 [10:07<1:19:06, 10.67s/it][A  [OK] Task 2 Ep 55: SUCCESS (steps=91)
+
+put the wine bottle on top of ...:  11%|█         | 56/500 [10:17<1:16:16, 10.31s/it][A  [OK] Task 2 Ep 56: SUCCESS (steps=104)
+
+put the wine bottle on top of ...:  11%|█▏        | 57/500 [10:28<1:18:43, 10.66s/it][A  [OK] Task 2 Ep 57: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  12%|█▏        | 58/500 [10:39<1:19:40, 10.82s/it][A  [OK] Task 2 Ep 58: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  12%|█▏        | 59/500 [10:50<1:19:46, 10.85s/it][A  [OK] Task 2 Ep 59: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  12%|█▏        | 60/500 [11:02<1:21:41, 11.14s/it][A  [OK] Task 2 Ep 60: SUCCESS (steps=90)
+
+put the wine bottle on top of ...:  12%|█▏        | 61/500 [11:13<1:20:07, 10.95s/it][A  [OK] Task 2 Ep 61: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  12%|█▏        | 62/500 [11:23<1:19:14, 10.86s/it][A  [OK] Task 2 Ep 62: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  13%|█▎        | 63/500 [11:37<1:24:57, 11.66s/it][A  [OK] Task 2 Ep 63: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  13%|█▎        | 64/500 [11:49<1:26:05, 11.85s/it][A  [OK] Task 2 Ep 64: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  13%|█▎        | 65/500 [12:00<1:23:39, 11.54s/it][A  [OK] Task 2 Ep 65: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  13%|█▎        | 66/500 [12:13<1:26:00, 11.89s/it][A  [OK] Task 2 Ep 66: SUCCESS (steps=104)
+
+put the wine bottle on top of ...:  13%|█▎        | 67/500 [12:25<1:27:26, 12.12s/it][A  [OK] Task 2 Ep 67: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  14%|█▎        | 68/500 [12:36<1:24:30, 11.74s/it][A  [OK] Task 2 Ep 68: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  14%|█▍        | 69/500 [12:46<1:21:30, 11.35s/it][A  [OK] Task 2 Ep 69: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  14%|█▍        | 70/500 [12:57<1:20:26, 11.22s/it][A  [OK] Task 2 Ep 70: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  14%|█▍        | 71/500 [13:09<1:21:47, 11.44s/it][A  [OK] Task 2 Ep 71: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  14%|█▍        | 72/500 [13:20<1:19:21, 11.12s/it][A  [OK] Task 2 Ep 72: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  15%|█▍        | 73/500 [13:30<1:17:16, 10.86s/it][A  [OK] Task 2 Ep 73: SUCCESS (steps=104)
+
+put the wine bottle on top of ...:  15%|█▍        | 74/500 [13:42<1:18:51, 11.11s/it][A  [OK] Task 2 Ep 74: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  15%|█▌        | 75/500 [13:54<1:20:41, 11.39s/it][A  [OK] Task 2 Ep 75: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  15%|█▌        | 76/500 [14:05<1:20:29, 11.39s/it][A  [OK] Task 2 Ep 76: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  15%|█▌        | 77/500 [14:16<1:18:56, 11.20s/it][A  [OK] Task 2 Ep 77: SUCCESS (steps=114)
+
+put the wine bottle on top of ...:  16%|█▌        | 78/500 [14:28<1:21:17, 11.56s/it][A  [OK] Task 2 Ep 78: SUCCESS (steps=90)
+
+put the wine bottle on top of ...:  16%|█▌        | 79/500 [14:39<1:19:09, 11.28s/it][A  [OK] Task 2 Ep 79: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  16%|█▌        | 80/500 [14:50<1:18:25, 11.20s/it][A  [OK] Task 2 Ep 80: SUCCESS (steps=89)
+
+put the wine bottle on top of ...:  16%|█▌        | 81/500 [15:00<1:16:30, 10.95s/it][A  [OK] Task 2 Ep 81: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  16%|█▋        | 82/500 [15:12<1:17:43, 11.16s/it][A  [OK] Task 2 Ep 82: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  17%|█▋        | 83/500 [15:23<1:16:42, 11.04s/it][A  [OK] Task 2 Ep 83: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  17%|█▋        | 84/500 [15:33<1:15:58, 10.96s/it][A  [OK] Task 2 Ep 84: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  17%|█▋        | 85/500 [15:45<1:16:10, 11.01s/it][A  [OK] Task 2 Ep 85: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  17%|█▋        | 86/500 [15:55<1:14:09, 10.75s/it][A  [OK] Task 2 Ep 86: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  17%|█▋        | 87/500 [16:07<1:17:09, 11.21s/it][A  [OK] Task 2 Ep 87: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  18%|█▊        | 88/500 [16:17<1:15:06, 10.94s/it][A  [OK] Task 2 Ep 88: SUCCESS (steps=106)
+
+put the wine bottle on top of ...:  18%|█▊        | 89/500 [16:29<1:15:39, 11.05s/it][A  [OK] Task 2 Ep 89: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  18%|█▊        | 90/500 [16:39<1:14:09, 10.85s/it][A  [OK] Task 2 Ep 90: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  18%|█▊        | 91/500 [16:49<1:13:01, 10.71s/it][A  [OK] Task 2 Ep 91: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  18%|█▊        | 92/500 [17:00<1:13:33, 10.82s/it][A  [OK] Task 2 Ep 92: SUCCESS (steps=91)
+
+put the wine bottle on top of ...:  19%|█▊        | 93/500 [17:11<1:12:22, 10.67s/it][A  [OK] Task 2 Ep 93: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  19%|█▉        | 94/500 [17:22<1:12:39, 10.74s/it][A  [OK] Task 2 Ep 94: SUCCESS (steps=103)
+
+put the wine bottle on top of ...:  19%|█▉        | 95/500 [17:33<1:12:51, 10.79s/it][A  [OK] Task 2 Ep 95: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  19%|█▉        | 96/500 [17:43<1:11:58, 10.69s/it][A  [OK] Task 2 Ep 96: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  19%|█▉        | 97/500 [17:54<1:11:39, 10.67s/it][A  [OK] Task 2 Ep 97: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  20%|█▉        | 98/500 [18:05<1:12:45, 10.86s/it][A  [OK] Task 2 Ep 98: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  20%|█▉        | 99/500 [18:15<1:11:50, 10.75s/it][A  [OK] Task 2 Ep 99: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  20%|██        | 100/500 [18:26<1:10:45, 10.61s/it][A  [OK] Task 2 Ep 100: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  20%|██        | 101/500 [18:36<1:10:17, 10.57s/it][A  [OK] Task 2 Ep 101: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  20%|██        | 102/500 [18:48<1:11:52, 10.84s/it][A  [OK] Task 2 Ep 102: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  21%|██        | 103/500 [19:00<1:14:13, 11.22s/it][A  [OK] Task 2 Ep 103: SUCCESS (steps=91)
+
+put the wine bottle on top of ...:  21%|██        | 104/500 [19:10<1:11:37, 10.85s/it][A  [OK] Task 2 Ep 104: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  21%|██        | 105/500 [19:20<1:09:55, 10.62s/it][A  [OK] Task 2 Ep 105: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  21%|██        | 106/500 [19:30<1:08:40, 10.46s/it][A  [OK] Task 2 Ep 106: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  21%|██▏       | 107/500 [19:40<1:08:02, 10.39s/it][A  [OK] Task 2 Ep 107: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  22%|██▏       | 108/500 [19:51<1:08:04, 10.42s/it][A  [OK] Task 2 Ep 108: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  22%|██▏       | 109/500 [20:02<1:09:20, 10.64s/it][A  [OK] Task 2 Ep 109: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  22%|██▏       | 110/500 [20:12<1:08:16, 10.50s/it][A  [OK] Task 2 Ep 110: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  22%|██▏       | 111/500 [20:22<1:06:45, 10.30s/it][A  [OK] Task 2 Ep 111: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  22%|██▏       | 112/500 [20:32<1:06:08, 10.23s/it][A  [OK] Task 2 Ep 112: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  23%|██▎       | 113/500 [20:42<1:05:41, 10.18s/it][A  [OK] Task 2 Ep 113: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  23%|██▎       | 114/500 [20:52<1:05:57, 10.25s/it][A  [OK] Task 2 Ep 114: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  23%|██▎       | 115/500 [21:02<1:05:30, 10.21s/it][A  [OK] Task 2 Ep 115: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  23%|██▎       | 116/500 [21:13<1:06:35, 10.40s/it][A  [OK] Task 2 Ep 116: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  23%|██▎       | 117/500 [21:25<1:08:10, 10.68s/it][A  [OK] Task 2 Ep 117: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  24%|██▎       | 118/500 [21:35<1:07:47, 10.65s/it][A  [OK] Task 2 Ep 118: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  24%|██▍       | 119/500 [21:45<1:06:08, 10.41s/it][A  [OK] Task 2 Ep 119: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  24%|██▍       | 120/500 [21:55<1:05:31, 10.34s/it][A  [OK] Task 2 Ep 120: SUCCESS (steps=91)
+
+put the wine bottle on top of ...:  24%|██▍       | 121/500 [22:06<1:06:07, 10.47s/it][A  [OK] Task 2 Ep 121: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  24%|██▍       | 122/500 [22:16<1:05:40, 10.43s/it][A  [OK] Task 2 Ep 122: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  25%|██▍       | 123/500 [22:27<1:05:12, 10.38s/it][A  [OK] Task 2 Ep 123: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  25%|██▍       | 124/500 [22:37<1:04:32, 10.30s/it][A  [OK] Task 2 Ep 124: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  25%|██▌       | 125/500 [22:47<1:03:27, 10.15s/it][A  [OK] Task 2 Ep 125: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  25%|██▌       | 126/500 [22:57<1:02:58, 10.10s/it][A  [FAIL] Task 2 Ep 126: FAILURE (steps=810)
+
+put the wine bottle on top of ...:  25%|██▌       | 127/500 [23:58<2:38:30, 25.50s/it][A  [OK] Task 2 Ep 127: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  26%|██▌       | 128/500 [24:10<2:12:33, 21.38s/it][A  [OK] Task 2 Ep 128: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  26%|██▌       | 129/500 [24:20<1:52:07, 18.13s/it][A  [OK] Task 2 Ep 129: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  26%|██▌       | 130/500 [24:30<1:36:29, 15.65s/it][A  [OK] Task 2 Ep 130: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  26%|██▌       | 131/500 [24:40<1:25:48, 13.95s/it][A  [OK] Task 2 Ep 131: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  26%|██▋       | 132/500 [24:50<1:18:38, 12.82s/it][A  [OK] Task 2 Ep 132: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  27%|██▋       | 133/500 [25:01<1:14:56, 12.25s/it][A  [OK] Task 2 Ep 133: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  27%|██▋       | 134/500 [25:11<1:10:51, 11.62s/it][A  [OK] Task 2 Ep 134: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  27%|██▋       | 135/500 [25:22<1:08:18, 11.23s/it][A  [OK] Task 2 Ep 135: SUCCESS (steps=104)
+
+put the wine bottle on top of ...:  27%|██▋       | 136/500 [25:32<1:06:25, 10.95s/it][A  [OK] Task 2 Ep 136: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  27%|██▋       | 137/500 [25:42<1:03:52, 10.56s/it][A  [OK] Task 2 Ep 137: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  28%|██▊       | 138/500 [25:51<1:01:50, 10.25s/it][A  [OK] Task 2 Ep 138: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  28%|██▊       | 139/500 [26:01<1:01:21, 10.20s/it][A  [OK] Task 2 Ep 139: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  28%|██▊       | 140/500 [26:11<1:00:15, 10.04s/it][A  [OK] Task 2 Ep 140: SUCCESS (steps=89)
+
+put the wine bottle on top of ...:  28%|██▊       | 141/500 [26:20<58:56,  9.85s/it]  [A  [OK] Task 2 Ep 141: SUCCESS (steps=91)
+
+put the wine bottle on top of ...:  28%|██▊       | 142/500 [26:30<58:14,  9.76s/it][A  [OK] Task 2 Ep 142: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  29%|██▊       | 143/500 [26:40<58:49,  9.89s/it][A  [OK] Task 2 Ep 143: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  29%|██▉       | 144/500 [26:50<58:24,  9.84s/it][A  [OK] Task 2 Ep 144: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  29%|██▉       | 145/500 [27:00<58:26,  9.88s/it][A  [OK] Task 2 Ep 145: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  29%|██▉       | 146/500 [27:10<58:20,  9.89s/it][A  [OK] Task 2 Ep 146: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  29%|██▉       | 147/500 [27:20<58:08,  9.88s/it][A  [OK] Task 2 Ep 147: SUCCESS (steps=378)
+
+put the wine bottle on top of ...:  30%|██▉       | 148/500 [27:49<1:32:37, 15.79s/it][A  [OK] Task 2 Ep 148: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  30%|██▉       | 149/500 [28:00<1:23:38, 14.30s/it][A  [OK] Task 2 Ep 149: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  30%|███       | 150/500 [28:10<1:16:37, 13.13s/it][A  [OK] Task 2 Ep 150: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  30%|███       | 151/500 [28:20<1:10:55, 12.19s/it][A  [OK] Task 2 Ep 151: SUCCESS (steps=106)
+
+put the wine bottle on top of ...:  30%|███       | 152/500 [28:32<1:09:25, 11.97s/it][A  [OK] Task 2 Ep 152: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  31%|███       | 153/500 [28:42<1:05:36, 11.34s/it][A  [OK] Task 2 Ep 153: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  31%|███       | 154/500 [28:53<1:05:15, 11.32s/it][A  [OK] Task 2 Ep 154: SUCCESS (steps=104)
+
+put the wine bottle on top of ...:  31%|███       | 155/500 [29:04<1:04:52, 11.28s/it][A  [OK] Task 2 Ep 155: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  31%|███       | 156/500 [29:16<1:05:11, 11.37s/it][A  [OK] Task 2 Ep 156: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  31%|███▏      | 157/500 [29:26<1:02:52, 11.00s/it][A  [OK] Task 2 Ep 157: SUCCESS (steps=103)
+
+put the wine bottle on top of ...:  32%|███▏      | 158/500 [29:36<1:01:53, 10.86s/it][A  [OK] Task 2 Ep 158: SUCCESS (steps=111)
+
+put the wine bottle on top of ...:  32%|███▏      | 159/500 [29:48<1:02:17, 10.96s/it][A  [OK] Task 2 Ep 159: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  32%|███▏      | 160/500 [29:58<1:00:42, 10.71s/it][A  [OK] Task 2 Ep 160: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  32%|███▏      | 161/500 [30:09<1:01:16, 10.84s/it][A  [OK] Task 2 Ep 161: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  32%|███▏      | 162/500 [30:26<1:11:45, 12.74s/it][A  [OK] Task 2 Ep 162: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  33%|███▎      | 163/500 [30:40<1:13:11, 13.03s/it][A  [OK] Task 2 Ep 163: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  33%|███▎      | 164/500 [30:50<1:08:06, 12.16s/it][A  [OK] Task 2 Ep 164: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  33%|███▎      | 165/500 [31:01<1:06:00, 11.82s/it][A  [OK] Task 2 Ep 165: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  33%|███▎      | 166/500 [31:12<1:04:14, 11.54s/it][A  [OK] Task 2 Ep 166: SUCCESS (steps=236)
+
+put the wine bottle on top of ...:  33%|███▎      | 167/500 [31:37<1:27:00, 15.68s/it][A  [OK] Task 2 Ep 167: SUCCESS (steps=104)
+
+put the wine bottle on top of ...:  34%|███▎      | 168/500 [31:49<1:19:59, 14.46s/it][A  [OK] Task 2 Ep 168: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  34%|███▍      | 169/500 [31:59<1:12:51, 13.21s/it][A  [OK] Task 2 Ep 169: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  34%|███▍      | 170/500 [32:10<1:09:10, 12.58s/it][A  [OK] Task 2 Ep 170: SUCCESS (steps=104)
+
+put the wine bottle on top of ...:  34%|███▍      | 171/500 [32:22<1:08:11, 12.44s/it][A  [OK] Task 2 Ep 171: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  34%|███▍      | 172/500 [32:33<1:04:44, 11.84s/it][A  [OK] Task 2 Ep 172: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  35%|███▍      | 173/500 [32:43<1:01:38, 11.31s/it][A  [OK] Task 2 Ep 173: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  35%|███▍      | 174/500 [32:53<1:00:14, 11.09s/it][A  [OK] Task 2 Ep 174: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  35%|███▌      | 175/500 [33:04<58:46, 10.85s/it]  [A  [OK] Task 2 Ep 175: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  35%|███▌      | 176/500 [33:14<57:31, 10.65s/it][A  [OK] Task 2 Ep 176: SUCCESS (steps=103)
+
+put the wine bottle on top of ...:  35%|███▌      | 177/500 [33:25<58:31, 10.87s/it][A  [OK] Task 2 Ep 177: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  36%|███▌      | 178/500 [33:35<56:40, 10.56s/it][A  [OK] Task 2 Ep 178: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  36%|███▌      | 179/500 [33:45<55:34, 10.39s/it][A  [OK] Task 2 Ep 179: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  36%|███▌      | 180/500 [33:56<56:06, 10.52s/it][A  [OK] Task 2 Ep 180: SUCCESS (steps=106)
+
+put the wine bottle on top of ...:  36%|███▌      | 181/500 [34:07<57:12, 10.76s/it][A  [OK] Task 2 Ep 181: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  36%|███▋      | 182/500 [34:17<55:49, 10.53s/it][A  [OK] Task 2 Ep 182: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  37%|███▋      | 183/500 [34:28<56:07, 10.62s/it][A  [OK] Task 2 Ep 183: SUCCESS (steps=91)
+
+put the wine bottle on top of ...:  37%|███▋      | 184/500 [34:38<54:23, 10.33s/it][A  [OK] Task 2 Ep 184: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  37%|███▋      | 185/500 [34:48<53:27, 10.18s/it][A  [OK] Task 2 Ep 185: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  37%|███▋      | 186/500 [34:57<52:58, 10.12s/it][A  [OK] Task 2 Ep 186: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  37%|███▋      | 187/500 [35:10<56:59, 10.93s/it][A  [OK] Task 2 Ep 187: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  38%|███▊      | 188/500 [35:21<56:26, 10.85s/it][A  [OK] Task 2 Ep 188: SUCCESS (steps=91)
+
+put the wine bottle on top of ...:  38%|███▊      | 189/500 [35:32<56:04, 10.82s/it][A  [OK] Task 2 Ep 189: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  38%|███▊      | 190/500 [35:43<56:08, 10.87s/it][A  [OK] Task 2 Ep 190: SUCCESS (steps=108)
+
+put the wine bottle on top of ...:  38%|███▊      | 191/500 [35:54<55:55, 10.86s/it][A  [OK] Task 2 Ep 191: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  38%|███▊      | 192/500 [36:04<54:27, 10.61s/it][A  [OK] Task 2 Ep 192: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  39%|███▊      | 193/500 [36:14<53:51, 10.53s/it][A  [OK] Task 2 Ep 193: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  39%|███▉      | 194/500 [36:24<53:23, 10.47s/it][A  [OK] Task 2 Ep 194: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  39%|███▉      | 195/500 [36:34<51:52, 10.20s/it][A  [OK] Task 2 Ep 195: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  39%|███▉      | 196/500 [36:44<51:08, 10.10s/it][A  [OK] Task 2 Ep 196: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  39%|███▉      | 197/500 [36:54<51:42, 10.24s/it][A  [OK] Task 2 Ep 197: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  40%|███▉      | 198/500 [37:04<51:21, 10.20s/it][A  [OK] Task 2 Ep 198: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  40%|███▉      | 199/500 [37:14<50:25, 10.05s/it][A  [OK] Task 2 Ep 199: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  40%|████      | 200/500 [37:24<50:37, 10.13s/it][A  [OK] Task 2 Ep 200: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  40%|████      | 201/500 [37:34<49:59, 10.03s/it][A  [OK] Task 2 Ep 201: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  40%|████      | 202/500 [37:44<50:01, 10.07s/it][A  [OK] Task 2 Ep 202: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  41%|████      | 203/500 [37:54<49:53, 10.08s/it][A  [OK] Task 2 Ep 203: SUCCESS (steps=106)
+
+put the wine bottle on top of ...:  41%|████      | 204/500 [38:05<51:02, 10.34s/it][A  [OK] Task 2 Ep 204: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  41%|████      | 205/500 [38:15<50:11, 10.21s/it][A  [OK] Task 2 Ep 205: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  41%|████      | 206/500 [38:26<50:06, 10.23s/it][A  [OK] Task 2 Ep 206: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  41%|████▏     | 207/500 [38:36<49:53, 10.22s/it][A  [OK] Task 2 Ep 207: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  42%|████▏     | 208/500 [38:46<49:35, 10.19s/it][A  [OK] Task 2 Ep 208: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  42%|████▏     | 209/500 [38:56<49:24, 10.19s/it][A  [OK] Task 2 Ep 209: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  42%|████▏     | 210/500 [39:07<50:06, 10.37s/it][A  [OK] Task 2 Ep 210: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  42%|████▏     | 211/500 [39:17<49:35, 10.30s/it][A  [OK] Task 2 Ep 211: SUCCESS (steps=88)
+
+put the wine bottle on top of ...:  42%|████▏     | 212/500 [39:26<48:05, 10.02s/it][A  [OK] Task 2 Ep 212: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  43%|████▎     | 213/500 [39:37<49:14, 10.30s/it][A  [OK] Task 2 Ep 213: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  43%|████▎     | 214/500 [39:47<48:44, 10.22s/it][A  [OK] Task 2 Ep 214: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  43%|████▎     | 215/500 [39:57<48:05, 10.12s/it][A  [OK] Task 2 Ep 215: SUCCESS (steps=103)
+
+put the wine bottle on top of ...:  43%|████▎     | 216/500 [40:08<48:50, 10.32s/it][A  [OK] Task 2 Ep 216: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  43%|████▎     | 217/500 [40:18<48:16, 10.23s/it][A  [OK] Task 2 Ep 217: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  44%|████▎     | 218/500 [40:29<48:29, 10.32s/it][A  [OK] Task 2 Ep 218: SUCCESS (steps=109)
+
+put the wine bottle on top of ...:  44%|████▍     | 219/500 [40:39<49:08, 10.49s/it][A  [OK] Task 2 Ep 219: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  44%|████▍     | 220/500 [40:50<48:38, 10.42s/it][A  [OK] Task 2 Ep 220: SUCCESS (steps=90)
+
+put the wine bottle on top of ...:  44%|████▍     | 221/500 [40:59<47:26, 10.20s/it][A  [OK] Task 2 Ep 221: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  44%|████▍     | 222/500 [41:10<47:12, 10.19s/it][A  [OK] Task 2 Ep 222: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  45%|████▍     | 223/500 [41:20<47:02, 10.19s/it][A  [OK] Task 2 Ep 223: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  45%|████▍     | 224/500 [41:30<46:26, 10.10s/it][A  [OK] Task 2 Ep 224: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  45%|████▌     | 225/500 [41:40<46:37, 10.17s/it][A  [OK] Task 2 Ep 225: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  45%|████▌     | 226/500 [41:50<46:34, 10.20s/it][A  [OK] Task 2 Ep 226: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  45%|████▌     | 227/500 [42:00<46:22, 10.19s/it][A  [OK] Task 2 Ep 227: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  46%|████▌     | 228/500 [42:11<46:25, 10.24s/it][A  [OK] Task 2 Ep 228: SUCCESS (steps=103)
+
+put the wine bottle on top of ...:  46%|████▌     | 229/500 [42:21<46:35, 10.31s/it][A  [OK] Task 2 Ep 229: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  46%|████▌     | 230/500 [42:32<46:32, 10.34s/it][A  [OK] Task 2 Ep 230: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  46%|████▌     | 231/500 [42:42<46:26, 10.36s/it][A  [OK] Task 2 Ep 231: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  46%|████▋     | 232/500 [42:52<46:15, 10.36s/it][A  [OK] Task 2 Ep 232: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  47%|████▋     | 233/500 [43:04<47:45, 10.73s/it][A  [OK] Task 2 Ep 233: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  47%|████▋     | 234/500 [43:14<46:17, 10.44s/it][A  [OK] Task 2 Ep 234: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  47%|████▋     | 235/500 [43:24<46:10, 10.45s/it][A  [OK] Task 2 Ep 235: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  47%|████▋     | 236/500 [43:34<45:35, 10.36s/it][A  [OK] Task 2 Ep 236: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  47%|████▋     | 237/500 [43:45<45:35, 10.40s/it][A  [OK] Task 2 Ep 237: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  48%|████▊     | 238/500 [43:55<44:37, 10.22s/it][A  [OK] Task 2 Ep 238: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  48%|████▊     | 239/500 [44:07<47:05, 10.83s/it][A  [OK] Task 2 Ep 239: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  48%|████▊     | 240/500 [44:17<45:44, 10.55s/it][A  [OK] Task 2 Ep 240: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  48%|████▊     | 241/500 [44:27<44:39, 10.34s/it][A  [OK] Task 2 Ep 241: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  48%|████▊     | 242/500 [44:36<43:44, 10.17s/it][A  [OK] Task 2 Ep 242: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  49%|████▊     | 243/500 [44:47<43:33, 10.17s/it][A  [OK] Task 2 Ep 243: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  49%|████▉     | 244/500 [44:57<43:27, 10.18s/it][A  [OK] Task 2 Ep 244: SUCCESS (steps=91)
+
+put the wine bottle on top of ...:  49%|████▉     | 245/500 [45:07<42:51, 10.08s/it][A  [OK] Task 2 Ep 245: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  49%|████▉     | 246/500 [45:18<43:50, 10.36s/it][A  [OK] Task 2 Ep 246: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  49%|████▉     | 247/500 [45:28<43:13, 10.25s/it][A  [OK] Task 2 Ep 247: SUCCESS (steps=103)
+
+put the wine bottle on top of ...:  50%|████▉     | 248/500 [45:38<43:16, 10.30s/it][A  [OK] Task 2 Ep 248: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  50%|████▉     | 249/500 [45:48<42:51, 10.24s/it][A  [OK] Task 2 Ep 249: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  50%|█████     | 250/500 [45:58<41:55, 10.06s/it][A  [OK] Task 2 Ep 250: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  50%|█████     | 251/500 [46:10<44:56, 10.83s/it][A  [OK] Task 2 Ep 251: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  50%|█████     | 252/500 [46:21<44:04, 10.66s/it][A  [OK] Task 2 Ep 252: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  51%|█████     | 253/500 [46:31<43:45, 10.63s/it][A  [OK] Task 2 Ep 253: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  51%|█████     | 254/500 [46:41<42:43, 10.42s/it][A  [OK] Task 2 Ep 254: SUCCESS (steps=91)
+
+put the wine bottle on top of ...:  51%|█████     | 255/500 [46:51<41:52, 10.26s/it][A  [OK] Task 2 Ep 255: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  51%|█████     | 256/500 [47:01<41:41, 10.25s/it][A  [OK] Task 2 Ep 256: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  51%|█████▏    | 257/500 [47:12<41:36, 10.27s/it][A  [OK] Task 2 Ep 257: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  52%|█████▏    | 258/500 [47:22<40:57, 10.16s/it][A  [OK] Task 2 Ep 258: SUCCESS (steps=104)
+
+put the wine bottle on top of ...:  52%|█████▏    | 259/500 [47:32<41:29, 10.33s/it][A  [OK] Task 2 Ep 259: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  52%|█████▏    | 260/500 [47:42<41:08, 10.28s/it][A  [OK] Task 2 Ep 260: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  52%|█████▏    | 261/500 [47:53<40:58, 10.28s/it][A  [OK] Task 2 Ep 261: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  52%|█████▏    | 262/500 [48:03<40:59, 10.34s/it][A  [OK] Task 2 Ep 262: SUCCESS (steps=91)
+
+put the wine bottle on top of ...:  53%|█████▎    | 263/500 [48:13<40:07, 10.16s/it][A  [OK] Task 2 Ep 263: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  53%|█████▎    | 264/500 [48:24<40:52, 10.39s/it][A  [OK] Task 2 Ep 264: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  53%|█████▎    | 265/500 [48:34<40:20, 10.30s/it][A  [OK] Task 2 Ep 265: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  53%|█████▎    | 266/500 [48:45<40:42, 10.44s/it][A  [OK] Task 2 Ep 266: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  53%|█████▎    | 267/500 [48:55<40:11, 10.35s/it][A  [OK] Task 2 Ep 267: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  54%|█████▎    | 268/500 [49:07<42:06, 10.89s/it][A  [OK] Task 2 Ep 268: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  54%|█████▍    | 269/500 [49:17<41:07, 10.68s/it][A  [OK] Task 2 Ep 269: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  54%|█████▍    | 270/500 [49:28<40:29, 10.56s/it][A  [OK] Task 2 Ep 270: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  54%|█████▍    | 271/500 [49:38<40:15, 10.55s/it][A  [OK] Task 2 Ep 271: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  54%|█████▍    | 272/500 [49:49<40:14, 10.59s/it][A  [OK] Task 2 Ep 272: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  55%|█████▍    | 273/500 [49:59<39:49, 10.53s/it][A  [OK] Task 2 Ep 273: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  55%|█████▍    | 274/500 [50:09<39:24, 10.46s/it][A  [OK] Task 2 Ep 274: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  55%|█████▌    | 275/500 [50:19<38:34, 10.29s/it][A  [OK] Task 2 Ep 275: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  55%|█████▌    | 276/500 [50:29<38:17, 10.26s/it][A  [OK] Task 2 Ep 276: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  55%|█████▌    | 277/500 [50:40<38:33, 10.38s/it][A  [OK] Task 2 Ep 277: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  56%|█████▌    | 278/500 [50:50<37:58, 10.26s/it][A  [OK] Task 2 Ep 278: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  56%|█████▌    | 279/500 [51:00<37:51, 10.28s/it][A  [OK] Task 2 Ep 279: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  56%|█████▌    | 280/500 [51:11<37:26, 10.21s/it][A  [OK] Task 2 Ep 280: SUCCESS (steps=88)
+
+put the wine bottle on top of ...:  56%|█████▌    | 281/500 [51:20<36:22,  9.96s/it][A  [OK] Task 2 Ep 281: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  56%|█████▋    | 282/500 [51:30<36:44, 10.11s/it][A  [OK] Task 2 Ep 282: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  57%|█████▋    | 283/500 [51:40<36:04,  9.98s/it][A  [OK] Task 2 Ep 283: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  57%|█████▋    | 284/500 [51:50<36:02, 10.01s/it][A  [OK] Task 2 Ep 284: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  57%|█████▋    | 285/500 [52:01<36:54, 10.30s/it][A  [OK] Task 2 Ep 285: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  57%|█████▋    | 286/500 [52:11<36:40, 10.28s/it][A  [OK] Task 2 Ep 286: SUCCESS (steps=105)
+
+put the wine bottle on top of ...:  57%|█████▋    | 287/500 [52:22<37:17, 10.50s/it][A  [OK] Task 2 Ep 287: SUCCESS (steps=106)
+
+put the wine bottle on top of ...:  58%|█████▊    | 288/500 [52:34<37:47, 10.70s/it][A  [OK] Task 2 Ep 288: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  58%|█████▊    | 289/500 [52:44<37:06, 10.55s/it][A  [OK] Task 2 Ep 289: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  58%|█████▊    | 290/500 [52:54<36:53, 10.54s/it][A  [OK] Task 2 Ep 290: SUCCESS (steps=107)
+
+put the wine bottle on top of ...:  58%|█████▊    | 291/500 [53:06<38:11, 10.96s/it][A  [OK] Task 2 Ep 291: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  58%|█████▊    | 292/500 [53:16<37:07, 10.71s/it][A  [OK] Task 2 Ep 292: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  59%|█████▊    | 293/500 [53:27<36:31, 10.59s/it][A  [OK] Task 2 Ep 293: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  59%|█████▉    | 294/500 [53:37<36:03, 10.50s/it][A  [OK] Task 2 Ep 294: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  59%|█████▉    | 295/500 [53:47<35:41, 10.45s/it][A  [OK] Task 2 Ep 295: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  59%|█████▉    | 296/500 [53:58<35:27, 10.43s/it][A  [OK] Task 2 Ep 296: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  59%|█████▉    | 297/500 [54:08<35:36, 10.52s/it][A  [OK] Task 2 Ep 297: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  60%|█████▉    | 298/500 [54:19<35:18, 10.49s/it][A  [OK] Task 2 Ep 298: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  60%|█████▉    | 299/500 [54:29<35:06, 10.48s/it][A  [OK] Task 2 Ep 299: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  60%|██████    | 300/500 [54:40<35:05, 10.53s/it][A  [OK] Task 2 Ep 300: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  60%|██████    | 301/500 [54:50<34:15, 10.33s/it][A  [OK] Task 2 Ep 301: SUCCESS (steps=88)
+
+put the wine bottle on top of ...:  60%|██████    | 302/500 [54:59<32:59, 10.00s/it][A  [OK] Task 2 Ep 302: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  61%|██████    | 303/500 [55:10<33:42, 10.27s/it][A  [OK] Task 2 Ep 303: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  61%|██████    | 304/500 [55:20<33:33, 10.27s/it][A  [OK] Task 2 Ep 304: SUCCESS (steps=112)
+
+put the wine bottle on top of ...:  61%|██████    | 305/500 [55:31<34:20, 10.57s/it][A  [OK] Task 2 Ep 305: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  61%|██████    | 306/500 [55:42<34:10, 10.57s/it][A  [OK] Task 2 Ep 306: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  61%|██████▏   | 307/500 [55:52<33:37, 10.46s/it][A  [OK] Task 2 Ep 307: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  62%|██████▏   | 308/500 [56:02<33:14, 10.39s/it][A  [OK] Task 2 Ep 308: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  62%|██████▏   | 309/500 [56:13<32:48, 10.31s/it][A  [OK] Task 2 Ep 309: SUCCESS (steps=103)
+
+put the wine bottle on top of ...:  62%|██████▏   | 310/500 [56:23<32:56, 10.40s/it][A  [OK] Task 2 Ep 310: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  62%|██████▏   | 311/500 [56:33<32:38, 10.36s/it][A  [OK] Task 2 Ep 311: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  62%|██████▏   | 312/500 [56:44<32:45, 10.45s/it][A  [OK] Task 2 Ep 312: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  63%|██████▎   | 313/500 [56:55<32:40, 10.49s/it][A  [OK] Task 2 Ep 313: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  63%|██████▎   | 314/500 [57:05<32:32, 10.50s/it][A  [OK] Task 2 Ep 314: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  63%|██████▎   | 315/500 [57:15<31:43, 10.29s/it][A  [OK] Task 2 Ep 315: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  63%|██████▎   | 316/500 [57:26<31:48, 10.37s/it][A  [OK] Task 2 Ep 316: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  63%|██████▎   | 317/500 [57:35<31:04, 10.19s/it][A  [OK] Task 2 Ep 317: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  64%|██████▎   | 318/500 [57:46<31:14, 10.30s/it][A  [OK] Task 2 Ep 318: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  64%|██████▍   | 319/500 [57:57<32:06, 10.64s/it][A  [OK] Task 2 Ep 319: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  64%|██████▍   | 320/500 [58:08<32:04, 10.69s/it][A  [OK] Task 2 Ep 320: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  64%|██████▍   | 321/500 [58:19<31:52, 10.68s/it][A  [OK] Task 2 Ep 321: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  64%|██████▍   | 322/500 [58:29<31:38, 10.67s/it][A  [OK] Task 2 Ep 322: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  65%|██████▍   | 323/500 [58:40<31:27, 10.66s/it][A  [OK] Task 2 Ep 323: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  65%|██████▍   | 324/500 [58:53<33:17, 11.35s/it][A  [OK] Task 2 Ep 324: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  65%|██████▌   | 325/500 [59:04<32:44, 11.22s/it][A  [OK] Task 2 Ep 325: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  65%|██████▌   | 326/500 [59:14<31:27, 10.85s/it][A  [OK] Task 2 Ep 326: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  65%|██████▌   | 327/500 [59:24<30:43, 10.66s/it][A  [OK] Task 2 Ep 327: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  66%|██████▌   | 328/500 [59:35<30:21, 10.59s/it][A  [OK] Task 2 Ep 328: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  66%|██████▌   | 329/500 [59:45<29:59, 10.52s/it][A  [OK] Task 2 Ep 329: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  66%|██████▌   | 330/500 [59:55<29:45, 10.50s/it][A  [OK] Task 2 Ep 330: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  66%|██████▌   | 331/500 [1:00:07<30:30, 10.83s/it][A  [OK] Task 2 Ep 331: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  66%|██████▋   | 332/500 [1:00:18<30:06, 10.75s/it][A  [OK] Task 2 Ep 332: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  67%|██████▋   | 333/500 [1:00:28<29:52, 10.73s/it][A  [OK] Task 2 Ep 333: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  67%|██████▋   | 334/500 [1:00:38<29:16, 10.58s/it][A  [OK] Task 2 Ep 334: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  67%|██████▋   | 335/500 [1:00:49<29:06, 10.58s/it][A  [OK] Task 2 Ep 335: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  67%|██████▋   | 336/500 [1:00:59<28:40, 10.49s/it][A  [OK] Task 2 Ep 336: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  67%|██████▋   | 337/500 [1:01:10<28:20, 10.43s/it][A  [OK] Task 2 Ep 337: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  68%|██████▊   | 338/500 [1:01:20<28:11, 10.44s/it][A  [OK] Task 2 Ep 338: SUCCESS (steps=104)
+
+put the wine bottle on top of ...:  68%|██████▊   | 339/500 [1:01:31<28:43, 10.71s/it][A  [OK] Task 2 Ep 339: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  68%|██████▊   | 340/500 [1:01:42<28:08, 10.55s/it][A  [OK] Task 2 Ep 340: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  68%|██████▊   | 341/500 [1:01:52<28:02, 10.58s/it][A  [OK] Task 2 Ep 341: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  68%|██████▊   | 342/500 [1:02:03<28:08, 10.69s/it][A  [OK] Task 2 Ep 342: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  69%|██████▊   | 343/500 [1:02:14<28:00, 10.70s/it][A  [OK] Task 2 Ep 343: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  69%|██████▉   | 344/500 [1:02:24<27:39, 10.64s/it][A  [OK] Task 2 Ep 344: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  69%|██████▉   | 345/500 [1:02:35<27:06, 10.49s/it][A  [OK] Task 2 Ep 345: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  69%|██████▉   | 346/500 [1:02:45<26:40, 10.39s/it][A  [OK] Task 2 Ep 346: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  69%|██████▉   | 347/500 [1:02:55<26:36, 10.43s/it][A  [OK] Task 2 Ep 347: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  70%|██████▉   | 348/500 [1:03:08<27:53, 11.01s/it][A  [OK] Task 2 Ep 348: SUCCESS (steps=90)
+
+put the wine bottle on top of ...:  70%|██████▉   | 349/500 [1:03:17<26:51, 10.67s/it][A  [OK] Task 2 Ep 349: SUCCESS (steps=107)
+
+put the wine bottle on top of ...:  70%|███████   | 350/500 [1:03:28<26:57, 10.78s/it][A  [FAIL] Task 2 Ep 350: FAILURE (steps=810)
+
+put the wine bottle on top of ...:  70%|███████   | 351/500 [1:04:31<1:05:40, 26.45s/it][A  [OK] Task 2 Ep 351: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  70%|███████   | 352/500 [1:04:42<53:44, 21.79s/it]  [A  [OK] Task 2 Ep 352: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  71%|███████   | 353/500 [1:04:52<44:38, 18.22s/it][A  [OK] Task 2 Ep 353: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  71%|███████   | 354/500 [1:05:03<39:01, 16.04s/it][A  [OK] Task 2 Ep 354: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  71%|███████   | 355/500 [1:05:14<34:52, 14.43s/it][A  [OK] Task 2 Ep 355: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  71%|███████   | 356/500 [1:05:25<31:52, 13.28s/it][A  [OK] Task 2 Ep 356: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  71%|███████▏  | 357/500 [1:05:35<29:45, 12.49s/it][A  [FAIL] Task 2 Ep 357: FAILURE (steps=810)
+
+put the wine bottle on top of ...:  72%|███████▏  | 358/500 [1:06:38<1:05:12, 27.55s/it][A  [OK] Task 2 Ep 358: SUCCESS (steps=91)
+
+put the wine bottle on top of ...:  72%|███████▏  | 359/500 [1:06:48<52:21, 22.28s/it]  [A  [OK] Task 2 Ep 359: SUCCESS (steps=90)
+
+put the wine bottle on top of ...:  72%|███████▏  | 360/500 [1:06:58<43:14, 18.53s/it][A  [OK] Task 2 Ep 360: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  72%|███████▏  | 361/500 [1:07:09<38:12, 16.49s/it][A  [OK] Task 2 Ep 361: SUCCESS (steps=110)
+
+put the wine bottle on top of ...:  72%|███████▏  | 362/500 [1:07:21<34:22, 14.95s/it][A  [OK] Task 2 Ep 362: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  73%|███████▎  | 363/500 [1:07:32<31:31, 13.81s/it][A  [OK] Task 2 Ep 363: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  73%|███████▎  | 364/500 [1:07:42<28:58, 12.78s/it][A  [OK] Task 2 Ep 364: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  73%|███████▎  | 365/500 [1:07:52<26:48, 11.92s/it][A  [OK] Task 2 Ep 365: SUCCESS (steps=106)
+
+put the wine bottle on top of ...:  73%|███████▎  | 366/500 [1:08:04<26:37, 11.92s/it][A  [OK] Task 2 Ep 366: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  73%|███████▎  | 367/500 [1:08:14<25:10, 11.36s/it][A  [OK] Task 2 Ep 367: SUCCESS (steps=90)
+
+put the wine bottle on top of ...:  74%|███████▎  | 368/500 [1:08:24<24:02, 10.93s/it][A  [OK] Task 2 Ep 368: SUCCESS (steps=89)
+
+put the wine bottle on top of ...:  74%|███████▍  | 369/500 [1:08:34<23:09, 10.60s/it][A  [OK] Task 2 Ep 369: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  74%|███████▍  | 370/500 [1:08:44<22:46, 10.51s/it][A  [OK] Task 2 Ep 370: SUCCESS (steps=103)
+
+put the wine bottle on top of ...:  74%|███████▍  | 371/500 [1:08:55<22:35, 10.51s/it][A  [OK] Task 2 Ep 371: SUCCESS (steps=109)
+
+put the wine bottle on top of ...:  74%|███████▍  | 372/500 [1:09:07<23:19, 10.93s/it][A  [OK] Task 2 Ep 372: SUCCESS (steps=105)
+
+put the wine bottle on top of ...:  75%|███████▍  | 373/500 [1:09:17<23:00, 10.87s/it][A  [OK] Task 2 Ep 373: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  75%|███████▍  | 374/500 [1:09:27<22:13, 10.58s/it][A  [OK] Task 2 Ep 374: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  75%|███████▌  | 375/500 [1:09:38<22:22, 10.74s/it][A  [OK] Task 2 Ep 375: SUCCESS (steps=109)
+
+put the wine bottle on top of ...:  75%|███████▌  | 376/500 [1:09:50<22:38, 10.95s/it][A  [OK] Task 2 Ep 376: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  75%|███████▌  | 377/500 [1:10:01<22:18, 10.88s/it][A  [OK] Task 2 Ep 377: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  76%|███████▌  | 378/500 [1:10:11<21:38, 10.64s/it][A  [OK] Task 2 Ep 378: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  76%|███████▌  | 379/500 [1:10:21<21:20, 10.59s/it][A  [OK] Task 2 Ep 379: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  76%|███████▌  | 380/500 [1:10:31<20:44, 10.37s/it][A  [OK] Task 2 Ep 380: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  76%|███████▌  | 381/500 [1:10:41<20:24, 10.29s/it][A  [OK] Task 2 Ep 381: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  76%|███████▋  | 382/500 [1:10:51<20:08, 10.24s/it][A  [OK] Task 2 Ep 382: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  77%|███████▋  | 383/500 [1:11:02<20:05, 10.31s/it][A  [OK] Task 2 Ep 383: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  77%|███████▋  | 384/500 [1:11:11<19:35, 10.13s/it][A  [OK] Task 2 Ep 384: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  77%|███████▋  | 385/500 [1:11:21<19:25, 10.14s/it][A  [OK] Task 2 Ep 385: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  77%|███████▋  | 386/500 [1:11:32<19:20, 10.18s/it][A  [OK] Task 2 Ep 386: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  77%|███████▋  | 387/500 [1:11:42<19:11, 10.19s/it][A  [OK] Task 2 Ep 387: SUCCESS (steps=106)
+
+put the wine bottle on top of ...:  78%|███████▊  | 388/500 [1:11:53<19:25, 10.40s/it][A  [OK] Task 2 Ep 388: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  78%|███████▊  | 389/500 [1:12:03<19:16, 10.42s/it][A  [OK] Task 2 Ep 389: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  78%|███████▊  | 390/500 [1:12:14<19:00, 10.37s/it][A  [OK] Task 2 Ep 390: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  78%|███████▊  | 391/500 [1:12:24<18:50, 10.37s/it][A  [OK] Task 2 Ep 391: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  78%|███████▊  | 392/500 [1:12:34<18:38, 10.36s/it][A  [OK] Task 2 Ep 392: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  79%|███████▊  | 393/500 [1:12:45<18:34, 10.41s/it][A  [OK] Task 2 Ep 393: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  79%|███████▉  | 394/500 [1:12:55<18:14, 10.33s/it][A  [OK] Task 2 Ep 394: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  79%|███████▉  | 395/500 [1:13:06<18:38, 10.65s/it][A  [OK] Task 2 Ep 395: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  79%|███████▉  | 396/500 [1:13:16<18:02, 10.41s/it][A  [OK] Task 2 Ep 396: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  79%|███████▉  | 397/500 [1:13:26<17:42, 10.31s/it][A  [OK] Task 2 Ep 397: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  80%|███████▉  | 398/500 [1:13:37<17:52, 10.52s/it][A  [OK] Task 2 Ep 398: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  80%|███████▉  | 399/500 [1:13:48<17:37, 10.47s/it][A  [OK] Task 2 Ep 399: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  80%|████████  | 400/500 [1:13:58<17:15, 10.35s/it][A  [OK] Task 2 Ep 400: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  80%|████████  | 401/500 [1:14:08<17:08, 10.39s/it][A  [OK] Task 2 Ep 401: SUCCESS (steps=116)
+
+put the wine bottle on top of ...:  80%|████████  | 402/500 [1:14:21<18:16, 11.19s/it][A  [OK] Task 2 Ep 402: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  81%|████████  | 403/500 [1:14:32<17:43, 10.96s/it][A  [OK] Task 2 Ep 403: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  81%|████████  | 404/500 [1:14:42<17:26, 10.91s/it][A  [OK] Task 2 Ep 404: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  81%|████████  | 405/500 [1:14:53<17:02, 10.76s/it][A  [OK] Task 2 Ep 405: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  81%|████████  | 406/500 [1:15:03<16:40, 10.65s/it][A  [OK] Task 2 Ep 406: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  81%|████████▏ | 407/500 [1:15:13<16:16, 10.50s/it][A  [OK] Task 2 Ep 407: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  82%|████████▏ | 408/500 [1:15:24<16:02, 10.46s/it][A  [OK] Task 2 Ep 408: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  82%|████████▏ | 409/500 [1:15:34<15:47, 10.41s/it][A  [OK] Task 2 Ep 409: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  82%|████████▏ | 410/500 [1:15:44<15:36, 10.40s/it][A  [OK] Task 2 Ep 410: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  82%|████████▏ | 411/500 [1:15:55<15:26, 10.41s/it][A  [OK] Task 2 Ep 411: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  82%|████████▏ | 412/500 [1:16:07<15:49, 10.78s/it][A  [OK] Task 2 Ep 412: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  83%|████████▎ | 413/500 [1:16:17<15:21, 10.60s/it][A  [OK] Task 2 Ep 413: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  83%|████████▎ | 414/500 [1:16:27<14:57, 10.44s/it][A  [OK] Task 2 Ep 414: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  83%|████████▎ | 415/500 [1:16:37<14:43, 10.39s/it][A  [OK] Task 2 Ep 415: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  83%|████████▎ | 416/500 [1:16:48<14:40, 10.48s/it][A  [OK] Task 2 Ep 416: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  83%|████████▎ | 417/500 [1:17:00<15:03, 10.88s/it][A  [OK] Task 2 Ep 417: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  84%|████████▎ | 418/500 [1:17:10<14:45, 10.80s/it][A  [OK] Task 2 Ep 418: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  84%|████████▍ | 419/500 [1:17:20<14:20, 10.63s/it][A  [OK] Task 2 Ep 419: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  84%|████████▍ | 420/500 [1:17:31<14:03, 10.54s/it][A  [OK] Task 2 Ep 420: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  84%|████████▍ | 421/500 [1:17:42<13:57, 10.61s/it][A  [OK] Task 2 Ep 421: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  84%|████████▍ | 422/500 [1:17:52<13:50, 10.65s/it][A  [OK] Task 2 Ep 422: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  85%|████████▍ | 423/500 [1:18:03<13:33, 10.57s/it][A  [OK] Task 2 Ep 423: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  85%|████████▍ | 424/500 [1:18:13<13:15, 10.47s/it][A  [OK] Task 2 Ep 424: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  85%|████████▌ | 425/500 [1:18:23<13:00, 10.40s/it][A  [OK] Task 2 Ep 425: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  85%|████████▌ | 426/500 [1:18:33<12:45, 10.34s/it][A  [OK] Task 2 Ep 426: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  85%|████████▌ | 427/500 [1:18:43<12:22, 10.18s/it][A  [OK] Task 2 Ep 427: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  86%|████████▌ | 428/500 [1:18:53<12:14, 10.20s/it][A  [OK] Task 2 Ep 428: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  86%|████████▌ | 429/500 [1:19:04<12:10, 10.28s/it][A  [OK] Task 2 Ep 429: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  86%|████████▌ | 430/500 [1:19:14<11:57, 10.25s/it][A  [OK] Task 2 Ep 430: SUCCESS (steps=104)
+
+put the wine bottle on top of ...:  86%|████████▌ | 431/500 [1:19:25<11:55, 10.38s/it][A  [OK] Task 2 Ep 431: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  86%|████████▋ | 432/500 [1:19:35<11:48, 10.42s/it][A  [OK] Task 2 Ep 432: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  87%|████████▋ | 433/500 [1:19:46<11:41, 10.46s/it][A  [OK] Task 2 Ep 433: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  87%|████████▋ | 434/500 [1:19:56<11:25, 10.38s/it][A  [OK] Task 2 Ep 434: SUCCESS (steps=105)
+
+put the wine bottle on top of ...:  87%|████████▋ | 435/500 [1:20:07<11:31, 10.63s/it][A  [OK] Task 2 Ep 435: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  87%|████████▋ | 436/500 [1:20:18<11:15, 10.55s/it][A  [OK] Task 2 Ep 436: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  87%|████████▋ | 437/500 [1:20:28<11:01, 10.50s/it][A  [OK] Task 2 Ep 437: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  88%|████████▊ | 438/500 [1:20:38<10:45, 10.41s/it][A  [OK] Task 2 Ep 438: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  88%|████████▊ | 439/500 [1:20:48<10:28, 10.30s/it][A  [OK] Task 2 Ep 439: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  88%|████████▊ | 440/500 [1:20:58<10:14, 10.24s/it][A  [OK] Task 2 Ep 440: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  88%|████████▊ | 441/500 [1:21:09<10:19, 10.50s/it][A  [OK] Task 2 Ep 441: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  88%|████████▊ | 442/500 [1:21:20<10:03, 10.41s/it][A  [OK] Task 2 Ep 442: SUCCESS (steps=106)
+
+put the wine bottle on top of ...:  89%|████████▊ | 443/500 [1:21:31<10:14, 10.78s/it][A  [OK] Task 2 Ep 443: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  89%|████████▉ | 444/500 [1:21:41<09:54, 10.62s/it][A  [FAIL] Task 2 Ep 444: FAILURE (steps=810)
+
+put the wine bottle on top of ...:  89%|████████▉ | 445/500 [1:22:45<24:18, 26.52s/it][A  [OK] Task 2 Ep 445: SUCCESS (steps=104)
+
+put the wine bottle on top of ...:  89%|████████▉ | 446/500 [1:22:56<19:45, 21.95s/it][A  [OK] Task 2 Ep 446: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  89%|████████▉ | 447/500 [1:23:07<16:20, 18.49s/it][A  [OK] Task 2 Ep 447: SUCCESS (steps=110)
+
+put the wine bottle on top of ...:  90%|████████▉ | 448/500 [1:23:18<14:09, 16.33s/it][A  [OK] Task 2 Ep 448: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  90%|████████▉ | 449/500 [1:23:28<12:12, 14.36s/it][A  [OK] Task 2 Ep 449: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  90%|█████████ | 450/500 [1:23:38<11:00, 13.21s/it][A  [OK] Task 2 Ep 450: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  90%|█████████ | 451/500 [1:23:49<10:02, 12.29s/it][A  [OK] Task 2 Ep 451: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  90%|█████████ | 452/500 [1:23:58<09:14, 11.54s/it][A  [OK] Task 2 Ep 452: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  91%|█████████ | 453/500 [1:24:10<09:07, 11.64s/it][A  [OK] Task 2 Ep 453: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  91%|█████████ | 454/500 [1:24:20<08:31, 11.11s/it][A  [OK] Task 2 Ep 454: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  91%|█████████ | 455/500 [1:24:30<08:06, 10.81s/it][A  [OK] Task 2 Ep 455: SUCCESS (steps=92)
+
+put the wine bottle on top of ...:  91%|█████████ | 456/500 [1:24:40<07:45, 10.57s/it][A  [OK] Task 2 Ep 456: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  91%|█████████▏| 457/500 [1:24:50<07:29, 10.45s/it][A  [OK] Task 2 Ep 457: SUCCESS (steps=93)
+
+put the wine bottle on top of ...:  92%|█████████▏| 458/500 [1:25:01<07:15, 10.36s/it][A  [OK] Task 2 Ep 458: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  92%|█████████▏| 459/500 [1:25:11<07:12, 10.54s/it][A  [OK] Task 2 Ep 459: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  92%|█████████▏| 460/500 [1:25:23<07:11, 10.79s/it][A  [OK] Task 2 Ep 460: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  92%|█████████▏| 461/500 [1:25:34<07:05, 10.92s/it][A  [OK] Task 2 Ep 461: SUCCESS (steps=103)
+
+put the wine bottle on top of ...:  92%|█████████▏| 462/500 [1:25:46<07:05, 11.20s/it][A  [OK] Task 2 Ep 462: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  93%|█████████▎| 463/500 [1:25:56<06:46, 10.99s/it][A  [OK] Task 2 Ep 463: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  93%|█████████▎| 464/500 [1:26:07<06:28, 10.80s/it][A  [OK] Task 2 Ep 464: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  93%|█████████▎| 465/500 [1:26:17<06:15, 10.73s/it][A  [OK] Task 2 Ep 465: SUCCESS (steps=94)
+
+put the wine bottle on top of ...:  93%|█████████▎| 466/500 [1:26:28<06:01, 10.63s/it][A  [OK] Task 2 Ep 466: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  93%|█████████▎| 467/500 [1:26:38<05:49, 10.58s/it][A  [OK] Task 2 Ep 467: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  94%|█████████▎| 468/500 [1:26:49<05:36, 10.52s/it][A  [OK] Task 2 Ep 468: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  94%|█████████▍| 469/500 [1:26:59<05:24, 10.46s/it][A  [OK] Task 2 Ep 469: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  94%|█████████▍| 470/500 [1:27:10<05:21, 10.71s/it][A  [OK] Task 2 Ep 470: SUCCESS (steps=89)
+
+put the wine bottle on top of ...:  94%|█████████▍| 471/500 [1:27:20<05:06, 10.58s/it][A  [OK] Task 2 Ep 471: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  94%|█████████▍| 472/500 [1:27:31<04:55, 10.56s/it][A  [OK] Task 2 Ep 472: SUCCESS (steps=102)
+
+put the wine bottle on top of ...:  95%|█████████▍| 473/500 [1:27:41<04:44, 10.53s/it][A  [OK] Task 2 Ep 473: SUCCESS (steps=104)
+
+put the wine bottle on top of ...:  95%|█████████▍| 474/500 [1:27:52<04:36, 10.62s/it][A  [OK] Task 2 Ep 474: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  95%|█████████▌| 475/500 [1:28:03<04:26, 10.65s/it][A  [OK] Task 2 Ep 475: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  95%|█████████▌| 476/500 [1:28:13<04:13, 10.55s/it][A  [OK] Task 2 Ep 476: SUCCESS (steps=104)
+
+put the wine bottle on top of ...:  95%|█████████▌| 477/500 [1:28:24<04:04, 10.64s/it][A  [OK] Task 2 Ep 477: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  96%|█████████▌| 478/500 [1:28:35<03:52, 10.59s/it][A  [OK] Task 2 Ep 478: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  96%|█████████▌| 479/500 [1:28:45<03:42, 10.57s/it][A  [OK] Task 2 Ep 479: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  96%|█████████▌| 480/500 [1:28:57<03:36, 10.84s/it][A  [OK] Task 2 Ep 480: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  96%|█████████▌| 481/500 [1:29:07<03:23, 10.73s/it][A  [OK] Task 2 Ep 481: SUCCESS (steps=103)
+
+put the wine bottle on top of ...:  96%|█████████▋| 482/500 [1:29:18<03:13, 10.76s/it][A  [OK] Task 2 Ep 482: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  97%|█████████▋| 483/500 [1:29:28<03:01, 10.70s/it][A  [OK] Task 2 Ep 483: SUCCESS (steps=90)
+
+put the wine bottle on top of ...:  97%|█████████▋| 484/500 [1:29:38<02:46, 10.42s/it][A  [OK] Task 2 Ep 484: SUCCESS (steps=100)
+
+put the wine bottle on top of ...:  97%|█████████▋| 485/500 [1:29:49<02:35, 10.40s/it][A  [OK] Task 2 Ep 485: SUCCESS (steps=112)
+
+put the wine bottle on top of ...:  97%|█████████▋| 486/500 [1:30:00<02:30, 10.75s/it][A  [OK] Task 2 Ep 486: SUCCESS (steps=99)
+
+put the wine bottle on top of ...:  97%|█████████▋| 487/500 [1:30:10<02:17, 10.57s/it][A  [OK] Task 2 Ep 487: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  98%|█████████▊| 488/500 [1:30:20<02:05, 10.43s/it][A  [OK] Task 2 Ep 488: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  98%|█████████▊| 489/500 [1:30:30<01:53, 10.29s/it][A  [OK] Task 2 Ep 489: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  98%|█████████▊| 490/500 [1:30:41<01:42, 10.28s/it][A  [OK] Task 2 Ep 490: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  98%|█████████▊| 491/500 [1:30:51<01:33, 10.37s/it][A  [OK] Task 2 Ep 491: SUCCESS (steps=98)
+
+put the wine bottle on top of ...:  98%|█████████▊| 492/500 [1:31:02<01:23, 10.40s/it][A  [OK] Task 2 Ep 492: SUCCESS (steps=101)
+
+put the wine bottle on top of ...:  99%|█████████▊| 493/500 [1:31:13<01:13, 10.53s/it][A  [OK] Task 2 Ep 493: SUCCESS (steps=97)
+
+put the wine bottle on top of ...:  99%|█████████▉| 494/500 [1:31:23<01:02, 10.44s/it][A  [OK] Task 2 Ep 494: SUCCESS (steps=96)
+
+put the wine bottle on top of ...:  99%|█████████▉| 495/500 [1:31:33<00:52, 10.45s/it][A  [OK] Task 2 Ep 495: SUCCESS (steps=91)
+
+put the wine bottle on top of ...:  99%|█████████▉| 496/500 [1:31:43<00:41, 10.27s/it][A  [OK] Task 2 Ep 496: SUCCESS (steps=95)
+
+put the wine bottle on top of ...:  99%|█████████▉| 497/500 [1:31:53<00:30, 10.26s/it][A  [OK] Task 2 Ep 497: SUCCESS (steps=99)
+
+put the wine bottle on top of ...: 100%|█████████▉| 498/500 [1:32:04<00:20, 10.29s/it][A  [OK] Task 2 Ep 498: SUCCESS (steps=102)
+
+put the wine bottle on top of ...: 100%|█████████▉| 499/500 [1:32:14<00:10, 10.38s/it][A  [OK] Task 2 Ep 499: SUCCESS (steps=98)
+
+put the wine bottle on top of ...: 100%|██████████| 500/500 [1:32:25<00:00, 10.33s/it][A
+                                                                                      [A   Task 2: 496/500 (99.2%)
+Tasks:   0%|          | 0/1 [1:32:38<?, ?it/s]
+
+Total success rate: 496/500 (99.2%)

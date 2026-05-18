@@ -10,7 +10,10 @@ DATASET_DIR="${DATASET_DIR:-/share/data/ripl/tianchong/projects/Policy_Eval_Done
 XVLA_REPO="${XVLA_REPO:-${PROJECT_ROOT}/third_party/x_vla}"
 MODEL_PATH="${MODEL_PATH:-2toINF/X-VLA-Calvin-ABC_D}"
 NUM_SEQUENCES="${NUM_SEQUENCES:-50}"
-RUN_TAG="${RUN_TAG:-xvla_abc_d_${NUM_SEQUENCES}seq_$(date -u +%Y%m%dT%H%M%SZ)}"
+EVAL_START="${EVAL_START:-0}"
+EVAL_END="${EVAL_END:-${NUM_SEQUENCES}}"
+XVLA_EP_LEN="${XVLA_EP_LEN:-360}"
+RUN_TAG="${RUN_TAG:-xvla_abc_d_${EVAL_START}_${EVAL_END}seq_$(date -u +%Y%m%dT%H%M%SZ)}"
 RESULTS_DIR="${RESULTS_DIR:-${PROJECT_ROOT}/results/calvin/xvla_abc_d/${RUN_TAG}}"
 PORT="${PORT:-$((18000 + (${SLURM_JOB_ID:-0} % 10000)))}"
 
@@ -39,8 +42,14 @@ conda activate "${XVLA_ENV}"
   echo "policy=X-VLA"
   echo "model_path=${MODEL_PATH}"
   echo "num_sequences=${NUM_SEQUENCES}"
+  echo "eval_start=${EVAL_START}"
+  echo "eval_end=${EVAL_END}"
+  echo "xvla_ep_len=${XVLA_EP_LEN}"
   echo "dataset_dir=${DATASET_DIR}"
   echo "results_dir=${RESULTS_DIR}"
+  echo "calvin_sequence_manifest=${CALVIN_SEQUENCE_MANIFEST:-}"
+  echo "calvin_reset_bank=${CALVIN_RESET_BANK:-}"
+  echo "calvin_reset_protocol=${CALVIN_RESET_PROTOCOL:-}"
   echo "hostname=$(hostname)"
   echo "date_utc=$(date -u --iso-8601=seconds)"
   echo "cuda_visible_devices=${CUDA_VISIBLE_DEVICES:-}"
@@ -54,7 +63,7 @@ PY
 } > "${RESULTS_DIR}/metadata.txt" 2>&1
 
 cd "${XVLA_REPO}"
-python deploy.py \
+setsid python deploy.py \
   --model_path "${MODEL_PATH}" \
   --host 127.0.0.1 \
   --port "${PORT}" \
@@ -62,7 +71,11 @@ python deploy.py \
   --output_dir "${RESULTS_DIR}/server" \
   > "${RESULTS_DIR}/server/server.log" 2>&1 &
 SERVER_PID=$!
-trap 'kill ${SERVER_PID} 2>/dev/null || true' EXIT
+cleanup_server() {
+  kill -- "-${SERVER_PID}" 2>/dev/null || kill "${SERVER_PID}" 2>/dev/null || true
+  wait "${SERVER_PID}" 2>/dev/null || true
+}
+trap cleanup_server EXIT
 
 python - <<PY
 import socket, time, sys
@@ -82,20 +95,32 @@ cd "${RESULTS_DIR}/work"
 
 conda activate "${CALVIN_ENV}"
 export PYTHONPATH="${PROJECT_ROOT}/envs/calvin_smoke_overlay:${CALVIN_ROOT}/calvin_models:${CALVIN_ROOT}/calvin_env:${PYTHONPATH:-}"
+export CALVIN_RESET_EVAL_START="${EVAL_START}"
+export XVLA_EP_LEN
+export REQUIRE_XVLA_EP_LEN="${REQUIRE_XVLA_EP_LEN:-${XVLA_EP_LEN}}"
 python -u "${PROJECT_ROOT}/scripts/calvin/xvla_calvin_client_no_video.py" \
   --source-client "${XVLA_REPO}/evaluation/calvin/calvin_client.py" \
   --server_ip 127.0.0.1 \
   --server_port "${PORT}" \
   --output_dir "${RESULTS_DIR}/client" \
-  --eval_start 0 \
-  --eval_end "${NUM_SEQUENCES}" \
+  --eval_start "${EVAL_START}" \
+  --eval_end "${EVAL_END}" \
   > "${RESULTS_DIR}/client/client.log" 2>&1
 
 python - <<PY
 import json, re
 from pathlib import Path
 log = Path("${RESULTS_DIR}/client/log.txt")
-summary = {"policy": "X-VLA", "num_sequences": int("${NUM_SEQUENCES}"), "log": str(log)}
+summary = {
+    "policy": "X-VLA",
+    "num_sequences": int("${EVAL_END}") - int("${EVAL_START}"),
+    "eval_start": int("${EVAL_START}"),
+    "eval_end": int("${EVAL_END}"),
+    "xvla_ep_len": int("${XVLA_EP_LEN}"),
+    "calvin_sequence_manifest": "${CALVIN_SEQUENCE_MANIFEST:-}",
+    "calvin_reset_bank": "${CALVIN_RESET_BANK:-}",
+    "log": str(log),
+}
 if log.exists() and log.read_text().strip():
     line = log.read_text().strip().splitlines()[-1]
     vals = [float(x) / 100.0 for x in re.findall(r": ([0-9.]+)%", line)]

@@ -1,0 +1,23 @@
+{
+  "run_group": "simvla_goal_5k_full_2042380_20260514T061751Z",
+  "policy_name": "simvla",
+  "policy_tracker_id": 798,
+  "suite": "libero_goal",
+  "task_id": 0,
+  "checkpoint_ref": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/simvla-libero@93dc4d90b0596c652ad2840ad743c62b9c4473fb",
+  "checkpoint_hf_repo": "YuankaiLuo/SimVLA-LIBERO",
+  "checkpoint_hf_sha": "93dc4d90b0596c652ad2840ad743c62b9c4473fb",
+  "init_state_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_goal_5000",
+  "episode_csv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/simvla_goal_5k/simvla_goal_5k_full_2042380_20260514T061751Z/task_0/episodes.csv",
+  "rows": 500,
+  "successes": 498,
+  "videos": 0,
+  "slurm_job_id": "2042478",
+  "slurm_array_job_id": "2042380",
+  "slurm_array_task_id": "0",
+  "init_state_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_goal_5000/MANIFEST.json",
+  "libero_config_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/libero_config/config.yaml",
+  "save_videos": false,
+  "command": "python evaluation/libero/libero_client.py ...",
+  "metadata": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/simvla_goal_5k/simvla_goal_5k_full_2042380_20260514T061751Z/task_0/metadata/metadata.txt"
+}

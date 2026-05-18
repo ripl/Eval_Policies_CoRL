@@ -8,7 +8,9 @@ CALVIN_ROOT="${CALVIN_ROOT:-/share/data/ripl/tianchong/projects/Policy_Eval_Done
 DATASET_DIR="${DATASET_DIR:-/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right_cache/task_ABC_D}"
 RF_REPO="${RF_REPO:-${PROJECT_ROOT}/third_party/roboflamingo}"
 NUM_SEQUENCES="${NUM_SEQUENCES:-50}"
-RUN_TAG="${RUN_TAG:-roboflamingo_abc_d_${NUM_SEQUENCES}seq_$(date -u +%Y%m%dT%H%M%SZ)}"
+EVAL_START="${EVAL_START:-0}"
+EVAL_END="${EVAL_END:-${NUM_SEQUENCES}}"
+RUN_TAG="${RUN_TAG:-roboflamingo_abc_d_${EVAL_START}_${EVAL_END}seq_$(date -u +%Y%m%dT%H%M%SZ)}"
 RESULTS_DIR="${RESULTS_DIR:-${PROJECT_ROOT}/results/calvin/roboflamingo_abc_d/${RUN_TAG}}"
 MASTER_PORT="${MASTER_PORT:-$((19000 + (${SLURM_JOB_ID:-0} % 10000)))}"
 
@@ -58,8 +60,13 @@ OF_CKPT="$(python -c 'import json; print(json.load(open("'"${ASSETS_JSON}"'"))["
   echo "run_tag=${RUN_TAG}"
   echo "policy=RoboFlamingo"
   echo "num_sequences=${NUM_SEQUENCES}"
+  echo "eval_start=${EVAL_START}"
+  echo "eval_end=${EVAL_END}"
   echo "dataset_dir=${DATASET_DIR}"
   echo "results_dir=${RESULTS_DIR}"
+  echo "calvin_sequence_manifest=${CALVIN_SEQUENCE_MANIFEST:-}"
+  echo "calvin_reset_bank=${CALVIN_RESET_BANK:-}"
+  echo "calvin_reset_protocol=${CALVIN_RESET_PROTOCOL:-}"
   echo "roboflamingo_checkpoint=${RF_CKPT}"
   echo "openflamingo_checkpoint=${OF_CKPT}"
   echo "hostname=$(hostname)"
@@ -75,6 +82,7 @@ PY
   nvidia-smi -L || true
 } > "${RESULTS_DIR}/metadata.txt" 2>&1
 
+export CALVIN_RESET_EVAL_START="${EVAL_START}"
 torchrun --standalone --nnodes=1 --nproc_per_node=1 --master_port="${MASTER_PORT}" \
   "${PROJECT_ROOT}/scripts/calvin/roboflamingo_smoke_eval.py" \
   --repo "${RF_REPO}" \
@@ -84,4 +92,6 @@ torchrun --standalone --nnodes=1 --nproc_per_node=1 --master_port="${MASTER_PORT
   --checkpoint "${RF_CKPT}" \
   --openflamingo-checkpoint "${OF_CKPT}" \
   --num-sequences "${NUM_SEQUENCES}" \
+  --eval-start "${EVAL_START}" \
+  --eval-end "${EVAL_END}" \
   --precision "${PRECISION:-fp32}"
