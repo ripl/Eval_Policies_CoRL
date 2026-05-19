@@ -1,0 +1,20 @@
+run_tag=roboflamingo_abc_d_calibration_1000seq_chunk3_750_1000_2048456_11
+policy=RoboFlamingo
+num_sequences=1000
+eval_start=750
+eval_end=1000
+dataset_dir=/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right_cache/task_ABC_D
+results_dir=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/roboflamingo_abc_d/roboflamingo_abc_d_calibration_1000seq_chunk3_750_1000_2048456_11
+calvin_sequence_manifest=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json
+calvin_reset_bank=
+calvin_reset_protocol=
+roboflamingo_checkpoint=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/models--robovlms--RoboFlamingo/snapshots/b08c0a2ac4d2a92927ddc066e3eb077319bc5a94/ABC_D/checkpoint_gripper_post_hist_1_aug_10_4_traj_cons_ws_12_mpt_dolly_3b_4.pth
+openflamingo_checkpoint=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/models--openflamingo--OpenFlamingo-3B-vitl-mpt1b-langinstruct/snapshots/656bbbcd4508db84ccc83c02361011c6fe92ae93/checkpoint.pt
+hostname=g14.ttic.edu
+date_utc=2026-05-18T04:58:43+00:00
+cuda_visible_devices=0
+Python 3.8.20
+torch 2.4.1+cu121 cuda 12.1
+torchvision 0.19.1
+transformers 4.33.1
+GPU 0: NVIDIA RTX A6000 (UUID: GPU-bd9998d8-d317-9fcd-44c9-94fd3e189310)

@@ -1,0 +1,1 @@
+{"null": {"avg_seq_len": 4.0, "chain_sr": {"1": 1.0, "2": 1.0, "3": 1.0, "4": 1.0, "5": 0.0}, "task_info": {"rotate_blue_block_right": {"success": 1, "total": 1}, "move_slider_right": {"success": 1, "total": 1}, "lift_red_block_slider": {"success": 1, "total": 1}, "place_in_slider": {"success": 1, "total": 1}, "turn_off_lightbulb": {"success": 0, "total": 1}}}}

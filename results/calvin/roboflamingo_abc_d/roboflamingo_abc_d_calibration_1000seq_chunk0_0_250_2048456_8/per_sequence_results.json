@@ -1,0 +1,3002 @@
+[
+  {
+    "eval_sequence": [
+      "rotate_blue_block_right",
+      "move_slider_right",
+      "lift_red_block_slider",
+      "place_in_slider",
+      "turn_off_lightbulb"
+    ],
+    "global_index": 0,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "push_into_drawer",
+      "lift_blue_block_drawer",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "global_index": 1,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "lift_pink_block_slider",
+      "place_in_slider",
+      "open_drawer",
+      "rotate_red_block_right",
+      "lift_red_block_table"
+    ],
+    "global_index": 2,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "rotate_blue_block_right",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "move_slider_left",
+      "open_drawer"
+    ],
+    "global_index": 3,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "turn_on_lightbulb",
+      "rotate_blue_block_left"
+    ],
+    "global_index": 4,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "push_blue_block_left",
+      "close_drawer",
+      "lift_red_block_slider",
+      "place_in_slider",
+      "turn_off_lightbulb"
+    ],
+    "global_index": 5,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "rotate_red_block_right",
+      "turn_on_led",
+      "lift_pink_block_table",
+      "stack_block"
+    ],
+    "global_index": 6,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_right",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "push_into_drawer",
+      "close_drawer"
+    ],
+    "global_index": 7,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "push_red_block_right",
+      "move_slider_left",
+      "lift_pink_block_slider",
+      "place_in_slider"
+    ],
+    "global_index": 8,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "push_red_block_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "turn_on_lightbulb",
+      "move_slider_right"
+    ],
+    "global_index": 9,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "rotate_blue_block_left",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "move_slider_right",
+      "turn_off_lightbulb"
+    ],
+    "global_index": 10,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "lift_pink_block_slider",
+      "place_in_slider",
+      "turn_on_lightbulb",
+      "rotate_blue_block_right",
+      "open_drawer"
+    ],
+    "global_index": 11,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "move_slider_left",
+      "rotate_red_block_left",
+      "turn_off_led",
+      "lift_pink_block_table",
+      "place_in_slider"
+    ],
+    "global_index": 12,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "turn_on_led",
+      "close_drawer",
+      "push_red_block_right",
+      "lift_red_block_table",
+      "place_in_slider"
+    ],
+    "global_index": 13,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "lift_red_block_slider",
+      "stack_block",
+      "move_slider_left",
+      "turn_off_led",
+      "open_drawer"
+    ],
+    "global_index": 14,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "move_slider_left",
+      "push_pink_block_left",
+      "open_drawer",
+      "turn_on_lightbulb",
+      "lift_blue_block_table"
+    ],
+    "global_index": 15,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "push_red_block_left",
+      "lift_pink_block_slider",
+      "stack_block",
+      "turn_off_led",
+      "open_drawer"
+    ],
+    "global_index": 16,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "push_red_block_left",
+      "move_slider_right",
+      "lift_blue_block_slider",
+      "place_in_slider",
+      "turn_on_lightbulb"
+    ],
+    "global_index": 17,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "turn_on_lightbulb",
+      "push_red_block_right",
+      "move_slider_left",
+      "lift_red_block_table",
+      "stack_block"
+    ],
+    "global_index": 18,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "move_slider_left",
+      "lift_red_block_table",
+      "place_in_slider",
+      "turn_on_lightbulb",
+      "close_drawer"
+    ],
+    "global_index": 19,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "turn_on_lightbulb",
+      "push_red_block_left",
+      "move_slider_left",
+      "push_into_drawer"
+    ],
+    "global_index": 20,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "turn_off_lightbulb",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_pink_block_drawer"
+    ],
+    "global_index": 21,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "rotate_pink_block_right",
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "turn_off_lightbulb"
+    ],
+    "global_index": 22,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "turn_on_led",
+      "move_slider_left",
+      "lift_blue_block_table",
+      "stack_block",
+      "unstack_block"
+    ],
+    "global_index": 23,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "rotate_blue_block_right",
+      "open_drawer",
+      "turn_off_led",
+      "lift_blue_block_table",
+      "place_in_slider"
+    ],
+    "global_index": 24,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "lift_blue_block_slider",
+      "stack_block",
+      "turn_off_led",
+      "unstack_block",
+      "push_blue_block_left"
+    ],
+    "global_index": 25,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "push_blue_block_right",
+      "open_drawer",
+      "lift_pink_block_slider",
+      "place_in_slider",
+      "push_into_drawer"
+    ],
+    "global_index": 26,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "push_red_block_right",
+      "turn_on_lightbulb",
+      "push_into_drawer",
+      "move_slider_left",
+      "close_drawer"
+    ],
+    "global_index": 27,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "turn_off_lightbulb",
+      "rotate_blue_block_left",
+      "move_slider_left",
+      "open_drawer",
+      "lift_red_block_table"
+    ],
+    "global_index": 28,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "lift_red_block_table",
+      "stack_block",
+      "unstack_block",
+      "open_drawer",
+      "turn_on_led"
+    ],
+    "global_index": 29,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "push_red_block_right",
+      "close_drawer",
+      "turn_off_led"
+    ],
+    "global_index": 30,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "lift_pink_block_table",
+      "place_in_slider",
+      "push_into_drawer",
+      "close_drawer",
+      "turn_off_led"
+    ],
+    "global_index": 31,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "rotate_pink_block_left",
+      "lift_pink_block_table",
+      "stack_block",
+      "unstack_block",
+      "turn_off_led"
+    ],
+    "global_index": 32,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "open_drawer",
+      "push_pink_block_left",
+      "lift_blue_block_table",
+      "place_in_slider"
+    ],
+    "global_index": 33,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "push_blue_block_left",
+      "open_drawer",
+      "lift_red_block_table",
+      "stack_block"
+    ],
+    "global_index": 34,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "lift_red_block_slider",
+      "place_in_slider",
+      "move_slider_right",
+      "push_into_drawer",
+      "turn_off_led"
+    ],
+    "global_index": 35,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "turn_off_lightbulb",
+      "lift_pink_block_slider",
+      "place_in_slider",
+      "push_red_block_right"
+    ],
+    "global_index": 36,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "turn_off_lightbulb",
+      "push_red_block_right",
+      "push_into_drawer",
+      "move_slider_left",
+      "close_drawer"
+    ],
+    "global_index": 37,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "move_slider_right",
+      "push_blue_block_right",
+      "lift_blue_block_table",
+      "place_in_slider"
+    ],
+    "global_index": 38,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "turn_on_led",
+      "rotate_pink_block_right",
+      "move_slider_right",
+      "close_drawer",
+      "lift_pink_block_table"
+    ],
+    "global_index": 39,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "close_drawer",
+      "push_pink_block_left",
+      "lift_pink_block_table",
+      "place_in_slider"
+    ],
+    "global_index": 40,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "push_into_drawer",
+      "turn_off_led",
+      "lift_pink_block_drawer",
+      "place_in_drawer"
+    ],
+    "global_index": 41,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "move_slider_left",
+      "push_pink_block_left",
+      "lift_blue_block_slider",
+      "place_in_slider",
+      "turn_off_led"
+    ],
+    "global_index": 42,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "rotate_pink_block_right",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "open_drawer",
+      "lift_blue_block_slider"
+    ],
+    "global_index": 43,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "lift_blue_block_table",
+      "place_in_slider",
+      "turn_on_led",
+      "rotate_pink_block_right",
+      "lift_red_block_slider"
+    ],
+    "global_index": 44,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "rotate_pink_block_right",
+      "turn_off_led",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "open_drawer"
+    ],
+    "global_index": 45,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "turn_off_lightbulb",
+      "push_pink_block_left",
+      "move_slider_left",
+      "open_drawer",
+      "lift_pink_block_table"
+    ],
+    "global_index": 46,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "lift_red_block_slider",
+      "stack_block",
+      "turn_on_led",
+      "unstack_block",
+      "lift_red_block_table"
+    ],
+    "global_index": 47,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "rotate_blue_block_left",
+      "move_slider_left",
+      "open_drawer",
+      "lift_red_block_slider",
+      "place_in_drawer"
+    ],
+    "global_index": 48,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "lift_red_block_table",
+      "place_in_drawer",
+      "rotate_blue_block_right",
+      "lift_pink_block_slider",
+      "stack_block"
+    ],
+    "global_index": 49,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "push_blue_block_right",
+      "move_slider_left",
+      "push_into_drawer",
+      "lift_blue_block_drawer"
+    ],
+    "global_index": 50,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "rotate_red_block_right",
+      "lift_pink_block_slider",
+      "stack_block",
+      "turn_on_led",
+      "open_drawer"
+    ],
+    "global_index": 51,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "turn_on_led",
+      "push_pink_block_left",
+      "push_into_drawer",
+      "lift_red_block_slider",
+      "place_in_slider"
+    ],
+    "global_index": 52,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "turn_on_led",
+      "open_drawer",
+      "rotate_pink_block_left",
+      "lift_blue_block_table",
+      "place_in_drawer"
+    ],
+    "global_index": 53,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "close_drawer",
+      "move_slider_left",
+      "push_pink_block_right",
+      "lift_red_block_slider"
+    ],
+    "global_index": 54,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "close_drawer",
+      "push_red_block_left",
+      "lift_red_block_table",
+      "stack_block",
+      "turn_on_lightbulb"
+    ],
+    "global_index": 55,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "push_into_drawer",
+      "lift_red_block_slider",
+      "place_in_slider",
+      "lift_blue_block_drawer"
+    ],
+    "global_index": 56,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "push_blue_block_left",
+      "push_into_drawer",
+      "lift_blue_block_drawer",
+      "place_in_slider",
+      "move_slider_right"
+    ],
+    "global_index": 57,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "turn_off_lightbulb",
+      "close_drawer",
+      "rotate_blue_block_right",
+      "lift_blue_block_table"
+    ],
+    "global_index": 58,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "turn_off_lightbulb",
+      "push_blue_block_left",
+      "open_drawer",
+      "move_slider_left",
+      "lift_blue_block_table"
+    ],
+    "global_index": 59,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "turn_on_lightbulb",
+      "move_slider_left",
+      "push_blue_block_right",
+      "lift_blue_block_table",
+      "stack_block"
+    ],
+    "global_index": 60,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "push_blue_block_right",
+      "move_slider_right",
+      "turn_on_lightbulb",
+      "lift_red_block_table",
+      "stack_block"
+    ],
+    "global_index": 61,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "rotate_pink_block_left",
+      "turn_on_led",
+      "lift_red_block_slider",
+      "stack_block",
+      "close_drawer"
+    ],
+    "global_index": 62,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "lift_red_block_slider",
+      "place_in_slider",
+      "open_drawer",
+      "turn_on_led"
+    ],
+    "global_index": 63,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "push_pink_block_right",
+      "lift_red_block_table",
+      "place_in_slider",
+      "move_slider_right"
+    ],
+    "global_index": 64,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "turn_on_led",
+      "move_slider_right",
+      "lift_pink_block_table",
+      "place_in_drawer"
+    ],
+    "global_index": 65,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "rotate_pink_block_right",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "move_slider_right",
+      "lift_blue_block_slider"
+    ],
+    "global_index": 66,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "lift_pink_block_table",
+      "stack_block",
+      "unstack_block",
+      "turn_on_lightbulb",
+      "push_red_block_left"
+    ],
+    "global_index": 67,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_left",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "move_slider_right"
+    ],
+    "global_index": 68,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "turn_off_led",
+      "push_pink_block_left",
+      "move_slider_left",
+      "lift_pink_block_table"
+    ],
+    "global_index": 69,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "close_drawer",
+      "rotate_blue_block_right",
+      "turn_off_led",
+      "move_slider_right",
+      "lift_pink_block_slider"
+    ],
+    "global_index": 70,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "push_red_block_left",
+      "turn_off_lightbulb",
+      "lift_pink_block_slider",
+      "place_in_slider"
+    ],
+    "global_index": 71,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "push_pink_block_left",
+      "lift_blue_block_slider",
+      "place_in_drawer",
+      "turn_off_led"
+    ],
+    "global_index": 72,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "push_red_block_left",
+      "turn_on_led",
+      "lift_pink_block_slider",
+      "place_in_drawer",
+      "move_slider_right"
+    ],
+    "global_index": 73,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "turn_off_lightbulb",
+      "move_slider_right",
+      "rotate_blue_block_right",
+      "lift_blue_block_table",
+      "stack_block"
+    ],
+    "global_index": 74,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "rotate_pink_block_right",
+      "lift_red_block_table",
+      "stack_block",
+      "open_drawer"
+    ],
+    "global_index": 75,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "rotate_blue_block_left",
+      "turn_off_lightbulb",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "lift_red_block_slider"
+    ],
+    "global_index": 76,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "move_slider_left",
+      "open_drawer",
+      "rotate_blue_block_right",
+      "lift_blue_block_table"
+    ],
+    "global_index": 77,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "lift_blue_block_slider",
+      "place_in_slider",
+      "close_drawer",
+      "push_pink_block_right",
+      "move_slider_left"
+    ],
+    "global_index": 78,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "rotate_red_block_left",
+      "lift_pink_block_table",
+      "stack_block",
+      "open_drawer",
+      "lift_blue_block_slider"
+    ],
+    "global_index": 79,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_left",
+      "turn_on_lightbulb",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "lift_red_block_slider"
+    ],
+    "global_index": 80,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "move_slider_right",
+      "lift_red_block_slider",
+      "place_in_drawer",
+      "turn_off_lightbulb"
+    ],
+    "global_index": 81,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "lift_red_block_slider",
+      "place_in_drawer",
+      "turn_on_led",
+      "close_drawer",
+      "lift_blue_block_table"
+    ],
+    "global_index": 82,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "push_into_drawer",
+      "lift_red_block_slider",
+      "place_in_slider",
+      "move_slider_right",
+      "turn_off_led"
+    ],
+    "global_index": 83,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "push_red_block_left",
+      "turn_off_lightbulb",
+      "lift_blue_block_slider",
+      "stack_block"
+    ],
+    "global_index": 84,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "lift_pink_block_slider",
+      "place_in_slider",
+      "open_drawer",
+      "turn_on_lightbulb",
+      "lift_blue_block_table"
+    ],
+    "global_index": 85,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "turn_on_led",
+      "lift_pink_block_slider",
+      "place_in_drawer",
+      "lift_pink_block_drawer"
+    ],
+    "global_index": 86,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_right",
+      "close_drawer",
+      "lift_red_block_slider",
+      "stack_block",
+      "move_slider_right"
+    ],
+    "global_index": 87,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "push_blue_block_left",
+      "close_drawer",
+      "turn_off_lightbulb",
+      "lift_blue_block_table",
+      "place_in_slider"
+    ],
+    "global_index": 88,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "close_drawer",
+      "lift_red_block_slider",
+      "place_in_slider",
+      "push_blue_block_left",
+      "turn_off_lightbulb"
+    ],
+    "global_index": 89,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "rotate_blue_block_left",
+      "turn_off_lightbulb",
+      "move_slider_right",
+      "open_drawer",
+      "lift_red_block_slider"
+    ],
+    "global_index": 90,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "turn_on_led",
+      "rotate_blue_block_right",
+      "lift_blue_block_table",
+      "stack_block",
+      "lift_red_block_slider"
+    ],
+    "global_index": 91,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "turn_off_led",
+      "push_pink_block_right",
+      "move_slider_right",
+      "push_into_drawer"
+    ],
+    "global_index": 92,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_right",
+      "lift_blue_block_slider",
+      "place_in_slider",
+      "turn_on_lightbulb",
+      "move_slider_right"
+    ],
+    "global_index": 93,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "rotate_pink_block_right",
+      "move_slider_left",
+      "close_drawer",
+      "turn_off_led",
+      "lift_pink_block_table"
+    ],
+    "global_index": 94,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "close_drawer",
+      "move_slider_right",
+      "turn_on_led",
+      "rotate_red_block_left",
+      "lift_red_block_table"
+    ],
+    "global_index": 95,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "lift_pink_block_table",
+      "stack_block",
+      "turn_on_lightbulb",
+      "unstack_block",
+      "push_pink_block_left"
+    ],
+    "global_index": 96,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "close_drawer",
+      "move_slider_left",
+      "rotate_pink_block_left",
+      "turn_on_led",
+      "lift_red_block_slider"
+    ],
+    "global_index": 97,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "move_slider_left",
+      "push_red_block_right",
+      "push_into_drawer",
+      "turn_on_led",
+      "close_drawer"
+    ],
+    "global_index": 98,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "rotate_red_block_right",
+      "turn_on_lightbulb",
+      "move_slider_right",
+      "open_drawer",
+      "lift_blue_block_table"
+    ],
+    "global_index": 99,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "rotate_red_block_left",
+      "move_slider_left",
+      "turn_off_lightbulb",
+      "lift_red_block_table"
+    ],
+    "global_index": 100,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "move_slider_left",
+      "rotate_blue_block_left",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_blue_block_drawer"
+    ],
+    "global_index": 101,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "rotate_blue_block_left",
+      "push_into_drawer",
+      "lift_red_block_slider",
+      "place_in_drawer"
+    ],
+    "global_index": 102,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "push_red_block_right",
+      "lift_pink_block_table",
+      "stack_block",
+      "move_slider_right",
+      "lift_blue_block_slider"
+    ],
+    "global_index": 103,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "turn_on_led",
+      "open_drawer",
+      "lift_pink_block_slider",
+      "place_in_drawer",
+      "lift_blue_block_table"
+    ],
+    "global_index": 104,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "rotate_pink_block_left",
+      "lift_red_block_slider",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "global_index": 105,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "turn_on_lightbulb",
+      "lift_pink_block_slider",
+      "place_in_drawer",
+      "push_red_block_right"
+    ],
+    "global_index": 106,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "move_slider_left",
+      "push_red_block_right",
+      "open_drawer",
+      "turn_off_led",
+      "push_into_drawer"
+    ],
+    "global_index": 107,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "turn_off_lightbulb",
+      "push_red_block_right",
+      "lift_blue_block_slider",
+      "place_in_drawer",
+      "move_slider_right"
+    ],
+    "global_index": 108,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_right",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "turn_on_lightbulb",
+      "lift_blue_block_slider"
+    ],
+    "global_index": 109,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "lift_red_block_table",
+      "place_in_slider",
+      "push_pink_block_right",
+      "close_drawer",
+      "turn_on_led"
+    ],
+    "global_index": 110,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "move_slider_left",
+      "push_blue_block_right",
+      "lift_pink_block_slider",
+      "place_in_drawer",
+      "turn_on_lightbulb"
+    ],
+    "global_index": 111,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "push_red_block_right",
+      "move_slider_right",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "close_drawer"
+    ],
+    "global_index": 112,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "rotate_blue_block_right",
+      "open_drawer",
+      "turn_on_lightbulb",
+      "move_slider_left",
+      "lift_blue_block_table"
+    ],
+    "global_index": 113,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "lift_red_block_slider",
+      "place_in_drawer",
+      "turn_on_led",
+      "move_slider_right",
+      "lift_red_block_drawer"
+    ],
+    "global_index": 114,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_left",
+      "close_drawer",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "turn_on_led"
+    ],
+    "global_index": 115,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "push_red_block_left",
+      "move_slider_left",
+      "open_drawer",
+      "lift_pink_block_slider",
+      "stack_block"
+    ],
+    "global_index": 116,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_right",
+      "lift_blue_block_slider",
+      "place_in_drawer",
+      "turn_on_led",
+      "close_drawer"
+    ],
+    "global_index": 117,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "rotate_red_block_left",
+      "lift_pink_block_slider",
+      "stack_block",
+      "unstack_block",
+      "lift_red_block_table"
+    ],
+    "global_index": 118,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "push_blue_block_right",
+      "turn_off_lightbulb",
+      "push_into_drawer",
+      "lift_red_block_slider"
+    ],
+    "global_index": 119,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "move_slider_left",
+      "rotate_red_block_right"
+    ],
+    "global_index": 120,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "open_drawer",
+      "rotate_red_block_left",
+      "lift_red_block_table",
+      "stack_block"
+    ],
+    "global_index": 121,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "rotate_pink_block_left",
+      "close_drawer",
+      "turn_on_led",
+      "move_slider_left",
+      "lift_red_block_slider"
+    ],
+    "global_index": 122,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "rotate_blue_block_left",
+      "turn_off_led"
+    ],
+    "global_index": 123,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "push_blue_block_left",
+      "move_slider_left",
+      "turn_on_lightbulb",
+      "lift_pink_block_slider"
+    ],
+    "global_index": 124,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_left",
+      "move_slider_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "turn_off_lightbulb"
+    ],
+    "global_index": 125,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "rotate_pink_block_right",
+      "close_drawer",
+      "turn_off_lightbulb",
+      "lift_blue_block_table",
+      "place_in_slider"
+    ],
+    "global_index": 126,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "turn_on_led",
+      "push_red_block_right",
+      "move_slider_left",
+      "lift_pink_block_slider"
+    ],
+    "global_index": 127,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "lift_blue_block_slider",
+      "stack_block",
+      "move_slider_right",
+      "unstack_block"
+    ],
+    "global_index": 128,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "lift_blue_block_slider",
+      "stack_block",
+      "unstack_block",
+      "move_slider_left",
+      "rotate_blue_block_left"
+    ],
+    "global_index": 129,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "lift_red_block_slider",
+      "stack_block",
+      "close_drawer",
+      "unstack_block",
+      "push_red_block_left"
+    ],
+    "global_index": 130,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "move_slider_left",
+      "push_blue_block_right",
+      "push_into_drawer",
+      "close_drawer",
+      "lift_pink_block_slider"
+    ],
+    "global_index": 131,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "close_drawer",
+      "push_red_block_left",
+      "lift_pink_block_slider",
+      "stack_block",
+      "turn_on_lightbulb"
+    ],
+    "global_index": 132,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "lift_blue_block_slider",
+      "place_in_drawer",
+      "turn_off_led",
+      "push_red_block_left",
+      "move_slider_right"
+    ],
+    "global_index": 133,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "push_into_drawer",
+      "lift_pink_block_slider",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_on_lightbulb"
+    ],
+    "global_index": 134,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "lift_blue_block_slider",
+      "place_in_slider",
+      "turn_off_led",
+      "move_slider_left",
+      "rotate_pink_block_left"
+    ],
+    "global_index": 135,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "turn_on_led",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "push_pink_block_right"
+    ],
+    "global_index": 136,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "push_red_block_left",
+      "move_slider_left",
+      "turn_on_lightbulb",
+      "lift_blue_block_table",
+      "place_in_slider"
+    ],
+    "global_index": 137,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "rotate_red_block_left",
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "move_slider_left"
+    ],
+    "global_index": 138,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "move_slider_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "close_drawer",
+      "turn_off_lightbulb"
+    ],
+    "global_index": 139,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "turn_on_led",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "rotate_red_block_left",
+      "close_drawer"
+    ],
+    "global_index": 140,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "turn_on_lightbulb",
+      "move_slider_left",
+      "push_blue_block_left",
+      "push_into_drawer",
+      "lift_red_block_slider"
+    ],
+    "global_index": 141,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "move_slider_left",
+      "push_red_block_left",
+      "lift_red_block_table",
+      "stack_block"
+    ],
+    "global_index": 142,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "rotate_red_block_right",
+      "turn_on_lightbulb",
+      "lift_pink_block_slider",
+      "stack_block",
+      "move_slider_right"
+    ],
+    "global_index": 143,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "rotate_pink_block_right",
+      "close_drawer",
+      "move_slider_right",
+      "lift_red_block_slider",
+      "stack_block"
+    ],
+    "global_index": 144,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "lift_blue_block_slider",
+      "place_in_slider",
+      "rotate_red_block_left",
+      "lift_red_block_table"
+    ],
+    "global_index": 145,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_right",
+      "turn_on_led",
+      "move_slider_left",
+      "push_into_drawer",
+      "lift_red_block_slider"
+    ],
+    "global_index": 146,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "turn_on_led",
+      "push_pink_block_right",
+      "lift_pink_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "global_index": 147,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "lift_blue_block_table",
+      "place_in_slider",
+      "turn_on_lightbulb",
+      "push_pink_block_right",
+      "open_drawer"
+    ],
+    "global_index": 148,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "turn_on_lightbulb",
+      "open_drawer",
+      "push_into_drawer",
+      "lift_red_block_drawer",
+      "place_in_slider"
+    ],
+    "global_index": 149,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "push_into_drawer",
+      "lift_blue_block_drawer",
+      "place_in_slider",
+      "move_slider_right",
+      "turn_on_led"
+    ],
+    "global_index": 150,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "turn_on_led",
+      "rotate_red_block_left",
+      "lift_blue_block_slider",
+      "place_in_drawer"
+    ],
+    "global_index": 151,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "turn_on_led",
+      "rotate_red_block_left",
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer"
+    ],
+    "global_index": 152,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "turn_on_lightbulb",
+      "rotate_pink_block_right",
+      "lift_blue_block_slider",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "global_index": 153,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "push_into_drawer",
+      "lift_blue_block_drawer",
+      "place_in_drawer",
+      "lift_red_block_slider"
+    ],
+    "global_index": 154,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "lift_pink_block_slider",
+      "place_in_slider",
+      "rotate_blue_block_right",
+      "move_slider_right"
+    ],
+    "global_index": 155,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_right",
+      "open_drawer",
+      "lift_blue_block_slider",
+      "stack_block",
+      "unstack_block"
+    ],
+    "global_index": 156,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "lift_blue_block_slider",
+      "place_in_drawer",
+      "move_slider_left",
+      "rotate_red_block_right",
+      "lift_blue_block_drawer"
+    ],
+    "global_index": 157,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_right",
+      "move_slider_left",
+      "turn_off_led",
+      "push_into_drawer",
+      "lift_pink_block_drawer"
+    ],
+    "global_index": 158,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "close_drawer",
+      "rotate_red_block_right",
+      "lift_red_block_table",
+      "stack_block",
+      "turn_on_led"
+    ],
+    "global_index": 159,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "lift_red_block_table",
+      "stack_block",
+      "unstack_block",
+      "rotate_red_block_right",
+      "close_drawer"
+    ],
+    "global_index": 160,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "rotate_blue_block_right",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "lift_red_block_slider"
+    ],
+    "global_index": 161,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "rotate_blue_block_left",
+      "open_drawer",
+      "turn_on_lightbulb",
+      "lift_pink_block_table",
+      "stack_block"
+    ],
+    "global_index": 162,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "lift_blue_block_slider",
+      "place_in_drawer",
+      "close_drawer",
+      "turn_off_lightbulb",
+      "move_slider_left"
+    ],
+    "global_index": 163,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "rotate_blue_block_right",
+      "open_drawer",
+      "turn_off_led",
+      "move_slider_right",
+      "lift_blue_block_table"
+    ],
+    "global_index": 164,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "close_drawer",
+      "turn_on_led",
+      "push_blue_block_left",
+      "lift_blue_block_table",
+      "place_in_slider"
+    ],
+    "global_index": 165,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "push_pink_block_right",
+      "lift_blue_block_slider",
+      "place_in_slider",
+      "move_slider_left"
+    ],
+    "global_index": 166,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "rotate_red_block_right",
+      "turn_off_led",
+      "lift_red_block_table",
+      "stack_block"
+    ],
+    "global_index": 167,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_right",
+      "lift_red_block_table",
+      "stack_block",
+      "move_slider_left",
+      "unstack_block"
+    ],
+    "global_index": 168,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "turn_on_led",
+      "push_into_drawer",
+      "lift_red_block_drawer",
+      "place_in_drawer"
+    ],
+    "global_index": 169,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "turn_off_lightbulb",
+      "push_blue_block_left",
+      "move_slider_right",
+      "close_drawer",
+      "lift_blue_block_table"
+    ],
+    "global_index": 170,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "push_blue_block_left",
+      "open_drawer",
+      "move_slider_left",
+      "push_into_drawer",
+      "turn_off_lightbulb"
+    ],
+    "global_index": 171,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "rotate_blue_block_left",
+      "turn_on_lightbulb",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "move_slider_right"
+    ],
+    "global_index": 172,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "lift_red_block_table",
+      "stack_block",
+      "close_drawer",
+      "turn_off_lightbulb",
+      "unstack_block"
+    ],
+    "global_index": 173,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_right",
+      "lift_red_block_slider",
+      "place_in_slider",
+      "lift_pink_block_table",
+      "stack_block"
+    ],
+    "global_index": 174,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "push_blue_block_left",
+      "push_into_drawer",
+      "move_slider_right",
+      "lift_blue_block_drawer"
+    ],
+    "global_index": 175,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "rotate_red_block_left",
+      "move_slider_right",
+      "turn_on_lightbulb",
+      "lift_pink_block_table",
+      "place_in_slider"
+    ],
+    "global_index": 176,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "open_drawer",
+      "move_slider_right",
+      "lift_blue_block_table",
+      "stack_block"
+    ],
+    "global_index": 177,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "turn_off_lightbulb",
+      "move_slider_right",
+      "lift_blue_block_table",
+      "stack_block",
+      "lift_pink_block_slider"
+    ],
+    "global_index": 178,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "push_red_block_left",
+      "turn_on_lightbulb",
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer"
+    ],
+    "global_index": 179,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "rotate_red_block_right",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "turn_off_lightbulb"
+    ],
+    "global_index": 180,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "turn_off_lightbulb",
+      "move_slider_right",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "lift_red_block_slider"
+    ],
+    "global_index": 181,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "turn_on_led",
+      "rotate_blue_block_right",
+      "close_drawer",
+      "lift_pink_block_slider"
+    ],
+    "global_index": 182,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "rotate_blue_block_left",
+      "move_slider_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "lift_red_block_slider"
+    ],
+    "global_index": 183,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "push_pink_block_right",
+      "close_drawer",
+      "turn_off_lightbulb",
+      "lift_blue_block_table"
+    ],
+    "global_index": 184,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "open_drawer",
+      "move_slider_right",
+      "rotate_pink_block_left",
+      "lift_pink_block_table"
+    ],
+    "global_index": 185,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "rotate_red_block_right",
+      "lift_pink_block_slider",
+      "place_in_slider",
+      "lift_red_block_table"
+    ],
+    "global_index": 186,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "turn_on_led",
+      "move_slider_right",
+      "rotate_pink_block_left",
+      "open_drawer",
+      "push_into_drawer"
+    ],
+    "global_index": 187,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "push_red_block_left",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "open_drawer",
+      "turn_off_led"
+    ],
+    "global_index": 188,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "push_blue_block_right",
+      "turn_on_lightbulb",
+      "open_drawer",
+      "lift_blue_block_table",
+      "place_in_drawer"
+    ],
+    "global_index": 189,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "turn_off_lightbulb",
+      "move_slider_left",
+      "rotate_pink_block_right",
+      "close_drawer",
+      "lift_blue_block_slider"
+    ],
+    "global_index": 190,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "lift_red_block_table",
+      "place_in_drawer",
+      "close_drawer",
+      "rotate_pink_block_left",
+      "move_slider_left"
+    ],
+    "global_index": 191,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "push_blue_block_right",
+      "lift_red_block_slider",
+      "place_in_slider",
+      "open_drawer",
+      "turn_off_lightbulb"
+    ],
+    "global_index": 192,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "turn_on_lightbulb",
+      "open_drawer",
+      "rotate_blue_block_right",
+      "move_slider_left",
+      "lift_pink_block_slider"
+    ],
+    "global_index": 193,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "rotate_blue_block_left",
+      "open_drawer",
+      "lift_red_block_table",
+      "place_in_slider",
+      "move_slider_left"
+    ],
+    "global_index": 194,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "lift_red_block_slider",
+      "place_in_slider",
+      "push_into_drawer",
+      "lift_blue_block_drawer"
+    ],
+    "global_index": 195,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "lift_blue_block_slider",
+      "place_in_slider",
+      "turn_off_led",
+      "rotate_pink_block_left"
+    ],
+    "global_index": 196,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "open_drawer",
+      "push_pink_block_right",
+      "turn_on_lightbulb",
+      "push_into_drawer"
+    ],
+    "global_index": 197,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "lift_pink_block_table",
+      "place_in_slider",
+      "turn_on_lightbulb",
+      "rotate_red_block_left",
+      "move_slider_right"
+    ],
+    "global_index": 198,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "rotate_blue_block_left",
+      "open_drawer",
+      "turn_on_lightbulb",
+      "lift_red_block_table",
+      "stack_block"
+    ],
+    "global_index": 199,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "turn_on_lightbulb",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "rotate_pink_block_right",
+      "open_drawer"
+    ],
+    "global_index": 200,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "rotate_pink_block_right",
+      "move_slider_right",
+      "turn_on_led",
+      "close_drawer",
+      "lift_pink_block_table"
+    ],
+    "global_index": 201,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "turn_on_led",
+      "push_blue_block_right",
+      "move_slider_left",
+      "lift_pink_block_slider"
+    ],
+    "global_index": 202,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "lift_red_block_slider",
+      "place_in_slider",
+      "move_slider_right",
+      "push_blue_block_left"
+    ],
+    "global_index": 203,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "move_slider_left",
+      "lift_blue_block_slider",
+      "place_in_slider",
+      "push_pink_block_left"
+    ],
+    "global_index": 204,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "rotate_pink_block_left",
+      "close_drawer",
+      "lift_blue_block_slider",
+      "place_in_slider",
+      "move_slider_left"
+    ],
+    "global_index": 205,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "rotate_blue_block_left",
+      "lift_red_block_slider",
+      "stack_block",
+      "unstack_block",
+      "turn_off_led"
+    ],
+    "global_index": 206,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_left",
+      "move_slider_right",
+      "push_into_drawer",
+      "lift_red_block_slider",
+      "place_in_drawer"
+    ],
+    "global_index": 207,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_right",
+      "push_into_drawer",
+      "turn_off_lightbulb",
+      "move_slider_right",
+      "lift_pink_block_drawer"
+    ],
+    "global_index": 208,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "close_drawer",
+      "turn_off_led",
+      "move_slider_right",
+      "rotate_blue_block_left",
+      "lift_blue_block_table"
+    ],
+    "global_index": 209,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "move_slider_left",
+      "rotate_blue_block_left",
+      "lift_blue_block_table",
+      "stack_block",
+      "turn_on_lightbulb"
+    ],
+    "global_index": 210,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "lift_pink_block_table",
+      "stack_block",
+      "unstack_block",
+      "push_pink_block_right"
+    ],
+    "global_index": 211,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "turn_on_led",
+      "move_slider_left",
+      "open_drawer",
+      "push_blue_block_right",
+      "lift_pink_block_table"
+    ],
+    "global_index": 212,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "rotate_pink_block_right",
+      "lift_blue_block_slider",
+      "place_in_drawer",
+      "turn_off_led"
+    ],
+    "global_index": 213,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "turn_off_led",
+      "move_slider_right",
+      "push_red_block_right",
+      "lift_red_block_table"
+    ],
+    "global_index": 214,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "rotate_blue_block_right",
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "close_drawer"
+    ],
+    "global_index": 215,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "lift_red_block_table",
+      "stack_block",
+      "unstack_block",
+      "turn_on_lightbulb"
+    ],
+    "global_index": 216,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "turn_on_led",
+      "rotate_blue_block_left",
+      "open_drawer",
+      "lift_red_block_table",
+      "stack_block"
+    ],
+    "global_index": 217,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 4
+  },
+  {
+    "eval_sequence": [
+      "rotate_pink_block_left",
+      "open_drawer",
+      "lift_pink_block_table",
+      "stack_block",
+      "turn_on_lightbulb"
+    ],
+    "global_index": 218,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "push_blue_block_right",
+      "move_slider_left",
+      "lift_red_block_table",
+      "stack_block"
+    ],
+    "global_index": 219,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "push_blue_block_left",
+      "turn_off_lightbulb",
+      "lift_red_block_slider",
+      "place_in_slider",
+      "lift_blue_block_table"
+    ],
+    "global_index": 220,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_left",
+      "close_drawer",
+      "move_slider_left",
+      "lift_pink_block_table",
+      "stack_block"
+    ],
+    "global_index": 221,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "rotate_red_block_left",
+      "close_drawer",
+      "move_slider_right",
+      "lift_pink_block_table"
+    ],
+    "global_index": 222,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "rotate_pink_block_right",
+      "lift_pink_block_table",
+      "place_in_slider",
+      "close_drawer",
+      "turn_on_lightbulb"
+    ],
+    "global_index": 223,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "turn_on_led",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "rotate_red_block_right"
+    ],
+    "global_index": 224,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "move_slider_left",
+      "rotate_pink_block_right",
+      "lift_pink_block_table",
+      "place_in_drawer"
+    ],
+    "global_index": 225,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "close_drawer",
+      "push_pink_block_left",
+      "lift_blue_block_slider",
+      "place_in_slider",
+      "lift_pink_block_table"
+    ],
+    "global_index": 226,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "turn_on_lightbulb",
+      "move_slider_left",
+      "lift_blue_block_table",
+      "stack_block"
+    ],
+    "global_index": 227,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "push_red_block_left",
+      "open_drawer",
+      "lift_pink_block_slider",
+      "place_in_drawer",
+      "lift_red_block_table"
+    ],
+    "global_index": 228,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "rotate_red_block_left",
+      "move_slider_right",
+      "turn_on_led",
+      "open_drawer",
+      "push_into_drawer"
+    ],
+    "global_index": 229,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "turn_off_led",
+      "move_slider_left",
+      "push_blue_block_left",
+      "open_drawer",
+      "lift_blue_block_table"
+    ],
+    "global_index": 230,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "rotate_red_block_right",
+      "lift_blue_block_slider",
+      "stack_block",
+      "move_slider_left",
+      "turn_on_led"
+    ],
+    "global_index": 231,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "lift_blue_block_slider",
+      "stack_block",
+      "move_slider_left",
+      "unstack_block",
+      "push_pink_block_left"
+    ],
+    "global_index": 232,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "rotate_pink_block_right",
+      "turn_off_led",
+      "move_slider_left",
+      "open_drawer",
+      "lift_red_block_slider"
+    ],
+    "global_index": 233,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"right\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "open_drawer",
+      "turn_on_lightbulb",
+      "rotate_blue_block_left",
+      "lift_red_block_slider",
+      "stack_block"
+    ],
+    "global_index": 234,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"right\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "turn_on_lightbulb",
+      "push_blue_block_right",
+      "lift_pink_block_slider",
+      "place_in_drawer",
+      "lift_blue_block_table"
+    ],
+    "global_index": 235,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "turn_on_lightbulb",
+      "open_drawer",
+      "move_slider_right",
+      "rotate_pink_block_left",
+      "lift_blue_block_slider"
+    ],
+    "global_index": 236,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "push_pink_block_left",
+      "lift_red_block_slider",
+      "stack_block",
+      "turn_on_led",
+      "unstack_block"
+    ],
+    "global_index": 237,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 3
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "lift_red_block_slider",
+      "place_in_slider",
+      "push_into_drawer",
+      "turn_off_led"
+    ],
+    "global_index": 238,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "rotate_pink_block_left",
+      "turn_on_lightbulb",
+      "open_drawer",
+      "lift_blue_block_table"
+    ],
+    "global_index": 239,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_right\",\"slider\":\"left\"}",
+    "success": 0
+  },
+  {
+    "eval_sequence": [
+      "rotate_red_block_right",
+      "open_drawer",
+      "turn_off_led",
+      "lift_red_block_table",
+      "place_in_drawer"
+    ],
+    "global_index": 240,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "turn_on_led",
+      "push_red_block_right",
+      "move_slider_right",
+      "lift_red_block_table",
+      "place_in_drawer"
+    ],
+    "global_index": 241,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "push_blue_block_left",
+      "turn_on_lightbulb",
+      "move_slider_right",
+      "open_drawer",
+      "lift_pink_block_table"
+    ],
+    "global_index": 242,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "rotate_red_block_left",
+      "lift_pink_block_table",
+      "stack_block",
+      "close_drawer",
+      "lift_blue_block_slider"
+    ],
+    "global_index": 243,
+    "initial_state_json": "{\"blue_block\":\"slider_left\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"table\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "rotate_blue_block_left",
+      "turn_off_lightbulb",
+      "move_slider_right",
+      "lift_red_block_slider",
+      "place_in_slider"
+    ],
+    "global_index": 244,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":1,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "lift_blue_block_table",
+      "place_in_drawer",
+      "move_slider_right",
+      "turn_off_lightbulb",
+      "push_red_block_left"
+    ],
+    "global_index": 245,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "turn_off_lightbulb",
+      "rotate_red_block_left",
+      "lift_red_block_table",
+      "place_in_drawer",
+      "move_slider_left"
+    ],
+    "global_index": 246,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 5
+  },
+  {
+    "eval_sequence": [
+      "move_slider_left",
+      "rotate_blue_block_right",
+      "lift_pink_block_slider",
+      "place_in_slider",
+      "open_drawer"
+    ],
+    "global_index": 247,
+    "initial_state_json": "{\"blue_block\":\"table\",\"drawer\":\"closed\",\"grasped\":0,\"led\":0,\"lightbulb\":0,\"pink_block\":\"slider_right\",\"red_block\":\"table\",\"slider\":\"right\"}",
+    "success": 2
+  },
+  {
+    "eval_sequence": [
+      "lift_blue_block_slider",
+      "stack_block",
+      "turn_off_lightbulb",
+      "unstack_block",
+      "move_slider_right"
+    ],
+    "global_index": 248,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"open\",\"grasped\":0,\"led\":0,\"lightbulb\":1,\"pink_block\":\"slider_left\",\"red_block\":\"table\",\"slider\":\"left\"}",
+    "success": 1
+  },
+  {
+    "eval_sequence": [
+      "move_slider_right",
+      "turn_on_lightbulb",
+      "lift_red_block_slider",
+      "place_in_slider",
+      "open_drawer"
+    ],
+    "global_index": 249,
+    "initial_state_json": "{\"blue_block\":\"slider_right\",\"drawer\":\"closed\",\"grasped\":0,\"led\":1,\"lightbulb\":0,\"pink_block\":\"table\",\"red_block\":\"slider_left\",\"slider\":\"left\"}",
+    "success": 0
+  }
+]

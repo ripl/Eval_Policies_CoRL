@@ -1,0 +1,33 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8789
+   Task suite: libero_goal
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_goal
+   Tasks: 10, Trials per task: 5
+   Max steps: 800
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+open the middle drawer of the ...:   0%|          | 0/5 [00:00<?, ?it/s][A  [OK] Task 0 Ep 0: SUCCESS (steps=127)
+
+open the middle drawer of the ...:  20%|██        | 1/5 [00:07<00:28,  7.24s/it][A  [OK] Task 0 Ep 1: SUCCESS (steps=390)
+
+open the middle drawer of the ...:  40%|████      | 2/5 [00:25<00:41, 13.74s/it][A  [OK] Task 0 Ep 2: SUCCESS (steps=397)
+
+open the middle drawer of the ...:  60%|██████    | 3/5 [00:44<00:31, 15.95s/it][A  [OK] Task 0 Ep 3: SUCCESS (steps=128)
+
+open the middle drawer of the ...:  80%|████████  | 4/5 [00:50<00:12, 12.35s/it][A  [OK] Task 0 Ep 4: SUCCESS (steps=185)
+
+open the middle drawer of the ...: 100%|██████████| 5/5 [01:00<00:00, 11.33s/it][A
+                                                                                [A   Task 0: 5/5 (100.0%)
+Tasks:   0%|          | 0/1 [01:04<?, ?it/s]
+
+Total success rate: 5/5 (100.0%)

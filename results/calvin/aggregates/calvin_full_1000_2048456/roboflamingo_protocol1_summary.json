@@ -1,0 +1,159 @@
+{
+  "array_job_id": "2048456",
+  "avg_seq_len": 1.869,
+  "calvin_sequence_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json",
+  "chain_sr": {
+    "1": 0.708,
+    "2": 0.469,
+    "3": 0.321,
+    "4": 0.226,
+    "5": 0.145
+  },
+  "condition": "protocol1",
+  "num_sequences": 1000,
+  "per_sequence_sources": [
+    "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/roboflamingo_abc_d/roboflamingo_abc_d_official_d_table_resets_seed0_1000seq_chunk0_0_250_2048456_20/per_sequence_results.json",
+    "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/roboflamingo_abc_d/roboflamingo_abc_d_official_d_table_resets_seed0_1000seq_chunk1_250_500_2048456_21/per_sequence_results.json",
+    "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/roboflamingo_abc_d/roboflamingo_abc_d_official_d_table_resets_seed0_1000seq_chunk2_500_750_2048456_22/per_sequence_results.json",
+    "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/roboflamingo_abc_d/roboflamingo_abc_d_official_d_table_resets_seed0_1000seq_chunk3_750_1000_2048456_23/per_sequence_results.json"
+  ],
+  "policy": "roboflamingo",
+  "task_info": {
+    "close_drawer": {
+      "success": 112,
+      "total": 113
+    },
+    "lift_blue_block_drawer": {
+      "success": 11,
+      "total": 11
+    },
+    "lift_blue_block_slider": {
+      "success": 41,
+      "total": 68
+    },
+    "lift_blue_block_table": {
+      "success": 73,
+      "total": 88
+    },
+    "lift_pink_block_drawer": {
+      "success": 3,
+      "total": 6
+    },
+    "lift_pink_block_slider": {
+      "success": 65,
+      "total": 91
+    },
+    "lift_pink_block_table": {
+      "success": 63,
+      "total": 82
+    },
+    "lift_red_block_drawer": {
+      "success": 11,
+      "total": 11
+    },
+    "lift_red_block_slider": {
+      "success": 45,
+      "total": 81
+    },
+    "lift_red_block_table": {
+      "success": 77,
+      "total": 92
+    },
+    "move_slider_left": {
+      "success": 75,
+      "total": 182
+    },
+    "move_slider_right": {
+      "success": 56,
+      "total": 212
+    },
+    "open_drawer": {
+      "success": 217,
+      "total": 218
+    },
+    "place_in_drawer": {
+      "success": 89,
+      "total": 90
+    },
+    "place_in_slider": {
+      "success": 120,
+      "total": 163
+    },
+    "push_blue_block_left": {
+      "success": 44,
+      "total": 58
+    },
+    "push_blue_block_right": {
+      "success": 12,
+      "total": 49
+    },
+    "push_into_drawer": {
+      "success": 48,
+      "total": 69
+    },
+    "push_pink_block_left": {
+      "success": 37,
+      "total": 52
+    },
+    "push_pink_block_right": {
+      "success": 16,
+      "total": 47
+    },
+    "push_red_block_left": {
+      "success": 42,
+      "total": 56
+    },
+    "push_red_block_right": {
+      "success": 22,
+      "total": 54
+    },
+    "rotate_blue_block_left": {
+      "success": 37,
+      "total": 50
+    },
+    "rotate_blue_block_right": {
+      "success": 30,
+      "total": 58
+    },
+    "rotate_pink_block_left": {
+      "success": 25,
+      "total": 39
+    },
+    "rotate_pink_block_right": {
+      "success": 23,
+      "total": 52
+    },
+    "rotate_red_block_left": {
+      "success": 35,
+      "total": 48
+    },
+    "rotate_red_block_right": {
+      "success": 36,
+      "total": 51
+    },
+    "stack_block": {
+      "success": 29,
+      "total": 93
+    },
+    "turn_off_led": {
+      "success": 94,
+      "total": 112
+    },
+    "turn_off_lightbulb": {
+      "success": 60,
+      "total": 88
+    },
+    "turn_on_led": {
+      "success": 111,
+      "total": 116
+    },
+    "turn_on_lightbulb": {
+      "success": 96,
+      "total": 110
+    },
+    "unstack_block": {
+      "success": 14,
+      "total": 14
+    }
+  }
+}

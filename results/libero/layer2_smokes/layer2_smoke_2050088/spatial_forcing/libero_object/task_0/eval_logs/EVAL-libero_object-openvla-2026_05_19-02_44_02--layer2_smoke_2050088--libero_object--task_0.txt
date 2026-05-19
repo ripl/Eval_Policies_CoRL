@@ -1,0 +1,38 @@
+Task suite: libero_object
+Using initial states from /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_layer2_4suite_2500_seed20260519/libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket.pruned_init
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 1...
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 2...
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 3...
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 4...
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 5...
+Success: True
+# episodes completed so far: 5
+# successes: 5 (100.0%)
+Current task success rate: 1.0
+Current total success rate: 1.0
+Final results:
+Total episodes: 5
+Total successes: 5
+Overall success rate: 1.0000 (100.0%)

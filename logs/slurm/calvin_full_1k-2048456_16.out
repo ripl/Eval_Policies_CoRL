@@ -1,0 +1,72 @@
+policy=gr1
+condition=protocol1
+chunk_id=0
+eval_start=0
+eval_end=250
+run_tag=gr1_abc_d_official_d_table_resets_seed0_1000seq_chunk0_0_250_2048456_16
+calvin_sequence_manifest=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json
+calvin_reset_bank=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/reset_banks/abc_d_official_d_table_resets_1000seq_seed0.npz
+xvla_ep_len=360
+slurm_cpus_per_task=4
+CALVIN smoke overlay already ready: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/calvin_smoke_overlay
+CALVIN reset override active: bank=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/reset_banks/abc_d_official_d_table_resets_1000seq_seed0.npz eval_start=0 protocol=calvin_official_d_table_resets_v1
+loading state dict: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/gr1/snapshot_ABC.pt...
+argv[0]=--width=200
+argv[1]=--height=200
+Loaded EGL 1.5 after reload.
+GL_VENDOR=NVIDIA Corporation
+GL_RENDERER=NVIDIA RTX A6000/PCIe/SSE2
+GL_VERSION=3.3.0 NVIDIA 580.95.05
+GL_SHADING_LANGUAGE_VERSION=3.30 NVIDIA via Cg compiler
+Version = 3.3.0 NVIDIA 580.95.05
+Vendor = NVIDIA Corporation
+Renderer = NVIDIA RTX A6000/PCIe/SSE2
+logging to /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_official_d_table_resets_seed0_1000seq_chunk0_0_250_2048456_16
+ven = NVIDIA Corporation
+ven = NVIDIA Corporation
+Results for Epoch None:
+Average successful sequence length: 2.548
+Success rates for i instructions in a row:
+1: 78.8%
+2: 59.2%
+3: 48.8%
+4: 38.0%
+5: 30.0%
+rotate_blue_block_right: 11 / 13 |  SR: 84.6%
+move_slider_right: 55 / 55 |  SR: 100.0%
+lift_red_block_slider: 26 / 29 |  SR: 89.7%
+place_in_slider: 37 / 48 |  SR: 77.1%
+turn_off_led: 42 / 42 |  SR: 100.0%
+push_into_drawer: 18 / 21 |  SR: 85.7%
+lift_blue_block_drawer: 7 / 7 |  SR: 100.0%
+close_drawer: 30 / 31 |  SR: 96.8%
+lift_pink_block_slider: 16 / 19 |  SR: 84.2%
+open_drawer: 69 / 69 |  SR: 100.0%
+rotate_red_block_right: 11 / 12 |  SR: 91.7%
+lift_red_block_table: 21 / 26 |  SR: 80.8%
+push_blue_block_left: 10 / 13 |  SR: 76.9%
+turn_on_led: 35 / 37 |  SR: 94.6%
+rotate_blue_block_left: 14 / 16 |  SR: 87.5%
+lift_blue_block_table: 30 / 34 |  SR: 88.2%
+place_in_drawer: 31 / 32 |  SR: 96.9%
+move_slider_left: 37 / 40 |  SR: 92.5%
+push_red_block_right: 3 / 10 |  SR: 30.0%
+push_pink_block_left: 11 / 17 |  SR: 64.7%
+turn_on_lightbulb: 7 / 32 |  SR: 21.9%
+push_red_block_left: 11 / 16 |  SR: 68.8%
+rotate_pink_block_right: 7 / 14 |  SR: 50.0%
+stack_block: 21 / 34 |  SR: 61.8%
+unstack_block: 8 / 9 |  SR: 88.9%
+lift_blue_block_slider: 22 / 23 |  SR: 95.7%
+lift_pink_block_table: 16 / 22 |  SR: 72.7%
+rotate_pink_block_left: 8 / 14 |  SR: 57.1%
+rotate_red_block_left: 11 / 14 |  SR: 78.6%
+turn_off_lightbulb: 3 / 30 |  SR: 10.0%
+lift_red_block_drawer: 2 / 2 |  SR: 100.0%
+push_blue_block_right: 4 / 12 |  SR: 33.3%
+push_pink_block_right: 3 / 18 |  SR: 16.7%
+lift_pink_block_drawer: 0 / 1 |  SR: 0.0%
+
+Best model: epoch None with average sequences length of 2.548
+disconnecting id 0 from server
+Destroy EGL OpenGL window.

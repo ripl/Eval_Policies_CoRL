@@ -1,0 +1,6 @@
+suite,task_id,task_name,episode_idx,instance_id,policy_name,checkpoint_ref,success,num_env_steps,error_type
+libero_goal,0,open_the_middle_drawer_of_the_cabinet,0,libero_goal/open_the_middle_drawer_of_the_cabinet/0000,simvla,/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/simvla-libero@93dc4d90b0596c652ad2840ad743c62b9c4473fb,1,127,
+libero_goal,0,open_the_middle_drawer_of_the_cabinet,1,libero_goal/open_the_middle_drawer_of_the_cabinet/0001,simvla,/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/simvla-libero@93dc4d90b0596c652ad2840ad743c62b9c4473fb,1,390,
+libero_goal,0,open_the_middle_drawer_of_the_cabinet,2,libero_goal/open_the_middle_drawer_of_the_cabinet/0002,simvla,/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/simvla-libero@93dc4d90b0596c652ad2840ad743c62b9c4473fb,1,397,
+libero_goal,0,open_the_middle_drawer_of_the_cabinet,3,libero_goal/open_the_middle_drawer_of_the_cabinet/0003,simvla,/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/simvla-libero@93dc4d90b0596c652ad2840ad743c62b9c4473fb,1,128,
+libero_goal,0,open_the_middle_drawer_of_the_cabinet,4,libero_goal/open_the_middle_drawer_of_the_cabinet/0004,simvla,/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/simvla-libero@93dc4d90b0596c652ad2840ad743c62b9c4473fb,1,185,

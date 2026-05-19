@@ -1,0 +1,133 @@
+policy=roboflamingo
+condition=calibration
+chunk_id=1
+eval_start=250
+eval_end=500
+run_tag=roboflamingo_abc_d_calibration_1000seq_chunk1_250_500_2048456_9
+calvin_sequence_manifest=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json
+calvin_reset_bank=
+xvla_ep_len=360
+slurm_cpus_per_task=4
+CALVIN smoke overlay already ready: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/calvin_smoke_overlay
+{
+  "roboflamingo_checkpoint": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/models--robovlms--RoboFlamingo/snapshots/b08c0a2ac4d2a92927ddc066e3eb077319bc5a94/ABC_D/checkpoint_gripper_post_hist_1_aug_10_4_traj_cons_ws_12_mpt_dolly_3b_4.pth",
+  "openflamingo_checkpoint": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/models--openflamingo--OpenFlamingo-3B-vitl-mpt1b-langinstruct/snapshots/656bbbcd4508db84ccc83c02361011c6fe92ae93/checkpoint.pt"
+}
+device_id:  cuda:0
+world_size:  1
+anas-awadalla/mpt-1b-redpajama-200b-dolly
+You are using config.init_device='cpu', but you can also use config.init_device="meta" with Composer + FSDP for fast initialization.
+window size: 12
+1024 2048
+MosaicGPTConfig {
+  "_name_or_path": "anas-awadalla/mpt-1b-redpajama-200b-dolly",
+  "alibi": true,
+  "alibi_bias_max": 8,
+  "architectures": [
+    "MosaicGPT"
+  ],
+  "attn_clip_qkv": null,
+  "attn_impl": "torch",
+  "attn_pdrop": 0,
+  "attn_qk_ln": true,
+  "attn_uses_sequence_id": false,
+  "auto_map": {
+    "AutoConfig": "anas-awadalla/mpt-1b-redpajama-200b-dolly--configuration_mosaic_gpt.MosaicGPTConfig",
+    "AutoModelForCausalLM": "anas-awadalla/mpt-1b-redpajama-200b-dolly--mosaic_gpt.MosaicGPT"
+  },
+  "d_model": 2048,
+  "emb_init_std": null,
+  "emb_init_uniform_lim": null,
+  "emb_pdrop": 0,
+  "embedding_fraction": 1.0,
+  "fan_mode": "fan_in",
+  "init_device": "cpu",
+  "init_div_is_residual": true,
+  "init_gain": 0,
+  "init_nonlinearity": "relu",
+  "init_std": 0.02,
+  "logit_scale": null,
+  "low_precision_layernorm": true,
+  "max_seq_len": 2048,
+  "mlp_ratio": 4,
+  "model_type": "mosaic_gpt",
+  "n_heads": 16,
+  "n_layers": 24,
+  "no_bias": true,
+  "param_init_fn": "kaiming_normal_",
+  "prefix_lm": false,
+  "resid_pdrop": 0,
+  "softmax_scale": null,
+  "tokenizer_name": "EleutherAI/gpt-neox-20b",
+  "torch_dtype": "float32",
+  "transformers_version": "4.33.1",
+  "use_cache": false,
+  "verbose": 0,
+  "vocab_size": 50280
+}
+
+----------------------------------------------------------------------------------------------------
+transformer.blocks
+Flamingo model initialized with 1088187703 trainable parameters
+Loading origin flamingo checkpoint from  /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/models--openflamingo--OpenFlamingo-3B-vitl-mpt1b-langinstruct/blobs/9dc045d02933a46f012b52b96aa10dbaedec84594dd202ac4c3c6f2ece51dbe3
+Loading robot-flamingo checkpoint from /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/models--robovlms--RoboFlamingo/blobs/752115c602b9245a798a2c8eb28b83c413fb95748681ec36372da8a4c63e4cd7
+argv[0]=--width=200
+argv[1]=--height=200
+Loaded EGL 1.5 after reload.
+GL_VENDOR=NVIDIA Corporation
+GL_RENDERER=NVIDIA RTX A6000/PCIe/SSE2
+GL_VERSION=3.3.0 NVIDIA 580.95.05
+GL_SHADING_LANGUAGE_VERSION=3.30 NVIDIA via Cg compiler
+Version = 3.3.0 NVIDIA 580.95.05
+Vendor = NVIDIA Corporation
+Renderer = NVIDIA RTX A6000/PCIe/SSE2
+received depth0
+logging to /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/roboflamingo_abc_d/roboflamingo_abc_d_calibration_1000seq_chunk1_250_500_2048456_9
+ven = NVIDIA Corporation
+ven = NVIDIA Corporation
+Results for Epoch 0:
+Average successful sequence length: 2.476
+Success rates for i instructions in a row:
+1: 82.0%
+2: 61.6%
+3: 46.0%
+4: 34.8%
+5: 23.2%
+lift_pink_block_table: 21 / 24 |  SR: 87.5%
+lift_pink_block_slider: 22 / 26 |  SR: 84.6%
+place_in_slider: 40 / 59 |  SR: 67.8%
+rotate_red_block_left: 12 / 12 |  SR: 100.0%
+open_drawer: 69 / 69 |  SR: 100.0%
+turn_off_led: 21 / 23 |  SR: 91.3%
+push_pink_block_left: 15 / 16 |  SR: 93.8%
+turn_on_lightbulb: 25 / 28 |  SR: 89.3%
+stack_block: 23 / 38 |  SR: 60.5%
+move_slider_left: 15 / 47 |  SR: 31.9%
+rotate_red_block_right: 15 / 15 |  SR: 100.0%
+close_drawer: 39 / 39 |  SR: 100.0%
+turn_off_lightbulb: 16 / 28 |  SR: 57.1%
+push_red_block_left: 15 / 16 |  SR: 93.8%
+lift_red_block_slider: 15 / 25 |  SR: 60.0%
+push_into_drawer: 14 / 18 |  SR: 77.8%
+lift_blue_block_table: 24 / 25 |  SR: 96.0%
+push_blue_block_left: 21 / 22 |  SR: 95.5%
+lift_red_block_table: 33 / 38 |  SR: 86.8%
+rotate_blue_block_right: 11 / 13 |  SR: 84.6%
+place_in_drawer: 25 / 26 |  SR: 96.2%
+turn_on_led: 37 / 40 |  SR: 92.5%
+unstack_block: 15 / 15 |  SR: 100.0%
+push_red_block_right: 8 / 11 |  SR: 72.7%
+lift_blue_block_slider: 15 / 24 |  SR: 62.5%
+push_blue_block_right: 5 / 11 |  SR: 45.5%
+rotate_pink_block_left: 10 / 10 |  SR: 100.0%
+push_pink_block_right: 7 / 11 |  SR: 63.6%
+lift_blue_block_drawer: 2 / 2 |  SR: 100.0%
+move_slider_right: 8 / 55 |  SR: 14.5%
+rotate_blue_block_left: 10 / 10 |  SR: 100.0%
+rotate_pink_block_right: 9 / 11 |  SR: 81.8%
+lift_red_block_drawer: 1 / 1 |  SR: 100.0%
+lift_pink_block_drawer: 1 / 3 |  SR: 33.3%
+
+Best model: epoch 0 with average sequences length of 2.476
+disconnecting id 0 from server
+Destroy EGL OpenGL window.

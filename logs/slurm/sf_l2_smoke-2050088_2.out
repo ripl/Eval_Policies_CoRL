@@ -1,0 +1,89 @@
+Using LIBERO constants:
+  NUM_ACTIONS_CHUNK = 8
+  ACTION_DIM = 7
+  PROPRIO_DIM = 8
+  ACTION_PROPRIO_NORMALIZATION_TYPE = bounds_q99
+If needed, manually set the correct constants in `prismatic/vla/constants.py`!
+Instantiating pretrained VLA policy...
+Created backup of original config at: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/spatial-forcing-7b-finetuned-libero-goal/config.json.back.20260519_024739
+Updated config.json at: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/spatial-forcing-7b-finetuned-libero-goal/config.json
+Changes made:
+  - Set AutoConfig to "configuration_prismatic.OpenVLAConfig"
+  - Set AutoModelForVision2Seq to "modeling_prismatic.OpenVLAForActionPrediction"
+Loaded model: <class 'transformers_modules.spatial-forcing-7b-finetuned-libero-goal.modeling_prismatic.OpenVLAForActionPrediction'>
+05/19 [02:49:51] INFO     | >> Logging to local log file: run_libero_eval.py:217
+                          /share/data/ripl/tianchong/proj                       
+                          ects/Eval_Policies_CoRL/results                       
+                          /libero/layer2_smokes/layer2_sm                       
+                          oke_2050088/spatial_forcing/lib                       
+                          ero_goal/task_0/eval_logs/EVAL-                       
+                          libero_goal-openvla-2026_05_19-                       
+                          02_47_39--layer2_smoke_2050088-                       
+                          -libero_goal--task_0.txt                              
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+                 INFO     | >> Task suite: libero_goal    run_libero_eval.py:232
+                 INFO     | >> Using initial states from  run_libero_eval.py:232
+                          /share/data/ripl/tianchong/proj                       
+                          ects/Eval_Policies_CoRL/artifac                       
+                          ts/libero/init_state_layer2_4su                       
+                          ite_2500_seed20260519/libero_go                       
+                          al/open_the_middle_drawer_of_th                       
+                          e_cabinet.pruned_init                                 
+05/19 [02:49:57] INFO     | >>                            run_libero_eval.py:232
+                          Task: open the middle drawer of                       
+                          the cabinet                                           
+                 INFO     | >> Starting episode 1...      run_libero_eval.py:232
+05/19 [02:50:04] INFO     | >> Success: True              run_libero_eval.py:232
+                 INFO     | >> # episodes completed so    run_libero_eval.py:232
+                          far: 1                                                
+                 INFO     | >> # successes: 1 (100.0%)    run_libero_eval.py:232
+                 INFO     | >>                            run_libero_eval.py:232
+                          Task: open the middle drawer of                       
+                          the cabinet                                           
+                 INFO     | >> Starting episode 2...      run_libero_eval.py:232
+05/19 [02:50:11] INFO     | >> Success: True              run_libero_eval.py:232
+                 INFO     | >> # episodes completed so    run_libero_eval.py:232
+                          far: 2                                                
+                 INFO     | >> # successes: 2 (100.0%)    run_libero_eval.py:232
+                 INFO     | >>                            run_libero_eval.py:232
+                          Task: open the middle drawer of                       
+                          the cabinet                                           
+                 INFO     | >> Starting episode 3...      run_libero_eval.py:232
+05/19 [02:50:18] INFO     | >> Success: True              run_libero_eval.py:232
+                 INFO     | >> # episodes completed so    run_libero_eval.py:232
+                          far: 3                                                
+                 INFO     | >> # successes: 3 (100.0%)    run_libero_eval.py:232
+                 INFO     | >>                            run_libero_eval.py:232
+                          Task: open the middle drawer of                       
+                          the cabinet                                           
+                 INFO     | >> Starting episode 4...      run_libero_eval.py:232
+05/19 [02:50:24] INFO     | >> Success: True              run_libero_eval.py:232
+                 INFO     | >> # episodes completed so    run_libero_eval.py:232
+                          far: 4                                                
+                 INFO     | >> # successes: 4 (100.0%)    run_libero_eval.py:232
+                 INFO     | >>                            run_libero_eval.py:232
+                          Task: open the middle drawer of                       
+                          the cabinet                                           
+                 INFO     | >> Starting episode 5...      run_libero_eval.py:232
+05/19 [02:50:30] INFO     | >> Success: True              run_libero_eval.py:232
+                 INFO     | >> # episodes completed so    run_libero_eval.py:232
+                          far: 5                                                
+                 INFO     | >> # successes: 5 (100.0%)    run_libero_eval.py:232
+                 INFO     | >> Current task success rate: run_libero_eval.py:232
+                          1.0                                                   
+                 INFO     | >> Current total success      run_libero_eval.py:232
+                          rate: 1.0                                             
+                 INFO     | >> Final results:             run_libero_eval.py:232
+                 INFO     | >> Total episodes: 5          run_libero_eval.py:232
+                 INFO     | >> Total successes: 5         run_libero_eval.py:232
+                 INFO     | >> Overall success rate:      run_libero_eval.py:232
+                          1.0000 (100.0%)                                       
+{
+  "policy_name": "spatial_forcing",
+  "suite": "libero_goal",
+  "episode_csv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/layer2_smokes/layer2_smoke_2050088/spatial_forcing/libero_goal/task_0/episodes.csv",
+  "rows": 5,
+  "successes": 5,
+  "videos": 0,
+  "validation_status": "passed"
+}

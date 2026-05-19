@@ -1,0 +1,42 @@
+policy=gr1
+condition=protocol1
+eval_start=0
+eval_end=1
+run_tag=gr1_abc_d_official_d_table_resets_seed0_1000seq_1seq_validation_0_1_2048417_4
+calvin_sequence_manifest=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json
+calvin_reset_bank=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/reset_banks/abc_d_official_d_table_resets_1000seq_seed0.npz
+xvla_ep_len=360
+slurm_cpus_per_task=4
+CALVIN smoke overlay already ready: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/calvin_smoke_overlay
+CALVIN reset override active: bank=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/reset_banks/abc_d_official_d_table_resets_1000seq_seed0.npz eval_start=0 protocol=calvin_official_d_table_resets_v1
+loading state dict: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/gr1/snapshot_ABC.pt...
+argv[0]=--width=200
+argv[1]=--height=200
+Loaded EGL 1.5 after reload.
+GL_VENDOR=NVIDIA Corporation
+GL_RENDERER=NVIDIA RTX A6000/PCIe/SSE2
+GL_VERSION=3.3.0 NVIDIA 580.95.05
+GL_SHADING_LANGUAGE_VERSION=3.30 NVIDIA via Cg compiler
+Version = 3.3.0 NVIDIA 580.95.05
+Vendor = NVIDIA Corporation
+Renderer = NVIDIA RTX A6000/PCIe/SSE2
+logging to /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_official_d_table_resets_seed0_1000seq_1seq_validation_0_1_2048417_4
+ven = NVIDIA Corporation
+ven = NVIDIA Corporation
+Results for Epoch None:
+Average successful sequence length: 4.0
+Success rates for i instructions in a row:
+1: 100.0%
+2: 100.0%
+3: 100.0%
+4: 100.0%
+5: 0.0%
+rotate_blue_block_right: 1 / 1 |  SR: 100.0%
+move_slider_right: 1 / 1 |  SR: 100.0%
+lift_red_block_slider: 1 / 1 |  SR: 100.0%
+place_in_slider: 1 / 1 |  SR: 100.0%
+turn_off_lightbulb: 0 / 1 |  SR: 0.0%
+
+Best model: epoch None with average sequences length of 4.0
+disconnecting id 0 from server
+Destroy EGL OpenGL window.

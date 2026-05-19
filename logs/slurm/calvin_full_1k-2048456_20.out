@@ -1,0 +1,134 @@
+policy=roboflamingo
+condition=protocol1
+chunk_id=0
+eval_start=0
+eval_end=250
+run_tag=roboflamingo_abc_d_official_d_table_resets_seed0_1000seq_chunk0_0_250_2048456_20
+calvin_sequence_manifest=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json
+calvin_reset_bank=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/reset_banks/abc_d_official_d_table_resets_1000seq_seed0.npz
+xvla_ep_len=360
+slurm_cpus_per_task=4
+CALVIN smoke overlay already ready: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/calvin_smoke_overlay
+{
+  "roboflamingo_checkpoint": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/models--robovlms--RoboFlamingo/snapshots/b08c0a2ac4d2a92927ddc066e3eb077319bc5a94/ABC_D/checkpoint_gripper_post_hist_1_aug_10_4_traj_cons_ws_12_mpt_dolly_3b_4.pth",
+  "openflamingo_checkpoint": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/models--openflamingo--OpenFlamingo-3B-vitl-mpt1b-langinstruct/snapshots/656bbbcd4508db84ccc83c02361011c6fe92ae93/checkpoint.pt"
+}
+CALVIN reset override active: bank=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/reset_banks/abc_d_official_d_table_resets_1000seq_seed0.npz eval_start=0 protocol=calvin_official_d_table_resets_v1
+device_id:  cuda:0
+world_size:  1
+anas-awadalla/mpt-1b-redpajama-200b-dolly
+You are using config.init_device='cpu', but you can also use config.init_device="meta" with Composer + FSDP for fast initialization.
+window size: 12
+1024 2048
+MosaicGPTConfig {
+  "_name_or_path": "anas-awadalla/mpt-1b-redpajama-200b-dolly",
+  "alibi": true,
+  "alibi_bias_max": 8,
+  "architectures": [
+    "MosaicGPT"
+  ],
+  "attn_clip_qkv": null,
+  "attn_impl": "torch",
+  "attn_pdrop": 0,
+  "attn_qk_ln": true,
+  "attn_uses_sequence_id": false,
+  "auto_map": {
+    "AutoConfig": "anas-awadalla/mpt-1b-redpajama-200b-dolly--configuration_mosaic_gpt.MosaicGPTConfig",
+    "AutoModelForCausalLM": "anas-awadalla/mpt-1b-redpajama-200b-dolly--mosaic_gpt.MosaicGPT"
+  },
+  "d_model": 2048,
+  "emb_init_std": null,
+  "emb_init_uniform_lim": null,
+  "emb_pdrop": 0,
+  "embedding_fraction": 1.0,
+  "fan_mode": "fan_in",
+  "init_device": "cpu",
+  "init_div_is_residual": true,
+  "init_gain": 0,
+  "init_nonlinearity": "relu",
+  "init_std": 0.02,
+  "logit_scale": null,
+  "low_precision_layernorm": true,
+  "max_seq_len": 2048,
+  "mlp_ratio": 4,
+  "model_type": "mosaic_gpt",
+  "n_heads": 16,
+  "n_layers": 24,
+  "no_bias": true,
+  "param_init_fn": "kaiming_normal_",
+  "prefix_lm": false,
+  "resid_pdrop": 0,
+  "softmax_scale": null,
+  "tokenizer_name": "EleutherAI/gpt-neox-20b",
+  "torch_dtype": "float32",
+  "transformers_version": "4.33.1",
+  "use_cache": false,
+  "verbose": 0,
+  "vocab_size": 50280
+}
+
+----------------------------------------------------------------------------------------------------
+transformer.blocks
+Flamingo model initialized with 1088187703 trainable parameters
+Loading origin flamingo checkpoint from  /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/models--openflamingo--OpenFlamingo-3B-vitl-mpt1b-langinstruct/blobs/9dc045d02933a46f012b52b96aa10dbaedec84594dd202ac4c3c6f2ece51dbe3
+Loading robot-flamingo checkpoint from /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/models--robovlms--RoboFlamingo/blobs/752115c602b9245a798a2c8eb28b83c413fb95748681ec36372da8a4c63e4cd7
+argv[0]=--width=200
+argv[1]=--height=200
+Loaded EGL 1.5 after reload.
+GL_VENDOR=NVIDIA Corporation
+GL_RENDERER=NVIDIA RTX A6000/PCIe/SSE2
+GL_VERSION=3.3.0 NVIDIA 580.95.05
+GL_SHADING_LANGUAGE_VERSION=3.30 NVIDIA via Cg compiler
+Version = 3.3.0 NVIDIA 580.95.05
+Vendor = NVIDIA Corporation
+Renderer = NVIDIA RTX A6000/PCIe/SSE2
+received depth0
+logging to /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/roboflamingo_abc_d/roboflamingo_abc_d_official_d_table_resets_seed0_1000seq_chunk0_0_250_2048456_20
+ven = NVIDIA Corporation
+ven = NVIDIA Corporation
+Results for Epoch 0:
+Average successful sequence length: 1.976
+Success rates for i instructions in a row:
+1: 71.6%
+2: 50.4%
+3: 35.2%
+4: 24.8%
+5: 15.6%
+rotate_blue_block_right: 7 / 12 |  SR: 58.3%
+turn_off_led: 28 / 32 |  SR: 87.5%
+push_into_drawer: 11 / 16 |  SR: 68.8%
+lift_blue_block_drawer: 5 / 5 |  SR: 100.0%
+place_in_slider: 26 / 38 |  SR: 68.4%
+close_drawer: 30 / 31 |  SR: 96.8%
+lift_pink_block_slider: 14 / 21 |  SR: 66.7%
+open_drawer: 62 / 62 |  SR: 100.0%
+lift_pink_block_table: 13 / 18 |  SR: 72.2%
+turn_on_lightbulb: 28 / 29 |  SR: 96.6%
+push_blue_block_left: 12 / 14 |  SR: 85.7%
+lift_red_block_slider: 13 / 23 |  SR: 56.5%
+turn_off_lightbulb: 17 / 23 |  SR: 73.9%
+move_slider_left: 20 / 45 |  SR: 44.4%
+turn_on_led: 29 / 31 |  SR: 93.5%
+push_red_block_right: 4 / 11 |  SR: 36.4%
+lift_red_block_table: 15 / 17 |  SR: 88.2%
+push_red_block_left: 12 / 16 |  SR: 75.0%
+move_slider_right: 17 / 55 |  SR: 30.9%
+lift_blue_block_slider: 13 / 17 |  SR: 76.5%
+rotate_pink_block_right: 6 / 14 |  SR: 42.9%
+lift_blue_block_table: 22 / 27 |  SR: 81.5%
+stack_block: 8 / 26 |  SR: 30.8%
+unstack_block: 6 / 6 |  SR: 100.0%
+push_blue_block_right: 3 / 10 |  SR: 30.0%
+rotate_blue_block_left: 13 / 18 |  SR: 72.2%
+place_in_drawer: 23 / 23 |  SR: 100.0%
+push_pink_block_left: 10 / 13 |  SR: 76.9%
+rotate_red_block_right: 4 / 9 |  SR: 44.4%
+rotate_pink_block_left: 4 / 11 |  SR: 36.4%
+push_pink_block_right: 6 / 17 |  SR: 35.3%
+lift_pink_block_drawer: 1 / 1 |  SR: 100.0%
+rotate_red_block_left: 10 / 12 |  SR: 83.3%
+lift_red_block_drawer: 2 / 2 |  SR: 100.0%
+
+Best model: epoch 0 with average sequences length of 1.976
+disconnecting id 0 from server
+Destroy EGL OpenGL window.

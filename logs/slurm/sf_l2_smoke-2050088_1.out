@@ -1,0 +1,90 @@
+Using LIBERO constants:
+  NUM_ACTIONS_CHUNK = 8
+  ACTION_DIM = 7
+  PROPRIO_DIM = 8
+  ACTION_PROPRIO_NORMALIZATION_TYPE = bounds_q99
+If needed, manually set the correct constants in `prismatic/vla/constants.py`!
+Instantiating pretrained VLA policy...
+Created backup of original config at: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/spatial-forcing-7b-finetuned-libero-object/config.json.back.20260519_024402
+Updated config.json at: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/spatial-forcing-7b-finetuned-libero-object/config.json
+Changes made:
+  - Set AutoConfig to "configuration_prismatic.OpenVLAConfig"
+  - Set AutoModelForVision2Seq to "modeling_prismatic.OpenVLAForActionPrediction"
+Loaded model: <class 'transformers_modules.spatial-forcing-7b-finetuned-libero-object.modeling_prismatic.OpenVLAForActionPrediction'>
+05/19 [02:46:15] INFO     | >> Logging to local log file: run_libero_eval.py:217
+                          /share/data/ripl/tianchong/proj                       
+                          ects/Eval_Policies_CoRL/results                       
+                          /libero/layer2_smokes/layer2_sm                       
+                          oke_2050088/spatial_forcing/lib                       
+                          ero_object/task_0/eval_logs/EVA                       
+                          L-libero_object-openvla-2026_05                       
+                          _19-02_44_02--layer2_smoke_2050                       
+                          088--libero_object--task_0.txt                        
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+                 INFO     | >> Task suite: libero_object  run_libero_eval.py:232
+                 INFO     | >> Using initial states from  run_libero_eval.py:232
+                          /share/data/ripl/tianchong/proj                       
+                          ects/Eval_Policies_CoRL/artifac                       
+                          ts/libero/init_state_layer2_4su                       
+                          ite_2500_seed20260519/libero_ob                       
+                          ject/pick_up_the_alphabet_soup_                       
+                          and_place_it_in_the_basket.prun                       
+                          ed_init                                               
+05/19 [02:46:18] INFO     | >>                            run_libero_eval.py:232
+                          Task: pick up the alphabet soup                       
+                          and place it in the basket                            
+                 INFO     | >> Starting episode 1...      run_libero_eval.py:232
+05/19 [02:46:25] INFO     | >> Success: True              run_libero_eval.py:232
+                 INFO     | >> # episodes completed so    run_libero_eval.py:232
+                          far: 1                                                
+                 INFO     | >> # successes: 1 (100.0%)    run_libero_eval.py:232
+                 INFO     | >>                            run_libero_eval.py:232
+                          Task: pick up the alphabet soup                       
+                          and place it in the basket                            
+                 INFO     | >> Starting episode 2...      run_libero_eval.py:232
+05/19 [02:46:32] INFO     | >> Success: True              run_libero_eval.py:232
+                 INFO     | >> # episodes completed so    run_libero_eval.py:232
+                          far: 2                                                
+                 INFO     | >> # successes: 2 (100.0%)    run_libero_eval.py:232
+                 INFO     | >>                            run_libero_eval.py:232
+                          Task: pick up the alphabet soup                       
+                          and place it in the basket                            
+                 INFO     | >> Starting episode 3...      run_libero_eval.py:232
+05/19 [02:46:39] INFO     | >> Success: True              run_libero_eval.py:232
+                 INFO     | >> # episodes completed so    run_libero_eval.py:232
+                          far: 3                                                
+                 INFO     | >> # successes: 3 (100.0%)    run_libero_eval.py:232
+                 INFO     | >>                            run_libero_eval.py:232
+                          Task: pick up the alphabet soup                       
+                          and place it in the basket                            
+                 INFO     | >> Starting episode 4...      run_libero_eval.py:232
+05/19 [02:46:46] INFO     | >> Success: True              run_libero_eval.py:232
+                 INFO     | >> # episodes completed so    run_libero_eval.py:232
+                          far: 4                                                
+                 INFO     | >> # successes: 4 (100.0%)    run_libero_eval.py:232
+                 INFO     | >>                            run_libero_eval.py:232
+                          Task: pick up the alphabet soup                       
+                          and place it in the basket                            
+                 INFO     | >> Starting episode 5...      run_libero_eval.py:232
+05/19 [02:46:53] INFO     | >> Success: True              run_libero_eval.py:232
+                 INFO     | >> # episodes completed so    run_libero_eval.py:232
+                          far: 5                                                
+                 INFO     | >> # successes: 5 (100.0%)    run_libero_eval.py:232
+                 INFO     | >> Current task success rate: run_libero_eval.py:232
+                          1.0                                                   
+                 INFO     | >> Current total success      run_libero_eval.py:232
+                          rate: 1.0                                             
+                 INFO     | >> Final results:             run_libero_eval.py:232
+                 INFO     | >> Total episodes: 5          run_libero_eval.py:232
+                 INFO     | >> Total successes: 5         run_libero_eval.py:232
+                 INFO     | >> Overall success rate:      run_libero_eval.py:232
+                          1.0000 (100.0%)                                       
+{
+  "policy_name": "spatial_forcing",
+  "suite": "libero_object",
+  "episode_csv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/layer2_smokes/layer2_smoke_2050088/spatial_forcing/libero_object/task_0/episodes.csv",
+  "rows": 5,
+  "successes": 5,
+  "videos": 0,
+  "validation_status": "passed"
+}

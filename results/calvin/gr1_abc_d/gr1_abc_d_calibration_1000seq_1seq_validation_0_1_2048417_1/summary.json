@@ -1,0 +1,37 @@
+{
+  "avg_seq_len": 4.0,
+  "chain_sr": {
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0,
+    "4": 1.0,
+    "5": 0.0
+  },
+  "task_info": {
+    "rotate_blue_block_right": {
+      "success": 1,
+      "total": 1
+    },
+    "move_slider_right": {
+      "success": 1,
+      "total": 1
+    },
+    "lift_red_block_slider": {
+      "success": 1,
+      "total": 1
+    },
+    "place_in_slider": {
+      "success": 1,
+      "total": 1
+    },
+    "turn_off_lightbulb": {
+      "success": 0,
+      "total": 1
+    }
+  },
+  "eval_start": 0,
+  "eval_end": 1,
+  "num_sequences": 1,
+  "calvin_sequence_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json",
+  "calvin_reset_bank": ""
+}

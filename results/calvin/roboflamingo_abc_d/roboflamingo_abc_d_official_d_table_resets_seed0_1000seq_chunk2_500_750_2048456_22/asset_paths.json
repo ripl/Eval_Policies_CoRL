@@ -1,0 +1,4 @@
+{
+  "roboflamingo_checkpoint": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/models--robovlms--RoboFlamingo/snapshots/b08c0a2ac4d2a92927ddc066e3eb077319bc5a94/ABC_D/checkpoint_gripper_post_hist_1_aug_10_4_traj_cons_ws_12_mpt_dolly_3b_4.pth",
+  "openflamingo_checkpoint": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/models--openflamingo--OpenFlamingo-3B-vitl-mpt1b-langinstruct/snapshots/656bbbcd4508db84ccc83c02361011c6fe92ae93/checkpoint.pt"
+}

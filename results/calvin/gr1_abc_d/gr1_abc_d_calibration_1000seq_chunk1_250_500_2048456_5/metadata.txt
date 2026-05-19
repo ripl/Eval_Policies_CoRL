@@ -1,0 +1,17 @@
+run_tag=gr1_abc_d_calibration_1000seq_chunk1_250_500_2048456_5
+policy=GR-1
+num_sequences=1000
+eval_start=250
+eval_end=500
+dataset_dir=/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right_cache/task_ABC_D
+results_dir=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_calibration_1000seq_chunk1_250_500_2048456_5
+calvin_sequence_manifest=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json
+calvin_reset_bank=
+calvin_reset_protocol=
+hostname=g19.ttic.edu
+date_utc=2026-05-18T02:03:50+00:00
+cuda_visible_devices=0
+Python 3.8.20
+torch 2.4.1+cu121 cuda 12.1
+torchvision 0.19.1
+GPU 0: NVIDIA RTX A6000 (UUID: GPU-d5f6f3fb-3878-6c9f-989a-9ff3c742e5f7)

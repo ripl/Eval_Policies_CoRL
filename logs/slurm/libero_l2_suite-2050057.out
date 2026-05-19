@@ -1,0 +1,11 @@
+node=g4.ttic.edu
+SLURM_JOB_ID=2050057
+TASK_SUITE=libero_10
+OUT_ROOT=/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/LIBERO/libero/libero/init_state_layer2_4suite_2500_seed20260519_parts/libero_10
+SUITE_SEED=20560519
+date_utc=2026-05-19T05:47:18+00:00
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+{
+  "manifest": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/LIBERO/libero/libero/init_state_layer2_4suite_2500_seed20260519_parts/libero_10/MANIFEST.json",
+  "total_states": 2500
+}

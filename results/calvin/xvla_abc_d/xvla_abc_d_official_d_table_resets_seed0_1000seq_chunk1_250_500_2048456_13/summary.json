@@ -1,0 +1,19 @@
+{
+  "policy": "X-VLA",
+  "num_sequences": 250,
+  "eval_start": 250,
+  "eval_end": 500,
+  "xvla_ep_len": 360,
+  "calvin_sequence_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json",
+  "calvin_reset_bank": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/reset_banks/abc_d_official_d_table_resets_1000seq_seed0.npz",
+  "log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/xvla_abc_d/xvla_abc_d_official_d_table_resets_seed0_1000seq_chunk1_250_500_2048456_13/client/log.txt",
+  "last_line": "499:  1/5 : 83.6% | 2/5 : 70.0% | 3/5 : 60.4% | 4/5 : 53.2% | 5/5 : 45.6% | 6/5 : 312.8% ||",
+  "stage_success": [
+    0.836,
+    0.7,
+    0.604,
+    0.532,
+    0.456
+  ],
+  "avg_task_completed": 3.128
+}

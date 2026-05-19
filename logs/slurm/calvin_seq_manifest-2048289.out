@@ -1,0 +1,7 @@
+{
+  "eval_sequence_sha256": "d1776b89d82e8a989d68588a74ffa2ba1ff9f5bca9b746edfbf0bd16cb94aa71",
+  "initial_state_sha256": "6a30b90b01f4fba0f2b20fd6ed0f791b46e7fe16ab6612c5adfe5fc7f2f12fa6",
+  "manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json",
+  "num_sequences": 1000,
+  "sequence_workers": 4
+}

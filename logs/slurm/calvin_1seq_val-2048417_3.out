@@ -1,0 +1,11 @@
+policy=xvla
+condition=protocol1
+eval_start=0
+eval_end=1
+run_tag=xvla_abc_d_official_d_table_resets_seed0_1000seq_1seq_validation_0_1_2048417_3
+calvin_sequence_manifest=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json
+calvin_reset_bank=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/reset_banks/abc_d_official_d_table_resets_1000seq_seed0.npz
+xvla_ep_len=360
+slurm_cpus_per_task=4
+CALVIN smoke overlay already ready: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/calvin_smoke_overlay
+{'policy': 'X-VLA', 'num_sequences': 1, 'eval_start': 0, 'eval_end': 1, 'xvla_ep_len': 360, 'calvin_sequence_manifest': '/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json', 'calvin_reset_bank': '/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/reset_banks/abc_d_official_d_table_resets_1000seq_seed0.npz', 'log': '/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/xvla_abc_d/xvla_abc_d_official_d_table_resets_seed0_1000seq_1seq_validation_0_1_2048417_3/client/log.txt', 'last_line': '0:  1/5 : 100.0% | 2/5 : 100.0% | 3/5 : 100.0% | 4/5 : 100.0% | 5/5 : 100.0% | 6/5 : 500.0% ||', 'stage_success': [1.0, 1.0, 1.0, 1.0, 1.0], 'avg_task_completed': 5.0}

@@ -1,0 +1,57 @@
+/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+2026-05-17 20:45:29.324060: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-05-17 20:45:29.373943: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-05-17 20:45:29.373986: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-05-17 20:45:29.375438: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-05-17 20:45:29.383501: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-17 20:45:41.943416: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Florence2ForConditionalGeneration has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+INFO:     Started server process [3954667]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:26419 (Press CTRL+C to quit)
+🚀 Starting XVLA Inference Server...
+🔹 Model Path  : 2toINF/X-VLA-Calvin-ABC_D
+🔹 Output Dir  : /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/xvla_abc_d/xvla_abc_d_calibration_1000seq_1seq_validation_0_1_2048417_0/server
+🔹 Device Arg  : cuda
+🔹 Port        : 26419
+🧠 Using device: cuda
+
+🧩 Loading XVLAProcessor...
+✅ XVLAProcessor loaded successfully.
+
+📦 Loading XVLA model from pretrained checkpoint...
+✅ Model successfully loaded and moved to device.
+
+⚠️  No SLURM environment detected, defaulting to 0.0.0.0
+📝 Server info written to /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/xvla_abc_d/xvla_abc_d_calibration_1000seq_1seq_validation_0_1_2048417_0/server/info.json
+
+🌐 Launching FastAPI service at http://127.0.0.1:26419 ...
+INFO:     127.0.0.1:39306 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39322 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39336 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33298 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33314 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33328 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33330 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33346 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33350 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33362 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33378 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33384 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33394 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33406 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33414 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33426 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33434 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33440 - "POST /act HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3954667]

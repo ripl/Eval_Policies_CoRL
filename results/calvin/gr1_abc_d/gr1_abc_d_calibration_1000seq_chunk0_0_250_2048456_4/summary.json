@@ -1,0 +1,153 @@
+{
+  "avg_seq_len": 3.292,
+  "chain_sr": {
+    "1": 0.868,
+    "2": 0.744,
+    "3": 0.652,
+    "4": 0.58,
+    "5": 0.448
+  },
+  "task_info": {
+    "rotate_blue_block_right": {
+      "success": 12,
+      "total": 14
+    },
+    "move_slider_right": {
+      "success": 63,
+      "total": 64
+    },
+    "lift_red_block_slider": {
+      "success": 34,
+      "total": 36
+    },
+    "place_in_slider": {
+      "success": 58,
+      "total": 61
+    },
+    "turn_off_led": {
+      "success": 51,
+      "total": 51
+    },
+    "push_into_drawer": {
+      "success": 18,
+      "total": 23
+    },
+    "lift_blue_block_drawer": {
+      "success": 6,
+      "total": 6
+    },
+    "close_drawer": {
+      "success": 44,
+      "total": 44
+    },
+    "lift_pink_block_slider": {
+      "success": 18,
+      "total": 19
+    },
+    "open_drawer": {
+      "success": 75,
+      "total": 75
+    },
+    "rotate_red_block_right": {
+      "success": 14,
+      "total": 15
+    },
+    "lift_red_block_table": {
+      "success": 25,
+      "total": 27
+    },
+    "lift_pink_block_table": {
+      "success": 32,
+      "total": 38
+    },
+    "push_blue_block_left": {
+      "success": 13,
+      "total": 14
+    },
+    "turn_on_led": {
+      "success": 43,
+      "total": 43
+    },
+    "push_red_block_left": {
+      "success": 13,
+      "total": 17
+    },
+    "lift_blue_block_table": {
+      "success": 35,
+      "total": 35
+    },
+    "rotate_blue_block_left": {
+      "success": 18,
+      "total": 18
+    },
+    "place_in_drawer": {
+      "success": 38,
+      "total": 38
+    },
+    "move_slider_left": {
+      "success": 47,
+      "total": 48
+    },
+    "rotate_red_block_left": {
+      "success": 14,
+      "total": 15
+    },
+    "stack_block": {
+      "success": 34,
+      "total": 43
+    },
+    "push_pink_block_left": {
+      "success": 16,
+      "total": 17
+    },
+    "lift_blue_block_slider": {
+      "success": 25,
+      "total": 25
+    },
+    "rotate_pink_block_right": {
+      "success": 14,
+      "total": 15
+    },
+    "unstack_block": {
+      "success": 16,
+      "total": 16
+    },
+    "push_red_block_right": {
+      "success": 5,
+      "total": 11
+    },
+    "rotate_pink_block_left": {
+      "success": 14,
+      "total": 14
+    },
+    "lift_pink_block_drawer": {
+      "success": 3,
+      "total": 3
+    },
+    "push_pink_block_right": {
+      "success": 8,
+      "total": 21
+    },
+    "turn_on_lightbulb": {
+      "success": 8,
+      "total": 43
+    },
+    "turn_off_lightbulb": {
+      "success": 2,
+      "total": 37
+    },
+    "push_blue_block_right": {
+      "success": 4,
+      "total": 12
+    },
+    "lift_red_block_drawer": {
+      "success": 3,
+      "total": 3
+    }
+  },
+  "eval_start": 0,
+  "eval_end": 250,
+  "num_sequences": 250,
+  "calvin_sequence_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json",
+  "calvin_reset_bank": ""
+}

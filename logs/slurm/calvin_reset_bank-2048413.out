@@ -1,0 +1,79 @@
+argv[0]=
+disconnecting id 0 from server
+disconnecting id 0 from server
+{
+  "bounds_tolerance": 1e-05,
+  "calvin_root": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/CALVIN",
+  "dataset_dir": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right_cache/task_ABC_D",
+  "eval_sequence_sha256": "efe95d5e3e1b72be443e8e8cb0836db225390a1880e455a906802b22a957dcb7",
+  "initial_state_sha256": "f55e89a9931d488b5e1ab8919d843536076bf5eb6ded06159d77c64dc4e7560e",
+  "max_attempts": 200,
+  "non_table_tolerance": 0.005,
+  "num_sequences": 1,
+  "orientation_sampler": "uniform_yaw_-pi_pi",
+  "position_tolerance": 0.005,
+  "protocol": "calvin_official_d_table_resets_v1",
+  "sample_attempts": {
+    "max": 7,
+    "mean": 7.0
+  },
+  "scene_config": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/CALVIN/calvin_env/conf/scene/calvin_scene_D.yaml",
+  "seed": 0,
+  "sequence_workers": 4,
+  "table_surface": {
+    "high": [
+      0.35,
+      -0.03,
+      0.46
+    ],
+    "low": [
+      0.0,
+      -0.15,
+      0.46
+    ]
+  },
+  "validation_fail_counts": {
+    "blue_block readback table position out of bounds": 5,
+    "pairwise movable-object contacts=2": 1
+  }
+}
+wrote reset bank: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/reset_banks/abc_d_official_d_table_resets_1seq_seed0_smoke.npz
+{
+  "metadata": {
+    "bounds_tolerance": 1e-05,
+    "calvin_root": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/CALVIN",
+    "dataset_dir": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right_cache/task_ABC_D",
+    "eval_sequence_sha256": "efe95d5e3e1b72be443e8e8cb0836db225390a1880e455a906802b22a957dcb7",
+    "initial_state_sha256": "f55e89a9931d488b5e1ab8919d843536076bf5eb6ded06159d77c64dc4e7560e",
+    "max_attempts": 200,
+    "non_table_tolerance": 0.005,
+    "num_sequences": 1,
+    "orientation_sampler": "uniform_yaw_-pi_pi",
+    "position_tolerance": 0.005,
+    "protocol": "calvin_official_d_table_resets_v1",
+    "sample_attempts": {
+      "max": 7,
+      "mean": 7.0
+    },
+    "scene_config": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/CALVIN/calvin_env/conf/scene/calvin_scene_D.yaml",
+    "seed": 0,
+    "sequence_workers": 4,
+    "table_surface": {
+      "high": [
+        0.35,
+        -0.03,
+        0.46
+      ],
+      "low": [
+        0.0,
+        -0.15,
+        0.46
+      ]
+    },
+    "validation_fail_counts": {
+      "blue_block readback table position out of bounds": 5,
+      "pairwise movable-object contacts=2": 1
+    }
+  },
+  "reset_bank": "results/calvin/reset_banks/abc_d_official_d_table_resets_1seq_seed0_smoke.npz"
+}

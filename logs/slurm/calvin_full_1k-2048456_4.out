@@ -1,0 +1,71 @@
+policy=gr1
+condition=calibration
+chunk_id=0
+eval_start=0
+eval_end=250
+run_tag=gr1_abc_d_calibration_1000seq_chunk0_0_250_2048456_4
+calvin_sequence_manifest=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json
+calvin_reset_bank=
+xvla_ep_len=360
+slurm_cpus_per_task=4
+CALVIN smoke overlay already ready: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/calvin_smoke_overlay
+loading state dict: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/gr1/snapshot_ABC.pt...
+argv[0]=--width=200
+argv[1]=--height=200
+Loaded EGL 1.5 after reload.
+GL_VENDOR=NVIDIA Corporation
+GL_RENDERER=NVIDIA RTX A6000/PCIe/SSE2
+GL_VERSION=3.3.0 NVIDIA 580.95.05
+GL_SHADING_LANGUAGE_VERSION=3.30 NVIDIA via Cg compiler
+Version = 3.3.0 NVIDIA 580.95.05
+Vendor = NVIDIA Corporation
+Renderer = NVIDIA RTX A6000/PCIe/SSE2
+logging to /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_calibration_1000seq_chunk0_0_250_2048456_4
+ven = NVIDIA Corporation
+ven = NVIDIA Corporation
+Results for Epoch None:
+Average successful sequence length: 3.292
+Success rates for i instructions in a row:
+1: 86.8%
+2: 74.4%
+3: 65.2%
+4: 58.0%
+5: 44.8%
+rotate_blue_block_right: 12 / 14 |  SR: 85.7%
+move_slider_right: 63 / 64 |  SR: 98.4%
+lift_red_block_slider: 34 / 36 |  SR: 94.4%
+place_in_slider: 58 / 61 |  SR: 95.1%
+turn_off_led: 51 / 51 |  SR: 100.0%
+push_into_drawer: 18 / 23 |  SR: 78.3%
+lift_blue_block_drawer: 6 / 6 |  SR: 100.0%
+close_drawer: 44 / 44 |  SR: 100.0%
+lift_pink_block_slider: 18 / 19 |  SR: 94.7%
+open_drawer: 75 / 75 |  SR: 100.0%
+rotate_red_block_right: 14 / 15 |  SR: 93.3%
+lift_red_block_table: 25 / 27 |  SR: 92.6%
+lift_pink_block_table: 32 / 38 |  SR: 84.2%
+push_blue_block_left: 13 / 14 |  SR: 92.9%
+turn_on_led: 43 / 43 |  SR: 100.0%
+push_red_block_left: 13 / 17 |  SR: 76.5%
+lift_blue_block_table: 35 / 35 |  SR: 100.0%
+rotate_blue_block_left: 18 / 18 |  SR: 100.0%
+place_in_drawer: 38 / 38 |  SR: 100.0%
+move_slider_left: 47 / 48 |  SR: 97.9%
+rotate_red_block_left: 14 / 15 |  SR: 93.3%
+stack_block: 34 / 43 |  SR: 79.1%
+push_pink_block_left: 16 / 17 |  SR: 94.1%
+lift_blue_block_slider: 25 / 25 |  SR: 100.0%
+rotate_pink_block_right: 14 / 15 |  SR: 93.3%
+unstack_block: 16 / 16 |  SR: 100.0%
+push_red_block_right: 5 / 11 |  SR: 45.5%
+rotate_pink_block_left: 14 / 14 |  SR: 100.0%
+lift_pink_block_drawer: 3 / 3 |  SR: 100.0%
+push_pink_block_right: 8 / 21 |  SR: 38.1%
+turn_on_lightbulb: 8 / 43 |  SR: 18.6%
+turn_off_lightbulb: 2 / 37 |  SR: 5.4%
+push_blue_block_right: 4 / 12 |  SR: 33.3%
+lift_red_block_drawer: 3 / 3 |  SR: 100.0%
+
+Best model: epoch None with average sequences length of 3.292
+disconnecting id 0 from server
+Destroy EGL OpenGL window.

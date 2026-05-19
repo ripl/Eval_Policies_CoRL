@@ -1,0 +1,10 @@
+node=g19.ttic.edu
+SLURM_JOB_ID=2049972
+CUDA_VISIBLE_DEVICES=0
+SOURCE_ROOT=/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/LIBERO/libero/libero/init_state_layer2_4suite_2500_seed20260519
+ROLLOUT_ROOT=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_layer2_4suite_2500_seed20260519
+CONFIG_DIR=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/libero_config_layer2_4suite_2500_seed20260519
+BASE_SEED=20260519
+date_utc=2026-05-19T02:59:33+00:00
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]

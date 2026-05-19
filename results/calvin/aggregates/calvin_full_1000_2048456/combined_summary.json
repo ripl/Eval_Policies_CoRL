@@ -1,0 +1,95 @@
+{
+  "array_job_id": "2048456",
+  "calvin_sequence_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json",
+  "num_sequences": 1000,
+  "opensource_artifacts": {
+    "aggregate_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_full_1000_2048456",
+    "reset_bank": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/reset_banks/abc_d_official_d_table_resets_1000seq_seed0.npz",
+    "sequence_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json",
+    "slurm_logs": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/logs/slurm",
+    "source_files": [
+      "scripts/calvin/calvin_sequence_manifest.py",
+      "scripts/calvin/calvin_reset_bank.py",
+      "scripts/calvin/calvin_reset_override.py",
+      "scripts/calvin/calvin_aggregate_chunks.py",
+      "scripts/calvin/xvla_calvin_client_no_video.py",
+      "scripts/calvin/gr1_smoke_eval.py",
+      "scripts/calvin/roboflamingo_smoke_eval.py",
+      "scripts/calvin/run_xvla_calvin_smoke.sh",
+      "scripts/calvin/run_gr1_calvin_smoke.sh",
+      "scripts/calvin/run_roboflamingo_calvin_smoke.sh",
+      "scripts/slurm/calvin_sequence_manifest.sbatch",
+      "scripts/slurm/calvin_train_pose_reset_bank.sbatch",
+      "scripts/slurm/calvin_1seq_validation_array.sbatch",
+      "scripts/slurm/calvin_full_1000_array.sbatch"
+    ]
+  },
+  "summaries": {
+    "gr1_calibration": {
+      "avg_seq_len": 3.244,
+      "chain_sr": {
+        "1": 0.875,
+        "2": 0.746,
+        "3": 0.645,
+        "4": 0.547,
+        "5": 0.431
+      },
+      "summary": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_full_1000_2048456/gr1_calibration_summary.json"
+    },
+    "gr1_protocol1": {
+      "avg_seq_len": 2.495,
+      "chain_sr": {
+        "1": 0.777,
+        "2": 0.582,
+        "3": 0.47,
+        "4": 0.37,
+        "5": 0.296
+      },
+      "summary": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_full_1000_2048456/gr1_protocol1_summary.json"
+    },
+    "roboflamingo_calibration": {
+      "avg_seq_len": 2.367,
+      "chain_sr": {
+        "1": 0.802,
+        "2": 0.598,
+        "3": 0.445,
+        "4": 0.313,
+        "5": 0.209
+      },
+      "summary": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_full_1000_2048456/roboflamingo_calibration_summary.json"
+    },
+    "roboflamingo_protocol1": {
+      "avg_seq_len": 1.869,
+      "chain_sr": {
+        "1": 0.708,
+        "2": 0.469,
+        "3": 0.321,
+        "4": 0.226,
+        "5": 0.145
+      },
+      "summary": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_full_1000_2048456/roboflamingo_protocol1_summary.json"
+    },
+    "xvla_calibration": {
+      "avg_seq_len": 4.165,
+      "chain_sr": {
+        "1": 0.951,
+        "2": 0.886,
+        "3": 0.834,
+        "4": 0.785,
+        "5": 0.709
+      },
+      "summary": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_full_1000_2048456/xvla_calibration_summary.json"
+    },
+    "xvla_protocol1": {
+      "avg_seq_len": 3.138,
+      "chain_sr": {
+        "1": 0.838,
+        "2": 0.705,
+        "3": 0.609,
+        "4": 0.527,
+        "5": 0.459
+      },
+      "summary": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_full_1000_2048456/xvla_protocol1_summary.json"
+    }
+  }
+}

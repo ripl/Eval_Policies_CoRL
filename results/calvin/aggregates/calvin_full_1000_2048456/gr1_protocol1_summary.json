@@ -1,0 +1,159 @@
+{
+  "array_job_id": "2048456",
+  "avg_seq_len": 2.495,
+  "calvin_sequence_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json",
+  "chain_sr": {
+    "1": 0.777,
+    "2": 0.582,
+    "3": 0.47,
+    "4": 0.37,
+    "5": 0.296
+  },
+  "condition": "protocol1",
+  "num_sequences": 1000,
+  "per_sequence_sources": [
+    "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_official_d_table_resets_seed0_1000seq_chunk0_0_250_2048456_16/per_sequence_results.json",
+    "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_official_d_table_resets_seed0_1000seq_chunk1_250_500_2048456_17/per_sequence_results.json",
+    "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_official_d_table_resets_seed0_1000seq_chunk2_500_750_2048456_18/per_sequence_results.json",
+    "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_official_d_table_resets_seed0_1000seq_chunk3_750_1000_2048456_19/per_sequence_results.json"
+  ],
+  "policy": "gr1",
+  "task_info": {
+    "close_drawer": {
+      "success": 126,
+      "total": 127
+    },
+    "lift_blue_block_drawer": {
+      "success": 14,
+      "total": 14
+    },
+    "lift_blue_block_slider": {
+      "success": 85,
+      "total": 94
+    },
+    "lift_blue_block_table": {
+      "success": 96,
+      "total": 108
+    },
+    "lift_pink_block_drawer": {
+      "success": 3,
+      "total": 5
+    },
+    "lift_pink_block_slider": {
+      "success": 87,
+      "total": 98
+    },
+    "lift_pink_block_table": {
+      "success": 66,
+      "total": 94
+    },
+    "lift_red_block_drawer": {
+      "success": 16,
+      "total": 16
+    },
+    "lift_red_block_slider": {
+      "success": 86,
+      "total": 93
+    },
+    "lift_red_block_table": {
+      "success": 99,
+      "total": 108
+    },
+    "move_slider_left": {
+      "success": 164,
+      "total": 174
+    },
+    "move_slider_right": {
+      "success": 201,
+      "total": 202
+    },
+    "open_drawer": {
+      "success": 264,
+      "total": 264
+    },
+    "place_in_drawer": {
+      "success": 112,
+      "total": 115
+    },
+    "place_in_slider": {
+      "success": 182,
+      "total": 228
+    },
+    "push_blue_block_left": {
+      "success": 42,
+      "total": 58
+    },
+    "push_blue_block_right": {
+      "success": 13,
+      "total": 57
+    },
+    "push_into_drawer": {
+      "success": 70,
+      "total": 87
+    },
+    "push_pink_block_left": {
+      "success": 41,
+      "total": 63
+    },
+    "push_pink_block_right": {
+      "success": 16,
+      "total": 53
+    },
+    "push_red_block_left": {
+      "success": 52,
+      "total": 68
+    },
+    "push_red_block_right": {
+      "success": 17,
+      "total": 58
+    },
+    "rotate_blue_block_left": {
+      "success": 44,
+      "total": 52
+    },
+    "rotate_blue_block_right": {
+      "success": 41,
+      "total": 64
+    },
+    "rotate_pink_block_left": {
+      "success": 26,
+      "total": 43
+    },
+    "rotate_pink_block_right": {
+      "success": 21,
+      "total": 52
+    },
+    "rotate_red_block_left": {
+      "success": 43,
+      "total": 55
+    },
+    "rotate_red_block_right": {
+      "success": 46,
+      "total": 60
+    },
+    "stack_block": {
+      "success": 77,
+      "total": 113
+    },
+    "turn_off_led": {
+      "success": 129,
+      "total": 129
+    },
+    "turn_off_lightbulb": {
+      "success": 13,
+      "total": 115
+    },
+    "turn_on_led": {
+      "success": 142,
+      "total": 150
+    },
+    "turn_on_lightbulb": {
+      "success": 25,
+      "total": 145
+    },
+    "unstack_block": {
+      "success": 36,
+      "total": 37
+    }
+  }
+}

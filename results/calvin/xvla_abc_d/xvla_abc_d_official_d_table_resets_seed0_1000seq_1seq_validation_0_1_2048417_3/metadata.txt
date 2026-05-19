@@ -1,0 +1,21 @@
+run_tag=xvla_abc_d_official_d_table_resets_seed0_1000seq_1seq_validation_0_1_2048417_3
+policy=X-VLA
+model_path=2toINF/X-VLA-Calvin-ABC_D
+num_sequences=1000
+eval_start=0
+eval_end=1
+xvla_ep_len=360
+dataset_dir=/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right_cache/task_ABC_D
+results_dir=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/xvla_abc_d/xvla_abc_d_official_d_table_resets_seed0_1000seq_1seq_validation_0_1_2048417_3
+calvin_sequence_manifest=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json
+calvin_reset_bank=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/reset_banks/abc_d_official_d_table_resets_1000seq_seed0.npz
+calvin_reset_protocol=calvin_official_d_table_resets_v1
+hostname=g15.ttic.edu
+date_utc=2026-05-18T01:48:44+00:00
+cuda_visible_devices=0
+Python 3.10.20
+/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+torch 2.1.2+cu121 cuda 12.1
+transformers 4.51.3
+GPU 0: NVIDIA RTX A6000 (UUID: GPU-fd7fa68c-dc4d-2e3c-358e-7f46193d802d)

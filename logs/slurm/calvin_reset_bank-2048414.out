@@ -1,0 +1,105 @@
+argv[0]=
+built 50/1000 official-D table resets
+built 100/1000 official-D table resets
+built 150/1000 official-D table resets
+built 200/1000 official-D table resets
+built 250/1000 official-D table resets
+built 300/1000 official-D table resets
+built 350/1000 official-D table resets
+built 400/1000 official-D table resets
+built 450/1000 official-D table resets
+built 500/1000 official-D table resets
+built 550/1000 official-D table resets
+built 600/1000 official-D table resets
+built 650/1000 official-D table resets
+built 700/1000 official-D table resets
+built 750/1000 official-D table resets
+built 800/1000 official-D table resets
+built 850/1000 official-D table resets
+built 900/1000 official-D table resets
+built 950/1000 official-D table resets
+built 1000/1000 official-D table resets
+disconnecting id 0 from server
+disconnecting id 0 from server
+{
+  "bounds_tolerance": 0.005,
+  "calvin_root": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/CALVIN",
+  "dataset_dir": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right_cache/task_ABC_D",
+  "eval_sequence_sha256": "d1776b89d82e8a989d68588a74ffa2ba1ff9f5bca9b746edfbf0bd16cb94aa71",
+  "initial_state_sha256": "6a30b90b01f4fba0f2b20fd6ed0f791b46e7fe16ab6612c5adfe5fc7f2f12fa6",
+  "max_attempts": 200,
+  "non_table_tolerance": 0.005,
+  "num_sequences": 1000,
+  "orientation_sampler": "uniform_yaw_-pi_pi",
+  "position_tolerance": 0.005,
+  "protocol": "calvin_official_d_table_resets_v1",
+  "sample_attempts": {
+    "max": 4,
+    "mean": 1.112
+  },
+  "scene_config": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/CALVIN/calvin_env/conf/scene/calvin_scene_D.yaml",
+  "seed": 0,
+  "sequence_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json",
+  "sequence_workers": 4,
+  "table_surface": {
+    "high": [
+      0.35,
+      -0.03,
+      0.46
+    ],
+    "low": [
+      0.0,
+      -0.15,
+      0.46
+    ]
+  },
+  "validation_fail_counts": {
+    "pairwise movable-object contacts=1": 1,
+    "pairwise movable-object contacts=2": 28,
+    "pairwise movable-object contacts=3": 9,
+    "pairwise movable-object contacts=4": 74
+  }
+}
+wrote reset bank: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/reset_banks/abc_d_official_d_table_resets_1000seq_seed0.npz
+{
+  "metadata": {
+    "bounds_tolerance": 0.005,
+    "calvin_root": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/CALVIN",
+    "dataset_dir": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right_cache/task_ABC_D",
+    "eval_sequence_sha256": "d1776b89d82e8a989d68588a74ffa2ba1ff9f5bca9b746edfbf0bd16cb94aa71",
+    "initial_state_sha256": "6a30b90b01f4fba0f2b20fd6ed0f791b46e7fe16ab6612c5adfe5fc7f2f12fa6",
+    "max_attempts": 200,
+    "non_table_tolerance": 0.005,
+    "num_sequences": 1000,
+    "orientation_sampler": "uniform_yaw_-pi_pi",
+    "position_tolerance": 0.005,
+    "protocol": "calvin_official_d_table_resets_v1",
+    "sample_attempts": {
+      "max": 4,
+      "mean": 1.112
+    },
+    "scene_config": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/CALVIN/calvin_env/conf/scene/calvin_scene_D.yaml",
+    "seed": 0,
+    "sequence_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json",
+    "sequence_workers": 4,
+    "table_surface": {
+      "high": [
+        0.35,
+        -0.03,
+        0.46
+      ],
+      "low": [
+        0.0,
+        -0.15,
+        0.46
+      ]
+    },
+    "validation_fail_counts": {
+      "pairwise movable-object contacts=1": 1,
+      "pairwise movable-object contacts=2": 28,
+      "pairwise movable-object contacts=3": 9,
+      "pairwise movable-object contacts=4": 74
+    }
+  },
+  "reset_bank": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/reset_banks/abc_d_official_d_table_resets_1000seq_seed0.npz"
+}

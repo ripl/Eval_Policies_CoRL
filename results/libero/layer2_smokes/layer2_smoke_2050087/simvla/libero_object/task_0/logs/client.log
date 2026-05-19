@@ -1,0 +1,33 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8788
+   Task suite: libero_object
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_object
+   Tasks: 10, Trials per task: 5
+   Max steps: 800
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+pick up the alphabet soup and ...:   0%|          | 0/5 [00:00<?, ?it/s][A  [OK] Task 0 Ep 0: SUCCESS (steps=146)
+
+pick up the alphabet soup and ...:  20%|██        | 1/5 [00:08<00:32,  8.19s/it][A  [OK] Task 0 Ep 1: SUCCESS (steps=146)
+
+pick up the alphabet soup and ...:  40%|████      | 2/5 [00:16<00:23,  7.99s/it][A  [FAIL] Task 0 Ep 2: FAILURE (steps=810)
+
+pick up the alphabet soup and ...:  60%|██████    | 3/5 [00:52<00:41, 20.87s/it][A  [OK] Task 0 Ep 3: SUCCESS (steps=144)
+
+pick up the alphabet soup and ...:  80%|████████  | 4/5 [01:00<00:15, 15.91s/it][A  [OK] Task 0 Ep 4: SUCCESS (steps=146)
+
+pick up the alphabet soup and ...: 100%|██████████| 5/5 [01:08<00:00, 13.06s/it][A
+                                                                                [A   Task 0: 4/5 (80.0%)
+Tasks:   0%|          | 0/1 [01:10<?, ?it/s]
+
+Total success rate: 4/5 (80.0%)

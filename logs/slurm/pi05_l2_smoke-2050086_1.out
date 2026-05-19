@@ -1,0 +1,9 @@
+{
+  "policy_name": "pi05_lerobot",
+  "suite": "libero_object",
+  "episode_csv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/layer2_smokes/layer2_smoke_2050086/pi05_lerobot/libero_object/task_0/episodes.csv",
+  "rows": 5,
+  "successes": 5,
+  "videos": 0,
+  "validation_status": "passed"
+}

@@ -1,0 +1,12 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+pybullet build time: Jan 29 2025 23:19:57
+Exception ignored in: <function PlayTableSimEnv.__del__ at 0x7f3a63ee9af0>
+Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/CALVIN/calvin_env/calvin_env/envs/play_table_env.py", line 78, in __del__
+    self.close()
+  File "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/CALVIN/calvin_env/calvin_env/envs/play_table_env.py", line 146, in close
+    self.p.disconnect(physicsClientId=self.cid)
+pybullet.error: Not connected to physics server.

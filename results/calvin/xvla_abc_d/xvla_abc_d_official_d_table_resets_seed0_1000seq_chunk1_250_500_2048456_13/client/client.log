@@ -1,0 +1,31 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+pybullet build time: Jan 29 2025 23:19:57
+CALVIN reset override active: bank=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/reset_banks/abc_d_official_d_table_resets_1000seq_seed0.npz eval_start=250 protocol=calvin_official_d_table_resets_v1
+[rank: 0] Global seed set to 0
+🚀 [Client] Starting XVLA-CALVIN evaluation client...
+🔗 Connected to XVLA server at 127.0.0.1:26740
+🧩 Loading CALVIN environment...
+argv[0]=--width=200
+argv[1]=--height=200
+EGL device choice: -1 of 10.
+Loaded EGL 1.5 after reload.
+GL_VENDOR=NVIDIA Corporation
+GL_RENDERER=NVIDIA RTX A6000/PCIe/SSE2
+GL_VERSION=3.3.0 NVIDIA 580.95.05
+GL_SHADING_LANGUAGE_VERSION=3.30 NVIDIA via Cg compiler
+Version = 3.3.0 NVIDIA 580.95.05
+Vendor = NVIDIA Corporation
+Renderer = NVIDIA RTX A6000/PCIe/SSE2
+received depth0
+/share/data/ripl/tianchong/conda/envs/calvin/lib/python3.8/site-packages/urdfpy/urdf.py:2169: RuntimeWarning: invalid value encountered in divide
+  value = value / np.linalg.norm(value)
+🎯 Starting CALVIN evaluation, saving to /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/xvla_abc_d/xvla_abc_d_official_d_table_resets_seed0_1000seq_chunk1_250_500_2048456_13/client
+ven = NVIDIA Corporation
+ven = NVIDIA Corporation
+
+✅ Evaluation completed successfully!
+disconnecting id 0 from server
+Destroy EGL OpenGL window.
