@@ -1,0 +1,209 @@
+/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+2026-05-15 12:47:23.926682: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-05-15 12:47:23.926776: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-05-15 12:47:24.506082: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-05-15 12:47:26.098208: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-15 12:47:28.121477: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Florence2ForConditionalGeneration has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+INFO:     Started server process [3499499]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:23683 (Press CTRL+C to quit)
+/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py:258: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  proprio = torch.as_tensor(np.asarray(json_numpy.loads(payload["proprio"])))
+🚀 Starting XVLA Inference Server...
+🔹 Model Path  : 2toINF/X-VLA-WidowX
+🔹 Output Dir  : /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/xvla_widowx/protocol1_random_positions/protocol1_100_xvla_stack_2045676_6/server
+🔹 Device Arg  : cuda
+🔹 Port        : 23683
+🧠 Using device: cuda
+
+🧩 Loading XVLAProcessor...
+✅ XVLAProcessor loaded successfully.
+
+📦 Loading XVLA model from pretrained checkpoint...
+✅ Model successfully loaded and moved to device.
+
+⚠️  No SLURM environment detected, defaulting to 0.0.0.0
+📝 Server info written to /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/xvla_widowx/protocol1_random_positions/protocol1_100_xvla_stack_2045676_6/server/info.json
+
+🌐 Launching FastAPI service at http://127.0.0.1:23683 ...
+INFO:     127.0.0.1:34730 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45856 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60278 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60286 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60300 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60304 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55836 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55850 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55864 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43134 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43136 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43150 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58350 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58358 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60770 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60778 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60780 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37486 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37502 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37504 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56356 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56366 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46154 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46170 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46178 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51838 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51844 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56892 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56896 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56908 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45608 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45618 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56930 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56954 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56958 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52154 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52164 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56484 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56492 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56500 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60980 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60984 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60998 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52320 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52332 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52346 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52000 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37456 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37472 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37488 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58224 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58232 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58242 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59432 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39794 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39800 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39816 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35310 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35322 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35332 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35342 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42714 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42726 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34236 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34252 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34256 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51778 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51788 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51792 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53708 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53712 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53728 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41060 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41068 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41072 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36146 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36160 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45426 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45442 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45446 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52984 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53000 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33470 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33486 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33502 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49960 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49968 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49970 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49978 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44966 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44970 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44972 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44986 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57742 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57752 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33246 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33254 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33258 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37410 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37414 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37426 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34478 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34490 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55780 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55794 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55804 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55332 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55344 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55356 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55370 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38752 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38754 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38768 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37426 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37440 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42098 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42102 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42104 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42110 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59144 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59156 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59158 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40416 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40424 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58772 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58776 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58786 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35610 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35622 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35624 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60640 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60650 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60652 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54882 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54890 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54902 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39240 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39244 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42138 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42150 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42160 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46624 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46628 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46636 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46652 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35414 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35428 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34600 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34608 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39292 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39298 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39310 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55532 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55538 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55546 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52120 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52128 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52132 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45530 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45534 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45542 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46690 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46692 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46704 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60814 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60818 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55462 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55478 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55482 - "POST /act HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60722 - "POST /act HTTP/1.1" 200 OK

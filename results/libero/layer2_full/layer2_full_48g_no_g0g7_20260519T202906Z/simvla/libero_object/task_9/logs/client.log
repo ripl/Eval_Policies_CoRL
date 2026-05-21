@@ -1,0 +1,523 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8515
+   Task suite: libero_object
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_object
+   Tasks: 10, Trials per task: 250
+   Max steps: 800
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+pick up the orange juice and p...:   0%|          | 0/250 [00:00<?, ?it/s][A  [OK] Task 9 Ep 0: SUCCESS (steps=126)
+
+pick up the orange juice and p...:   0%|          | 1/250 [00:14<59:03, 14.23s/it][A  [OK] Task 9 Ep 1: SUCCESS (steps=124)
+
+pick up the orange juice and p...:   1%|          | 2/250 [00:20<38:59,  9.43s/it][A  [OK] Task 9 Ep 2: SUCCESS (steps=124)
+
+pick up the orange juice and p...:   1%|          | 3/250 [00:26<33:04,  8.03s/it][A  [OK] Task 9 Ep 3: SUCCESS (steps=127)
+
+pick up the orange juice and p...:   2%|▏         | 4/250 [00:32<29:58,  7.31s/it][A  [OK] Task 9 Ep 4: SUCCESS (steps=124)
+
+pick up the orange juice and p...:   2%|▏         | 5/250 [00:38<27:56,  6.84s/it][A  [OK] Task 9 Ep 5: SUCCESS (steps=124)
+
+pick up the orange juice and p...:   2%|▏         | 6/250 [00:44<26:46,  6.58s/it][A  [OK] Task 9 Ep 6: SUCCESS (steps=127)
+
+pick up the orange juice and p...:   3%|▎         | 7/250 [00:51<26:17,  6.49s/it][A  [OK] Task 9 Ep 7: SUCCESS (steps=492)
+
+pick up the orange juice and p...:   3%|▎         | 8/250 [01:11<44:22, 11.00s/it][A  [OK] Task 9 Ep 8: SUCCESS (steps=128)
+
+pick up the orange juice and p...:   4%|▎         | 9/250 [01:18<38:16,  9.53s/it][A  [OK] Task 9 Ep 9: SUCCESS (steps=124)
+
+pick up the orange juice and p...:   4%|▍         | 10/250 [01:24<33:49,  8.46s/it][A  [OK] Task 9 Ep 10: SUCCESS (steps=124)
+
+pick up the orange juice and p...:   4%|▍         | 11/250 [01:30<30:39,  7.70s/it][A  [OK] Task 9 Ep 11: SUCCESS (steps=122)
+
+pick up the orange juice and p...:   5%|▍         | 12/250 [01:36<28:25,  7.17s/it][A  [OK] Task 9 Ep 12: SUCCESS (steps=123)
+
+pick up the orange juice and p...:   5%|▌         | 13/250 [01:42<26:58,  6.83s/it][A  [OK] Task 9 Ep 13: SUCCESS (steps=124)
+
+pick up the orange juice and p...:   6%|▌         | 14/250 [01:48<25:50,  6.57s/it][A  [OK] Task 9 Ep 14: SUCCESS (steps=125)
+
+pick up the orange juice and p...:   6%|▌         | 15/250 [01:54<25:14,  6.44s/it][A  [OK] Task 9 Ep 15: SUCCESS (steps=129)
+
+pick up the orange juice and p...:   6%|▋         | 16/250 [02:00<24:54,  6.39s/it][A  [OK] Task 9 Ep 16: SUCCESS (steps=126)
+
+pick up the orange juice and p...:   7%|▋         | 17/250 [02:06<24:30,  6.31s/it][A  [OK] Task 9 Ep 17: SUCCESS (steps=122)
+
+pick up the orange juice and p...:   7%|▋         | 18/250 [02:13<25:05,  6.49s/it][A  [OK] Task 9 Ep 18: SUCCESS (steps=126)
+
+pick up the orange juice and p...:   8%|▊         | 19/250 [02:20<25:07,  6.53s/it][A  [OK] Task 9 Ep 19: SUCCESS (steps=124)
+
+pick up the orange juice and p...:   8%|▊         | 20/250 [02:26<24:51,  6.49s/it][A  [OK] Task 9 Ep 20: SUCCESS (steps=125)
+
+pick up the orange juice and p...:   8%|▊         | 21/250 [02:32<24:33,  6.43s/it][A  [OK] Task 9 Ep 21: SUCCESS (steps=131)
+
+pick up the orange juice and p...:   9%|▉         | 22/250 [02:39<24:13,  6.38s/it][A  [OK] Task 9 Ep 22: SUCCESS (steps=129)
+
+pick up the orange juice and p...:   9%|▉         | 23/250 [02:45<23:56,  6.33s/it][A  [OK] Task 9 Ep 23: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  10%|▉         | 24/250 [02:51<23:28,  6.23s/it][A  [OK] Task 9 Ep 24: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  10%|█         | 25/250 [02:57<23:16,  6.21s/it][A  [OK] Task 9 Ep 25: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  10%|█         | 26/250 [03:03<23:12,  6.22s/it][A  [OK] Task 9 Ep 26: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  11%|█         | 27/250 [03:10<23:31,  6.33s/it][A  [OK] Task 9 Ep 27: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  11%|█         | 28/250 [03:16<23:01,  6.22s/it][A  [OK] Task 9 Ep 28: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  12%|█▏        | 29/250 [03:22<22:46,  6.18s/it][A  [OK] Task 9 Ep 29: SUCCESS (steps=121)
+
+pick up the orange juice and p...:  12%|█▏        | 30/250 [03:28<22:25,  6.12s/it][A  [OK] Task 9 Ep 30: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  12%|█▏        | 31/250 [03:34<22:21,  6.12s/it][A  [OK] Task 9 Ep 31: SUCCESS (steps=164)
+
+pick up the orange juice and p...:  13%|█▎        | 32/250 [03:42<23:53,  6.58s/it][A  [OK] Task 9 Ep 32: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  13%|█▎        | 33/250 [03:48<23:08,  6.40s/it][A  [OK] Task 9 Ep 33: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  14%|█▎        | 34/250 [03:54<22:49,  6.34s/it][A  [OK] Task 9 Ep 34: SUCCESS (steps=130)
+
+pick up the orange juice and p...:  14%|█▍        | 35/250 [04:00<22:42,  6.34s/it][A  [OK] Task 9 Ep 35: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  14%|█▍        | 36/250 [04:06<22:21,  6.27s/it][A  [OK] Task 9 Ep 36: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  15%|█▍        | 37/250 [04:13<22:28,  6.33s/it][A  [OK] Task 9 Ep 37: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  15%|█▌        | 38/250 [04:19<22:29,  6.37s/it][A  [OK] Task 9 Ep 38: SUCCESS (steps=119)
+
+pick up the orange juice and p...:  16%|█▌        | 39/250 [04:26<22:25,  6.38s/it][A  [OK] Task 9 Ep 39: SUCCESS (steps=132)
+
+pick up the orange juice and p...:  16%|█▌        | 40/250 [04:32<22:34,  6.45s/it][A  [OK] Task 9 Ep 40: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  16%|█▋        | 41/250 [04:38<22:06,  6.35s/it][A  [OK] Task 9 Ep 41: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  17%|█▋        | 42/250 [04:44<21:33,  6.22s/it][A  [OK] Task 9 Ep 42: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  17%|█▋        | 43/250 [04:51<21:24,  6.20s/it][A  [OK] Task 9 Ep 43: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  18%|█▊        | 44/250 [04:57<21:14,  6.19s/it][A  [OK] Task 9 Ep 44: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  18%|█▊        | 45/250 [05:03<21:03,  6.16s/it][A  [OK] Task 9 Ep 45: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  18%|█▊        | 46/250 [05:09<20:44,  6.10s/it][A  [OK] Task 9 Ep 46: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  19%|█▉        | 47/250 [05:15<20:31,  6.07s/it][A  [OK] Task 9 Ep 47: SUCCESS (steps=129)
+
+pick up the orange juice and p...:  19%|█▉        | 48/250 [05:21<20:26,  6.07s/it][A  [OK] Task 9 Ep 48: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  20%|█▉        | 49/250 [05:27<20:10,  6.02s/it][A  [OK] Task 9 Ep 49: SUCCESS (steps=129)
+
+pick up the orange juice and p...:  20%|██        | 50/250 [05:33<20:09,  6.05s/it][A  [OK] Task 9 Ep 50: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  20%|██        | 51/250 [05:39<20:05,  6.06s/it][A  [OK] Task 9 Ep 51: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  21%|██        | 52/250 [05:45<20:02,  6.07s/it][A  [OK] Task 9 Ep 52: SUCCESS (steps=118)
+
+pick up the orange juice and p...:  21%|██        | 53/250 [05:51<19:38,  5.98s/it][A  [OK] Task 9 Ep 53: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  22%|██▏       | 54/250 [05:57<19:31,  5.98s/it][A  [OK] Task 9 Ep 54: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  22%|██▏       | 55/250 [06:03<19:36,  6.04s/it][A  [OK] Task 9 Ep 55: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  22%|██▏       | 56/250 [06:09<19:24,  6.00s/it][A  [OK] Task 9 Ep 56: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  23%|██▎       | 57/250 [06:15<19:18,  6.00s/it][A  [OK] Task 9 Ep 57: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  23%|██▎       | 58/250 [06:21<19:11,  6.00s/it][A  [OK] Task 9 Ep 58: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  24%|██▎       | 59/250 [06:27<18:58,  5.96s/it][A  [OK] Task 9 Ep 59: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  24%|██▍       | 60/250 [06:33<18:59,  6.00s/it][A  [OK] Task 9 Ep 60: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  24%|██▍       | 61/250 [06:40<19:35,  6.22s/it][A  [OK] Task 9 Ep 61: SUCCESS (steps=153)
+
+pick up the orange juice and p...:  25%|██▍       | 62/250 [06:47<20:57,  6.69s/it][A  [OK] Task 9 Ep 62: SUCCESS (steps=121)
+
+pick up the orange juice and p...:  25%|██▌       | 63/250 [06:53<20:12,  6.48s/it][A  [OK] Task 9 Ep 63: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  26%|██▌       | 64/250 [06:59<19:37,  6.33s/it][A  [OK] Task 9 Ep 64: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  26%|██▌       | 65/250 [07:05<19:23,  6.29s/it][A  [OK] Task 9 Ep 65: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  26%|██▋       | 66/250 [07:13<20:12,  6.59s/it][A  [OK] Task 9 Ep 66: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  27%|██▋       | 67/250 [07:19<19:32,  6.41s/it][A  [OK] Task 9 Ep 67: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  27%|██▋       | 68/250 [07:25<19:07,  6.31s/it][A  [OK] Task 9 Ep 68: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  28%|██▊       | 69/250 [07:31<18:53,  6.26s/it][A  [OK] Task 9 Ep 69: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  28%|██▊       | 70/250 [07:37<18:40,  6.22s/it][A  [OK] Task 9 Ep 70: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  28%|██▊       | 71/250 [07:43<18:30,  6.21s/it][A  [OK] Task 9 Ep 71: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  29%|██▉       | 72/250 [07:50<18:40,  6.29s/it][A  [OK] Task 9 Ep 72: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  29%|██▉       | 73/250 [07:56<18:24,  6.24s/it][A  [OK] Task 9 Ep 73: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  30%|██▉       | 74/250 [08:02<18:11,  6.20s/it][A  [OK] Task 9 Ep 74: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  30%|███       | 75/250 [08:08<17:52,  6.13s/it][A  [OK] Task 9 Ep 75: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  30%|███       | 76/250 [08:14<17:36,  6.07s/it][A  [OK] Task 9 Ep 76: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  31%|███       | 77/250 [08:20<17:30,  6.07s/it][A  [OK] Task 9 Ep 77: SUCCESS (steps=120)
+
+pick up the orange juice and p...:  31%|███       | 78/250 [08:26<17:16,  6.03s/it][A  [OK] Task 9 Ep 78: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  32%|███▏      | 79/250 [08:32<17:06,  6.00s/it][A  [OK] Task 9 Ep 79: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  32%|███▏      | 80/250 [08:38<17:12,  6.08s/it][A  [OK] Task 9 Ep 80: SUCCESS (steps=131)
+
+pick up the orange juice and p...:  32%|███▏      | 81/250 [08:44<17:21,  6.16s/it][A  [OK] Task 9 Ep 81: SUCCESS (steps=121)
+
+pick up the orange juice and p...:  33%|███▎      | 82/250 [08:50<17:05,  6.10s/it][A  [OK] Task 9 Ep 82: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  33%|███▎      | 83/250 [08:57<17:03,  6.13s/it][A  [OK] Task 9 Ep 83: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  34%|███▎      | 84/250 [09:03<16:49,  6.08s/it][A  [OK] Task 9 Ep 84: SUCCESS (steps=121)
+
+pick up the orange juice and p...:  34%|███▍      | 85/250 [09:09<16:36,  6.04s/it][A  [OK] Task 9 Ep 85: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  34%|███▍      | 86/250 [09:15<16:29,  6.03s/it][A  [OK] Task 9 Ep 86: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  35%|███▍      | 87/250 [09:20<16:17,  6.00s/it][A  [OK] Task 9 Ep 87: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  35%|███▌      | 88/250 [09:27<16:15,  6.02s/it][A  [OK] Task 9 Ep 88: SUCCESS (steps=129)
+
+pick up the orange juice and p...:  36%|███▌      | 89/250 [09:33<16:18,  6.08s/it][A  [OK] Task 9 Ep 89: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  36%|███▌      | 90/250 [09:39<16:05,  6.03s/it][A  [OK] Task 9 Ep 90: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  36%|███▋      | 91/250 [09:45<15:55,  6.01s/it][A  [OK] Task 9 Ep 91: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  37%|███▋      | 92/250 [09:51<15:58,  6.07s/it][A  [OK] Task 9 Ep 92: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  37%|███▋      | 93/250 [09:57<15:55,  6.08s/it][A  [OK] Task 9 Ep 93: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  38%|███▊      | 94/250 [10:03<15:53,  6.11s/it][A  [OK] Task 9 Ep 94: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  38%|███▊      | 95/250 [10:10<16:01,  6.20s/it][A  [OK] Task 9 Ep 95: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  38%|███▊      | 96/250 [10:16<15:53,  6.19s/it][A  [OK] Task 9 Ep 96: SUCCESS (steps=121)
+
+pick up the orange juice and p...:  39%|███▉      | 97/250 [10:22<15:37,  6.13s/it][A  [OK] Task 9 Ep 97: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  39%|███▉      | 98/250 [10:28<15:22,  6.07s/it][A  [OK] Task 9 Ep 98: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  40%|███▉      | 99/250 [10:34<15:19,  6.09s/it][A  [OK] Task 9 Ep 99: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  40%|████      | 100/250 [10:40<15:05,  6.04s/it][A  [OK] Task 9 Ep 100: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  40%|████      | 101/250 [10:46<14:54,  6.01s/it][A  [OK] Task 9 Ep 101: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  41%|████      | 102/250 [10:52<14:47,  5.99s/it][A  [OK] Task 9 Ep 102: SUCCESS (steps=135)
+
+pick up the orange juice and p...:  41%|████      | 103/250 [10:59<15:41,  6.40s/it][A  [OK] Task 9 Ep 103: SUCCESS (steps=129)
+
+pick up the orange juice and p...:  42%|████▏     | 104/250 [11:05<15:42,  6.45s/it][A  [OK] Task 9 Ep 104: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  42%|████▏     | 105/250 [11:13<16:21,  6.77s/it][A  [OK] Task 9 Ep 105: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  42%|████▏     | 106/250 [11:19<15:40,  6.53s/it][A  [OK] Task 9 Ep 106: SUCCESS (steps=133)
+
+pick up the orange juice and p...:  43%|████▎     | 107/250 [11:25<15:28,  6.49s/it][A  [OK] Task 9 Ep 107: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  43%|████▎     | 108/250 [11:31<15:00,  6.34s/it][A  [OK] Task 9 Ep 108: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  44%|████▎     | 109/250 [11:37<14:45,  6.28s/it][A  [OK] Task 9 Ep 109: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  44%|████▍     | 110/250 [11:44<14:32,  6.23s/it][A  [OK] Task 9 Ep 110: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  44%|████▍     | 111/250 [11:50<14:17,  6.17s/it][A  [OK] Task 9 Ep 111: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  45%|████▍     | 112/250 [11:56<14:07,  6.14s/it][A  [OK] Task 9 Ep 112: SUCCESS (steps=128)
+
+pick up the orange juice and p...:  45%|████▌     | 113/250 [12:02<14:08,  6.20s/it][A  [OK] Task 9 Ep 113: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  46%|████▌     | 114/250 [12:08<13:58,  6.17s/it][A  [OK] Task 9 Ep 114: SUCCESS (steps=121)
+
+pick up the orange juice and p...:  46%|████▌     | 115/250 [12:14<13:44,  6.11s/it][A  [OK] Task 9 Ep 115: SUCCESS (steps=121)
+
+pick up the orange juice and p...:  46%|████▋     | 116/250 [12:20<13:31,  6.05s/it][A  [OK] Task 9 Ep 116: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  47%|████▋     | 117/250 [12:26<13:20,  6.02s/it][A  [OK] Task 9 Ep 117: SUCCESS (steps=129)
+
+pick up the orange juice and p...:  47%|████▋     | 118/250 [12:32<13:21,  6.07s/it][A  [OK] Task 9 Ep 118: SUCCESS (steps=120)
+
+pick up the orange juice and p...:  48%|████▊     | 119/250 [12:38<13:17,  6.09s/it][A  [OK] Task 9 Ep 119: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  48%|████▊     | 120/250 [12:44<13:04,  6.03s/it][A  [OK] Task 9 Ep 120: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  48%|████▊     | 121/250 [12:50<13:01,  6.06s/it][A  [OK] Task 9 Ep 121: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  49%|████▉     | 122/250 [12:56<12:58,  6.08s/it][A  [OK] Task 9 Ep 122: SUCCESS (steps=121)
+
+pick up the orange juice and p...:  49%|████▉     | 123/250 [13:04<13:36,  6.43s/it][A  [OK] Task 9 Ep 123: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  50%|████▉     | 124/250 [13:10<13:17,  6.33s/it][A  [OK] Task 9 Ep 124: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  50%|█████     | 125/250 [13:17<13:26,  6.46s/it][A  [OK] Task 9 Ep 125: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  50%|█████     | 126/250 [13:23<13:08,  6.36s/it][A  [OK] Task 9 Ep 126: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  51%|█████     | 127/250 [13:29<12:54,  6.29s/it][A  [OK] Task 9 Ep 127: SUCCESS (steps=128)
+
+pick up the orange juice and p...:  51%|█████     | 128/250 [13:35<12:43,  6.26s/it][A  [OK] Task 9 Ep 128: SUCCESS (steps=128)
+
+pick up the orange juice and p...:  52%|█████▏    | 129/250 [13:41<12:34,  6.24s/it][A  [OK] Task 9 Ep 129: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  52%|█████▏    | 130/250 [13:47<12:18,  6.16s/it][A  [OK] Task 9 Ep 130: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  52%|█████▏    | 131/250 [13:53<12:05,  6.10s/it][A  [OK] Task 9 Ep 131: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  53%|█████▎    | 132/250 [13:59<12:02,  6.12s/it][A  [OK] Task 9 Ep 132: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  53%|█████▎    | 133/250 [14:05<11:56,  6.12s/it][A  [OK] Task 9 Ep 133: SUCCESS (steps=128)
+
+pick up the orange juice and p...:  54%|█████▎    | 134/250 [14:13<12:34,  6.50s/it][A  [OK] Task 9 Ep 134: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  54%|█████▍    | 135/250 [14:19<12:09,  6.34s/it][A  [OK] Task 9 Ep 135: SUCCESS (steps=128)
+
+pick up the orange juice and p...:  54%|█████▍    | 136/250 [14:25<11:56,  6.28s/it][A  [OK] Task 9 Ep 136: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  55%|█████▍    | 137/250 [14:31<11:45,  6.25s/it][A  [OK] Task 9 Ep 137: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  55%|█████▌    | 138/250 [14:37<11:34,  6.20s/it][A  [OK] Task 9 Ep 138: SUCCESS (steps=130)
+
+pick up the orange juice and p...:  56%|█████▌    | 139/250 [14:44<11:32,  6.24s/it][A  [OK] Task 9 Ep 139: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  56%|█████▌    | 140/250 [14:50<11:41,  6.37s/it][A  [OK] Task 9 Ep 140: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  56%|█████▋    | 141/250 [14:56<11:23,  6.27s/it][A  [OK] Task 9 Ep 141: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  57%|█████▋    | 142/250 [15:02<11:06,  6.17s/it][A  [OK] Task 9 Ep 142: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  57%|█████▋    | 143/250 [15:08<10:53,  6.11s/it][A  [OK] Task 9 Ep 143: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  58%|█████▊    | 144/250 [15:14<10:48,  6.12s/it][A  [OK] Task 9 Ep 144: SUCCESS (steps=129)
+
+pick up the orange juice and p...:  58%|█████▊    | 145/250 [15:21<10:57,  6.26s/it][A  [OK] Task 9 Ep 145: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  58%|█████▊    | 146/250 [15:27<11:01,  6.36s/it][A  [OK] Task 9 Ep 146: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  59%|█████▉    | 147/250 [15:33<10:45,  6.27s/it][A  [OK] Task 9 Ep 147: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  59%|█████▉    | 148/250 [15:39<10:30,  6.18s/it][A  [OK] Task 9 Ep 148: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  60%|█████▉    | 149/250 [15:45<10:17,  6.11s/it][A  [OK] Task 9 Ep 149: SUCCESS (steps=128)
+
+pick up the orange juice and p...:  60%|██████    | 150/250 [15:52<10:11,  6.12s/it][A  [OK] Task 9 Ep 150: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  60%|██████    | 151/250 [15:58<10:04,  6.10s/it][A  [OK] Task 9 Ep 151: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  61%|██████    | 152/250 [16:04<09:59,  6.12s/it][A  [OK] Task 9 Ep 152: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  61%|██████    | 153/250 [16:10<09:50,  6.08s/it][A  [OK] Task 9 Ep 153: SUCCESS (steps=128)
+
+pick up the orange juice and p...:  62%|██████▏   | 154/250 [16:16<09:47,  6.12s/it][A  [OK] Task 9 Ep 154: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  62%|██████▏   | 155/250 [16:22<09:43,  6.14s/it][A  [OK] Task 9 Ep 155: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  62%|██████▏   | 156/250 [16:28<09:32,  6.10s/it][A  [OK] Task 9 Ep 156: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  63%|██████▎   | 157/250 [16:34<09:24,  6.07s/it][A  [OK] Task 9 Ep 157: SUCCESS (steps=128)
+
+pick up the orange juice and p...:  63%|██████▎   | 158/250 [16:40<09:20,  6.09s/it][A  [OK] Task 9 Ep 158: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  64%|██████▎   | 159/250 [16:46<09:16,  6.11s/it][A  [OK] Task 9 Ep 159: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  64%|██████▍   | 160/250 [16:52<09:06,  6.07s/it][A  [OK] Task 9 Ep 160: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  64%|██████▍   | 161/250 [16:58<08:57,  6.03s/it][A  [OK] Task 9 Ep 161: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  65%|██████▍   | 162/250 [17:04<08:49,  6.02s/it][A  [OK] Task 9 Ep 162: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  65%|██████▌   | 163/250 [17:11<09:06,  6.29s/it][A  [OK] Task 9 Ep 163: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  66%|██████▌   | 164/250 [17:17<08:55,  6.22s/it][A  [OK] Task 9 Ep 164: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  66%|██████▌   | 165/250 [17:23<08:45,  6.18s/it][A  [OK] Task 9 Ep 165: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  66%|██████▋   | 166/250 [17:30<08:38,  6.18s/it][A  [OK] Task 9 Ep 166: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  67%|██████▋   | 167/250 [17:36<08:29,  6.13s/it][A  [OK] Task 9 Ep 167: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  67%|██████▋   | 168/250 [17:42<08:21,  6.12s/it][A  [OK] Task 9 Ep 168: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  68%|██████▊   | 169/250 [17:48<08:15,  6.12s/it][A  [OK] Task 9 Ep 169: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  68%|██████▊   | 170/250 [17:54<08:09,  6.12s/it][A  [OK] Task 9 Ep 170: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  68%|██████▊   | 171/250 [18:00<08:06,  6.16s/it][A  [OK] Task 9 Ep 171: SUCCESS (steps=121)
+
+pick up the orange juice and p...:  69%|██████▉   | 172/250 [18:06<07:55,  6.09s/it][A  [OK] Task 9 Ep 172: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  69%|██████▉   | 173/250 [18:12<07:53,  6.15s/it][A  [OK] Task 9 Ep 173: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  70%|██████▉   | 174/250 [18:19<07:58,  6.30s/it][A  [OK] Task 9 Ep 174: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  70%|███████   | 175/250 [18:25<07:47,  6.23s/it][A  [OK] Task 9 Ep 175: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  70%|███████   | 176/250 [18:32<07:44,  6.27s/it][A  [OK] Task 9 Ep 176: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  71%|███████   | 177/250 [18:38<07:32,  6.20s/it][A  [OK] Task 9 Ep 177: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  71%|███████   | 178/250 [18:44<07:29,  6.25s/it][A  [OK] Task 9 Ep 178: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  72%|███████▏  | 179/250 [18:50<07:29,  6.33s/it][A  [OK] Task 9 Ep 179: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  72%|███████▏  | 180/250 [18:57<07:19,  6.27s/it][A  [OK] Task 9 Ep 180: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  72%|███████▏  | 181/250 [19:03<07:08,  6.21s/it][A  [OK] Task 9 Ep 181: SUCCESS (steps=120)
+
+pick up the orange juice and p...:  73%|███████▎  | 182/250 [19:09<06:56,  6.13s/it][A  [OK] Task 9 Ep 182: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  73%|███████▎  | 183/250 [19:15<06:49,  6.11s/it][A  [OK] Task 9 Ep 183: SUCCESS (steps=120)
+
+pick up the orange juice and p...:  74%|███████▎  | 184/250 [19:21<06:40,  6.06s/it][A  [OK] Task 9 Ep 184: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  74%|███████▍  | 185/250 [19:27<06:36,  6.11s/it][A  [OK] Task 9 Ep 185: SUCCESS (steps=120)
+
+pick up the orange juice and p...:  74%|███████▍  | 186/250 [19:33<06:28,  6.07s/it][A  [OK] Task 9 Ep 186: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  75%|███████▍  | 187/250 [19:39<06:28,  6.17s/it][A  [OK] Task 9 Ep 187: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  75%|███████▌  | 188/250 [19:45<06:20,  6.14s/it][A  [OK] Task 9 Ep 188: SUCCESS (steps=128)
+
+pick up the orange juice and p...:  76%|███████▌  | 189/250 [19:52<06:18,  6.21s/it][A  [OK] Task 9 Ep 189: SUCCESS (steps=128)
+
+pick up the orange juice and p...:  76%|███████▌  | 190/250 [19:58<06:19,  6.33s/it][A  [OK] Task 9 Ep 190: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  76%|███████▋  | 191/250 [20:04<06:08,  6.25s/it][A  [OK] Task 9 Ep 191: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  77%|███████▋  | 192/250 [20:11<06:14,  6.46s/it][A  [OK] Task 9 Ep 192: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  77%|███████▋  | 193/250 [20:17<06:01,  6.33s/it][A  [OK] Task 9 Ep 193: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  78%|███████▊  | 194/250 [20:23<05:48,  6.22s/it][A  [OK] Task 9 Ep 194: SUCCESS (steps=128)
+
+pick up the orange juice and p...:  78%|███████▊  | 195/250 [20:30<05:42,  6.23s/it][A  [OK] Task 9 Ep 195: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  78%|███████▊  | 196/250 [20:36<05:32,  6.15s/it][A  [OK] Task 9 Ep 196: SUCCESS (steps=121)
+
+pick up the orange juice and p...:  79%|███████▉  | 197/250 [20:41<05:23,  6.10s/it][A  [OK] Task 9 Ep 197: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  79%|███████▉  | 198/250 [20:47<05:15,  6.07s/it][A  [OK] Task 9 Ep 198: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  80%|███████▉  | 199/250 [20:53<05:08,  6.04s/it][A  [OK] Task 9 Ep 199: SUCCESS (steps=121)
+
+pick up the orange juice and p...:  80%|████████  | 200/250 [20:59<05:01,  6.02s/it][A  [OK] Task 9 Ep 200: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  80%|████████  | 201/250 [21:06<04:57,  6.07s/it][A  [OK] Task 9 Ep 201: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  81%|████████  | 202/250 [21:12<04:56,  6.18s/it][A  [OK] Task 9 Ep 202: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  81%|████████  | 203/250 [21:18<04:48,  6.13s/it][A  [OK] Task 9 Ep 203: SUCCESS (steps=120)
+
+pick up the orange juice and p...:  82%|████████▏ | 204/250 [21:24<04:39,  6.07s/it][A  [OK] Task 9 Ep 204: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  82%|████████▏ | 205/250 [21:30<04:32,  6.05s/it][A  [OK] Task 9 Ep 205: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  82%|████████▏ | 206/250 [21:36<04:25,  6.03s/it][A  [OK] Task 9 Ep 206: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  83%|████████▎ | 207/250 [21:42<04:18,  6.01s/it][A  [OK] Task 9 Ep 207: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  83%|████████▎ | 208/250 [21:48<04:14,  6.05s/it][A  [OK] Task 9 Ep 208: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  84%|████████▎ | 209/250 [21:54<04:07,  6.04s/it][A  [OK] Task 9 Ep 209: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  84%|████████▍ | 210/250 [22:00<04:00,  6.02s/it][A  [OK] Task 9 Ep 210: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  84%|████████▍ | 211/250 [22:06<03:56,  6.06s/it][A  [OK] Task 9 Ep 211: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  85%|████████▍ | 212/250 [22:13<03:59,  6.29s/it][A  [OK] Task 9 Ep 212: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  85%|████████▌ | 213/250 [22:19<03:50,  6.24s/it][A  [OK] Task 9 Ep 213: SUCCESS (steps=128)
+
+pick up the orange juice and p...:  86%|████████▌ | 214/250 [22:25<03:43,  6.22s/it][A  [OK] Task 9 Ep 214: SUCCESS (steps=119)
+
+pick up the orange juice and p...:  86%|████████▌ | 215/250 [22:31<03:32,  6.07s/it][A  [OK] Task 9 Ep 215: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  86%|████████▋ | 216/250 [22:37<03:25,  6.04s/it][A  [OK] Task 9 Ep 216: SUCCESS (steps=128)
+
+pick up the orange juice and p...:  87%|████████▋ | 217/250 [22:43<03:20,  6.07s/it][A  [OK] Task 9 Ep 217: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  87%|████████▋ | 218/250 [22:49<03:13,  6.04s/it][A  [OK] Task 9 Ep 218: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  88%|████████▊ | 219/250 [22:55<03:08,  6.07s/it][A  [OK] Task 9 Ep 219: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  88%|████████▊ | 220/250 [23:01<03:01,  6.05s/it][A  [OK] Task 9 Ep 220: SUCCESS (steps=119)
+
+pick up the orange juice and p...:  88%|████████▊ | 221/250 [23:07<02:54,  6.02s/it][A  [OK] Task 9 Ep 221: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  89%|████████▉ | 222/250 [23:13<02:48,  6.00s/it][A  [OK] Task 9 Ep 222: SUCCESS (steps=278)
+
+pick up the orange juice and p...:  89%|████████▉ | 223/250 [23:25<03:30,  7.81s/it][A  [OK] Task 9 Ep 223: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  90%|████████▉ | 224/250 [23:31<03:08,  7.25s/it][A  [OK] Task 9 Ep 224: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  90%|█████████ | 225/250 [23:37<02:50,  6.84s/it][A  [OK] Task 9 Ep 225: SUCCESS (steps=122)
+
+pick up the orange juice and p...:  90%|█████████ | 226/250 [23:43<02:37,  6.57s/it][A  [OK] Task 9 Ep 226: SUCCESS (steps=121)
+
+pick up the orange juice and p...:  91%|█████████ | 227/250 [23:49<02:26,  6.38s/it][A  [OK] Task 9 Ep 227: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  91%|█████████ | 228/250 [23:55<02:18,  6.31s/it][A  [OK] Task 9 Ep 228: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  92%|█████████▏| 229/250 [24:01<02:11,  6.26s/it][A  [OK] Task 9 Ep 229: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  92%|█████████▏| 230/250 [24:08<02:05,  6.27s/it][A  [OK] Task 9 Ep 230: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  92%|█████████▏| 231/250 [24:14<02:00,  6.32s/it][A  [OK] Task 9 Ep 231: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  93%|█████████▎| 232/250 [24:20<01:52,  6.23s/it][A  [OK] Task 9 Ep 232: SUCCESS (steps=121)
+
+pick up the orange juice and p...:  93%|█████████▎| 233/250 [24:26<01:44,  6.17s/it][A  [OK] Task 9 Ep 233: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  94%|█████████▎| 234/250 [24:33<01:41,  6.32s/it][A  [OK] Task 9 Ep 234: SUCCESS (steps=123)
+
+pick up the orange juice and p...:  94%|█████████▍| 235/250 [24:39<01:36,  6.41s/it][A  [OK] Task 9 Ep 235: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  94%|█████████▍| 236/250 [24:46<01:28,  6.34s/it][A  [OK] Task 9 Ep 236: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  95%|█████████▍| 237/250 [24:53<01:26,  6.62s/it][A  [OK] Task 9 Ep 237: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  95%|█████████▌| 238/250 [24:59<01:17,  6.47s/it][A  [OK] Task 9 Ep 238: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  96%|█████████▌| 239/250 [25:05<01:10,  6.40s/it][A  [OK] Task 9 Ep 239: SUCCESS (steps=127)
+
+pick up the orange juice and p...:  96%|█████████▌| 240/250 [25:12<01:05,  6.53s/it][A  [OK] Task 9 Ep 240: SUCCESS (steps=128)
+
+pick up the orange juice and p...:  96%|█████████▋| 241/250 [25:19<00:59,  6.63s/it][A  [OK] Task 9 Ep 241: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  97%|█████████▋| 242/250 [25:25<00:52,  6.54s/it][A  [OK] Task 9 Ep 242: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  97%|█████████▋| 243/250 [25:32<00:45,  6.52s/it][A  [OK] Task 9 Ep 243: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  98%|█████████▊| 244/250 [25:38<00:38,  6.42s/it][A  [OK] Task 9 Ep 244: SUCCESS (steps=125)
+
+pick up the orange juice and p...:  98%|█████████▊| 245/250 [25:44<00:31,  6.33s/it][A  [OK] Task 9 Ep 245: SUCCESS (steps=124)
+
+pick up the orange juice and p...:  98%|█████████▊| 246/250 [25:50<00:24,  6.24s/it][A  [OK] Task 9 Ep 246: SUCCESS (steps=126)
+
+pick up the orange juice and p...:  99%|█████████▉| 247/250 [25:56<00:18,  6.24s/it][A  [OK] Task 9 Ep 247: SUCCESS (steps=129)
+
+pick up the orange juice and p...:  99%|█████████▉| 248/250 [26:02<00:12,  6.24s/it][A  [OK] Task 9 Ep 248: SUCCESS (steps=125)
+
+pick up the orange juice and p...: 100%|█████████▉| 249/250 [26:09<00:06,  6.23s/it][A  [OK] Task 9 Ep 249: SUCCESS (steps=124)
+
+pick up the orange juice and p...: 100%|██████████| 250/250 [26:15<00:00,  6.18s/it][A
+                                                                                    [A   Task 9: 250/250 (100.0%)
+Tasks:   0%|          | 0/1 [26:27<?, ?it/s]
+
+Total success rate: 250/250 (100.0%)

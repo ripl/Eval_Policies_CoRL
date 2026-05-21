@@ -1,0 +1,523 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8504
+   Task suite: libero_spatial
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_spatial
+   Tasks: 10, Trials per task: 250
+   Max steps: 800
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+pick up the black bowl next to...:   0%|          | 0/250 [00:00<?, ?it/s][A  [OK] Task 8 Ep 0: SUCCESS (steps=102)
+
+pick up the black bowl next to...:   0%|          | 1/250 [00:13<56:16, 13.56s/it][A  [OK] Task 8 Ep 1: SUCCESS (steps=98)
+
+pick up the black bowl next to...:   1%|          | 2/250 [00:24<50:15, 12.16s/it][A  [OK] Task 8 Ep 2: SUCCESS (steps=101)
+
+pick up the black bowl next to...:   1%|          | 3/250 [00:36<49:38, 12.06s/it][A  [OK] Task 8 Ep 3: SUCCESS (steps=106)
+
+pick up the black bowl next to...:   2%|▏         | 4/250 [00:48<49:11, 12.00s/it][A  [OK] Task 8 Ep 4: SUCCESS (steps=103)
+
+pick up the black bowl next to...:   2%|▏         | 5/250 [01:00<49:15, 12.06s/it][A  [OK] Task 8 Ep 5: SUCCESS (steps=165)
+
+pick up the black bowl next to...:   2%|▏         | 6/250 [01:17<55:15, 13.59s/it][A  [OK] Task 8 Ep 6: SUCCESS (steps=99)
+
+pick up the black bowl next to...:   3%|▎         | 7/250 [01:28<51:53, 12.81s/it][A  [OK] Task 8 Ep 7: SUCCESS (steps=100)
+
+pick up the black bowl next to...:   3%|▎         | 8/250 [01:39<49:46, 12.34s/it][A  [OK] Task 8 Ep 8: SUCCESS (steps=141)
+
+pick up the black bowl next to...:   4%|▎         | 9/250 [01:54<52:43, 13.13s/it][A  [OK] Task 8 Ep 9: SUCCESS (steps=104)
+
+pick up the black bowl next to...:   4%|▍         | 10/250 [02:06<50:37, 12.66s/it][A  [OK] Task 8 Ep 10: SUCCESS (steps=106)
+
+pick up the black bowl next to...:   4%|▍         | 11/250 [02:19<51:12, 12.85s/it][A  [OK] Task 8 Ep 11: SUCCESS (steps=111)
+
+pick up the black bowl next to...:   5%|▍         | 12/250 [02:32<50:27, 12.72s/it][A  [OK] Task 8 Ep 12: SUCCESS (steps=96)
+
+pick up the black bowl next to...:   5%|▌         | 13/250 [02:43<48:10, 12.20s/it][A  [OK] Task 8 Ep 13: SUCCESS (steps=97)
+
+pick up the black bowl next to...:   6%|▌         | 14/250 [02:54<46:52, 11.92s/it][A  [OK] Task 8 Ep 14: SUCCESS (steps=103)
+
+pick up the black bowl next to...:   6%|▌         | 15/250 [03:06<46:39, 11.91s/it][A  [OK] Task 8 Ep 15: SUCCESS (steps=119)
+
+pick up the black bowl next to...:   6%|▋         | 16/250 [03:20<49:33, 12.71s/it][A  [OK] Task 8 Ep 16: SUCCESS (steps=107)
+
+pick up the black bowl next to...:   7%|▋         | 17/250 [03:33<48:57, 12.61s/it][A  [OK] Task 8 Ep 17: SUCCESS (steps=99)
+
+pick up the black bowl next to...:   7%|▋         | 18/250 [03:44<47:03, 12.17s/it][A  [OK] Task 8 Ep 18: SUCCESS (steps=105)
+
+pick up the black bowl next to...:   8%|▊         | 19/250 [03:56<46:36, 12.11s/it][A  [OK] Task 8 Ep 19: SUCCESS (steps=100)
+
+pick up the black bowl next to...:   8%|▊         | 20/250 [04:07<45:51, 11.96s/it][A  [OK] Task 8 Ep 20: SUCCESS (steps=98)
+
+pick up the black bowl next to...:   8%|▊         | 21/250 [04:18<44:38, 11.70s/it][A  [OK] Task 8 Ep 21: SUCCESS (steps=100)
+
+pick up the black bowl next to...:   9%|▉         | 22/250 [04:30<44:16, 11.65s/it][A  [OK] Task 8 Ep 22: SUCCESS (steps=101)
+
+pick up the black bowl next to...:   9%|▉         | 23/250 [04:41<43:46, 11.57s/it][A  [OK] Task 8 Ep 23: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  10%|▉         | 24/250 [04:53<43:10, 11.46s/it][A  [OK] Task 8 Ep 24: SUCCESS (steps=104)
+
+pick up the black bowl next to...:  10%|█         | 25/250 [05:05<43:59, 11.73s/it][A  [OK] Task 8 Ep 25: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  10%|█         | 26/250 [05:18<44:51, 12.01s/it][A  [FAIL] Task 8 Ep 26: FAILURE (steps=810)
+
+pick up the black bowl next to...:  11%|█         | 27/250 [06:19<1:40:01, 26.91s/it][A  [OK] Task 8 Ep 27: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  11%|█         | 28/250 [06:31<1:22:18, 22.25s/it][A  [OK] Task 8 Ep 28: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  12%|█▏        | 29/250 [06:42<1:09:39, 18.91s/it][A  [OK] Task 8 Ep 29: SUCCESS (steps=120)
+
+pick up the black bowl next to...:  12%|█▏        | 30/250 [06:55<1:03:05, 17.21s/it][A  [FAIL] Task 8 Ep 30: FAILURE (steps=810)
+
+pick up the black bowl next to...:  12%|█▏        | 31/250 [07:59<1:54:25, 31.35s/it][A  [OK] Task 8 Ep 31: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  13%|█▎        | 32/250 [08:11<1:32:22, 25.42s/it][A  [OK] Task 8 Ep 32: SUCCESS (steps=100)
+
+pick up the black bowl next to...:  13%|█▎        | 33/250 [08:22<1:16:48, 21.24s/it][A  [OK] Task 8 Ep 33: SUCCESS (steps=95)
+
+pick up the black bowl next to...:  14%|█▎        | 34/250 [08:33<1:05:28, 18.19s/it][A  [OK] Task 8 Ep 34: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  14%|█▍        | 35/250 [08:45<57:35, 16.07s/it]  [A  [OK] Task 8 Ep 35: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  14%|█▍        | 36/250 [08:56<52:21, 14.68s/it][A  [OK] Task 8 Ep 36: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  15%|█▍        | 37/250 [09:08<48:44, 13.73s/it][A  [OK] Task 8 Ep 37: SUCCESS (steps=103)
+
+pick up the black bowl next to...:  15%|█▌        | 38/250 [09:19<46:18, 13.10s/it][A  [OK] Task 8 Ep 38: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  16%|█▌        | 39/250 [09:31<44:42, 12.71s/it][A  [OK] Task 8 Ep 39: SUCCESS (steps=95)
+
+pick up the black bowl next to...:  16%|█▌        | 40/250 [09:42<42:47, 12.23s/it][A  [OK] Task 8 Ep 40: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  16%|█▋        | 41/250 [09:54<41:55, 12.03s/it][A  [OK] Task 8 Ep 41: SUCCESS (steps=111)
+
+pick up the black bowl next to...:  17%|█▋        | 42/250 [10:06<42:08, 12.16s/it][A  [OK] Task 8 Ep 42: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  17%|█▋        | 43/250 [10:18<41:30, 12.03s/it][A  [OK] Task 8 Ep 43: SUCCESS (steps=96)
+
+pick up the black bowl next to...:  18%|█▊        | 44/250 [10:29<40:51, 11.90s/it][A  [OK] Task 8 Ep 44: SUCCESS (steps=94)
+
+pick up the black bowl next to...:  18%|█▊        | 45/250 [10:41<40:06, 11.74s/it][A  [OK] Task 8 Ep 45: SUCCESS (steps=104)
+
+pick up the black bowl next to...:  18%|█▊        | 46/250 [10:53<40:19, 11.86s/it][A  [OK] Task 8 Ep 46: SUCCESS (steps=102)
+
+pick up the black bowl next to...:  19%|█▉        | 47/250 [11:05<39:53, 11.79s/it][A  [OK] Task 8 Ep 47: SUCCESS (steps=94)
+
+pick up the black bowl next to...:  19%|█▉        | 48/250 [11:17<40:34, 12.05s/it][A  [OK] Task 8 Ep 48: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  20%|█▉        | 49/250 [11:28<39:30, 11.80s/it][A  [OK] Task 8 Ep 49: SUCCESS (steps=103)
+
+pick up the black bowl next to...:  20%|██        | 50/250 [11:40<39:06, 11.73s/it][A  [OK] Task 8 Ep 50: SUCCESS (steps=105)
+
+pick up the black bowl next to...:  20%|██        | 51/250 [11:52<39:03, 11.78s/it][A  [OK] Task 8 Ep 51: SUCCESS (steps=92)
+
+pick up the black bowl next to...:  21%|██        | 52/250 [12:03<37:58, 11.51s/it][A  [OK] Task 8 Ep 52: SUCCESS (steps=102)
+
+pick up the black bowl next to...:  21%|██        | 53/250 [12:15<38:19, 11.67s/it][A  [OK] Task 8 Ep 53: SUCCESS (steps=93)
+
+pick up the black bowl next to...:  22%|██▏       | 54/250 [12:26<37:27, 11.46s/it][A  [OK] Task 8 Ep 54: SUCCESS (steps=95)
+
+pick up the black bowl next to...:  22%|██▏       | 55/250 [12:37<37:02, 11.40s/it][A  [OK] Task 8 Ep 55: SUCCESS (steps=95)
+
+pick up the black bowl next to...:  22%|██▏       | 56/250 [12:49<37:04, 11.47s/it][A  [OK] Task 8 Ep 56: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  23%|██▎       | 57/250 [13:01<37:38, 11.70s/it][A  [OK] Task 8 Ep 57: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  23%|██▎       | 58/250 [13:13<37:58, 11.87s/it][A  [OK] Task 8 Ep 58: SUCCESS (steps=107)
+
+pick up the black bowl next to...:  24%|██▎       | 59/250 [13:26<38:24, 12.07s/it][A  [OK] Task 8 Ep 59: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  24%|██▍       | 60/250 [13:38<38:11, 12.06s/it][A  [OK] Task 8 Ep 60: SUCCESS (steps=102)
+
+pick up the black bowl next to...:  24%|██▍       | 61/250 [13:50<37:53, 12.03s/it][A  [OK] Task 8 Ep 61: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  25%|██▍       | 62/250 [14:02<37:29, 11.97s/it][A  [OK] Task 8 Ep 62: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  25%|██▌       | 63/250 [14:14<37:32, 12.05s/it][A  [OK] Task 8 Ep 63: SUCCESS (steps=95)
+
+pick up the black bowl next to...:  26%|██▌       | 64/250 [14:25<36:48, 11.88s/it][A  [OK] Task 8 Ep 64: SUCCESS (steps=110)
+
+pick up the black bowl next to...:  26%|██▌       | 65/250 [14:38<37:16, 12.09s/it][A  [OK] Task 8 Ep 65: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  26%|██▋       | 66/250 [14:49<36:37, 11.94s/it][A  [OK] Task 8 Ep 66: SUCCESS (steps=94)
+
+pick up the black bowl next to...:  27%|██▋       | 67/250 [15:01<36:13, 11.88s/it][A  [OK] Task 8 Ep 67: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  27%|██▋       | 68/250 [15:13<35:42, 11.77s/it][A  [OK] Task 8 Ep 68: SUCCESS (steps=102)
+
+pick up the black bowl next to...:  28%|██▊       | 69/250 [15:24<35:23, 11.73s/it][A  [OK] Task 8 Ep 69: SUCCESS (steps=96)
+
+pick up the black bowl next to...:  28%|██▊       | 70/250 [15:36<34:52, 11.62s/it][A  [OK] Task 8 Ep 70: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  28%|██▊       | 71/250 [15:47<34:25, 11.54s/it][A  [FAIL] Task 8 Ep 71: FAILURE (steps=810)
+
+pick up the black bowl next to...:  29%|██▉       | 72/250 [16:51<1:21:07, 27.35s/it][A  [OK] Task 8 Ep 72: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  29%|██▉       | 73/250 [17:03<1:06:39, 22.59s/it][A  [OK] Task 8 Ep 73: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  30%|██▉       | 74/250 [17:14<56:34, 19.29s/it]  [A  [OK] Task 8 Ep 74: SUCCESS (steps=107)
+
+pick up the black bowl next to...:  30%|███       | 75/250 [17:27<50:10, 17.20s/it][A  [OK] Task 8 Ep 75: SUCCESS (steps=95)
+
+pick up the black bowl next to...:  30%|███       | 76/250 [17:38<44:21, 15.29s/it][A  [OK] Task 8 Ep 76: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  31%|███       | 77/250 [17:48<40:11, 13.94s/it][A  [OK] Task 8 Ep 77: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  31%|███       | 78/250 [18:00<37:39, 13.14s/it][A  [OK] Task 8 Ep 78: SUCCESS (steps=100)
+
+pick up the black bowl next to...:  32%|███▏      | 79/250 [18:12<36:43, 12.89s/it][A  [OK] Task 8 Ep 79: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  32%|███▏      | 80/250 [18:23<35:12, 12.43s/it][A  [FAIL] Task 8 Ep 80: FAILURE (steps=810)
+
+pick up the black bowl next to...:  32%|███▏      | 81/250 [19:27<1:18:00, 27.70s/it][A  [OK] Task 8 Ep 81: SUCCESS (steps=105)
+
+pick up the black bowl next to...:  33%|███▎      | 82/250 [19:39<1:04:17, 22.96s/it][A  [OK] Task 8 Ep 82: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  33%|███▎      | 83/250 [19:50<54:01, 19.41s/it]  [A  [OK] Task 8 Ep 83: SUCCESS (steps=116)
+
+pick up the black bowl next to...:  34%|███▎      | 84/250 [20:02<47:56, 17.33s/it][A  [OK] Task 8 Ep 84: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  34%|███▍      | 85/250 [20:13<42:22, 15.41s/it][A  [OK] Task 8 Ep 85: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  34%|███▍      | 86/250 [20:24<38:31, 14.09s/it][A  [OK] Task 8 Ep 86: SUCCESS (steps=100)
+
+pick up the black bowl next to...:  35%|███▍      | 87/250 [20:36<36:13, 13.33s/it][A  [OK] Task 8 Ep 87: SUCCESS (steps=96)
+
+pick up the black bowl next to...:  35%|███▌      | 88/250 [20:47<34:19, 12.71s/it][A  [OK] Task 8 Ep 88: SUCCESS (steps=115)
+
+pick up the black bowl next to...:  36%|███▌      | 89/250 [21:00<34:22, 12.81s/it][A  [OK] Task 8 Ep 89: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  36%|███▌      | 90/250 [21:11<33:05, 12.41s/it][A  [OK] Task 8 Ep 90: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  36%|███▋      | 91/250 [21:22<31:45, 11.99s/it][A  [OK] Task 8 Ep 91: SUCCESS (steps=94)
+
+pick up the black bowl next to...:  37%|███▋      | 92/250 [21:33<30:27, 11.57s/it][A  [OK] Task 8 Ep 92: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  37%|███▋      | 93/250 [21:44<29:52, 11.42s/it][A  [OK] Task 8 Ep 93: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  38%|███▊      | 94/250 [21:56<29:59, 11.53s/it][A  [OK] Task 8 Ep 94: SUCCESS (steps=103)
+
+pick up the black bowl next to...:  38%|███▊      | 95/250 [22:08<30:33, 11.83s/it][A  [OK] Task 8 Ep 95: SUCCESS (steps=96)
+
+pick up the black bowl next to...:  38%|███▊      | 96/250 [22:22<31:34, 12.30s/it][A  [FAIL] Task 8 Ep 96: FAILURE (steps=810)
+
+pick up the black bowl next to...:  39%|███▉      | 97/250 [23:25<1:10:29, 27.64s/it][A  [OK] Task 8 Ep 97: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  39%|███▉      | 98/250 [23:36<57:18, 22.62s/it]  [A  [OK] Task 8 Ep 98: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  40%|███▉      | 99/250 [23:47<47:56, 19.05s/it][A  [OK] Task 8 Ep 99: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  40%|████      | 100/250 [23:58<41:36, 16.65s/it][A  [OK] Task 8 Ep 100: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  40%|████      | 101/250 [24:09<37:25, 15.07s/it][A  [OK] Task 8 Ep 101: SUCCESS (steps=131)
+
+pick up the black bowl next to...:  41%|████      | 102/250 [24:24<37:01, 15.01s/it][A  [FAIL] Task 8 Ep 102: FAILURE (steps=810)
+
+pick up the black bowl next to...:  41%|████      | 103/250 [25:29<1:13:23, 29.96s/it][A  [OK] Task 8 Ep 103: SUCCESS (steps=96)
+
+pick up the black bowl next to...:  42%|████▏     | 104/250 [25:40<58:52, 24.19s/it]  [A  [OK] Task 8 Ep 104: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  42%|████▏     | 105/250 [25:51<48:48, 20.19s/it][A  [OK] Task 8 Ep 105: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  42%|████▏     | 106/250 [26:02<42:06, 17.55s/it][A  [OK] Task 8 Ep 106: SUCCESS (steps=100)
+
+pick up the black bowl next to...:  43%|████▎     | 107/250 [26:13<37:31, 15.75s/it][A  [OK] Task 8 Ep 107: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  43%|████▎     | 108/250 [26:25<34:03, 14.39s/it][A  [OK] Task 8 Ep 108: SUCCESS (steps=108)
+
+pick up the black bowl next to...:  44%|████▎     | 109/250 [26:37<32:09, 13.68s/it][A  [OK] Task 8 Ep 109: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  44%|████▍     | 110/250 [26:48<30:29, 13.07s/it][A  [OK] Task 8 Ep 110: SUCCESS (steps=102)
+
+pick up the black bowl next to...:  44%|████▍     | 111/250 [27:00<29:15, 12.63s/it][A  [OK] Task 8 Ep 111: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  45%|████▍     | 112/250 [27:12<28:18, 12.31s/it][A  [OK] Task 8 Ep 112: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  45%|████▌     | 113/250 [27:24<28:05, 12.30s/it][A  [FAIL] Task 8 Ep 113: FAILURE (steps=810)
+
+pick up the black bowl next to...:  46%|████▌     | 114/250 [28:26<1:02:06, 27.40s/it][A  [OK] Task 8 Ep 114: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  46%|████▌     | 115/250 [28:37<50:17, 22.35s/it]  [A  [FAIL] Task 8 Ep 115: FAILURE (steps=810)
+
+pick up the black bowl next to...:  46%|████▋     | 116/250 [29:40<1:17:04, 34.51s/it][A  [OK] Task 8 Ep 116: SUCCESS (steps=100)
+
+pick up the black bowl next to...:  47%|████▋     | 117/250 [29:51<1:01:00, 27.52s/it][A  [FAIL] Task 8 Ep 117: FAILURE (steps=810)
+
+pick up the black bowl next to...:  47%|████▋     | 118/250 [30:53<1:22:59, 37.72s/it][A  [OK] Task 8 Ep 118: SUCCESS (steps=102)
+
+pick up the black bowl next to...:  48%|████▊     | 119/250 [31:04<1:04:48, 29.68s/it][A  [OK] Task 8 Ep 119: SUCCESS (steps=109)
+
+pick up the black bowl next to...:  48%|████▊     | 120/250 [31:15<52:42, 24.32s/it]  [A  [OK] Task 8 Ep 120: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  48%|████▊     | 121/250 [31:27<44:01, 20.48s/it][A  [OK] Task 8 Ep 121: SUCCESS (steps=95)
+
+pick up the black bowl next to...:  49%|████▉     | 122/250 [31:37<37:20, 17.50s/it][A  [FAIL] Task 8 Ep 122: FAILURE (steps=810)
+
+pick up the black bowl next to...:  49%|████▉     | 123/250 [32:41<1:05:59, 31.18s/it][A  [OK] Task 8 Ep 123: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  50%|████▉     | 124/250 [32:51<52:37, 25.06s/it]  [A  [OK] Task 8 Ep 124: SUCCESS (steps=102)
+
+pick up the black bowl next to...:  50%|█████     | 125/250 [33:02<43:21, 20.82s/it][A  [OK] Task 8 Ep 125: SUCCESS (steps=95)
+
+pick up the black bowl next to...:  50%|█████     | 126/250 [33:13<36:37, 17.72s/it][A  [OK] Task 8 Ep 126: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  51%|█████     | 127/250 [33:23<31:58, 15.60s/it][A  [OK] Task 8 Ep 127: SUCCESS (steps=103)
+
+pick up the black bowl next to...:  51%|█████     | 128/250 [33:35<29:10, 14.35s/it][A  [OK] Task 8 Ep 128: SUCCESS (steps=103)
+
+pick up the black bowl next to...:  52%|█████▏    | 129/250 [33:46<26:52, 13.32s/it][A  [OK] Task 8 Ep 129: SUCCESS (steps=94)
+
+pick up the black bowl next to...:  52%|█████▏    | 130/250 [33:56<24:43, 12.37s/it][A  [OK] Task 8 Ep 130: SUCCESS (steps=105)
+
+pick up the black bowl next to...:  52%|█████▏    | 131/250 [34:07<23:52, 12.04s/it][A  [OK] Task 8 Ep 131: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  53%|█████▎    | 132/250 [34:18<23:07, 11.76s/it][A  [OK] Task 8 Ep 132: SUCCESS (steps=103)
+
+pick up the black bowl next to...:  53%|█████▎    | 133/250 [34:29<22:30, 11.55s/it][A  [OK] Task 8 Ep 133: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  54%|█████▎    | 134/250 [34:40<21:41, 11.22s/it][A  [OK] Task 8 Ep 134: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  54%|█████▍    | 135/250 [34:50<21:11, 11.06s/it][A  [OK] Task 8 Ep 135: SUCCESS (steps=105)
+
+pick up the black bowl next to...:  54%|█████▍    | 136/250 [35:02<21:09, 11.13s/it][A  [OK] Task 8 Ep 136: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  55%|█████▍    | 137/250 [35:12<20:43, 11.00s/it][A  [OK] Task 8 Ep 137: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  55%|█████▌    | 138/250 [35:23<20:28, 10.97s/it][A  [OK] Task 8 Ep 138: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  56%|█████▌    | 139/250 [35:34<20:09, 10.90s/it][A  [OK] Task 8 Ep 139: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  56%|█████▌    | 140/250 [35:45<20:02, 10.94s/it][A  [OK] Task 8 Ep 140: SUCCESS (steps=104)
+
+pick up the black bowl next to...:  56%|█████▋    | 141/250 [35:57<20:23, 11.23s/it][A  [OK] Task 8 Ep 141: SUCCESS (steps=148)
+
+pick up the black bowl next to...:  57%|█████▋    | 142/250 [36:11<21:57, 12.20s/it][A  [OK] Task 8 Ep 142: SUCCESS (steps=104)
+
+pick up the black bowl next to...:  57%|█████▋    | 143/250 [36:23<21:11, 11.88s/it][A  [OK] Task 8 Ep 143: SUCCESS (steps=106)
+
+pick up the black bowl next to...:  58%|█████▊    | 144/250 [36:34<20:45, 11.75s/it][A  [OK] Task 8 Ep 144: SUCCESS (steps=100)
+
+pick up the black bowl next to...:  58%|█████▊    | 145/250 [36:45<20:09, 11.52s/it][A  [OK] Task 8 Ep 145: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  58%|█████▊    | 146/250 [36:56<19:36, 11.31s/it][A  [FAIL] Task 8 Ep 146: FAILURE (steps=810)
+
+pick up the black bowl next to...:  59%|█████▉    | 147/250 [37:58<45:49, 26.69s/it][A  [OK] Task 8 Ep 147: SUCCESS (steps=100)
+
+pick up the black bowl next to...:  59%|█████▉    | 148/250 [38:09<37:22, 21.98s/it][A  [OK] Task 8 Ep 148: SUCCESS (steps=104)
+
+pick up the black bowl next to...:  60%|█████▉    | 149/250 [38:21<31:44, 18.86s/it][A  [OK] Task 8 Ep 149: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  60%|██████    | 150/250 [38:32<27:19, 16.40s/it][A  [OK] Task 8 Ep 150: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  60%|██████    | 151/250 [38:42<24:14, 14.70s/it][A  [OK] Task 8 Ep 151: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  61%|██████    | 152/250 [38:53<21:58, 13.46s/it][A  [OK] Task 8 Ep 152: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  61%|██████    | 153/250 [39:04<20:21, 12.59s/it][A  [OK] Task 8 Ep 153: SUCCESS (steps=96)
+
+pick up the black bowl next to...:  62%|██████▏   | 154/250 [39:14<19:20, 12.09s/it][A  [OK] Task 8 Ep 154: SUCCESS (steps=105)
+
+pick up the black bowl next to...:  62%|██████▏   | 155/250 [39:26<18:48, 11.88s/it][A  [OK] Task 8 Ep 155: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  62%|██████▏   | 156/250 [39:37<18:10, 11.60s/it][A  [OK] Task 8 Ep 156: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  63%|██████▎   | 157/250 [39:48<17:42, 11.42s/it][A  [FAIL] Task 8 Ep 157: FAILURE (steps=810)
+
+pick up the black bowl next to...:  63%|██████▎   | 158/250 [40:48<40:09, 26.19s/it][A  [OK] Task 8 Ep 158: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  64%|██████▎   | 159/250 [40:59<32:44, 21.59s/it][A  [OK] Task 8 Ep 159: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  64%|██████▍   | 160/250 [41:10<27:39, 18.44s/it][A  [FAIL] Task 8 Ep 160: FAILURE (steps=810)
+
+pick up the black bowl next to...:  64%|██████▍   | 161/250 [42:18<49:02, 33.07s/it][A  [OK] Task 8 Ep 161: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  65%|██████▍   | 162/250 [42:29<38:47, 26.45s/it][A  [OK] Task 8 Ep 162: SUCCESS (steps=107)
+
+pick up the black bowl next to...:  65%|██████▌   | 163/250 [42:40<31:49, 21.95s/it][A  [OK] Task 8 Ep 163: SUCCESS (steps=120)
+
+pick up the black bowl next to...:  66%|██████▌   | 164/250 [42:53<27:33, 19.23s/it][A  [OK] Task 8 Ep 164: SUCCESS (steps=100)
+
+pick up the black bowl next to...:  66%|██████▌   | 165/250 [43:04<23:43, 16.74s/it][A  [OK] Task 8 Ep 165: SUCCESS (steps=100)
+
+pick up the black bowl next to...:  66%|██████▋   | 166/250 [43:15<21:05, 15.07s/it][A  [OK] Task 8 Ep 166: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  67%|██████▋   | 167/250 [43:26<18:59, 13.73s/it][A  [OK] Task 8 Ep 167: SUCCESS (steps=106)
+
+pick up the black bowl next to...:  67%|██████▋   | 168/250 [43:37<17:56, 13.12s/it][A  [OK] Task 8 Ep 168: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  68%|██████▊   | 169/250 [43:48<16:48, 12.44s/it][A  [OK] Task 8 Ep 169: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  68%|██████▊   | 170/250 [43:59<16:01, 12.02s/it][A  [OK] Task 8 Ep 170: SUCCESS (steps=106)
+
+pick up the black bowl next to...:  68%|██████▊   | 171/250 [44:11<15:41, 11.92s/it][A  [OK] Task 8 Ep 171: SUCCESS (steps=102)
+
+pick up the black bowl next to...:  69%|██████▉   | 172/250 [44:22<15:14, 11.73s/it][A  [OK] Task 8 Ep 172: SUCCESS (steps=120)
+
+pick up the black bowl next to...:  69%|██████▉   | 173/250 [44:36<15:40, 12.21s/it][A  [OK] Task 8 Ep 173: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  70%|██████▉   | 174/250 [44:47<15:01, 11.86s/it][A  [OK] Task 8 Ep 174: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  70%|███████   | 175/250 [44:58<14:32, 11.63s/it][A  [OK] Task 8 Ep 175: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  70%|███████   | 176/250 [45:08<14:00, 11.36s/it][A  [FAIL] Task 8 Ep 176: FAILURE (steps=810)
+
+pick up the black bowl next to...:  71%|███████   | 177/250 [46:13<33:05, 27.19s/it][A  [OK] Task 8 Ep 177: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  71%|███████   | 178/250 [46:24<26:50, 22.36s/it][A  [OK] Task 8 Ep 178: SUCCESS (steps=96)
+
+pick up the black bowl next to...:  72%|███████▏  | 179/250 [46:35<22:32, 19.05s/it][A  [OK] Task 8 Ep 179: SUCCESS (steps=122)
+
+pick up the black bowl next to...:  72%|███████▏  | 180/250 [46:48<20:03, 17.20s/it][A  [OK] Task 8 Ep 180: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  72%|███████▏  | 181/250 [46:59<17:37, 15.33s/it][A  [OK] Task 8 Ep 181: SUCCESS (steps=100)
+
+pick up the black bowl next to...:  73%|███████▎  | 182/250 [47:10<15:53, 14.02s/it][A  [FAIL] Task 8 Ep 182: FAILURE (steps=810)
+
+pick up the black bowl next to...:  73%|███████▎  | 183/250 [48:14<32:35, 29.19s/it][A  [OK] Task 8 Ep 183: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  74%|███████▎  | 184/250 [48:26<26:09, 23.78s/it][A  [OK] Task 8 Ep 184: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  74%|███████▍  | 185/250 [48:36<21:31, 19.87s/it][A  [OK] Task 8 Ep 185: SUCCESS (steps=100)
+
+pick up the black bowl next to...:  74%|███████▍  | 186/250 [48:48<18:44, 17.57s/it][A  [OK] Task 8 Ep 186: SUCCESS (steps=102)
+
+pick up the black bowl next to...:  75%|███████▍  | 187/250 [49:00<16:32, 15.75s/it][A  [OK] Task 8 Ep 187: SUCCESS (steps=130)
+
+pick up the black bowl next to...:  75%|███████▌  | 188/250 [49:14<15:45, 15.25s/it][A  [OK] Task 8 Ep 188: SUCCESS (steps=103)
+
+pick up the black bowl next to...:  76%|███████▌  | 189/250 [49:25<14:16, 14.05s/it][A  [OK] Task 8 Ep 189: SUCCESS (steps=106)
+
+pick up the black bowl next to...:  76%|███████▌  | 190/250 [49:37<13:17, 13.29s/it][A  [OK] Task 8 Ep 190: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  76%|███████▋  | 191/250 [49:48<12:27, 12.68s/it][A  [OK] Task 8 Ep 191: SUCCESS (steps=96)
+
+pick up the black bowl next to...:  77%|███████▋  | 192/250 [49:59<11:40, 12.08s/it][A  [FAIL] Task 8 Ep 192: FAILURE (steps=810)
+
+pick up the black bowl next to...:  77%|███████▋  | 193/250 [51:03<26:27, 27.85s/it][A  [OK] Task 8 Ep 193: SUCCESS (steps=109)
+
+pick up the black bowl next to...:  78%|███████▊  | 194/250 [51:15<21:28, 23.01s/it][A  [OK] Task 8 Ep 194: SUCCESS (steps=100)
+
+pick up the black bowl next to...:  78%|███████▊  | 195/250 [51:26<17:48, 19.43s/it][A  [OK] Task 8 Ep 195: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  78%|███████▊  | 196/250 [51:37<15:09, 16.85s/it][A  [OK] Task 8 Ep 196: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  79%|███████▉  | 197/250 [51:48<13:18, 15.08s/it][A  [OK] Task 8 Ep 197: SUCCESS (steps=96)
+
+pick up the black bowl next to...:  79%|███████▉  | 198/250 [51:59<11:58, 13.82s/it][A  [FAIL] Task 8 Ep 198: FAILURE (steps=810)
+
+pick up the black bowl next to...:  80%|███████▉  | 199/250 [53:07<25:37, 30.15s/it][A  [OK] Task 8 Ep 199: SUCCESS (steps=95)
+
+pick up the black bowl next to...:  80%|████████  | 200/250 [53:18<20:24, 24.49s/it][A  [OK] Task 8 Ep 200: SUCCESS (steps=100)
+
+pick up the black bowl next to...:  80%|████████  | 201/250 [53:30<16:44, 20.51s/it][A  [OK] Task 8 Ep 201: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  81%|████████  | 202/250 [53:41<14:17, 17.86s/it][A  [OK] Task 8 Ep 202: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  81%|████████  | 203/250 [53:52<12:20, 15.76s/it][A  [OK] Task 8 Ep 203: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  82%|████████▏ | 204/250 [54:03<10:54, 14.23s/it][A  [OK] Task 8 Ep 204: SUCCESS (steps=105)
+
+pick up the black bowl next to...:  82%|████████▏ | 205/250 [54:15<10:07, 13.50s/it][A  [OK] Task 8 Ep 205: SUCCESS (steps=112)
+
+pick up the black bowl next to...:  82%|████████▏ | 206/250 [54:27<09:45, 13.31s/it][A  [OK] Task 8 Ep 206: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  83%|████████▎ | 207/250 [54:39<09:06, 12.70s/it][A  [OK] Task 8 Ep 207: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  83%|████████▎ | 208/250 [54:50<08:35, 12.28s/it][A  [FAIL] Task 8 Ep 208: FAILURE (steps=810)
+
+pick up the black bowl next to...:  84%|████████▎ | 209/250 [55:54<18:56, 27.73s/it][A  [OK] Task 8 Ep 209: SUCCESS (steps=103)
+
+pick up the black bowl next to...:  84%|████████▍ | 210/250 [56:05<15:14, 22.85s/it][A  [OK] Task 8 Ep 210: SUCCESS (steps=93)
+
+pick up the black bowl next to...:  84%|████████▍ | 211/250 [56:16<12:26, 19.14s/it][A  [OK] Task 8 Ep 211: SUCCESS (steps=93)
+
+pick up the black bowl next to...:  85%|████████▍ | 212/250 [56:26<10:26, 16.49s/it][A  [OK] Task 8 Ep 212: SUCCESS (steps=106)
+
+pick up the black bowl next to...:  85%|████████▌ | 213/250 [56:38<09:14, 14.98s/it][A  [OK] Task 8 Ep 213: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  86%|████████▌ | 214/250 [56:48<08:14, 13.74s/it][A  [OK] Task 8 Ep 214: SUCCESS (steps=104)
+
+pick up the black bowl next to...:  86%|████████▌ | 215/250 [57:00<07:36, 13.03s/it][A  [OK] Task 8 Ep 215: SUCCESS (steps=96)
+
+pick up the black bowl next to...:  86%|████████▋ | 216/250 [57:10<06:58, 12.31s/it][A  [OK] Task 8 Ep 216: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  87%|████████▋ | 217/250 [57:21<06:32, 11.90s/it][A  [OK] Task 8 Ep 217: SUCCESS (steps=103)
+
+pick up the black bowl next to...:  87%|████████▋ | 218/250 [57:34<06:26, 12.09s/it][A  [OK] Task 8 Ep 218: SUCCESS (steps=100)
+
+pick up the black bowl next to...:  88%|████████▊ | 219/250 [57:46<06:12, 12.03s/it][A  [OK] Task 8 Ep 219: SUCCESS (steps=115)
+
+pick up the black bowl next to...:  88%|████████▊ | 220/250 [57:59<06:11, 12.40s/it][A  [OK] Task 8 Ep 220: SUCCESS (steps=106)
+
+pick up the black bowl next to...:  88%|████████▊ | 221/250 [58:12<06:01, 12.47s/it][A  [OK] Task 8 Ep 221: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  89%|████████▉ | 222/250 [58:23<05:38, 12.09s/it][A  [OK] Task 8 Ep 222: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  89%|████████▉ | 223/250 [58:34<05:19, 11.83s/it][A  [OK] Task 8 Ep 223: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  90%|████████▉ | 224/250 [58:45<04:59, 11.52s/it][A  [OK] Task 8 Ep 224: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  90%|█████████ | 225/250 [58:56<04:44, 11.38s/it][A  [OK] Task 8 Ep 225: SUCCESS (steps=105)
+
+pick up the black bowl next to...:  90%|█████████ | 226/250 [59:07<04:33, 11.40s/it][A  [OK] Task 8 Ep 226: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  91%|█████████ | 227/250 [59:18<04:18, 11.25s/it][A  [OK] Task 8 Ep 227: SUCCESS (steps=105)
+
+pick up the black bowl next to...:  91%|█████████ | 228/250 [59:30<04:10, 11.40s/it][A  [OK] Task 8 Ep 228: SUCCESS (steps=97)
+
+pick up the black bowl next to...:  92%|█████████▏| 229/250 [59:41<03:56, 11.24s/it][A  [OK] Task 8 Ep 229: SUCCESS (steps=96)
+
+pick up the black bowl next to...:  92%|█████████▏| 230/250 [59:52<03:41, 11.08s/it][A  [OK] Task 8 Ep 230: SUCCESS (steps=96)
+
+pick up the black bowl next to...:  92%|█████████▏| 231/250 [1:00:02<03:28, 10.95s/it][A  [OK] Task 8 Ep 231: SUCCESS (steps=101)
+
+pick up the black bowl next to...:  93%|█████████▎| 232/250 [1:00:14<03:18, 11.05s/it][A  [OK] Task 8 Ep 232: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  93%|█████████▎| 233/250 [1:00:25<03:07, 11.04s/it][A  [OK] Task 8 Ep 233: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  94%|█████████▎| 234/250 [1:00:35<02:55, 10.97s/it][A  [OK] Task 8 Ep 234: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  94%|█████████▍| 235/250 [1:00:46<02:44, 10.94s/it][A  [OK] Task 8 Ep 235: SUCCESS (steps=108)
+
+pick up the black bowl next to...:  94%|█████████▍| 236/250 [1:00:58<02:36, 11.17s/it][A  [OK] Task 8 Ep 236: SUCCESS (steps=108)
+
+pick up the black bowl next to...:  95%|█████████▍| 237/250 [1:01:10<02:27, 11.34s/it][A  [FAIL] Task 8 Ep 237: FAILURE (steps=810)
+
+pick up the black bowl next to...:  95%|█████████▌| 238/250 [1:02:14<05:27, 27.32s/it][A  [OK] Task 8 Ep 238: SUCCESS (steps=102)
+
+pick up the black bowl next to...:  96%|█████████▌| 239/250 [1:02:26<04:07, 22.54s/it][A  [OK] Task 8 Ep 239: SUCCESS (steps=95)
+
+pick up the black bowl next to...:  96%|█████████▌| 240/250 [1:02:36<03:10, 19.01s/it][A  [OK] Task 8 Ep 240: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  96%|█████████▋| 241/250 [1:02:49<02:33, 17.02s/it][A  [OK] Task 8 Ep 241: SUCCESS (steps=99)
+
+pick up the black bowl next to...:  97%|█████████▋| 242/250 [1:03:00<02:01, 15.16s/it][A  [OK] Task 8 Ep 242: SUCCESS (steps=130)
+
+pick up the black bowl next to...:  97%|█████████▋| 243/250 [1:03:13<01:43, 14.77s/it][A  [OK] Task 8 Ep 243: SUCCESS (steps=103)
+
+pick up the black bowl next to...:  98%|█████████▊| 244/250 [1:03:25<01:22, 13.70s/it][A  [OK] Task 8 Ep 244: SUCCESS (steps=105)
+
+pick up the black bowl next to...:  98%|█████████▊| 245/250 [1:03:36<01:05, 13.07s/it][A  [OK] Task 8 Ep 245: SUCCESS (steps=98)
+
+pick up the black bowl next to...:  98%|█████████▊| 246/250 [1:03:47<00:49, 12.39s/it][A  [OK] Task 8 Ep 246: SUCCESS (steps=100)
+
+pick up the black bowl next to...:  99%|█████████▉| 247/250 [1:03:58<00:36, 12.05s/it][A  [OK] Task 8 Ep 247: SUCCESS (steps=103)
+
+pick up the black bowl next to...:  99%|█████████▉| 248/250 [1:04:10<00:23, 11.83s/it][A  [OK] Task 8 Ep 248: SUCCESS (steps=98)
+
+pick up the black bowl next to...: 100%|█████████▉| 249/250 [1:04:22<00:11, 11.85s/it][A  [OK] Task 8 Ep 249: SUCCESS (steps=97)
+
+pick up the black bowl next to...: 100%|██████████| 250/250 [1:04:33<00:00, 11.60s/it][A
+                                                                                      [A   Task 8: 231/250 (92.4%)
+Tasks:   0%|          | 0/1 [1:04:42<?, ?it/s]
+
+Total success rate: 231/250 (92.4%)

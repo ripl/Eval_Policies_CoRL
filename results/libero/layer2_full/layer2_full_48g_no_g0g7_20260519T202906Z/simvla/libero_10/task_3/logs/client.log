@@ -1,0 +1,523 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8529
+   Task suite: libero_10
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_10
+   Tasks: 10, Trials per task: 250
+   Max steps: 900
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+put the black bowl in the bott...:   0%|          | 0/250 [00:00<?, ?it/s][A  [OK] Task 3 Ep 0: SUCCESS (steps=212)
+
+put the black bowl in the bott...:   0%|          | 1/250 [00:08<36:07,  8.71s/it][A  [OK] Task 3 Ep 1: SUCCESS (steps=288)
+
+put the black bowl in the bott...:   1%|          | 2/250 [00:20<43:49, 10.60s/it][A  [FAIL] Task 3 Ep 2: FAILURE (steps=910)
+
+put the black bowl in the bott...:   1%|          | 3/250 [00:53<1:24:47, 20.60s/it][A  [OK] Task 3 Ep 3: SUCCESS (steps=222)
+
+put the black bowl in the bott...:   2%|▏         | 4/250 [01:01<1:05:21, 15.94s/it][A  [OK] Task 3 Ep 4: SUCCESS (steps=209)
+
+put the black bowl in the bott...:   2%|▏         | 5/250 [01:10<53:58, 13.22s/it]  [A  [FAIL] Task 3 Ep 5: FAILURE (steps=910)
+
+put the black bowl in the bott...:   2%|▏         | 6/250 [01:43<1:20:51, 19.88s/it][A  [OK] Task 3 Ep 6: SUCCESS (steps=207)
+
+put the black bowl in the bott...:   3%|▎         | 7/250 [01:52<1:06:14, 16.35s/it][A  [OK] Task 3 Ep 7: SUCCESS (steps=683)
+
+put the black bowl in the bott...:   3%|▎         | 8/250 [02:17<1:17:16, 19.16s/it][A  [OK] Task 3 Ep 8: SUCCESS (steps=218)
+
+put the black bowl in the bott...:   4%|▎         | 9/250 [02:26<1:03:47, 15.88s/it][A  [OK] Task 3 Ep 9: SUCCESS (steps=215)
+
+put the black bowl in the bott...:   4%|▍         | 10/250 [02:34<54:50, 13.71s/it] [A  [FAIL] Task 3 Ep 10: FAILURE (steps=910)
+
+put the black bowl in the bott...:   4%|▍         | 11/250 [03:06<1:16:50, 19.29s/it][A  [OK] Task 3 Ep 11: SUCCESS (steps=205)
+
+put the black bowl in the bott...:   5%|▍         | 12/250 [03:16<1:04:59, 16.38s/it][A  [OK] Task 3 Ep 12: SUCCESS (steps=212)
+
+put the black bowl in the bott...:   5%|▌         | 13/250 [03:25<55:27, 14.04s/it]  [A  [OK] Task 3 Ep 13: SUCCESS (steps=208)
+
+put the black bowl in the bott...:   6%|▌         | 14/250 [03:33<48:50, 12.42s/it][A  [OK] Task 3 Ep 14: SUCCESS (steps=217)
+
+put the black bowl in the bott...:   6%|▌         | 15/250 [03:42<44:08, 11.27s/it][A  [OK] Task 3 Ep 15: SUCCESS (steps=232)
+
+put the black bowl in the bott...:   6%|▋         | 16/250 [03:51<41:31, 10.65s/it][A  [OK] Task 3 Ep 16: SUCCESS (steps=229)
+
+put the black bowl in the bott...:   7%|▋         | 17/250 [04:00<39:30, 10.17s/it][A  [OK] Task 3 Ep 17: SUCCESS (steps=216)
+
+put the black bowl in the bott...:   7%|▋         | 18/250 [04:09<37:41,  9.75s/it][A  [OK] Task 3 Ep 18: SUCCESS (steps=208)
+
+put the black bowl in the bott...:   8%|▊         | 19/250 [04:18<36:59,  9.61s/it][A  [OK] Task 3 Ep 19: SUCCESS (steps=455)
+
+put the black bowl in the bott...:   8%|▊         | 20/250 [04:35<45:14, 11.80s/it][A  [OK] Task 3 Ep 20: SUCCESS (steps=343)
+
+put the black bowl in the bott...:   8%|▊         | 21/250 [04:49<46:45, 12.25s/it][A  [OK] Task 3 Ep 21: SUCCESS (steps=373)
+
+put the black bowl in the bott...:   9%|▉         | 22/250 [05:03<48:51, 12.86s/it][A  [OK] Task 3 Ep 22: SUCCESS (steps=213)
+
+put the black bowl in the bott...:   9%|▉         | 23/250 [05:11<43:34, 11.52s/it][A  [OK] Task 3 Ep 23: SUCCESS (steps=206)
+
+put the black bowl in the bott...:  10%|▉         | 24/250 [05:20<39:44, 10.55s/it][A  [FAIL] Task 3 Ep 24: FAILURE (steps=910)
+
+put the black bowl in the bott...:  10%|█         | 25/250 [05:52<1:04:32, 17.21s/it][A  [OK] Task 3 Ep 25: SUCCESS (steps=225)
+
+put the black bowl in the bott...:  10%|█         | 26/250 [06:01<55:02, 14.74s/it]  [A  [OK] Task 3 Ep 26: SUCCESS (steps=534)
+
+put the black bowl in the bott...:  11%|█         | 27/250 [06:21<1:00:10, 16.19s/it][A  [OK] Task 3 Ep 27: SUCCESS (steps=363)
+
+put the black bowl in the bott...:  11%|█         | 28/250 [06:36<58:15, 15.75s/it]  [A  [OK] Task 3 Ep 28: SUCCESS (steps=347)
+
+put the black bowl in the bott...:  12%|█▏        | 29/250 [06:49<55:38, 15.11s/it][A  [OK] Task 3 Ep 29: SUCCESS (steps=212)
+
+put the black bowl in the bott...:  12%|█▏        | 30/250 [06:58<48:26, 13.21s/it][A  [OK] Task 3 Ep 30: SUCCESS (steps=459)
+
+put the black bowl in the bott...:  12%|█▏        | 31/250 [07:15<52:30, 14.39s/it][A  [OK] Task 3 Ep 31: SUCCESS (steps=203)
+
+put the black bowl in the bott...:  13%|█▎        | 32/250 [07:23<45:29, 12.52s/it][A  [OK] Task 3 Ep 32: SUCCESS (steps=328)
+
+put the black bowl in the bott...:  13%|█▎        | 33/250 [07:36<45:26, 12.56s/it][A  [OK] Task 3 Ep 33: SUCCESS (steps=330)
+
+put the black bowl in the bott...:  14%|█▎        | 34/250 [07:49<45:47, 12.72s/it][A  [OK] Task 3 Ep 34: SUCCESS (steps=247)
+
+put the black bowl in the bott...:  14%|█▍        | 35/250 [07:59<42:40, 11.91s/it][A  [OK] Task 3 Ep 35: SUCCESS (steps=207)
+
+put the black bowl in the bott...:  14%|█▍        | 36/250 [08:07<38:34, 10.82s/it][A  [OK] Task 3 Ep 36: SUCCESS (steps=475)
+
+put the black bowl in the bott...:  15%|█▍        | 37/250 [08:26<47:01, 13.25s/it][A  [OK] Task 3 Ep 37: SUCCESS (steps=371)
+
+put the black bowl in the bott...:  15%|█▌        | 38/250 [08:41<48:04, 13.60s/it][A  [OK] Task 3 Ep 38: SUCCESS (steps=203)
+
+put the black bowl in the bott...:  16%|█▌        | 39/250 [08:50<42:57, 12.22s/it][A  [FAIL] Task 3 Ep 39: FAILURE (steps=910)
+
+put the black bowl in the bott...:  16%|█▌        | 40/250 [09:23<1:04:34, 18.45s/it][A  [OK] Task 3 Ep 40: SUCCESS (steps=218)
+
+put the black bowl in the bott...:  16%|█▋        | 41/250 [09:31<54:03, 15.52s/it]  [A  [OK] Task 3 Ep 41: SUCCESS (steps=206)
+
+put the black bowl in the bott...:  17%|█▋        | 42/250 [09:40<46:15, 13.34s/it][A  [OK] Task 3 Ep 42: SUCCESS (steps=263)
+
+put the black bowl in the bott...:  17%|█▋        | 43/250 [09:50<42:55, 12.44s/it][A  [OK] Task 3 Ep 43: SUCCESS (steps=214)
+
+put the black bowl in the bott...:  18%|█▊        | 44/250 [09:58<38:31, 11.22s/it][A  [OK] Task 3 Ep 44: SUCCESS (steps=307)
+
+put the black bowl in the bott...:  18%|█▊        | 45/250 [10:10<38:50, 11.37s/it][A  [OK] Task 3 Ep 45: SUCCESS (steps=211)
+
+put the black bowl in the bott...:  18%|█▊        | 46/250 [10:19<36:04, 10.61s/it][A  [OK] Task 3 Ep 46: SUCCESS (steps=222)
+
+put the black bowl in the bott...:  19%|█▉        | 47/250 [10:28<34:07, 10.09s/it][A  [FAIL] Task 3 Ep 47: FAILURE (steps=910)
+
+put the black bowl in the bott...:  19%|█▉        | 48/250 [11:01<56:57, 16.92s/it][A  [OK] Task 3 Ep 48: SUCCESS (steps=265)
+
+put the black bowl in the bott...:  20%|█▉        | 49/250 [11:11<50:29, 15.07s/it][A  [FAIL] Task 3 Ep 49: FAILURE (steps=910)
+
+put the black bowl in the bott...:  20%|██        | 50/250 [11:45<1:08:25, 20.53s/it][A  [FAIL] Task 3 Ep 50: FAILURE (steps=910)
+
+put the black bowl in the bott...:  20%|██        | 51/250 [12:17<1:19:46, 24.06s/it][A  [OK] Task 3 Ep 51: SUCCESS (steps=259)
+
+put the black bowl in the bott...:  21%|██        | 52/250 [12:27<1:05:29, 19.84s/it][A  [OK] Task 3 Ep 52: SUCCESS (steps=199)
+
+put the black bowl in the bott...:  21%|██        | 53/250 [12:35<53:21, 16.25s/it]  [A  [OK] Task 3 Ep 53: SUCCESS (steps=208)
+
+put the black bowl in the bott...:  22%|██▏       | 54/250 [12:43<45:11, 13.83s/it][A  [OK] Task 3 Ep 54: SUCCESS (steps=218)
+
+put the black bowl in the bott...:  22%|██▏       | 55/250 [12:52<39:50, 12.26s/it][A  [FAIL] Task 3 Ep 55: FAILURE (steps=910)
+
+put the black bowl in the bott...:  22%|██▏       | 56/250 [13:24<59:28, 18.39s/it][A  [OK] Task 3 Ep 56: SUCCESS (steps=232)
+
+put the black bowl in the bott...:  23%|██▎       | 57/250 [13:34<50:35, 15.73s/it][A  [FAIL] Task 3 Ep 57: FAILURE (steps=910)
+
+put the black bowl in the bott...:  23%|██▎       | 58/250 [14:07<1:06:57, 20.92s/it][A  [OK] Task 3 Ep 58: SUCCESS (steps=752)
+
+put the black bowl in the bott...:  24%|██▎       | 59/250 [14:35<1:13:32, 23.10s/it][A  [OK] Task 3 Ep 59: SUCCESS (steps=209)
+
+put the black bowl in the bott...:  24%|██▍       | 60/250 [14:43<59:03, 18.65s/it]  [A  [OK] Task 3 Ep 60: SUCCESS (steps=227)
+
+put the black bowl in the bott...:  24%|██▍       | 61/250 [14:52<49:42, 15.78s/it][A  [OK] Task 3 Ep 61: SUCCESS (steps=225)
+
+put the black bowl in the bott...:  25%|██▍       | 62/250 [15:01<43:02, 13.74s/it][A  [OK] Task 3 Ep 62: SUCCESS (steps=408)
+
+put the black bowl in the bott...:  25%|██▌       | 63/250 [15:17<44:24, 14.25s/it][A  [OK] Task 3 Ep 63: SUCCESS (steps=323)
+
+put the black bowl in the bott...:  26%|██▌       | 64/250 [15:29<42:29, 13.70s/it][A  [OK] Task 3 Ep 64: SUCCESS (steps=212)
+
+put the black bowl in the bott...:  26%|██▌       | 65/250 [15:38<37:31, 12.17s/it][A  [OK] Task 3 Ep 65: SUCCESS (steps=210)
+
+put the black bowl in the bott...:  26%|██▋       | 66/250 [15:46<33:57, 11.07s/it][A  [OK] Task 3 Ep 66: SUCCESS (steps=202)
+
+put the black bowl in the bott...:  27%|██▋       | 67/250 [15:54<31:02, 10.18s/it][A  [OK] Task 3 Ep 67: SUCCESS (steps=213)
+
+put the black bowl in the bott...:  27%|██▋       | 68/250 [16:03<29:26,  9.71s/it][A  [OK] Task 3 Ep 68: SUCCESS (steps=224)
+
+put the black bowl in the bott...:  28%|██▊       | 69/250 [16:12<28:28,  9.44s/it][A  [OK] Task 3 Ep 69: SUCCESS (steps=316)
+
+put the black bowl in the bott...:  28%|██▊       | 70/250 [16:24<30:53, 10.30s/it][A  [OK] Task 3 Ep 70: SUCCESS (steps=230)
+
+put the black bowl in the bott...:  28%|██▊       | 71/250 [16:34<30:04, 10.08s/it][A  [OK] Task 3 Ep 71: SUCCESS (steps=269)
+
+put the black bowl in the bott...:  29%|██▉       | 72/250 [16:44<30:28, 10.27s/it][A  [OK] Task 3 Ep 72: SUCCESS (steps=213)
+
+put the black bowl in the bott...:  29%|██▉       | 73/250 [16:54<29:54, 10.14s/it][A  [OK] Task 3 Ep 73: SUCCESS (steps=267)
+
+put the black bowl in the bott...:  30%|██▉       | 74/250 [17:05<30:18, 10.33s/it][A  [OK] Task 3 Ep 74: SUCCESS (steps=230)
+
+put the black bowl in the bott...:  30%|███       | 75/250 [17:14<29:03,  9.96s/it][A  [FAIL] Task 3 Ep 75: FAILURE (steps=910)
+
+put the black bowl in the bott...:  30%|███       | 76/250 [17:47<49:18, 17.01s/it][A  [OK] Task 3 Ep 76: SUCCESS (steps=199)
+
+put the black bowl in the bott...:  31%|███       | 77/250 [17:56<41:15, 14.31s/it][A  [OK] Task 3 Ep 77: SUCCESS (steps=593)
+
+put the black bowl in the bott...:  31%|███       | 78/250 [18:17<47:18, 16.50s/it][A  [OK] Task 3 Ep 78: SUCCESS (steps=346)
+
+put the black bowl in the bott...:  32%|███▏      | 79/250 [18:30<44:05, 15.47s/it][A  [OK] Task 3 Ep 79: SUCCESS (steps=231)
+
+put the black bowl in the bott...:  32%|███▏      | 80/250 [18:39<38:21, 13.54s/it][A  [OK] Task 3 Ep 80: SUCCESS (steps=216)
+
+put the black bowl in the bott...:  32%|███▏      | 81/250 [18:48<34:01, 12.08s/it][A  [FAIL] Task 3 Ep 81: FAILURE (steps=910)
+
+put the black bowl in the bott...:  33%|███▎      | 82/250 [19:21<51:16, 18.31s/it][A  [OK] Task 3 Ep 82: SUCCESS (steps=288)
+
+put the black bowl in the bott...:  33%|███▎      | 83/250 [19:32<44:54, 16.14s/it][A  [OK] Task 3 Ep 83: SUCCESS (steps=205)
+
+put the black bowl in the bott...:  34%|███▎      | 84/250 [19:40<38:03, 13.76s/it][A  [OK] Task 3 Ep 84: SUCCESS (steps=248)
+
+put the black bowl in the bott...:  34%|███▍      | 85/250 [19:50<34:32, 12.56s/it][A  [OK] Task 3 Ep 85: SUCCESS (steps=220)
+
+put the black bowl in the bott...:  34%|███▍      | 86/250 [19:59<31:17, 11.45s/it][A  [OK] Task 3 Ep 86: SUCCESS (steps=299)
+
+put the black bowl in the bott...:  35%|███▍      | 87/250 [20:10<31:13, 11.49s/it][A  [OK] Task 3 Ep 87: SUCCESS (steps=527)
+
+put the black bowl in the bott...:  35%|███▌      | 88/250 [20:30<37:41, 13.96s/it][A  [OK] Task 3 Ep 88: SUCCESS (steps=271)
+
+put the black bowl in the bott...:  36%|███▌      | 89/250 [20:41<34:51, 12.99s/it][A  [OK] Task 3 Ep 89: SUCCESS (steps=221)
+
+put the black bowl in the bott...:  36%|███▌      | 90/250 [20:50<31:29, 11.81s/it][A  [OK] Task 3 Ep 90: SUCCESS (steps=430)
+
+put the black bowl in the bott...:  36%|███▋      | 91/250 [21:07<35:22, 13.35s/it][A  [FAIL] Task 3 Ep 91: FAILURE (steps=910)
+
+put the black bowl in the bott...:  37%|███▋      | 92/250 [21:40<50:49, 19.30s/it][A  [OK] Task 3 Ep 92: SUCCESS (steps=230)
+
+put the black bowl in the bott...:  37%|███▋      | 93/250 [21:49<42:34, 16.27s/it][A  [OK] Task 3 Ep 93: SUCCESS (steps=211)
+
+put the black bowl in the bott...:  38%|███▊      | 94/250 [21:58<36:14, 13.94s/it][A  [OK] Task 3 Ep 94: SUCCESS (steps=234)
+
+put the black bowl in the bott...:  38%|███▊      | 95/250 [22:07<32:20, 12.52s/it][A  [OK] Task 3 Ep 95: SUCCESS (steps=219)
+
+put the black bowl in the bott...:  38%|███▊      | 96/250 [22:15<29:08, 11.35s/it][A  [OK] Task 3 Ep 96: SUCCESS (steps=225)
+
+put the black bowl in the bott...:  39%|███▉      | 97/250 [22:24<27:09, 10.65s/it][A  [OK] Task 3 Ep 97: SUCCESS (steps=357)
+
+put the black bowl in the bott...:  39%|███▉      | 98/250 [22:38<29:21, 11.59s/it][A  [OK] Task 3 Ep 98: SUCCESS (steps=262)
+
+put the black bowl in the bott...:  40%|███▉      | 99/250 [22:48<28:10, 11.20s/it][A  [OK] Task 3 Ep 99: SUCCESS (steps=470)
+
+put the black bowl in the bott...:  40%|████      | 100/250 [23:07<33:06, 13.25s/it][A  [OK] Task 3 Ep 100: SUCCESS (steps=241)
+
+put the black bowl in the bott...:  40%|████      | 101/250 [23:16<30:04, 12.11s/it][A  [OK] Task 3 Ep 101: SUCCESS (steps=273)
+
+put the black bowl in the bott...:  41%|████      | 102/250 [23:27<28:49, 11.68s/it][A  [OK] Task 3 Ep 102: SUCCESS (steps=206)
+
+put the black bowl in the bott...:  41%|████      | 103/250 [23:35<26:09, 10.68s/it][A  [FAIL] Task 3 Ep 103: FAILURE (steps=910)
+
+put the black bowl in the bott...:  42%|████▏     | 104/250 [24:08<41:59, 17.26s/it][A  [OK] Task 3 Ep 104: SUCCESS (steps=207)
+
+put the black bowl in the bott...:  42%|████▏     | 105/250 [24:17<36:14, 14.99s/it][A  [OK] Task 3 Ep 105: SUCCESS (steps=238)
+
+put the black bowl in the bott...:  42%|████▏     | 106/250 [24:28<32:49, 13.68s/it][A  [OK] Task 3 Ep 106: SUCCESS (steps=218)
+
+put the black bowl in the bott...:  43%|████▎     | 107/250 [24:37<28:58, 12.16s/it][A  [OK] Task 3 Ep 107: SUCCESS (steps=791)
+
+put the black bowl in the bott...:  43%|████▎     | 108/250 [25:05<40:30, 17.11s/it][A  [OK] Task 3 Ep 108: SUCCESS (steps=312)
+
+put the black bowl in the bott...:  44%|████▎     | 109/250 [25:17<36:41, 15.61s/it][A  [OK] Task 3 Ep 109: SUCCESS (steps=339)
+
+put the black bowl in the bott...:  44%|████▍     | 110/250 [25:30<34:30, 14.79s/it][A  [OK] Task 3 Ep 110: SUCCESS (steps=224)
+
+put the black bowl in the bott...:  44%|████▍     | 111/250 [25:39<30:09, 13.02s/it][A  [OK] Task 3 Ep 111: SUCCESS (steps=224)
+
+put the black bowl in the bott...:  45%|████▍     | 112/250 [25:48<27:06, 11.78s/it][A  [OK] Task 3 Ep 112: SUCCESS (steps=210)
+
+put the black bowl in the bott...:  45%|████▌     | 113/250 [25:57<24:41, 10.82s/it][A  [OK] Task 3 Ep 113: SUCCESS (steps=220)
+
+put the black bowl in the bott...:  46%|████▌     | 114/250 [26:05<23:09, 10.22s/it][A  [OK] Task 3 Ep 114: SUCCESS (steps=202)
+
+put the black bowl in the bott...:  46%|████▌     | 115/250 [26:14<21:35,  9.60s/it][A  [OK] Task 3 Ep 115: SUCCESS (steps=287)
+
+put the black bowl in the bott...:  46%|████▋     | 116/250 [26:25<22:24, 10.03s/it][A  [OK] Task 3 Ep 116: SUCCESS (steps=292)
+
+put the black bowl in the bott...:  47%|████▋     | 117/250 [26:36<23:09, 10.45s/it][A  [OK] Task 3 Ep 117: SUCCESS (steps=277)
+
+put the black bowl in the bott...:  47%|████▋     | 118/250 [26:47<23:11, 10.54s/it][A  [OK] Task 3 Ep 118: SUCCESS (steps=772)
+
+put the black bowl in the bott...:  48%|████▊     | 119/250 [27:15<34:35, 15.84s/it][A  [OK] Task 3 Ep 119: SUCCESS (steps=225)
+
+put the black bowl in the bott...:  48%|████▊     | 120/250 [27:24<29:53, 13.80s/it][A  [OK] Task 3 Ep 120: SUCCESS (steps=230)
+
+put the black bowl in the bott...:  48%|████▊     | 121/250 [27:34<27:03, 12.58s/it][A  [OK] Task 3 Ep 121: SUCCESS (steps=348)
+
+put the black bowl in the bott...:  49%|████▉     | 122/250 [27:47<27:23, 12.84s/it][A  [OK] Task 3 Ep 122: SUCCESS (steps=372)
+
+put the black bowl in the bott...:  49%|████▉     | 123/250 [28:02<28:11, 13.32s/it][A  [OK] Task 3 Ep 123: SUCCESS (steps=206)
+
+put the black bowl in the bott...:  50%|████▉     | 124/250 [28:10<24:46, 11.80s/it][A  [OK] Task 3 Ep 124: SUCCESS (steps=222)
+
+put the black bowl in the bott...:  50%|█████     | 125/250 [28:19<22:40, 10.88s/it][A  [OK] Task 3 Ep 125: SUCCESS (steps=219)
+
+put the black bowl in the bott...:  50%|█████     | 126/250 [28:27<21:06, 10.22s/it][A  [FAIL] Task 3 Ep 126: FAILURE (steps=910)
+
+put the black bowl in the bott...:  51%|█████     | 127/250 [29:00<34:51, 17.01s/it][A  [OK] Task 3 Ep 127: SUCCESS (steps=400)
+
+put the black bowl in the bott...:  51%|█████     | 128/250 [29:15<33:28, 16.47s/it][A  [OK] Task 3 Ep 128: SUCCESS (steps=223)
+
+put the black bowl in the bott...:  52%|█████▏    | 129/250 [29:24<28:35, 14.18s/it][A  [OK] Task 3 Ep 129: SUCCESS (steps=447)
+
+put the black bowl in the bott...:  52%|█████▏    | 130/250 [29:41<29:44, 14.87s/it][A  [OK] Task 3 Ep 130: SUCCESS (steps=224)
+
+put the black bowl in the bott...:  52%|█████▏    | 131/250 [29:49<25:52, 13.04s/it][A  [OK] Task 3 Ep 131: SUCCESS (steps=215)
+
+put the black bowl in the bott...:  53%|█████▎    | 132/250 [29:59<23:19, 11.86s/it][A  [OK] Task 3 Ep 132: SUCCESS (steps=216)
+
+put the black bowl in the bott...:  53%|█████▎    | 133/250 [30:07<21:24, 10.98s/it][A  [OK] Task 3 Ep 133: SUCCESS (steps=287)
+
+put the black bowl in the bott...:  54%|█████▎    | 134/250 [30:20<22:00, 11.39s/it][A  [OK] Task 3 Ep 134: SUCCESS (steps=221)
+
+put the black bowl in the bott...:  54%|█████▍    | 135/250 [30:29<20:20, 10.61s/it][A  [OK] Task 3 Ep 135: SUCCESS (steps=227)
+
+put the black bowl in the bott...:  54%|█████▍    | 136/250 [30:37<19:10, 10.09s/it][A  [FAIL] Task 3 Ep 136: FAILURE (steps=910)
+
+put the black bowl in the bott...:  55%|█████▍    | 137/250 [31:10<31:44, 16.85s/it][A  [FAIL] Task 3 Ep 137: FAILURE (steps=910)
+
+put the black bowl in the bott...:  55%|█████▌    | 138/250 [31:43<40:19, 21.61s/it][A  [OK] Task 3 Ep 138: SUCCESS (steps=441)
+
+put the black bowl in the bott...:  56%|█████▌    | 139/250 [32:00<37:30, 20.27s/it][A  [OK] Task 3 Ep 139: SUCCESS (steps=317)
+
+put the black bowl in the bott...:  56%|█████▌    | 140/250 [32:12<32:40, 17.83s/it][A  [OK] Task 3 Ep 140: SUCCESS (steps=220)
+
+put the black bowl in the bott...:  56%|█████▋    | 141/250 [32:21<27:29, 15.13s/it][A  [OK] Task 3 Ep 141: SUCCESS (steps=215)
+
+put the black bowl in the bott...:  57%|█████▋    | 142/250 [32:30<23:43, 13.18s/it][A  [FAIL] Task 3 Ep 142: FAILURE (steps=910)
+
+put the black bowl in the bott...:  57%|█████▋    | 143/250 [33:02<33:54, 19.02s/it][A  [OK] Task 3 Ep 143: SUCCESS (steps=359)
+
+put the black bowl in the bott...:  58%|█████▊    | 144/250 [33:16<30:40, 17.37s/it][A  [OK] Task 3 Ep 144: SUCCESS (steps=200)
+
+put the black bowl in the bott...:  58%|█████▊    | 145/250 [33:24<25:30, 14.58s/it][A  [OK] Task 3 Ep 145: SUCCESS (steps=213)
+
+put the black bowl in the bott...:  58%|█████▊    | 146/250 [33:32<22:10, 12.79s/it][A  [OK] Task 3 Ep 146: SUCCESS (steps=299)
+
+put the black bowl in the bott...:  59%|█████▉    | 147/250 [33:44<21:17, 12.41s/it][A  [OK] Task 3 Ep 147: SUCCESS (steps=367)
+
+put the black bowl in the bott...:  59%|█████▉    | 148/250 [33:58<21:59, 12.94s/it][A  [OK] Task 3 Ep 148: SUCCESS (steps=230)
+
+put the black bowl in the bott...:  60%|█████▉    | 149/250 [34:07<19:53, 11.81s/it][A  [OK] Task 3 Ep 149: SUCCESS (steps=214)
+
+put the black bowl in the bott...:  60%|██████    | 150/250 [34:17<18:46, 11.26s/it][A  [OK] Task 3 Ep 150: SUCCESS (steps=227)
+
+put the black bowl in the bott...:  60%|██████    | 151/250 [34:26<17:24, 10.55s/it][A  [OK] Task 3 Ep 151: SUCCESS (steps=222)
+
+put the black bowl in the bott...:  61%|██████    | 152/250 [34:36<16:40, 10.20s/it][A  [FAIL] Task 3 Ep 152: FAILURE (steps=910)
+
+put the black bowl in the bott...:  61%|██████    | 153/250 [35:08<27:23, 16.95s/it][A  [OK] Task 3 Ep 153: SUCCESS (steps=206)
+
+put the black bowl in the bott...:  62%|██████▏   | 154/250 [35:18<23:42, 14.81s/it][A  [FAIL] Task 3 Ep 154: FAILURE (steps=910)
+
+put the black bowl in the bott...:  62%|██████▏   | 155/250 [35:51<32:03, 20.24s/it][A  [OK] Task 3 Ep 155: SUCCESS (steps=215)
+
+put the black bowl in the bott...:  62%|██████▏   | 156/250 [35:59<26:11, 16.72s/it][A  [OK] Task 3 Ep 156: SUCCESS (steps=262)
+
+put the black bowl in the bott...:  63%|██████▎   | 157/250 [36:10<22:54, 14.78s/it][A  [OK] Task 3 Ep 157: SUCCESS (steps=203)
+
+put the black bowl in the bott...:  63%|██████▎   | 158/250 [36:18<19:41, 12.85s/it][A  [OK] Task 3 Ep 158: SUCCESS (steps=252)
+
+put the black bowl in the bott...:  64%|██████▎   | 159/250 [36:28<18:09, 11.98s/it][A  [FAIL] Task 3 Ep 159: FAILURE (steps=910)
+
+put the black bowl in the bott...:  64%|██████▍   | 160/250 [37:01<27:18, 18.21s/it][A  [OK] Task 3 Ep 160: SUCCESS (steps=210)
+
+put the black bowl in the bott...:  64%|██████▍   | 161/250 [37:09<22:37, 15.25s/it][A  [OK] Task 3 Ep 161: SUCCESS (steps=208)
+
+put the black bowl in the bott...:  65%|██████▍   | 162/250 [37:18<19:31, 13.31s/it][A  [OK] Task 3 Ep 162: SUCCESS (steps=536)
+
+put the black bowl in the bott...:  65%|██████▌   | 163/250 [37:38<22:08, 15.26s/it][A  [OK] Task 3 Ep 163: SUCCESS (steps=223)
+
+put the black bowl in the bott...:  66%|██████▌   | 164/250 [37:46<19:04, 13.31s/it][A  [FAIL] Task 3 Ep 164: FAILURE (steps=910)
+
+put the black bowl in the bott...:  66%|██████▌   | 165/250 [38:19<27:06, 19.13s/it][A  [OK] Task 3 Ep 165: SUCCESS (steps=260)
+
+put the black bowl in the bott...:  66%|██████▋   | 166/250 [38:29<22:59, 16.43s/it][A  [OK] Task 3 Ep 166: SUCCESS (steps=237)
+
+put the black bowl in the bott...:  67%|██████▋   | 167/250 [38:39<19:44, 14.27s/it][A  [OK] Task 3 Ep 167: SUCCESS (steps=233)
+
+put the black bowl in the bott...:  67%|██████▋   | 168/250 [38:48<17:23, 12.72s/it][A  [OK] Task 3 Ep 168: SUCCESS (steps=243)
+
+put the black bowl in the bott...:  68%|██████▊   | 169/250 [38:57<15:50, 11.74s/it][A  [OK] Task 3 Ep 169: SUCCESS (steps=205)
+
+put the black bowl in the bott...:  68%|██████▊   | 170/250 [39:05<14:13, 10.67s/it][A  [FAIL] Task 3 Ep 170: FAILURE (steps=910)
+
+put the black bowl in the bott...:  68%|██████▊   | 171/250 [39:38<22:41, 17.23s/it][A  [OK] Task 3 Ep 171: SUCCESS (steps=288)
+
+put the black bowl in the bott...:  69%|██████▉   | 172/250 [39:49<19:58, 15.36s/it][A  [OK] Task 3 Ep 172: SUCCESS (steps=221)
+
+put the black bowl in the bott...:  69%|██████▉   | 173/250 [39:58<17:10, 13.38s/it][A  [OK] Task 3 Ep 173: SUCCESS (steps=214)
+
+put the black bowl in the bott...:  70%|██████▉   | 174/250 [40:06<15:01, 11.86s/it][A  [OK] Task 3 Ep 174: SUCCESS (steps=205)
+
+put the black bowl in the bott...:  70%|███████   | 175/250 [40:14<13:26, 10.75s/it][A  [OK] Task 3 Ep 175: SUCCESS (steps=220)
+
+put the black bowl in the bott...:  70%|███████   | 176/250 [40:23<12:33, 10.18s/it][A  [OK] Task 3 Ep 176: SUCCESS (steps=211)
+
+put the black bowl in the bott...:  71%|███████   | 177/250 [40:31<11:42,  9.62s/it][A  [OK] Task 3 Ep 177: SUCCESS (steps=302)
+
+put the black bowl in the bott...:  71%|███████   | 178/250 [40:43<12:16, 10.23s/it][A  [FAIL] Task 3 Ep 178: FAILURE (steps=910)
+
+put the black bowl in the bott...:  72%|███████▏  | 179/250 [41:15<19:58, 16.88s/it][A  [FAIL] Task 3 Ep 179: FAILURE (steps=910)
+
+put the black bowl in the bott...:  72%|███████▏  | 180/250 [41:48<25:13, 21.63s/it][A  [OK] Task 3 Ep 180: SUCCESS (steps=215)
+
+put the black bowl in the bott...:  72%|███████▏  | 181/250 [41:57<20:36, 17.92s/it][A  [OK] Task 3 Ep 181: SUCCESS (steps=372)
+
+put the black bowl in the bott...:  73%|███████▎  | 182/250 [42:12<19:15, 16.99s/it][A  [OK] Task 3 Ep 182: SUCCESS (steps=216)
+
+put the black bowl in the bott...:  73%|███████▎  | 183/250 [42:21<16:07, 14.44s/it][A  [OK] Task 3 Ep 183: SUCCESS (steps=300)
+
+put the black bowl in the bott...:  74%|███████▎  | 184/250 [42:32<14:52, 13.52s/it][A  [OK] Task 3 Ep 184: SUCCESS (steps=206)
+
+put the black bowl in the bott...:  74%|███████▍  | 185/250 [42:40<12:54, 11.92s/it][A  [OK] Task 3 Ep 185: SUCCESS (steps=215)
+
+put the black bowl in the bott...:  74%|███████▍  | 186/250 [42:49<11:38, 10.92s/it][A  [OK] Task 3 Ep 186: SUCCESS (steps=390)
+
+put the black bowl in the bott...:  75%|███████▍  | 187/250 [43:03<12:41, 12.08s/it][A  [OK] Task 3 Ep 187: SUCCESS (steps=215)
+
+put the black bowl in the bott...:  75%|███████▌  | 188/250 [43:12<11:23, 11.02s/it][A  [FAIL] Task 3 Ep 188: FAILURE (steps=910)
+
+put the black bowl in the bott...:  76%|███████▌  | 189/250 [43:45<17:58, 17.68s/it][A  [OK] Task 3 Ep 189: SUCCESS (steps=346)
+
+put the black bowl in the bott...:  76%|███████▌  | 190/250 [43:59<16:34, 16.58s/it][A  [OK] Task 3 Ep 190: SUCCESS (steps=209)
+
+put the black bowl in the bott...:  76%|███████▋  | 191/250 [44:08<13:51, 14.10s/it][A  [OK] Task 3 Ep 191: SUCCESS (steps=234)
+
+put the black bowl in the bott...:  77%|███████▋  | 192/250 [44:17<12:18, 12.74s/it][A  [FAIL] Task 3 Ep 192: FAILURE (steps=910)
+
+put the black bowl in the bott...:  77%|███████▋  | 193/250 [44:50<17:43, 18.66s/it][A  [OK] Task 3 Ep 193: SUCCESS (steps=204)
+
+put the black bowl in the bott...:  78%|███████▊  | 194/250 [44:58<14:30, 15.54s/it][A  [OK] Task 3 Ep 194: SUCCESS (steps=209)
+
+put the black bowl in the bott...:  78%|███████▊  | 195/250 [45:06<12:14, 13.36s/it][A  [OK] Task 3 Ep 195: SUCCESS (steps=202)
+
+put the black bowl in the bott...:  78%|███████▊  | 196/250 [45:14<10:36, 11.79s/it][A  [OK] Task 3 Ep 196: SUCCESS (steps=209)
+
+put the black bowl in the bott...:  79%|███████▉  | 197/250 [45:23<09:31, 10.78s/it][A  [OK] Task 3 Ep 197: SUCCESS (steps=215)
+
+put the black bowl in the bott...:  79%|███████▉  | 198/250 [45:31<08:44, 10.08s/it][A  [OK] Task 3 Ep 198: SUCCESS (steps=218)
+
+put the black bowl in the bott...:  80%|███████▉  | 199/250 [45:40<08:15,  9.72s/it][A  [OK] Task 3 Ep 199: SUCCESS (steps=282)
+
+put the black bowl in the bott...:  80%|████████  | 200/250 [45:51<08:25, 10.11s/it][A  [OK] Task 3 Ep 200: SUCCESS (steps=220)
+
+put the black bowl in the bott...:  80%|████████  | 201/250 [46:00<08:00,  9.81s/it][A  [OK] Task 3 Ep 201: SUCCESS (steps=233)
+
+put the black bowl in the bott...:  81%|████████  | 202/250 [46:09<07:41,  9.61s/it][A  [OK] Task 3 Ep 202: SUCCESS (steps=737)
+
+put the black bowl in the bott...:  81%|████████  | 203/250 [46:36<11:35, 14.79s/it][A  [OK] Task 3 Ep 203: SUCCESS (steps=223)
+
+put the black bowl in the bott...:  82%|████████▏ | 204/250 [46:45<09:57, 13.00s/it][A  [OK] Task 3 Ep 204: SUCCESS (steps=214)
+
+put the black bowl in the bott...:  82%|████████▏ | 205/250 [46:54<08:45, 11.67s/it][A  [OK] Task 3 Ep 205: SUCCESS (steps=294)
+
+put the black bowl in the bott...:  82%|████████▏ | 206/250 [47:05<08:31, 11.64s/it][A  [OK] Task 3 Ep 206: SUCCESS (steps=224)
+
+put the black bowl in the bott...:  83%|████████▎ | 207/250 [47:14<07:44, 10.80s/it][A  [OK] Task 3 Ep 207: SUCCESS (steps=215)
+
+put the black bowl in the bott...:  83%|████████▎ | 208/250 [47:23<07:07, 10.18s/it][A  [OK] Task 3 Ep 208: SUCCESS (steps=350)
+
+put the black bowl in the bott...:  84%|████████▎ | 209/250 [47:36<07:35, 11.11s/it][A  [OK] Task 3 Ep 209: SUCCESS (steps=558)
+
+put the black bowl in the bott...:  84%|████████▍ | 210/250 [47:56<09:16, 13.91s/it][A  [OK] Task 3 Ep 210: SUCCESS (steps=260)
+
+put the black bowl in the bott...:  84%|████████▍ | 211/250 [48:07<08:20, 12.83s/it][A  [OK] Task 3 Ep 211: SUCCESS (steps=223)
+
+put the black bowl in the bott...:  85%|████████▍ | 212/250 [48:17<07:36, 12.02s/it][A  [OK] Task 3 Ep 212: SUCCESS (steps=217)
+
+put the black bowl in the bott...:  85%|████████▌ | 213/250 [48:26<06:54, 11.20s/it][A  [FAIL] Task 3 Ep 213: FAILURE (steps=910)
+
+put the black bowl in the bott...:  86%|████████▌ | 214/250 [48:59<10:37, 17.72s/it][A  [OK] Task 3 Ep 214: SUCCESS (steps=211)
+
+put the black bowl in the bott...:  86%|████████▌ | 215/250 [49:08<08:50, 15.17s/it][A  [OK] Task 3 Ep 215: SUCCESS (steps=210)
+
+put the black bowl in the bott...:  86%|████████▋ | 216/250 [49:17<07:30, 13.24s/it][A  [OK] Task 3 Ep 216: SUCCESS (steps=215)
+
+put the black bowl in the bott...:  87%|████████▋ | 217/250 [49:26<06:31, 11.88s/it][A  [OK] Task 3 Ep 217: SUCCESS (steps=202)
+
+put the black bowl in the bott...:  87%|████████▋ | 218/250 [49:34<05:47, 10.85s/it][A  [OK] Task 3 Ep 218: SUCCESS (steps=200)
+
+put the black bowl in the bott...:  88%|████████▊ | 219/250 [49:42<05:11, 10.04s/it][A  [OK] Task 3 Ep 219: SUCCESS (steps=308)
+
+put the black bowl in the bott...:  88%|████████▊ | 220/250 [49:54<05:18, 10.62s/it][A  [FAIL] Task 3 Ep 220: FAILURE (steps=910)
+
+put the black bowl in the bott...:  88%|████████▊ | 221/250 [50:27<08:17, 17.15s/it][A  [OK] Task 3 Ep 221: SUCCESS (steps=223)
+
+put the black bowl in the bott...:  89%|████████▉ | 222/250 [50:36<06:51, 14.69s/it][A  [OK] Task 3 Ep 222: SUCCESS (steps=212)
+
+put the black bowl in the bott...:  89%|████████▉ | 223/250 [50:44<05:47, 12.88s/it][A  [OK] Task 3 Ep 223: SUCCESS (steps=224)
+
+put the black bowl in the bott...:  90%|████████▉ | 224/250 [50:53<05:04, 11.70s/it][A  [OK] Task 3 Ep 224: SUCCESS (steps=210)
+
+put the black bowl in the bott...:  90%|█████████ | 225/250 [51:02<04:29, 10.77s/it][A  [OK] Task 3 Ep 225: SUCCESS (steps=217)
+
+put the black bowl in the bott...:  90%|█████████ | 226/250 [51:10<04:02, 10.12s/it][A  [OK] Task 3 Ep 226: SUCCESS (steps=211)
+
+put the black bowl in the bott...:  91%|█████████ | 227/250 [51:19<03:41,  9.65s/it][A  [OK] Task 3 Ep 227: SUCCESS (steps=224)
+
+put the black bowl in the bott...:  91%|█████████ | 228/250 [51:28<03:26,  9.40s/it][A  [OK] Task 3 Ep 228: SUCCESS (steps=217)
+
+put the black bowl in the bott...:  92%|█████████▏| 229/250 [51:36<03:12,  9.19s/it][A  [OK] Task 3 Ep 229: SUCCESS (steps=332)
+
+put the black bowl in the bott...:  92%|█████████▏| 230/250 [51:49<03:24, 10.20s/it][A  [OK] Task 3 Ep 230: SUCCESS (steps=210)
+
+put the black bowl in the bott...:  92%|█████████▏| 231/250 [51:57<03:02,  9.62s/it][A  [OK] Task 3 Ep 231: SUCCESS (steps=216)
+
+put the black bowl in the bott...:  93%|█████████▎| 232/250 [52:06<02:49,  9.42s/it][A  [OK] Task 3 Ep 232: SUCCESS (steps=230)
+
+put the black bowl in the bott...:  93%|█████████▎| 233/250 [52:15<02:38,  9.33s/it][A  [FAIL] Task 3 Ep 233: FAILURE (steps=910)
+
+put the black bowl in the bott...:  94%|█████████▎| 234/250 [52:48<04:19, 16.21s/it][A  [OK] Task 3 Ep 234: SUCCESS (steps=201)
+
+put the black bowl in the bott...:  94%|█████████▍| 235/250 [52:56<03:26, 13.73s/it][A  [OK] Task 3 Ep 235: SUCCESS (steps=217)
+
+put the black bowl in the bott...:  94%|█████████▍| 236/250 [53:04<02:49, 12.13s/it][A  [OK] Task 3 Ep 236: SUCCESS (steps=233)
+
+put the black bowl in the bott...:  95%|█████████▍| 237/250 [53:14<02:30, 11.61s/it][A  [OK] Task 3 Ep 237: SUCCESS (steps=226)
+
+put the black bowl in the bott...:  95%|█████████▌| 238/250 [53:23<02:09, 10.79s/it][A  [OK] Task 3 Ep 238: SUCCESS (steps=396)
+
+put the black bowl in the bott...:  96%|█████████▌| 239/250 [53:38<02:11, 11.93s/it][A  [OK] Task 3 Ep 239: SUCCESS (steps=240)
+
+put the black bowl in the bott...:  96%|█████████▌| 240/250 [53:47<01:51, 11.16s/it][A  [OK] Task 3 Ep 240: SUCCESS (steps=215)
+
+put the black bowl in the bott...:  96%|█████████▋| 241/250 [53:56<01:33, 10.33s/it][A  [OK] Task 3 Ep 241: SUCCESS (steps=223)
+
+put the black bowl in the bott...:  97%|█████████▋| 242/250 [54:04<01:18,  9.81s/it][A  [OK] Task 3 Ep 242: SUCCESS (steps=214)
+
+put the black bowl in the bott...:  97%|█████████▋| 243/250 [54:12<01:05,  9.35s/it][A  [OK] Task 3 Ep 243: SUCCESS (steps=213)
+
+put the black bowl in the bott...:  98%|█████████▊| 244/250 [54:21<00:54,  9.04s/it][A  [OK] Task 3 Ep 244: SUCCESS (steps=224)
+
+put the black bowl in the bott...:  98%|█████████▊| 245/250 [54:30<00:44,  8.95s/it][A  [OK] Task 3 Ep 245: SUCCESS (steps=206)
+
+put the black bowl in the bott...:  98%|█████████▊| 246/250 [54:38<00:34,  8.69s/it][A  [OK] Task 3 Ep 246: SUCCESS (steps=274)
+
+put the black bowl in the bott...:  99%|█████████▉| 247/250 [54:48<00:27,  9.21s/it][A  [OK] Task 3 Ep 247: SUCCESS (steps=213)
+
+put the black bowl in the bott...:  99%|█████████▉| 248/250 [54:56<00:17,  8.96s/it][A  [OK] Task 3 Ep 248: SUCCESS (steps=210)
+
+put the black bowl in the bott...: 100%|█████████▉| 249/250 [55:05<00:08,  8.77s/it][A  [OK] Task 3 Ep 249: SUCCESS (steps=221)
+
+put the black bowl in the bott...: 100%|██████████| 250/250 [55:13<00:00,  8.74s/it][A
+                                                                                    [A   Task 3: 220/250 (88.0%)
+Tasks:   0%|          | 0/1 [55:16<?, ?it/s]
+
+Total success rate: 220/250 (88.0%)

@@ -1,0 +1,18 @@
+{
+  "policy": "spatialvla",
+  "protocol": "widowx_protocol1_random_positions",
+  "task_filter": "carrot",
+  "episode_start": 0,
+  "episode_end": 1,
+  "success": 0,
+  "total": 1,
+  "success_rate": 0.0,
+  "by_task": {
+    "carrot": {
+      "success": 0,
+      "total": 1,
+      "success_rate": 0.0
+    }
+  },
+  "result_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/spatialvla_bridge/protocol1_random_positions/protocol1_100_spatialvla_carrot_2045642_4/videos"
+}

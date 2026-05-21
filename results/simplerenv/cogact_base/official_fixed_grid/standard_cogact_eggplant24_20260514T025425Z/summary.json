@@ -1,0 +1,15 @@
+{
+  "policy": "cogact",
+  "task_filter": "eggplant",
+  "success": 15,
+  "total": 24,
+  "success_rate": 0.625,
+  "by_task": {
+    "eggplant": {
+      "success": 15,
+      "total": 24,
+      "success_rate": 0.625
+    }
+  },
+  "result_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/cogact_base/official_fixed_grid/standard_cogact_eggplant24_20260514T025425Z/videos"
+}

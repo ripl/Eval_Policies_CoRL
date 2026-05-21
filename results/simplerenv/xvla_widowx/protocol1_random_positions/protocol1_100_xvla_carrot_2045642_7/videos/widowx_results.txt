@@ -1,0 +1,1 @@
+{"task": "widowx_carrot_on_plate", "reward": 1.0, "done": true, "steps": 23, "duration_sec": 7.078328609466553, "output": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/xvla_widowx/protocol1_random_positions/protocol1_100_xvla_carrot_2045642_7/videos/widowx_carrot_on_plate_0_1.00.mp4", "proc_id": 0}

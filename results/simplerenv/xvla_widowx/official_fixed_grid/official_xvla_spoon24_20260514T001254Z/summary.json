@@ -1,0 +1,22 @@
+{
+  "policy": "xvla",
+  "task": "spoon",
+  "standard_horizon": 60,
+  "success_standard_horizon": 22,
+  "success_rate_standard_horizon": 0.9166666666666666,
+  "success_released_client": 24,
+  "success_rate_released_client": 1.0,
+  "total": 24,
+  "late_successes": [
+    {
+      "proc_id": 4,
+      "steps": 749
+    },
+    {
+      "proc_id": 11,
+      "steps": 236
+    }
+  ],
+  "result_root": "results/simplerenv/xvla_widowx/official_fixed_grid/official_xvla_spoon24_20260514T001254Z/videos",
+  "source_job": "2042067"
+}

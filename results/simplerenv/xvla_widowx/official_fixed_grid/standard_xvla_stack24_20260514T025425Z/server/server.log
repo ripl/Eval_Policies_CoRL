@@ -1,0 +1,427 @@
+/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/transformers/utils/hub.py:105: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+2026-05-13 21:56:15.548196: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-05-13 21:56:20.274021: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-05-13 21:56:20.274234: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-05-13 21:56:20.843105: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-05-13 21:56:22.457459: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-13 21:56:44.475464: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Florence2ForConditionalGeneration has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/cuda/__init__.py:215: UserWarning: 
+NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition with CUDA capability sm_120 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_50 sm_60 sm_70 sm_75 sm_80 sm_86 sm_90.
+If you want to use the NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(
+INFO:     Started server process [2956631]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:20246 (Press CTRL+C to quit)
+/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py:258: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  proprio = torch.as_tensor(np.asarray(json_numpy.loads(payload["proprio"])))
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+🚀 Starting XVLA Inference Server...
+🔹 Model Path  : 2toINF/X-VLA-WidowX
+🔹 Output Dir  : /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/xvla_widowx/official_fixed_grid/standard_xvla_stack24_20260514T025425Z/server
+🔹 Device Arg  : cuda
+🔹 Port        : 20246
+🧠 Using device: cuda
+
+🧩 Loading XVLAProcessor...
+✅ XVLAProcessor loaded successfully.
+
+📦 Loading XVLA model from pretrained checkpoint...
+✅ Model successfully loaded and moved to device.
+
+⚠️  No SLURM environment detected, defaulting to 0.0.0.0
+📝 Server info written to /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/xvla_widowx/official_fixed_grid/standard_xvla_stack24_20260514T025425Z/server/info.json
+
+🌐 Launching FastAPI service at http://127.0.0.1:20246 ...
+INFO:     127.0.0.1:56394 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:43212 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:43222 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:43226 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:43232 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:43242 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:43248 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:53454 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:53470 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:53480 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:53484 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:53486 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:53492 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:35022 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:35028 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:35034 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:35046 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:35062 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:35068 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:47142 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:47152 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:47168 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:47170 - "POST /act HTTP/1.1" 400 Bad Request
+ERROR:root:Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 279, in act
+    action = self.generate_actions(**inputs, steps=steps).squeeze(0).float().cpu().numpy()
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 196, in generate_actions
+    enc = self.forward_vlm(input_ids, image_input, image_mask)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/models/modeling_xvla.py", line 120, in forward_vlm
+    num_valid = int(flat_mask.sum().item())
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+INFO:     127.0.0.1:47186 - "POST /act HTTP/1.1" 400 Bad Request

@@ -1,0 +1,18 @@
+{
+  "policy": "spatialvla",
+  "task_filter": "eggplant",
+  "task": "eggplant",
+  "standard_horizon": 120,
+  "success": 24,
+  "total": 24,
+  "success_rate": 1.0,
+  "by_task": {
+    "eggplant": {
+      "success": 24,
+      "total": 24,
+      "success_rate": 1.0
+    }
+  },
+  "result_root": "results/simplerenv/spatialvla_bridge/official_fixed_grid/official_spatialvla_eggplant24_20260514T0125_eef_optional/videos",
+  "source_job": "2042162"
+}

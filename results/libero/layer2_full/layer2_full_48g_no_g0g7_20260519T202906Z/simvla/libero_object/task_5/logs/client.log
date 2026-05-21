@@ -1,0 +1,523 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8511
+   Task suite: libero_object
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_object
+   Tasks: 10, Trials per task: 250
+   Max steps: 800
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+pick up the tomato sauce and p...:   0%|          | 0/250 [00:00<?, ?it/s][A  [OK] Task 5 Ep 0: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:   0%|          | 1/250 [00:07<31:38,  7.63s/it][A  [OK] Task 5 Ep 1: SUCCESS (steps=130)
+
+pick up the tomato sauce and p...:   1%|          | 2/250 [00:14<30:50,  7.46s/it][A  [OK] Task 5 Ep 2: SUCCESS (steps=121)
+
+pick up the tomato sauce and p...:   1%|          | 3/250 [00:22<30:16,  7.36s/it][A  [OK] Task 5 Ep 3: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:   2%|▏         | 4/250 [00:29<29:50,  7.28s/it][A  [OK] Task 5 Ep 4: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:   2%|▏         | 5/250 [00:37<30:19,  7.43s/it][A  [OK] Task 5 Ep 5: SUCCESS (steps=130)
+
+pick up the tomato sauce and p...:   2%|▏         | 6/250 [00:44<30:11,  7.42s/it][A  [OK] Task 5 Ep 6: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:   3%|▎         | 7/250 [00:52<30:13,  7.46s/it][A  [OK] Task 5 Ep 7: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:   3%|▎         | 8/250 [00:59<29:53,  7.41s/it][A  [OK] Task 5 Ep 8: SUCCESS (steps=120)
+
+pick up the tomato sauce and p...:   4%|▎         | 9/250 [01:06<29:26,  7.33s/it][A  [OK] Task 5 Ep 9: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:   4%|▍         | 10/250 [01:13<29:19,  7.33s/it][A  [OK] Task 5 Ep 10: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:   4%|▍         | 11/250 [01:21<29:56,  7.52s/it][A  [OK] Task 5 Ep 11: SUCCESS (steps=137)
+
+pick up the tomato sauce and p...:   5%|▍         | 12/250 [01:30<31:01,  7.82s/it][A  [OK] Task 5 Ep 12: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:   5%|▌         | 13/250 [01:37<30:16,  7.66s/it][A  [OK] Task 5 Ep 13: SUCCESS (steps=161)
+
+pick up the tomato sauce and p...:   6%|▌         | 14/250 [01:46<31:21,  7.97s/it][A  [OK] Task 5 Ep 14: SUCCESS (steps=131)
+
+pick up the tomato sauce and p...:   6%|▌         | 15/250 [01:54<31:23,  8.02s/it][A  [OK] Task 5 Ep 15: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:   6%|▋         | 16/250 [02:01<30:14,  7.75s/it][A  [OK] Task 5 Ep 16: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:   7%|▋         | 17/250 [02:08<29:40,  7.64s/it][A  [OK] Task 5 Ep 17: SUCCESS (steps=135)
+
+pick up the tomato sauce and p...:   7%|▋         | 18/250 [02:16<29:28,  7.62s/it][A  [OK] Task 5 Ep 18: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:   8%|▊         | 19/250 [02:24<29:30,  7.67s/it][A  [OK] Task 5 Ep 19: SUCCESS (steps=131)
+
+pick up the tomato sauce and p...:   8%|▊         | 20/250 [02:31<29:05,  7.59s/it][A  [OK] Task 5 Ep 20: SUCCESS (steps=140)
+
+pick up the tomato sauce and p...:   8%|▊         | 21/250 [02:39<29:27,  7.72s/it][A  [OK] Task 5 Ep 21: SUCCESS (steps=123)
+
+pick up the tomato sauce and p...:   9%|▉         | 22/250 [02:46<28:33,  7.51s/it][A  [OK] Task 5 Ep 22: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:   9%|▉         | 23/250 [02:54<28:42,  7.59s/it][A  [OK] Task 5 Ep 23: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  10%|▉         | 24/250 [03:01<28:19,  7.52s/it][A  [OK] Task 5 Ep 24: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  10%|█         | 25/250 [03:09<28:32,  7.61s/it][A  [OK] Task 5 Ep 25: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  10%|█         | 26/250 [03:17<28:35,  7.66s/it][A  [OK] Task 5 Ep 26: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  11%|█         | 27/250 [03:24<28:12,  7.59s/it][A  [OK] Task 5 Ep 27: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  11%|█         | 28/250 [03:32<27:58,  7.56s/it][A  [OK] Task 5 Ep 28: SUCCESS (steps=135)
+
+pick up the tomato sauce and p...:  12%|█▏        | 29/250 [03:41<30:02,  8.16s/it][A  [OK] Task 5 Ep 29: SUCCESS (steps=173)
+
+pick up the tomato sauce and p...:  12%|█▏        | 30/250 [03:51<31:02,  8.47s/it][A  [OK] Task 5 Ep 30: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  12%|█▏        | 31/250 [03:58<29:30,  8.08s/it][A  [OK] Task 5 Ep 31: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  13%|█▎        | 32/250 [04:05<28:34,  7.86s/it][A  [OK] Task 5 Ep 32: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  13%|█▎        | 33/250 [04:12<27:51,  7.70s/it][A  [OK] Task 5 Ep 33: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  14%|█▎        | 34/250 [04:20<27:15,  7.57s/it][A  [OK] Task 5 Ep 34: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  14%|█▍        | 35/250 [04:27<26:44,  7.46s/it][A  [OK] Task 5 Ep 35: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  14%|█▍        | 36/250 [04:34<26:23,  7.40s/it][A  [OK] Task 5 Ep 36: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...:  15%|█▍        | 37/250 [04:43<28:16,  7.96s/it][A  [OK] Task 5 Ep 37: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  15%|█▌        | 38/250 [04:51<27:38,  7.83s/it][A  [OK] Task 5 Ep 38: SUCCESS (steps=123)
+
+pick up the tomato sauce and p...:  16%|█▌        | 39/250 [04:58<26:50,  7.63s/it][A  [OK] Task 5 Ep 39: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  16%|█▌        | 40/250 [05:06<26:39,  7.62s/it][A  [OK] Task 5 Ep 40: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  16%|█▋        | 41/250 [05:13<26:19,  7.56s/it][A  [OK] Task 5 Ep 41: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  17%|█▋        | 42/250 [05:21<26:23,  7.61s/it][A  [OK] Task 5 Ep 42: SUCCESS (steps=138)
+
+pick up the tomato sauce and p...:  17%|█▋        | 43/250 [05:29<27:05,  7.85s/it][A  [OK] Task 5 Ep 43: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  18%|█▊        | 44/250 [05:37<26:28,  7.71s/it][A  [OK] Task 5 Ep 44: SUCCESS (steps=125)
+
+pick up the tomato sauce and p...:  18%|█▊        | 45/250 [05:44<25:59,  7.61s/it][A  [OK] Task 5 Ep 45: SUCCESS (steps=136)
+
+pick up the tomato sauce and p...:  18%|█▊        | 46/250 [05:52<25:51,  7.61s/it][A  [OK] Task 5 Ep 46: SUCCESS (steps=138)
+
+pick up the tomato sauce and p...:  19%|█▉        | 47/250 [05:59<25:43,  7.60s/it][A  [OK] Task 5 Ep 47: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  19%|█▉        | 48/250 [06:06<25:14,  7.50s/it][A  [OK] Task 5 Ep 48: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  20%|█▉        | 49/250 [06:14<24:55,  7.44s/it][A  [OK] Task 5 Ep 49: SUCCESS (steps=123)
+
+pick up the tomato sauce and p...:  20%|██        | 50/250 [06:21<24:37,  7.39s/it][A  [OK] Task 5 Ep 50: SUCCESS (steps=131)
+
+pick up the tomato sauce and p...:  20%|██        | 51/250 [06:29<25:03,  7.56s/it][A  [OK] Task 5 Ep 51: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...:  21%|██        | 52/250 [06:37<25:21,  7.69s/it][A  [OK] Task 5 Ep 52: SUCCESS (steps=130)
+
+pick up the tomato sauce and p...:  21%|██        | 53/250 [06:45<25:09,  7.66s/it][A  [OK] Task 5 Ep 53: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  22%|██▏       | 54/250 [06:52<24:48,  7.59s/it][A  [OK] Task 5 Ep 54: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  22%|██▏       | 55/250 [06:59<24:29,  7.54s/it][A  [OK] Task 5 Ep 55: SUCCESS (steps=127)
+
+pick up the tomato sauce and p...:  22%|██▏       | 56/250 [07:07<24:03,  7.44s/it][A  [OK] Task 5 Ep 56: SUCCESS (steps=136)
+
+pick up the tomato sauce and p...:  23%|██▎       | 57/250 [07:14<24:02,  7.47s/it][A  [OK] Task 5 Ep 57: SUCCESS (steps=138)
+
+pick up the tomato sauce and p...:  23%|██▎       | 58/250 [07:22<23:57,  7.49s/it][A  [OK] Task 5 Ep 58: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  24%|██▎       | 59/250 [07:29<23:31,  7.39s/it][A  [OK] Task 5 Ep 59: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  24%|██▍       | 60/250 [07:36<23:17,  7.36s/it][A  [OK] Task 5 Ep 60: SUCCESS (steps=136)
+
+pick up the tomato sauce and p...:  24%|██▍       | 61/250 [07:44<23:20,  7.41s/it][A  [OK] Task 5 Ep 61: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  25%|██▍       | 62/250 [07:51<23:06,  7.37s/it][A  [OK] Task 5 Ep 62: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  25%|██▌       | 63/250 [07:58<23:01,  7.39s/it][A  [OK] Task 5 Ep 63: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...:  26%|██▌       | 64/250 [08:06<22:57,  7.41s/it][A  [OK] Task 5 Ep 64: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  26%|██▌       | 65/250 [08:13<22:32,  7.31s/it][A  [OK] Task 5 Ep 65: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  26%|██▋       | 66/250 [08:20<22:09,  7.22s/it][A  [OK] Task 5 Ep 66: SUCCESS (steps=161)
+
+pick up the tomato sauce and p...:  27%|██▋       | 67/250 [08:29<23:18,  7.64s/it][A  [OK] Task 5 Ep 67: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  27%|██▋       | 68/250 [08:36<23:02,  7.60s/it][A  [OK] Task 5 Ep 68: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...:  28%|██▊       | 69/250 [08:44<23:01,  7.63s/it][A  [OK] Task 5 Ep 69: SUCCESS (steps=126)
+
+pick up the tomato sauce and p...:  28%|██▊       | 70/250 [08:51<22:21,  7.45s/it][A  [OK] Task 5 Ep 70: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  28%|██▊       | 71/250 [08:58<22:24,  7.51s/it][A  [OK] Task 5 Ep 71: SUCCESS (steps=131)
+
+pick up the tomato sauce and p...:  29%|██▉       | 72/250 [09:06<22:09,  7.47s/it][A  [OK] Task 5 Ep 72: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  29%|██▉       | 73/250 [09:13<22:01,  7.46s/it][A  [OK] Task 5 Ep 73: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  30%|██▉       | 74/250 [09:20<21:40,  7.39s/it][A  [OK] Task 5 Ep 74: SUCCESS (steps=138)
+
+pick up the tomato sauce and p...:  30%|███       | 75/250 [09:28<21:38,  7.42s/it][A  [OK] Task 5 Ep 75: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  30%|███       | 76/250 [09:36<22:14,  7.67s/it][A  [OK] Task 5 Ep 76: SUCCESS (steps=137)
+
+pick up the tomato sauce and p...:  31%|███       | 77/250 [09:44<22:21,  7.75s/it][A  [OK] Task 5 Ep 77: SUCCESS (steps=131)
+
+pick up the tomato sauce and p...:  31%|███       | 78/250 [09:52<22:01,  7.68s/it][A  [OK] Task 5 Ep 78: SUCCESS (steps=125)
+
+pick up the tomato sauce and p...:  32%|███▏      | 79/250 [09:59<21:26,  7.52s/it][A  [OK] Task 5 Ep 79: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  32%|███▏      | 80/250 [10:06<21:02,  7.43s/it][A  [OK] Task 5 Ep 80: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  32%|███▏      | 81/250 [10:14<20:58,  7.45s/it][A  [OK] Task 5 Ep 81: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  33%|███▎      | 82/250 [10:21<20:46,  7.42s/it][A  [OK] Task 5 Ep 82: SUCCESS (steps=131)
+
+pick up the tomato sauce and p...:  33%|███▎      | 83/250 [10:28<20:29,  7.36s/it][A  [OK] Task 5 Ep 83: SUCCESS (steps=131)
+
+pick up the tomato sauce and p...:  34%|███▎      | 84/250 [10:36<20:56,  7.57s/it][A  [OK] Task 5 Ep 84: SUCCESS (steps=136)
+
+pick up the tomato sauce and p...:  34%|███▍      | 85/250 [10:44<21:21,  7.77s/it][A  [OK] Task 5 Ep 85: SUCCESS (steps=131)
+
+pick up the tomato sauce and p...:  34%|███▍      | 86/250 [10:52<21:16,  7.78s/it][A  [OK] Task 5 Ep 86: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  35%|███▍      | 87/250 [11:00<20:50,  7.67s/it][A  [OK] Task 5 Ep 87: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  35%|███▌      | 88/250 [11:08<20:53,  7.74s/it][A  [OK] Task 5 Ep 88: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  36%|███▌      | 89/250 [11:15<20:37,  7.69s/it][A  [OK] Task 5 Ep 89: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  36%|███▌      | 90/250 [11:23<20:32,  7.71s/it][A  [OK] Task 5 Ep 90: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  36%|███▋      | 91/250 [11:30<20:17,  7.66s/it][A  [OK] Task 5 Ep 91: SUCCESS (steps=135)
+
+pick up the tomato sauce and p...:  37%|███▋      | 92/250 [11:38<20:19,  7.72s/it][A  [OK] Task 5 Ep 92: SUCCESS (steps=131)
+
+pick up the tomato sauce and p...:  37%|███▋      | 93/250 [11:46<20:04,  7.67s/it][A  [OK] Task 5 Ep 93: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  38%|███▊      | 94/250 [11:53<19:36,  7.54s/it][A  [OK] Task 5 Ep 94: SUCCESS (steps=142)
+
+pick up the tomato sauce and p...:  38%|███▊      | 95/250 [12:01<19:42,  7.63s/it][A  [OK] Task 5 Ep 95: SUCCESS (steps=131)
+
+pick up the tomato sauce and p...:  38%|███▊      | 96/250 [12:09<19:39,  7.66s/it][A  [OK] Task 5 Ep 96: SUCCESS (steps=130)
+
+pick up the tomato sauce and p...:  39%|███▉      | 97/250 [12:16<19:08,  7.51s/it][A  [OK] Task 5 Ep 97: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...:  39%|███▉      | 98/250 [12:23<19:09,  7.56s/it][A  [OK] Task 5 Ep 98: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  40%|███▉      | 99/250 [12:31<19:20,  7.69s/it][A  [OK] Task 5 Ep 99: SUCCESS (steps=136)
+
+pick up the tomato sauce and p...:  40%|████      | 100/250 [12:42<21:00,  8.40s/it][A  [OK] Task 5 Ep 100: SUCCESS (steps=126)
+
+pick up the tomato sauce and p...:  40%|████      | 101/250 [12:49<19:55,  8.02s/it][A  [OK] Task 5 Ep 101: SUCCESS (steps=130)
+
+pick up the tomato sauce and p...:  41%|████      | 102/250 [12:56<19:22,  7.86s/it][A  [OK] Task 5 Ep 102: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  41%|████      | 103/250 [13:03<18:45,  7.66s/it][A  [OK] Task 5 Ep 103: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  42%|████▏     | 104/250 [13:11<18:38,  7.66s/it][A  [OK] Task 5 Ep 104: SUCCESS (steps=127)
+
+pick up the tomato sauce and p...:  42%|████▏     | 105/250 [13:18<17:57,  7.43s/it][A  [OK] Task 5 Ep 105: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  42%|████▏     | 106/250 [13:25<17:43,  7.38s/it][A  [OK] Task 5 Ep 106: SUCCESS (steps=120)
+
+pick up the tomato sauce and p...:  43%|████▎     | 107/250 [13:32<17:14,  7.24s/it][A  [OK] Task 5 Ep 107: SUCCESS (steps=131)
+
+pick up the tomato sauce and p...:  43%|████▎     | 108/250 [13:41<18:13,  7.70s/it][A  [OK] Task 5 Ep 108: SUCCESS (steps=123)
+
+pick up the tomato sauce and p...:  44%|████▎     | 109/250 [13:48<17:25,  7.41s/it][A  [OK] Task 5 Ep 109: SUCCESS (steps=127)
+
+pick up the tomato sauce and p...:  44%|████▍     | 110/250 [13:55<17:15,  7.40s/it][A  [OK] Task 5 Ep 110: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  44%|████▍     | 111/250 [14:02<16:43,  7.22s/it][A  [OK] Task 5 Ep 111: SUCCESS (steps=141)
+
+pick up the tomato sauce and p...:  45%|████▍     | 112/250 [14:10<17:02,  7.41s/it][A  [OK] Task 5 Ep 112: SUCCESS (steps=135)
+
+pick up the tomato sauce and p...:  45%|████▌     | 113/250 [14:17<16:58,  7.43s/it][A  [OK] Task 5 Ep 113: SUCCESS (steps=127)
+
+pick up the tomato sauce and p...:  46%|████▌     | 114/250 [14:24<16:45,  7.39s/it][A  [OK] Task 5 Ep 114: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  46%|████▌     | 115/250 [14:32<16:50,  7.49s/it][A  [OK] Task 5 Ep 115: SUCCESS (steps=130)
+
+pick up the tomato sauce and p...:  46%|████▋     | 116/250 [14:42<18:11,  8.15s/it][A  [OK] Task 5 Ep 116: SUCCESS (steps=138)
+
+pick up the tomato sauce and p...:  47%|████▋     | 117/250 [14:50<17:54,  8.08s/it][A  [OK] Task 5 Ep 117: SUCCESS (steps=140)
+
+pick up the tomato sauce and p...:  47%|████▋     | 118/250 [14:57<17:25,  7.92s/it][A  [OK] Task 5 Ep 118: SUCCESS (steps=122)
+
+pick up the tomato sauce and p...:  48%|████▊     | 119/250 [15:04<16:34,  7.59s/it][A  [OK] Task 5 Ep 119: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  48%|████▊     | 120/250 [15:11<16:15,  7.51s/it][A  [OK] Task 5 Ep 120: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  48%|████▊     | 121/250 [15:19<16:00,  7.45s/it][A  [OK] Task 5 Ep 121: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  49%|████▉     | 122/250 [15:26<15:41,  7.35s/it][A  [OK] Task 5 Ep 122: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  49%|████▉     | 123/250 [15:33<15:25,  7.29s/it][A  [OK] Task 5 Ep 123: SUCCESS (steps=122)
+
+pick up the tomato sauce and p...:  50%|████▉     | 124/250 [15:41<15:49,  7.54s/it][A  [OK] Task 5 Ep 124: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...:  50%|█████     | 125/250 [15:49<15:41,  7.54s/it][A  [OK] Task 5 Ep 125: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  50%|█████     | 126/250 [15:56<15:22,  7.44s/it][A  [OK] Task 5 Ep 126: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  51%|█████     | 127/250 [16:03<15:02,  7.34s/it][A  [OK] Task 5 Ep 127: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  51%|█████     | 128/250 [16:10<14:37,  7.19s/it][A  [OK] Task 5 Ep 128: SUCCESS (steps=135)
+
+pick up the tomato sauce and p...:  52%|█████▏    | 129/250 [16:17<14:39,  7.27s/it][A  [OK] Task 5 Ep 129: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  52%|█████▏    | 130/250 [16:24<14:26,  7.22s/it][A  [OK] Task 5 Ep 130: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  52%|█████▏    | 131/250 [16:31<14:14,  7.18s/it][A  [OK] Task 5 Ep 131: SUCCESS (steps=135)
+
+pick up the tomato sauce and p...:  53%|█████▎    | 132/250 [16:41<15:42,  7.99s/it][A  [OK] Task 5 Ep 132: SUCCESS (steps=135)
+
+pick up the tomato sauce and p...:  53%|█████▎    | 133/250 [16:49<15:18,  7.85s/it][A  [OK] Task 5 Ep 133: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  54%|█████▎    | 134/250 [16:55<14:29,  7.50s/it][A  [OK] Task 5 Ep 134: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...:  54%|█████▍    | 135/250 [17:03<14:12,  7.41s/it][A  [OK] Task 5 Ep 135: SUCCESS (steps=156)
+
+pick up the tomato sauce and p...:  54%|█████▍    | 136/250 [17:11<14:31,  7.65s/it][A  [OK] Task 5 Ep 136: SUCCESS (steps=130)
+
+pick up the tomato sauce and p...:  55%|█████▍    | 137/250 [17:19<14:39,  7.78s/it][A  [OK] Task 5 Ep 137: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  55%|█████▌    | 138/250 [17:26<14:04,  7.54s/it][A  [OK] Task 5 Ep 138: SUCCESS (steps=137)
+
+pick up the tomato sauce and p...:  56%|█████▌    | 139/250 [17:33<13:50,  7.48s/it][A  [OK] Task 5 Ep 139: SUCCESS (steps=122)
+
+pick up the tomato sauce and p...:  56%|█████▌    | 140/250 [17:42<14:26,  7.88s/it][A  [OK] Task 5 Ep 140: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  56%|█████▋    | 141/250 [17:50<14:03,  7.74s/it][A  [OK] Task 5 Ep 141: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  57%|█████▋    | 142/250 [17:57<13:55,  7.73s/it][A  [OK] Task 5 Ep 142: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  57%|█████▋    | 143/250 [18:05<13:40,  7.67s/it][A  [OK] Task 5 Ep 143: SUCCESS (steps=127)
+
+pick up the tomato sauce and p...:  58%|█████▊    | 144/250 [18:12<13:11,  7.46s/it][A  [OK] Task 5 Ep 144: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...:  58%|█████▊    | 145/250 [18:19<12:57,  7.40s/it][A  [OK] Task 5 Ep 145: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...:  58%|█████▊    | 146/250 [18:26<12:38,  7.30s/it][A  [OK] Task 5 Ep 146: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...:  59%|█████▉    | 147/250 [18:33<12:25,  7.24s/it][A  [OK] Task 5 Ep 147: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  59%|█████▉    | 148/250 [18:42<12:54,  7.60s/it][A  [OK] Task 5 Ep 148: SUCCESS (steps=126)
+
+pick up the tomato sauce and p...:  60%|█████▉    | 149/250 [18:48<12:25,  7.38s/it][A  [OK] Task 5 Ep 149: SUCCESS (steps=130)
+
+pick up the tomato sauce and p...:  60%|██████    | 150/250 [18:56<12:13,  7.34s/it][A  [OK] Task 5 Ep 150: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  60%|██████    | 151/250 [19:03<11:59,  7.27s/it][A  [OK] Task 5 Ep 151: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  61%|██████    | 152/250 [19:10<11:36,  7.11s/it][A  [OK] Task 5 Ep 152: SUCCESS (steps=130)
+
+pick up the tomato sauce and p...:  61%|██████    | 153/250 [19:17<11:27,  7.09s/it][A  [OK] Task 5 Ep 153: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  62%|██████▏   | 154/250 [19:23<11:13,  7.01s/it][A  [OK] Task 5 Ep 154: SUCCESS (steps=123)
+
+pick up the tomato sauce and p...:  62%|██████▏   | 155/250 [19:30<11:00,  6.95s/it][A  [OK] Task 5 Ep 155: SUCCESS (steps=136)
+
+pick up the tomato sauce and p...:  62%|██████▏   | 156/250 [19:38<11:06,  7.09s/it][A  [OK] Task 5 Ep 156: SUCCESS (steps=125)
+
+pick up the tomato sauce and p...:  63%|██████▎   | 157/250 [19:45<10:54,  7.04s/it][A  [OK] Task 5 Ep 157: SUCCESS (steps=125)
+
+pick up the tomato sauce and p...:  63%|██████▎   | 158/250 [19:52<10:48,  7.05s/it][A  [OK] Task 5 Ep 158: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  64%|██████▎   | 159/250 [19:59<10:40,  7.04s/it][A  [OK] Task 5 Ep 159: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  64%|██████▍   | 160/250 [20:06<10:43,  7.14s/it][A  [OK] Task 5 Ep 160: SUCCESS (steps=130)
+
+pick up the tomato sauce and p...:  64%|██████▍   | 161/250 [20:14<10:48,  7.28s/it][A  [OK] Task 5 Ep 161: SUCCESS (steps=135)
+
+pick up the tomato sauce and p...:  65%|██████▍   | 162/250 [20:22<10:56,  7.46s/it][A  [OK] Task 5 Ep 162: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  65%|██████▌   | 163/250 [20:28<10:31,  7.25s/it][A  [OK] Task 5 Ep 163: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...:  66%|██████▌   | 164/250 [20:36<10:36,  7.41s/it][A  [OK] Task 5 Ep 164: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  66%|██████▌   | 165/250 [20:43<10:29,  7.41s/it][A  [OK] Task 5 Ep 165: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  66%|██████▋   | 166/250 [20:50<10:12,  7.30s/it][A  [OK] Task 5 Ep 166: SUCCESS (steps=127)
+
+pick up the tomato sauce and p...:  67%|██████▋   | 167/250 [20:58<09:59,  7.22s/it][A  [OK] Task 5 Ep 167: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  67%|██████▋   | 168/250 [21:04<09:37,  7.05s/it][A  [OK] Task 5 Ep 168: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  68%|██████▊   | 169/250 [21:11<09:35,  7.11s/it][A  [OK] Task 5 Ep 169: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  68%|██████▊   | 170/250 [21:19<09:47,  7.34s/it][A  [OK] Task 5 Ep 170: SUCCESS (steps=135)
+
+pick up the tomato sauce and p...:  68%|██████▊   | 171/250 [21:27<09:39,  7.33s/it][A  [OK] Task 5 Ep 171: SUCCESS (steps=130)
+
+pick up the tomato sauce and p...:  69%|██████▉   | 172/250 [21:34<09:26,  7.27s/it][A  [OK] Task 5 Ep 172: SUCCESS (steps=138)
+
+pick up the tomato sauce and p...:  69%|██████▉   | 173/250 [21:43<09:56,  7.75s/it][A  [OK] Task 5 Ep 173: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  70%|██████▉   | 174/250 [21:50<09:36,  7.58s/it][A  [OK] Task 5 Ep 174: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  70%|███████   | 175/250 [21:57<09:09,  7.33s/it][A  [OK] Task 5 Ep 175: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  70%|███████   | 176/250 [22:04<08:58,  7.28s/it][A  [OK] Task 5 Ep 176: SUCCESS (steps=127)
+
+pick up the tomato sauce and p...:  71%|███████   | 177/250 [22:11<08:41,  7.14s/it][A  [OK] Task 5 Ep 177: SUCCESS (steps=121)
+
+pick up the tomato sauce and p...:  71%|███████   | 178/250 [22:17<08:24,  7.01s/it][A  [OK] Task 5 Ep 178: SUCCESS (steps=135)
+
+pick up the tomato sauce and p...:  72%|███████▏  | 179/250 [22:25<08:36,  7.27s/it][A  [OK] Task 5 Ep 179: SUCCESS (steps=137)
+
+pick up the tomato sauce and p...:  72%|███████▏  | 180/250 [22:33<08:31,  7.31s/it][A  [OK] Task 5 Ep 180: SUCCESS (steps=138)
+
+pick up the tomato sauce and p...:  72%|███████▏  | 181/250 [22:42<09:02,  7.86s/it][A  [OK] Task 5 Ep 181: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  73%|███████▎  | 182/250 [22:48<08:31,  7.53s/it][A  [OK] Task 5 Ep 182: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  73%|███████▎  | 183/250 [22:55<08:14,  7.38s/it][A  [OK] Task 5 Ep 183: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  74%|███████▎  | 184/250 [23:02<07:55,  7.20s/it][A  [OK] Task 5 Ep 184: SUCCESS (steps=137)
+
+pick up the tomato sauce and p...:  74%|███████▍  | 185/250 [23:09<07:48,  7.20s/it][A  [OK] Task 5 Ep 185: SUCCESS (steps=122)
+
+pick up the tomato sauce and p...:  74%|███████▍  | 186/250 [23:16<07:31,  7.06s/it][A  [OK] Task 5 Ep 186: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  75%|███████▍  | 187/250 [23:23<07:27,  7.10s/it][A  [OK] Task 5 Ep 187: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  75%|███████▌  | 188/250 [23:30<07:15,  7.02s/it][A  [OK] Task 5 Ep 188: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  76%|███████▌  | 189/250 [23:37<07:07,  7.01s/it][A  [OK] Task 5 Ep 189: SUCCESS (steps=136)
+
+pick up the tomato sauce and p...:  76%|███████▌  | 190/250 [23:45<07:07,  7.12s/it][A  [OK] Task 5 Ep 190: SUCCESS (steps=130)
+
+pick up the tomato sauce and p...:  76%|███████▋  | 191/250 [23:52<06:59,  7.11s/it][A  [OK] Task 5 Ep 191: SUCCESS (steps=141)
+
+pick up the tomato sauce and p...:  77%|███████▋  | 192/250 [23:59<07:00,  7.25s/it][A  [OK] Task 5 Ep 192: SUCCESS (steps=122)
+
+pick up the tomato sauce and p...:  77%|███████▋  | 193/250 [24:06<06:43,  7.09s/it][A  [OK] Task 5 Ep 193: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  78%|███████▊  | 194/250 [24:13<06:32,  7.00s/it][A  [OK] Task 5 Ep 194: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...:  78%|███████▊  | 195/250 [24:20<06:27,  7.04s/it][A  [OK] Task 5 Ep 195: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  78%|███████▊  | 196/250 [24:27<06:29,  7.21s/it][A  [OK] Task 5 Ep 196: SUCCESS (steps=137)
+
+pick up the tomato sauce and p...:  79%|███████▉  | 197/250 [24:35<06:30,  7.37s/it][A  [OK] Task 5 Ep 197: SUCCESS (steps=130)
+
+pick up the tomato sauce and p...:  79%|███████▉  | 198/250 [24:43<06:25,  7.42s/it][A  [OK] Task 5 Ep 198: SUCCESS (steps=138)
+
+pick up the tomato sauce and p...:  80%|███████▉  | 199/250 [24:50<06:20,  7.45s/it][A  [OK] Task 5 Ep 199: SUCCESS (steps=129)
+
+pick up the tomato sauce and p...:  80%|████████  | 200/250 [24:58<06:13,  7.47s/it][A  [FAIL] Task 5 Ep 200: FAILURE (steps=810)
+
+pick up the tomato sauce and p...:  80%|████████  | 201/250 [25:34<13:10, 16.14s/it][A  [OK] Task 5 Ep 201: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  81%|████████  | 202/250 [25:43<11:10, 13.97s/it][A  [OK] Task 5 Ep 202: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  81%|████████  | 203/250 [25:50<09:16, 11.85s/it][A  [OK] Task 5 Ep 203: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  82%|████████▏ | 204/250 [25:57<08:00, 10.44s/it][A  [OK] Task 5 Ep 204: SUCCESS (steps=136)
+
+pick up the tomato sauce and p...:  82%|████████▏ | 205/250 [26:05<07:15,  9.67s/it][A  [OK] Task 5 Ep 205: SUCCESS (steps=126)
+
+pick up the tomato sauce and p...:  82%|████████▏ | 206/250 [26:12<06:31,  8.91s/it][A  [OK] Task 5 Ep 206: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  83%|████████▎ | 207/250 [26:19<05:59,  8.37s/it][A  [OK] Task 5 Ep 207: SUCCESS (steps=126)
+
+pick up the tomato sauce and p...:  83%|████████▎ | 208/250 [26:26<05:37,  8.03s/it][A  [OK] Task 5 Ep 208: SUCCESS (steps=172)
+
+pick up the tomato sauce and p...:  84%|████████▎ | 209/250 [26:35<05:38,  8.26s/it][A  [OK] Task 5 Ep 209: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  84%|████████▍ | 210/250 [26:42<05:15,  7.89s/it][A  [OK] Task 5 Ep 210: SUCCESS (steps=127)
+
+pick up the tomato sauce and p...:  84%|████████▍ | 211/250 [26:49<04:57,  7.63s/it][A  [OK] Task 5 Ep 211: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...:  85%|████████▍ | 212/250 [26:56<04:44,  7.50s/it][A  [OK] Task 5 Ep 212: SUCCESS (steps=139)
+
+pick up the tomato sauce and p...:  85%|████████▌ | 213/250 [27:04<04:36,  7.48s/it][A  [OK] Task 5 Ep 213: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  86%|████████▌ | 214/250 [27:11<04:22,  7.30s/it][A  [OK] Task 5 Ep 214: SUCCESS (steps=126)
+
+pick up the tomato sauce and p...:  86%|████████▌ | 215/250 [27:18<04:10,  7.16s/it][A  [OK] Task 5 Ep 215: SUCCESS (steps=135)
+
+pick up the tomato sauce and p...:  86%|████████▋ | 216/250 [27:25<04:04,  7.20s/it][A  [OK] Task 5 Ep 216: SUCCESS (steps=130)
+
+pick up the tomato sauce and p...:  87%|████████▋ | 217/250 [27:33<04:01,  7.33s/it][A  [OK] Task 5 Ep 217: SUCCESS (steps=135)
+
+pick up the tomato sauce and p...:  87%|████████▋ | 218/250 [27:41<04:07,  7.72s/it][A  [OK] Task 5 Ep 218: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  88%|████████▊ | 219/250 [27:48<03:55,  7.59s/it][A  [OK] Task 5 Ep 219: SUCCESS (steps=138)
+
+pick up the tomato sauce and p...:  88%|████████▊ | 220/250 [27:57<03:53,  7.77s/it][A  [OK] Task 5 Ep 220: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  88%|████████▊ | 221/250 [28:04<03:39,  7.57s/it][A  [OK] Task 5 Ep 221: SUCCESS (steps=126)
+
+pick up the tomato sauce and p...:  89%|████████▉ | 222/250 [28:11<03:26,  7.36s/it][A  [OK] Task 5 Ep 222: SUCCESS (steps=144)
+
+pick up the tomato sauce and p...:  89%|████████▉ | 223/250 [28:19<03:23,  7.55s/it][A  [OK] Task 5 Ep 223: SUCCESS (steps=125)
+
+pick up the tomato sauce and p...:  90%|████████▉ | 224/250 [28:26<03:11,  7.37s/it][A  [OK] Task 5 Ep 224: SUCCESS (steps=135)
+
+pick up the tomato sauce and p...:  90%|█████████ | 225/250 [28:33<03:03,  7.36s/it][A  [OK] Task 5 Ep 225: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  90%|█████████ | 226/250 [28:41<03:04,  7.67s/it][A  [OK] Task 5 Ep 226: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  91%|█████████ | 227/250 [28:49<02:53,  7.55s/it][A  [OK] Task 5 Ep 227: SUCCESS (steps=168)
+
+pick up the tomato sauce and p...:  91%|█████████ | 228/250 [28:57<02:54,  7.93s/it][A  [OK] Task 5 Ep 228: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...:  92%|█████████▏| 229/250 [29:05<02:42,  7.74s/it][A  [OK] Task 5 Ep 229: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  92%|█████████▏| 230/250 [29:12<02:30,  7.53s/it][A  [OK] Task 5 Ep 230: SUCCESS (steps=136)
+
+pick up the tomato sauce and p...:  92%|█████████▏| 231/250 [29:19<02:21,  7.47s/it][A  [OK] Task 5 Ep 231: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...:  93%|█████████▎| 232/250 [29:26<02:11,  7.33s/it][A  [OK] Task 5 Ep 232: SUCCESS (steps=131)
+
+pick up the tomato sauce and p...:  93%|█████████▎| 233/250 [29:33<02:03,  7.27s/it][A  [OK] Task 5 Ep 233: SUCCESS (steps=126)
+
+pick up the tomato sauce and p...:  94%|█████████▎| 234/250 [29:41<01:59,  7.50s/it][A  [OK] Task 5 Ep 234: SUCCESS (steps=120)
+
+pick up the tomato sauce and p...:  94%|█████████▍| 235/250 [29:48<01:48,  7.27s/it][A  [OK] Task 5 Ep 235: SUCCESS (steps=132)
+
+pick up the tomato sauce and p...:  94%|█████████▍| 236/250 [29:55<01:41,  7.22s/it][A  [OK] Task 5 Ep 236: SUCCESS (steps=152)
+
+pick up the tomato sauce and p...:  95%|█████████▍| 237/250 [30:03<01:37,  7.51s/it][A  [OK] Task 5 Ep 237: SUCCESS (steps=126)
+
+pick up the tomato sauce and p...:  95%|█████████▌| 238/250 [30:10<01:28,  7.36s/it][A  [OK] Task 5 Ep 238: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  96%|█████████▌| 239/250 [30:17<01:20,  7.29s/it][A  [OK] Task 5 Ep 239: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  96%|█████████▌| 240/250 [30:24<01:11,  7.19s/it][A  [OK] Task 5 Ep 240: SUCCESS (steps=124)
+
+pick up the tomato sauce and p...:  96%|█████████▋| 241/250 [30:31<01:03,  7.08s/it][A  [OK] Task 5 Ep 241: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  97%|█████████▋| 242/250 [30:38<00:56,  7.02s/it][A  [OK] Task 5 Ep 242: SUCCESS (steps=161)
+
+pick up the tomato sauce and p...:  97%|█████████▋| 243/250 [30:46<00:52,  7.44s/it][A  [OK] Task 5 Ep 243: SUCCESS (steps=128)
+
+pick up the tomato sauce and p...:  98%|█████████▊| 244/250 [30:53<00:43,  7.31s/it][A  [OK] Task 5 Ep 244: SUCCESS (steps=131)
+
+pick up the tomato sauce and p...:  98%|█████████▊| 245/250 [31:01<00:36,  7.32s/it][A  [OK] Task 5 Ep 245: SUCCESS (steps=131)
+
+pick up the tomato sauce and p...:  98%|█████████▊| 246/250 [31:08<00:29,  7.30s/it][A  [OK] Task 5 Ep 246: SUCCESS (steps=133)
+
+pick up the tomato sauce and p...:  99%|█████████▉| 247/250 [31:15<00:21,  7.24s/it][A  [OK] Task 5 Ep 247: SUCCESS (steps=140)
+
+pick up the tomato sauce and p...:  99%|█████████▉| 248/250 [31:23<00:14,  7.33s/it][A  [OK] Task 5 Ep 248: SUCCESS (steps=139)
+
+pick up the tomato sauce and p...: 100%|█████████▉| 249/250 [31:30<00:07,  7.34s/it][A  [OK] Task 5 Ep 249: SUCCESS (steps=134)
+
+pick up the tomato sauce and p...: 100%|██████████| 250/250 [31:37<00:00,  7.29s/it][A
+                                                                                    [A   Task 5: 249/250 (99.6%)
+Tasks:   0%|          | 0/1 [31:43<?, ?it/s]
+
+Total success rate: 249/250 (99.6%)

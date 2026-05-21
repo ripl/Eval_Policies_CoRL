@@ -1,0 +1,44 @@
+{
+  "policy": "xvla",
+  "task": "stack",
+  "standard_horizon": 60,
+  "success_standard_horizon": 13,
+  "success_rate_standard_horizon": 0.5416666666666666,
+  "success_released_client": 21,
+  "success_rate_released_client": 0.875,
+  "total": 24,
+  "late_successes": [
+    {
+      "proc_id": 0,
+      "steps": 114
+    },
+    {
+      "proc_id": 5,
+      "steps": 295
+    },
+    {
+      "proc_id": 12,
+      "steps": 690
+    },
+    {
+      "proc_id": 13,
+      "steps": 86
+    },
+    {
+      "proc_id": 17,
+      "steps": 84
+    },
+    {
+      "proc_id": 19,
+      "steps": 831
+    },
+    {
+      "proc_id": 22,
+      "steps": 899
+    },
+    {
+      "proc_id": 23,
+      "steps": 89
+    }
+  ]
+}

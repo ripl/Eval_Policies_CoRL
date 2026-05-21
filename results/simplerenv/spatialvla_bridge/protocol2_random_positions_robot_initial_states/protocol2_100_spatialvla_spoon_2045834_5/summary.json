@@ -1,0 +1,18 @@
+{
+  "policy": "spatialvla",
+  "protocol": "widowx_protocol2_random_positions_robot_initial_states",
+  "task_filter": "spoon",
+  "episode_start": 0,
+  "episode_end": 100,
+  "success": 4,
+  "total": 100,
+  "success_rate": 0.04,
+  "by_task": {
+    "spoon": {
+      "success": 4,
+      "total": 100,
+      "success_rate": 0.04
+    }
+  },
+  "result_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/spatialvla_bridge/protocol2_random_positions_robot_initial_states/protocol2_100_spatialvla_spoon_2045834_5/videos"
+}

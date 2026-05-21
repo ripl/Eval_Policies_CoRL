@@ -1,0 +1,16 @@
+run_tag=20260513T201819Z
+date_utc=2026-05-13T20:18:45+00:00
+hostname=g13.ttic.edu
+project_root=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL
+mode=official
+ckpt_path=CogACT/CogACT-Base
+episode_start=0
+episode_end=1
+task_filter=stack
+results_dir=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/cogact_base/official_fixed_grid/20260513T201819Z
+cuda_visible_devices=0
+62d5e2d24ff5ef24aad37d6623041f082b075c20
+ b174a1b86deedfab4d198d935207e7bb0527994e third_party/cogact (heads/main)
+ 06accaca93535902d408da4855f21cece12bceb7 third_party/simpler_env (heads/main)
+ ef7a4d4fdf4b69f2c2154db5b15b9ac8dfe10682 third_party/simpler_env/ManiSkill2_real2sim (heads/main)
+Python 3.10.20

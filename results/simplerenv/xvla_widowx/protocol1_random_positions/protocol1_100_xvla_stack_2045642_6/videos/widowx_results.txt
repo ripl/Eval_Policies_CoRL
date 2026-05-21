@@ -1,0 +1,1 @@
+{"task": "widowx_stack_cube", "reward": 1.0, "done": true, "steps": 34, "duration_sec": 3.008330821990967, "output": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/xvla_widowx/protocol1_random_positions/protocol1_100_xvla_stack_2045642_6/videos/widowx_stack_cube_0_1.00.mp4", "proc_id": 0}

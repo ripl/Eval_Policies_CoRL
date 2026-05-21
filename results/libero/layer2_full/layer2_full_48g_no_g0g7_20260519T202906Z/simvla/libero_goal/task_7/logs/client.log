@@ -1,0 +1,523 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8523
+   Task suite: libero_goal
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_goal
+   Tasks: 10, Trials per task: 250
+   Max steps: 800
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+turn on the stove...:   0%|          | 0/250 [00:00<?, ?it/s][A  [OK] Task 7 Ep 0: SUCCESS (steps=80)
+
+turn on the stove...:   0%|          | 1/250 [00:04<18:14,  4.40s/it][A  [OK] Task 7 Ep 1: SUCCESS (steps=82)
+
+turn on the stove...:   1%|          | 2/250 [00:08<17:05,  4.14s/it][A  [OK] Task 7 Ep 2: SUCCESS (steps=86)
+
+turn on the stove...:   1%|          | 3/250 [00:12<17:03,  4.15s/it][A  [OK] Task 7 Ep 3: SUCCESS (steps=82)
+
+turn on the stove...:   2%|▏         | 4/250 [00:18<19:54,  4.85s/it][A  [OK] Task 7 Ep 4: SUCCESS (steps=85)
+
+turn on the stove...:   2%|▏         | 5/250 [00:22<18:49,  4.61s/it][A  [OK] Task 7 Ep 5: SUCCESS (steps=83)
+
+turn on the stove...:   2%|▏         | 6/250 [00:26<17:51,  4.39s/it][A  [OK] Task 7 Ep 6: SUCCESS (steps=83)
+
+turn on the stove...:   3%|▎         | 7/250 [00:30<17:17,  4.27s/it][A  [OK] Task 7 Ep 7: SUCCESS (steps=82)
+
+turn on the stove...:   3%|▎         | 8/250 [00:34<17:03,  4.23s/it][A  [OK] Task 7 Ep 8: SUCCESS (steps=82)
+
+turn on the stove...:   4%|▎         | 9/250 [00:38<16:40,  4.15s/it][A  [OK] Task 7 Ep 9: SUCCESS (steps=83)
+
+turn on the stove...:   4%|▍         | 10/250 [00:42<16:37,  4.16s/it][A  [OK] Task 7 Ep 10: SUCCESS (steps=81)
+
+turn on the stove...:   4%|▍         | 11/250 [00:46<16:20,  4.10s/it][A  [OK] Task 7 Ep 11: SUCCESS (steps=82)
+
+turn on the stove...:   5%|▍         | 12/250 [00:50<15:57,  4.02s/it][A  [OK] Task 7 Ep 12: SUCCESS (steps=81)
+
+turn on the stove...:   5%|▌         | 13/250 [00:54<15:49,  4.01s/it][A  [OK] Task 7 Ep 13: SUCCESS (steps=84)
+
+turn on the stove...:   6%|▌         | 14/250 [00:58<15:49,  4.03s/it][A  [OK] Task 7 Ep 14: SUCCESS (steps=85)
+
+turn on the stove...:   6%|▌         | 15/250 [01:03<16:31,  4.22s/it][A  [OK] Task 7 Ep 15: SUCCESS (steps=81)
+
+turn on the stove...:   6%|▋         | 16/250 [01:08<17:47,  4.56s/it][A  [OK] Task 7 Ep 16: SUCCESS (steps=81)
+
+turn on the stove...:   7%|▋         | 17/250 [01:12<17:10,  4.42s/it][A  [OK] Task 7 Ep 17: SUCCESS (steps=87)
+
+turn on the stove...:   7%|▋         | 18/250 [01:18<18:36,  4.81s/it][A  [OK] Task 7 Ep 18: SUCCESS (steps=81)
+
+turn on the stove...:   8%|▊         | 19/250 [01:22<17:36,  4.57s/it][A  [OK] Task 7 Ep 19: SUCCESS (steps=86)
+
+turn on the stove...:   8%|▊         | 20/250 [01:26<16:53,  4.41s/it][A  [OK] Task 7 Ep 20: SUCCESS (steps=88)
+
+turn on the stove...:   8%|▊         | 21/250 [01:30<16:22,  4.29s/it][A  [OK] Task 7 Ep 21: SUCCESS (steps=81)
+
+turn on the stove...:   9%|▉         | 22/250 [01:34<15:46,  4.15s/it][A  [OK] Task 7 Ep 22: SUCCESS (steps=86)
+
+turn on the stove...:   9%|▉         | 23/250 [01:38<15:33,  4.11s/it][A  [OK] Task 7 Ep 23: SUCCESS (steps=81)
+
+turn on the stove...:  10%|▉         | 24/250 [01:42<15:11,  4.03s/it][A  [OK] Task 7 Ep 24: SUCCESS (steps=79)
+
+turn on the stove...:  10%|█         | 25/250 [01:46<14:42,  3.92s/it][A  [OK] Task 7 Ep 25: SUCCESS (steps=82)
+
+turn on the stove...:  10%|█         | 26/250 [01:49<14:32,  3.90s/it][A  [OK] Task 7 Ep 26: SUCCESS (steps=86)
+
+turn on the stove...:  11%|█         | 27/250 [01:53<14:31,  3.91s/it][A  [OK] Task 7 Ep 27: SUCCESS (steps=85)
+
+turn on the stove...:  11%|█         | 28/250 [01:57<14:31,  3.93s/it][A  [OK] Task 7 Ep 28: SUCCESS (steps=84)
+
+turn on the stove...:  12%|█▏        | 29/250 [02:01<14:23,  3.91s/it][A  [OK] Task 7 Ep 29: SUCCESS (steps=80)
+
+turn on the stove...:  12%|█▏        | 30/250 [02:05<14:09,  3.86s/it][A  [OK] Task 7 Ep 30: SUCCESS (steps=83)
+
+turn on the stove...:  12%|█▏        | 31/250 [02:09<14:05,  3.86s/it][A  [OK] Task 7 Ep 31: SUCCESS (steps=82)
+
+turn on the stove...:  13%|█▎        | 32/250 [02:13<14:12,  3.91s/it][A  [OK] Task 7 Ep 32: SUCCESS (steps=87)
+
+turn on the stove...:  13%|█▎        | 33/250 [02:18<15:37,  4.32s/it][A  [OK] Task 7 Ep 33: SUCCESS (steps=88)
+
+turn on the stove...:  14%|█▎        | 34/250 [02:22<15:27,  4.29s/it][A  [OK] Task 7 Ep 34: SUCCESS (steps=81)
+
+turn on the stove...:  14%|█▍        | 35/250 [02:27<15:45,  4.40s/it][A  [OK] Task 7 Ep 35: SUCCESS (steps=78)
+
+turn on the stove...:  14%|█▍        | 36/250 [02:31<15:27,  4.34s/it][A  [OK] Task 7 Ep 36: SUCCESS (steps=82)
+
+turn on the stove...:  15%|█▍        | 37/250 [02:35<14:49,  4.17s/it][A  [OK] Task 7 Ep 37: SUCCESS (steps=85)
+
+turn on the stove...:  15%|█▌        | 38/250 [02:39<14:28,  4.10s/it][A  [OK] Task 7 Ep 38: SUCCESS (steps=81)
+
+turn on the stove...:  16%|█▌        | 39/250 [02:43<14:05,  4.01s/it][A  [OK] Task 7 Ep 39: SUCCESS (steps=83)
+
+turn on the stove...:  16%|█▌        | 40/250 [02:46<13:48,  3.94s/it][A  [OK] Task 7 Ep 40: SUCCESS (steps=84)
+
+turn on the stove...:  16%|█▋        | 41/250 [02:50<13:38,  3.91s/it][A  [OK] Task 7 Ep 41: SUCCESS (steps=80)
+
+turn on the stove...:  17%|█▋        | 42/250 [02:54<13:24,  3.87s/it][A  [OK] Task 7 Ep 42: SUCCESS (steps=89)
+
+turn on the stove...:  17%|█▋        | 43/250 [02:58<13:30,  3.91s/it][A  [OK] Task 7 Ep 43: SUCCESS (steps=84)
+
+turn on the stove...:  18%|█▊        | 44/250 [03:02<13:25,  3.91s/it][A  [OK] Task 7 Ep 44: SUCCESS (steps=78)
+
+turn on the stove...:  18%|█▊        | 45/250 [03:06<13:07,  3.84s/it][A  [OK] Task 7 Ep 45: SUCCESS (steps=77)
+
+turn on the stove...:  18%|█▊        | 46/250 [03:10<13:25,  3.95s/it][A  [OK] Task 7 Ep 46: SUCCESS (steps=81)
+
+turn on the stove...:  19%|█▉        | 47/250 [03:16<15:19,  4.53s/it][A  [OK] Task 7 Ep 47: SUCCESS (steps=81)
+
+turn on the stove...:  19%|█▉        | 48/250 [03:19<14:29,  4.30s/it][A  [OK] Task 7 Ep 48: SUCCESS (steps=83)
+
+turn on the stove...:  20%|█▉        | 49/250 [03:23<13:54,  4.15s/it][A  [OK] Task 7 Ep 49: SUCCESS (steps=79)
+
+turn on the stove...:  20%|██        | 50/250 [03:27<13:19,  4.00s/it][A  [OK] Task 7 Ep 50: SUCCESS (steps=82)
+
+turn on the stove...:  20%|██        | 51/250 [03:31<13:02,  3.93s/it][A  [OK] Task 7 Ep 51: SUCCESS (steps=86)
+
+turn on the stove...:  21%|██        | 52/250 [03:36<14:06,  4.27s/it][A  [OK] Task 7 Ep 52: SUCCESS (steps=77)
+
+turn on the stove...:  21%|██        | 53/250 [03:40<13:35,  4.14s/it][A  [OK] Task 7 Ep 53: SUCCESS (steps=82)
+
+turn on the stove...:  22%|██▏       | 54/250 [03:44<13:22,  4.09s/it][A  [OK] Task 7 Ep 54: SUCCESS (steps=84)
+
+turn on the stove...:  22%|██▏       | 55/250 [03:47<13:05,  4.03s/it][A  [OK] Task 7 Ep 55: SUCCESS (steps=79)
+
+turn on the stove...:  22%|██▏       | 56/250 [03:51<12:41,  3.92s/it][A  [OK] Task 7 Ep 56: SUCCESS (steps=77)
+
+turn on the stove...:  23%|██▎       | 57/250 [03:55<12:22,  3.85s/it][A  [OK] Task 7 Ep 57: SUCCESS (steps=85)
+
+turn on the stove...:  23%|██▎       | 58/250 [03:59<12:22,  3.86s/it][A  [OK] Task 7 Ep 58: SUCCESS (steps=81)
+
+turn on the stove...:  24%|██▎       | 59/250 [04:02<12:12,  3.84s/it][A  [OK] Task 7 Ep 59: SUCCESS (steps=85)
+
+turn on the stove...:  24%|██▍       | 60/250 [04:06<12:15,  3.87s/it][A  [OK] Task 7 Ep 60: SUCCESS (steps=84)
+
+turn on the stove...:  24%|██▍       | 61/250 [04:10<12:08,  3.86s/it][A  [OK] Task 7 Ep 61: SUCCESS (steps=84)
+
+turn on the stove...:  25%|██▍       | 62/250 [04:15<13:17,  4.24s/it][A  [OK] Task 7 Ep 62: SUCCESS (steps=83)
+
+turn on the stove...:  25%|██▌       | 63/250 [04:19<12:46,  4.10s/it][A  [OK] Task 7 Ep 63: SUCCESS (steps=83)
+
+turn on the stove...:  26%|██▌       | 64/250 [04:25<14:25,  4.65s/it][A  [OK] Task 7 Ep 64: SUCCESS (steps=81)
+
+turn on the stove...:  26%|██▌       | 65/250 [04:32<16:26,  5.33s/it][A  [OK] Task 7 Ep 65: SUCCESS (steps=82)
+
+turn on the stove...:  26%|██▋       | 66/250 [04:38<16:44,  5.46s/it][A  [OK] Task 7 Ep 66: SUCCESS (steps=80)
+
+turn on the stove...:  27%|██▋       | 67/250 [04:42<15:06,  4.96s/it][A  [OK] Task 7 Ep 67: SUCCESS (steps=86)
+
+turn on the stove...:  27%|██▋       | 68/250 [04:45<14:05,  4.65s/it][A  [OK] Task 7 Ep 68: SUCCESS (steps=81)
+
+turn on the stove...:  28%|██▊       | 69/250 [04:49<13:13,  4.39s/it][A  [OK] Task 7 Ep 69: SUCCESS (steps=82)
+
+turn on the stove...:  28%|██▊       | 70/250 [04:53<12:41,  4.23s/it][A  [OK] Task 7 Ep 70: SUCCESS (steps=90)
+
+turn on the stove...:  28%|██▊       | 71/250 [04:57<12:27,  4.18s/it][A  [OK] Task 7 Ep 71: SUCCESS (steps=81)
+
+turn on the stove...:  29%|██▉       | 72/250 [05:01<12:03,  4.07s/it][A  [OK] Task 7 Ep 72: SUCCESS (steps=80)
+
+turn on the stove...:  29%|██▉       | 73/250 [05:05<11:46,  3.99s/it][A  [OK] Task 7 Ep 73: SUCCESS (steps=79)
+
+turn on the stove...:  30%|██▉       | 74/250 [05:08<11:23,  3.88s/it][A  [OK] Task 7 Ep 74: SUCCESS (steps=81)
+
+turn on the stove...:  30%|███       | 75/250 [05:12<11:11,  3.84s/it][A  [OK] Task 7 Ep 75: SUCCESS (steps=87)
+
+turn on the stove...:  30%|███       | 76/250 [05:17<11:59,  4.13s/it][A  [OK] Task 7 Ep 76: SUCCESS (steps=86)
+
+turn on the stove...:  31%|███       | 77/250 [05:21<11:45,  4.08s/it][A  [OK] Task 7 Ep 77: SUCCESS (steps=80)
+
+turn on the stove...:  31%|███       | 78/250 [05:25<11:24,  3.98s/it][A  [OK] Task 7 Ep 78: SUCCESS (steps=87)
+
+turn on the stove...:  32%|███▏      | 79/250 [05:29<11:44,  4.12s/it][A  [OK] Task 7 Ep 79: SUCCESS (steps=80)
+
+turn on the stove...:  32%|███▏      | 80/250 [05:33<11:31,  4.07s/it][A  [OK] Task 7 Ep 80: SUCCESS (steps=81)
+
+turn on the stove...:  32%|███▏      | 81/250 [05:37<11:13,  3.98s/it][A  [OK] Task 7 Ep 81: SUCCESS (steps=81)
+
+turn on the stove...:  33%|███▎      | 82/250 [05:41<11:00,  3.93s/it][A  [OK] Task 7 Ep 82: SUCCESS (steps=82)
+
+turn on the stove...:  33%|███▎      | 83/250 [05:44<10:50,  3.89s/it][A  [OK] Task 7 Ep 83: SUCCESS (steps=79)
+
+turn on the stove...:  34%|███▎      | 84/250 [05:48<10:34,  3.82s/it][A  [OK] Task 7 Ep 84: SUCCESS (steps=81)
+
+turn on the stove...:  34%|███▍      | 85/250 [05:52<10:27,  3.80s/it][A  [OK] Task 7 Ep 85: SUCCESS (steps=80)
+
+turn on the stove...:  34%|███▍      | 86/250 [05:56<10:21,  3.79s/it][A  [OK] Task 7 Ep 86: SUCCESS (steps=85)
+
+turn on the stove...:  35%|███▍      | 87/250 [06:00<10:23,  3.82s/it][A  [OK] Task 7 Ep 87: SUCCESS (steps=80)
+
+turn on the stove...:  35%|███▌      | 88/250 [06:03<10:16,  3.80s/it][A  [OK] Task 7 Ep 88: SUCCESS (steps=86)
+
+turn on the stove...:  36%|███▌      | 89/250 [06:07<10:19,  3.85s/it][A  [OK] Task 7 Ep 89: SUCCESS (steps=81)
+
+turn on the stove...:  36%|███▌      | 90/250 [06:11<10:13,  3.83s/it][A  [OK] Task 7 Ep 90: SUCCESS (steps=77)
+
+turn on the stove...:  36%|███▋      | 91/250 [06:16<11:01,  4.16s/it][A  [OK] Task 7 Ep 91: SUCCESS (steps=81)
+
+turn on the stove...:  37%|███▋      | 92/250 [06:20<10:37,  4.04s/it][A  [OK] Task 7 Ep 92: SUCCESS (steps=81)
+
+turn on the stove...:  37%|███▋      | 93/250 [06:24<10:20,  3.95s/it][A  [OK] Task 7 Ep 93: SUCCESS (steps=79)
+
+turn on the stove...:  38%|███▊      | 94/250 [06:27<10:02,  3.86s/it][A  [OK] Task 7 Ep 94: SUCCESS (steps=82)
+
+turn on the stove...:  38%|███▊      | 95/250 [06:31<09:54,  3.83s/it][A  [OK] Task 7 Ep 95: SUCCESS (steps=83)
+
+turn on the stove...:  38%|███▊      | 96/250 [06:35<09:58,  3.88s/it][A  [OK] Task 7 Ep 96: SUCCESS (steps=83)
+
+turn on the stove...:  39%|███▉      | 97/250 [06:39<10:20,  4.06s/it][A  [OK] Task 7 Ep 97: SUCCESS (steps=84)
+
+turn on the stove...:  39%|███▉      | 98/250 [06:44<10:39,  4.21s/it][A  [OK] Task 7 Ep 98: SUCCESS (steps=79)
+
+turn on the stove...:  40%|███▉      | 99/250 [06:48<10:45,  4.28s/it][A  [OK] Task 7 Ep 99: SUCCESS (steps=88)
+
+turn on the stove...:  40%|████      | 100/250 [06:52<10:32,  4.21s/it][A  [OK] Task 7 Ep 100: SUCCESS (steps=81)
+
+turn on the stove...:  40%|████      | 101/250 [06:57<10:31,  4.24s/it][A  [OK] Task 7 Ep 101: SUCCESS (steps=85)
+
+turn on the stove...:  41%|████      | 102/250 [07:01<10:13,  4.15s/it][A  [OK] Task 7 Ep 102: SUCCESS (steps=84)
+
+turn on the stove...:  41%|████      | 103/250 [07:04<09:54,  4.04s/it][A  [OK] Task 7 Ep 103: SUCCESS (steps=87)
+
+turn on the stove...:  42%|████▏     | 104/250 [07:08<09:46,  4.02s/it][A  [OK] Task 7 Ep 104: SUCCESS (steps=85)
+
+turn on the stove...:  42%|████▏     | 105/250 [07:12<09:39,  4.00s/it][A  [OK] Task 7 Ep 105: SUCCESS (steps=79)
+
+turn on the stove...:  42%|████▏     | 106/250 [07:17<09:48,  4.09s/it][A  [OK] Task 7 Ep 106: SUCCESS (steps=81)
+
+turn on the stove...:  43%|████▎     | 107/250 [07:20<09:31,  4.00s/it][A  [OK] Task 7 Ep 107: SUCCESS (steps=82)
+
+turn on the stove...:  43%|████▎     | 108/250 [07:24<09:18,  3.93s/it][A  [OK] Task 7 Ep 108: SUCCESS (steps=81)
+
+turn on the stove...:  44%|████▎     | 109/250 [07:28<09:09,  3.90s/it][A  [OK] Task 7 Ep 109: SUCCESS (steps=85)
+
+turn on the stove...:  44%|████▍     | 110/250 [07:32<09:10,  3.93s/it][A  [OK] Task 7 Ep 110: SUCCESS (steps=79)
+
+turn on the stove...:  44%|████▍     | 111/250 [07:36<09:24,  4.06s/it][A  [OK] Task 7 Ep 111: SUCCESS (steps=89)
+
+turn on the stove...:  45%|████▍     | 112/250 [07:40<09:16,  4.04s/it][A  [OK] Task 7 Ep 112: SUCCESS (steps=81)
+
+turn on the stove...:  45%|████▌     | 113/250 [07:44<09:03,  3.97s/it][A  [OK] Task 7 Ep 113: SUCCESS (steps=83)
+
+turn on the stove...:  46%|████▌     | 114/250 [07:48<08:54,  3.93s/it][A  [OK] Task 7 Ep 114: SUCCESS (steps=83)
+
+turn on the stove...:  46%|████▌     | 115/250 [07:52<08:46,  3.90s/it][A  [OK] Task 7 Ep 115: SUCCESS (steps=79)
+
+turn on the stove...:  46%|████▋     | 116/250 [07:56<08:32,  3.83s/it][A  [OK] Task 7 Ep 116: SUCCESS (steps=81)
+
+turn on the stove...:  47%|████▋     | 117/250 [07:59<08:26,  3.81s/it][A  [OK] Task 7 Ep 117: SUCCESS (steps=82)
+
+turn on the stove...:  47%|████▋     | 118/250 [08:03<08:22,  3.81s/it][A  [OK] Task 7 Ep 118: SUCCESS (steps=79)
+
+turn on the stove...:  48%|████▊     | 119/250 [08:07<08:14,  3.77s/it][A  [OK] Task 7 Ep 119: SUCCESS (steps=81)
+
+turn on the stove...:  48%|████▊     | 120/250 [08:11<08:10,  3.78s/it][A  [OK] Task 7 Ep 120: SUCCESS (steps=90)
+
+turn on the stove...:  48%|████▊     | 121/250 [08:16<09:26,  4.39s/it][A  [OK] Task 7 Ep 121: SUCCESS (steps=81)
+
+turn on the stove...:  49%|████▉     | 122/250 [08:20<09:04,  4.25s/it][A  [OK] Task 7 Ep 122: SUCCESS (steps=85)
+
+turn on the stove...:  49%|████▉     | 123/250 [08:24<08:48,  4.16s/it][A  [OK] Task 7 Ep 123: SUCCESS (steps=80)
+
+turn on the stove...:  50%|████▉     | 124/250 [08:28<08:40,  4.13s/it][A  [OK] Task 7 Ep 124: SUCCESS (steps=89)
+
+turn on the stove...:  50%|█████     | 125/250 [08:32<08:34,  4.11s/it][A  [OK] Task 7 Ep 125: SUCCESS (steps=79)
+
+turn on the stove...:  50%|█████     | 126/250 [08:36<08:18,  4.02s/it][A  [OK] Task 7 Ep 126: SUCCESS (steps=84)
+
+turn on the stove...:  51%|█████     | 127/250 [08:40<08:07,  3.97s/it][A  [OK] Task 7 Ep 127: SUCCESS (steps=83)
+
+turn on the stove...:  51%|█████     | 128/250 [08:44<07:58,  3.92s/it][A  [OK] Task 7 Ep 128: SUCCESS (steps=85)
+
+turn on the stove...:  52%|█████▏    | 129/250 [08:48<07:56,  3.94s/it][A  [OK] Task 7 Ep 129: SUCCESS (steps=85)
+
+turn on the stove...:  52%|█████▏    | 130/250 [08:52<07:53,  3.95s/it][A  [OK] Task 7 Ep 130: SUCCESS (steps=81)
+
+turn on the stove...:  52%|█████▏    | 131/250 [08:56<07:44,  3.90s/it][A  [OK] Task 7 Ep 131: SUCCESS (steps=90)
+
+turn on the stove...:  53%|█████▎    | 132/250 [09:00<08:05,  4.12s/it][A  [OK] Task 7 Ep 132: SUCCESS (steps=87)
+
+turn on the stove...:  53%|█████▎    | 133/250 [09:04<08:03,  4.13s/it][A  [OK] Task 7 Ep 133: SUCCESS (steps=81)
+
+turn on the stove...:  54%|█████▎    | 134/250 [09:08<07:53,  4.09s/it][A  [OK] Task 7 Ep 134: SUCCESS (steps=80)
+
+turn on the stove...:  54%|█████▍    | 135/250 [09:12<07:39,  3.99s/it][A  [OK] Task 7 Ep 135: SUCCESS (steps=83)
+
+turn on the stove...:  54%|█████▍    | 136/250 [09:17<07:58,  4.20s/it][A  [OK] Task 7 Ep 136: SUCCESS (steps=79)
+
+turn on the stove...:  55%|█████▍    | 137/250 [09:21<07:37,  4.05s/it][A  [OK] Task 7 Ep 137: SUCCESS (steps=82)
+
+turn on the stove...:  55%|█████▌    | 138/250 [09:24<07:25,  3.97s/it][A  [OK] Task 7 Ep 138: SUCCESS (steps=78)
+
+turn on the stove...:  56%|█████▌    | 139/250 [09:28<07:10,  3.87s/it][A  [OK] Task 7 Ep 139: SUCCESS (steps=83)
+
+turn on the stove...:  56%|█████▌    | 140/250 [09:32<07:04,  3.86s/it][A  [OK] Task 7 Ep 140: SUCCESS (steps=80)
+
+turn on the stove...:  56%|█████▋    | 141/250 [09:36<06:58,  3.84s/it][A  [OK] Task 7 Ep 141: SUCCESS (steps=85)
+
+turn on the stove...:  57%|█████▋    | 142/250 [09:40<06:58,  3.88s/it][A  [OK] Task 7 Ep 142: SUCCESS (steps=80)
+
+turn on the stove...:  57%|█████▋    | 143/250 [09:43<06:52,  3.86s/it][A  [OK] Task 7 Ep 143: SUCCESS (steps=79)
+
+turn on the stove...:  58%|█████▊    | 144/250 [09:47<06:43,  3.81s/it][A  [OK] Task 7 Ep 144: SUCCESS (steps=84)
+
+turn on the stove...:  58%|█████▊    | 145/250 [09:51<06:39,  3.81s/it][A  [OK] Task 7 Ep 145: SUCCESS (steps=84)
+
+turn on the stove...:  58%|█████▊    | 146/250 [09:55<06:36,  3.81s/it][A  [OK] Task 7 Ep 146: SUCCESS (steps=80)
+
+turn on the stove...:  59%|█████▉    | 147/250 [09:59<06:34,  3.83s/it][A  [OK] Task 7 Ep 147: SUCCESS (steps=81)
+
+turn on the stove...:  59%|█████▉    | 148/250 [10:02<06:29,  3.82s/it][A  [OK] Task 7 Ep 148: SUCCESS (steps=83)
+
+turn on the stove...:  60%|█████▉    | 149/250 [10:06<06:25,  3.82s/it][A  [OK] Task 7 Ep 149: SUCCESS (steps=87)
+
+turn on the stove...:  60%|██████    | 150/250 [10:10<06:27,  3.87s/it][A  [OK] Task 7 Ep 150: SUCCESS (steps=83)
+
+turn on the stove...:  60%|██████    | 151/250 [10:16<07:22,  4.47s/it][A  [OK] Task 7 Ep 151: SUCCESS (steps=80)
+
+turn on the stove...:  61%|██████    | 152/250 [10:20<06:58,  4.27s/it][A  [OK] Task 7 Ep 152: SUCCESS (steps=81)
+
+turn on the stove...:  61%|██████    | 153/250 [10:24<06:41,  4.14s/it][A  [OK] Task 7 Ep 153: SUCCESS (steps=78)
+
+turn on the stove...:  62%|██████▏   | 154/250 [10:27<06:23,  4.00s/it][A  [OK] Task 7 Ep 154: SUCCESS (steps=86)
+
+turn on the stove...:  62%|██████▏   | 155/250 [10:31<06:19,  3.99s/it][A  [OK] Task 7 Ep 155: SUCCESS (steps=80)
+
+turn on the stove...:  62%|██████▏   | 156/250 [10:35<06:12,  3.96s/it][A  [OK] Task 7 Ep 156: SUCCESS (steps=85)
+
+turn on the stove...:  63%|██████▎   | 157/250 [10:39<06:11,  3.99s/it][A  [OK] Task 7 Ep 157: SUCCESS (steps=87)
+
+turn on the stove...:  63%|██████▎   | 158/250 [10:43<06:08,  4.00s/it][A  [OK] Task 7 Ep 158: SUCCESS (steps=90)
+
+turn on the stove...:  64%|██████▎   | 159/250 [10:47<06:08,  4.05s/it][A  [OK] Task 7 Ep 159: SUCCESS (steps=85)
+
+turn on the stove...:  64%|██████▍   | 160/250 [10:51<06:01,  4.02s/it][A  [OK] Task 7 Ep 160: SUCCESS (steps=80)
+
+turn on the stove...:  64%|██████▍   | 161/250 [10:55<05:51,  3.95s/it][A  [OK] Task 7 Ep 161: SUCCESS (steps=80)
+
+turn on the stove...:  65%|██████▍   | 162/250 [10:59<05:45,  3.93s/it][A  [OK] Task 7 Ep 162: SUCCESS (steps=85)
+
+turn on the stove...:  65%|██████▌   | 163/250 [11:03<05:48,  4.00s/it][A  [OK] Task 7 Ep 163: SUCCESS (steps=81)
+
+turn on the stove...:  66%|██████▌   | 164/250 [11:08<05:57,  4.16s/it][A  [OK] Task 7 Ep 164: SUCCESS (steps=82)
+
+turn on the stove...:  66%|██████▌   | 165/250 [11:12<05:58,  4.21s/it][A  [OK] Task 7 Ep 165: SUCCESS (steps=82)
+
+turn on the stove...:  66%|██████▋   | 166/250 [11:17<06:19,  4.52s/it][A  [OK] Task 7 Ep 166: SUCCESS (steps=80)
+
+turn on the stove...:  67%|██████▋   | 167/250 [11:21<05:58,  4.32s/it][A  [OK] Task 7 Ep 167: SUCCESS (steps=84)
+
+turn on the stove...:  67%|██████▋   | 168/250 [11:27<06:28,  4.74s/it][A  [OK] Task 7 Ep 168: SUCCESS (steps=83)
+
+turn on the stove...:  68%|██████▊   | 169/250 [11:33<06:50,  5.06s/it][A  [OK] Task 7 Ep 169: SUCCESS (steps=84)
+
+turn on the stove...:  68%|██████▊   | 170/250 [11:37<06:15,  4.70s/it][A  [OK] Task 7 Ep 170: SUCCESS (steps=85)
+
+turn on the stove...:  68%|██████▊   | 171/250 [11:41<05:53,  4.48s/it][A  [OK] Task 7 Ep 171: SUCCESS (steps=77)
+
+turn on the stove...:  69%|██████▉   | 172/250 [11:44<05:30,  4.24s/it][A  [OK] Task 7 Ep 172: SUCCESS (steps=88)
+
+turn on the stove...:  69%|██████▉   | 173/250 [11:48<05:19,  4.15s/it][A  [OK] Task 7 Ep 173: SUCCESS (steps=81)
+
+turn on the stove...:  70%|██████▉   | 174/250 [11:52<05:07,  4.05s/it][A  [OK] Task 7 Ep 174: SUCCESS (steps=83)
+
+turn on the stove...:  70%|███████   | 175/250 [11:56<04:59,  3.99s/it][A  [OK] Task 7 Ep 175: SUCCESS (steps=82)
+
+turn on the stove...:  70%|███████   | 176/250 [12:00<04:51,  3.94s/it][A  [OK] Task 7 Ep 176: SUCCESS (steps=82)
+
+turn on the stove...:  71%|███████   | 177/250 [12:04<04:45,  3.92s/it][A  [OK] Task 7 Ep 177: SUCCESS (steps=82)
+
+turn on the stove...:  71%|███████   | 178/250 [12:07<04:39,  3.88s/it][A  [OK] Task 7 Ep 178: SUCCESS (steps=81)
+
+turn on the stove...:  72%|███████▏  | 179/250 [12:11<04:33,  3.86s/it][A  [OK] Task 7 Ep 179: SUCCESS (steps=81)
+
+turn on the stove...:  72%|███████▏  | 180/250 [12:17<05:15,  4.51s/it][A  [OK] Task 7 Ep 180: SUCCESS (steps=81)
+
+turn on the stove...:  72%|███████▏  | 181/250 [12:21<04:56,  4.29s/it][A  [OK] Task 7 Ep 181: SUCCESS (steps=81)
+
+turn on the stove...:  73%|███████▎  | 182/250 [12:25<04:41,  4.14s/it][A  [OK] Task 7 Ep 182: SUCCESS (steps=81)
+
+turn on the stove...:  73%|███████▎  | 183/250 [12:29<04:30,  4.03s/it][A  [OK] Task 7 Ep 183: SUCCESS (steps=85)
+
+turn on the stove...:  74%|███████▎  | 184/250 [12:32<04:23,  4.00s/it][A  [OK] Task 7 Ep 184: SUCCESS (steps=80)
+
+turn on the stove...:  74%|███████▍  | 185/250 [12:36<04:15,  3.93s/it][A  [OK] Task 7 Ep 185: SUCCESS (steps=76)
+
+turn on the stove...:  74%|███████▍  | 186/250 [12:40<04:17,  4.02s/it][A  [OK] Task 7 Ep 186: SUCCESS (steps=84)
+
+turn on the stove...:  75%|███████▍  | 187/250 [12:44<04:13,  4.03s/it][A  [OK] Task 7 Ep 187: SUCCESS (steps=87)
+
+turn on the stove...:  75%|███████▌  | 188/250 [12:48<04:08,  4.01s/it][A  [OK] Task 7 Ep 188: SUCCESS (steps=81)
+
+turn on the stove...:  76%|███████▌  | 189/250 [12:52<04:00,  3.94s/it][A  [OK] Task 7 Ep 189: SUCCESS (steps=82)
+
+turn on the stove...:  76%|███████▌  | 190/250 [12:56<03:57,  3.96s/it][A  [OK] Task 7 Ep 190: SUCCESS (steps=83)
+
+turn on the stove...:  76%|███████▋  | 191/250 [13:00<03:51,  3.92s/it][A  [OK] Task 7 Ep 191: SUCCESS (steps=81)
+
+turn on the stove...:  77%|███████▋  | 192/250 [13:04<03:46,  3.91s/it][A  [OK] Task 7 Ep 192: SUCCESS (steps=81)
+
+turn on the stove...:  77%|███████▋  | 193/250 [13:08<03:43,  3.92s/it][A  [OK] Task 7 Ep 193: SUCCESS (steps=78)
+
+turn on the stove...:  78%|███████▊  | 194/250 [13:12<03:35,  3.84s/it][A  [OK] Task 7 Ep 194: SUCCESS (steps=80)
+
+turn on the stove...:  78%|███████▊  | 195/250 [13:17<03:55,  4.27s/it][A  [OK] Task 7 Ep 195: SUCCESS (steps=83)
+
+turn on the stove...:  78%|███████▊  | 196/250 [13:21<03:44,  4.16s/it][A  [OK] Task 7 Ep 196: SUCCESS (steps=82)
+
+turn on the stove...:  79%|███████▉  | 197/250 [13:25<03:35,  4.07s/it][A  [OK] Task 7 Ep 197: SUCCESS (steps=82)
+
+turn on the stove...:  79%|███████▉  | 198/250 [13:28<03:27,  4.00s/it][A  [OK] Task 7 Ep 198: SUCCESS (steps=80)
+
+turn on the stove...:  80%|███████▉  | 199/250 [13:32<03:20,  3.94s/it][A  [OK] Task 7 Ep 199: SUCCESS (steps=86)
+
+turn on the stove...:  80%|████████  | 200/250 [13:36<03:17,  3.96s/it][A  [OK] Task 7 Ep 200: SUCCESS (steps=83)
+
+turn on the stove...:  80%|████████  | 201/250 [13:40<03:14,  3.97s/it][A  [OK] Task 7 Ep 201: SUCCESS (steps=83)
+
+turn on the stove...:  81%|████████  | 202/250 [13:44<03:09,  3.94s/it][A  [OK] Task 7 Ep 202: SUCCESS (steps=87)
+
+turn on the stove...:  81%|████████  | 203/250 [13:48<03:06,  3.97s/it][A  [OK] Task 7 Ep 203: SUCCESS (steps=86)
+
+turn on the stove...:  82%|████████▏ | 204/250 [13:52<03:02,  3.98s/it][A  [OK] Task 7 Ep 204: SUCCESS (steps=81)
+
+turn on the stove...:  82%|████████▏ | 205/250 [13:56<02:58,  3.97s/it][A  [OK] Task 7 Ep 205: SUCCESS (steps=84)
+
+turn on the stove...:  82%|████████▏ | 206/250 [14:00<02:53,  3.95s/it][A  [OK] Task 7 Ep 206: SUCCESS (steps=85)
+
+turn on the stove...:  83%|████████▎ | 207/250 [14:04<02:50,  3.96s/it][A  [OK] Task 7 Ep 207: SUCCESS (steps=86)
+
+turn on the stove...:  83%|████████▎ | 208/250 [14:08<02:49,  4.04s/it][A  [OK] Task 7 Ep 208: SUCCESS (steps=81)
+
+turn on the stove...:  84%|████████▎ | 209/250 [14:12<02:42,  3.97s/it][A  [OK] Task 7 Ep 209: SUCCESS (steps=80)
+
+turn on the stove...:  84%|████████▍ | 210/250 [14:17<02:52,  4.30s/it][A  [OK] Task 7 Ep 210: SUCCESS (steps=82)
+
+turn on the stove...:  84%|████████▍ | 211/250 [14:21<02:42,  4.16s/it][A  [OK] Task 7 Ep 211: SUCCESS (steps=84)
+
+turn on the stove...:  85%|████████▍ | 212/250 [14:25<02:34,  4.07s/it][A  [OK] Task 7 Ep 212: SUCCESS (steps=80)
+
+turn on the stove...:  85%|████████▌ | 213/250 [14:29<02:27,  4.00s/it][A  [OK] Task 7 Ep 213: SUCCESS (steps=81)
+
+turn on the stove...:  86%|████████▌ | 214/250 [14:33<02:24,  4.02s/it][A  [OK] Task 7 Ep 214: SUCCESS (steps=81)
+
+turn on the stove...:  86%|████████▌ | 215/250 [14:37<02:19,  4.00s/it][A  [OK] Task 7 Ep 215: SUCCESS (steps=81)
+
+turn on the stove...:  86%|████████▋ | 216/250 [14:41<02:14,  3.96s/it][A  [OK] Task 7 Ep 216: SUCCESS (steps=74)
+
+turn on the stove...:  87%|████████▋ | 217/250 [14:44<02:06,  3.85s/it][A  [OK] Task 7 Ep 217: SUCCESS (steps=81)
+
+turn on the stove...:  87%|████████▋ | 218/250 [14:48<02:03,  3.85s/it][A  [OK] Task 7 Ep 218: SUCCESS (steps=87)
+
+turn on the stove...:  88%|████████▊ | 219/250 [14:52<02:02,  3.94s/it][A  [OK] Task 7 Ep 219: SUCCESS (steps=82)
+
+turn on the stove...:  88%|████████▊ | 220/250 [14:56<02:01,  4.06s/it][A  [OK] Task 7 Ep 220: SUCCESS (steps=85)
+
+turn on the stove...:  88%|████████▊ | 221/250 [15:01<01:58,  4.07s/it][A  [OK] Task 7 Ep 221: SUCCESS (steps=87)
+
+turn on the stove...:  89%|████████▉ | 222/250 [15:05<01:53,  4.06s/it][A  [OK] Task 7 Ep 222: SUCCESS (steps=83)
+
+turn on the stove...:  89%|████████▉ | 223/250 [15:08<01:48,  4.00s/it][A  [OK] Task 7 Ep 223: SUCCESS (steps=83)
+
+turn on the stove...:  90%|████████▉ | 224/250 [15:12<01:44,  4.01s/it][A  [OK] Task 7 Ep 224: SUCCESS (steps=83)
+
+turn on the stove...:  90%|█████████ | 225/250 [15:17<01:42,  4.08s/it][A  [OK] Task 7 Ep 225: SUCCESS (steps=86)
+
+turn on the stove...:  90%|█████████ | 226/250 [15:22<01:44,  4.35s/it][A  [OK] Task 7 Ep 226: SUCCESS (steps=78)
+
+turn on the stove...:  91%|█████████ | 227/250 [15:26<01:41,  4.41s/it][A  [OK] Task 7 Ep 227: SUCCESS (steps=90)
+
+turn on the stove...:  91%|█████████ | 228/250 [15:31<01:37,  4.44s/it][A  [OK] Task 7 Ep 228: SUCCESS (steps=82)
+
+turn on the stove...:  92%|█████████▏| 229/250 [15:35<01:31,  4.36s/it][A  [OK] Task 7 Ep 229: SUCCESS (steps=81)
+
+turn on the stove...:  92%|█████████▏| 230/250 [15:39<01:24,  4.24s/it][A  [OK] Task 7 Ep 230: SUCCESS (steps=83)
+
+turn on the stove...:  92%|█████████▏| 231/250 [15:43<01:18,  4.12s/it][A  [OK] Task 7 Ep 231: SUCCESS (steps=80)
+
+turn on the stove...:  93%|█████████▎| 232/250 [15:47<01:12,  4.03s/it][A  [OK] Task 7 Ep 232: SUCCESS (steps=87)
+
+turn on the stove...:  93%|█████████▎| 233/250 [15:51<01:08,  4.02s/it][A  [OK] Task 7 Ep 233: SUCCESS (steps=85)
+
+turn on the stove...:  94%|█████████▎| 234/250 [15:55<01:04,  4.02s/it][A  [OK] Task 7 Ep 234: SUCCESS (steps=80)
+
+turn on the stove...:  94%|█████████▍| 235/250 [15:58<00:59,  3.96s/it][A  [OK] Task 7 Ep 235: SUCCESS (steps=80)
+
+turn on the stove...:  94%|█████████▍| 236/250 [16:02<00:54,  3.91s/it][A  [OK] Task 7 Ep 236: SUCCESS (steps=86)
+
+turn on the stove...:  95%|█████████▍| 237/250 [16:06<00:51,  3.93s/it][A  [OK] Task 7 Ep 237: SUCCESS (steps=80)
+
+turn on the stove...:  95%|█████████▌| 238/250 [16:10<00:46,  3.90s/it][A  [OK] Task 7 Ep 238: SUCCESS (steps=78)
+
+turn on the stove...:  96%|█████████▌| 239/250 [16:16<00:48,  4.45s/it][A  [OK] Task 7 Ep 239: SUCCESS (steps=80)
+
+turn on the stove...:  96%|█████████▌| 240/250 [16:20<00:42,  4.28s/it][A  [OK] Task 7 Ep 240: SUCCESS (steps=83)
+
+turn on the stove...:  96%|█████████▋| 241/250 [16:23<00:37,  4.15s/it][A  [OK] Task 7 Ep 241: SUCCESS (steps=82)
+
+turn on the stove...:  97%|█████████▋| 242/250 [16:27<00:32,  4.07s/it][A  [OK] Task 7 Ep 242: SUCCESS (steps=79)
+
+turn on the stove...:  97%|█████████▋| 243/250 [16:31<00:27,  3.97s/it][A  [OK] Task 7 Ep 243: SUCCESS (steps=81)
+
+turn on the stove...:  98%|█████████▊| 244/250 [16:35<00:23,  3.93s/it][A  [OK] Task 7 Ep 244: SUCCESS (steps=81)
+
+turn on the stove...:  98%|█████████▊| 245/250 [16:39<00:19,  3.89s/it][A  [OK] Task 7 Ep 245: SUCCESS (steps=85)
+
+turn on the stove...:  98%|█████████▊| 246/250 [16:43<00:15,  3.92s/it][A  [OK] Task 7 Ep 246: SUCCESS (steps=85)
+
+turn on the stove...:  99%|█████████▉| 247/250 [16:47<00:11,  3.94s/it][A  [OK] Task 7 Ep 247: SUCCESS (steps=83)
+
+turn on the stove...:  99%|█████████▉| 248/250 [16:51<00:07,  3.91s/it][A  [OK] Task 7 Ep 248: SUCCESS (steps=81)
+
+turn on the stove...: 100%|█████████▉| 249/250 [16:54<00:03,  3.88s/it][A  [OK] Task 7 Ep 249: SUCCESS (steps=83)
+
+turn on the stove...: 100%|██████████| 250/250 [16:58<00:00,  3.87s/it][A
+                                                                       [A   Task 7: 250/250 (100.0%)
+Tasks:   0%|          | 0/1 [17:00<?, ?it/s]
+
+Total success rate: 250/250 (100.0%)

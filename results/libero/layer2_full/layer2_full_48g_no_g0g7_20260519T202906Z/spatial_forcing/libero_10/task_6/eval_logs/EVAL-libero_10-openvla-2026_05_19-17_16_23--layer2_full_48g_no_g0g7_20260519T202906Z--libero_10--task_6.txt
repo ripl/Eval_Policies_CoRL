@@ -1,0 +1,1508 @@
+Task suite: libero_10
+Using initial states from /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_layer2_4suite_2500_seed20260519/libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate.pruned_init
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 1...
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 2...
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 3...
+Success: False
+# episodes completed so far: 3
+# successes: 2 (66.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 4...
+Success: True
+# episodes completed so far: 4
+# successes: 3 (75.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 5...
+Success: True
+# episodes completed so far: 5
+# successes: 4 (80.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 6...
+Success: True
+# episodes completed so far: 6
+# successes: 5 (83.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 7...
+Success: True
+# episodes completed so far: 7
+# successes: 6 (85.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 8...
+Success: True
+# episodes completed so far: 8
+# successes: 7 (87.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 9...
+Success: True
+# episodes completed so far: 9
+# successes: 8 (88.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 10...
+Success: True
+# episodes completed so far: 10
+# successes: 9 (90.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 11...
+Success: False
+# episodes completed so far: 11
+# successes: 9 (81.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 12...
+Success: True
+# episodes completed so far: 12
+# successes: 10 (83.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 13...
+Success: False
+# episodes completed so far: 13
+# successes: 10 (76.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 14...
+Success: True
+# episodes completed so far: 14
+# successes: 11 (78.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 15...
+Success: True
+# episodes completed so far: 15
+# successes: 12 (80.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 16...
+Success: True
+# episodes completed so far: 16
+# successes: 13 (81.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 17...
+Success: True
+# episodes completed so far: 17
+# successes: 14 (82.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 18...
+Success: True
+# episodes completed so far: 18
+# successes: 15 (83.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 19...
+Success: True
+# episodes completed so far: 19
+# successes: 16 (84.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 20...
+Success: True
+# episodes completed so far: 20
+# successes: 17 (85.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 21...
+Success: True
+# episodes completed so far: 21
+# successes: 18 (85.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 22...
+Success: True
+# episodes completed so far: 22
+# successes: 19 (86.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 23...
+Success: True
+# episodes completed so far: 23
+# successes: 20 (87.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 24...
+Success: True
+# episodes completed so far: 24
+# successes: 21 (87.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 25...
+Success: True
+# episodes completed so far: 25
+# successes: 22 (88.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 26...
+Success: True
+# episodes completed so far: 26
+# successes: 23 (88.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 27...
+Success: True
+# episodes completed so far: 27
+# successes: 24 (88.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 28...
+Success: True
+# episodes completed so far: 28
+# successes: 25 (89.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 29...
+Success: True
+# episodes completed so far: 29
+# successes: 26 (89.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 30...
+Success: True
+# episodes completed so far: 30
+# successes: 27 (90.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 31...
+Success: True
+# episodes completed so far: 31
+# successes: 28 (90.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 32...
+Success: True
+# episodes completed so far: 32
+# successes: 29 (90.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 33...
+Success: True
+# episodes completed so far: 33
+# successes: 30 (90.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 34...
+Success: True
+# episodes completed so far: 34
+# successes: 31 (91.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 35...
+Success: False
+# episodes completed so far: 35
+# successes: 31 (88.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 36...
+Success: True
+# episodes completed so far: 36
+# successes: 32 (88.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 37...
+Success: False
+# episodes completed so far: 37
+# successes: 32 (86.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 38...
+Success: True
+# episodes completed so far: 38
+# successes: 33 (86.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 39...
+Success: True
+# episodes completed so far: 39
+# successes: 34 (87.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 40...
+Success: True
+# episodes completed so far: 40
+# successes: 35 (87.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 41...
+Success: True
+# episodes completed so far: 41
+# successes: 36 (87.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 42...
+Success: True
+# episodes completed so far: 42
+# successes: 37 (88.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 43...
+Success: False
+# episodes completed so far: 43
+# successes: 37 (86.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 44...
+Success: True
+# episodes completed so far: 44
+# successes: 38 (86.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 45...
+Success: True
+# episodes completed so far: 45
+# successes: 39 (86.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 46...
+Success: True
+# episodes completed so far: 46
+# successes: 40 (87.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 47...
+Success: True
+# episodes completed so far: 47
+# successes: 41 (87.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 48...
+Success: True
+# episodes completed so far: 48
+# successes: 42 (87.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 49...
+Success: False
+# episodes completed so far: 49
+# successes: 42 (85.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 50...
+Success: True
+# episodes completed so far: 50
+# successes: 43 (86.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 51...
+Success: True
+# episodes completed so far: 51
+# successes: 44 (86.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 52...
+Success: True
+# episodes completed so far: 52
+# successes: 45 (86.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 53...
+Success: False
+# episodes completed so far: 53
+# successes: 45 (84.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 54...
+Success: False
+# episodes completed so far: 54
+# successes: 45 (83.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 55...
+Success: True
+# episodes completed so far: 55
+# successes: 46 (83.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 56...
+Success: True
+# episodes completed so far: 56
+# successes: 47 (83.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 57...
+Success: True
+# episodes completed so far: 57
+# successes: 48 (84.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 58...
+Success: True
+# episodes completed so far: 58
+# successes: 49 (84.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 59...
+Success: False
+# episodes completed so far: 59
+# successes: 49 (83.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 60...
+Success: True
+# episodes completed so far: 60
+# successes: 50 (83.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 61...
+Success: True
+# episodes completed so far: 61
+# successes: 51 (83.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 62...
+Success: True
+# episodes completed so far: 62
+# successes: 52 (83.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 63...
+Success: True
+# episodes completed so far: 63
+# successes: 53 (84.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 64...
+Success: True
+# episodes completed so far: 64
+# successes: 54 (84.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 65...
+Success: True
+# episodes completed so far: 65
+# successes: 55 (84.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 66...
+Success: True
+# episodes completed so far: 66
+# successes: 56 (84.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 67...
+Success: True
+# episodes completed so far: 67
+# successes: 57 (85.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 68...
+Success: True
+# episodes completed so far: 68
+# successes: 58 (85.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 69...
+Success: True
+# episodes completed so far: 69
+# successes: 59 (85.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 70...
+Success: True
+# episodes completed so far: 70
+# successes: 60 (85.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 71...
+Success: True
+# episodes completed so far: 71
+# successes: 61 (85.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 72...
+Success: True
+# episodes completed so far: 72
+# successes: 62 (86.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 73...
+Success: True
+# episodes completed so far: 73
+# successes: 63 (86.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 74...
+Success: True
+# episodes completed so far: 74
+# successes: 64 (86.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 75...
+Success: False
+# episodes completed so far: 75
+# successes: 64 (85.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 76...
+Success: True
+# episodes completed so far: 76
+# successes: 65 (85.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 77...
+Success: True
+# episodes completed so far: 77
+# successes: 66 (85.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 78...
+Success: True
+# episodes completed so far: 78
+# successes: 67 (85.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 79...
+Success: True
+# episodes completed so far: 79
+# successes: 68 (86.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 80...
+Success: True
+# episodes completed so far: 80
+# successes: 69 (86.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 81...
+Success: True
+# episodes completed so far: 81
+# successes: 70 (86.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 82...
+Success: True
+# episodes completed so far: 82
+# successes: 71 (86.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 83...
+Success: True
+# episodes completed so far: 83
+# successes: 72 (86.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 84...
+Success: True
+# episodes completed so far: 84
+# successes: 73 (86.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 85...
+Success: False
+# episodes completed so far: 85
+# successes: 73 (85.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 86...
+Success: True
+# episodes completed so far: 86
+# successes: 74 (86.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 87...
+Success: True
+# episodes completed so far: 87
+# successes: 75 (86.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 88...
+Success: True
+# episodes completed so far: 88
+# successes: 76 (86.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 89...
+Success: True
+# episodes completed so far: 89
+# successes: 77 (86.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 90...
+Success: True
+# episodes completed so far: 90
+# successes: 78 (86.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 91...
+Success: True
+# episodes completed so far: 91
+# successes: 79 (86.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 92...
+Success: True
+# episodes completed so far: 92
+# successes: 80 (87.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 93...
+Success: True
+# episodes completed so far: 93
+# successes: 81 (87.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 94...
+Success: True
+# episodes completed so far: 94
+# successes: 82 (87.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 95...
+Success: True
+# episodes completed so far: 95
+# successes: 83 (87.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 96...
+Success: False
+# episodes completed so far: 96
+# successes: 83 (86.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 97...
+Success: False
+# episodes completed so far: 97
+# successes: 83 (85.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 98...
+Success: True
+# episodes completed so far: 98
+# successes: 84 (85.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 99...
+Success: True
+# episodes completed so far: 99
+# successes: 85 (85.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 100...
+Success: False
+# episodes completed so far: 100
+# successes: 85 (85.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 101...
+Success: False
+# episodes completed so far: 101
+# successes: 85 (84.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 102...
+Success: True
+# episodes completed so far: 102
+# successes: 86 (84.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 103...
+Success: False
+# episodes completed so far: 103
+# successes: 86 (83.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 104...
+Success: True
+# episodes completed so far: 104
+# successes: 87 (83.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 105...
+Success: False
+# episodes completed so far: 105
+# successes: 87 (82.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 106...
+Success: True
+# episodes completed so far: 106
+# successes: 88 (83.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 107...
+Success: True
+# episodes completed so far: 107
+# successes: 89 (83.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 108...
+Success: True
+# episodes completed so far: 108
+# successes: 90 (83.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 109...
+Success: True
+# episodes completed so far: 109
+# successes: 91 (83.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 110...
+Success: True
+# episodes completed so far: 110
+# successes: 92 (83.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 111...
+Success: True
+# episodes completed so far: 111
+# successes: 93 (83.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 112...
+Success: True
+# episodes completed so far: 112
+# successes: 94 (83.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 113...
+Success: True
+# episodes completed so far: 113
+# successes: 95 (84.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 114...
+Success: True
+# episodes completed so far: 114
+# successes: 96 (84.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 115...
+Success: False
+# episodes completed so far: 115
+# successes: 96 (83.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 116...
+Success: True
+# episodes completed so far: 116
+# successes: 97 (83.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 117...
+Success: False
+# episodes completed so far: 117
+# successes: 97 (82.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 118...
+Success: True
+# episodes completed so far: 118
+# successes: 98 (83.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 119...
+Success: True
+# episodes completed so far: 119
+# successes: 99 (83.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 120...
+Success: True
+# episodes completed so far: 120
+# successes: 100 (83.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 121...
+Success: True
+# episodes completed so far: 121
+# successes: 101 (83.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 122...
+Success: True
+# episodes completed so far: 122
+# successes: 102 (83.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 123...
+Success: True
+# episodes completed so far: 123
+# successes: 103 (83.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 124...
+Success: True
+# episodes completed so far: 124
+# successes: 104 (83.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 125...
+Success: True
+# episodes completed so far: 125
+# successes: 105 (84.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 126...
+Success: True
+# episodes completed so far: 126
+# successes: 106 (84.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 127...
+Success: True
+# episodes completed so far: 127
+# successes: 107 (84.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 128...
+Success: True
+# episodes completed so far: 128
+# successes: 108 (84.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 129...
+Success: True
+# episodes completed so far: 129
+# successes: 109 (84.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 130...
+Success: True
+# episodes completed so far: 130
+# successes: 110 (84.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 131...
+Success: True
+# episodes completed so far: 131
+# successes: 111 (84.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 132...
+Success: True
+# episodes completed so far: 132
+# successes: 112 (84.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 133...
+Success: True
+# episodes completed so far: 133
+# successes: 113 (85.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 134...
+Success: True
+# episodes completed so far: 134
+# successes: 114 (85.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 135...
+Success: True
+# episodes completed so far: 135
+# successes: 115 (85.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 136...
+Success: True
+# episodes completed so far: 136
+# successes: 116 (85.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 137...
+Success: True
+# episodes completed so far: 137
+# successes: 117 (85.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 138...
+Success: False
+# episodes completed so far: 138
+# successes: 117 (84.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 139...
+Success: False
+# episodes completed so far: 139
+# successes: 117 (84.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 140...
+Success: True
+# episodes completed so far: 140
+# successes: 118 (84.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 141...
+Success: True
+# episodes completed so far: 141
+# successes: 119 (84.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 142...
+Success: True
+# episodes completed so far: 142
+# successes: 120 (84.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 143...
+Success: True
+# episodes completed so far: 143
+# successes: 121 (84.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 144...
+Success: False
+# episodes completed so far: 144
+# successes: 121 (84.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 145...
+Success: True
+# episodes completed so far: 145
+# successes: 122 (84.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 146...
+Success: True
+# episodes completed so far: 146
+# successes: 123 (84.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 147...
+Success: True
+# episodes completed so far: 147
+# successes: 124 (84.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 148...
+Success: True
+# episodes completed so far: 148
+# successes: 125 (84.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 149...
+Success: True
+# episodes completed so far: 149
+# successes: 126 (84.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 150...
+Success: True
+# episodes completed so far: 150
+# successes: 127 (84.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 151...
+Success: False
+# episodes completed so far: 151
+# successes: 127 (84.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 152...
+Success: True
+# episodes completed so far: 152
+# successes: 128 (84.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 153...
+Success: True
+# episodes completed so far: 153
+# successes: 129 (84.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 154...
+Success: False
+# episodes completed so far: 154
+# successes: 129 (83.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 155...
+Success: True
+# episodes completed so far: 155
+# successes: 130 (83.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 156...
+Success: True
+# episodes completed so far: 156
+# successes: 131 (84.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 157...
+Success: True
+# episodes completed so far: 157
+# successes: 132 (84.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 158...
+Success: False
+# episodes completed so far: 158
+# successes: 132 (83.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 159...
+Success: False
+# episodes completed so far: 159
+# successes: 132 (83.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 160...
+Success: True
+# episodes completed so far: 160
+# successes: 133 (83.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 161...
+Success: True
+# episodes completed so far: 161
+# successes: 134 (83.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 162...
+Success: True
+# episodes completed so far: 162
+# successes: 135 (83.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 163...
+Success: True
+# episodes completed so far: 163
+# successes: 136 (83.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 164...
+Success: True
+# episodes completed so far: 164
+# successes: 137 (83.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 165...
+Success: False
+# episodes completed so far: 165
+# successes: 137 (83.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 166...
+Success: True
+# episodes completed so far: 166
+# successes: 138 (83.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 167...
+Success: True
+# episodes completed so far: 167
+# successes: 139 (83.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 168...
+Success: True
+# episodes completed so far: 168
+# successes: 140 (83.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 169...
+Success: False
+# episodes completed so far: 169
+# successes: 140 (82.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 170...
+Success: True
+# episodes completed so far: 170
+# successes: 141 (82.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 171...
+Success: True
+# episodes completed so far: 171
+# successes: 142 (83.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 172...
+Success: True
+# episodes completed so far: 172
+# successes: 143 (83.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 173...
+Success: True
+# episodes completed so far: 173
+# successes: 144 (83.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 174...
+Success: False
+# episodes completed so far: 174
+# successes: 144 (82.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 175...
+Success: True
+# episodes completed so far: 175
+# successes: 145 (82.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 176...
+Success: True
+# episodes completed so far: 176
+# successes: 146 (83.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 177...
+Success: True
+# episodes completed so far: 177
+# successes: 147 (83.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 178...
+Success: False
+# episodes completed so far: 178
+# successes: 147 (82.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 179...
+Success: True
+# episodes completed so far: 179
+# successes: 148 (82.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 180...
+Success: True
+# episodes completed so far: 180
+# successes: 149 (82.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 181...
+Success: True
+# episodes completed so far: 181
+# successes: 150 (82.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 182...
+Success: False
+# episodes completed so far: 182
+# successes: 150 (82.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 183...
+Success: True
+# episodes completed so far: 183
+# successes: 151 (82.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 184...
+Success: True
+# episodes completed so far: 184
+# successes: 152 (82.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 185...
+Success: True
+# episodes completed so far: 185
+# successes: 153 (82.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 186...
+Success: True
+# episodes completed so far: 186
+# successes: 154 (82.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 187...
+Success: True
+# episodes completed so far: 187
+# successes: 155 (82.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 188...
+Success: True
+# episodes completed so far: 188
+# successes: 156 (83.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 189...
+Success: False
+# episodes completed so far: 189
+# successes: 156 (82.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 190...
+Success: False
+# episodes completed so far: 190
+# successes: 156 (82.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 191...
+Success: True
+# episodes completed so far: 191
+# successes: 157 (82.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 192...
+Success: True
+# episodes completed so far: 192
+# successes: 158 (82.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 193...
+Success: True
+# episodes completed so far: 193
+# successes: 159 (82.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 194...
+Success: True
+# episodes completed so far: 194
+# successes: 160 (82.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 195...
+Success: True
+# episodes completed so far: 195
+# successes: 161 (82.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 196...
+Success: False
+# episodes completed so far: 196
+# successes: 161 (82.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 197...
+Success: True
+# episodes completed so far: 197
+# successes: 162 (82.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 198...
+Success: True
+# episodes completed so far: 198
+# successes: 163 (82.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 199...
+Success: True
+# episodes completed so far: 199
+# successes: 164 (82.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 200...
+Success: False
+# episodes completed so far: 200
+# successes: 164 (82.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 201...
+Success: True
+# episodes completed so far: 201
+# successes: 165 (82.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 202...
+Success: True
+# episodes completed so far: 202
+# successes: 166 (82.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 203...
+Success: True
+# episodes completed so far: 203
+# successes: 167 (82.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 204...
+Success: False
+# episodes completed so far: 204
+# successes: 167 (81.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 205...
+Success: False
+# episodes completed so far: 205
+# successes: 167 (81.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 206...
+Success: False
+# episodes completed so far: 206
+# successes: 167 (81.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 207...
+Success: True
+# episodes completed so far: 207
+# successes: 168 (81.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 208...
+Success: True
+# episodes completed so far: 208
+# successes: 169 (81.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 209...
+Success: True
+# episodes completed so far: 209
+# successes: 170 (81.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 210...
+Success: True
+# episodes completed so far: 210
+# successes: 171 (81.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 211...
+Success: False
+# episodes completed so far: 211
+# successes: 171 (81.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 212...
+Success: False
+# episodes completed so far: 212
+# successes: 171 (80.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 213...
+Success: True
+# episodes completed so far: 213
+# successes: 172 (80.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 214...
+Success: True
+# episodes completed so far: 214
+# successes: 173 (80.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 215...
+Success: True
+# episodes completed so far: 215
+# successes: 174 (80.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 216...
+Success: True
+# episodes completed so far: 216
+# successes: 175 (81.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 217...
+Success: False
+# episodes completed so far: 217
+# successes: 175 (80.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 218...
+Success: True
+# episodes completed so far: 218
+# successes: 176 (80.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 219...
+Success: True
+# episodes completed so far: 219
+# successes: 177 (80.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 220...
+Success: True
+# episodes completed so far: 220
+# successes: 178 (80.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 221...
+Success: True
+# episodes completed so far: 221
+# successes: 179 (81.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 222...
+Success: True
+# episodes completed so far: 222
+# successes: 180 (81.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 223...
+Success: True
+# episodes completed so far: 223
+# successes: 181 (81.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 224...
+Success: False
+# episodes completed so far: 224
+# successes: 181 (80.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 225...
+Success: True
+# episodes completed so far: 225
+# successes: 182 (80.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 226...
+Success: False
+# episodes completed so far: 226
+# successes: 182 (80.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 227...
+Success: False
+# episodes completed so far: 227
+# successes: 182 (80.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 228...
+Success: True
+# episodes completed so far: 228
+# successes: 183 (80.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 229...
+Success: True
+# episodes completed so far: 229
+# successes: 184 (80.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 230...
+Success: True
+# episodes completed so far: 230
+# successes: 185 (80.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 231...
+Success: True
+# episodes completed so far: 231
+# successes: 186 (80.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 232...
+Success: True
+# episodes completed so far: 232
+# successes: 187 (80.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 233...
+Success: False
+# episodes completed so far: 233
+# successes: 187 (80.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 234...
+Success: True
+# episodes completed so far: 234
+# successes: 188 (80.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 235...
+Success: True
+# episodes completed so far: 235
+# successes: 189 (80.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 236...
+Success: True
+# episodes completed so far: 236
+# successes: 190 (80.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 237...
+Success: True
+# episodes completed so far: 237
+# successes: 191 (80.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 238...
+Success: True
+# episodes completed so far: 238
+# successes: 192 (80.7%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 239...
+Success: True
+# episodes completed so far: 239
+# successes: 193 (80.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 240...
+Success: True
+# episodes completed so far: 240
+# successes: 194 (80.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 241...
+Success: True
+# episodes completed so far: 241
+# successes: 195 (80.9%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 242...
+Success: True
+# episodes completed so far: 242
+# successes: 196 (81.0%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 243...
+Success: True
+# episodes completed so far: 243
+# successes: 197 (81.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 244...
+Success: True
+# episodes completed so far: 244
+# successes: 198 (81.1%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 245...
+Success: True
+# episodes completed so far: 245
+# successes: 199 (81.2%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 246...
+Success: True
+# episodes completed so far: 246
+# successes: 200 (81.3%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 247...
+Success: True
+# episodes completed so far: 247
+# successes: 201 (81.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 248...
+Success: True
+# episodes completed so far: 248
+# successes: 202 (81.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 249...
+Success: True
+# episodes completed so far: 249
+# successes: 203 (81.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 250...
+Success: False
+# episodes completed so far: 250
+# successes: 203 (81.2%)
+Current task success rate: 0.812
+Current total success rate: 0.812
+Final results:
+Total episodes: 250
+Total successes: 203
+Overall success rate: 0.8120 (81.2%)

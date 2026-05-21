@@ -1,0 +1,10 @@
+{
+  "policy_name": "pi05_lerobot",
+  "suite": "libero_spatial",
+  "episode_csv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/layer2_full/layer2_full_48g_no_g0g7_20260519T202906Z/pi05_lerobot/libero_spatial/task_1/episodes.csv",
+  "rows": 250,
+  "successes": 246,
+  "errors": 0,
+  "videos": 0,
+  "validation_status": "passed"
+}

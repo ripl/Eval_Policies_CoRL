@@ -1,0 +1,18 @@
+{
+  "policy": "cogact",
+  "protocol": "widowx_protocol2_random_positions_robot_initial_states",
+  "task_filter": "carrot",
+  "episode_start": 0,
+  "episode_end": 1,
+  "success": 0,
+  "total": 1,
+  "success_rate": 0.0,
+  "by_task": {
+    "carrot": {
+      "success": 0,
+      "total": 1,
+      "success_rate": 0.0
+    }
+  },
+  "result_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/cogact_base/protocol2_random_positions_robot_initial_states/protocol2_100_cogact_carrot_2045808_1/videos"
+}

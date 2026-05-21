@@ -1,0 +1,523 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8509
+   Task suite: libero_object
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_object
+   Tasks: 10, Trials per task: 250
+   Max steps: 800
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+pick up the bbq sauce and plac...:   0%|          | 0/250 [00:00<?, ?it/s][A  [OK] Task 3 Ep 0: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:   0%|          | 1/250 [00:08<34:11,  8.24s/it][A  [OK] Task 3 Ep 1: SUCCESS (steps=140)
+
+pick up the bbq sauce and plac...:   1%|          | 2/250 [00:16<34:25,  8.33s/it][A  [OK] Task 3 Ep 2: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:   1%|          | 3/250 [00:25<34:22,  8.35s/it][A  [OK] Task 3 Ep 3: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:   2%|▏         | 4/250 [00:33<33:43,  8.23s/it][A  [OK] Task 3 Ep 4: SUCCESS (steps=136)
+
+pick up the bbq sauce and plac...:   2%|▏         | 5/250 [00:42<35:11,  8.62s/it][A  [OK] Task 3 Ep 5: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:   2%|▏         | 6/250 [00:50<34:12,  8.41s/it][A  [OK] Task 3 Ep 6: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:   3%|▎         | 7/250 [00:58<33:11,  8.20s/it][A  [OK] Task 3 Ep 7: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:   3%|▎         | 8/250 [01:05<32:17,  8.01s/it][A  [OK] Task 3 Ep 8: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:   4%|▎         | 9/250 [01:13<31:45,  7.91s/it][A  [OK] Task 3 Ep 9: SUCCESS (steps=124)
+
+pick up the bbq sauce and plac...:   4%|▍         | 10/250 [01:20<30:37,  7.66s/it][A  [OK] Task 3 Ep 10: SUCCESS (steps=137)
+
+pick up the bbq sauce and plac...:   4%|▍         | 11/250 [01:28<30:42,  7.71s/it][A  [OK] Task 3 Ep 11: SUCCESS (steps=148)
+
+pick up the bbq sauce and plac...:   5%|▍         | 12/250 [01:36<31:15,  7.88s/it][A  [OK] Task 3 Ep 12: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:   5%|▌         | 13/250 [01:44<30:40,  7.76s/it][A  [OK] Task 3 Ep 13: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:   6%|▌         | 14/250 [01:51<30:31,  7.76s/it][A  [OK] Task 3 Ep 14: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:   6%|▌         | 15/250 [01:59<30:09,  7.70s/it][A  [OK] Task 3 Ep 15: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:   6%|▋         | 16/250 [02:07<29:59,  7.69s/it][A  [OK] Task 3 Ep 16: SUCCESS (steps=137)
+
+pick up the bbq sauce and plac...:   7%|▋         | 17/250 [02:14<29:57,  7.72s/it][A  [OK] Task 3 Ep 17: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:   7%|▋         | 18/250 [02:22<29:59,  7.76s/it][A  [OK] Task 3 Ep 18: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:   8%|▊         | 19/250 [02:30<29:57,  7.78s/it][A  [OK] Task 3 Ep 19: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:   8%|▊         | 20/250 [02:38<29:49,  7.78s/it][A  [OK] Task 3 Ep 20: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:   8%|▊         | 21/250 [02:46<29:45,  7.80s/it][A  [OK] Task 3 Ep 21: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:   9%|▉         | 22/250 [02:54<29:55,  7.87s/it][A  [OK] Task 3 Ep 22: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:   9%|▉         | 23/250 [03:01<29:29,  7.79s/it][A  [OK] Task 3 Ep 23: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:  10%|▉         | 24/250 [03:09<29:02,  7.71s/it][A  [OK] Task 3 Ep 24: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  10%|█         | 25/250 [03:16<28:41,  7.65s/it][A  [OK] Task 3 Ep 25: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  10%|█         | 26/250 [03:24<28:44,  7.70s/it][A  [OK] Task 3 Ep 26: SUCCESS (steps=144)
+
+pick up the bbq sauce and plac...:  11%|█         | 27/250 [03:32<28:59,  7.80s/it][A  [OK] Task 3 Ep 27: SUCCESS (steps=139)
+
+pick up the bbq sauce and plac...:  11%|█         | 28/250 [03:42<30:55,  8.36s/it][A  [OK] Task 3 Ep 28: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  12%|█▏        | 29/250 [03:50<30:30,  8.28s/it][A  [OK] Task 3 Ep 29: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  12%|█▏        | 30/250 [03:57<29:30,  8.05s/it][A  [OK] Task 3 Ep 30: SUCCESS (steps=129)
+
+pick up the bbq sauce and plac...:  12%|█▏        | 31/250 [04:05<28:39,  7.85s/it][A  [OK] Task 3 Ep 31: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  13%|█▎        | 32/250 [04:13<28:35,  7.87s/it][A  [OK] Task 3 Ep 32: SUCCESS (steps=125)
+
+pick up the bbq sauce and plac...:  13%|█▎        | 33/250 [04:20<27:59,  7.74s/it][A  [OK] Task 3 Ep 33: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  14%|█▎        | 34/250 [04:28<28:25,  7.90s/it][A  [OK] Task 3 Ep 34: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  14%|█▍        | 35/250 [04:37<28:27,  7.94s/it][A  [FAIL] Task 3 Ep 35: FAILURE (steps=810)
+
+pick up the bbq sauce and plac...:  14%|█▍        | 36/250 [05:15<1:00:52, 17.07s/it][A  [OK] Task 3 Ep 36: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  15%|█▍        | 37/250 [05:22<50:25, 14.20s/it]  [A  [OK] Task 3 Ep 37: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  15%|█▌        | 38/250 [05:30<43:31, 12.32s/it][A  [OK] Task 3 Ep 38: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  16%|█▌        | 39/250 [05:38<38:15, 10.88s/it][A  [OK] Task 3 Ep 39: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  16%|█▌        | 40/250 [05:46<34:46,  9.94s/it][A  [OK] Task 3 Ep 40: SUCCESS (steps=128)
+
+pick up the bbq sauce and plac...:  16%|█▋        | 41/250 [05:53<31:50,  9.14s/it][A  [OK] Task 3 Ep 41: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:  17%|█▋        | 42/250 [06:01<30:24,  8.77s/it][A  [OK] Task 3 Ep 42: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  17%|█▋        | 43/250 [06:09<29:15,  8.48s/it][A  [OK] Task 3 Ep 43: SUCCESS (steps=142)
+
+pick up the bbq sauce and plac...:  18%|█▊        | 44/250 [06:17<28:48,  8.39s/it][A  [OK] Task 3 Ep 44: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  18%|█▊        | 45/250 [06:24<27:43,  8.11s/it][A  [OK] Task 3 Ep 45: SUCCESS (steps=128)
+
+pick up the bbq sauce and plac...:  18%|█▊        | 46/250 [06:32<26:45,  7.87s/it][A  [OK] Task 3 Ep 46: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  19%|█▉        | 47/250 [06:39<26:30,  7.83s/it][A  [OK] Task 3 Ep 47: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:  19%|█▉        | 48/250 [06:47<25:57,  7.71s/it][A  [OK] Task 3 Ep 48: SUCCESS (steps=138)
+
+pick up the bbq sauce and plac...:  20%|█▉        | 49/250 [06:54<25:50,  7.72s/it][A  [OK] Task 3 Ep 49: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  20%|██        | 50/250 [07:02<25:34,  7.67s/it][A  [OK] Task 3 Ep 50: SUCCESS (steps=126)
+
+pick up the bbq sauce and plac...:  20%|██        | 51/250 [07:09<25:05,  7.57s/it][A  [OK] Task 3 Ep 51: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  21%|██        | 52/250 [07:17<25:15,  7.66s/it][A  [OK] Task 3 Ep 52: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  21%|██        | 53/250 [07:25<25:39,  7.81s/it][A  [OK] Task 3 Ep 53: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  22%|██▏       | 54/250 [07:33<25:12,  7.72s/it][A  [OK] Task 3 Ep 54: SUCCESS (steps=125)
+
+pick up the bbq sauce and plac...:  22%|██▏       | 55/250 [07:41<25:34,  7.87s/it][A  [OK] Task 3 Ep 55: SUCCESS (steps=141)
+
+pick up the bbq sauce and plac...:  22%|██▏       | 56/250 [07:49<25:28,  7.88s/it][A  [OK] Task 3 Ep 56: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  23%|██▎       | 57/250 [07:57<25:14,  7.85s/it][A  [OK] Task 3 Ep 57: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  23%|██▎       | 58/250 [08:04<24:53,  7.78s/it][A  [OK] Task 3 Ep 58: SUCCESS (steps=151)
+
+pick up the bbq sauce and plac...:  24%|██▎       | 59/250 [08:13<25:16,  7.94s/it][A  [OK] Task 3 Ep 59: SUCCESS (steps=125)
+
+pick up the bbq sauce and plac...:  24%|██▍       | 60/250 [08:20<24:25,  7.71s/it][A  [OK] Task 3 Ep 60: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  24%|██▍       | 61/250 [08:28<24:25,  7.75s/it][A  [OK] Task 3 Ep 61: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  25%|██▍       | 62/250 [08:36<24:31,  7.83s/it][A  [OK] Task 3 Ep 62: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:  25%|██▌       | 63/250 [08:44<24:32,  7.87s/it][A  [OK] Task 3 Ep 63: SUCCESS (steps=144)
+
+pick up the bbq sauce and plac...:  26%|██▌       | 64/250 [08:52<24:33,  7.92s/it][A  [OK] Task 3 Ep 64: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  26%|██▌       | 65/250 [08:59<24:07,  7.83s/it][A  [OK] Task 3 Ep 65: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  26%|██▋       | 66/250 [09:07<24:00,  7.83s/it][A  [OK] Task 3 Ep 66: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  27%|██▋       | 67/250 [09:15<23:44,  7.78s/it][A  [OK] Task 3 Ep 67: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  27%|██▋       | 68/250 [09:22<23:12,  7.65s/it][A  [OK] Task 3 Ep 68: SUCCESS (steps=129)
+
+pick up the bbq sauce and plac...:  28%|██▊       | 69/250 [09:29<22:45,  7.55s/it][A  [OK] Task 3 Ep 69: SUCCESS (steps=138)
+
+pick up the bbq sauce and plac...:  28%|██▊       | 70/250 [09:38<23:15,  7.75s/it][A  [OK] Task 3 Ep 70: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  28%|██▊       | 71/250 [09:46<23:16,  7.80s/it][A  [OK] Task 3 Ep 71: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  29%|██▉       | 72/250 [09:53<22:53,  7.72s/it][A  [OK] Task 3 Ep 72: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  29%|██▉       | 73/250 [10:01<22:32,  7.64s/it][A  [OK] Task 3 Ep 73: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  30%|██▉       | 74/250 [10:08<22:24,  7.64s/it][A  [OK] Task 3 Ep 74: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  30%|███       | 75/250 [10:16<22:21,  7.67s/it][A  [OK] Task 3 Ep 75: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  30%|███       | 76/250 [10:24<22:19,  7.70s/it][A  [OK] Task 3 Ep 76: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:  31%|███       | 77/250 [10:31<21:59,  7.63s/it][A  [OK] Task 3 Ep 77: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  31%|███       | 78/250 [10:39<22:02,  7.69s/it][A  [OK] Task 3 Ep 78: SUCCESS (steps=140)
+
+pick up the bbq sauce and plac...:  32%|███▏      | 79/250 [10:47<22:27,  7.88s/it][A  [OK] Task 3 Ep 79: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  32%|███▏      | 80/250 [10:55<21:59,  7.76s/it][A  [OK] Task 3 Ep 80: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  32%|███▏      | 81/250 [11:02<21:29,  7.63s/it][A  [OK] Task 3 Ep 81: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  33%|███▎      | 82/250 [11:10<21:25,  7.65s/it][A  [OK] Task 3 Ep 82: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  33%|███▎      | 83/250 [11:18<21:19,  7.66s/it][A  [OK] Task 3 Ep 83: SUCCESS (steps=179)
+
+pick up the bbq sauce and plac...:  34%|███▎      | 84/250 [11:28<23:04,  8.34s/it][A  [OK] Task 3 Ep 84: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  34%|███▍      | 85/250 [11:35<22:37,  8.22s/it][A  [OK] Task 3 Ep 85: SUCCESS (steps=129)
+
+pick up the bbq sauce and plac...:  34%|███▍      | 86/250 [11:43<22:08,  8.10s/it][A  [OK] Task 3 Ep 86: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  35%|███▍      | 87/250 [11:51<21:47,  8.02s/it][A  [OK] Task 3 Ep 87: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  35%|███▌      | 88/250 [11:59<21:25,  7.94s/it][A  [OK] Task 3 Ep 88: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  36%|███▌      | 89/250 [12:07<21:27,  8.00s/it][A  [OK] Task 3 Ep 89: SUCCESS (steps=125)
+
+pick up the bbq sauce and plac...:  36%|███▌      | 90/250 [12:14<20:56,  7.85s/it][A  [OK] Task 3 Ep 90: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  36%|███▋      | 91/250 [12:22<20:41,  7.81s/it][A  [OK] Task 3 Ep 91: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  37%|███▋      | 92/250 [12:30<20:32,  7.80s/it][A  [OK] Task 3 Ep 92: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  37%|███▋      | 93/250 [12:38<20:31,  7.85s/it][A  [OK] Task 3 Ep 93: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  38%|███▊      | 94/250 [12:46<20:33,  7.91s/it][A  [OK] Task 3 Ep 94: SUCCESS (steps=137)
+
+pick up the bbq sauce and plac...:  38%|███▊      | 95/250 [12:54<20:22,  7.89s/it][A  [OK] Task 3 Ep 95: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:  38%|███▊      | 96/250 [13:02<20:08,  7.84s/it][A  [OK] Task 3 Ep 96: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:  39%|███▉      | 97/250 [13:09<19:45,  7.75s/it][A  [OK] Task 3 Ep 97: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  39%|███▉      | 98/250 [13:16<19:21,  7.64s/it][A  [OK] Task 3 Ep 98: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  40%|███▉      | 99/250 [13:25<19:37,  7.80s/it][A  [OK] Task 3 Ep 99: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  40%|████      | 100/250 [13:32<19:30,  7.80s/it][A  [OK] Task 3 Ep 100: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  40%|████      | 101/250 [13:42<20:19,  8.18s/it][A  [OK] Task 3 Ep 101: SUCCESS (steps=138)
+
+pick up the bbq sauce and plac...:  41%|████      | 102/250 [13:49<19:51,  8.05s/it][A  [OK] Task 3 Ep 102: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  41%|████      | 103/250 [13:57<19:12,  7.84s/it][A  [OK] Task 3 Ep 103: SUCCESS (steps=138)
+
+pick up the bbq sauce and plac...:  42%|████▏     | 104/250 [14:04<19:00,  7.81s/it][A  [OK] Task 3 Ep 104: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  42%|████▏     | 105/250 [14:12<18:55,  7.83s/it][A  [OK] Task 3 Ep 105: SUCCESS (steps=127)
+
+pick up the bbq sauce and plac...:  42%|████▏     | 106/250 [14:20<18:26,  7.69s/it][A  [OK] Task 3 Ep 106: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  43%|████▎     | 107/250 [14:27<18:03,  7.58s/it][A  [OK] Task 3 Ep 107: SUCCESS (steps=126)
+
+pick up the bbq sauce and plac...:  43%|████▎     | 108/250 [14:35<17:58,  7.59s/it][A  [OK] Task 3 Ep 108: SUCCESS (steps=140)
+
+pick up the bbq sauce and plac...:  44%|████▎     | 109/250 [14:43<18:34,  7.91s/it][A  [OK] Task 3 Ep 109: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  44%|████▍     | 110/250 [14:51<18:19,  7.86s/it][A  [OK] Task 3 Ep 110: SUCCESS (steps=145)
+
+pick up the bbq sauce and plac...:  44%|████▍     | 111/250 [14:59<18:20,  7.92s/it][A  [OK] Task 3 Ep 111: SUCCESS (steps=128)
+
+pick up the bbq sauce and plac...:  45%|████▍     | 112/250 [15:06<17:37,  7.66s/it][A  [OK] Task 3 Ep 112: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  45%|████▌     | 113/250 [15:13<17:15,  7.56s/it][A  [OK] Task 3 Ep 113: SUCCESS (steps=125)
+
+pick up the bbq sauce and plac...:  46%|████▌     | 114/250 [15:21<16:54,  7.46s/it][A  [OK] Task 3 Ep 114: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  46%|████▌     | 115/250 [15:29<17:04,  7.59s/it][A  [OK] Task 3 Ep 115: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  46%|████▋     | 116/250 [15:36<16:58,  7.60s/it][A  [OK] Task 3 Ep 116: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  47%|████▋     | 117/250 [15:45<17:32,  7.91s/it][A  [OK] Task 3 Ep 117: SUCCESS (steps=141)
+
+pick up the bbq sauce and plac...:  47%|████▋     | 118/250 [15:53<17:19,  7.87s/it][A  [OK] Task 3 Ep 118: SUCCESS (steps=128)
+
+pick up the bbq sauce and plac...:  48%|████▊     | 119/250 [16:00<16:41,  7.65s/it][A  [OK] Task 3 Ep 119: SUCCESS (steps=136)
+
+pick up the bbq sauce and plac...:  48%|████▊     | 120/250 [16:07<16:28,  7.60s/it][A  [OK] Task 3 Ep 120: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  48%|████▊     | 121/250 [16:15<16:18,  7.59s/it][A  [OK] Task 3 Ep 121: SUCCESS (steps=136)
+
+pick up the bbq sauce and plac...:  49%|████▉     | 122/250 [16:23<16:22,  7.67s/it][A  [OK] Task 3 Ep 122: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  49%|████▉     | 123/250 [16:30<16:11,  7.65s/it][A  [OK] Task 3 Ep 123: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  50%|████▉     | 124/250 [16:38<16:07,  7.68s/it][A  [OK] Task 3 Ep 124: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  50%|█████     | 125/250 [16:46<15:56,  7.65s/it][A  [OK] Task 3 Ep 125: SUCCESS (steps=144)
+
+pick up the bbq sauce and plac...:  50%|█████     | 126/250 [16:54<16:25,  7.94s/it][A  [OK] Task 3 Ep 126: SUCCESS (steps=129)
+
+pick up the bbq sauce and plac...:  51%|█████     | 127/250 [17:01<15:46,  7.69s/it][A  [OK] Task 3 Ep 127: SUCCESS (steps=129)
+
+pick up the bbq sauce and plac...:  51%|█████     | 128/250 [17:08<15:18,  7.53s/it][A  [OK] Task 3 Ep 128: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  52%|█████▏    | 129/250 [17:16<15:09,  7.52s/it][A  [OK] Task 3 Ep 129: SUCCESS (steps=141)
+
+pick up the bbq sauce and plac...:  52%|█████▏    | 130/250 [17:24<15:12,  7.60s/it][A  [OK] Task 3 Ep 130: SUCCESS (steps=145)
+
+pick up the bbq sauce and plac...:  52%|█████▏    | 131/250 [17:32<15:25,  7.78s/it][A  [OK] Task 3 Ep 131: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  53%|█████▎    | 132/250 [17:42<16:26,  8.36s/it][A  [OK] Task 3 Ep 132: SUCCESS (steps=142)
+
+pick up the bbq sauce and plac...:  53%|█████▎    | 133/250 [17:49<15:54,  8.16s/it][A  [OK] Task 3 Ep 133: SUCCESS (steps=129)
+
+pick up the bbq sauce and plac...:  54%|█████▎    | 134/250 [17:56<15:08,  7.83s/it][A  [OK] Task 3 Ep 134: SUCCESS (steps=137)
+
+pick up the bbq sauce and plac...:  54%|█████▍    | 135/250 [18:04<14:51,  7.75s/it][A  [OK] Task 3 Ep 135: SUCCESS (steps=136)
+
+pick up the bbq sauce and plac...:  54%|█████▍    | 136/250 [18:11<14:36,  7.69s/it][A  [OK] Task 3 Ep 136: SUCCESS (steps=141)
+
+pick up the bbq sauce and plac...:  55%|█████▍    | 137/250 [18:20<14:59,  7.96s/it][A  [OK] Task 3 Ep 137: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  55%|█████▌    | 138/250 [18:27<14:26,  7.74s/it][A  [OK] Task 3 Ep 138: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  56%|█████▌    | 139/250 [18:35<14:01,  7.58s/it][A  [OK] Task 3 Ep 139: SUCCESS (steps=140)
+
+pick up the bbq sauce and plac...:  56%|█████▌    | 140/250 [18:43<14:26,  7.87s/it][A  [OK] Task 3 Ep 140: SUCCESS (steps=139)
+
+pick up the bbq sauce and plac...:  56%|█████▋    | 141/250 [18:51<14:16,  7.85s/it][A  [OK] Task 3 Ep 141: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  57%|█████▋    | 142/250 [18:58<13:54,  7.73s/it][A  [OK] Task 3 Ep 142: SUCCESS (steps=138)
+
+pick up the bbq sauce and plac...:  57%|█████▋    | 143/250 [19:06<13:54,  7.80s/it][A  [OK] Task 3 Ep 143: SUCCESS (steps=232)
+
+pick up the bbq sauce and plac...:  58%|█████▊    | 144/250 [19:18<15:56,  9.02s/it][A  [OK] Task 3 Ep 144: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:  58%|█████▊    | 145/250 [19:26<14:57,  8.55s/it][A  [OK] Task 3 Ep 145: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  58%|█████▊    | 146/250 [19:33<14:08,  8.16s/it][A  [OK] Task 3 Ep 146: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:  59%|█████▉    | 147/250 [19:42<14:28,  8.44s/it][A  [OK] Task 3 Ep 147: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  59%|█████▉    | 148/250 [19:49<13:43,  8.07s/it][A  [OK] Task 3 Ep 148: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  60%|█████▉    | 149/250 [19:56<13:10,  7.83s/it][A  [OK] Task 3 Ep 149: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  60%|██████    | 150/250 [20:04<12:46,  7.67s/it][A  [OK] Task 3 Ep 150: SUCCESS (steps=129)
+
+pick up the bbq sauce and plac...:  60%|██████    | 151/250 [20:11<12:21,  7.49s/it][A  [OK] Task 3 Ep 151: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  61%|██████    | 152/250 [20:18<12:08,  7.43s/it][A  [OK] Task 3 Ep 152: SUCCESS (steps=128)
+
+pick up the bbq sauce and plac...:  61%|██████    | 153/250 [20:25<11:59,  7.42s/it][A  [OK] Task 3 Ep 153: SUCCESS (steps=126)
+
+pick up the bbq sauce and plac...:  62%|██████▏   | 154/250 [20:33<11:43,  7.33s/it][A  [OK] Task 3 Ep 154: SUCCESS (steps=139)
+
+pick up the bbq sauce and plac...:  62%|██████▏   | 155/250 [20:42<12:37,  7.98s/it][A  [OK] Task 3 Ep 155: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  62%|██████▏   | 156/250 [20:49<12:14,  7.81s/it][A  [OK] Task 3 Ep 156: SUCCESS (steps=129)
+
+pick up the bbq sauce and plac...:  63%|██████▎   | 157/250 [20:57<11:44,  7.58s/it][A  [OK] Task 3 Ep 157: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  63%|██████▎   | 158/250 [21:04<11:36,  7.57s/it][A  [OK] Task 3 Ep 158: SUCCESS (steps=139)
+
+pick up the bbq sauce and plac...:  64%|██████▎   | 159/250 [21:12<11:36,  7.66s/it][A  [OK] Task 3 Ep 159: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  64%|██████▍   | 160/250 [21:20<11:34,  7.72s/it][A  [OK] Task 3 Ep 160: SUCCESS (steps=128)
+
+pick up the bbq sauce and plac...:  64%|██████▍   | 161/250 [21:27<11:10,  7.53s/it][A  [OK] Task 3 Ep 161: SUCCESS (steps=136)
+
+pick up the bbq sauce and plac...:  65%|██████▍   | 162/250 [21:34<10:59,  7.50s/it][A  [OK] Task 3 Ep 162: SUCCESS (steps=128)
+
+pick up the bbq sauce and plac...:  65%|██████▌   | 163/250 [21:43<11:15,  7.77s/it][A  [OK] Task 3 Ep 163: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:  66%|██████▌   | 164/250 [21:50<10:56,  7.64s/it][A  [OK] Task 3 Ep 164: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  66%|██████▌   | 165/250 [21:57<10:39,  7.53s/it][A  [OK] Task 3 Ep 165: SUCCESS (steps=129)
+
+pick up the bbq sauce and plac...:  66%|██████▋   | 166/250 [22:04<10:22,  7.41s/it][A  [OK] Task 3 Ep 166: SUCCESS (steps=129)
+
+pick up the bbq sauce and plac...:  67%|██████▋   | 167/250 [22:12<10:09,  7.34s/it][A  [OK] Task 3 Ep 167: SUCCESS (steps=128)
+
+pick up the bbq sauce and plac...:  67%|██████▋   | 168/250 [22:19<10:13,  7.49s/it][A  [OK] Task 3 Ep 168: SUCCESS (steps=138)
+
+pick up the bbq sauce and plac...:  68%|██████▊   | 169/250 [22:27<10:07,  7.49s/it][A  [OK] Task 3 Ep 169: SUCCESS (steps=128)
+
+pick up the bbq sauce and plac...:  68%|██████▊   | 170/250 [22:34<09:53,  7.42s/it][A  [OK] Task 3 Ep 170: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  68%|██████▊   | 171/250 [22:43<10:12,  7.76s/it][A  [OK] Task 3 Ep 171: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  69%|██████▉   | 172/250 [22:50<09:53,  7.61s/it][A  [OK] Task 3 Ep 172: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  69%|██████▉   | 173/250 [22:57<09:39,  7.53s/it][A  [OK] Task 3 Ep 173: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  70%|██████▉   | 174/250 [23:05<09:28,  7.48s/it][A  [OK] Task 3 Ep 174: SUCCESS (steps=128)
+
+pick up the bbq sauce and plac...:  70%|███████   | 175/250 [23:12<09:14,  7.39s/it][A  [OK] Task 3 Ep 175: SUCCESS (steps=136)
+
+pick up the bbq sauce and plac...:  70%|███████   | 176/250 [23:19<09:08,  7.41s/it][A  [OK] Task 3 Ep 176: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  71%|███████   | 177/250 [23:27<09:00,  7.40s/it][A  [OK] Task 3 Ep 177: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  71%|███████   | 178/250 [23:34<08:50,  7.37s/it][A  [OK] Task 3 Ep 178: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  72%|███████▏  | 179/250 [23:43<09:24,  7.96s/it][A  [OK] Task 3 Ep 179: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  72%|███████▏  | 180/250 [23:51<09:07,  7.82s/it][A  [OK] Task 3 Ep 180: SUCCESS (steps=128)
+
+pick up the bbq sauce and plac...:  72%|███████▏  | 181/250 [23:58<08:44,  7.60s/it][A  [OK] Task 3 Ep 181: SUCCESS (steps=137)
+
+pick up the bbq sauce and plac...:  73%|███████▎  | 182/250 [24:06<08:39,  7.64s/it][A  [OK] Task 3 Ep 182: SUCCESS (steps=128)
+
+pick up the bbq sauce and plac...:  73%|███████▎  | 183/250 [24:13<08:22,  7.50s/it][A  [OK] Task 3 Ep 183: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  74%|███████▎  | 184/250 [24:20<08:10,  7.44s/it][A  [OK] Task 3 Ep 184: SUCCESS (steps=137)
+
+pick up the bbq sauce and plac...:  74%|███████▍  | 185/250 [24:28<08:04,  7.46s/it][A  [OK] Task 3 Ep 185: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  74%|███████▍  | 186/250 [24:35<07:53,  7.41s/it][A  [OK] Task 3 Ep 186: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  75%|███████▍  | 187/250 [24:43<08:04,  7.69s/it][A  [OK] Task 3 Ep 187: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  75%|███████▌  | 188/250 [24:51<07:51,  7.60s/it][A  [OK] Task 3 Ep 188: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  76%|███████▌  | 189/250 [24:58<07:38,  7.52s/it][A  [OK] Task 3 Ep 189: SUCCESS (steps=145)
+
+pick up the bbq sauce and plac...:  76%|███████▌  | 190/250 [25:06<07:38,  7.65s/it][A  [OK] Task 3 Ep 190: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  76%|███████▋  | 191/250 [25:13<07:27,  7.59s/it][A  [OK] Task 3 Ep 191: SUCCESS (steps=136)
+
+pick up the bbq sauce and plac...:  77%|███████▋  | 192/250 [25:21<07:19,  7.57s/it][A  [OK] Task 3 Ep 192: SUCCESS (steps=129)
+
+pick up the bbq sauce and plac...:  77%|███████▋  | 193/250 [25:28<07:05,  7.46s/it][A  [OK] Task 3 Ep 193: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  78%|███████▊  | 194/250 [25:36<07:09,  7.67s/it][A  [OK] Task 3 Ep 194: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  78%|███████▊  | 195/250 [25:44<07:00,  7.64s/it][A  [OK] Task 3 Ep 195: SUCCESS (steps=124)
+
+pick up the bbq sauce and plac...:  78%|███████▊  | 196/250 [25:51<06:43,  7.48s/it][A  [OK] Task 3 Ep 196: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  79%|███████▉  | 197/250 [25:59<06:41,  7.57s/it][A  [OK] Task 3 Ep 197: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  79%|███████▉  | 198/250 [26:06<06:31,  7.53s/it][A  [OK] Task 3 Ep 198: SUCCESS (steps=146)
+
+pick up the bbq sauce and plac...:  80%|███████▉  | 199/250 [26:14<06:29,  7.64s/it][A  [OK] Task 3 Ep 199: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  80%|████████  | 200/250 [26:21<06:16,  7.53s/it][A  [OK] Task 3 Ep 200: SUCCESS (steps=140)
+
+pick up the bbq sauce and plac...:  80%|████████  | 201/250 [26:29<06:12,  7.61s/it][A  [OK] Task 3 Ep 201: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  81%|████████  | 202/250 [26:36<06:00,  7.50s/it][A  [OK] Task 3 Ep 202: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  81%|████████  | 203/250 [26:44<05:49,  7.44s/it][A  [OK] Task 3 Ep 203: SUCCESS (steps=143)
+
+pick up the bbq sauce and plac...:  82%|████████▏ | 204/250 [26:52<05:47,  7.55s/it][A  [OK] Task 3 Ep 204: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  82%|████████▏ | 205/250 [26:59<05:36,  7.47s/it][A  [OK] Task 3 Ep 205: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  82%|████████▏ | 206/250 [27:06<05:30,  7.52s/it][A  [OK] Task 3 Ep 206: SUCCESS (steps=140)
+
+pick up the bbq sauce and plac...:  83%|████████▎ | 207/250 [27:14<05:25,  7.56s/it][A  [OK] Task 3 Ep 207: SUCCESS (steps=139)
+
+pick up the bbq sauce and plac...:  83%|████████▎ | 208/250 [27:22<05:19,  7.60s/it][A  [OK] Task 3 Ep 208: SUCCESS (steps=140)
+
+pick up the bbq sauce and plac...:  84%|████████▎ | 209/250 [27:29<05:12,  7.63s/it][A  [OK] Task 3 Ep 209: SUCCESS (steps=141)
+
+pick up the bbq sauce and plac...:  84%|████████▍ | 210/250 [27:37<05:06,  7.66s/it][A  [OK] Task 3 Ep 210: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  84%|████████▍ | 211/250 [27:46<05:09,  7.94s/it][A  [OK] Task 3 Ep 211: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  85%|████████▍ | 212/250 [27:53<04:54,  7.75s/it][A  [OK] Task 3 Ep 212: SUCCESS (steps=142)
+
+pick up the bbq sauce and plac...:  85%|████████▌ | 213/250 [28:01<04:47,  7.77s/it][A  [OK] Task 3 Ep 213: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  86%|████████▌ | 214/250 [28:08<04:34,  7.62s/it][A  [OK] Task 3 Ep 214: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  86%|████████▌ | 215/250 [28:16<04:28,  7.68s/it][A  [OK] Task 3 Ep 215: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:  86%|████████▋ | 216/250 [28:23<04:16,  7.56s/it][A  [OK] Task 3 Ep 216: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  87%|████████▋ | 217/250 [28:31<04:07,  7.49s/it][A  [OK] Task 3 Ep 217: SUCCESS (steps=136)
+
+pick up the bbq sauce and plac...:  87%|████████▋ | 218/250 [28:38<03:59,  7.49s/it][A  [OK] Task 3 Ep 218: SUCCESS (steps=127)
+
+pick up the bbq sauce and plac...:  88%|████████▊ | 219/250 [28:45<03:48,  7.36s/it][A  [OK] Task 3 Ep 219: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  88%|████████▊ | 220/250 [28:53<03:42,  7.42s/it][A  [OK] Task 3 Ep 220: SUCCESS (steps=129)
+
+pick up the bbq sauce and plac...:  88%|████████▊ | 221/250 [29:00<03:32,  7.33s/it][A  [OK] Task 3 Ep 221: SUCCESS (steps=127)
+
+pick up the bbq sauce and plac...:  89%|████████▉ | 222/250 [29:07<03:22,  7.25s/it][A  [OK] Task 3 Ep 222: SUCCESS (steps=129)
+
+pick up the bbq sauce and plac...:  89%|████████▉ | 223/250 [29:14<03:15,  7.25s/it][A  [OK] Task 3 Ep 223: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  90%|████████▉ | 224/250 [29:21<03:09,  7.27s/it][A  [OK] Task 3 Ep 224: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  90%|█████████ | 225/250 [29:29<03:01,  7.27s/it][A  [OK] Task 3 Ep 225: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:  90%|█████████ | 226/250 [29:36<02:54,  7.26s/it][A  [OK] Task 3 Ep 226: SUCCESS (steps=140)
+
+pick up the bbq sauce and plac...:  91%|█████████ | 227/250 [29:44<02:51,  7.46s/it][A  [OK] Task 3 Ep 227: SUCCESS (steps=125)
+
+pick up the bbq sauce and plac...:  91%|█████████ | 228/250 [29:51<02:44,  7.46s/it][A  [OK] Task 3 Ep 228: SUCCESS (steps=130)
+
+pick up the bbq sauce and plac...:  92%|█████████▏| 229/250 [29:59<02:39,  7.58s/it][A  [OK] Task 3 Ep 229: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  92%|█████████▏| 230/250 [30:07<02:30,  7.55s/it][A  [OK] Task 3 Ep 230: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  92%|█████████▏| 231/250 [30:14<02:21,  7.45s/it][A  [OK] Task 3 Ep 231: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  93%|█████████▎| 232/250 [30:21<02:13,  7.40s/it][A  [OK] Task 3 Ep 232: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  93%|█████████▎| 233/250 [30:29<02:06,  7.43s/it][A  [FAIL] Task 3 Ep 233: FAILURE (steps=810)
+
+pick up the bbq sauce and plac...:  94%|█████████▎| 234/250 [31:06<04:23, 16.46s/it][A  [OK] Task 3 Ep 234: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  94%|█████████▍| 235/250 [31:14<03:25, 13.73s/it][A  [OK] Task 3 Ep 235: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  94%|█████████▍| 236/250 [31:21<02:46, 11.86s/it][A  [OK] Task 3 Ep 236: SUCCESS (steps=131)
+
+pick up the bbq sauce and plac...:  95%|█████████▍| 237/250 [31:28<02:16, 10.50s/it][A  [OK] Task 3 Ep 237: SUCCESS (steps=133)
+
+pick up the bbq sauce and plac...:  95%|█████████▌| 238/250 [31:36<01:54,  9.55s/it][A  [OK] Task 3 Ep 238: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  96%|█████████▌| 239/250 [31:43<01:37,  8.88s/it][A  [OK] Task 3 Ep 239: SUCCESS (steps=175)
+
+pick up the bbq sauce and plac...:  96%|█████████▌| 240/250 [31:52<01:29,  9.00s/it][A  [OK] Task 3 Ep 240: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  96%|█████████▋| 241/250 [32:00<01:17,  8.63s/it][A  [OK] Task 3 Ep 241: SUCCESS (steps=135)
+
+pick up the bbq sauce and plac...:  97%|█████████▋| 242/250 [32:08<01:06,  8.29s/it][A  [OK] Task 3 Ep 242: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  97%|█████████▋| 243/250 [32:15<00:55,  8.00s/it][A  [OK] Task 3 Ep 243: SUCCESS (steps=126)
+
+pick up the bbq sauce and plac...:  98%|█████████▊| 244/250 [32:22<00:46,  7.74s/it][A  [OK] Task 3 Ep 244: SUCCESS (steps=132)
+
+pick up the bbq sauce and plac...:  98%|█████████▊| 245/250 [32:29<00:38,  7.62s/it][A  [OK] Task 3 Ep 245: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...:  98%|█████████▊| 246/250 [32:37<00:30,  7.52s/it][A  [OK] Task 3 Ep 246: SUCCESS (steps=139)
+
+pick up the bbq sauce and plac...:  99%|█████████▉| 247/250 [32:45<00:23,  7.67s/it][A  [OK] Task 3 Ep 247: SUCCESS (steps=145)
+
+pick up the bbq sauce and plac...:  99%|█████████▉| 248/250 [32:53<00:15,  7.90s/it][A  [OK] Task 3 Ep 248: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...: 100%|█████████▉| 249/250 [33:01<00:07,  7.87s/it][A  [OK] Task 3 Ep 249: SUCCESS (steps=134)
+
+pick up the bbq sauce and plac...: 100%|██████████| 250/250 [33:09<00:00,  7.80s/it][A
+                                                                                    [A   Task 3: 248/250 (99.2%)
+Tasks:   0%|          | 0/1 [33:15<?, ?it/s]
+
+Total success rate: 248/250 (99.2%)

@@ -1,0 +1,10 @@
+{
+  "policy_name": "spatial_forcing",
+  "suite": "libero_10",
+  "episode_csv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/layer2_full/layer2_full_48g_no_g0g7_20260519T202906Z/spatial_forcing/libero_10/task_4/episodes.csv",
+  "rows": 250,
+  "successes": 238,
+  "errors": 0,
+  "videos": 0,
+  "validation_status": "passed"
+}

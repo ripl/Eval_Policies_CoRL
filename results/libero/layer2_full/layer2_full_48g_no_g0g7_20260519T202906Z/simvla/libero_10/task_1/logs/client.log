@@ -1,0 +1,523 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8527
+   Task suite: libero_10
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_10
+   Tasks: 10, Trials per task: 250
+   Max steps: 900
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+put both the cream cheese box ...:   0%|          | 0/250 [00:00<?, ?it/s][A  [OK] Task 1 Ep 0: SUCCESS (steps=247)
+
+put both the cream cheese box ...:   0%|          | 1/250 [00:09<39:32,  9.53s/it][A  [OK] Task 1 Ep 1: SUCCESS (steps=264)
+
+put both the cream cheese box ...:   1%|          | 2/250 [00:19<40:36,  9.83s/it][A  [OK] Task 1 Ep 2: SUCCESS (steps=440)
+
+put both the cream cheese box ...:   1%|          | 3/250 [00:35<51:09, 12.43s/it][A  [OK] Task 1 Ep 3: SUCCESS (steps=304)
+
+put both the cream cheese box ...:   2%|▏         | 4/250 [00:46<48:53, 11.92s/it][A  [OK] Task 1 Ep 4: SUCCESS (steps=262)
+
+put both the cream cheese box ...:   2%|▏         | 5/250 [00:56<45:34, 11.16s/it][A  [OK] Task 1 Ep 5: SUCCESS (steps=257)
+
+put both the cream cheese box ...:   2%|▏         | 6/250 [01:05<43:18, 10.65s/it][A  [OK] Task 1 Ep 6: SUCCESS (steps=258)
+
+put both the cream cheese box ...:   3%|▎         | 7/250 [01:15<41:47, 10.32s/it][A  [OK] Task 1 Ep 7: SUCCESS (steps=261)
+
+put both the cream cheese box ...:   3%|▎         | 8/250 [01:25<40:55, 10.15s/it][A  [OK] Task 1 Ep 8: SUCCESS (steps=296)
+
+put both the cream cheese box ...:   4%|▎         | 9/250 [01:36<41:42, 10.38s/it][A  [OK] Task 1 Ep 9: SUCCESS (steps=296)
+
+put both the cream cheese box ...:   4%|▍         | 10/250 [01:47<43:12, 10.80s/it][A  [OK] Task 1 Ep 10: SUCCESS (steps=275)
+
+put both the cream cheese box ...:   4%|▍         | 11/250 [01:59<43:57, 11.04s/it][A  [OK] Task 1 Ep 11: SUCCESS (steps=297)
+
+put both the cream cheese box ...:   5%|▍         | 12/250 [02:10<43:42, 11.02s/it][A  [OK] Task 1 Ep 12: SUCCESS (steps=260)
+
+put both the cream cheese box ...:   5%|▌         | 13/250 [02:22<44:35, 11.29s/it][A  [OK] Task 1 Ep 13: SUCCESS (steps=262)
+
+put both the cream cheese box ...:   6%|▌         | 14/250 [02:31<42:35, 10.83s/it][A  [OK] Task 1 Ep 14: SUCCESS (steps=283)
+
+put both the cream cheese box ...:   6%|▌         | 15/250 [02:42<41:56, 10.71s/it][A  [OK] Task 1 Ep 15: SUCCESS (steps=393)
+
+put both the cream cheese box ...:   6%|▋         | 16/250 [02:56<45:44, 11.73s/it][A  [OK] Task 1 Ep 16: SUCCESS (steps=259)
+
+put both the cream cheese box ...:   7%|▋         | 17/250 [03:06<43:09, 11.12s/it][A  [OK] Task 1 Ep 17: SUCCESS (steps=256)
+
+put both the cream cheese box ...:   7%|▋         | 18/250 [03:15<41:15, 10.67s/it][A  [OK] Task 1 Ep 18: SUCCESS (steps=328)
+
+put both the cream cheese box ...:   8%|▊         | 19/250 [03:28<43:21, 11.26s/it][A  [OK] Task 1 Ep 19: SUCCESS (steps=252)
+
+put both the cream cheese box ...:   8%|▊         | 20/250 [03:38<41:10, 10.74s/it][A  [OK] Task 1 Ep 20: SUCCESS (steps=272)
+
+put both the cream cheese box ...:   8%|▊         | 21/250 [03:48<40:23, 10.58s/it][A  [OK] Task 1 Ep 21: SUCCESS (steps=278)
+
+put both the cream cheese box ...:   9%|▉         | 22/250 [03:58<39:53, 10.50s/it][A  [OK] Task 1 Ep 22: SUCCESS (steps=273)
+
+put both the cream cheese box ...:   9%|▉         | 23/250 [04:08<39:16, 10.38s/it][A  [OK] Task 1 Ep 23: SUCCESS (steps=308)
+
+put both the cream cheese box ...:  10%|▉         | 24/250 [04:19<40:00, 10.62s/it][A  [OK] Task 1 Ep 24: SUCCESS (steps=311)
+
+put both the cream cheese box ...:  10%|█         | 25/250 [04:31<40:38, 10.84s/it][A  [OK] Task 1 Ep 25: SUCCESS (steps=398)
+
+put both the cream cheese box ...:  10%|█         | 26/250 [04:45<44:03, 11.80s/it][A  [OK] Task 1 Ep 26: SUCCESS (steps=262)
+
+put both the cream cheese box ...:  11%|█         | 27/250 [04:54<41:35, 11.19s/it][A  [OK] Task 1 Ep 27: SUCCESS (steps=313)
+
+put both the cream cheese box ...:  11%|█         | 28/250 [05:06<41:35, 11.24s/it][A  [OK] Task 1 Ep 28: SUCCESS (steps=326)
+
+put both the cream cheese box ...:  12%|█▏        | 29/250 [05:18<42:04, 11.42s/it][A  [OK] Task 1 Ep 29: SUCCESS (steps=345)
+
+put both the cream cheese box ...:  12%|█▏        | 30/250 [05:30<43:04, 11.75s/it][A  [OK] Task 1 Ep 30: SUCCESS (steps=407)
+
+put both the cream cheese box ...:  12%|█▏        | 31/250 [05:45<45:48, 12.55s/it][A  [OK] Task 1 Ep 31: SUCCESS (steps=236)
+
+put both the cream cheese box ...:  13%|█▎        | 32/250 [05:54<42:20, 11.65s/it][A  [OK] Task 1 Ep 32: SUCCESS (steps=272)
+
+put both the cream cheese box ...:  13%|█▎        | 33/250 [06:05<40:47, 11.28s/it][A  [OK] Task 1 Ep 33: SUCCESS (steps=256)
+
+put both the cream cheese box ...:  14%|█▎        | 34/250 [06:14<39:08, 10.87s/it][A  [OK] Task 1 Ep 34: SUCCESS (steps=260)
+
+put both the cream cheese box ...:  14%|█▍        | 35/250 [06:24<37:46, 10.54s/it][A  [OK] Task 1 Ep 35: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  14%|█▍        | 36/250 [06:35<38:10, 10.70s/it][A  [OK] Task 1 Ep 36: SUCCESS (steps=261)
+
+put both the cream cheese box ...:  15%|█▍        | 37/250 [06:45<37:02, 10.43s/it][A  [OK] Task 1 Ep 37: SUCCESS (steps=260)
+
+put both the cream cheese box ...:  15%|█▌        | 38/250 [06:55<36:07, 10.22s/it][A  [OK] Task 1 Ep 38: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  16%|█▌        | 39/250 [07:05<35:36, 10.13s/it][A  [OK] Task 1 Ep 39: SUCCESS (steps=287)
+
+put both the cream cheese box ...:  16%|█▌        | 40/250 [07:16<36:05, 10.31s/it][A  [OK] Task 1 Ep 40: SUCCESS (steps=264)
+
+put both the cream cheese box ...:  16%|█▋        | 41/250 [07:26<35:38, 10.23s/it][A  [OK] Task 1 Ep 41: SUCCESS (steps=267)
+
+put both the cream cheese box ...:  17%|█▋        | 42/250 [07:36<35:32, 10.25s/it][A  [OK] Task 1 Ep 42: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  17%|█▋        | 43/250 [07:46<35:22, 10.25s/it][A  [OK] Task 1 Ep 43: SUCCESS (steps=254)
+
+put both the cream cheese box ...:  18%|█▊        | 44/250 [07:56<34:24, 10.02s/it][A  [OK] Task 1 Ep 44: SUCCESS (steps=259)
+
+put both the cream cheese box ...:  18%|█▊        | 45/250 [08:05<33:53,  9.92s/it][A  [OK] Task 1 Ep 45: SUCCESS (steps=278)
+
+put both the cream cheese box ...:  18%|█▊        | 46/250 [08:16<34:20, 10.10s/it][A  [OK] Task 1 Ep 46: SUCCESS (steps=273)
+
+put both the cream cheese box ...:  19%|█▉        | 47/250 [08:27<35:14, 10.42s/it][A  [OK] Task 1 Ep 47: SUCCESS (steps=252)
+
+put both the cream cheese box ...:  19%|█▉        | 48/250 [08:36<34:07, 10.14s/it][A  [OK] Task 1 Ep 48: SUCCESS (steps=267)
+
+put both the cream cheese box ...:  20%|█▉        | 49/250 [08:47<33:59, 10.15s/it][A  [OK] Task 1 Ep 49: SUCCESS (steps=365)
+
+put both the cream cheese box ...:  20%|██        | 50/250 [09:00<37:04, 11.12s/it][A  [OK] Task 1 Ep 50: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  20%|██        | 51/250 [09:10<35:32, 10.72s/it][A  [OK] Task 1 Ep 51: SUCCESS (steps=270)
+
+put both the cream cheese box ...:  21%|██        | 52/250 [09:21<35:47, 10.84s/it][A  [FAIL] Task 1 Ep 52: FAILURE (steps=910)
+
+put both the cream cheese box ...:  21%|██        | 53/250 [09:51<54:28, 16.59s/it][A  [OK] Task 1 Ep 53: SUCCESS (steps=262)
+
+put both the cream cheese box ...:  22%|██▏       | 54/250 [10:01<47:34, 14.57s/it][A  [OK] Task 1 Ep 54: SUCCESS (steps=257)
+
+put both the cream cheese box ...:  22%|██▏       | 55/250 [10:10<42:34, 13.10s/it][A  [OK] Task 1 Ep 55: SUCCESS (steps=237)
+
+put both the cream cheese box ...:  22%|██▏       | 56/250 [10:21<39:42, 12.28s/it][A  [OK] Task 1 Ep 56: SUCCESS (steps=273)
+
+put both the cream cheese box ...:  23%|██▎       | 57/250 [10:32<38:04, 11.84s/it][A  [OK] Task 1 Ep 57: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  23%|██▎       | 58/250 [10:41<35:57, 11.24s/it][A  [OK] Task 1 Ep 58: SUCCESS (steps=342)
+
+put both the cream cheese box ...:  24%|██▎       | 59/250 [10:54<36:53, 11.59s/it][A  [OK] Task 1 Ep 59: SUCCESS (steps=323)
+
+put both the cream cheese box ...:  24%|██▍       | 60/250 [11:06<36:51, 11.64s/it][A  [OK] Task 1 Ep 60: SUCCESS (steps=247)
+
+put both the cream cheese box ...:  24%|██▍       | 61/250 [11:15<34:28, 10.95s/it][A  [OK] Task 1 Ep 61: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  25%|██▍       | 62/250 [11:25<33:12, 10.60s/it][A  [OK] Task 1 Ep 62: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  25%|██▌       | 63/250 [11:35<32:19, 10.37s/it][A  [OK] Task 1 Ep 63: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  26%|██▌       | 64/250 [11:44<31:30, 10.16s/it][A  [OK] Task 1 Ep 64: SUCCESS (steps=415)
+
+put both the cream cheese box ...:  26%|██▌       | 65/250 [11:59<35:30, 11.52s/it][A  [OK] Task 1 Ep 65: SUCCESS (steps=287)
+
+put both the cream cheese box ...:  26%|██▋       | 66/250 [12:10<34:37, 11.29s/it][A  [OK] Task 1 Ep 66: SUCCESS (steps=312)
+
+put both the cream cheese box ...:  27%|██▋       | 67/250 [12:22<35:36, 11.68s/it][A  [OK] Task 1 Ep 67: SUCCESS (steps=423)
+
+put both the cream cheese box ...:  27%|██▋       | 68/250 [12:38<39:15, 12.94s/it][A  [OK] Task 1 Ep 68: SUCCESS (steps=278)
+
+put both the cream cheese box ...:  28%|██▊       | 69/250 [12:51<38:31, 12.77s/it][A  [OK] Task 1 Ep 69: SUCCESS (steps=261)
+
+put both the cream cheese box ...:  28%|██▊       | 70/250 [13:01<36:12, 12.07s/it][A  [OK] Task 1 Ep 70: SUCCESS (steps=294)
+
+put both the cream cheese box ...:  28%|██▊       | 71/250 [13:12<35:07, 11.78s/it][A  [OK] Task 1 Ep 71: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  29%|██▉       | 72/250 [13:23<34:11, 11.52s/it][A  [OK] Task 1 Ep 72: SUCCESS (steps=262)
+
+put both the cream cheese box ...:  29%|██▉       | 73/250 [13:35<34:12, 11.59s/it][A  [OK] Task 1 Ep 73: SUCCESS (steps=261)
+
+put both the cream cheese box ...:  30%|██▉       | 74/250 [13:45<32:26, 11.06s/it][A  [OK] Task 1 Ep 74: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  30%|███       | 75/250 [13:54<31:10, 10.69s/it][A  [OK] Task 1 Ep 75: SUCCESS (steps=252)
+
+put both the cream cheese box ...:  30%|███       | 76/250 [14:04<30:12, 10.42s/it][A  [OK] Task 1 Ep 76: SUCCESS (steps=305)
+
+put both the cream cheese box ...:  31%|███       | 77/250 [14:15<30:48, 10.68s/it][A  [OK] Task 1 Ep 77: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  31%|███       | 78/250 [14:25<29:46, 10.39s/it][A  [OK] Task 1 Ep 78: SUCCESS (steps=291)
+
+put both the cream cheese box ...:  32%|███▏      | 79/250 [14:36<29:53, 10.49s/it][A  [OK] Task 1 Ep 79: SUCCESS (steps=243)
+
+put both the cream cheese box ...:  32%|███▏      | 80/250 [14:45<28:52, 10.19s/it][A  [OK] Task 1 Ep 80: SUCCESS (steps=277)
+
+put both the cream cheese box ...:  32%|███▏      | 81/250 [14:56<28:50, 10.24s/it][A  [OK] Task 1 Ep 81: SUCCESS (steps=267)
+
+put both the cream cheese box ...:  33%|███▎      | 82/250 [15:07<29:24, 10.50s/it][A  [OK] Task 1 Ep 82: SUCCESS (steps=249)
+
+put both the cream cheese box ...:  33%|███▎      | 83/250 [15:16<28:21, 10.19s/it][A  [OK] Task 1 Ep 83: SUCCESS (steps=286)
+
+put both the cream cheese box ...:  34%|███▎      | 84/250 [15:27<28:33, 10.33s/it][A  [OK] Task 1 Ep 84: SUCCESS (steps=268)
+
+put both the cream cheese box ...:  34%|███▍      | 85/250 [15:37<28:08, 10.23s/it][A  [OK] Task 1 Ep 85: SUCCESS (steps=276)
+
+put both the cream cheese box ...:  34%|███▍      | 86/250 [15:48<28:32, 10.44s/it][A  [OK] Task 1 Ep 86: SUCCESS (steps=251)
+
+put both the cream cheese box ...:  35%|███▍      | 87/250 [15:57<27:39, 10.18s/it][A  [OK] Task 1 Ep 87: SUCCESS (steps=348)
+
+put both the cream cheese box ...:  35%|███▌      | 88/250 [16:11<29:55, 11.08s/it][A  [OK] Task 1 Ep 88: SUCCESS (steps=251)
+
+put both the cream cheese box ...:  36%|███▌      | 89/250 [16:21<29:19, 10.93s/it][A  [OK] Task 1 Ep 89: SUCCESS (steps=254)
+
+put both the cream cheese box ...:  36%|███▌      | 90/250 [16:31<28:00, 10.51s/it][A  [OK] Task 1 Ep 90: SUCCESS (steps=288)
+
+put both the cream cheese box ...:  36%|███▋      | 91/250 [16:41<27:55, 10.54s/it][A  [OK] Task 1 Ep 91: SUCCESS (steps=268)
+
+put both the cream cheese box ...:  37%|███▋      | 92/250 [16:51<27:19, 10.37s/it][A  [OK] Task 1 Ep 92: SUCCESS (steps=279)
+
+put both the cream cheese box ...:  37%|███▋      | 93/250 [17:02<27:03, 10.34s/it][A  [OK] Task 1 Ep 93: SUCCESS (steps=256)
+
+put both the cream cheese box ...:  38%|███▊      | 94/250 [17:11<26:22, 10.15s/it][A  [OK] Task 1 Ep 94: SUCCESS (steps=255)
+
+put both the cream cheese box ...:  38%|███▊      | 95/250 [17:22<26:37, 10.30s/it][A  [OK] Task 1 Ep 95: SUCCESS (steps=259)
+
+put both the cream cheese box ...:  38%|███▊      | 96/250 [17:32<26:04, 10.16s/it][A  [OK] Task 1 Ep 96: SUCCESS (steps=246)
+
+put both the cream cheese box ...:  39%|███▉      | 97/250 [17:41<25:15,  9.91s/it][A  [OK] Task 1 Ep 97: SUCCESS (steps=296)
+
+put both the cream cheese box ...:  39%|███▉      | 98/250 [17:52<25:50, 10.20s/it][A  [OK] Task 1 Ep 98: SUCCESS (steps=287)
+
+put both the cream cheese box ...:  40%|███▉      | 99/250 [18:03<26:05, 10.37s/it][A  [OK] Task 1 Ep 99: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  40%|████      | 100/250 [18:13<25:45, 10.30s/it][A  [OK] Task 1 Ep 100: SUCCESS (steps=266)
+
+put both the cream cheese box ...:  40%|████      | 101/250 [18:23<25:42, 10.35s/it][A  [OK] Task 1 Ep 101: SUCCESS (steps=358)
+
+put both the cream cheese box ...:  41%|████      | 102/250 [18:36<27:20, 11.09s/it][A  [OK] Task 1 Ep 102: SUCCESS (steps=271)
+
+put both the cream cheese box ...:  41%|████      | 103/250 [18:46<26:24, 10.78s/it][A  [OK] Task 1 Ep 103: SUCCESS (steps=261)
+
+put both the cream cheese box ...:  42%|████▏     | 104/250 [18:56<25:33, 10.50s/it][A  [OK] Task 1 Ep 104: SUCCESS (steps=267)
+
+put both the cream cheese box ...:  42%|████▏     | 105/250 [19:06<25:00, 10.35s/it][A  [OK] Task 1 Ep 105: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  42%|████▏     | 106/250 [19:17<25:05, 10.46s/it][A  [OK] Task 1 Ep 106: SUCCESS (steps=253)
+
+put both the cream cheese box ...:  43%|████▎     | 107/250 [19:27<24:51, 10.43s/it][A  [OK] Task 1 Ep 107: SUCCESS (steps=256)
+
+put both the cream cheese box ...:  43%|████▎     | 108/250 [19:37<24:11, 10.22s/it][A  [OK] Task 1 Ep 108: SUCCESS (steps=301)
+
+put both the cream cheese box ...:  44%|████▎     | 109/250 [19:49<25:06, 10.69s/it][A  [OK] Task 1 Ep 109: SUCCESS (steps=252)
+
+put both the cream cheese box ...:  44%|████▍     | 110/250 [19:58<24:14, 10.39s/it][A  [OK] Task 1 Ep 110: SUCCESS (steps=302)
+
+put both the cream cheese box ...:  44%|████▍     | 111/250 [20:09<24:33, 10.60s/it][A  [OK] Task 1 Ep 111: SUCCESS (steps=249)
+
+put both the cream cheese box ...:  45%|████▍     | 112/250 [20:20<24:35, 10.70s/it][A  [OK] Task 1 Ep 112: SUCCESS (steps=261)
+
+put both the cream cheese box ...:  45%|████▌     | 113/250 [20:33<25:39, 11.24s/it][A  [OK] Task 1 Ep 113: SUCCESS (steps=368)
+
+put both the cream cheese box ...:  46%|████▌     | 114/250 [20:46<26:47, 11.82s/it][A  [OK] Task 1 Ep 114: SUCCESS (steps=267)
+
+put both the cream cheese box ...:  46%|████▌     | 115/250 [20:56<25:24, 11.29s/it][A  [OK] Task 1 Ep 115: SUCCESS (steps=259)
+
+put both the cream cheese box ...:  46%|████▋     | 116/250 [21:06<24:22, 10.91s/it][A  [OK] Task 1 Ep 116: SUCCESS (steps=260)
+
+put both the cream cheese box ...:  47%|████▋     | 117/250 [21:16<23:27, 10.58s/it][A  [OK] Task 1 Ep 117: SUCCESS (steps=290)
+
+put both the cream cheese box ...:  47%|████▋     | 118/250 [21:27<23:32, 10.70s/it][A  [OK] Task 1 Ep 118: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  48%|████▊     | 119/250 [21:37<22:44, 10.41s/it][A  [OK] Task 1 Ep 119: SUCCESS (steps=271)
+
+put both the cream cheese box ...:  48%|████▊     | 120/250 [21:47<22:19, 10.30s/it][A  [OK] Task 1 Ep 120: SUCCESS (steps=261)
+
+put both the cream cheese box ...:  48%|████▊     | 121/250 [21:57<21:53, 10.18s/it][A  [OK] Task 1 Ep 121: SUCCESS (steps=256)
+
+put both the cream cheese box ...:  49%|████▉     | 122/250 [22:06<21:20, 10.00s/it][A  [OK] Task 1 Ep 122: SUCCESS (steps=254)
+
+put both the cream cheese box ...:  49%|████▉     | 123/250 [22:16<21:00,  9.93s/it][A  [OK] Task 1 Ep 123: SUCCESS (steps=253)
+
+put both the cream cheese box ...:  50%|████▉     | 124/250 [22:26<20:35,  9.81s/it][A  [OK] Task 1 Ep 124: SUCCESS (steps=256)
+
+put both the cream cheese box ...:  50%|█████     | 125/250 [22:35<20:20,  9.76s/it][A  [OK] Task 1 Ep 125: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  50%|█████     | 126/250 [22:45<20:05,  9.72s/it][A  [OK] Task 1 Ep 126: SUCCESS (steps=252)
+
+put both the cream cheese box ...:  51%|█████     | 127/250 [22:54<19:46,  9.64s/it][A  [OK] Task 1 Ep 127: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  51%|█████     | 128/250 [23:04<19:39,  9.67s/it][A  [OK] Task 1 Ep 128: SUCCESS (steps=335)
+
+put both the cream cheese box ...:  52%|█████▏    | 129/250 [23:16<20:59, 10.41s/it][A  [OK] Task 1 Ep 129: SUCCESS (steps=253)
+
+put both the cream cheese box ...:  52%|█████▏    | 130/250 [23:26<20:21, 10.18s/it][A  [OK] Task 1 Ep 130: SUCCESS (steps=346)
+
+put both the cream cheese box ...:  52%|█████▏    | 131/250 [23:39<22:06, 11.14s/it][A  [OK] Task 1 Ep 131: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  53%|█████▎    | 132/250 [23:50<21:40, 11.02s/it][A  [OK] Task 1 Ep 132: SUCCESS (steps=252)
+
+put both the cream cheese box ...:  53%|█████▎    | 133/250 [24:01<21:46, 11.16s/it][A  [OK] Task 1 Ep 133: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  54%|█████▎    | 134/250 [24:13<21:46, 11.26s/it][A  [OK] Task 1 Ep 134: SUCCESS (steps=320)
+
+put both the cream cheese box ...:  54%|█████▍    | 135/250 [24:26<22:25, 11.70s/it][A  [OK] Task 1 Ep 135: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  54%|█████▍    | 136/250 [24:35<21:09, 11.13s/it][A  [OK] Task 1 Ep 136: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  55%|█████▍    | 137/250 [24:45<20:07, 10.68s/it][A  [OK] Task 1 Ep 137: SUCCESS (steps=256)
+
+put both the cream cheese box ...:  55%|█████▌    | 138/250 [24:55<19:20, 10.36s/it][A  [OK] Task 1 Ep 138: SUCCESS (steps=332)
+
+put both the cream cheese box ...:  56%|█████▌    | 139/250 [25:07<20:05, 10.86s/it][A  [OK] Task 1 Ep 139: SUCCESS (steps=262)
+
+put both the cream cheese box ...:  56%|█████▌    | 140/250 [25:17<19:45, 10.77s/it][A  [OK] Task 1 Ep 140: SUCCESS (steps=277)
+
+put both the cream cheese box ...:  56%|█████▋    | 141/250 [25:28<19:20, 10.64s/it][A  [OK] Task 1 Ep 141: SUCCESS (steps=264)
+
+put both the cream cheese box ...:  57%|█████▋    | 142/250 [25:38<19:06, 10.62s/it][A  [OK] Task 1 Ep 142: SUCCESS (steps=257)
+
+put both the cream cheese box ...:  57%|█████▋    | 143/250 [25:48<18:22, 10.30s/it][A  [OK] Task 1 Ep 143: SUCCESS (steps=252)
+
+put both the cream cheese box ...:  58%|█████▊    | 144/250 [25:57<17:47, 10.07s/it][A  [OK] Task 1 Ep 144: SUCCESS (steps=253)
+
+put both the cream cheese box ...:  58%|█████▊    | 145/250 [26:07<17:28,  9.98s/it][A  [OK] Task 1 Ep 145: SUCCESS (steps=262)
+
+put both the cream cheese box ...:  58%|█████▊    | 146/250 [26:17<17:28, 10.08s/it][A  [OK] Task 1 Ep 146: SUCCESS (steps=253)
+
+put both the cream cheese box ...:  59%|█████▉    | 147/250 [26:27<17:02,  9.93s/it][A  [OK] Task 1 Ep 147: SUCCESS (steps=266)
+
+put both the cream cheese box ...:  59%|█████▉    | 148/250 [26:37<16:55,  9.95s/it][A  [OK] Task 1 Ep 148: SUCCESS (steps=246)
+
+put both the cream cheese box ...:  60%|█████▉    | 149/250 [26:46<16:28,  9.79s/it][A  [OK] Task 1 Ep 149: SUCCESS (steps=270)
+
+put both the cream cheese box ...:  60%|██████    | 150/250 [26:56<16:28,  9.88s/it][A  [OK] Task 1 Ep 150: SUCCESS (steps=253)
+
+put both the cream cheese box ...:  60%|██████    | 151/250 [27:06<16:13,  9.83s/it][A  [OK] Task 1 Ep 151: SUCCESS (steps=253)
+
+put both the cream cheese box ...:  61%|██████    | 152/250 [27:16<15:59,  9.79s/it][A  [OK] Task 1 Ep 152: SUCCESS (steps=300)
+
+put both the cream cheese box ...:  61%|██████    | 153/250 [27:27<16:27, 10.18s/it][A  [OK] Task 1 Ep 153: SUCCESS (steps=268)
+
+put both the cream cheese box ...:  62%|██████▏   | 154/250 [27:37<16:10, 10.11s/it][A  [OK] Task 1 Ep 154: SUCCESS (steps=268)
+
+put both the cream cheese box ...:  62%|██████▏   | 155/250 [27:47<15:55, 10.06s/it][A  [OK] Task 1 Ep 155: SUCCESS (steps=257)
+
+put both the cream cheese box ...:  62%|██████▏   | 156/250 [28:00<17:02, 10.87s/it][A  [OK] Task 1 Ep 156: SUCCESS (steps=261)
+
+put both the cream cheese box ...:  63%|██████▎   | 157/250 [28:12<17:21, 11.20s/it][A  [OK] Task 1 Ep 157: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  63%|██████▎   | 158/250 [28:24<17:33, 11.45s/it][A  [OK] Task 1 Ep 158: SUCCESS (steps=256)
+
+put both the cream cheese box ...:  64%|██████▎   | 159/250 [28:33<16:32, 10.90s/it][A  [OK] Task 1 Ep 159: SUCCESS (steps=261)
+
+put both the cream cheese box ...:  64%|██████▍   | 160/250 [28:43<15:55, 10.62s/it][A  [OK] Task 1 Ep 160: SUCCESS (steps=285)
+
+put both the cream cheese box ...:  64%|██████▍   | 161/250 [28:54<15:44, 10.61s/it][A  [OK] Task 1 Ep 161: SUCCESS (steps=332)
+
+put both the cream cheese box ...:  65%|██████▍   | 162/250 [29:06<16:09, 11.02s/it][A  [OK] Task 1 Ep 162: SUCCESS (steps=317)
+
+put both the cream cheese box ...:  65%|██████▌   | 163/250 [29:17<16:11, 11.16s/it][A  [OK] Task 1 Ep 163: SUCCESS (steps=283)
+
+put both the cream cheese box ...:  66%|██████▌   | 164/250 [29:28<15:41, 10.95s/it][A  [OK] Task 1 Ep 164: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  66%|██████▌   | 165/250 [29:37<14:56, 10.55s/it][A  [OK] Task 1 Ep 165: SUCCESS (steps=256)
+
+put both the cream cheese box ...:  66%|██████▋   | 166/250 [29:47<14:33, 10.39s/it][A  [OK] Task 1 Ep 166: SUCCESS (steps=267)
+
+put both the cream cheese box ...:  67%|██████▋   | 167/250 [29:57<14:10, 10.25s/it][A  [OK] Task 1 Ep 167: SUCCESS (steps=278)
+
+put both the cream cheese box ...:  67%|██████▋   | 168/250 [30:08<14:08, 10.34s/it][A  [OK] Task 1 Ep 168: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  68%|██████▊   | 169/250 [30:18<13:42, 10.16s/it][A  [OK] Task 1 Ep 169: SUCCESS (steps=268)
+
+put both the cream cheese box ...:  68%|██████▊   | 170/250 [30:28<13:29, 10.12s/it][A  [OK] Task 1 Ep 170: SUCCESS (steps=257)
+
+put both the cream cheese box ...:  68%|██████▊   | 171/250 [30:37<13:07,  9.96s/it][A  [OK] Task 1 Ep 171: SUCCESS (steps=312)
+
+put both the cream cheese box ...:  69%|██████▉   | 172/250 [30:49<13:30, 10.39s/it][A  [OK] Task 1 Ep 172: SUCCESS (steps=277)
+
+put both the cream cheese box ...:  69%|██████▉   | 173/250 [30:59<13:17, 10.35s/it][A  [OK] Task 1 Ep 173: SUCCESS (steps=253)
+
+put both the cream cheese box ...:  70%|██████▉   | 174/250 [31:09<12:54, 10.18s/it][A  [OK] Task 1 Ep 174: SUCCESS (steps=301)
+
+put both the cream cheese box ...:  70%|███████   | 175/250 [31:23<14:16, 11.42s/it][A  [OK] Task 1 Ep 175: SUCCESS (steps=268)
+
+put both the cream cheese box ...:  70%|███████   | 176/250 [31:34<13:59, 11.35s/it][A  [OK] Task 1 Ep 176: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  71%|███████   | 177/250 [31:44<13:16, 10.91s/it][A  [OK] Task 1 Ep 177: SUCCESS (steps=272)
+
+put both the cream cheese box ...:  71%|███████   | 178/250 [31:54<12:48, 10.67s/it][A  [OK] Task 1 Ep 178: SUCCESS (steps=262)
+
+put both the cream cheese box ...:  72%|███████▏  | 179/250 [32:04<12:20, 10.42s/it][A  [OK] Task 1 Ep 179: SUCCESS (steps=282)
+
+put both the cream cheese box ...:  72%|███████▏  | 180/250 [32:14<12:08, 10.41s/it][A  [OK] Task 1 Ep 180: SUCCESS (steps=249)
+
+put both the cream cheese box ...:  72%|███████▏  | 181/250 [32:24<11:35, 10.08s/it][A  [OK] Task 1 Ep 181: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  73%|███████▎  | 182/250 [32:33<11:19, 10.00s/it][A  [OK] Task 1 Ep 182: SUCCESS (steps=252)
+
+put both the cream cheese box ...:  73%|███████▎  | 183/250 [32:43<11:00,  9.86s/it][A  [OK] Task 1 Ep 183: SUCCESS (steps=254)
+
+put both the cream cheese box ...:  74%|███████▎  | 184/250 [32:52<10:43,  9.75s/it][A  [OK] Task 1 Ep 184: SUCCESS (steps=275)
+
+put both the cream cheese box ...:  74%|███████▍  | 185/250 [33:03<10:58, 10.13s/it][A  [OK] Task 1 Ep 185: SUCCESS (steps=275)
+
+put both the cream cheese box ...:  74%|███████▍  | 186/250 [33:14<10:49, 10.15s/it][A  [OK] Task 1 Ep 186: SUCCESS (steps=321)
+
+put both the cream cheese box ...:  75%|███████▍  | 187/250 [33:25<11:09, 10.62s/it][A  [OK] Task 1 Ep 187: SUCCESS (steps=255)
+
+put both the cream cheese box ...:  75%|███████▌  | 188/250 [33:35<10:39, 10.32s/it][A  [OK] Task 1 Ep 188: SUCCESS (steps=278)
+
+put both the cream cheese box ...:  76%|███████▌  | 189/250 [33:45<10:29, 10.33s/it][A  [OK] Task 1 Ep 189: SUCCESS (steps=252)
+
+put both the cream cheese box ...:  76%|███████▌  | 190/250 [33:55<10:04, 10.08s/it][A  [OK] Task 1 Ep 190: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  76%|███████▋  | 191/250 [34:05<09:47,  9.95s/it][A  [OK] Task 1 Ep 191: SUCCESS (steps=298)
+
+put both the cream cheese box ...:  77%|███████▋  | 192/250 [34:15<09:54, 10.25s/it][A  [OK] Task 1 Ep 192: SUCCESS (steps=273)
+
+put both the cream cheese box ...:  77%|███████▋  | 193/250 [34:26<09:41, 10.20s/it][A  [OK] Task 1 Ep 193: SUCCESS (steps=248)
+
+put both the cream cheese box ...:  78%|███████▊  | 194/250 [34:35<09:17,  9.95s/it][A  [OK] Task 1 Ep 194: SUCCESS (steps=291)
+
+put both the cream cheese box ...:  78%|███████▊  | 195/250 [34:46<09:21, 10.21s/it][A  [OK] Task 1 Ep 195: SUCCESS (steps=255)
+
+put both the cream cheese box ...:  78%|███████▊  | 196/250 [34:58<09:38, 10.71s/it][A  [OK] Task 1 Ep 196: SUCCESS (steps=283)
+
+put both the cream cheese box ...:  79%|███████▉  | 197/250 [35:11<10:05, 11.42s/it][A  [OK] Task 1 Ep 197: SUCCESS (steps=262)
+
+put both the cream cheese box ...:  79%|███████▉  | 198/250 [35:21<09:43, 11.22s/it][A  [FAIL] Task 1 Ep 198: FAILURE (steps=910)
+
+put both the cream cheese box ...:  80%|███████▉  | 199/250 [35:52<14:25, 16.97s/it][A  [OK] Task 1 Ep 199: SUCCESS (steps=310)
+
+put both the cream cheese box ...:  80%|████████  | 200/250 [36:03<12:43, 15.28s/it][A  [OK] Task 1 Ep 200: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  80%|████████  | 201/250 [36:13<11:08, 13.63s/it][A  [OK] Task 1 Ep 201: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  81%|████████  | 202/250 [36:23<10:08, 12.69s/it][A  [OK] Task 1 Ep 202: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  81%|████████  | 203/250 [36:33<09:15, 11.81s/it][A  [OK] Task 1 Ep 203: SUCCESS (steps=278)
+
+put both the cream cheese box ...:  82%|████████▏ | 204/250 [36:43<08:41, 11.33s/it][A  [OK] Task 1 Ep 204: SUCCESS (steps=277)
+
+put both the cream cheese box ...:  82%|████████▏ | 205/250 [36:54<08:15, 11.01s/it][A  [OK] Task 1 Ep 205: SUCCESS (steps=293)
+
+put both the cream cheese box ...:  82%|████████▏ | 206/250 [37:05<08:03, 11.00s/it][A  [OK] Task 1 Ep 206: SUCCESS (steps=292)
+
+put both the cream cheese box ...:  83%|████████▎ | 207/250 [37:16<07:55, 11.07s/it][A  [OK] Task 1 Ep 207: SUCCESS (steps=257)
+
+put both the cream cheese box ...:  83%|████████▎ | 208/250 [37:26<07:38, 10.92s/it][A  [OK] Task 1 Ep 208: SUCCESS (steps=300)
+
+put both the cream cheese box ...:  84%|████████▎ | 209/250 [37:37<07:28, 10.95s/it][A  [OK] Task 1 Ep 209: SUCCESS (steps=280)
+
+put both the cream cheese box ...:  84%|████████▍ | 210/250 [37:48<07:11, 10.79s/it][A  [OK] Task 1 Ep 210: SUCCESS (steps=330)
+
+put both the cream cheese box ...:  84%|████████▍ | 211/250 [38:00<07:14, 11.15s/it][A  [OK] Task 1 Ep 211: SUCCESS (steps=273)
+
+put both the cream cheese box ...:  85%|████████▍ | 212/250 [38:10<06:52, 10.84s/it][A  [OK] Task 1 Ep 212: SUCCESS (steps=265)
+
+put both the cream cheese box ...:  85%|████████▌ | 213/250 [38:22<06:56, 11.25s/it][A  [OK] Task 1 Ep 213: SUCCESS (steps=265)
+
+put both the cream cheese box ...:  86%|████████▌ | 214/250 [38:32<06:30, 10.84s/it][A  [OK] Task 1 Ep 214: SUCCESS (steps=257)
+
+put both the cream cheese box ...:  86%|████████▌ | 215/250 [38:42<06:11, 10.61s/it][A  [OK] Task 1 Ep 215: SUCCESS (steps=278)
+
+put both the cream cheese box ...:  86%|████████▋ | 216/250 [38:54<06:15, 11.03s/it][A  [OK] Task 1 Ep 216: SUCCESS (steps=262)
+
+put both the cream cheese box ...:  87%|████████▋ | 217/250 [39:04<05:52, 10.68s/it][A  [OK] Task 1 Ep 217: SUCCESS (steps=331)
+
+put both the cream cheese box ...:  87%|████████▋ | 218/250 [39:16<05:54, 11.07s/it][A  [OK] Task 1 Ep 218: SUCCESS (steps=360)
+
+put both the cream cheese box ...:  88%|████████▊ | 219/250 [39:29<06:00, 11.62s/it][A  [OK] Task 1 Ep 219: SUCCESS (steps=268)
+
+put both the cream cheese box ...:  88%|████████▊ | 220/250 [39:39<05:34, 11.14s/it][A  [OK] Task 1 Ep 220: SUCCESS (steps=262)
+
+put both the cream cheese box ...:  88%|████████▊ | 221/250 [39:49<05:11, 10.73s/it][A  [OK] Task 1 Ep 221: SUCCESS (steps=253)
+
+put both the cream cheese box ...:  89%|████████▉ | 222/250 [39:58<04:50, 10.36s/it][A  [OK] Task 1 Ep 222: SUCCESS (steps=238)
+
+put both the cream cheese box ...:  89%|████████▉ | 223/250 [40:07<04:29,  9.99s/it][A  [OK] Task 1 Ep 223: SUCCESS (steps=247)
+
+put both the cream cheese box ...:  90%|████████▉ | 224/250 [40:17<04:15,  9.82s/it][A  [OK] Task 1 Ep 224: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  90%|█████████ | 225/250 [40:26<04:04,  9.79s/it][A  [OK] Task 1 Ep 225: SUCCESS (steps=252)
+
+put both the cream cheese box ...:  90%|█████████ | 226/250 [40:36<03:53,  9.73s/it][A  [OK] Task 1 Ep 226: SUCCESS (steps=273)
+
+put both the cream cheese box ...:  91%|█████████ | 227/250 [40:46<03:46,  9.85s/it][A  [OK] Task 1 Ep 227: SUCCESS (steps=286)
+
+put both the cream cheese box ...:  91%|█████████ | 228/250 [40:57<03:41, 10.08s/it][A  [OK] Task 1 Ep 228: SUCCESS (steps=294)
+
+put both the cream cheese box ...:  92%|█████████▏| 229/250 [41:08<03:37, 10.37s/it][A  [OK] Task 1 Ep 229: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  92%|█████████▏| 230/250 [41:18<03:24, 10.20s/it][A  [OK] Task 1 Ep 230: SUCCESS (steps=268)
+
+put both the cream cheese box ...:  92%|█████████▏| 231/250 [41:28<03:12, 10.12s/it][A  [OK] Task 1 Ep 231: SUCCESS (steps=248)
+
+put both the cream cheese box ...:  93%|█████████▎| 232/250 [41:37<02:59,  9.99s/it][A  [OK] Task 1 Ep 232: SUCCESS (steps=251)
+
+put both the cream cheese box ...:  93%|█████████▎| 233/250 [41:48<02:52, 10.15s/it][A  [OK] Task 1 Ep 233: SUCCESS (steps=236)
+
+put both the cream cheese box ...:  94%|█████████▎| 234/250 [41:57<02:37,  9.83s/it][A  [OK] Task 1 Ep 234: SUCCESS (steps=268)
+
+put both the cream cheese box ...:  94%|█████████▍| 235/250 [42:07<02:28,  9.89s/it][A  [OK] Task 1 Ep 235: SUCCESS (steps=259)
+
+put both the cream cheese box ...:  94%|█████████▍| 236/250 [42:19<02:28, 10.59s/it][A  [OK] Task 1 Ep 236: SUCCESS (steps=263)
+
+put both the cream cheese box ...:  95%|█████████▍| 237/250 [42:31<02:21, 10.90s/it][A  [OK] Task 1 Ep 237: SUCCESS (steps=288)
+
+put both the cream cheese box ...:  95%|█████████▌| 238/250 [42:43<02:14, 11.18s/it][A  [OK] Task 1 Ep 238: SUCCESS (steps=261)
+
+put both the cream cheese box ...:  96%|█████████▌| 239/250 [42:52<01:58, 10.73s/it][A  [OK] Task 1 Ep 239: SUCCESS (steps=265)
+
+put both the cream cheese box ...:  96%|█████████▌| 240/250 [43:02<01:44, 10.46s/it][A  [OK] Task 1 Ep 240: SUCCESS (steps=267)
+
+put both the cream cheese box ...:  96%|█████████▋| 241/250 [43:12<01:32, 10.32s/it][A  [OK] Task 1 Ep 241: SUCCESS (steps=299)
+
+put both the cream cheese box ...:  97%|█████████▋| 242/250 [43:24<01:27, 10.88s/it][A  [OK] Task 1 Ep 242: SUCCESS (steps=252)
+
+put both the cream cheese box ...:  97%|█████████▋| 243/250 [43:34<01:13, 10.46s/it][A  [OK] Task 1 Ep 243: SUCCESS (steps=268)
+
+put both the cream cheese box ...:  98%|█████████▊| 244/250 [43:44<01:01, 10.29s/it][A  [OK] Task 1 Ep 244: SUCCESS (steps=258)
+
+put both the cream cheese box ...:  98%|█████████▊| 245/250 [43:53<00:50, 10.09s/it][A  [OK] Task 1 Ep 245: SUCCESS (steps=293)
+
+put both the cream cheese box ...:  98%|█████████▊| 246/250 [44:04<00:41, 10.28s/it][A  [OK] Task 1 Ep 246: SUCCESS (steps=248)
+
+put both the cream cheese box ...:  99%|█████████▉| 247/250 [44:13<00:29,  9.97s/it][A  [OK] Task 1 Ep 247: SUCCESS (steps=243)
+
+put both the cream cheese box ...:  99%|█████████▉| 248/250 [44:23<00:19,  9.91s/it][A  [OK] Task 1 Ep 248: SUCCESS (steps=263)
+
+put both the cream cheese box ...: 100%|█████████▉| 249/250 [44:33<00:09,  9.87s/it][A  [OK] Task 1 Ep 249: SUCCESS (steps=266)
+
+put both the cream cheese box ...: 100%|██████████| 250/250 [44:43<00:00,  9.90s/it][A
+                                                                                    [A   Task 1: 248/250 (99.2%)
+Tasks:   0%|          | 0/1 [44:45<?, ?it/s]
+
+Total success rate: 248/250 (99.2%)

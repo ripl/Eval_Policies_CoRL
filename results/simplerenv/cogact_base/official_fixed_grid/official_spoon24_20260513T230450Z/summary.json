@@ -1,0 +1,25 @@
+{
+  "policy": "cogact",
+  "task_filter": "spoon",
+  "task": "spoon",
+  "standard_horizon": 60,
+  "success_standard_horizon": 18,
+  "success_rate_standard_horizon": 0.75,
+  "success_released_runner": 18,
+  "success_rate_released_runner": 0.75,
+  "total": 24,
+  "horizon_clip_changes": [
+    {
+      "episode": 5,
+      "standard_60_success": false,
+      "released_120_success": true
+    },
+    {
+      "episode": 12,
+      "standard_60_success": true,
+      "released_120_success": false
+    }
+  ],
+  "result_root": "results/simplerenv/cogact_base/official_fixed_grid/official_spoon24_20260513T230450Z/videos",
+  "source_job": "2042044"
+}

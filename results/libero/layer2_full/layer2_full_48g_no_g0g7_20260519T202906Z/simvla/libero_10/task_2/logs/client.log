@@ -1,0 +1,523 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8528
+   Task suite: libero_10
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_10
+   Tasks: 10, Trials per task: 250
+   Max steps: 900
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+turn on the stove and put the ...:   0%|          | 0/250 [00:00<?, ?it/s][A  [OK] Task 2 Ep 0: SUCCESS (steps=235)
+
+turn on the stove and put the ...:   0%|          | 1/250 [00:09<37:26,  9.02s/it][A  [OK] Task 2 Ep 1: SUCCESS (steps=269)
+
+turn on the stove and put the ...:   1%|          | 2/250 [00:18<39:22,  9.53s/it][A  [OK] Task 2 Ep 2: SUCCESS (steps=267)
+
+turn on the stove and put the ...:   1%|          | 3/250 [00:28<39:39,  9.63s/it][A  [OK] Task 2 Ep 3: SUCCESS (steps=233)
+
+turn on the stove and put the ...:   2%|▏         | 4/250 [00:37<37:55,  9.25s/it][A  [OK] Task 2 Ep 4: SUCCESS (steps=241)
+
+turn on the stove and put the ...:   2%|▏         | 5/250 [00:46<37:17,  9.13s/it][A  [OK] Task 2 Ep 5: SUCCESS (steps=245)
+
+turn on the stove and put the ...:   2%|▏         | 6/250 [00:55<37:09,  9.14s/it][A  [OK] Task 2 Ep 6: SUCCESS (steps=237)
+
+turn on the stove and put the ...:   3%|▎         | 7/250 [01:04<36:32,  9.02s/it][A  [OK] Task 2 Ep 7: SUCCESS (steps=243)
+
+turn on the stove and put the ...:   3%|▎         | 8/250 [01:14<37:27,  9.29s/it][A  [OK] Task 2 Ep 8: SUCCESS (steps=259)
+
+turn on the stove and put the ...:   4%|▎         | 9/250 [01:23<37:30,  9.34s/it][A  [OK] Task 2 Ep 9: SUCCESS (steps=239)
+
+turn on the stove and put the ...:   4%|▍         | 10/250 [01:32<36:41,  9.17s/it][A  [OK] Task 2 Ep 10: SUCCESS (steps=256)
+
+turn on the stove and put the ...:   4%|▍         | 11/250 [01:41<36:50,  9.25s/it][A  [OK] Task 2 Ep 11: SUCCESS (steps=240)
+
+turn on the stove and put the ...:   5%|▍         | 12/250 [01:50<36:24,  9.18s/it][A  [OK] Task 2 Ep 12: SUCCESS (steps=237)
+
+turn on the stove and put the ...:   5%|▌         | 13/250 [01:59<35:48,  9.07s/it][A  [OK] Task 2 Ep 13: SUCCESS (steps=228)
+
+turn on the stove and put the ...:   6%|▌         | 14/250 [02:07<34:54,  8.87s/it][A  [OK] Task 2 Ep 14: SUCCESS (steps=256)
+
+turn on the stove and put the ...:   6%|▌         | 15/250 [02:17<35:24,  9.04s/it][A  [OK] Task 2 Ep 15: SUCCESS (steps=246)
+
+turn on the stove and put the ...:   6%|▋         | 16/250 [02:26<35:22,  9.07s/it][A  [OK] Task 2 Ep 16: SUCCESS (steps=235)
+
+turn on the stove and put the ...:   7%|▋         | 17/250 [02:35<34:59,  9.01s/it][A  [OK] Task 2 Ep 17: SUCCESS (steps=255)
+
+turn on the stove and put the ...:   7%|▋         | 18/250 [02:44<35:25,  9.16s/it][A  [OK] Task 2 Ep 18: SUCCESS (steps=238)
+
+turn on the stove and put the ...:   8%|▊         | 19/250 [02:53<34:52,  9.06s/it][A  [OK] Task 2 Ep 19: SUCCESS (steps=246)
+
+turn on the stove and put the ...:   8%|▊         | 20/250 [03:03<35:11,  9.18s/it][A  [OK] Task 2 Ep 20: SUCCESS (steps=238)
+
+turn on the stove and put the ...:   8%|▊         | 21/250 [03:13<35:54,  9.41s/it][A  [OK] Task 2 Ep 21: SUCCESS (steps=242)
+
+turn on the stove and put the ...:   9%|▉         | 22/250 [03:22<35:19,  9.30s/it][A  [OK] Task 2 Ep 22: SUCCESS (steps=263)
+
+turn on the stove and put the ...:   9%|▉         | 23/250 [03:32<35:48,  9.46s/it][A  [OK] Task 2 Ep 23: SUCCESS (steps=251)
+
+turn on the stove and put the ...:  10%|▉         | 24/250 [03:41<35:20,  9.38s/it][A  [OK] Task 2 Ep 24: SUCCESS (steps=242)
+
+turn on the stove and put the ...:  10%|█         | 25/250 [03:50<34:35,  9.23s/it][A  [OK] Task 2 Ep 25: SUCCESS (steps=235)
+
+turn on the stove and put the ...:  10%|█         | 26/250 [03:58<33:47,  9.05s/it][A  [OK] Task 2 Ep 26: SUCCESS (steps=239)
+
+turn on the stove and put the ...:  11%|█         | 27/250 [04:07<33:27,  9.00s/it][A  [OK] Task 2 Ep 27: SUCCESS (steps=263)
+
+turn on the stove and put the ...:  11%|█         | 28/250 [04:17<33:59,  9.19s/it][A  [OK] Task 2 Ep 28: SUCCESS (steps=257)
+
+turn on the stove and put the ...:  12%|█▏        | 29/250 [04:26<33:59,  9.23s/it][A  [OK] Task 2 Ep 29: SUCCESS (steps=236)
+
+turn on the stove and put the ...:  12%|█▏        | 30/250 [04:35<34:00,  9.27s/it][A  [OK] Task 2 Ep 30: SUCCESS (steps=236)
+
+turn on the stove and put the ...:  12%|█▏        | 31/250 [04:44<33:13,  9.10s/it][A  [OK] Task 2 Ep 31: SUCCESS (steps=245)
+
+turn on the stove and put the ...:  13%|█▎        | 32/250 [04:53<33:02,  9.09s/it][A  [OK] Task 2 Ep 32: SUCCESS (steps=261)
+
+turn on the stove and put the ...:  13%|█▎        | 33/250 [05:03<34:06,  9.43s/it][A  [OK] Task 2 Ep 33: SUCCESS (steps=233)
+
+turn on the stove and put the ...:  14%|█▎        | 34/250 [05:13<34:02,  9.46s/it][A  [OK] Task 2 Ep 34: SUCCESS (steps=241)
+
+turn on the stove and put the ...:  14%|█▍        | 35/250 [05:22<33:28,  9.34s/it][A  [OK] Task 2 Ep 35: SUCCESS (steps=240)
+
+turn on the stove and put the ...:  14%|█▍        | 36/250 [05:31<32:53,  9.22s/it][A  [OK] Task 2 Ep 36: SUCCESS (steps=245)
+
+turn on the stove and put the ...:  15%|█▍        | 37/250 [05:40<32:41,  9.21s/it][A  [OK] Task 2 Ep 37: SUCCESS (steps=249)
+
+turn on the stove and put the ...:  15%|█▌        | 38/250 [05:49<32:30,  9.20s/it][A  [OK] Task 2 Ep 38: SUCCESS (steps=241)
+
+turn on the stove and put the ...:  16%|█▌        | 39/250 [05:58<32:03,  9.12s/it][A  [OK] Task 2 Ep 39: SUCCESS (steps=246)
+
+turn on the stove and put the ...:  16%|█▌        | 40/250 [06:07<31:56,  9.12s/it][A  [OK] Task 2 Ep 40: SUCCESS (steps=244)
+
+turn on the stove and put the ...:  16%|█▋        | 41/250 [06:16<31:38,  9.08s/it][A  [OK] Task 2 Ep 41: SUCCESS (steps=223)
+
+turn on the stove and put the ...:  17%|█▋        | 42/250 [06:25<30:44,  8.87s/it][A  [OK] Task 2 Ep 42: SUCCESS (steps=235)
+
+turn on the stove and put the ...:  17%|█▋        | 43/250 [06:34<30:33,  8.86s/it][A  [OK] Task 2 Ep 43: SUCCESS (steps=234)
+
+turn on the stove and put the ...:  18%|█▊        | 44/250 [06:42<30:13,  8.80s/it][A  [OK] Task 2 Ep 44: SUCCESS (steps=259)
+
+turn on the stove and put the ...:  18%|█▊        | 45/250 [06:52<30:48,  9.02s/it][A  [OK] Task 2 Ep 45: SUCCESS (steps=224)
+
+turn on the stove and put the ...:  18%|█▊        | 46/250 [07:00<29:58,  8.82s/it][A  [OK] Task 2 Ep 46: SUCCESS (steps=248)
+
+turn on the stove and put the ...:  19%|█▉        | 47/250 [07:09<30:09,  8.91s/it][A  [OK] Task 2 Ep 47: SUCCESS (steps=251)
+
+turn on the stove and put the ...:  19%|█▉        | 48/250 [07:19<31:14,  9.28s/it][A  [OK] Task 2 Ep 48: SUCCESS (steps=242)
+
+turn on the stove and put the ...:  20%|█▉        | 49/250 [07:29<31:03,  9.27s/it][A  [OK] Task 2 Ep 49: SUCCESS (steps=250)
+
+turn on the stove and put the ...:  20%|██        | 50/250 [07:38<31:05,  9.33s/it][A  [OK] Task 2 Ep 50: SUCCESS (steps=261)
+
+turn on the stove and put the ...:  20%|██        | 51/250 [07:48<31:11,  9.40s/it][A  [OK] Task 2 Ep 51: SUCCESS (steps=233)
+
+turn on the stove and put the ...:  21%|██        | 52/250 [07:56<30:12,  9.15s/it][A  [OK] Task 2 Ep 52: SUCCESS (steps=231)
+
+turn on the stove and put the ...:  21%|██        | 53/250 [08:05<29:28,  8.98s/it][A  [OK] Task 2 Ep 53: SUCCESS (steps=233)
+
+turn on the stove and put the ...:  22%|██▏       | 54/250 [08:13<28:56,  8.86s/it][A  [OK] Task 2 Ep 54: SUCCESS (steps=233)
+
+turn on the stove and put the ...:  22%|██▏       | 55/250 [08:22<28:32,  8.78s/it][A  [OK] Task 2 Ep 55: SUCCESS (steps=241)
+
+turn on the stove and put the ...:  22%|██▏       | 56/250 [08:31<28:32,  8.83s/it][A  [OK] Task 2 Ep 56: SUCCESS (steps=247)
+
+turn on the stove and put the ...:  23%|██▎       | 57/250 [08:40<28:37,  8.90s/it][A  [OK] Task 2 Ep 57: SUCCESS (steps=243)
+
+turn on the stove and put the ...:  23%|██▎       | 58/250 [08:49<28:31,  8.91s/it][A  [OK] Task 2 Ep 58: SUCCESS (steps=232)
+
+turn on the stove and put the ...:  24%|██▎       | 59/250 [08:58<28:05,  8.82s/it][A  [OK] Task 2 Ep 59: SUCCESS (steps=248)
+
+turn on the stove and put the ...:  24%|██▍       | 60/250 [09:07<28:14,  8.92s/it][A  [OK] Task 2 Ep 60: SUCCESS (steps=235)
+
+turn on the stove and put the ...:  24%|██▍       | 61/250 [09:15<27:54,  8.86s/it][A  [OK] Task 2 Ep 61: SUCCESS (steps=243)
+
+turn on the stove and put the ...:  25%|██▍       | 62/250 [09:24<27:51,  8.89s/it][A  [OK] Task 2 Ep 62: SUCCESS (steps=240)
+
+turn on the stove and put the ...:  25%|██▌       | 63/250 [09:33<27:46,  8.91s/it][A  [OK] Task 2 Ep 63: SUCCESS (steps=240)
+
+turn on the stove and put the ...:  26%|██▌       | 64/250 [09:42<27:36,  8.90s/it][A  [OK] Task 2 Ep 64: SUCCESS (steps=241)
+
+turn on the stove and put the ...:  26%|██▌       | 65/250 [09:51<27:25,  8.90s/it][A  [OK] Task 2 Ep 65: SUCCESS (steps=242)
+
+turn on the stove and put the ...:  26%|██▋       | 66/250 [10:00<27:23,  8.93s/it][A  [OK] Task 2 Ep 66: SUCCESS (steps=256)
+
+turn on the stove and put the ...:  27%|██▋       | 67/250 [10:10<27:42,  9.08s/it][A  [OK] Task 2 Ep 67: SUCCESS (steps=221)
+
+turn on the stove and put the ...:  27%|██▋       | 68/250 [10:18<27:08,  8.95s/it][A  [OK] Task 2 Ep 68: SUCCESS (steps=239)
+
+turn on the stove and put the ...:  28%|██▊       | 69/250 [10:27<27:00,  8.95s/it][A  [OK] Task 2 Ep 69: SUCCESS (steps=254)
+
+turn on the stove and put the ...:  28%|██▊       | 70/250 [10:36<27:10,  9.06s/it][A  [OK] Task 2 Ep 70: SUCCESS (steps=239)
+
+turn on the stove and put the ...:  28%|██▊       | 71/250 [10:45<26:48,  8.99s/it][A  [OK] Task 2 Ep 71: SUCCESS (steps=243)
+
+turn on the stove and put the ...:  29%|██▉       | 72/250 [10:54<26:47,  9.03s/it][A  [OK] Task 2 Ep 72: SUCCESS (steps=236)
+
+turn on the stove and put the ...:  29%|██▉       | 73/250 [11:03<26:26,  8.96s/it][A  [OK] Task 2 Ep 73: SUCCESS (steps=236)
+
+turn on the stove and put the ...:  30%|██▉       | 74/250 [11:14<27:29,  9.37s/it][A  [OK] Task 2 Ep 74: SUCCESS (steps=262)
+
+turn on the stove and put the ...:  30%|███       | 75/250 [11:23<27:35,  9.46s/it][A  [OK] Task 2 Ep 75: SUCCESS (steps=229)
+
+turn on the stove and put the ...:  30%|███       | 76/250 [11:32<26:35,  9.17s/it][A  [OK] Task 2 Ep 76: SUCCESS (steps=230)
+
+turn on the stove and put the ...:  31%|███       | 77/250 [11:41<26:39,  9.25s/it][A  [OK] Task 2 Ep 77: SUCCESS (steps=240)
+
+turn on the stove and put the ...:  31%|███       | 78/250 [11:51<27:05,  9.45s/it][A  [OK] Task 2 Ep 78: SUCCESS (steps=235)
+
+turn on the stove and put the ...:  32%|███▏      | 79/250 [12:00<26:26,  9.28s/it][A  [OK] Task 2 Ep 79: SUCCESS (steps=242)
+
+turn on the stove and put the ...:  32%|███▏      | 80/250 [12:09<26:01,  9.19s/it][A  [OK] Task 2 Ep 80: SUCCESS (steps=233)
+
+turn on the stove and put the ...:  32%|███▏      | 81/250 [12:18<25:28,  9.04s/it][A  [OK] Task 2 Ep 81: SUCCESS (steps=234)
+
+turn on the stove and put the ...:  33%|███▎      | 82/250 [12:26<25:03,  8.95s/it][A  [OK] Task 2 Ep 82: SUCCESS (steps=237)
+
+turn on the stove and put the ...:  33%|███▎      | 83/250 [12:35<24:54,  8.95s/it][A  [OK] Task 2 Ep 83: SUCCESS (steps=232)
+
+turn on the stove and put the ...:  34%|███▎      | 84/250 [12:45<25:09,  9.09s/it][A  [OK] Task 2 Ep 84: SUCCESS (steps=247)
+
+turn on the stove and put the ...:  34%|███▍      | 85/250 [12:54<25:04,  9.12s/it][A  [OK] Task 2 Ep 85: SUCCESS (steps=235)
+
+turn on the stove and put the ...:  34%|███▍      | 86/250 [13:03<24:49,  9.08s/it][A  [OK] Task 2 Ep 86: SUCCESS (steps=264)
+
+turn on the stove and put the ...:  35%|███▍      | 87/250 [13:14<26:19,  9.69s/it][A  [OK] Task 2 Ep 87: SUCCESS (steps=231)
+
+turn on the stove and put the ...:  35%|███▌      | 88/250 [13:23<25:17,  9.37s/it][A  [OK] Task 2 Ep 88: SUCCESS (steps=258)
+
+turn on the stove and put the ...:  36%|███▌      | 89/250 [13:32<25:15,  9.41s/it][A  [OK] Task 2 Ep 89: SUCCESS (steps=247)
+
+turn on the stove and put the ...:  36%|███▌      | 90/250 [13:41<24:52,  9.33s/it][A  [OK] Task 2 Ep 90: SUCCESS (steps=247)
+
+turn on the stove and put the ...:  36%|███▋      | 91/250 [13:50<24:31,  9.25s/it][A  [OK] Task 2 Ep 91: SUCCESS (steps=241)
+
+turn on the stove and put the ...:  37%|███▋      | 92/250 [13:59<24:10,  9.18s/it][A  [OK] Task 2 Ep 92: SUCCESS (steps=256)
+
+turn on the stove and put the ...:  37%|███▋      | 93/250 [14:09<24:10,  9.24s/it][A  [OK] Task 2 Ep 93: SUCCESS (steps=265)
+
+turn on the stove and put the ...:  38%|███▊      | 94/250 [14:18<24:24,  9.39s/it][A  [OK] Task 2 Ep 94: SUCCESS (steps=242)
+
+turn on the stove and put the ...:  38%|███▊      | 95/250 [14:27<23:55,  9.26s/it][A  [OK] Task 2 Ep 95: SUCCESS (steps=243)
+
+turn on the stove and put the ...:  38%|███▊      | 96/250 [14:36<23:31,  9.17s/it][A  [OK] Task 2 Ep 96: SUCCESS (steps=240)
+
+turn on the stove and put the ...:  39%|███▉      | 97/250 [14:45<23:09,  9.08s/it][A  [OK] Task 2 Ep 97: SUCCESS (steps=251)
+
+turn on the stove and put the ...:  39%|███▉      | 98/250 [14:55<23:12,  9.16s/it][A  [OK] Task 2 Ep 98: SUCCESS (steps=244)
+
+turn on the stove and put the ...:  40%|███▉      | 99/250 [15:04<23:17,  9.25s/it][A  [OK] Task 2 Ep 99: SUCCESS (steps=252)
+
+turn on the stove and put the ...:  40%|████      | 100/250 [15:14<23:22,  9.35s/it][A  [OK] Task 2 Ep 100: SUCCESS (steps=232)
+
+turn on the stove and put the ...:  40%|████      | 101/250 [15:22<22:46,  9.17s/it][A  [OK] Task 2 Ep 101: SUCCESS (steps=258)
+
+turn on the stove and put the ...:  41%|████      | 102/250 [15:34<24:08,  9.79s/it][A  [OK] Task 2 Ep 102: SUCCESS (steps=238)
+
+turn on the stove and put the ...:  41%|████      | 103/250 [15:42<23:16,  9.50s/it][A  [OK] Task 2 Ep 103: SUCCESS (steps=248)
+
+turn on the stove and put the ...:  42%|████▏     | 104/250 [15:52<22:49,  9.38s/it][A  [OK] Task 2 Ep 104: SUCCESS (steps=263)
+
+turn on the stove and put the ...:  42%|████▏     | 105/250 [16:01<22:45,  9.42s/it][A  [OK] Task 2 Ep 105: SUCCESS (steps=243)
+
+turn on the stove and put the ...:  42%|████▏     | 106/250 [16:10<22:18,  9.29s/it][A  [OK] Task 2 Ep 106: SUCCESS (steps=246)
+
+turn on the stove and put the ...:  43%|████▎     | 107/250 [16:19<21:56,  9.21s/it][A  [OK] Task 2 Ep 107: SUCCESS (steps=241)
+
+turn on the stove and put the ...:  43%|████▎     | 108/250 [16:28<21:44,  9.19s/it][A  [OK] Task 2 Ep 108: SUCCESS (steps=229)
+
+turn on the stove and put the ...:  44%|████▎     | 109/250 [16:37<21:17,  9.06s/it][A  [OK] Task 2 Ep 109: SUCCESS (steps=243)
+
+turn on the stove and put the ...:  44%|████▍     | 110/250 [16:46<21:03,  9.03s/it][A  [OK] Task 2 Ep 110: SUCCESS (steps=241)
+
+turn on the stove and put the ...:  44%|████▍     | 111/250 [16:55<20:47,  8.97s/it][A  [OK] Task 2 Ep 111: SUCCESS (steps=241)
+
+turn on the stove and put the ...:  45%|████▍     | 112/250 [17:04<20:32,  8.93s/it][A  [OK] Task 2 Ep 112: SUCCESS (steps=241)
+
+turn on the stove and put the ...:  45%|████▌     | 113/250 [17:13<20:47,  9.11s/it][A  [OK] Task 2 Ep 113: SUCCESS (steps=248)
+
+turn on the stove and put the ...:  46%|████▌     | 114/250 [17:23<21:06,  9.31s/it][A  [OK] Task 2 Ep 114: SUCCESS (steps=245)
+
+turn on the stove and put the ...:  46%|████▌     | 115/250 [17:32<21:02,  9.35s/it][A  [OK] Task 2 Ep 115: SUCCESS (steps=227)
+
+turn on the stove and put the ...:  46%|████▋     | 116/250 [17:41<20:22,  9.12s/it][A  [OK] Task 2 Ep 116: SUCCESS (steps=245)
+
+turn on the stove and put the ...:  47%|████▋     | 117/250 [17:50<20:10,  9.10s/it][A  [OK] Task 2 Ep 117: SUCCESS (steps=243)
+
+turn on the stove and put the ...:  47%|████▋     | 118/250 [17:59<19:53,  9.04s/it][A  [OK] Task 2 Ep 118: SUCCESS (steps=232)
+
+turn on the stove and put the ...:  48%|████▊     | 119/250 [18:08<19:29,  8.93s/it][A  [OK] Task 2 Ep 119: SUCCESS (steps=257)
+
+turn on the stove and put the ...:  48%|████▊     | 120/250 [18:17<19:43,  9.10s/it][A  [OK] Task 2 Ep 120: SUCCESS (steps=250)
+
+turn on the stove and put the ...:  48%|████▊     | 121/250 [18:26<19:44,  9.18s/it][A  [OK] Task 2 Ep 121: SUCCESS (steps=236)
+
+turn on the stove and put the ...:  49%|████▉     | 122/250 [18:35<19:21,  9.07s/it][A  [OK] Task 2 Ep 122: SUCCESS (steps=255)
+
+turn on the stove and put the ...:  49%|████▉     | 123/250 [18:45<19:28,  9.20s/it][A  [OK] Task 2 Ep 123: SUCCESS (steps=228)
+
+turn on the stove and put the ...:  50%|████▉     | 124/250 [18:53<18:52,  8.99s/it][A  [OK] Task 2 Ep 124: SUCCESS (steps=241)
+
+turn on the stove and put the ...:  50%|█████     | 125/250 [19:02<18:44,  9.00s/it][A  [OK] Task 2 Ep 125: SUCCESS (steps=239)
+
+turn on the stove and put the ...:  50%|█████     | 126/250 [19:12<19:11,  9.28s/it][A  [OK] Task 2 Ep 126: SUCCESS (steps=234)
+
+turn on the stove and put the ...:  51%|█████     | 127/250 [19:21<18:40,  9.11s/it][A  [OK] Task 2 Ep 127: SUCCESS (steps=258)
+
+turn on the stove and put the ...:  51%|█████     | 128/250 [19:30<18:43,  9.21s/it][A  [OK] Task 2 Ep 128: SUCCESS (steps=237)
+
+turn on the stove and put the ...:  52%|█████▏    | 129/250 [19:39<18:20,  9.10s/it][A  [OK] Task 2 Ep 129: SUCCESS (steps=256)
+
+turn on the stove and put the ...:  52%|█████▏    | 130/250 [19:49<18:24,  9.20s/it][A  [OK] Task 2 Ep 130: SUCCESS (steps=238)
+
+turn on the stove and put the ...:  52%|█████▏    | 131/250 [19:58<18:05,  9.12s/it][A  [OK] Task 2 Ep 131: SUCCESS (steps=231)
+
+turn on the stove and put the ...:  53%|█████▎    | 132/250 [20:06<17:37,  8.96s/it][A  [OK] Task 2 Ep 132: SUCCESS (steps=232)
+
+turn on the stove and put the ...:  53%|█████▎    | 133/250 [20:15<17:17,  8.87s/it][A  [OK] Task 2 Ep 133: SUCCESS (steps=245)
+
+turn on the stove and put the ...:  54%|█████▎    | 134/250 [20:25<17:48,  9.21s/it][A  [OK] Task 2 Ep 134: SUCCESS (steps=235)
+
+turn on the stove and put the ...:  54%|█████▍    | 135/250 [20:34<17:54,  9.35s/it][A  [OK] Task 2 Ep 135: SUCCESS (steps=233)
+
+turn on the stove and put the ...:  54%|█████▍    | 136/250 [20:44<17:43,  9.33s/it][A  [OK] Task 2 Ep 136: SUCCESS (steps=246)
+
+turn on the stove and put the ...:  55%|█████▍    | 137/250 [20:53<17:46,  9.44s/it][A  [OK] Task 2 Ep 137: SUCCESS (steps=236)
+
+turn on the stove and put the ...:  55%|█████▌    | 138/250 [21:03<17:32,  9.40s/it][A  [OK] Task 2 Ep 138: SUCCESS (steps=246)
+
+turn on the stove and put the ...:  56%|█████▌    | 139/250 [21:13<17:35,  9.51s/it][A  [OK] Task 2 Ep 139: SUCCESS (steps=234)
+
+turn on the stove and put the ...:  56%|█████▌    | 140/250 [21:21<16:58,  9.26s/it][A  [OK] Task 2 Ep 140: SUCCESS (steps=256)
+
+turn on the stove and put the ...:  56%|█████▋    | 141/250 [21:31<16:59,  9.36s/it][A  [OK] Task 2 Ep 141: SUCCESS (steps=292)
+
+turn on the stove and put the ...:  57%|█████▋    | 142/250 [21:41<17:33,  9.75s/it][A  [OK] Task 2 Ep 142: SUCCESS (steps=258)
+
+turn on the stove and put the ...:  57%|█████▋    | 143/250 [21:51<17:17,  9.70s/it][A  [OK] Task 2 Ep 143: SUCCESS (steps=250)
+
+turn on the stove and put the ...:  58%|█████▊    | 144/250 [22:00<16:54,  9.57s/it][A  [OK] Task 2 Ep 144: SUCCESS (steps=234)
+
+turn on the stove and put the ...:  58%|█████▊    | 145/250 [22:09<16:16,  9.30s/it][A  [OK] Task 2 Ep 145: SUCCESS (steps=257)
+
+turn on the stove and put the ...:  58%|█████▊    | 146/250 [22:18<16:11,  9.34s/it][A  [OK] Task 2 Ep 146: SUCCESS (steps=257)
+
+turn on the stove and put the ...:  59%|█████▉    | 147/250 [22:28<16:21,  9.53s/it][A  [OK] Task 2 Ep 147: SUCCESS (steps=238)
+
+turn on the stove and put the ...:  59%|█████▉    | 148/250 [22:37<15:49,  9.31s/it][A  [OK] Task 2 Ep 148: SUCCESS (steps=248)
+
+turn on the stove and put the ...:  60%|█████▉    | 149/250 [22:46<15:35,  9.26s/it][A  [OK] Task 2 Ep 149: SUCCESS (steps=270)
+
+turn on the stove and put the ...:  60%|██████    | 150/250 [22:56<15:47,  9.47s/it][A  [OK] Task 2 Ep 150: SUCCESS (steps=258)
+
+turn on the stove and put the ...:  60%|██████    | 151/250 [23:06<15:38,  9.48s/it][A  [OK] Task 2 Ep 151: SUCCESS (steps=234)
+
+turn on the stove and put the ...:  61%|██████    | 152/250 [23:14<15:05,  9.24s/it][A  [OK] Task 2 Ep 152: SUCCESS (steps=250)
+
+turn on the stove and put the ...:  61%|██████    | 153/250 [23:24<14:59,  9.28s/it][A  [OK] Task 2 Ep 153: SUCCESS (steps=242)
+
+turn on the stove and put the ...:  62%|██████▏   | 154/250 [23:33<14:41,  9.18s/it][A  [OK] Task 2 Ep 154: SUCCESS (steps=230)
+
+turn on the stove and put the ...:  62%|██████▏   | 155/250 [23:42<14:18,  9.04s/it][A  [OK] Task 2 Ep 155: SUCCESS (steps=238)
+
+turn on the stove and put the ...:  62%|██████▏   | 156/250 [23:50<14:05,  8.99s/it][A  [OK] Task 2 Ep 156: SUCCESS (steps=249)
+
+turn on the stove and put the ...:  63%|██████▎   | 157/250 [24:00<14:00,  9.04s/it][A  [OK] Task 2 Ep 157: SUCCESS (steps=265)
+
+turn on the stove and put the ...:  63%|██████▎   | 158/250 [24:09<14:11,  9.26s/it][A  [OK] Task 2 Ep 158: SUCCESS (steps=237)
+
+turn on the stove and put the ...:  64%|██████▎   | 159/250 [24:18<13:51,  9.14s/it][A  [OK] Task 2 Ep 159: SUCCESS (steps=251)
+
+turn on the stove and put the ...:  64%|██████▍   | 160/250 [24:28<13:48,  9.20s/it][A  [OK] Task 2 Ep 160: SUCCESS (steps=236)
+
+turn on the stove and put the ...:  64%|██████▍   | 161/250 [24:36<13:27,  9.08s/it][A  [OK] Task 2 Ep 161: SUCCESS (steps=240)
+
+turn on the stove and put the ...:  65%|██████▍   | 162/250 [24:46<13:25,  9.16s/it][A  [OK] Task 2 Ep 162: SUCCESS (steps=241)
+
+turn on the stove and put the ...:  65%|██████▌   | 163/250 [24:55<13:21,  9.22s/it][A  [OK] Task 2 Ep 163: SUCCESS (steps=248)
+
+turn on the stove and put the ...:  66%|██████▌   | 164/250 [25:05<13:31,  9.44s/it][A  [OK] Task 2 Ep 164: SUCCESS (steps=237)
+
+turn on the stove and put the ...:  66%|██████▌   | 165/250 [25:14<13:12,  9.32s/it][A  [OK] Task 2 Ep 165: SUCCESS (steps=233)
+
+turn on the stove and put the ...:  66%|██████▋   | 166/250 [25:23<12:46,  9.13s/it][A  [OK] Task 2 Ep 166: SUCCESS (steps=254)
+
+turn on the stove and put the ...:  67%|██████▋   | 167/250 [25:32<12:43,  9.20s/it][A  [OK] Task 2 Ep 167: SUCCESS (steps=244)
+
+turn on the stove and put the ...:  67%|██████▋   | 168/250 [25:42<12:55,  9.46s/it][A  [OK] Task 2 Ep 168: SUCCESS (steps=261)
+
+turn on the stove and put the ...:  68%|██████▊   | 169/250 [25:52<12:51,  9.52s/it][A  [OK] Task 2 Ep 169: SUCCESS (steps=227)
+
+turn on the stove and put the ...:  68%|██████▊   | 170/250 [26:00<12:19,  9.25s/it][A  [OK] Task 2 Ep 170: SUCCESS (steps=238)
+
+turn on the stove and put the ...:  68%|██████▊   | 171/250 [26:09<12:01,  9.13s/it][A  [OK] Task 2 Ep 171: SUCCESS (steps=222)
+
+turn on the stove and put the ...:  69%|██████▉   | 172/250 [26:18<11:33,  8.89s/it][A  [OK] Task 2 Ep 172: SUCCESS (steps=240)
+
+turn on the stove and put the ...:  69%|██████▉   | 173/250 [26:27<11:26,  8.91s/it][A  [OK] Task 2 Ep 173: SUCCESS (steps=255)
+
+turn on the stove and put the ...:  70%|██████▉   | 174/250 [26:36<11:30,  9.09s/it][A  [OK] Task 2 Ep 174: SUCCESS (steps=225)
+
+turn on the stove and put the ...:  70%|███████   | 175/250 [26:45<11:08,  8.92s/it][A  [OK] Task 2 Ep 175: SUCCESS (steps=242)
+
+turn on the stove and put the ...:  70%|███████   | 176/250 [26:54<11:02,  8.95s/it][A  [OK] Task 2 Ep 176: SUCCESS (steps=246)
+
+turn on the stove and put the ...:  71%|███████   | 177/250 [27:03<10:58,  9.02s/it][A  [OK] Task 2 Ep 177: SUCCESS (steps=256)
+
+turn on the stove and put the ...:  71%|███████   | 178/250 [27:13<11:24,  9.51s/it][A  [OK] Task 2 Ep 178: SUCCESS (steps=226)
+
+turn on the stove and put the ...:  72%|███████▏  | 179/250 [27:22<10:53,  9.21s/it][A  [OK] Task 2 Ep 179: SUCCESS (steps=272)
+
+turn on the stove and put the ...:  72%|███████▏  | 180/250 [27:32<11:01,  9.45s/it][A  [OK] Task 2 Ep 180: SUCCESS (steps=238)
+
+turn on the stove and put the ...:  72%|███████▏  | 181/250 [27:41<10:39,  9.27s/it][A  [OK] Task 2 Ep 181: SUCCESS (steps=244)
+
+turn on the stove and put the ...:  73%|███████▎  | 182/250 [27:50<10:25,  9.20s/it][A  [OK] Task 2 Ep 182: SUCCESS (steps=249)
+
+turn on the stove and put the ...:  73%|███████▎  | 183/250 [27:59<10:23,  9.30s/it][A  [OK] Task 2 Ep 183: SUCCESS (steps=248)
+
+turn on the stove and put the ...:  74%|███████▎  | 184/250 [28:09<10:23,  9.45s/it][A  [OK] Task 2 Ep 184: SUCCESS (steps=235)
+
+turn on the stove and put the ...:  74%|███████▍  | 185/250 [28:19<10:25,  9.62s/it][A  [OK] Task 2 Ep 185: SUCCESS (steps=234)
+
+turn on the stove and put the ...:  74%|███████▍  | 186/250 [28:28<09:57,  9.34s/it][A  [OK] Task 2 Ep 186: SUCCESS (steps=225)
+
+turn on the stove and put the ...:  75%|███████▍  | 187/250 [28:36<09:33,  9.11s/it][A  [OK] Task 2 Ep 187: SUCCESS (steps=236)
+
+turn on the stove and put the ...:  75%|███████▌  | 188/250 [28:45<09:22,  9.07s/it][A  [OK] Task 2 Ep 188: SUCCESS (steps=235)
+
+turn on the stove and put the ...:  76%|███████▌  | 189/250 [28:54<09:10,  9.03s/it][A  [OK] Task 2 Ep 189: SUCCESS (steps=230)
+
+turn on the stove and put the ...:  76%|███████▌  | 190/250 [29:03<08:56,  8.95s/it][A  [OK] Task 2 Ep 190: SUCCESS (steps=232)
+
+turn on the stove and put the ...:  76%|███████▋  | 191/250 [29:13<09:04,  9.22s/it][A  [OK] Task 2 Ep 191: SUCCESS (steps=239)
+
+turn on the stove and put the ...:  77%|███████▋  | 192/250 [29:22<08:50,  9.14s/it][A  [OK] Task 2 Ep 192: SUCCESS (steps=248)
+
+turn on the stove and put the ...:  77%|███████▋  | 193/250 [29:31<08:43,  9.19s/it][A  [OK] Task 2 Ep 193: SUCCESS (steps=245)
+
+turn on the stove and put the ...:  78%|███████▊  | 194/250 [29:41<08:43,  9.35s/it][A  [OK] Task 2 Ep 194: SUCCESS (steps=265)
+
+turn on the stove and put the ...:  78%|███████▊  | 195/250 [29:51<08:46,  9.56s/it][A  [OK] Task 2 Ep 195: SUCCESS (steps=258)
+
+turn on the stove and put the ...:  78%|███████▊  | 196/250 [30:01<08:36,  9.57s/it][A  [OK] Task 2 Ep 196: SUCCESS (steps=244)
+
+turn on the stove and put the ...:  79%|███████▉  | 197/250 [30:10<08:19,  9.43s/it][A  [OK] Task 2 Ep 197: SUCCESS (steps=235)
+
+turn on the stove and put the ...:  79%|███████▉  | 198/250 [30:19<08:10,  9.44s/it][A  [OK] Task 2 Ep 198: SUCCESS (steps=280)
+
+turn on the stove and put the ...:  80%|███████▉  | 199/250 [30:30<08:17,  9.76s/it][A  [OK] Task 2 Ep 199: SUCCESS (steps=254)
+
+turn on the stove and put the ...:  80%|████████  | 200/250 [30:39<08:03,  9.68s/it][A  [OK] Task 2 Ep 200: SUCCESS (steps=230)
+
+turn on the stove and put the ...:  80%|████████  | 201/250 [30:48<07:42,  9.44s/it][A  [OK] Task 2 Ep 201: SUCCESS (steps=278)
+
+turn on the stove and put the ...:  81%|████████  | 202/250 [30:58<07:47,  9.74s/it][A  [OK] Task 2 Ep 202: SUCCESS (steps=239)
+
+turn on the stove and put the ...:  81%|████████  | 203/250 [31:07<07:27,  9.52s/it][A  [OK] Task 2 Ep 203: SUCCESS (steps=238)
+
+turn on the stove and put the ...:  82%|████████▏ | 204/250 [31:16<07:10,  9.36s/it][A  [OK] Task 2 Ep 204: SUCCESS (steps=237)
+
+turn on the stove and put the ...:  82%|████████▏ | 205/250 [31:25<06:56,  9.24s/it][A  [OK] Task 2 Ep 205: SUCCESS (steps=234)
+
+turn on the stove and put the ...:  82%|████████▏ | 206/250 [31:35<06:45,  9.22s/it][A  [OK] Task 2 Ep 206: SUCCESS (steps=253)
+
+turn on the stove and put the ...:  83%|████████▎ | 207/250 [31:45<06:45,  9.42s/it][A  [OK] Task 2 Ep 207: SUCCESS (steps=269)
+
+turn on the stove and put the ...:  83%|████████▎ | 208/250 [31:55<06:52,  9.82s/it][A  [OK] Task 2 Ep 208: SUCCESS (steps=244)
+
+turn on the stove and put the ...:  84%|████████▎ | 209/250 [32:04<06:33,  9.60s/it][A  [OK] Task 2 Ep 209: SUCCESS (steps=251)
+
+turn on the stove and put the ...:  84%|████████▍ | 210/250 [32:14<06:22,  9.56s/it][A  [OK] Task 2 Ep 210: SUCCESS (steps=242)
+
+turn on the stove and put the ...:  84%|████████▍ | 211/250 [32:23<06:08,  9.44s/it][A  [OK] Task 2 Ep 211: SUCCESS (steps=260)
+
+turn on the stove and put the ...:  85%|████████▍ | 212/250 [32:33<06:02,  9.55s/it][A  [OK] Task 2 Ep 212: SUCCESS (steps=266)
+
+turn on the stove and put the ...:  85%|████████▌ | 213/250 [32:43<05:58,  9.68s/it][A  [OK] Task 2 Ep 213: SUCCESS (steps=239)
+
+turn on the stove and put the ...:  86%|████████▌ | 214/250 [32:52<05:41,  9.48s/it][A  [OK] Task 2 Ep 214: SUCCESS (steps=250)
+
+turn on the stove and put the ...:  86%|████████▌ | 215/250 [33:01<05:31,  9.47s/it][A  [OK] Task 2 Ep 215: SUCCESS (steps=237)
+
+turn on the stove and put the ...:  86%|████████▋ | 216/250 [33:10<05:16,  9.31s/it][A  [OK] Task 2 Ep 216: SUCCESS (steps=237)
+
+turn on the stove and put the ...:  87%|████████▋ | 217/250 [33:19<05:04,  9.22s/it][A  [OK] Task 2 Ep 217: SUCCESS (steps=274)
+
+turn on the stove and put the ...:  87%|████████▋ | 218/250 [33:29<05:04,  9.52s/it][A  [OK] Task 2 Ep 218: SUCCESS (steps=245)
+
+turn on the stove and put the ...:  88%|████████▊ | 219/250 [33:39<04:52,  9.44s/it][A  [OK] Task 2 Ep 219: SUCCESS (steps=238)
+
+turn on the stove and put the ...:  88%|████████▊ | 220/250 [33:48<04:39,  9.30s/it][A  [OK] Task 2 Ep 220: SUCCESS (steps=262)
+
+turn on the stove and put the ...:  88%|████████▊ | 221/250 [33:57<04:33,  9.45s/it][A  [OK] Task 2 Ep 221: SUCCESS (steps=230)
+
+turn on the stove and put the ...:  89%|████████▉ | 222/250 [34:06<04:21,  9.32s/it][A  [OK] Task 2 Ep 222: SUCCESS (steps=233)
+
+turn on the stove and put the ...:  89%|████████▉ | 223/250 [34:16<04:10,  9.27s/it][A  [OK] Task 2 Ep 223: SUCCESS (steps=267)
+
+turn on the stove and put the ...:  90%|████████▉ | 224/250 [34:26<04:07,  9.50s/it][A  [OK] Task 2 Ep 224: SUCCESS (steps=238)
+
+turn on the stove and put the ...:  90%|█████████ | 225/250 [34:35<03:54,  9.37s/it][A  [OK] Task 2 Ep 225: SUCCESS (steps=246)
+
+turn on the stove and put the ...:  90%|█████████ | 226/250 [34:44<03:44,  9.36s/it][A  [OK] Task 2 Ep 226: SUCCESS (steps=233)
+
+turn on the stove and put the ...:  91%|█████████ | 227/250 [34:53<03:31,  9.20s/it][A  [OK] Task 2 Ep 227: SUCCESS (steps=225)
+
+turn on the stove and put the ...:  91%|█████████ | 228/250 [35:02<03:18,  9.03s/it][A  [OK] Task 2 Ep 228: SUCCESS (steps=229)
+
+turn on the stove and put the ...:  92%|█████████▏| 229/250 [35:10<03:06,  8.90s/it][A  [OK] Task 2 Ep 229: SUCCESS (steps=242)
+
+turn on the stove and put the ...:  92%|█████████▏| 230/250 [35:19<02:59,  8.98s/it][A  [OK] Task 2 Ep 230: SUCCESS (steps=229)
+
+turn on the stove and put the ...:  92%|█████████▏| 231/250 [35:28<02:48,  8.88s/it][A  [OK] Task 2 Ep 231: SUCCESS (steps=240)
+
+turn on the stove and put the ...:  93%|█████████▎| 232/250 [35:38<02:45,  9.18s/it][A  [OK] Task 2 Ep 232: SUCCESS (steps=240)
+
+turn on the stove and put the ...:  93%|█████████▎| 233/250 [35:47<02:37,  9.28s/it][A  [OK] Task 2 Ep 233: SUCCESS (steps=234)
+
+turn on the stove and put the ...:  94%|█████████▎| 234/250 [35:56<02:27,  9.20s/it][A  [OK] Task 2 Ep 234: SUCCESS (steps=237)
+
+turn on the stove and put the ...:  94%|█████████▍| 235/250 [36:05<02:17,  9.15s/it][A  [OK] Task 2 Ep 235: SUCCESS (steps=236)
+
+turn on the stove and put the ...:  94%|█████████▍| 236/250 [36:14<02:07,  9.09s/it][A  [OK] Task 2 Ep 236: SUCCESS (steps=233)
+
+turn on the stove and put the ...:  95%|█████████▍| 237/250 [36:23<01:57,  9.02s/it][A  [OK] Task 2 Ep 237: SUCCESS (steps=249)
+
+turn on the stove and put the ...:  95%|█████████▌| 238/250 [36:33<01:49,  9.12s/it][A  [OK] Task 2 Ep 238: SUCCESS (steps=229)
+
+turn on the stove and put the ...:  96%|█████████▌| 239/250 [36:41<01:38,  8.99s/it][A  [OK] Task 2 Ep 239: SUCCESS (steps=254)
+
+turn on the stove and put the ...:  96%|█████████▌| 240/250 [36:51<01:31,  9.14s/it][A  [OK] Task 2 Ep 240: SUCCESS (steps=250)
+
+turn on the stove and put the ...:  96%|█████████▋| 241/250 [37:00<01:23,  9.25s/it][A  [OK] Task 2 Ep 241: SUCCESS (steps=232)
+
+turn on the stove and put the ...:  97%|█████████▋| 242/250 [37:09<01:13,  9.13s/it][A  [OK] Task 2 Ep 242: SUCCESS (steps=238)
+
+turn on the stove and put the ...:  97%|█████████▋| 243/250 [37:18<01:03,  9.11s/it][A  [OK] Task 2 Ep 243: SUCCESS (steps=239)
+
+turn on the stove and put the ...:  98%|█████████▊| 244/250 [37:27<00:54,  9.12s/it][A  [OK] Task 2 Ep 244: SUCCESS (steps=264)
+
+turn on the stove and put the ...:  98%|█████████▊| 245/250 [37:37<00:46,  9.34s/it][A  [OK] Task 2 Ep 245: SUCCESS (steps=242)
+
+turn on the stove and put the ...:  98%|█████████▊| 246/250 [37:47<00:37,  9.39s/it][A  [OK] Task 2 Ep 246: SUCCESS (steps=244)
+
+turn on the stove and put the ...:  99%|█████████▉| 247/250 [37:56<00:27,  9.33s/it][A  [OK] Task 2 Ep 247: SUCCESS (steps=240)
+
+turn on the stove and put the ...:  99%|█████████▉| 248/250 [38:05<00:18,  9.28s/it][A  [OK] Task 2 Ep 248: SUCCESS (steps=253)
+
+turn on the stove and put the ...: 100%|█████████▉| 249/250 [38:14<00:09,  9.34s/it][A  [OK] Task 2 Ep 249: SUCCESS (steps=245)
+
+turn on the stove and put the ...: 100%|██████████| 250/250 [38:24<00:00,  9.32s/it][A
+                                                                                    [A   Task 2: 250/250 (100.0%)
+Tasks:   0%|          | 0/1 [38:26<?, ?it/s]
+
+Total success rate: 250/250 (100.0%)

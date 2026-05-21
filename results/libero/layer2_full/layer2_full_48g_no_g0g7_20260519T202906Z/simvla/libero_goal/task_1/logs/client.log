@@ -1,0 +1,523 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8517
+   Task suite: libero_goal
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_goal
+   Tasks: 10, Trials per task: 250
+   Max steps: 800
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+put the bowl on the stove...:   0%|          | 0/250 [00:00<?, ?it/s][A  [OK] Task 1 Ep 0: SUCCESS (steps=103)
+
+put the bowl on the stove...:   0%|          | 1/250 [00:13<55:15, 13.32s/it][A  [OK] Task 1 Ep 1: SUCCESS (steps=103)
+
+put the bowl on the stove...:   1%|          | 2/250 [00:18<35:54,  8.69s/it][A  [OK] Task 1 Ep 2: SUCCESS (steps=96)
+
+put the bowl on the stove...:   1%|          | 3/250 [00:23<29:07,  7.08s/it][A  [OK] Task 1 Ep 3: SUCCESS (steps=96)
+
+put the bowl on the stove...:   2%|▏         | 4/250 [00:29<25:57,  6.33s/it][A  [OK] Task 1 Ep 4: SUCCESS (steps=98)
+
+put the bowl on the stove...:   2%|▏         | 5/250 [00:34<24:19,  5.96s/it][A  [OK] Task 1 Ep 5: SUCCESS (steps=90)
+
+put the bowl on the stove...:   2%|▏         | 6/250 [00:39<22:58,  5.65s/it][A  [OK] Task 1 Ep 6: SUCCESS (steps=94)
+
+put the bowl on the stove...:   3%|▎         | 7/250 [00:44<22:05,  5.46s/it][A  [OK] Task 1 Ep 7: SUCCESS (steps=93)
+
+put the bowl on the stove...:   3%|▎         | 8/250 [00:49<21:37,  5.36s/it][A  [OK] Task 1 Ep 8: SUCCESS (steps=99)
+
+put the bowl on the stove...:   4%|▎         | 9/250 [00:55<21:46,  5.42s/it][A  [OK] Task 1 Ep 9: SUCCESS (steps=93)
+
+put the bowl on the stove...:   4%|▍         | 10/250 [01:00<21:51,  5.47s/it][A  [OK] Task 1 Ep 10: SUCCESS (steps=96)
+
+put the bowl on the stove...:   4%|▍         | 11/250 [01:06<21:37,  5.43s/it][A  [OK] Task 1 Ep 11: SUCCESS (steps=93)
+
+put the bowl on the stove...:   5%|▍         | 12/250 [01:12<22:38,  5.71s/it][A  [OK] Task 1 Ep 12: SUCCESS (steps=88)
+
+put the bowl on the stove...:   5%|▌         | 13/250 [01:17<21:43,  5.50s/it][A  [OK] Task 1 Ep 13: SUCCESS (steps=85)
+
+put the bowl on the stove...:   6%|▌         | 14/250 [01:22<20:42,  5.26s/it][A  [OK] Task 1 Ep 14: SUCCESS (steps=93)
+
+put the bowl on the stove...:   6%|▌         | 15/250 [01:27<20:14,  5.17s/it][A  [OK] Task 1 Ep 15: SUCCESS (steps=92)
+
+put the bowl on the stove...:   6%|▋         | 16/250 [01:32<19:51,  5.09s/it][A  [OK] Task 1 Ep 16: SUCCESS (steps=94)
+
+put the bowl on the stove...:   7%|▋         | 17/250 [01:37<19:37,  5.05s/it][A  [OK] Task 1 Ep 17: SUCCESS (steps=94)
+
+put the bowl on the stove...:   7%|▋         | 18/250 [01:42<19:27,  5.03s/it][A  [OK] Task 1 Ep 18: SUCCESS (steps=99)
+
+put the bowl on the stove...:   8%|▊         | 19/250 [01:47<19:28,  5.06s/it][A  [OK] Task 1 Ep 19: SUCCESS (steps=97)
+
+put the bowl on the stove...:   8%|▊         | 20/250 [01:52<19:32,  5.10s/it][A  [OK] Task 1 Ep 20: SUCCESS (steps=96)
+
+put the bowl on the stove...:   8%|▊         | 21/250 [01:57<19:27,  5.10s/it][A  [OK] Task 1 Ep 21: SUCCESS (steps=154)
+
+put the bowl on the stove...:   9%|▉         | 22/250 [02:04<21:52,  5.76s/it][A  [OK] Task 1 Ep 22: SUCCESS (steps=93)
+
+put the bowl on the stove...:   9%|▉         | 23/250 [02:10<21:21,  5.64s/it][A  [OK] Task 1 Ep 23: SUCCESS (steps=97)
+
+put the bowl on the stove...:  10%|▉         | 24/250 [02:15<21:15,  5.64s/it][A  [OK] Task 1 Ep 24: SUCCESS (steps=95)
+
+put the bowl on the stove...:  10%|█         | 25/250 [02:21<20:57,  5.59s/it][A  [OK] Task 1 Ep 25: SUCCESS (steps=97)
+
+put the bowl on the stove...:  10%|█         | 26/250 [02:27<21:11,  5.68s/it][A  [OK] Task 1 Ep 26: SUCCESS (steps=96)
+
+put the bowl on the stove...:  11%|█         | 27/250 [02:32<20:29,  5.51s/it][A  [OK] Task 1 Ep 27: SUCCESS (steps=99)
+
+put the bowl on the stove...:  11%|█         | 28/250 [02:37<20:02,  5.42s/it][A  [OK] Task 1 Ep 28: SUCCESS (steps=103)
+
+put the bowl on the stove...:  12%|█▏        | 29/250 [02:42<19:52,  5.40s/it][A  [OK] Task 1 Ep 29: SUCCESS (steps=89)
+
+put the bowl on the stove...:  12%|█▏        | 30/250 [02:47<19:04,  5.20s/it][A  [OK] Task 1 Ep 30: SUCCESS (steps=95)
+
+put the bowl on the stove...:  12%|█▏        | 31/250 [02:52<18:49,  5.16s/it][A  [OK] Task 1 Ep 31: SUCCESS (steps=92)
+
+put the bowl on the stove...:  13%|█▎        | 32/250 [02:57<18:27,  5.08s/it][A  [OK] Task 1 Ep 32: SUCCESS (steps=91)
+
+put the bowl on the stove...:  13%|█▎        | 33/250 [03:02<18:08,  5.02s/it][A  [OK] Task 1 Ep 33: SUCCESS (steps=96)
+
+put the bowl on the stove...:  14%|█▎        | 34/250 [03:07<18:36,  5.17s/it][A  [OK] Task 1 Ep 34: SUCCESS (steps=102)
+
+put the bowl on the stove...:  14%|█▍        | 35/250 [03:13<18:43,  5.22s/it][A  [OK] Task 1 Ep 35: SUCCESS (steps=92)
+
+put the bowl on the stove...:  14%|█▍        | 36/250 [03:18<18:15,  5.12s/it][A  [FAIL] Task 1 Ep 36: FAILURE (steps=810)
+
+put the bowl on the stove...:  15%|█▍        | 37/250 [03:50<47:41, 13.43s/it][A  [OK] Task 1 Ep 37: SUCCESS (steps=101)
+
+put the bowl on the stove...:  15%|█▌        | 38/250 [03:56<38:55, 11.02s/it][A  [OK] Task 1 Ep 38: SUCCESS (steps=90)
+
+put the bowl on the stove...:  16%|█▌        | 39/250 [04:01<32:15,  9.17s/it][A  [OK] Task 1 Ep 39: SUCCESS (steps=98)
+
+put the bowl on the stove...:  16%|█▌        | 40/250 [04:06<27:47,  7.94s/it][A  [OK] Task 1 Ep 40: SUCCESS (steps=91)
+
+put the bowl on the stove...:  16%|█▋        | 41/250 [04:12<25:25,  7.30s/it][A  [OK] Task 1 Ep 41: SUCCESS (steps=102)
+
+put the bowl on the stove...:  17%|█▋        | 42/250 [04:17<23:17,  6.72s/it][A  [OK] Task 1 Ep 42: SUCCESS (steps=95)
+
+put the bowl on the stove...:  17%|█▋        | 43/250 [04:23<22:12,  6.43s/it][A  [OK] Task 1 Ep 43: SUCCESS (steps=95)
+
+put the bowl on the stove...:  18%|█▊        | 44/250 [04:28<21:12,  6.18s/it][A  [OK] Task 1 Ep 44: SUCCESS (steps=97)
+
+put the bowl on the stove...:  18%|█▊        | 45/250 [04:34<21:10,  6.20s/it][A  [OK] Task 1 Ep 45: SUCCESS (steps=93)
+
+put the bowl on the stove...:  18%|█▊        | 46/250 [04:40<19:54,  5.86s/it][A  [OK] Task 1 Ep 46: SUCCESS (steps=94)
+
+put the bowl on the stove...:  19%|█▉        | 47/250 [04:44<18:53,  5.58s/it][A  [OK] Task 1 Ep 47: SUCCESS (steps=92)
+
+put the bowl on the stove...:  19%|█▉        | 48/250 [04:49<18:06,  5.38s/it][A  [OK] Task 1 Ep 48: SUCCESS (steps=96)
+
+put the bowl on the stove...:  20%|█▉        | 49/250 [04:55<17:45,  5.30s/it][A  [OK] Task 1 Ep 49: SUCCESS (steps=100)
+
+put the bowl on the stove...:  20%|██        | 50/250 [05:00<17:39,  5.30s/it][A  [OK] Task 1 Ep 50: SUCCESS (steps=90)
+
+put the bowl on the stove...:  20%|██        | 51/250 [05:05<17:08,  5.17s/it][A  [OK] Task 1 Ep 51: SUCCESS (steps=98)
+
+put the bowl on the stove...:  21%|██        | 52/250 [05:11<18:32,  5.62s/it][A  [OK] Task 1 Ep 52: SUCCESS (steps=100)
+
+put the bowl on the stove...:  21%|██        | 53/250 [05:17<18:05,  5.51s/it][A  [OK] Task 1 Ep 53: SUCCESS (steps=93)
+
+put the bowl on the stove...:  22%|██▏       | 54/250 [05:22<17:25,  5.33s/it][A  [OK] Task 1 Ep 54: SUCCESS (steps=91)
+
+put the bowl on the stove...:  22%|██▏       | 55/250 [05:26<16:56,  5.21s/it][A  [OK] Task 1 Ep 55: SUCCESS (steps=91)
+
+put the bowl on the stove...:  22%|██▏       | 56/250 [05:31<16:40,  5.16s/it][A  [OK] Task 1 Ep 56: SUCCESS (steps=94)
+
+put the bowl on the stove...:  23%|██▎       | 57/250 [05:36<16:19,  5.08s/it][A  [OK] Task 1 Ep 57: SUCCESS (steps=99)
+
+put the bowl on the stove...:  23%|██▎       | 58/250 [05:42<16:19,  5.10s/it][A  [OK] Task 1 Ep 58: SUCCESS (steps=97)
+
+put the bowl on the stove...:  24%|██▎       | 59/250 [05:47<16:12,  5.09s/it][A  [OK] Task 1 Ep 59: SUCCESS (steps=93)
+
+put the bowl on the stove...:  24%|██▍       | 60/250 [05:52<15:59,  5.05s/it][A  [OK] Task 1 Ep 60: SUCCESS (steps=98)
+
+put the bowl on the stove...:  24%|██▍       | 61/250 [05:57<15:57,  5.06s/it][A  [OK] Task 1 Ep 61: SUCCESS (steps=97)
+
+put the bowl on the stove...:  25%|██▍       | 62/250 [06:02<15:53,  5.07s/it][A  [OK] Task 1 Ep 62: SUCCESS (steps=92)
+
+put the bowl on the stove...:  25%|██▌       | 63/250 [06:07<15:38,  5.02s/it][A  [OK] Task 1 Ep 63: SUCCESS (steps=92)
+
+put the bowl on the stove...:  26%|██▌       | 64/250 [06:12<15:40,  5.05s/it][A  [OK] Task 1 Ep 64: SUCCESS (steps=92)
+
+put the bowl on the stove...:  26%|██▌       | 65/250 [06:17<15:23,  4.99s/it][A  [OK] Task 1 Ep 65: SUCCESS (steps=91)
+
+put the bowl on the stove...:  26%|██▋       | 66/250 [06:21<15:11,  4.95s/it][A  [OK] Task 1 Ep 66: SUCCESS (steps=95)
+
+put the bowl on the stove...:  27%|██▋       | 67/250 [06:27<15:11,  4.98s/it][A  [OK] Task 1 Ep 67: SUCCESS (steps=96)
+
+put the bowl on the stove...:  27%|██▋       | 68/250 [06:32<15:16,  5.04s/it][A  [OK] Task 1 Ep 68: SUCCESS (steps=93)
+
+put the bowl on the stove...:  28%|██▊       | 69/250 [06:37<15:22,  5.10s/it][A  [OK] Task 1 Ep 69: SUCCESS (steps=101)
+
+put the bowl on the stove...:  28%|██▊       | 70/250 [06:43<16:04,  5.36s/it][A  [OK] Task 1 Ep 70: SUCCESS (steps=95)
+
+put the bowl on the stove...:  28%|██▊       | 71/250 [06:48<15:59,  5.36s/it][A  [OK] Task 1 Ep 71: SUCCESS (steps=94)
+
+put the bowl on the stove...:  29%|██▉       | 72/250 [06:53<15:32,  5.24s/it][A  [OK] Task 1 Ep 72: SUCCESS (steps=93)
+
+put the bowl on the stove...:  29%|██▉       | 73/250 [06:58<15:12,  5.16s/it][A  [OK] Task 1 Ep 73: SUCCESS (steps=90)
+
+put the bowl on the stove...:  30%|██▉       | 74/250 [07:03<14:52,  5.07s/it][A  [OK] Task 1 Ep 74: SUCCESS (steps=92)
+
+put the bowl on the stove...:  30%|███       | 75/250 [07:08<14:44,  5.06s/it][A  [OK] Task 1 Ep 75: SUCCESS (steps=97)
+
+put the bowl on the stove...:  30%|███       | 76/250 [07:13<14:44,  5.08s/it][A  [OK] Task 1 Ep 76: SUCCESS (steps=93)
+
+put the bowl on the stove...:  31%|███       | 77/250 [07:18<14:30,  5.03s/it][A  [OK] Task 1 Ep 77: SUCCESS (steps=99)
+
+put the bowl on the stove...:  31%|███       | 78/250 [07:23<14:33,  5.08s/it][A  [OK] Task 1 Ep 78: SUCCESS (steps=99)
+
+put the bowl on the stove...:  32%|███▏      | 79/250 [07:28<14:33,  5.11s/it][A  [OK] Task 1 Ep 79: SUCCESS (steps=93)
+
+put the bowl on the stove...:  32%|███▏      | 80/250 [07:33<14:17,  5.04s/it][A  [OK] Task 1 Ep 80: SUCCESS (steps=93)
+
+put the bowl on the stove...:  32%|███▏      | 81/250 [07:39<14:17,  5.08s/it][A  [OK] Task 1 Ep 81: SUCCESS (steps=97)
+
+put the bowl on the stove...:  33%|███▎      | 82/250 [07:44<14:15,  5.09s/it][A  [OK] Task 1 Ep 82: SUCCESS (steps=92)
+
+put the bowl on the stove...:  33%|███▎      | 83/250 [07:49<14:32,  5.22s/it][A  [OK] Task 1 Ep 83: SUCCESS (steps=97)
+
+put the bowl on the stove...:  34%|███▎      | 84/250 [07:54<14:23,  5.20s/it][A  [OK] Task 1 Ep 84: SUCCESS (steps=94)
+
+put the bowl on the stove...:  34%|███▍      | 85/250 [07:59<14:06,  5.13s/it][A  [OK] Task 1 Ep 85: SUCCESS (steps=97)
+
+put the bowl on the stove...:  34%|███▍      | 86/250 [08:04<13:59,  5.12s/it][A  [OK] Task 1 Ep 86: SUCCESS (steps=91)
+
+put the bowl on the stove...:  35%|███▍      | 87/250 [08:10<14:15,  5.25s/it][A  [OK] Task 1 Ep 87: SUCCESS (steps=93)
+
+put the bowl on the stove...:  35%|███▌      | 88/250 [08:15<14:14,  5.28s/it][A  [OK] Task 1 Ep 88: SUCCESS (steps=93)
+
+put the bowl on the stove...:  36%|███▌      | 89/250 [08:20<13:52,  5.17s/it][A  [OK] Task 1 Ep 89: SUCCESS (steps=95)
+
+put the bowl on the stove...:  36%|███▌      | 90/250 [08:25<13:44,  5.15s/it][A  [OK] Task 1 Ep 90: SUCCESS (steps=91)
+
+put the bowl on the stove...:  36%|███▋      | 91/250 [08:30<13:24,  5.06s/it][A  [OK] Task 1 Ep 91: SUCCESS (steps=90)
+
+put the bowl on the stove...:  37%|███▋      | 92/250 [08:35<13:09,  5.00s/it][A  [OK] Task 1 Ep 92: SUCCESS (steps=102)
+
+put the bowl on the stove...:  37%|███▋      | 93/250 [08:40<13:19,  5.09s/it][A  [OK] Task 1 Ep 93: SUCCESS (steps=97)
+
+put the bowl on the stove...:  38%|███▊      | 94/250 [08:45<13:13,  5.09s/it][A  [OK] Task 1 Ep 94: SUCCESS (steps=90)
+
+put the bowl on the stove...:  38%|███▊      | 95/250 [08:50<12:58,  5.02s/it][A  [OK] Task 1 Ep 95: SUCCESS (steps=96)
+
+put the bowl on the stove...:  38%|███▊      | 96/250 [08:55<13:01,  5.07s/it][A  [OK] Task 1 Ep 96: SUCCESS (steps=87)
+
+put the bowl on the stove...:  39%|███▉      | 97/250 [09:00<12:38,  4.96s/it][A  [OK] Task 1 Ep 97: SUCCESS (steps=94)
+
+put the bowl on the stove...:  39%|███▉      | 98/250 [09:05<12:30,  4.94s/it][A  [OK] Task 1 Ep 98: SUCCESS (steps=92)
+
+put the bowl on the stove...:  40%|███▉      | 99/250 [09:11<12:58,  5.15s/it][A  [OK] Task 1 Ep 99: SUCCESS (steps=89)
+
+put the bowl on the stove...:  40%|████      | 100/250 [09:15<12:31,  5.01s/it][A  [OK] Task 1 Ep 100: SUCCESS (steps=91)
+
+put the bowl on the stove...:  40%|████      | 101/250 [09:20<12:21,  4.98s/it][A  [OK] Task 1 Ep 101: SUCCESS (steps=102)
+
+put the bowl on the stove...:  41%|████      | 102/250 [09:26<12:35,  5.10s/it][A  [OK] Task 1 Ep 102: SUCCESS (steps=94)
+
+put the bowl on the stove...:  41%|████      | 103/250 [09:31<12:21,  5.04s/it][A  [OK] Task 1 Ep 103: SUCCESS (steps=90)
+
+put the bowl on the stove...:  42%|████▏     | 104/250 [09:35<12:08,  4.99s/it][A  [OK] Task 1 Ep 104: SUCCESS (steps=95)
+
+put the bowl on the stove...:  42%|████▏     | 105/250 [09:40<12:04,  5.00s/it][A  [OK] Task 1 Ep 105: SUCCESS (steps=103)
+
+put the bowl on the stove...:  42%|████▏     | 106/250 [09:46<12:15,  5.11s/it][A  [OK] Task 1 Ep 106: SUCCESS (steps=99)
+
+put the bowl on the stove...:  43%|████▎     | 107/250 [09:51<12:16,  5.15s/it][A  [OK] Task 1 Ep 107: SUCCESS (steps=91)
+
+put the bowl on the stove...:  43%|████▎     | 108/250 [09:56<12:02,  5.09s/it][A  [OK] Task 1 Ep 108: SUCCESS (steps=92)
+
+put the bowl on the stove...:  44%|████▎     | 109/250 [10:01<11:49,  5.03s/it][A  [OK] Task 1 Ep 109: SUCCESS (steps=93)
+
+put the bowl on the stove...:  44%|████▍     | 110/250 [10:06<11:42,  5.02s/it][A  [OK] Task 1 Ep 110: SUCCESS (steps=99)
+
+put the bowl on the stove...:  44%|████▍     | 111/250 [10:12<12:14,  5.28s/it][A  [OK] Task 1 Ep 111: SUCCESS (steps=98)
+
+put the bowl on the stove...:  45%|████▍     | 112/250 [10:17<12:02,  5.23s/it][A  [OK] Task 1 Ep 112: SUCCESS (steps=93)
+
+put the bowl on the stove...:  45%|████▌     | 113/250 [10:22<11:44,  5.14s/it][A  [OK] Task 1 Ep 113: SUCCESS (steps=89)
+
+put the bowl on the stove...:  46%|████▌     | 114/250 [10:27<11:24,  5.03s/it][A  [OK] Task 1 Ep 114: SUCCESS (steps=104)
+
+put the bowl on the stove...:  46%|████▌     | 115/250 [10:32<11:33,  5.14s/it][A  [OK] Task 1 Ep 115: SUCCESS (steps=90)
+
+put the bowl on the stove...:  46%|████▋     | 116/250 [10:37<11:17,  5.06s/it][A  [OK] Task 1 Ep 116: SUCCESS (steps=100)
+
+put the bowl on the stove...:  47%|████▋     | 117/250 [10:42<11:20,  5.12s/it][A  [OK] Task 1 Ep 117: SUCCESS (steps=93)
+
+put the bowl on the stove...:  47%|████▋     | 118/250 [10:47<11:05,  5.04s/it][A  [OK] Task 1 Ep 118: SUCCESS (steps=89)
+
+put the bowl on the stove...:  48%|████▊     | 119/250 [10:52<10:51,  4.97s/it][A  [OK] Task 1 Ep 119: SUCCESS (steps=96)
+
+put the bowl on the stove...:  48%|████▊     | 120/250 [10:58<11:16,  5.20s/it][A  [OK] Task 1 Ep 120: SUCCESS (steps=91)
+
+put the bowl on the stove...:  48%|████▊     | 121/250 [11:03<11:17,  5.25s/it][A  [OK] Task 1 Ep 121: SUCCESS (steps=97)
+
+put the bowl on the stove...:  49%|████▉     | 122/250 [11:10<12:33,  5.89s/it][A  [OK] Task 1 Ep 122: SUCCESS (steps=99)
+
+put the bowl on the stove...:  49%|████▉     | 123/250 [11:15<11:59,  5.66s/it][A  [OK] Task 1 Ep 123: SUCCESS (steps=95)
+
+put the bowl on the stove...:  50%|████▉     | 124/250 [11:21<11:40,  5.56s/it][A  [OK] Task 1 Ep 124: SUCCESS (steps=91)
+
+put the bowl on the stove...:  50%|█████     | 125/250 [11:26<11:24,  5.47s/it][A  [OK] Task 1 Ep 125: SUCCESS (steps=96)
+
+put the bowl on the stove...:  50%|█████     | 126/250 [11:31<11:09,  5.40s/it][A  [OK] Task 1 Ep 126: SUCCESS (steps=96)
+
+put the bowl on the stove...:  51%|█████     | 127/250 [11:36<10:54,  5.32s/it][A  [OK] Task 1 Ep 127: SUCCESS (steps=95)
+
+put the bowl on the stove...:  51%|█████     | 128/250 [11:42<10:41,  5.26s/it][A  [OK] Task 1 Ep 128: SUCCESS (steps=98)
+
+put the bowl on the stove...:  52%|█████▏    | 129/250 [11:47<10:28,  5.20s/it][A  [OK] Task 1 Ep 129: SUCCESS (steps=98)
+
+put the bowl on the stove...:  52%|█████▏    | 130/250 [11:52<10:21,  5.18s/it][A  [OK] Task 1 Ep 130: SUCCESS (steps=98)
+
+put the bowl on the stove...:  52%|█████▏    | 131/250 [11:57<10:15,  5.17s/it][A  [OK] Task 1 Ep 131: SUCCESS (steps=98)
+
+put the bowl on the stove...:  53%|█████▎    | 132/250 [12:02<10:06,  5.14s/it][A  [OK] Task 1 Ep 132: SUCCESS (steps=98)
+
+put the bowl on the stove...:  53%|█████▎    | 133/250 [12:07<10:01,  5.14s/it][A  [OK] Task 1 Ep 133: SUCCESS (steps=93)
+
+put the bowl on the stove...:  54%|█████▎    | 134/250 [12:12<09:51,  5.10s/it][A  [OK] Task 1 Ep 134: SUCCESS (steps=93)
+
+put the bowl on the stove...:  54%|█████▍    | 135/250 [12:17<09:39,  5.04s/it][A  [OK] Task 1 Ep 135: SUCCESS (steps=97)
+
+put the bowl on the stove...:  54%|█████▍    | 136/250 [12:22<09:40,  5.09s/it][A  [OK] Task 1 Ep 136: SUCCESS (steps=93)
+
+put the bowl on the stove...:  55%|█████▍    | 137/250 [12:27<09:28,  5.03s/it][A  [OK] Task 1 Ep 137: SUCCESS (steps=89)
+
+put the bowl on the stove...:  55%|█████▌    | 138/250 [12:32<09:12,  4.94s/it][A  [OK] Task 1 Ep 138: SUCCESS (steps=89)
+
+put the bowl on the stove...:  56%|█████▌    | 139/250 [12:37<09:07,  4.93s/it][A  [OK] Task 1 Ep 139: SUCCESS (steps=97)
+
+put the bowl on the stove...:  56%|█████▌    | 140/250 [12:42<09:13,  5.03s/it][A  [OK] Task 1 Ep 140: SUCCESS (steps=91)
+
+put the bowl on the stove...:  56%|█████▋    | 141/250 [12:47<09:02,  4.97s/it][A  [OK] Task 1 Ep 141: SUCCESS (steps=98)
+
+put the bowl on the stove...:  57%|█████▋    | 142/250 [12:52<09:03,  5.03s/it][A  [OK] Task 1 Ep 142: SUCCESS (steps=98)
+
+put the bowl on the stove...:  57%|█████▋    | 143/250 [12:58<09:14,  5.18s/it][A  [OK] Task 1 Ep 143: SUCCESS (steps=99)
+
+put the bowl on the stove...:  58%|█████▊    | 144/250 [13:03<09:24,  5.33s/it][A  [OK] Task 1 Ep 144: SUCCESS (steps=93)
+
+put the bowl on the stove...:  58%|█████▊    | 145/250 [13:08<09:05,  5.20s/it][A  [OK] Task 1 Ep 145: SUCCESS (steps=96)
+
+put the bowl on the stove...:  58%|█████▊    | 146/250 [13:13<09:00,  5.20s/it][A  [OK] Task 1 Ep 146: SUCCESS (steps=93)
+
+put the bowl on the stove...:  59%|█████▉    | 147/250 [13:18<08:51,  5.16s/it][A  [OK] Task 1 Ep 147: SUCCESS (steps=95)
+
+put the bowl on the stove...:  59%|█████▉    | 148/250 [13:23<08:44,  5.14s/it][A  [OK] Task 1 Ep 148: SUCCESS (steps=101)
+
+put the bowl on the stove...:  60%|█████▉    | 149/250 [13:29<08:47,  5.23s/it][A  [OK] Task 1 Ep 149: SUCCESS (steps=98)
+
+put the bowl on the stove...:  60%|██████    | 150/250 [13:34<08:38,  5.19s/it][A  [OK] Task 1 Ep 150: SUCCESS (steps=92)
+
+put the bowl on the stove...:  60%|██████    | 151/250 [13:39<08:26,  5.11s/it][A  [OK] Task 1 Ep 151: SUCCESS (steps=89)
+
+put the bowl on the stove...:  61%|██████    | 152/250 [13:44<08:33,  5.24s/it][A  [OK] Task 1 Ep 152: SUCCESS (steps=92)
+
+put the bowl on the stove...:  61%|██████    | 153/250 [13:49<08:18,  5.14s/it][A  [OK] Task 1 Ep 153: SUCCESS (steps=96)
+
+put the bowl on the stove...:  62%|██████▏   | 154/250 [13:54<08:12,  5.13s/it][A  [OK] Task 1 Ep 154: SUCCESS (steps=90)
+
+put the bowl on the stove...:  62%|██████▏   | 155/250 [13:59<08:02,  5.08s/it][A  [OK] Task 1 Ep 155: SUCCESS (steps=93)
+
+put the bowl on the stove...:  62%|██████▏   | 156/250 [14:04<07:53,  5.04s/it][A  [OK] Task 1 Ep 156: SUCCESS (steps=94)
+
+put the bowl on the stove...:  63%|██████▎   | 157/250 [14:10<08:05,  5.22s/it][A  [OK] Task 1 Ep 157: SUCCESS (steps=94)
+
+put the bowl on the stove...:  63%|██████▎   | 158/250 [14:15<07:55,  5.17s/it][A  [OK] Task 1 Ep 158: SUCCESS (steps=96)
+
+put the bowl on the stove...:  64%|██████▎   | 159/250 [14:20<07:47,  5.14s/it][A  [OK] Task 1 Ep 159: SUCCESS (steps=95)
+
+put the bowl on the stove...:  64%|██████▍   | 160/250 [14:26<08:10,  5.45s/it][A  [OK] Task 1 Ep 160: SUCCESS (steps=94)
+
+put the bowl on the stove...:  64%|██████▍   | 161/250 [14:31<07:55,  5.34s/it][A  [OK] Task 1 Ep 161: SUCCESS (steps=94)
+
+put the bowl on the stove...:  65%|██████▍   | 162/250 [14:36<07:39,  5.23s/it][A  [OK] Task 1 Ep 162: SUCCESS (steps=99)
+
+put the bowl on the stove...:  65%|██████▌   | 163/250 [14:42<07:33,  5.21s/it][A  [OK] Task 1 Ep 163: SUCCESS (steps=87)
+
+put the bowl on the stove...:  66%|██████▌   | 164/250 [14:46<07:17,  5.08s/it][A  [OK] Task 1 Ep 164: SUCCESS (steps=94)
+
+put the bowl on the stove...:  66%|██████▌   | 165/250 [14:52<07:26,  5.25s/it][A  [OK] Task 1 Ep 165: SUCCESS (steps=93)
+
+put the bowl on the stove...:  66%|██████▋   | 166/250 [14:57<07:13,  5.16s/it][A  [OK] Task 1 Ep 166: SUCCESS (steps=94)
+
+put the bowl on the stove...:  67%|██████▋   | 167/250 [15:02<07:03,  5.10s/it][A  [OK] Task 1 Ep 167: SUCCESS (steps=93)
+
+put the bowl on the stove...:  67%|██████▋   | 168/250 [15:07<06:55,  5.07s/it][A  [OK] Task 1 Ep 168: SUCCESS (steps=102)
+
+put the bowl on the stove...:  68%|██████▊   | 169/250 [15:12<07:00,  5.20s/it][A  [OK] Task 1 Ep 169: SUCCESS (steps=96)
+
+put the bowl on the stove...:  68%|██████▊   | 170/250 [15:18<07:07,  5.35s/it][A  [OK] Task 1 Ep 170: SUCCESS (steps=93)
+
+put the bowl on the stove...:  68%|██████▊   | 171/250 [15:23<07:02,  5.35s/it][A  [OK] Task 1 Ep 171: SUCCESS (steps=94)
+
+put the bowl on the stove...:  69%|██████▉   | 172/250 [15:29<06:56,  5.33s/it][A  [OK] Task 1 Ep 172: SUCCESS (steps=100)
+
+put the bowl on the stove...:  69%|██████▉   | 173/250 [15:34<06:53,  5.38s/it][A  [OK] Task 1 Ep 173: SUCCESS (steps=94)
+
+put the bowl on the stove...:  70%|██████▉   | 174/250 [15:39<06:39,  5.26s/it][A  [OK] Task 1 Ep 174: SUCCESS (steps=92)
+
+put the bowl on the stove...:  70%|███████   | 175/250 [15:44<06:27,  5.17s/it][A  [OK] Task 1 Ep 175: SUCCESS (steps=92)
+
+put the bowl on the stove...:  70%|███████   | 176/250 [15:49<06:17,  5.10s/it][A  [OK] Task 1 Ep 176: SUCCESS (steps=97)
+
+put the bowl on the stove...:  71%|███████   | 177/250 [15:54<06:13,  5.12s/it][A  [OK] Task 1 Ep 177: SUCCESS (steps=95)
+
+put the bowl on the stove...:  71%|███████   | 178/250 [15:59<06:07,  5.11s/it][A  [OK] Task 1 Ep 178: SUCCESS (steps=96)
+
+put the bowl on the stove...:  72%|███████▏  | 179/250 [16:04<06:02,  5.11s/it][A  [OK] Task 1 Ep 179: SUCCESS (steps=91)
+
+put the bowl on the stove...:  72%|███████▏  | 180/250 [16:10<06:13,  5.34s/it][A  [OK] Task 1 Ep 180: SUCCESS (steps=93)
+
+put the bowl on the stove...:  72%|███████▏  | 181/250 [16:15<06:01,  5.23s/it][A  [OK] Task 1 Ep 181: SUCCESS (steps=99)
+
+put the bowl on the stove...:  73%|███████▎  | 182/250 [16:20<05:55,  5.22s/it][A  [OK] Task 1 Ep 182: SUCCESS (steps=92)
+
+put the bowl on the stove...:  73%|███████▎  | 183/250 [16:25<05:44,  5.14s/it][A  [OK] Task 1 Ep 183: SUCCESS (steps=103)
+
+put the bowl on the stove...:  74%|███████▎  | 184/250 [16:31<05:41,  5.18s/it][A  [OK] Task 1 Ep 184: SUCCESS (steps=98)
+
+put the bowl on the stove...:  74%|███████▍  | 185/250 [16:36<05:36,  5.17s/it][A  [OK] Task 1 Ep 185: SUCCESS (steps=97)
+
+put the bowl on the stove...:  74%|███████▍  | 186/250 [16:41<05:31,  5.18s/it][A  [OK] Task 1 Ep 186: SUCCESS (steps=92)
+
+put the bowl on the stove...:  75%|███████▍  | 187/250 [16:46<05:22,  5.11s/it][A  [OK] Task 1 Ep 187: SUCCESS (steps=94)
+
+put the bowl on the stove...:  75%|███████▌  | 188/250 [16:51<05:14,  5.07s/it][A  [OK] Task 1 Ep 188: SUCCESS (steps=91)
+
+put the bowl on the stove...:  76%|███████▌  | 189/250 [16:56<05:06,  5.02s/it][A  [OK] Task 1 Ep 189: SUCCESS (steps=92)
+
+put the bowl on the stove...:  76%|███████▌  | 190/250 [17:01<04:58,  4.98s/it][A  [OK] Task 1 Ep 190: SUCCESS (steps=91)
+
+put the bowl on the stove...:  76%|███████▋  | 191/250 [17:06<04:52,  4.95s/it][A  [OK] Task 1 Ep 191: SUCCESS (steps=92)
+
+put the bowl on the stove...:  77%|███████▋  | 192/250 [17:11<04:59,  5.17s/it][A  [OK] Task 1 Ep 192: SUCCESS (steps=91)
+
+put the bowl on the stove...:  77%|███████▋  | 193/250 [17:16<04:50,  5.10s/it][A  [OK] Task 1 Ep 193: SUCCESS (steps=90)
+
+put the bowl on the stove...:  78%|███████▊  | 194/250 [17:21<04:41,  5.03s/it][A  [OK] Task 1 Ep 194: SUCCESS (steps=93)
+
+put the bowl on the stove...:  78%|███████▊  | 195/250 [17:26<04:40,  5.10s/it][A  [OK] Task 1 Ep 195: SUCCESS (steps=93)
+
+put the bowl on the stove...:  78%|███████▊  | 196/250 [17:31<04:34,  5.08s/it][A  [OK] Task 1 Ep 196: SUCCESS (steps=94)
+
+put the bowl on the stove...:  79%|███████▉  | 197/250 [17:36<04:27,  5.04s/it][A  [OK] Task 1 Ep 197: SUCCESS (steps=100)
+
+put the bowl on the stove...:  79%|███████▉  | 198/250 [17:42<04:26,  5.12s/it][A  [OK] Task 1 Ep 198: SUCCESS (steps=93)
+
+put the bowl on the stove...:  80%|███████▉  | 199/250 [17:47<04:18,  5.08s/it][A  [OK] Task 1 Ep 199: SUCCESS (steps=93)
+
+put the bowl on the stove...:  80%|████████  | 200/250 [17:52<04:13,  5.07s/it][A  [OK] Task 1 Ep 200: SUCCESS (steps=97)
+
+put the bowl on the stove...:  80%|████████  | 201/250 [17:57<04:08,  5.08s/it][A  [OK] Task 1 Ep 201: SUCCESS (steps=91)
+
+put the bowl on the stove...:  81%|████████  | 202/250 [18:02<04:01,  5.03s/it][A  [OK] Task 1 Ep 202: SUCCESS (steps=95)
+
+put the bowl on the stove...:  81%|████████  | 203/250 [18:07<03:57,  5.06s/it][A  [OK] Task 1 Ep 203: SUCCESS (steps=94)
+
+put the bowl on the stove...:  82%|████████▏ | 204/250 [18:12<03:57,  5.15s/it][A  [OK] Task 1 Ep 204: SUCCESS (steps=103)
+
+put the bowl on the stove...:  82%|████████▏ | 205/250 [18:18<04:02,  5.40s/it][A  [OK] Task 1 Ep 205: SUCCESS (steps=92)
+
+put the bowl on the stove...:  82%|████████▏ | 206/250 [18:24<03:57,  5.39s/it][A  [OK] Task 1 Ep 206: SUCCESS (steps=95)
+
+put the bowl on the stove...:  83%|████████▎ | 207/250 [18:29<03:56,  5.51s/it][A  [OK] Task 1 Ep 207: SUCCESS (steps=98)
+
+put the bowl on the stove...:  83%|████████▎ | 208/250 [18:35<03:47,  5.42s/it][A  [OK] Task 1 Ep 208: SUCCESS (steps=95)
+
+put the bowl on the stove...:  84%|████████▎ | 209/250 [18:40<03:38,  5.34s/it][A  [OK] Task 1 Ep 209: SUCCESS (steps=99)
+
+put the bowl on the stove...:  84%|████████▍ | 210/250 [18:45<03:33,  5.33s/it][A  [OK] Task 1 Ep 210: SUCCESS (steps=96)
+
+put the bowl on the stove...:  84%|████████▍ | 211/250 [18:50<03:26,  5.31s/it][A  [OK] Task 1 Ep 211: SUCCESS (steps=98)
+
+put the bowl on the stove...:  85%|████████▍ | 212/250 [18:56<03:20,  5.28s/it][A  [OK] Task 1 Ep 212: SUCCESS (steps=97)
+
+put the bowl on the stove...:  85%|████████▌ | 213/250 [19:01<03:14,  5.25s/it][A  [OK] Task 1 Ep 213: SUCCESS (steps=97)
+
+put the bowl on the stove...:  86%|████████▌ | 214/250 [19:06<03:08,  5.22s/it][A  [OK] Task 1 Ep 214: SUCCESS (steps=94)
+
+put the bowl on the stove...:  86%|████████▌ | 215/250 [19:12<03:10,  5.44s/it][A  [OK] Task 1 Ep 215: SUCCESS (steps=94)
+
+put the bowl on the stove...:  86%|████████▋ | 216/250 [19:17<03:00,  5.32s/it][A  [OK] Task 1 Ep 216: SUCCESS (steps=94)
+
+put the bowl on the stove...:  87%|████████▋ | 217/250 [19:22<02:52,  5.23s/it][A  [OK] Task 1 Ep 217: SUCCESS (steps=92)
+
+put the bowl on the stove...:  87%|████████▋ | 218/250 [19:27<02:44,  5.16s/it][A  [OK] Task 1 Ep 218: SUCCESS (steps=142)
+
+put the bowl on the stove...:  88%|████████▊ | 219/250 [19:34<02:57,  5.73s/it][A  [OK] Task 1 Ep 219: SUCCESS (steps=98)
+
+put the bowl on the stove...:  88%|████████▊ | 220/250 [19:40<02:53,  5.79s/it][A  [OK] Task 1 Ep 220: SUCCESS (steps=98)
+
+put the bowl on the stove...:  88%|████████▊ | 221/250 [19:45<02:46,  5.74s/it][A  [OK] Task 1 Ep 221: SUCCESS (steps=92)
+
+put the bowl on the stove...:  89%|████████▉ | 222/250 [19:51<02:35,  5.55s/it][A  [OK] Task 1 Ep 222: SUCCESS (steps=99)
+
+put the bowl on the stove...:  89%|████████▉ | 223/250 [19:56<02:27,  5.47s/it][A  [OK] Task 1 Ep 223: SUCCESS (steps=92)
+
+put the bowl on the stove...:  90%|████████▉ | 224/250 [20:01<02:18,  5.32s/it][A  [OK] Task 1 Ep 224: SUCCESS (steps=92)
+
+put the bowl on the stove...:  90%|█████████ | 225/250 [20:06<02:10,  5.21s/it][A  [OK] Task 1 Ep 225: SUCCESS (steps=93)
+
+put the bowl on the stove...:  90%|█████████ | 226/250 [20:12<02:08,  5.37s/it][A  [OK] Task 1 Ep 226: SUCCESS (steps=92)
+
+put the bowl on the stove...:  91%|█████████ | 227/250 [20:17<02:01,  5.29s/it][A  [OK] Task 1 Ep 227: SUCCESS (steps=93)
+
+put the bowl on the stove...:  91%|█████████ | 228/250 [20:22<01:54,  5.21s/it][A  [OK] Task 1 Ep 228: SUCCESS (steps=90)
+
+put the bowl on the stove...:  92%|█████████▏| 229/250 [20:27<01:47,  5.12s/it][A  [OK] Task 1 Ep 229: SUCCESS (steps=96)
+
+put the bowl on the stove...:  92%|█████████▏| 230/250 [20:33<01:47,  5.39s/it][A  [OK] Task 1 Ep 230: SUCCESS (steps=99)
+
+put the bowl on the stove...:  92%|█████████▏| 231/250 [20:38<01:43,  5.46s/it][A  [OK] Task 1 Ep 231: SUCCESS (steps=90)
+
+put the bowl on the stove...:  93%|█████████▎| 232/250 [20:43<01:37,  5.40s/it][A  [OK] Task 1 Ep 232: SUCCESS (steps=87)
+
+put the bowl on the stove...:  93%|█████████▎| 233/250 [20:48<01:28,  5.20s/it][A  [OK] Task 1 Ep 233: SUCCESS (steps=97)
+
+put the bowl on the stove...:  94%|█████████▎| 234/250 [20:53<01:23,  5.21s/it][A  [OK] Task 1 Ep 234: SUCCESS (steps=92)
+
+put the bowl on the stove...:  94%|█████████▍| 235/250 [20:58<01:17,  5.17s/it][A  [OK] Task 1 Ep 235: SUCCESS (steps=95)
+
+put the bowl on the stove...:  94%|█████████▍| 236/250 [21:04<01:12,  5.18s/it][A  [OK] Task 1 Ep 236: SUCCESS (steps=94)
+
+put the bowl on the stove...:  95%|█████████▍| 237/250 [21:09<01:06,  5.14s/it][A  [OK] Task 1 Ep 237: SUCCESS (steps=89)
+
+put the bowl on the stove...:  95%|█████████▌| 238/250 [21:14<01:00,  5.03s/it][A  [OK] Task 1 Ep 238: SUCCESS (steps=90)
+
+put the bowl on the stove...:  96%|█████████▌| 239/250 [21:18<00:54,  5.00s/it][A  [OK] Task 1 Ep 239: SUCCESS (steps=92)
+
+put the bowl on the stove...:  96%|█████████▌| 240/250 [21:23<00:49,  4.99s/it][A  [OK] Task 1 Ep 240: SUCCESS (steps=95)
+
+put the bowl on the stove...:  96%|█████████▋| 241/250 [21:29<00:45,  5.06s/it][A  [OK] Task 1 Ep 241: SUCCESS (steps=88)
+
+put the bowl on the stove...:  97%|█████████▋| 242/250 [21:33<00:39,  4.97s/it][A  [OK] Task 1 Ep 242: SUCCESS (steps=91)
+
+put the bowl on the stove...:  97%|█████████▋| 243/250 [21:38<00:34,  4.96s/it][A  [OK] Task 1 Ep 243: SUCCESS (steps=93)
+
+put the bowl on the stove...:  98%|█████████▊| 244/250 [21:43<00:29,  4.97s/it][A  [OK] Task 1 Ep 244: SUCCESS (steps=107)
+
+put the bowl on the stove...:  98%|█████████▊| 245/250 [21:49<00:25,  5.17s/it][A  [OK] Task 1 Ep 245: SUCCESS (steps=88)
+
+put the bowl on the stove...:  98%|█████████▊| 246/250 [21:54<00:20,  5.04s/it][A  [OK] Task 1 Ep 246: SUCCESS (steps=100)
+
+put the bowl on the stove...:  99%|█████████▉| 247/250 [21:59<00:15,  5.15s/it][A  [OK] Task 1 Ep 247: SUCCESS (steps=96)
+
+put the bowl on the stove...:  99%|█████████▉| 248/250 [22:04<00:10,  5.15s/it][A  [OK] Task 1 Ep 248: SUCCESS (steps=89)
+
+put the bowl on the stove...: 100%|█████████▉| 249/250 [22:10<00:05,  5.38s/it][A  [OK] Task 1 Ep 249: SUCCESS (steps=94)
+
+put the bowl on the stove...: 100%|██████████| 250/250 [22:15<00:00,  5.27s/it][A
+                                                                               [A   Task 1: 249/250 (99.6%)
+Tasks:   0%|          | 0/1 [22:28<?, ?it/s]
+
+Total success rate: 249/250 (99.6%)

@@ -1,0 +1,36 @@
+{
+  "policy": "xvla",
+  "task": "carrot",
+  "standard_horizon": 60,
+  "success_standard_horizon": 18,
+  "success_rate_standard_horizon": 0.75,
+  "success_released_client": 24,
+  "success_rate_released_client": 1.0,
+  "total": 24,
+  "late_successes": [
+    {
+      "proc_id": 1,
+      "steps": 63
+    },
+    {
+      "proc_id": 3,
+      "steps": 150
+    },
+    {
+      "proc_id": 5,
+      "steps": 457
+    },
+    {
+      "proc_id": 7,
+      "steps": 103
+    },
+    {
+      "proc_id": 11,
+      "steps": 477
+    },
+    {
+      "proc_id": 12,
+      "steps": 75
+    }
+  ]
+}

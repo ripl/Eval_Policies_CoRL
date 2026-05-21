@@ -1,0 +1,15 @@
+{
+  "policy": "cogact",
+  "task_filter": "carrot",
+  "success": 10,
+  "total": 24,
+  "success_rate": 0.4166666666666667,
+  "by_task": {
+    "carrot": {
+      "success": 10,
+      "total": 24,
+      "success_rate": 0.4166666666666667
+    }
+  },
+  "result_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/cogact_base/official_fixed_grid/standard_cogact_carrot24_20260514T025425Z/videos"
+}

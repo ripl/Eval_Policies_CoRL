@@ -1,0 +1,523 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8510
+   Task suite: libero_object
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_object
+   Tasks: 10, Trials per task: 250
+   Max steps: 800
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+pick up the ketchup and place ...:   0%|          | 0/250 [00:00<?, ?it/s][A  [OK] Task 4 Ep 0: SUCCESS (steps=140)
+
+pick up the ketchup and place ...:   0%|          | 1/250 [00:07<30:32,  7.36s/it][A  [OK] Task 4 Ep 1: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:   1%|          | 2/250 [00:14<30:56,  7.49s/it][A  [OK] Task 4 Ep 2: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:   1%|          | 3/250 [00:22<30:35,  7.43s/it][A  [OK] Task 4 Ep 3: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:   2%|▏         | 4/250 [00:30<30:55,  7.54s/it][A  [OK] Task 4 Ep 4: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:   2%|▏         | 5/250 [00:37<30:39,  7.51s/it][A  [OK] Task 4 Ep 5: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:   2%|▏         | 6/250 [00:44<29:47,  7.33s/it][A  [OK] Task 4 Ep 6: SUCCESS (steps=149)
+
+pick up the ketchup and place ...:   3%|▎         | 7/250 [00:51<29:38,  7.32s/it][A  [OK] Task 4 Ep 7: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:   3%|▎         | 8/250 [00:59<29:49,  7.39s/it][A  [OK] Task 4 Ep 8: SUCCESS (steps=150)
+
+pick up the ketchup and place ...:   4%|▎         | 9/250 [01:06<29:46,  7.41s/it][A  [OK] Task 4 Ep 9: SUCCESS (steps=149)
+
+pick up the ketchup and place ...:   4%|▍         | 10/250 [01:14<29:35,  7.40s/it][A  [OK] Task 4 Ep 10: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:   4%|▍         | 11/250 [01:21<29:05,  7.30s/it][A  [OK] Task 4 Ep 11: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:   5%|▍         | 12/250 [01:28<28:41,  7.23s/it][A  [OK] Task 4 Ep 12: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:   5%|▌         | 13/250 [01:35<28:29,  7.21s/it][A  [OK] Task 4 Ep 13: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:   6%|▌         | 14/250 [01:43<29:35,  7.52s/it][A  [OK] Task 4 Ep 14: SUCCESS (steps=148)
+
+pick up the ketchup and place ...:   6%|▌         | 15/250 [01:50<29:02,  7.42s/it][A  [OK] Task 4 Ep 15: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:   6%|▋         | 16/250 [01:58<29:14,  7.50s/it][A  [OK] Task 4 Ep 16: SUCCESS (steps=148)
+
+pick up the ketchup and place ...:   7%|▋         | 17/250 [02:05<28:38,  7.38s/it][A  [OK] Task 4 Ep 17: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:   7%|▋         | 18/250 [02:12<28:30,  7.37s/it][A  [OK] Task 4 Ep 18: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:   8%|▊         | 19/250 [02:20<28:24,  7.38s/it][A  [OK] Task 4 Ep 19: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:   8%|▊         | 20/250 [02:27<28:01,  7.31s/it][A  [OK] Task 4 Ep 20: SUCCESS (steps=140)
+
+pick up the ketchup and place ...:   8%|▊         | 21/250 [02:34<27:37,  7.24s/it][A  [OK] Task 4 Ep 21: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:   9%|▉         | 22/250 [02:41<27:25,  7.22s/it][A  [OK] Task 4 Ep 22: SUCCESS (steps=150)
+
+pick up the ketchup and place ...:   9%|▉         | 23/250 [02:48<27:10,  7.18s/it][A  [OK] Task 4 Ep 23: SUCCESS (steps=139)
+
+pick up the ketchup and place ...:  10%|▉         | 24/250 [02:55<26:45,  7.10s/it][A  [OK] Task 4 Ep 24: SUCCESS (steps=141)
+
+pick up the ketchup and place ...:  10%|█         | 25/250 [03:02<26:39,  7.11s/it][A  [OK] Task 4 Ep 25: SUCCESS (steps=148)
+
+pick up the ketchup and place ...:  10%|█         | 26/250 [03:10<26:53,  7.20s/it][A  [OK] Task 4 Ep 26: SUCCESS (steps=140)
+
+pick up the ketchup and place ...:  11%|█         | 27/250 [03:17<26:39,  7.17s/it][A  [OK] Task 4 Ep 27: SUCCESS (steps=150)
+
+pick up the ketchup and place ...:  11%|█         | 28/250 [03:24<26:28,  7.15s/it][A  [OK] Task 4 Ep 28: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  12%|█▏        | 29/250 [03:32<27:18,  7.42s/it][A  [OK] Task 4 Ep 29: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  12%|█▏        | 30/250 [03:39<26:26,  7.21s/it][A  [OK] Task 4 Ep 30: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  12%|█▏        | 31/250 [03:46<26:10,  7.17s/it][A  [OK] Task 4 Ep 31: SUCCESS (steps=142)
+
+pick up the ketchup and place ...:  13%|█▎        | 32/250 [03:53<25:32,  7.03s/it][A  [OK] Task 4 Ep 32: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  13%|█▎        | 33/250 [04:00<25:21,  7.01s/it][A  [OK] Task 4 Ep 33: SUCCESS (steps=142)
+
+pick up the ketchup and place ...:  14%|█▎        | 34/250 [04:06<25:06,  6.98s/it][A  [OK] Task 4 Ep 34: SUCCESS (steps=148)
+
+pick up the ketchup and place ...:  14%|█▍        | 35/250 [04:13<24:59,  6.97s/it][A  [OK] Task 4 Ep 35: SUCCESS (steps=149)
+
+pick up the ketchup and place ...:  14%|█▍        | 36/250 [04:21<25:00,  7.01s/it][A  [OK] Task 4 Ep 36: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  15%|█▍        | 37/250 [04:28<24:54,  7.02s/it][A  [OK] Task 4 Ep 37: SUCCESS (steps=148)
+
+pick up the ketchup and place ...:  15%|█▌        | 38/250 [04:35<24:46,  7.01s/it][A  [OK] Task 4 Ep 38: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  16%|█▌        | 39/250 [04:42<25:14,  7.18s/it][A  [OK] Task 4 Ep 39: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  16%|█▌        | 40/250 [04:49<24:57,  7.13s/it][A  [OK] Task 4 Ep 40: SUCCESS (steps=150)
+
+pick up the ketchup and place ...:  16%|█▋        | 41/250 [04:56<24:56,  7.16s/it][A  [OK] Task 4 Ep 41: SUCCESS (steps=142)
+
+pick up the ketchup and place ...:  17%|█▋        | 42/250 [05:03<24:24,  7.04s/it][A  [OK] Task 4 Ep 42: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  17%|█▋        | 43/250 [05:11<25:00,  7.25s/it][A  [OK] Task 4 Ep 43: SUCCESS (steps=151)
+
+pick up the ketchup and place ...:  18%|█▊        | 44/250 [05:19<25:21,  7.39s/it][A  [OK] Task 4 Ep 44: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  18%|█▊        | 45/250 [05:26<25:03,  7.33s/it][A  [OK] Task 4 Ep 45: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  18%|█▊        | 46/250 [05:32<24:18,  7.15s/it][A  [OK] Task 4 Ep 46: SUCCESS (steps=139)
+
+pick up the ketchup and place ...:  19%|█▉        | 47/250 [05:40<24:08,  7.13s/it][A  [OK] Task 4 Ep 47: SUCCESS (steps=141)
+
+pick up the ketchup and place ...:  19%|█▉        | 48/250 [05:47<24:19,  7.23s/it][A  [OK] Task 4 Ep 48: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  20%|█▉        | 49/250 [05:54<23:45,  7.09s/it][A  [OK] Task 4 Ep 49: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  20%|██        | 50/250 [06:00<23:13,  6.97s/it][A  [OK] Task 4 Ep 50: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  20%|██        | 51/250 [06:07<23:05,  6.96s/it][A  [OK] Task 4 Ep 51: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  21%|██        | 52/250 [06:14<22:49,  6.91s/it][A  [OK] Task 4 Ep 52: SUCCESS (steps=150)
+
+pick up the ketchup and place ...:  21%|██        | 53/250 [06:21<22:53,  6.97s/it][A  [OK] Task 4 Ep 53: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  22%|██▏       | 54/250 [06:30<24:07,  7.39s/it][A  [OK] Task 4 Ep 54: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  22%|██▏       | 55/250 [06:37<23:28,  7.22s/it][A  [OK] Task 4 Ep 55: SUCCESS (steps=140)
+
+pick up the ketchup and place ...:  22%|██▏       | 56/250 [06:44<23:32,  7.28s/it][A  [OK] Task 4 Ep 56: SUCCESS (steps=150)
+
+pick up the ketchup and place ...:  23%|██▎       | 57/250 [06:51<23:08,  7.19s/it][A  [OK] Task 4 Ep 57: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  23%|██▎       | 58/250 [06:58<23:00,  7.19s/it][A  [OK] Task 4 Ep 58: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  24%|██▎       | 59/250 [07:06<23:08,  7.27s/it][A  [OK] Task 4 Ep 59: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  24%|██▍       | 60/250 [07:13<22:40,  7.16s/it][A  [OK] Task 4 Ep 60: SUCCESS (steps=142)
+
+pick up the ketchup and place ...:  24%|██▍       | 61/250 [07:20<22:52,  7.26s/it][A  [OK] Task 4 Ep 61: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  25%|██▍       | 62/250 [07:27<22:24,  7.15s/it][A  [OK] Task 4 Ep 62: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  25%|██▌       | 63/250 [07:34<22:10,  7.11s/it][A  [OK] Task 4 Ep 63: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  26%|██▌       | 64/250 [07:41<21:52,  7.06s/it][A  [OK] Task 4 Ep 64: SUCCESS (steps=150)
+
+pick up the ketchup and place ...:  26%|██▌       | 65/250 [07:48<21:42,  7.04s/it][A  [OK] Task 4 Ep 65: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  26%|██▋       | 66/250 [07:55<21:25,  6.99s/it][A  [OK] Task 4 Ep 66: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  27%|██▋       | 67/250 [08:02<21:09,  6.94s/it][A  [OK] Task 4 Ep 67: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  27%|██▋       | 68/250 [08:08<20:56,  6.90s/it][A  [OK] Task 4 Ep 68: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  28%|██▊       | 69/250 [08:15<20:44,  6.87s/it][A  [OK] Task 4 Ep 69: SUCCESS (steps=141)
+
+pick up the ketchup and place ...:  28%|██▊       | 70/250 [08:22<20:24,  6.80s/it][A  [OK] Task 4 Ep 70: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  28%|██▊       | 71/250 [08:30<21:33,  7.23s/it][A  [OK] Task 4 Ep 71: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  29%|██▉       | 72/250 [08:37<21:26,  7.23s/it][A  [OK] Task 4 Ep 72: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  29%|██▉       | 73/250 [08:44<21:02,  7.13s/it][A  [OK] Task 4 Ep 73: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  30%|██▉       | 74/250 [08:51<20:34,  7.01s/it][A  [OK] Task 4 Ep 74: SUCCESS (steps=150)
+
+pick up the ketchup and place ...:  30%|███       | 75/250 [08:58<20:36,  7.07s/it][A  [OK] Task 4 Ep 75: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  30%|███       | 76/250 [09:05<20:47,  7.17s/it][A  [OK] Task 4 Ep 76: SUCCESS (steps=150)
+
+pick up the ketchup and place ...:  31%|███       | 77/250 [09:12<20:27,  7.09s/it][A  [OK] Task 4 Ep 77: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  31%|███       | 78/250 [09:19<20:11,  7.05s/it][A  [OK] Task 4 Ep 78: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  32%|███▏      | 79/250 [09:26<20:01,  7.03s/it][A  [OK] Task 4 Ep 79: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  32%|███▏      | 80/250 [09:33<19:45,  6.97s/it][A  [OK] Task 4 Ep 80: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  32%|███▏      | 81/250 [09:40<19:25,  6.90s/it][A  [OK] Task 4 Ep 81: SUCCESS (steps=142)
+
+pick up the ketchup and place ...:  33%|███▎      | 82/250 [09:47<19:15,  6.88s/it][A  [OK] Task 4 Ep 82: SUCCESS (steps=149)
+
+pick up the ketchup and place ...:  33%|███▎      | 83/250 [09:54<19:08,  6.88s/it][A  [OK] Task 4 Ep 83: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  34%|███▎      | 84/250 [10:01<19:24,  7.01s/it][A  [OK] Task 4 Ep 84: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  34%|███▍      | 85/250 [10:08<19:12,  6.99s/it][A  [OK] Task 4 Ep 85: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  34%|███▍      | 86/250 [10:15<19:20,  7.08s/it][A  [OK] Task 4 Ep 86: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  35%|███▍      | 87/250 [10:22<19:08,  7.04s/it][A  [OK] Task 4 Ep 87: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  35%|███▌      | 88/250 [10:29<19:09,  7.10s/it][A  [OK] Task 4 Ep 88: SUCCESS (steps=141)
+
+pick up the ketchup and place ...:  36%|███▌      | 89/250 [10:37<19:35,  7.30s/it][A  [OK] Task 4 Ep 89: SUCCESS (steps=141)
+
+pick up the ketchup and place ...:  36%|███▌      | 90/250 [10:44<19:06,  7.17s/it][A  [OK] Task 4 Ep 90: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  36%|███▋      | 91/250 [10:51<18:48,  7.09s/it][A  [OK] Task 4 Ep 91: SUCCESS (steps=138)
+
+pick up the ketchup and place ...:  37%|███▋      | 92/250 [10:57<18:14,  6.92s/it][A  [OK] Task 4 Ep 92: SUCCESS (steps=141)
+
+pick up the ketchup and place ...:  37%|███▋      | 93/250 [11:04<17:53,  6.84s/it][A  [OK] Task 4 Ep 93: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  38%|███▊      | 94/250 [11:11<17:47,  6.84s/it][A  [OK] Task 4 Ep 94: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  38%|███▊      | 95/250 [11:18<17:39,  6.83s/it][A  [OK] Task 4 Ep 95: SUCCESS (steps=148)
+
+pick up the ketchup and place ...:  38%|███▊      | 96/250 [11:25<17:39,  6.88s/it][A  [OK] Task 4 Ep 96: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  39%|███▉      | 97/250 [11:32<17:36,  6.91s/it][A  [OK] Task 4 Ep 97: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  39%|███▉      | 98/250 [11:39<17:28,  6.90s/it][A  [OK] Task 4 Ep 98: SUCCESS (steps=142)
+
+pick up the ketchup and place ...:  40%|███▉      | 99/250 [11:45<17:08,  6.81s/it][A  [OK] Task 4 Ep 99: SUCCESS (steps=138)
+
+pick up the ketchup and place ...:  40%|████      | 100/250 [11:52<16:46,  6.71s/it][A  [OK] Task 4 Ep 100: SUCCESS (steps=140)
+
+pick up the ketchup and place ...:  40%|████      | 101/250 [11:58<16:36,  6.69s/it][A  [OK] Task 4 Ep 101: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  41%|████      | 102/250 [12:05<16:30,  6.69s/it][A  [OK] Task 4 Ep 102: SUCCESS (steps=148)
+
+pick up the ketchup and place ...:  41%|████      | 103/250 [12:12<16:31,  6.75s/it][A  [OK] Task 4 Ep 103: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  42%|████▏     | 104/250 [12:19<16:31,  6.79s/it][A  [OK] Task 4 Ep 104: SUCCESS (steps=150)
+
+pick up the ketchup and place ...:  42%|████▏     | 105/250 [12:26<17:02,  7.05s/it][A  [OK] Task 4 Ep 105: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  42%|████▏     | 106/250 [12:34<17:16,  7.20s/it][A  [OK] Task 4 Ep 106: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  43%|████▎     | 107/250 [12:41<16:52,  7.08s/it][A  [OK] Task 4 Ep 107: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  43%|████▎     | 108/250 [12:48<16:54,  7.15s/it][A  [OK] Task 4 Ep 108: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  44%|████▎     | 109/250 [12:55<16:31,  7.03s/it][A  [OK] Task 4 Ep 109: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  44%|████▍     | 110/250 [13:02<16:13,  6.95s/it][A  [OK] Task 4 Ep 110: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  44%|████▍     | 111/250 [13:09<16:10,  6.98s/it][A  [OK] Task 4 Ep 111: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  45%|████▍     | 112/250 [13:15<15:52,  6.91s/it][A  [OK] Task 4 Ep 112: SUCCESS (steps=150)
+
+pick up the ketchup and place ...:  45%|████▌     | 113/250 [13:23<16:08,  7.07s/it][A  [OK] Task 4 Ep 113: SUCCESS (steps=142)
+
+pick up the ketchup and place ...:  46%|████▌     | 114/250 [13:30<15:56,  7.03s/it][A  [OK] Task 4 Ep 114: SUCCESS (steps=139)
+
+pick up the ketchup and place ...:  46%|████▌     | 115/250 [13:36<15:24,  6.85s/it][A  [OK] Task 4 Ep 115: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  46%|████▋     | 116/250 [13:43<15:17,  6.85s/it][A  [OK] Task 4 Ep 116: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  47%|████▋     | 117/250 [13:50<15:07,  6.83s/it][A  [OK] Task 4 Ep 117: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  47%|████▋     | 118/250 [13:57<15:07,  6.88s/it][A  [OK] Task 4 Ep 118: SUCCESS (steps=141)
+
+pick up the ketchup and place ...:  48%|████▊     | 119/250 [14:04<15:02,  6.89s/it][A  [OK] Task 4 Ep 119: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  48%|████▊     | 120/250 [14:10<14:46,  6.82s/it][A  [OK] Task 4 Ep 120: SUCCESS (steps=171)
+
+pick up the ketchup and place ...:  48%|████▊     | 121/250 [14:18<15:12,  7.08s/it][A  [OK] Task 4 Ep 121: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  49%|████▉     | 122/250 [14:25<15:02,  7.05s/it][A  [OK] Task 4 Ep 122: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  49%|████▉     | 123/250 [14:32<15:10,  7.17s/it][A  [OK] Task 4 Ep 123: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  50%|████▉     | 124/250 [14:40<15:24,  7.34s/it][A  [OK] Task 4 Ep 124: SUCCESS (steps=138)
+
+pick up the ketchup and place ...:  50%|█████     | 125/250 [14:47<14:53,  7.14s/it][A  [OK] Task 4 Ep 125: SUCCESS (steps=142)
+
+pick up the ketchup and place ...:  50%|█████     | 126/250 [14:54<14:33,  7.05s/it][A  [OK] Task 4 Ep 126: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  51%|█████     | 127/250 [15:01<14:32,  7.09s/it][A  [OK] Task 4 Ep 127: SUCCESS (steps=140)
+
+pick up the ketchup and place ...:  51%|█████     | 128/250 [15:08<14:15,  7.01s/it][A  [OK] Task 4 Ep 128: SUCCESS (steps=150)
+
+pick up the ketchup and place ...:  52%|█████▏    | 129/250 [15:15<14:08,  7.01s/it][A  [OK] Task 4 Ep 129: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  52%|█████▏    | 130/250 [15:22<14:13,  7.11s/it][A  [OK] Task 4 Ep 130: SUCCESS (steps=142)
+
+pick up the ketchup and place ...:  52%|█████▏    | 131/250 [15:30<14:30,  7.31s/it][A  [OK] Task 4 Ep 131: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  53%|█████▎    | 132/250 [15:37<14:05,  7.17s/it][A  [OK] Task 4 Ep 132: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  53%|█████▎    | 133/250 [15:44<13:45,  7.05s/it][A  [OK] Task 4 Ep 133: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  54%|█████▎    | 134/250 [15:50<13:28,  6.97s/it][A  [OK] Task 4 Ep 134: SUCCESS (steps=149)
+
+pick up the ketchup and place ...:  54%|█████▍    | 135/250 [15:58<13:39,  7.13s/it][A  [OK] Task 4 Ep 135: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  54%|█████▍    | 136/250 [16:04<13:18,  7.00s/it][A  [OK] Task 4 Ep 136: SUCCESS (steps=141)
+
+pick up the ketchup and place ...:  55%|█████▍    | 137/250 [16:11<13:08,  6.97s/it][A  [OK] Task 4 Ep 137: SUCCESS (steps=142)
+
+pick up the ketchup and place ...:  55%|█████▌    | 138/250 [16:18<13:05,  7.01s/it][A  [OK] Task 4 Ep 138: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  56%|█████▌    | 139/250 [16:25<12:49,  6.93s/it][A  [OK] Task 4 Ep 139: SUCCESS (steps=153)
+
+pick up the ketchup and place ...:  56%|█████▌    | 140/250 [16:32<12:44,  6.95s/it][A  [OK] Task 4 Ep 140: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  56%|█████▋    | 141/250 [16:39<12:36,  6.94s/it][A  [OK] Task 4 Ep 141: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  57%|█████▋    | 142/250 [16:46<12:23,  6.88s/it][A  [OK] Task 4 Ep 142: SUCCESS (steps=140)
+
+pick up the ketchup and place ...:  57%|█████▋    | 143/250 [16:52<12:06,  6.79s/it][A  [OK] Task 4 Ep 143: SUCCESS (steps=140)
+
+pick up the ketchup and place ...:  58%|█████▊    | 144/250 [16:59<12:03,  6.82s/it][A  [OK] Task 4 Ep 144: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  58%|█████▊    | 145/250 [17:06<11:48,  6.75s/it][A  [OK] Task 4 Ep 145: SUCCESS (steps=141)
+
+pick up the ketchup and place ...:  58%|█████▊    | 146/250 [17:13<11:38,  6.72s/it][A  [OK] Task 4 Ep 146: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  59%|█████▉    | 147/250 [17:19<11:31,  6.72s/it][A  [OK] Task 4 Ep 147: SUCCESS (steps=149)
+
+pick up the ketchup and place ...:  59%|█████▉    | 148/250 [17:26<11:29,  6.76s/it][A  [OK] Task 4 Ep 148: SUCCESS (steps=141)
+
+pick up the ketchup and place ...:  60%|█████▉    | 149/250 [17:33<11:16,  6.70s/it][A  [OK] Task 4 Ep 149: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  60%|██████    | 150/250 [17:40<11:18,  6.79s/it][A  [OK] Task 4 Ep 150: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  60%|██████    | 151/250 [17:46<11:04,  6.71s/it][A  [OK] Task 4 Ep 151: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  61%|██████    | 152/250 [17:53<10:59,  6.73s/it][A  [OK] Task 4 Ep 152: SUCCESS (steps=140)
+
+pick up the ketchup and place ...:  61%|██████    | 153/250 [17:59<10:44,  6.64s/it][A  [OK] Task 4 Ep 153: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  62%|██████▏   | 154/250 [18:06<10:40,  6.67s/it][A  [OK] Task 4 Ep 154: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  62%|██████▏   | 155/250 [18:13<10:35,  6.69s/it][A  [OK] Task 4 Ep 155: SUCCESS (steps=149)
+
+pick up the ketchup and place ...:  62%|██████▏   | 156/250 [18:20<10:47,  6.89s/it][A  [OK] Task 4 Ep 156: SUCCESS (steps=139)
+
+pick up the ketchup and place ...:  63%|██████▎   | 157/250 [18:27<10:27,  6.75s/it][A  [OK] Task 4 Ep 157: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  63%|██████▎   | 158/250 [18:34<10:39,  6.95s/it][A  [OK] Task 4 Ep 158: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  64%|██████▎   | 159/250 [18:41<10:26,  6.88s/it][A  [OK] Task 4 Ep 159: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  64%|██████▍   | 160/250 [18:47<10:11,  6.79s/it][A  [OK] Task 4 Ep 160: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  64%|██████▍   | 161/250 [18:54<09:57,  6.72s/it][A  [OK] Task 4 Ep 161: SUCCESS (steps=151)
+
+pick up the ketchup and place ...:  65%|██████▍   | 162/250 [19:01<09:54,  6.76s/it][A  [OK] Task 4 Ep 162: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  65%|██████▌   | 163/250 [19:07<09:40,  6.67s/it][A  [OK] Task 4 Ep 163: SUCCESS (steps=141)
+
+pick up the ketchup and place ...:  66%|██████▌   | 164/250 [19:14<09:30,  6.64s/it][A  [OK] Task 4 Ep 164: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  66%|██████▌   | 165/250 [19:20<09:24,  6.64s/it][A  [OK] Task 4 Ep 165: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  66%|██████▋   | 166/250 [19:27<09:18,  6.64s/it][A  [OK] Task 4 Ep 166: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  67%|██████▋   | 167/250 [19:34<09:21,  6.77s/it][A  [OK] Task 4 Ep 167: SUCCESS (steps=142)
+
+pick up the ketchup and place ...:  67%|██████▋   | 168/250 [19:41<09:15,  6.77s/it][A  [OK] Task 4 Ep 168: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  68%|██████▊   | 169/250 [19:48<09:06,  6.74s/it][A  [OK] Task 4 Ep 169: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  68%|██████▊   | 170/250 [19:54<08:53,  6.67s/it][A  [OK] Task 4 Ep 170: SUCCESS (steps=139)
+
+pick up the ketchup and place ...:  68%|██████▊   | 171/250 [20:00<08:37,  6.55s/it][A  [OK] Task 4 Ep 171: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  69%|██████▉   | 172/250 [20:07<08:33,  6.58s/it][A  [OK] Task 4 Ep 172: SUCCESS (steps=141)
+
+pick up the ketchup and place ...:  69%|██████▉   | 173/250 [20:14<08:24,  6.56s/it][A  [OK] Task 4 Ep 173: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  70%|██████▉   | 174/250 [20:20<08:22,  6.61s/it][A  [OK] Task 4 Ep 174: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  70%|███████   | 175/250 [20:29<08:55,  7.14s/it][A  [OK] Task 4 Ep 175: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  70%|███████   | 176/250 [20:35<08:35,  6.97s/it][A  [OK] Task 4 Ep 176: SUCCESS (steps=142)
+
+pick up the ketchup and place ...:  71%|███████   | 177/250 [20:42<08:18,  6.83s/it][A  [OK] Task 4 Ep 177: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  71%|███████   | 178/250 [20:49<08:09,  6.80s/it][A  [OK] Task 4 Ep 178: SUCCESS (steps=140)
+
+pick up the ketchup and place ...:  72%|███████▏  | 179/250 [20:55<07:55,  6.70s/it][A  [OK] Task 4 Ep 179: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  72%|███████▏  | 180/250 [21:01<07:44,  6.64s/it][A  [OK] Task 4 Ep 180: SUCCESS (steps=149)
+
+pick up the ketchup and place ...:  72%|███████▏  | 181/250 [21:09<07:49,  6.80s/it][A  [OK] Task 4 Ep 181: SUCCESS (steps=142)
+
+pick up the ketchup and place ...:  73%|███████▎  | 182/250 [21:15<07:33,  6.67s/it][A  [OK] Task 4 Ep 182: SUCCESS (steps=140)
+
+pick up the ketchup and place ...:  73%|███████▎  | 183/250 [21:21<07:21,  6.58s/it][A  [OK] Task 4 Ep 183: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  74%|███████▎  | 184/250 [21:28<07:14,  6.59s/it][A  [OK] Task 4 Ep 184: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  74%|███████▍  | 185/250 [21:35<07:09,  6.61s/it][A  [OK] Task 4 Ep 185: SUCCESS (steps=140)
+
+pick up the ketchup and place ...:  74%|███████▍  | 186/250 [21:42<07:08,  6.70s/it][A  [OK] Task 4 Ep 186: SUCCESS (steps=150)
+
+pick up the ketchup and place ...:  75%|███████▍  | 187/250 [21:49<07:08,  6.80s/it][A  [OK] Task 4 Ep 187: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  75%|███████▌  | 188/250 [21:55<06:57,  6.74s/it][A  [OK] Task 4 Ep 188: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  76%|███████▌  | 189/250 [22:02<06:52,  6.77s/it][A  [OK] Task 4 Ep 189: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  76%|███████▌  | 190/250 [22:09<06:45,  6.76s/it][A  [OK] Task 4 Ep 190: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  76%|███████▋  | 191/250 [22:15<06:33,  6.67s/it][A  [OK] Task 4 Ep 191: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  77%|███████▋  | 192/250 [22:22<06:24,  6.63s/it][A  [OK] Task 4 Ep 192: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  77%|███████▋  | 193/250 [22:29<06:35,  6.94s/it][A  [OK] Task 4 Ep 193: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  78%|███████▊  | 194/250 [22:36<06:22,  6.83s/it][A  [OK] Task 4 Ep 194: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  78%|███████▊  | 195/250 [22:43<06:16,  6.85s/it][A  [OK] Task 4 Ep 195: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  78%|███████▊  | 196/250 [22:49<06:05,  6.77s/it][A  [OK] Task 4 Ep 196: SUCCESS (steps=140)
+
+pick up the ketchup and place ...:  79%|███████▉  | 197/250 [22:56<05:53,  6.67s/it][A  [OK] Task 4 Ep 197: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  79%|███████▉  | 198/250 [23:02<05:44,  6.63s/it][A  [OK] Task 4 Ep 198: SUCCESS (steps=149)
+
+pick up the ketchup and place ...:  80%|███████▉  | 199/250 [23:09<05:37,  6.62s/it][A  [OK] Task 4 Ep 199: SUCCESS (steps=141)
+
+pick up the ketchup and place ...:  80%|████████  | 200/250 [23:16<05:28,  6.57s/it][A  [OK] Task 4 Ep 200: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  80%|████████  | 201/250 [23:22<05:20,  6.53s/it][A  [OK] Task 4 Ep 201: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  81%|████████  | 202/250 [23:29<05:23,  6.73s/it][A  [OK] Task 4 Ep 202: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  81%|████████  | 203/250 [23:36<05:13,  6.68s/it][A  [OK] Task 4 Ep 203: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  82%|████████▏ | 204/250 [23:42<05:03,  6.61s/it][A  [OK] Task 4 Ep 204: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  82%|████████▏ | 205/250 [23:49<04:58,  6.63s/it][A  [OK] Task 4 Ep 205: SUCCESS (steps=157)
+
+pick up the ketchup and place ...:  82%|████████▏ | 206/250 [23:56<05:03,  6.89s/it][A  [OK] Task 4 Ep 206: SUCCESS (steps=150)
+
+pick up the ketchup and place ...:  83%|████████▎ | 207/250 [24:04<05:05,  7.11s/it][A  [OK] Task 4 Ep 207: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  83%|████████▎ | 208/250 [24:11<05:03,  7.23s/it][A  [OK] Task 4 Ep 208: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  84%|████████▎ | 209/250 [24:18<04:47,  7.02s/it][A  [OK] Task 4 Ep 209: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  84%|████████▍ | 210/250 [24:25<04:39,  7.00s/it][A  [OK] Task 4 Ep 210: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  84%|████████▍ | 211/250 [24:32<04:28,  6.88s/it][A  [OK] Task 4 Ep 211: SUCCESS (steps=148)
+
+pick up the ketchup and place ...:  85%|████████▍ | 212/250 [24:38<04:20,  6.84s/it][A  [OK] Task 4 Ep 212: SUCCESS (steps=148)
+
+pick up the ketchup and place ...:  85%|████████▌ | 213/250 [24:45<04:11,  6.78s/it][A  [OK] Task 4 Ep 213: SUCCESS (steps=139)
+
+pick up the ketchup and place ...:  86%|████████▌ | 214/250 [24:51<04:00,  6.67s/it][A  [OK] Task 4 Ep 214: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  86%|████████▌ | 215/250 [24:58<03:54,  6.69s/it][A  [OK] Task 4 Ep 215: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  86%|████████▋ | 216/250 [25:05<03:46,  6.67s/it][A  [OK] Task 4 Ep 216: SUCCESS (steps=141)
+
+pick up the ketchup and place ...:  87%|████████▋ | 217/250 [25:11<03:37,  6.59s/it][A  [OK] Task 4 Ep 217: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  87%|████████▋ | 218/250 [25:17<03:28,  6.51s/it][A  [OK] Task 4 Ep 218: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  88%|████████▊ | 219/250 [25:24<03:22,  6.52s/it][A  [OK] Task 4 Ep 219: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  88%|████████▊ | 220/250 [25:31<03:18,  6.62s/it][A  [OK] Task 4 Ep 220: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  88%|████████▊ | 221/250 [25:38<03:17,  6.82s/it][A  [OK] Task 4 Ep 221: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  89%|████████▉ | 222/250 [25:45<03:08,  6.72s/it][A  [OK] Task 4 Ep 222: SUCCESS (steps=148)
+
+pick up the ketchup and place ...:  89%|████████▉ | 223/250 [25:51<03:01,  6.72s/it][A  [OK] Task 4 Ep 223: SUCCESS (steps=148)
+
+pick up the ketchup and place ...:  90%|████████▉ | 224/250 [25:58<02:53,  6.68s/it][A  [OK] Task 4 Ep 224: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  90%|█████████ | 225/250 [26:05<02:46,  6.65s/it][A  [OK] Task 4 Ep 225: SUCCESS (steps=149)
+
+pick up the ketchup and place ...:  90%|█████████ | 226/250 [26:11<02:39,  6.65s/it][A  [OK] Task 4 Ep 226: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  91%|█████████ | 227/250 [26:18<02:34,  6.70s/it][A  [OK] Task 4 Ep 227: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  91%|█████████ | 228/250 [26:25<02:26,  6.68s/it][A  [OK] Task 4 Ep 228: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  92%|█████████▏| 229/250 [26:31<02:20,  6.69s/it][A  [OK] Task 4 Ep 229: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  92%|█████████▏| 230/250 [26:38<02:12,  6.61s/it][A  [OK] Task 4 Ep 230: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  92%|█████████▏| 231/250 [26:44<02:05,  6.59s/it][A  [OK] Task 4 Ep 231: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  93%|█████████▎| 232/250 [26:51<01:58,  6.60s/it][A  [OK] Task 4 Ep 232: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  93%|█████████▎| 233/250 [26:58<01:52,  6.60s/it][A  [OK] Task 4 Ep 233: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  94%|█████████▎| 234/250 [27:04<01:45,  6.59s/it][A  [OK] Task 4 Ep 234: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  94%|█████████▍| 235/250 [27:11<01:38,  6.57s/it][A  [OK] Task 4 Ep 235: SUCCESS (steps=144)
+
+pick up the ketchup and place ...:  94%|█████████▍| 236/250 [27:17<01:31,  6.54s/it][A  [OK] Task 4 Ep 236: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  95%|█████████▍| 237/250 [27:24<01:25,  6.54s/it][A  [OK] Task 4 Ep 237: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  95%|█████████▌| 238/250 [27:31<01:21,  6.82s/it][A  [OK] Task 4 Ep 238: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  96%|█████████▌| 239/250 [27:38<01:14,  6.75s/it][A  [OK] Task 4 Ep 239: SUCCESS (steps=143)
+
+pick up the ketchup and place ...:  96%|█████████▌| 240/250 [27:44<01:06,  6.65s/it][A  [OK] Task 4 Ep 240: SUCCESS (steps=152)
+
+pick up the ketchup and place ...:  96%|█████████▋| 241/250 [27:51<01:00,  6.70s/it][A  [OK] Task 4 Ep 241: SUCCESS (steps=149)
+
+pick up the ketchup and place ...:  97%|█████████▋| 242/250 [27:58<00:53,  6.70s/it][A  [OK] Task 4 Ep 242: SUCCESS (steps=148)
+
+pick up the ketchup and place ...:  97%|█████████▋| 243/250 [28:04<00:46,  6.68s/it][A  [OK] Task 4 Ep 243: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  98%|█████████▊| 244/250 [28:11<00:39,  6.65s/it][A  [OK] Task 4 Ep 244: SUCCESS (steps=146)
+
+pick up the ketchup and place ...:  98%|█████████▊| 245/250 [28:17<00:33,  6.65s/it][A  [OK] Task 4 Ep 245: SUCCESS (steps=145)
+
+pick up the ketchup and place ...:  98%|█████████▊| 246/250 [28:25<00:27,  6.81s/it][A  [OK] Task 4 Ep 246: SUCCESS (steps=140)
+
+pick up the ketchup and place ...:  99%|█████████▉| 247/250 [28:31<00:20,  6.81s/it][A  [OK] Task 4 Ep 247: SUCCESS (steps=147)
+
+pick up the ketchup and place ...:  99%|█████████▉| 248/250 [28:38<00:13,  6.75s/it][A  [OK] Task 4 Ep 248: SUCCESS (steps=147)
+
+pick up the ketchup and place ...: 100%|█████████▉| 249/250 [28:45<00:06,  6.88s/it][A  [OK] Task 4 Ep 249: SUCCESS (steps=139)
+
+pick up the ketchup and place ...: 100%|██████████| 250/250 [28:52<00:00,  6.71s/it][A
+                                                                                    [A   Task 4: 250/250 (100.0%)
+Tasks:   0%|          | 0/1 [28:59<?, ?it/s]
+
+Total success rate: 250/250 (100.0%)

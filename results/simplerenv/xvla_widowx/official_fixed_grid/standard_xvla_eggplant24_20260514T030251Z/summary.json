@@ -1,0 +1,32 @@
+{
+  "policy": "xvla",
+  "task": "eggplant",
+  "standard_horizon": 120,
+  "success_standard_horizon": 15,
+  "success_rate_standard_horizon": 0.625,
+  "success_released_client": 20,
+  "success_rate_released_client": 0.8333333333333334,
+  "total": 24,
+  "late_successes": [
+    {
+      "proc_id": 5,
+      "steps": 209
+    },
+    {
+      "proc_id": 8,
+      "steps": 517
+    },
+    {
+      "proc_id": 11,
+      "steps": 247
+    },
+    {
+      "proc_id": 12,
+      "steps": 239
+    },
+    {
+      "proc_id": 14,
+      "steps": 391
+    }
+  ]
+}

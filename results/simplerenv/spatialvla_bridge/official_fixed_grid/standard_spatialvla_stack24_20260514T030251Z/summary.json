@@ -1,0 +1,15 @@
+{
+  "policy": "spatialvla",
+  "task_filter": "stack",
+  "success": 5,
+  "total": 24,
+  "success_rate": 0.20833333333333334,
+  "by_task": {
+    "stack": {
+      "success": 5,
+      "total": 24,
+      "success_rate": 0.20833333333333334
+    }
+  },
+  "result_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/spatialvla_bridge/official_fixed_grid/standard_spatialvla_stack24_20260514T030251Z/videos"
+}

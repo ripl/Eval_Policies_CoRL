@@ -1,0 +1,16 @@
+policy,task,success_standard_horizon,total,success_rate_standard_horizon,success_released_or_long_horizon,success_rate_released_or_long_horizon,job_id,note,summary_path
+cogact,stack,5,24,0.20833333333333334,,,2042243,standard,results/simplerenv/cogact_base/official_fixed_grid/standard_cogact_stack24_20260514T025425Z/summary.json
+cogact,carrot,10,24,0.4166666666666667,,,2042244,standard,results/simplerenv/cogact_base/official_fixed_grid/standard_cogact_carrot24_20260514T025425Z/summary.json
+cogact,spoon,18,24,0.75,18,0.75,2042044,reused_standard_clipped,results/simplerenv/cogact_base/official_fixed_grid/official_spoon24_20260513T230450Z/summary.json
+cogact,eggplant,15,24,0.625,,,2042245,standard,results/simplerenv/cogact_base/official_fixed_grid/standard_cogact_eggplant24_20260514T025425Z/summary.json
+xvla,stack,13,24,0.5416666666666666,21,0.875,2042259,standard_from_released_long_client,results/simplerenv/xvla_widowx/official_fixed_grid/standard_xvla_stack24_20260514T030251Z/summary.json
+xvla,carrot,18,24,0.75,24,1.0,2042260,standard_from_released_long_client,results/simplerenv/xvla_widowx/official_fixed_grid/standard_xvla_carrot24_20260514T030251Z/summary.json
+xvla,spoon,22,24,0.9166666666666666,24,1.0,2042067,reused_standard_clipped_from_released_long_client,results/simplerenv/xvla_widowx/official_fixed_grid/official_xvla_spoon24_20260514T001254Z/summary.json
+xvla,eggplant,15,24,0.625,20,0.8333333333333334,2042261,standard_from_released_long_client,results/simplerenv/xvla_widowx/official_fixed_grid/standard_xvla_eggplant24_20260514T030251Z/summary.json
+spatialvla,stack,5,24,0.20833333333333334,,,2042262,standard,results/simplerenv/spatialvla_bridge/official_fixed_grid/standard_spatialvla_stack24_20260514T030251Z/summary.json
+spatialvla,carrot,5,24,0.20833333333333334,,,2042263,standard,results/simplerenv/spatialvla_bridge/official_fixed_grid/standard_spatialvla_carrot24_20260514T030251Z/summary.json
+spatialvla,spoon,4,24,0.16666666666666666,,,2042264,standard,results/simplerenv/spatialvla_bridge/official_fixed_grid/standard_spatialvla_spoon24_20260514T030251Z/summary.json
+spatialvla,eggplant,24,24,1.0,,,2042162,reused_standard,results/simplerenv/spatialvla_bridge/official_fixed_grid/official_spatialvla_eggplant24_20260514T0125_eef_optional/summary.json
+cogact,average_4x24,48,96,0.5,,,,aggregate_over_four_tasks_standard_horizon,
+xvla,average_4x24,68,96,0.7083333333333334,89,0.9270833333333334,,aggregate_over_four_tasks_standard_horizon,
+spatialvla,average_4x24,38,96,0.3958333333333333,,,,aggregate_over_four_tasks_standard_horizon,

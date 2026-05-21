@@ -1,0 +1,10 @@
+{
+  "policy_name": "simvla",
+  "suite": "libero_goal",
+  "episode_csv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/libero/layer2_full/layer2_full_48g_no_g0g7_20260519T202906Z/simvla/libero_goal/task_7/episodes.csv",
+  "rows": 250,
+  "successes": 250,
+  "errors": 0,
+  "videos": 0,
+  "validation_status": "passed"
+}

@@ -1,0 +1,18 @@
+{
+  "policy": "cogact",
+  "protocol": "widowx_protocol3_stack_yellow_on_green_protocol1_positions",
+  "task_filter": "stack",
+  "episode_start": 0,
+  "episode_end": 1,
+  "success": 0,
+  "total": 1,
+  "success_rate": 0.0,
+  "by_task": {
+    "stack": {
+      "success": 0,
+      "total": 1,
+      "success_rate": 0.0
+    }
+  },
+  "result_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/cogact_base/protocol3_stack_yellow_on_green_protocol1_positions/protocol3_stack_yellow_on_green_100_cogact_2046072_0/videos"
+}

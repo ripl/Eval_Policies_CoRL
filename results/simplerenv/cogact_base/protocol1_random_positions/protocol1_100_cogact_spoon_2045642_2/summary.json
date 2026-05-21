@@ -1,0 +1,18 @@
+{
+  "policy": "cogact",
+  "protocol": "widowx_protocol1_random_positions",
+  "task_filter": "spoon",
+  "episode_start": 0,
+  "episode_end": 1,
+  "success": 1,
+  "total": 1,
+  "success_rate": 1.0,
+  "by_task": {
+    "spoon": {
+      "success": 1,
+      "total": 1,
+      "success_rate": 1.0
+    }
+  },
+  "result_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/cogact_base/protocol1_random_positions/protocol1_100_cogact_spoon_2045642_2/videos"
+}

@@ -1,0 +1,15 @@
+{
+  "policy": "xvla",
+  "protocol": "widowx_protocol1_random_positions",
+  "task": "stack",
+  "episode_start": 0,
+  "episode_end": 100,
+  "standard_horizon": 60,
+  "client_max_steps": 60,
+  "success_standard_horizon": 67,
+  "success_rate_standard_horizon": 0.67,
+  "success_client_horizon": 67,
+  "success_rate_client_horizon": 0.67,
+  "total": 100,
+  "late_successes": []
+}

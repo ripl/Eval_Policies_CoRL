@@ -1,0 +1,523 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8524
+   Task suite: libero_goal
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_goal
+   Tasks: 10, Trials per task: 250
+   Max steps: 800
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+put the bowl on the plate...:   0%|          | 0/250 [00:00<?, ?it/s][A  [OK] Task 8 Ep 0: SUCCESS (steps=89)
+
+put the bowl on the plate...:   0%|          | 1/250 [00:05<22:11,  5.35s/it][A  [OK] Task 8 Ep 1: SUCCESS (steps=92)
+
+put the bowl on the plate...:   1%|          | 2/250 [00:10<20:58,  5.07s/it][A  [OK] Task 8 Ep 2: SUCCESS (steps=89)
+
+put the bowl on the plate...:   1%|          | 3/250 [00:14<20:11,  4.90s/it][A  [OK] Task 8 Ep 3: SUCCESS (steps=82)
+
+put the bowl on the plate...:   2%|▏         | 4/250 [00:19<19:25,  4.74s/it][A  [OK] Task 8 Ep 4: SUCCESS (steps=86)
+
+put the bowl on the plate...:   2%|▏         | 5/250 [00:24<19:41,  4.82s/it][A  [OK] Task 8 Ep 5: SUCCESS (steps=90)
+
+put the bowl on the plate...:   2%|▏         | 6/250 [00:29<20:38,  5.08s/it][A  [OK] Task 8 Ep 6: SUCCESS (steps=85)
+
+put the bowl on the plate...:   3%|▎         | 7/250 [00:34<20:21,  5.03s/it][A  [OK] Task 8 Ep 7: SUCCESS (steps=89)
+
+put the bowl on the plate...:   3%|▎         | 8/250 [00:41<22:51,  5.67s/it][A  [OK] Task 8 Ep 8: SUCCESS (steps=86)
+
+put the bowl on the plate...:   4%|▎         | 9/250 [00:46<21:52,  5.45s/it][A  [OK] Task 8 Ep 9: SUCCESS (steps=90)
+
+put the bowl on the plate...:   4%|▍         | 10/250 [00:51<21:00,  5.25s/it][A  [OK] Task 8 Ep 10: SUCCESS (steps=84)
+
+put the bowl on the plate...:   4%|▍         | 11/250 [00:56<20:01,  5.03s/it][A  [OK] Task 8 Ep 11: SUCCESS (steps=86)
+
+put the bowl on the plate...:   5%|▍         | 12/250 [01:00<19:33,  4.93s/it][A  [OK] Task 8 Ep 12: SUCCESS (steps=408)
+
+put the bowl on the plate...:   5%|▌         | 13/250 [01:17<33:33,  8.49s/it][A  [OK] Task 8 Ep 13: SUCCESS (steps=82)
+
+put the bowl on the plate...:   6%|▌         | 14/250 [01:22<28:41,  7.30s/it][A  [OK] Task 8 Ep 14: SUCCESS (steps=94)
+
+put the bowl on the plate...:   6%|▌         | 15/250 [01:27<25:48,  6.59s/it][A  [OK] Task 8 Ep 15: SUCCESS (steps=96)
+
+put the bowl on the plate...:   6%|▋         | 16/250 [01:32<23:57,  6.14s/it][A  [OK] Task 8 Ep 16: SUCCESS (steps=85)
+
+put the bowl on the plate...:   7%|▋         | 17/250 [01:37<22:30,  5.80s/it][A  [OK] Task 8 Ep 17: SUCCESS (steps=86)
+
+put the bowl on the plate...:   7%|▋         | 18/250 [01:42<21:27,  5.55s/it][A  [OK] Task 8 Ep 18: SUCCESS (steps=91)
+
+put the bowl on the plate...:   8%|▊         | 19/250 [01:47<21:06,  5.48s/it][A  [OK] Task 8 Ep 19: SUCCESS (steps=92)
+
+put the bowl on the plate...:   8%|▊         | 20/250 [01:52<20:48,  5.43s/it][A  [OK] Task 8 Ep 20: SUCCESS (steps=92)
+
+put the bowl on the plate...:   8%|▊         | 21/250 [01:57<20:05,  5.26s/it][A  [OK] Task 8 Ep 21: SUCCESS (steps=89)
+
+put the bowl on the plate...:   9%|▉         | 22/250 [02:02<19:19,  5.09s/it][A  [OK] Task 8 Ep 22: SUCCESS (steps=89)
+
+put the bowl on the plate...:   9%|▉         | 23/250 [02:07<18:49,  4.98s/it][A  [OK] Task 8 Ep 23: SUCCESS (steps=122)
+
+put the bowl on the plate...:  10%|▉         | 24/250 [02:12<19:46,  5.25s/it][A  [OK] Task 8 Ep 24: SUCCESS (steps=95)
+
+put the bowl on the plate...:  10%|█         | 25/250 [02:17<19:26,  5.18s/it][A  [OK] Task 8 Ep 25: SUCCESS (steps=85)
+
+put the bowl on the plate...:  10%|█         | 26/250 [02:22<18:48,  5.04s/it][A  [OK] Task 8 Ep 26: SUCCESS (steps=87)
+
+put the bowl on the plate...:  11%|█         | 27/250 [02:27<18:25,  4.96s/it][A  [OK] Task 8 Ep 27: SUCCESS (steps=90)
+
+put the bowl on the plate...:  11%|█         | 28/250 [02:32<18:13,  4.92s/it][A  [OK] Task 8 Ep 28: SUCCESS (steps=85)
+
+put the bowl on the plate...:  12%|█▏        | 29/250 [02:38<19:56,  5.41s/it][A  [OK] Task 8 Ep 29: SUCCESS (steps=83)
+
+put the bowl on the plate...:  12%|█▏        | 30/250 [02:43<18:48,  5.13s/it][A  [OK] Task 8 Ep 30: SUCCESS (steps=85)
+
+put the bowl on the plate...:  12%|█▏        | 31/250 [02:47<18:11,  4.98s/it][A  [OK] Task 8 Ep 31: SUCCESS (steps=86)
+
+put the bowl on the plate...:  13%|█▎        | 32/250 [02:52<17:42,  4.88s/it][A  [OK] Task 8 Ep 32: SUCCESS (steps=85)
+
+put the bowl on the plate...:  13%|█▎        | 33/250 [02:57<17:24,  4.81s/it][A  [OK] Task 8 Ep 33: SUCCESS (steps=89)
+
+put the bowl on the plate...:  14%|█▎        | 34/250 [03:02<17:24,  4.84s/it][A  [OK] Task 8 Ep 34: SUCCESS (steps=85)
+
+put the bowl on the plate...:  14%|█▍        | 35/250 [03:07<17:40,  4.93s/it][A  [OK] Task 8 Ep 35: SUCCESS (steps=83)
+
+put the bowl on the plate...:  14%|█▍        | 36/250 [03:11<17:09,  4.81s/it][A  [OK] Task 8 Ep 36: SUCCESS (steps=90)
+
+put the bowl on the plate...:  15%|█▍        | 37/250 [03:17<18:06,  5.10s/it][A  [OK] Task 8 Ep 37: SUCCESS (steps=85)
+
+put the bowl on the plate...:  15%|█▌        | 38/250 [03:22<17:38,  4.99s/it][A  [OK] Task 8 Ep 38: SUCCESS (steps=85)
+
+put the bowl on the plate...:  16%|█▌        | 39/250 [03:27<17:13,  4.90s/it][A  [OK] Task 8 Ep 39: SUCCESS (steps=87)
+
+put the bowl on the plate...:  16%|█▌        | 40/250 [03:31<17:01,  4.86s/it][A  [OK] Task 8 Ep 40: SUCCESS (steps=78)
+
+put the bowl on the plate...:  16%|█▋        | 41/250 [03:36<16:20,  4.69s/it][A  [OK] Task 8 Ep 41: SUCCESS (steps=84)
+
+put the bowl on the plate...:  17%|█▋        | 42/250 [03:40<16:13,  4.68s/it][A  [OK] Task 8 Ep 42: SUCCESS (steps=84)
+
+put the bowl on the plate...:  17%|█▋        | 43/250 [03:45<16:15,  4.71s/it][A  [OK] Task 8 Ep 43: SUCCESS (steps=86)
+
+put the bowl on the plate...:  18%|█▊        | 44/250 [03:50<16:22,  4.77s/it][A  [OK] Task 8 Ep 44: SUCCESS (steps=92)
+
+put the bowl on the plate...:  18%|█▊        | 45/250 [03:55<16:34,  4.85s/it][A  [OK] Task 8 Ep 45: SUCCESS (steps=85)
+
+put the bowl on the plate...:  18%|█▊        | 46/250 [04:00<16:36,  4.88s/it][A  [OK] Task 8 Ep 46: SUCCESS (steps=87)
+
+put the bowl on the plate...:  19%|█▉        | 47/250 [04:05<16:24,  4.85s/it][A  [OK] Task 8 Ep 47: SUCCESS (steps=91)
+
+put the bowl on the plate...:  19%|█▉        | 48/250 [04:10<16:25,  4.88s/it][A  [OK] Task 8 Ep 48: SUCCESS (steps=91)
+
+put the bowl on the plate...:  20%|█▉        | 49/250 [04:15<16:18,  4.87s/it][A  [OK] Task 8 Ep 49: SUCCESS (steps=100)
+
+put the bowl on the plate...:  20%|██        | 50/250 [04:20<16:35,  4.98s/it][A  [OK] Task 8 Ep 50: SUCCESS (steps=99)
+
+put the bowl on the plate...:  20%|██        | 51/250 [04:25<16:38,  5.02s/it][A  [OK] Task 8 Ep 51: SUCCESS (steps=86)
+
+put the bowl on the plate...:  21%|██        | 52/250 [04:30<16:13,  4.92s/it][A  [OK] Task 8 Ep 52: SUCCESS (steps=92)
+
+put the bowl on the plate...:  21%|██        | 53/250 [04:34<16:06,  4.91s/it][A  [OK] Task 8 Ep 53: SUCCESS (steps=83)
+
+put the bowl on the plate...:  22%|██▏       | 54/250 [04:40<16:38,  5.09s/it][A  [OK] Task 8 Ep 54: SUCCESS (steps=89)
+
+put the bowl on the plate...:  22%|██▏       | 55/250 [04:45<16:07,  4.96s/it][A  [OK] Task 8 Ep 55: SUCCESS (steps=86)
+
+put the bowl on the plate...:  22%|██▏       | 56/250 [04:49<15:48,  4.89s/it][A  [OK] Task 8 Ep 56: SUCCESS (steps=86)
+
+put the bowl on the plate...:  23%|██▎       | 57/250 [04:54<15:36,  4.85s/it][A  [OK] Task 8 Ep 57: SUCCESS (steps=83)
+
+put the bowl on the plate...:  23%|██▎       | 58/250 [04:59<15:13,  4.76s/it][A  [OK] Task 8 Ep 58: SUCCESS (steps=84)
+
+put the bowl on the plate...:  24%|██▎       | 59/250 [05:03<14:57,  4.70s/it][A  [OK] Task 8 Ep 59: SUCCESS (steps=90)
+
+put the bowl on the plate...:  24%|██▍       | 60/250 [05:08<15:02,  4.75s/it][A  [OK] Task 8 Ep 60: SUCCESS (steps=93)
+
+put the bowl on the plate...:  24%|██▍       | 61/250 [05:13<15:04,  4.79s/it][A  [OK] Task 8 Ep 61: SUCCESS (steps=88)
+
+put the bowl on the plate...:  25%|██▍       | 62/250 [05:18<14:56,  4.77s/it][A  [OK] Task 8 Ep 62: SUCCESS (steps=88)
+
+put the bowl on the plate...:  25%|██▌       | 63/250 [05:22<14:45,  4.73s/it][A  [OK] Task 8 Ep 63: SUCCESS (steps=85)
+
+put the bowl on the plate...:  26%|██▌       | 64/250 [05:27<14:34,  4.70s/it][A  [OK] Task 8 Ep 64: SUCCESS (steps=83)
+
+put the bowl on the plate...:  26%|██▌       | 65/250 [05:31<14:19,  4.65s/it][A  [OK] Task 8 Ep 65: SUCCESS (steps=89)
+
+put the bowl on the plate...:  26%|██▋       | 66/250 [05:36<14:24,  4.70s/it][A  [OK] Task 8 Ep 66: SUCCESS (steps=83)
+
+put the bowl on the plate...:  27%|██▋       | 67/250 [05:41<14:13,  4.66s/it][A  [OK] Task 8 Ep 67: SUCCESS (steps=85)
+
+put the bowl on the plate...:  27%|██▋       | 68/250 [05:45<14:05,  4.65s/it][A  [OK] Task 8 Ep 68: SUCCESS (steps=85)
+
+put the bowl on the plate...:  28%|██▊       | 69/250 [05:50<14:05,  4.67s/it][A  [OK] Task 8 Ep 69: SUCCESS (steps=91)
+
+put the bowl on the plate...:  28%|██▊       | 70/250 [05:55<14:07,  4.71s/it][A  [OK] Task 8 Ep 70: SUCCESS (steps=86)
+
+put the bowl on the plate...:  28%|██▊       | 71/250 [06:00<14:08,  4.74s/it][A  [OK] Task 8 Ep 71: SUCCESS (steps=83)
+
+put the bowl on the plate...:  29%|██▉       | 72/250 [06:05<14:09,  4.77s/it][A  [OK] Task 8 Ep 72: SUCCESS (steps=88)
+
+put the bowl on the plate...:  29%|██▉       | 73/250 [06:10<14:17,  4.84s/it][A  [OK] Task 8 Ep 73: SUCCESS (steps=86)
+
+put the bowl on the plate...:  30%|██▉       | 74/250 [06:15<14:53,  5.08s/it][A  [OK] Task 8 Ep 74: SUCCESS (steps=88)
+
+put the bowl on the plate...:  30%|███       | 75/250 [06:21<15:04,  5.17s/it][A  [OK] Task 8 Ep 75: SUCCESS (steps=87)
+
+put the bowl on the plate...:  30%|███       | 76/250 [06:25<14:39,  5.05s/it][A  [OK] Task 8 Ep 76: SUCCESS (steps=87)
+
+put the bowl on the plate...:  31%|███       | 77/250 [06:31<14:46,  5.12s/it][A  [OK] Task 8 Ep 77: SUCCESS (steps=135)
+
+put the bowl on the plate...:  31%|███       | 78/250 [06:37<15:47,  5.51s/it][A  [OK] Task 8 Ep 78: SUCCESS (steps=87)
+
+put the bowl on the plate...:  32%|███▏      | 79/250 [06:42<15:03,  5.28s/it][A  [OK] Task 8 Ep 79: SUCCESS (steps=94)
+
+put the bowl on the plate...:  32%|███▏      | 80/250 [06:47<14:38,  5.17s/it][A  [OK] Task 8 Ep 80: SUCCESS (steps=93)
+
+put the bowl on the plate...:  32%|███▏      | 81/250 [06:52<14:20,  5.09s/it][A  [OK] Task 8 Ep 81: SUCCESS (steps=91)
+
+put the bowl on the plate...:  33%|███▎      | 82/250 [06:57<14:07,  5.04s/it][A  [OK] Task 8 Ep 82: SUCCESS (steps=82)
+
+put the bowl on the plate...:  33%|███▎      | 83/250 [07:01<13:33,  4.87s/it][A  [OK] Task 8 Ep 83: SUCCESS (steps=89)
+
+put the bowl on the plate...:  34%|███▎      | 84/250 [07:06<13:26,  4.86s/it][A  [OK] Task 8 Ep 84: SUCCESS (steps=90)
+
+put the bowl on the plate...:  34%|███▍      | 85/250 [07:11<13:17,  4.83s/it][A  [OK] Task 8 Ep 85: SUCCESS (steps=84)
+
+put the bowl on the plate...:  34%|███▍      | 86/250 [07:15<13:01,  4.77s/it][A  [OK] Task 8 Ep 86: SUCCESS (steps=86)
+
+put the bowl on the plate...:  35%|███▍      | 87/250 [07:20<12:49,  4.72s/it][A  [OK] Task 8 Ep 87: SUCCESS (steps=85)
+
+put the bowl on the plate...:  35%|███▌      | 88/250 [07:25<12:39,  4.69s/it][A  [OK] Task 8 Ep 88: SUCCESS (steps=89)
+
+put the bowl on the plate...:  36%|███▌      | 89/250 [07:29<12:33,  4.68s/it][A  [OK] Task 8 Ep 89: SUCCESS (steps=85)
+
+put the bowl on the plate...:  36%|███▌      | 90/250 [07:34<12:22,  4.64s/it][A  [OK] Task 8 Ep 90: SUCCESS (steps=88)
+
+put the bowl on the plate...:  36%|███▋      | 91/250 [07:40<13:35,  5.13s/it][A  [OK] Task 8 Ep 91: SUCCESS (steps=87)
+
+put the bowl on the plate...:  37%|███▋      | 92/250 [07:45<13:11,  5.01s/it][A  [OK] Task 8 Ep 92: SUCCESS (steps=86)
+
+put the bowl on the plate...:  37%|███▋      | 93/250 [07:50<12:54,  4.93s/it][A  [OK] Task 8 Ep 93: SUCCESS (steps=90)
+
+put the bowl on the plate...:  38%|███▊      | 94/250 [07:54<12:44,  4.90s/it][A  [OK] Task 8 Ep 94: SUCCESS (steps=87)
+
+put the bowl on the plate...:  38%|███▊      | 95/250 [07:59<12:27,  4.82s/it][A  [OK] Task 8 Ep 95: SUCCESS (steps=88)
+
+put the bowl on the plate...:  38%|███▊      | 96/250 [08:04<12:17,  4.79s/it][A  [OK] Task 8 Ep 96: SUCCESS (steps=88)
+
+put the bowl on the plate...:  39%|███▉      | 97/250 [08:08<12:06,  4.75s/it][A  [OK] Task 8 Ep 97: SUCCESS (steps=90)
+
+put the bowl on the plate...:  39%|███▉      | 98/250 [08:13<12:06,  4.78s/it][A  [OK] Task 8 Ep 98: SUCCESS (steps=83)
+
+put the bowl on the plate...:  40%|███▉      | 99/250 [08:18<11:48,  4.69s/it][A  [OK] Task 8 Ep 99: SUCCESS (steps=86)
+
+put the bowl on the plate...:  40%|████      | 100/250 [08:23<11:51,  4.75s/it][A  [OK] Task 8 Ep 100: SUCCESS (steps=77)
+
+put the bowl on the plate...:  40%|████      | 101/250 [08:27<11:45,  4.74s/it][A  [OK] Task 8 Ep 101: SUCCESS (steps=86)
+
+put the bowl on the plate...:  41%|████      | 102/250 [08:32<11:37,  4.72s/it][A  [OK] Task 8 Ep 102: SUCCESS (steps=84)
+
+put the bowl on the plate...:  41%|████      | 103/250 [08:36<11:24,  4.66s/it][A  [OK] Task 8 Ep 103: SUCCESS (steps=87)
+
+put the bowl on the plate...:  42%|████▏     | 104/250 [08:41<11:18,  4.65s/it][A  [OK] Task 8 Ep 104: SUCCESS (steps=86)
+
+put the bowl on the plate...:  42%|████▏     | 105/250 [08:46<11:13,  4.65s/it][A  [OK] Task 8 Ep 105: SUCCESS (steps=85)
+
+put the bowl on the plate...:  42%|████▏     | 106/250 [08:50<11:10,  4.65s/it][A  [OK] Task 8 Ep 106: SUCCESS (steps=93)
+
+put the bowl on the plate...:  43%|████▎     | 107/250 [08:55<11:19,  4.75s/it][A  [OK] Task 8 Ep 107: SUCCESS (steps=84)
+
+put the bowl on the plate...:  43%|████▎     | 108/250 [09:00<11:06,  4.69s/it][A  [OK] Task 8 Ep 108: SUCCESS (steps=84)
+
+put the bowl on the plate...:  44%|████▎     | 109/250 [09:04<10:52,  4.62s/it][A  [OK] Task 8 Ep 109: SUCCESS (steps=87)
+
+put the bowl on the plate...:  44%|████▍     | 110/250 [09:09<10:49,  4.64s/it][A  [OK] Task 8 Ep 110: SUCCESS (steps=87)
+
+put the bowl on the plate...:  44%|████▍     | 111/250 [09:14<10:48,  4.66s/it][A  [OK] Task 8 Ep 111: SUCCESS (steps=91)
+
+put the bowl on the plate...:  45%|████▍     | 112/250 [09:19<10:53,  4.73s/it][A  [OK] Task 8 Ep 112: SUCCESS (steps=84)
+
+put the bowl on the plate...:  45%|████▌     | 113/250 [09:23<10:38,  4.66s/it][A  [OK] Task 8 Ep 113: SUCCESS (steps=88)
+
+put the bowl on the plate...:  46%|████▌     | 114/250 [09:28<10:34,  4.67s/it][A  [OK] Task 8 Ep 114: SUCCESS (steps=90)
+
+put the bowl on the plate...:  46%|████▌     | 115/250 [09:33<10:40,  4.74s/it][A  [OK] Task 8 Ep 115: SUCCESS (steps=80)
+
+put the bowl on the plate...:  46%|████▋     | 116/250 [09:38<11:11,  5.01s/it][A  [OK] Task 8 Ep 116: SUCCESS (steps=87)
+
+put the bowl on the plate...:  47%|████▋     | 117/250 [09:43<10:51,  4.90s/it][A  [OK] Task 8 Ep 117: SUCCESS (steps=84)
+
+put the bowl on the plate...:  47%|████▋     | 118/250 [09:48<10:34,  4.81s/it][A  [OK] Task 8 Ep 118: SUCCESS (steps=86)
+
+put the bowl on the plate...:  48%|████▊     | 119/250 [09:52<10:24,  4.77s/it][A  [OK] Task 8 Ep 119: SUCCESS (steps=85)
+
+put the bowl on the plate...:  48%|████▊     | 120/250 [09:57<10:16,  4.74s/it][A  [OK] Task 8 Ep 120: SUCCESS (steps=90)
+
+put the bowl on the plate...:  48%|████▊     | 121/250 [10:02<10:15,  4.77s/it][A  [OK] Task 8 Ep 121: SUCCESS (steps=129)
+
+put the bowl on the plate...:  49%|████▉     | 122/250 [10:08<11:03,  5.18s/it][A  [OK] Task 8 Ep 122: SUCCESS (steps=88)
+
+put the bowl on the plate...:  49%|████▉     | 123/250 [10:13<10:46,  5.09s/it][A  [OK] Task 8 Ep 123: SUCCESS (steps=87)
+
+put the bowl on the plate...:  50%|████▉     | 124/250 [10:18<10:28,  4.99s/it][A  [OK] Task 8 Ep 124: SUCCESS (steps=88)
+
+put the bowl on the plate...:  50%|█████     | 125/250 [10:22<10:19,  4.95s/it][A  [OK] Task 8 Ep 125: SUCCESS (steps=87)
+
+put the bowl on the plate...:  50%|█████     | 126/250 [10:28<10:20,  5.00s/it][A  [OK] Task 8 Ep 126: SUCCESS (steps=86)
+
+put the bowl on the plate...:  51%|█████     | 127/250 [10:33<10:22,  5.06s/it][A  [OK] Task 8 Ep 127: SUCCESS (steps=90)
+
+put the bowl on the plate...:  51%|█████     | 128/250 [10:39<10:42,  5.27s/it][A  [OK] Task 8 Ep 128: SUCCESS (steps=92)
+
+put the bowl on the plate...:  52%|█████▏    | 129/250 [10:43<10:23,  5.16s/it][A  [OK] Task 8 Ep 129: SUCCESS (steps=91)
+
+put the bowl on the plate...:  52%|█████▏    | 130/250 [10:49<10:21,  5.18s/it][A  [OK] Task 8 Ep 130: SUCCESS (steps=82)
+
+put the bowl on the plate...:  52%|█████▏    | 131/250 [10:54<10:14,  5.17s/it][A  [OK] Task 8 Ep 131: SUCCESS (steps=87)
+
+put the bowl on the plate...:  53%|█████▎    | 132/250 [10:59<09:56,  5.06s/it][A  [OK] Task 8 Ep 132: SUCCESS (steps=84)
+
+put the bowl on the plate...:  53%|█████▎    | 133/250 [11:03<09:31,  4.88s/it][A  [OK] Task 8 Ep 133: SUCCESS (steps=86)
+
+put the bowl on the plate...:  54%|█████▎    | 134/250 [11:08<09:17,  4.80s/it][A  [OK] Task 8 Ep 134: SUCCESS (steps=88)
+
+put the bowl on the plate...:  54%|█████▍    | 135/250 [11:12<09:10,  4.79s/it][A  [OK] Task 8 Ep 135: SUCCESS (steps=89)
+
+put the bowl on the plate...:  54%|█████▍    | 136/250 [11:17<09:04,  4.78s/it][A  [OK] Task 8 Ep 136: SUCCESS (steps=88)
+
+put the bowl on the plate...:  55%|█████▍    | 137/250 [11:22<09:00,  4.78s/it][A  [OK] Task 8 Ep 137: SUCCESS (steps=83)
+
+put the bowl on the plate...:  55%|█████▌    | 138/250 [11:27<08:52,  4.75s/it][A  [OK] Task 8 Ep 138: SUCCESS (steps=85)
+
+put the bowl on the plate...:  56%|█████▌    | 139/250 [11:31<08:42,  4.71s/it][A  [OK] Task 8 Ep 139: SUCCESS (steps=88)
+
+put the bowl on the plate...:  56%|█████▌    | 140/250 [11:36<08:37,  4.71s/it][A  [OK] Task 8 Ep 140: SUCCESS (steps=84)
+
+put the bowl on the plate...:  56%|█████▋    | 141/250 [11:41<08:27,  4.66s/it][A  [OK] Task 8 Ep 141: SUCCESS (steps=86)
+
+put the bowl on the plate...:  57%|█████▋    | 142/250 [11:45<08:23,  4.66s/it][A  [OK] Task 8 Ep 142: SUCCESS (steps=98)
+
+put the bowl on the plate...:  57%|█████▋    | 143/250 [11:50<08:31,  4.78s/it][A  [OK] Task 8 Ep 143: SUCCESS (steps=84)
+
+put the bowl on the plate...:  58%|█████▊    | 144/250 [11:55<08:21,  4.74s/it][A  [OK] Task 8 Ep 144: SUCCESS (steps=90)
+
+put the bowl on the plate...:  58%|█████▊    | 145/250 [12:00<08:21,  4.78s/it][A  [OK] Task 8 Ep 145: SUCCESS (steps=86)
+
+put the bowl on the plate...:  58%|█████▊    | 146/250 [12:05<08:30,  4.91s/it][A  [OK] Task 8 Ep 146: SUCCESS (steps=89)
+
+put the bowl on the plate...:  59%|█████▉    | 147/250 [12:10<08:33,  4.99s/it][A  [OK] Task 8 Ep 147: SUCCESS (steps=87)
+
+put the bowl on the plate...:  59%|█████▉    | 148/250 [12:15<08:19,  4.90s/it][A  [OK] Task 8 Ep 148: SUCCESS (steps=87)
+
+put the bowl on the plate...:  60%|█████▉    | 149/250 [12:20<08:11,  4.87s/it][A  [OK] Task 8 Ep 149: SUCCESS (steps=101)
+
+put the bowl on the plate...:  60%|██████    | 150/250 [12:25<08:21,  5.01s/it][A  [OK] Task 8 Ep 150: SUCCESS (steps=85)
+
+put the bowl on the plate...:  60%|██████    | 151/250 [12:31<08:45,  5.31s/it][A  [OK] Task 8 Ep 151: SUCCESS (steps=90)
+
+put the bowl on the plate...:  61%|██████    | 152/250 [12:36<08:27,  5.17s/it][A  [OK] Task 8 Ep 152: SUCCESS (steps=87)
+
+put the bowl on the plate...:  61%|██████    | 153/250 [12:41<08:10,  5.06s/it][A  [OK] Task 8 Ep 153: SUCCESS (steps=88)
+
+put the bowl on the plate...:  62%|██████▏   | 154/250 [12:45<07:56,  4.97s/it][A  [OK] Task 8 Ep 154: SUCCESS (steps=89)
+
+put the bowl on the plate...:  62%|██████▏   | 155/250 [12:50<07:43,  4.88s/it][A  [OK] Task 8 Ep 155: SUCCESS (steps=86)
+
+put the bowl on the plate...:  62%|██████▏   | 156/250 [12:55<07:32,  4.82s/it][A  [OK] Task 8 Ep 156: SUCCESS (steps=88)
+
+put the bowl on the plate...:  63%|██████▎   | 157/250 [13:00<07:27,  4.81s/it][A  [OK] Task 8 Ep 157: SUCCESS (steps=88)
+
+put the bowl on the plate...:  63%|██████▎   | 158/250 [13:04<07:21,  4.80s/it][A  [OK] Task 8 Ep 158: SUCCESS (steps=92)
+
+put the bowl on the plate...:  64%|██████▎   | 159/250 [13:09<07:20,  4.84s/it][A  [OK] Task 8 Ep 159: SUCCESS (steps=92)
+
+put the bowl on the plate...:  64%|██████▍   | 160/250 [13:14<07:22,  4.92s/it][A  [OK] Task 8 Ep 160: SUCCESS (steps=95)
+
+put the bowl on the plate...:  64%|██████▍   | 161/250 [13:19<07:23,  4.99s/it][A  [OK] Task 8 Ep 161: SUCCESS (steps=86)
+
+put the bowl on the plate...:  65%|██████▍   | 162/250 [13:24<07:11,  4.90s/it][A  [OK] Task 8 Ep 162: SUCCESS (steps=79)
+
+put the bowl on the plate...:  65%|██████▌   | 163/250 [13:29<06:51,  4.73s/it][A  [OK] Task 8 Ep 163: SUCCESS (steps=86)
+
+put the bowl on the plate...:  66%|██████▌   | 164/250 [13:33<06:48,  4.75s/it][A  [OK] Task 8 Ep 164: SUCCESS (steps=89)
+
+put the bowl on the plate...:  66%|██████▌   | 165/250 [13:39<07:00,  4.94s/it][A  [OK] Task 8 Ep 165: SUCCESS (steps=103)
+
+put the bowl on the plate...:  66%|██████▋   | 166/250 [13:44<07:05,  5.06s/it][A  [OK] Task 8 Ep 166: SUCCESS (steps=84)
+
+put the bowl on the plate...:  67%|██████▋   | 167/250 [13:49<06:47,  4.91s/it][A  [OK] Task 8 Ep 167: SUCCESS (steps=86)
+
+put the bowl on the plate...:  67%|██████▋   | 168/250 [13:54<06:51,  5.02s/it][A  [OK] Task 8 Ep 168: SUCCESS (steps=86)
+
+put the bowl on the plate...:  68%|██████▊   | 169/250 [13:59<06:39,  4.93s/it][A  [OK] Task 8 Ep 169: SUCCESS (steps=90)
+
+put the bowl on the plate...:  68%|██████▊   | 170/250 [14:04<06:33,  4.92s/it][A  [OK] Task 8 Ep 170: SUCCESS (steps=90)
+
+put the bowl on the plate...:  68%|██████▊   | 171/250 [14:08<06:27,  4.90s/it][A  [OK] Task 8 Ep 171: SUCCESS (steps=84)
+
+put the bowl on the plate...:  69%|██████▉   | 172/250 [14:13<06:17,  4.84s/it][A  [OK] Task 8 Ep 172: SUCCESS (steps=84)
+
+put the bowl on the plate...:  69%|██████▉   | 173/250 [14:18<06:06,  4.76s/it][A  [OK] Task 8 Ep 173: SUCCESS (steps=84)
+
+put the bowl on the plate...:  70%|██████▉   | 174/250 [14:22<05:59,  4.72s/it][A  [OK] Task 8 Ep 174: SUCCESS (steps=91)
+
+put the bowl on the plate...:  70%|███████   | 175/250 [14:27<05:58,  4.78s/it][A  [OK] Task 8 Ep 175: SUCCESS (steps=85)
+
+put the bowl on the plate...:  70%|███████   | 176/250 [14:32<05:53,  4.77s/it][A  [OK] Task 8 Ep 176: SUCCESS (steps=88)
+
+put the bowl on the plate...:  71%|███████   | 177/250 [14:37<05:47,  4.76s/it][A  [OK] Task 8 Ep 177: SUCCESS (steps=87)
+
+put the bowl on the plate...:  71%|███████   | 178/250 [14:41<05:43,  4.77s/it][A  [OK] Task 8 Ep 178: SUCCESS (steps=89)
+
+put the bowl on the plate...:  72%|███████▏  | 179/250 [14:47<05:53,  4.98s/it][A  [OK] Task 8 Ep 179: SUCCESS (steps=93)
+
+put the bowl on the plate...:  72%|███████▏  | 180/250 [14:52<05:57,  5.11s/it][A  [OK] Task 8 Ep 180: SUCCESS (steps=87)
+
+put the bowl on the plate...:  72%|███████▏  | 181/250 [14:58<05:55,  5.15s/it][A  [OK] Task 8 Ep 181: SUCCESS (steps=86)
+
+put the bowl on the plate...:  73%|███████▎  | 182/250 [15:02<05:45,  5.07s/it][A  [OK] Task 8 Ep 182: SUCCESS (steps=88)
+
+put the bowl on the plate...:  73%|███████▎  | 183/250 [15:07<05:33,  4.98s/it][A  [OK] Task 8 Ep 183: SUCCESS (steps=88)
+
+put the bowl on the plate...:  74%|███████▎  | 184/250 [15:12<05:24,  4.91s/it][A  [OK] Task 8 Ep 184: SUCCESS (steps=87)
+
+put the bowl on the plate...:  74%|███████▍  | 185/250 [15:17<05:16,  4.86s/it][A  [FAIL] Task 8 Ep 185: FAILURE (steps=810)
+
+put the bowl on the plate...:  74%|███████▍  | 186/250 [15:48<13:38, 12.78s/it][A  [OK] Task 8 Ep 186: SUCCESS (steps=90)
+
+put the bowl on the plate...:  75%|███████▍  | 187/250 [15:53<10:58, 10.44s/it][A  [OK] Task 8 Ep 187: SUCCESS (steps=81)
+
+put the bowl on the plate...:  75%|███████▌  | 188/250 [15:58<08:58,  8.68s/it][A  [OK] Task 8 Ep 188: SUCCESS (steps=79)
+
+put the bowl on the plate...:  76%|███████▌  | 189/250 [16:02<07:30,  7.39s/it][A  [OK] Task 8 Ep 189: SUCCESS (steps=89)
+
+put the bowl on the plate...:  76%|███████▌  | 190/250 [16:07<06:36,  6.62s/it][A  [OK] Task 8 Ep 190: SUCCESS (steps=85)
+
+put the bowl on the plate...:  76%|███████▋  | 191/250 [16:12<05:57,  6.06s/it][A  [OK] Task 8 Ep 191: SUCCESS (steps=83)
+
+put the bowl on the plate...:  77%|███████▋  | 192/250 [16:16<05:26,  5.63s/it][A  [OK] Task 8 Ep 192: SUCCESS (steps=82)
+
+put the bowl on the plate...:  77%|███████▋  | 193/250 [16:21<05:02,  5.30s/it][A  [OK] Task 8 Ep 193: SUCCESS (steps=89)
+
+put the bowl on the plate...:  78%|███████▊  | 194/250 [16:25<04:47,  5.13s/it][A  [OK] Task 8 Ep 194: SUCCESS (steps=89)
+
+put the bowl on the plate...:  78%|███████▊  | 195/250 [16:30<04:35,  5.02s/it][A  [OK] Task 8 Ep 195: SUCCESS (steps=87)
+
+put the bowl on the plate...:  78%|███████▊  | 196/250 [16:35<04:25,  4.92s/it][A  [OK] Task 8 Ep 196: SUCCESS (steps=84)
+
+put the bowl on the plate...:  79%|███████▉  | 197/250 [16:40<04:27,  5.05s/it][A  [OK] Task 8 Ep 197: SUCCESS (steps=88)
+
+put the bowl on the plate...:  79%|███████▉  | 198/250 [16:45<04:18,  4.97s/it][A  [OK] Task 8 Ep 198: SUCCESS (steps=82)
+
+put the bowl on the plate...:  80%|███████▉  | 199/250 [16:50<04:09,  4.88s/it][A  [OK] Task 8 Ep 199: SUCCESS (steps=84)
+
+put the bowl on the plate...:  80%|████████  | 200/250 [16:55<04:05,  4.90s/it][A  [OK] Task 8 Ep 200: SUCCESS (steps=90)
+
+put the bowl on the plate...:  80%|████████  | 201/250 [17:00<04:04,  4.98s/it][A  [OK] Task 8 Ep 201: SUCCESS (steps=86)
+
+put the bowl on the plate...:  81%|████████  | 202/250 [17:05<03:55,  4.91s/it][A  [OK] Task 8 Ep 202: SUCCESS (steps=88)
+
+put the bowl on the plate...:  81%|████████  | 203/250 [17:09<03:49,  4.87s/it][A  [OK] Task 8 Ep 203: SUCCESS (steps=82)
+
+put the bowl on the plate...:  82%|████████▏ | 204/250 [17:14<03:39,  4.76s/it][A  [OK] Task 8 Ep 204: SUCCESS (steps=87)
+
+put the bowl on the plate...:  82%|████████▏ | 205/250 [17:19<03:34,  4.77s/it][A  [OK] Task 8 Ep 205: SUCCESS (steps=84)
+
+put the bowl on the plate...:  82%|████████▏ | 206/250 [17:23<03:27,  4.72s/it][A  [OK] Task 8 Ep 206: SUCCESS (steps=89)
+
+put the bowl on the plate...:  83%|████████▎ | 207/250 [17:28<03:25,  4.77s/it][A  [OK] Task 8 Ep 207: SUCCESS (steps=86)
+
+put the bowl on the plate...:  83%|████████▎ | 208/250 [17:33<03:20,  4.78s/it][A  [OK] Task 8 Ep 208: SUCCESS (steps=85)
+
+put the bowl on the plate...:  84%|████████▎ | 209/250 [17:39<03:26,  5.03s/it][A  [OK] Task 8 Ep 209: SUCCESS (steps=83)
+
+put the bowl on the plate...:  84%|████████▍ | 210/250 [17:43<03:19,  4.98s/it][A  [OK] Task 8 Ep 210: SUCCESS (steps=82)
+
+put the bowl on the plate...:  84%|████████▍ | 211/250 [17:48<03:15,  5.01s/it][A  [OK] Task 8 Ep 211: SUCCESS (steps=90)
+
+put the bowl on the plate...:  85%|████████▍ | 212/250 [17:54<03:12,  5.07s/it][A  [OK] Task 8 Ep 212: SUCCESS (steps=84)
+
+put the bowl on the plate...:  85%|████████▌ | 213/250 [17:59<03:09,  5.12s/it][A  [OK] Task 8 Ep 213: SUCCESS (steps=83)
+
+put the bowl on the plate...:  86%|████████▌ | 214/250 [18:04<02:59,  4.97s/it][A  [OK] Task 8 Ep 214: SUCCESS (steps=86)
+
+put the bowl on the plate...:  86%|████████▌ | 215/250 [18:08<02:51,  4.89s/it][A  [OK] Task 8 Ep 215: SUCCESS (steps=88)
+
+put the bowl on the plate...:  86%|████████▋ | 216/250 [18:13<02:47,  4.92s/it][A  [OK] Task 8 Ep 216: SUCCESS (steps=87)
+
+put the bowl on the plate...:  87%|████████▋ | 217/250 [18:18<02:44,  4.99s/it][A  [OK] Task 8 Ep 217: SUCCESS (steps=87)
+
+put the bowl on the plate...:  87%|████████▋ | 218/250 [18:23<02:36,  4.90s/it][A  [OK] Task 8 Ep 218: SUCCESS (steps=85)
+
+put the bowl on the plate...:  88%|████████▊ | 219/250 [18:28<02:30,  4.86s/it][A  [OK] Task 8 Ep 219: SUCCESS (steps=87)
+
+put the bowl on the plate...:  88%|████████▊ | 220/250 [18:33<02:24,  4.83s/it][A  [OK] Task 8 Ep 220: SUCCESS (steps=90)
+
+put the bowl on the plate...:  88%|████████▊ | 221/250 [18:37<02:19,  4.82s/it][A  [OK] Task 8 Ep 221: SUCCESS (steps=89)
+
+put the bowl on the plate...:  89%|████████▉ | 222/250 [18:42<02:15,  4.83s/it][A  [OK] Task 8 Ep 222: SUCCESS (steps=85)
+
+put the bowl on the plate...:  89%|████████▉ | 223/250 [18:47<02:09,  4.79s/it][A  [OK] Task 8 Ep 223: SUCCESS (steps=90)
+
+put the bowl on the plate...:  90%|████████▉ | 224/250 [18:52<02:06,  4.85s/it][A  [OK] Task 8 Ep 224: SUCCESS (steps=83)
+
+put the bowl on the plate...:  90%|█████████ | 225/250 [18:56<01:58,  4.75s/it][A  [OK] Task 8 Ep 225: SUCCESS (steps=83)
+
+put the bowl on the plate...:  90%|█████████ | 226/250 [19:01<01:52,  4.67s/it][A  [OK] Task 8 Ep 226: SUCCESS (steps=91)
+
+put the bowl on the plate...:  91%|█████████ | 227/250 [19:06<01:50,  4.81s/it][A  [OK] Task 8 Ep 227: SUCCESS (steps=86)
+
+put the bowl on the plate...:  91%|█████████ | 228/250 [19:11<01:48,  4.94s/it][A  [OK] Task 8 Ep 228: SUCCESS (steps=84)
+
+put the bowl on the plate...:  92%|█████████▏| 229/250 [19:17<01:47,  5.12s/it][A  [OK] Task 8 Ep 229: SUCCESS (steps=82)
+
+put the bowl on the plate...:  92%|█████████▏| 230/250 [19:22<01:42,  5.13s/it][A  [OK] Task 8 Ep 230: SUCCESS (steps=88)
+
+put the bowl on the plate...:  92%|█████████▏| 231/250 [19:27<01:36,  5.10s/it][A  [OK] Task 8 Ep 231: SUCCESS (steps=87)
+
+put the bowl on the plate...:  93%|█████████▎| 232/250 [19:32<01:30,  5.04s/it][A  [OK] Task 8 Ep 232: SUCCESS (steps=85)
+
+put the bowl on the plate...:  93%|█████████▎| 233/250 [19:37<01:24,  4.97s/it][A  [OK] Task 8 Ep 233: SUCCESS (steps=94)
+
+put the bowl on the plate...:  94%|█████████▎| 234/250 [19:42<01:20,  5.01s/it][A  [OK] Task 8 Ep 234: SUCCESS (steps=98)
+
+put the bowl on the plate...:  94%|█████████▍| 235/250 [19:47<01:15,  5.05s/it][A  [OK] Task 8 Ep 235: SUCCESS (steps=83)
+
+put the bowl on the plate...:  94%|█████████▍| 236/250 [19:52<01:08,  4.92s/it][A  [OK] Task 8 Ep 236: SUCCESS (steps=84)
+
+put the bowl on the plate...:  95%|█████████▍| 237/250 [19:56<01:03,  4.87s/it][A  [OK] Task 8 Ep 237: SUCCESS (steps=85)
+
+put the bowl on the plate...:  95%|█████████▌| 238/250 [20:02<01:00,  5.07s/it][A  [OK] Task 8 Ep 238: SUCCESS (steps=92)
+
+put the bowl on the plate...:  96%|█████████▌| 239/250 [20:07<00:56,  5.11s/it][A  [OK] Task 8 Ep 239: SUCCESS (steps=85)
+
+put the bowl on the plate...:  96%|█████████▌| 240/250 [20:12<00:51,  5.13s/it][A  [OK] Task 8 Ep 240: SUCCESS (steps=86)
+
+put the bowl on the plate...:  96%|█████████▋| 241/250 [20:17<00:45,  5.02s/it][A  [OK] Task 8 Ep 241: SUCCESS (steps=370)
+
+put the bowl on the plate...:  97%|█████████▋| 242/250 [20:33<01:07,  8.42s/it][A  [OK] Task 8 Ep 242: SUCCESS (steps=86)
+
+put the bowl on the plate...:  97%|█████████▋| 243/250 [20:39<00:52,  7.46s/it][A  [OK] Task 8 Ep 243: SUCCESS (steps=89)
+
+put the bowl on the plate...:  98%|█████████▊| 244/250 [20:44<00:40,  6.69s/it][A  [OK] Task 8 Ep 244: SUCCESS (steps=86)
+
+put the bowl on the plate...:  98%|█████████▊| 245/250 [20:48<00:30,  6.11s/it][A  [OK] Task 8 Ep 245: SUCCESS (steps=86)
+
+put the bowl on the plate...:  98%|█████████▊| 246/250 [20:53<00:22,  5.68s/it][A  [OK] Task 8 Ep 246: SUCCESS (steps=92)
+
+put the bowl on the plate...:  99%|█████████▉| 247/250 [20:58<00:16,  5.47s/it][A  [OK] Task 8 Ep 247: SUCCESS (steps=92)
+
+put the bowl on the plate...:  99%|█████████▉| 248/250 [21:03<00:10,  5.34s/it][A  [OK] Task 8 Ep 248: SUCCESS (steps=95)
+
+put the bowl on the plate...: 100%|█████████▉| 249/250 [21:08<00:05,  5.26s/it][A  [OK] Task 8 Ep 249: SUCCESS (steps=83)
+
+put the bowl on the plate...: 100%|██████████| 250/250 [21:13<00:00,  5.05s/it][A
+                                                                               [A   Task 8: 249/250 (99.6%)
+Tasks:   0%|          | 0/1 [21:15<?, ?it/s]
+
+Total success rate: 249/250 (99.6%)

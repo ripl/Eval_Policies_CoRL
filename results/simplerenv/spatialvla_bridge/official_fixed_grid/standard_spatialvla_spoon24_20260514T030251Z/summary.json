@@ -1,0 +1,15 @@
+{
+  "policy": "spatialvla",
+  "task_filter": "spoon",
+  "success": 4,
+  "total": 24,
+  "success_rate": 0.16666666666666666,
+  "by_task": {
+    "spoon": {
+      "success": 4,
+      "total": 24,
+      "success_rate": 0.16666666666666666
+    }
+  },
+  "result_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/spatialvla_bridge/official_fixed_grid/standard_spatialvla_spoon24_20260514T030251Z/videos"
+}

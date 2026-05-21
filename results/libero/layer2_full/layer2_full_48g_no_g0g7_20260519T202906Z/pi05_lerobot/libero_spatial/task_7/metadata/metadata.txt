@@ -1,0 +1,81 @@
+run_group=layer2_full_48g_no_g0g7_20260519T202906Z
+policy=pi05_lerobot
+policy_tracker_id=869
+suite=libero_spatial
+task_id=7
+checkpoint=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/pi05-libero-finetuned
+tokenizer_repo=Shakalaka/paligemma-3b-pt-224
+n_action_steps=10
+init_root=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/artifacts/libero/init_state_layer2_4suite_2500_seed20260519
+episodes_per_task=250
+c72b456deae077eb4034c0e4acad4e6bde356f69
+ M third_party/simplerenv_openvla
+?? deliverables/sam_libero_goal_3x5k_raw_20260514T171513Z.zip
+?? scripts/slurm/libero_layer2_pi05_full_array.sbatch
+?? scripts/slurm/libero_layer2_simvla_full_array.sbatch
+?? scripts/slurm/libero_layer2_spatial_forcing_full_array.sbatch
+?? third_party/ABot-Manipulation/
+?? third_party/alphabrain/
+?? third_party/hif_vla/
+?? third_party/lerobot/
+?? third_party/robocasa-gr1-tabletop-tasks/
+?? third_party/robosuite/
+?? third_party/robosuite_models/
+?? third_party/simvla/
+?? third_party/starVLA/
+?? third_party/vggt/
+8fff0fde7c79f23a93d845d1a50e985de01f8b8a
+Python 3.10.16
+hostname=g14.ttic.edu
+slurmd_nodename=g14
+cuda_visible_devices=0
+nproc=20
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           46 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  20
+On-line CPU(s) list:                     0-19
+Vendor ID:                               GenuineIntel
+Model name:                              Intel(R) Xeon(R) Silver 4210R CPU @ 2.40GHz
+CPU family:                              6
+Model:                                   85
+Thread(s) per core:                      1
+Core(s) per socket:                      10
+Socket(s):                               2
+Stepping:                                7
+CPU(s) scaling MHz:                      59%
+CPU max MHz:                             3200.0000
+CPU min MHz:                             1000.0000
+BogoMIPS:                                4800.00
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req pku ospke avx512_vnni md_clear flush_l1d arch_capabilities ibpb_exit_to_user
+Virtualization:                          VT-x
+L1d cache:                               640 KiB (20 instances)
+L1i cache:                               640 KiB (20 instances)
+L2 cache:                                20 MiB (20 instances)
+L3 cache:                                27.5 MiB (2 instances)
+NUMA node(s):                            2
+NUMA node0 CPU(s):                       0-9
+NUMA node1 CPU(s):                       10-19
+Vulnerability Gather data sampling:      Mitigation; Microcode
+Vulnerability Indirect target selection: Mitigation; Aligned branch/return thunks
+Vulnerability Itlb multihit:             KVM: Mitigation: VMX disabled
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Mitigation; Clear CPU buffers; SMT disabled
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Mitigation; Enhanced IBRS
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS SW sequence; BHI SW loop, KVM SW loop
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Mitigation; TSX disabled
+Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspace
+               total        used        free      shared  buff/cache   available
+Mem:           376Gi        20Gi        19Gi        68Mi       338Gi       356Gi
+Swap:          4.0Gi       574Mi       3.4Gi
+GPU 0: NVIDIA RTX A6000 (UUID: GPU-c29eabb8-2387-37e1-b4d1-5674a68d3598)
+NVIDIA RTX A6000, GPU-c29eabb8-2387-37e1-b4d1-5674a68d3598, 580.95.05, 49140 MiB

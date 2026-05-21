@@ -1,0 +1,523 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /share/data/ripl/tianchong/conda/envs/libero_SF/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Starting LIBERO evaluation client
+   Client type: websocket
+   Server: ws://127.0.0.1:8533
+   Task suite: libero_10
+   Replan steps: 5
+
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Task suite: libero_10
+   Tasks: 10, Trials per task: 250
+   Max steps: 900
+Tasks:   0%|          | 0/1 [00:00<?, ?it/s]
+put both the alphabet soup and...:   0%|          | 0/250 [00:00<?, ?it/s][A  [OK] Task 7 Ep 0: SUCCESS (steps=265)
+
+put both the alphabet soup and...:   0%|          | 1/250 [00:14<1:00:03, 14.47s/it][A  [OK] Task 7 Ep 1: SUCCESS (steps=289)
+
+put both the alphabet soup and...:   1%|          | 2/250 [00:30<1:02:54, 15.22s/it][A  [OK] Task 7 Ep 2: SUCCESS (steps=248)
+
+put both the alphabet soup and...:   1%|          | 3/250 [00:42<57:29, 13.97s/it]  [A  [OK] Task 7 Ep 3: SUCCESS (steps=239)
+
+put both the alphabet soup and...:   2%|▏         | 4/250 [00:54<53:30, 13.05s/it][A  [OK] Task 7 Ep 4: SUCCESS (steps=278)
+
+put both the alphabet soup and...:   2%|▏         | 5/250 [01:07<53:53, 13.20s/it][A  [OK] Task 7 Ep 5: SUCCESS (steps=253)
+
+put both the alphabet soup and...:   2%|▏         | 6/250 [01:20<53:38, 13.19s/it][A  [OK] Task 7 Ep 6: SUCCESS (steps=314)
+
+put both the alphabet soup and...:   3%|▎         | 7/250 [01:36<55:53, 13.80s/it][A  [OK] Task 7 Ep 7: SUCCESS (steps=308)
+
+put both the alphabet soup and...:   3%|▎         | 8/250 [01:50<57:06, 14.16s/it][A  [OK] Task 7 Ep 8: SUCCESS (steps=317)
+
+put both the alphabet soup and...:   4%|▎         | 9/250 [02:06<58:12, 14.49s/it][A  [OK] Task 7 Ep 9: SUCCESS (steps=245)
+
+put both the alphabet soup and...:   4%|▍         | 10/250 [02:18<55:05, 13.77s/it][A  [OK] Task 7 Ep 10: SUCCESS (steps=260)
+
+put both the alphabet soup and...:   4%|▍         | 11/250 [02:31<53:50, 13.52s/it][A  [OK] Task 7 Ep 11: SUCCESS (steps=253)
+
+put both the alphabet soup and...:   5%|▍         | 12/250 [02:43<52:30, 13.24s/it][A  [OK] Task 7 Ep 12: SUCCESS (steps=289)
+
+put both the alphabet soup and...:   5%|▌         | 13/250 [02:57<52:59, 13.42s/it][A  [OK] Task 7 Ep 13: SUCCESS (steps=251)
+
+put both the alphabet soup and...:   6%|▌         | 14/250 [03:10<51:51, 13.18s/it][A  [OK] Task 7 Ep 14: SUCCESS (steps=267)
+
+put both the alphabet soup and...:   6%|▌         | 15/250 [03:23<51:58, 13.27s/it][A  [OK] Task 7 Ep 15: SUCCESS (steps=259)
+
+put both the alphabet soup and...:   6%|▋         | 16/250 [03:36<50:48, 13.03s/it][A  [OK] Task 7 Ep 16: SUCCESS (steps=246)
+
+put both the alphabet soup and...:   7%|▋         | 17/250 [03:48<49:44, 12.81s/it][A  [OK] Task 7 Ep 17: SUCCESS (steps=254)
+
+put both the alphabet soup and...:   7%|▋         | 18/250 [04:01<49:39, 12.84s/it][A  [OK] Task 7 Ep 18: SUCCESS (steps=243)
+
+put both the alphabet soup and...:   8%|▊         | 19/250 [04:14<50:08, 13.02s/it][A  [OK] Task 7 Ep 19: SUCCESS (steps=265)
+
+put both the alphabet soup and...:   8%|▊         | 20/250 [04:29<51:23, 13.41s/it][A  [OK] Task 7 Ep 20: SUCCESS (steps=359)
+
+put both the alphabet soup and...:   8%|▊         | 21/250 [04:46<55:19, 14.50s/it][A  [OK] Task 7 Ep 21: SUCCESS (steps=251)
+
+put both the alphabet soup and...:   9%|▉         | 22/250 [04:59<53:23, 14.05s/it][A  [OK] Task 7 Ep 22: SUCCESS (steps=255)
+
+put both the alphabet soup and...:   9%|▉         | 23/250 [05:12<51:55, 13.72s/it][A  [OK] Task 7 Ep 23: SUCCESS (steps=344)
+
+put both the alphabet soup and...:  10%|▉         | 24/250 [05:28<54:59, 14.60s/it][A  [OK] Task 7 Ep 24: SUCCESS (steps=257)
+
+put both the alphabet soup and...:  10%|█         | 25/250 [05:41<52:39, 14.04s/it][A  [OK] Task 7 Ep 25: SUCCESS (steps=237)
+
+put both the alphabet soup and...:  10%|█         | 26/250 [05:53<49:43, 13.32s/it][A  [OK] Task 7 Ep 26: SUCCESS (steps=260)
+
+put both the alphabet soup and...:  11%|█         | 27/250 [06:06<48:51, 13.15s/it][A  [OK] Task 7 Ep 27: SUCCESS (steps=334)
+
+put both the alphabet soup and...:  11%|█         | 28/250 [06:21<51:23, 13.89s/it][A  [OK] Task 7 Ep 28: SUCCESS (steps=243)
+
+put both the alphabet soup and...:  12%|█▏        | 29/250 [06:33<49:00, 13.30s/it][A  [OK] Task 7 Ep 29: SUCCESS (steps=247)
+
+put both the alphabet soup and...:  12%|█▏        | 30/250 [06:45<47:28, 12.95s/it][A  [OK] Task 7 Ep 30: SUCCESS (steps=532)
+
+put both the alphabet soup and...:  12%|█▏        | 31/250 [07:10<1:00:25, 16.56s/it][A  [OK] Task 7 Ep 31: SUCCESS (steps=599)
+
+put both the alphabet soup and...:  13%|█▎        | 32/250 [07:38<1:12:19, 19.90s/it][A  [OK] Task 7 Ep 32: SUCCESS (steps=254)
+
+put both the alphabet soup and...:  13%|█▎        | 33/250 [07:50<1:03:49, 17.65s/it][A  [OK] Task 7 Ep 33: SUCCESS (steps=337)
+
+put both the alphabet soup and...:  14%|█▎        | 34/250 [08:07<1:02:15, 17.29s/it][A  [OK] Task 7 Ep 34: SUCCESS (steps=277)
+
+put both the alphabet soup and...:  14%|█▍        | 35/250 [08:21<59:10, 16.52s/it]  [A  [OK] Task 7 Ep 35: SUCCESS (steps=275)
+
+put both the alphabet soup and...:  14%|█▍        | 36/250 [08:35<56:02, 15.71s/it][A  [OK] Task 7 Ep 36: SUCCESS (steps=250)
+
+put both the alphabet soup and...:  15%|█▍        | 37/250 [08:48<52:40, 14.84s/it][A  [OK] Task 7 Ep 37: SUCCESS (steps=259)
+
+put both the alphabet soup and...:  15%|█▌        | 38/250 [09:02<51:41, 14.63s/it][A  [OK] Task 7 Ep 38: SUCCESS (steps=253)
+
+put both the alphabet soup and...:  16%|█▌        | 39/250 [09:15<49:06, 13.97s/it][A  [FAIL] Task 7 Ep 39: FAILURE (steps=910)
+
+put both the alphabet soup and...:  16%|█▌        | 40/250 [09:58<1:19:29, 22.71s/it][A  [OK] Task 7 Ep 40: SUCCESS (steps=307)
+
+put both the alphabet soup and...:  16%|█▋        | 41/250 [10:13<1:10:59, 20.38s/it][A  [OK] Task 7 Ep 41: SUCCESS (steps=258)
+
+put both the alphabet soup and...:  17%|█▋        | 42/250 [10:26<1:03:35, 18.35s/it][A  [OK] Task 7 Ep 42: SUCCESS (steps=247)
+
+put both the alphabet soup and...:  17%|█▋        | 43/250 [10:39<57:13, 16.58s/it]  [A  [OK] Task 7 Ep 43: SUCCESS (steps=560)
+
+put both the alphabet soup and...:  18%|█▊        | 44/250 [11:05<1:07:16, 19.60s/it][A  [OK] Task 7 Ep 44: SUCCESS (steps=242)
+
+put both the alphabet soup and...:  18%|█▊        | 45/250 [11:17<59:09, 17.31s/it]  [A  [OK] Task 7 Ep 45: SUCCESS (steps=255)
+
+put both the alphabet soup and...:  18%|█▊        | 46/250 [11:30<53:56, 15.87s/it][A  [OK] Task 7 Ep 46: SUCCESS (steps=243)
+
+put both the alphabet soup and...:  19%|█▉        | 47/250 [11:42<49:46, 14.71s/it][A  [OK] Task 7 Ep 47: SUCCESS (steps=261)
+
+put both the alphabet soup and...:  19%|█▉        | 48/250 [11:55<47:35, 14.14s/it][A  [OK] Task 7 Ep 48: SUCCESS (steps=246)
+
+put both the alphabet soup and...:  20%|█▉        | 49/250 [12:08<46:26, 13.86s/it][A  [OK] Task 7 Ep 49: SUCCESS (steps=251)
+
+put both the alphabet soup and...:  20%|██        | 50/250 [12:20<44:52, 13.46s/it][A  [OK] Task 7 Ep 50: SUCCESS (steps=232)
+
+put both the alphabet soup and...:  20%|██        | 51/250 [12:32<42:46, 12.90s/it][A  [OK] Task 7 Ep 51: SUCCESS (steps=249)
+
+put both the alphabet soup and...:  21%|██        | 52/250 [12:45<42:23, 12.85s/it][A  [OK] Task 7 Ep 52: SUCCESS (steps=262)
+
+put both the alphabet soup and...:  21%|██        | 53/250 [12:58<42:30, 12.94s/it][A  [OK] Task 7 Ep 53: SUCCESS (steps=253)
+
+put both the alphabet soup and...:  22%|██▏       | 54/250 [13:11<42:21, 12.97s/it][A  [OK] Task 7 Ep 54: SUCCESS (steps=249)
+
+put both the alphabet soup and...:  22%|██▏       | 55/250 [13:24<41:50, 12.87s/it][A  [OK] Task 7 Ep 55: SUCCESS (steps=241)
+
+put both the alphabet soup and...:  22%|██▏       | 56/250 [13:36<40:46, 12.61s/it][A  [OK] Task 7 Ep 56: SUCCESS (steps=248)
+
+put both the alphabet soup and...:  23%|██▎       | 57/250 [13:48<40:12, 12.50s/it][A  [OK] Task 7 Ep 57: SUCCESS (steps=244)
+
+put both the alphabet soup and...:  23%|██▎       | 58/250 [14:00<39:22, 12.30s/it][A  [OK] Task 7 Ep 58: SUCCESS (steps=248)
+
+put both the alphabet soup and...:  24%|██▎       | 59/250 [14:12<38:58, 12.24s/it][A  [OK] Task 7 Ep 59: SUCCESS (steps=248)
+
+put both the alphabet soup and...:  24%|██▍       | 60/250 [14:26<40:18, 12.73s/it][A  [OK] Task 7 Ep 60: SUCCESS (steps=247)
+
+put both the alphabet soup and...:  24%|██▍       | 61/250 [14:38<39:29, 12.54s/it][A  [OK] Task 7 Ep 61: SUCCESS (steps=244)
+
+put both the alphabet soup and...:  25%|██▍       | 62/250 [14:50<38:42, 12.35s/it][A  [OK] Task 7 Ep 62: SUCCESS (steps=295)
+
+put both the alphabet soup and...:  25%|██▌       | 63/250 [15:04<40:42, 13.06s/it][A  [OK] Task 7 Ep 63: SUCCESS (steps=282)
+
+put both the alphabet soup and...:  26%|██▌       | 64/250 [15:18<41:09, 13.28s/it][A  [OK] Task 7 Ep 64: SUCCESS (steps=276)
+
+put both the alphabet soup and...:  26%|██▌       | 65/250 [15:31<40:59, 13.29s/it][A  [OK] Task 7 Ep 65: SUCCESS (steps=287)
+
+put both the alphabet soup and...:  26%|██▋       | 66/250 [15:46<41:39, 13.58s/it][A  [OK] Task 7 Ep 66: SUCCESS (steps=253)
+
+put both the alphabet soup and...:  27%|██▋       | 67/250 [15:58<40:20, 13.23s/it][A  [OK] Task 7 Ep 67: SUCCESS (steps=252)
+
+put both the alphabet soup and...:  27%|██▋       | 68/250 [16:11<39:39, 13.07s/it][A  [OK] Task 7 Ep 68: SUCCESS (steps=288)
+
+put both the alphabet soup and...:  28%|██▊       | 69/250 [16:25<40:38, 13.47s/it][A  [OK] Task 7 Ep 69: SUCCESS (steps=259)
+
+put both the alphabet soup and...:  28%|██▊       | 70/250 [16:38<39:38, 13.21s/it][A  [OK] Task 7 Ep 70: SUCCESS (steps=485)
+
+put both the alphabet soup and...:  28%|██▊       | 71/250 [17:00<47:49, 16.03s/it][A  [OK] Task 7 Ep 71: SUCCESS (steps=252)
+
+put both the alphabet soup and...:  29%|██▉       | 72/250 [17:14<44:56, 15.15s/it][A  [OK] Task 7 Ep 72: SUCCESS (steps=250)
+
+put both the alphabet soup and...:  29%|██▉       | 73/250 [17:28<43:43, 14.82s/it][A  [OK] Task 7 Ep 73: SUCCESS (steps=251)
+
+put both the alphabet soup and...:  30%|██▉       | 74/250 [17:40<41:31, 14.15s/it][A  [OK] Task 7 Ep 74: SUCCESS (steps=256)
+
+put both the alphabet soup and...:  30%|███       | 75/250 [17:54<40:32, 13.90s/it][A  [OK] Task 7 Ep 75: SUCCESS (steps=235)
+
+put both the alphabet soup and...:  30%|███       | 76/250 [18:05<38:35, 13.31s/it][A  [OK] Task 7 Ep 76: SUCCESS (steps=250)
+
+put both the alphabet soup and...:  31%|███       | 77/250 [18:18<37:31, 13.02s/it][A  [OK] Task 7 Ep 77: SUCCESS (steps=263)
+
+put both the alphabet soup and...:  31%|███       | 78/250 [18:31<37:08, 12.96s/it][A  [OK] Task 7 Ep 78: SUCCESS (steps=299)
+
+put both the alphabet soup and...:  32%|███▏      | 79/250 [18:45<38:03, 13.35s/it][A  [OK] Task 7 Ep 79: SUCCESS (steps=266)
+
+put both the alphabet soup and...:  32%|███▏      | 80/250 [18:59<38:33, 13.61s/it][A  [OK] Task 7 Ep 80: SUCCESS (steps=246)
+
+put both the alphabet soup and...:  32%|███▏      | 81/250 [19:11<37:08, 13.19s/it][A  [OK] Task 7 Ep 81: SUCCESS (steps=274)
+
+put both the alphabet soup and...:  33%|███▎      | 82/250 [19:26<37:48, 13.50s/it][A  [OK] Task 7 Ep 82: SUCCESS (steps=268)
+
+put both the alphabet soup and...:  33%|███▎      | 83/250 [19:39<37:56, 13.63s/it][A  [OK] Task 7 Ep 83: SUCCESS (steps=254)
+
+put both the alphabet soup and...:  34%|███▎      | 84/250 [19:52<37:06, 13.42s/it][A  [OK] Task 7 Ep 84: SUCCESS (steps=254)
+
+put both the alphabet soup and...:  34%|███▍      | 85/250 [20:05<36:14, 13.18s/it][A  [OK] Task 7 Ep 85: SUCCESS (steps=271)
+
+put both the alphabet soup and...:  34%|███▍      | 86/250 [20:19<36:29, 13.35s/it][A  [OK] Task 7 Ep 86: SUCCESS (steps=255)
+
+put both the alphabet soup and...:  35%|███▍      | 87/250 [20:32<36:02, 13.27s/it][A  [OK] Task 7 Ep 87: SUCCESS (steps=597)
+
+put both the alphabet soup and...:  35%|███▌      | 88/250 [20:59<47:16, 17.51s/it][A  [OK] Task 7 Ep 88: SUCCESS (steps=246)
+
+put both the alphabet soup and...:  36%|███▌      | 89/250 [21:11<42:40, 15.90s/it][A  [OK] Task 7 Ep 89: SUCCESS (steps=247)
+
+put both the alphabet soup and...:  36%|███▌      | 90/250 [21:24<39:25, 14.79s/it][A  [OK] Task 7 Ep 90: SUCCESS (steps=244)
+
+put both the alphabet soup and...:  36%|███▋      | 91/250 [21:35<36:52, 13.92s/it][A  [OK] Task 7 Ep 91: SUCCESS (steps=412)
+
+put both the alphabet soup and...:  37%|███▋      | 92/250 [21:55<40:44, 15.47s/it][A  [OK] Task 7 Ep 92: SUCCESS (steps=263)
+
+put both the alphabet soup and...:  37%|███▋      | 93/250 [22:08<39:04, 14.93s/it][A  [OK] Task 7 Ep 93: SUCCESS (steps=247)
+
+put both the alphabet soup and...:  38%|███▊      | 94/250 [22:21<36:55, 14.20s/it][A  [OK] Task 7 Ep 94: SUCCESS (steps=266)
+
+put both the alphabet soup and...:  38%|███▊      | 95/250 [22:34<36:02, 13.95s/it][A  [OK] Task 7 Ep 95: SUCCESS (steps=251)
+
+put both the alphabet soup and...:  38%|███▊      | 96/250 [22:46<34:33, 13.47s/it][A  [OK] Task 7 Ep 96: SUCCESS (steps=301)
+
+put both the alphabet soup and...:  39%|███▉      | 97/250 [23:01<35:07, 13.78s/it][A  [OK] Task 7 Ep 97: SUCCESS (steps=305)
+
+put both the alphabet soup and...:  39%|███▉      | 98/250 [23:16<35:32, 14.03s/it][A  [OK] Task 7 Ep 98: SUCCESS (steps=262)
+
+put both the alphabet soup and...:  40%|███▉      | 99/250 [23:28<34:21, 13.65s/it][A  [OK] Task 7 Ep 99: SUCCESS (steps=277)
+
+put both the alphabet soup and...:  40%|████      | 100/250 [23:42<34:15, 13.71s/it][A  [OK] Task 7 Ep 100: SUCCESS (steps=257)
+
+put both the alphabet soup and...:  40%|████      | 101/250 [23:55<33:13, 13.38s/it][A  [OK] Task 7 Ep 101: SUCCESS (steps=248)
+
+put both the alphabet soup and...:  41%|████      | 102/250 [24:07<32:20, 13.11s/it][A  [OK] Task 7 Ep 102: SUCCESS (steps=252)
+
+put both the alphabet soup and...:  41%|████      | 103/250 [24:20<31:36, 12.90s/it][A  [OK] Task 7 Ep 103: SUCCESS (steps=276)
+
+put both the alphabet soup and...:  42%|████▏     | 104/250 [24:33<31:44, 13.05s/it][A  [OK] Task 7 Ep 104: SUCCESS (steps=251)
+
+put both the alphabet soup and...:  42%|████▏     | 105/250 [24:46<31:27, 13.02s/it][A  [OK] Task 7 Ep 105: SUCCESS (steps=242)
+
+put both the alphabet soup and...:  42%|████▏     | 106/250 [24:58<30:38, 12.77s/it][A  [OK] Task 7 Ep 106: SUCCESS (steps=272)
+
+put both the alphabet soup and...:  43%|████▎     | 107/250 [25:11<30:38, 12.86s/it][A  [OK] Task 7 Ep 107: SUCCESS (steps=285)
+
+put both the alphabet soup and...:  43%|████▎     | 108/250 [25:27<32:39, 13.80s/it][A  [OK] Task 7 Ep 108: SUCCESS (steps=283)
+
+put both the alphabet soup and...:  44%|████▎     | 109/250 [25:41<32:23, 13.79s/it][A  [OK] Task 7 Ep 109: SUCCESS (steps=426)
+
+put both the alphabet soup and...:  44%|████▍     | 110/250 [26:02<37:09, 15.92s/it][A  [OK] Task 7 Ep 110: SUCCESS (steps=250)
+
+put both the alphabet soup and...:  44%|████▍     | 111/250 [26:15<34:55, 15.08s/it][A  [OK] Task 7 Ep 111: SUCCESS (steps=261)
+
+put both the alphabet soup and...:  45%|████▍     | 112/250 [26:29<33:39, 14.63s/it][A  [OK] Task 7 Ep 112: SUCCESS (steps=238)
+
+put both the alphabet soup and...:  45%|████▌     | 113/250 [26:40<31:25, 13.77s/it][A  [OK] Task 7 Ep 113: SUCCESS (steps=266)
+
+put both the alphabet soup and...:  46%|████▌     | 114/250 [26:54<30:54, 13.63s/it][A  [OK] Task 7 Ep 114: SUCCESS (steps=283)
+
+put both the alphabet soup and...:  46%|████▌     | 115/250 [27:07<30:47, 13.68s/it][A  [OK] Task 7 Ep 115: SUCCESS (steps=249)
+
+put both the alphabet soup and...:  46%|████▋     | 116/250 [27:21<30:20, 13.58s/it][A  [OK] Task 7 Ep 116: SUCCESS (steps=265)
+
+put both the alphabet soup and...:  47%|████▋     | 117/250 [27:34<29:47, 13.44s/it][A  [OK] Task 7 Ep 117: SUCCESS (steps=261)
+
+put both the alphabet soup and...:  47%|████▋     | 118/250 [27:47<29:07, 13.24s/it][A  [OK] Task 7 Ep 118: SUCCESS (steps=258)
+
+put both the alphabet soup and...:  48%|████▊     | 119/250 [28:00<29:00, 13.29s/it][A  [OK] Task 7 Ep 119: SUCCESS (steps=388)
+
+put both the alphabet soup and...:  48%|████▊     | 120/250 [28:19<32:24, 14.95s/it][A  [OK] Task 7 Ep 120: SUCCESS (steps=255)
+
+put both the alphabet soup and...:  48%|████▊     | 121/250 [28:31<30:31, 14.20s/it][A  [OK] Task 7 Ep 121: SUCCESS (steps=262)
+
+put both the alphabet soup and...:  49%|████▉     | 122/250 [28:44<29:19, 13.74s/it][A  [OK] Task 7 Ep 122: SUCCESS (steps=253)
+
+put both the alphabet soup and...:  49%|████▉     | 123/250 [28:57<28:31, 13.48s/it][A  [OK] Task 7 Ep 123: SUCCESS (steps=388)
+
+put both the alphabet soup and...:  50%|████▉     | 124/250 [29:16<31:32, 15.02s/it][A  [OK] Task 7 Ep 124: SUCCESS (steps=403)
+
+put both the alphabet soup and...:  50%|█████     | 125/250 [29:35<33:49, 16.23s/it][A  [OK] Task 7 Ep 125: SUCCESS (steps=246)
+
+put both the alphabet soup and...:  50%|█████     | 126/250 [29:47<30:55, 14.96s/it][A  [OK] Task 7 Ep 126: SUCCESS (steps=247)
+
+put both the alphabet soup and...:  51%|█████     | 127/250 [29:59<28:55, 14.11s/it][A  [OK] Task 7 Ep 127: SUCCESS (steps=258)
+
+put both the alphabet soup and...:  51%|█████     | 128/250 [30:11<27:48, 13.67s/it][A  [OK] Task 7 Ep 128: SUCCESS (steps=318)
+
+put both the alphabet soup and...:  52%|█████▏    | 129/250 [30:27<28:27, 14.11s/it][A  [OK] Task 7 Ep 129: SUCCESS (steps=245)
+
+put both the alphabet soup and...:  52%|█████▏    | 130/250 [30:39<27:25, 13.71s/it][A  [OK] Task 7 Ep 130: SUCCESS (steps=363)
+
+put both the alphabet soup and...:  52%|█████▏    | 131/250 [30:57<29:35, 14.92s/it][A  [OK] Task 7 Ep 131: SUCCESS (steps=257)
+
+put both the alphabet soup and...:  53%|█████▎    | 132/250 [31:10<27:55, 14.20s/it][A  [OK] Task 7 Ep 132: SUCCESS (steps=249)
+
+put both the alphabet soup and...:  53%|█████▎    | 133/250 [31:23<27:22, 14.04s/it][A  [OK] Task 7 Ep 133: SUCCESS (steps=249)
+
+put both the alphabet soup and...:  54%|█████▎    | 134/250 [31:36<26:13, 13.57s/it][A  [OK] Task 7 Ep 134: SUCCESS (steps=235)
+
+put both the alphabet soup and...:  54%|█████▍    | 135/250 [31:48<25:11, 13.14s/it][A  [OK] Task 7 Ep 135: SUCCESS (steps=254)
+
+put both the alphabet soup and...:  54%|█████▍    | 136/250 [32:00<24:27, 12.88s/it][A  [OK] Task 7 Ep 136: SUCCESS (steps=261)
+
+put both the alphabet soup and...:  55%|█████▍    | 137/250 [32:13<24:06, 12.80s/it][A  [OK] Task 7 Ep 137: SUCCESS (steps=255)
+
+put both the alphabet soup and...:  55%|█████▌    | 138/250 [32:28<25:06, 13.45s/it][A  [OK] Task 7 Ep 138: SUCCESS (steps=244)
+
+put both the alphabet soup and...:  56%|█████▌    | 139/250 [32:40<24:04, 13.02s/it][A  [OK] Task 7 Ep 139: SUCCESS (steps=254)
+
+put both the alphabet soup and...:  56%|█████▌    | 140/250 [32:52<23:26, 12.78s/it][A  [OK] Task 7 Ep 140: SUCCESS (steps=247)
+
+put both the alphabet soup and...:  56%|█████▋    | 141/250 [33:04<22:50, 12.57s/it][A  [OK] Task 7 Ep 141: SUCCESS (steps=286)
+
+put both the alphabet soup and...:  57%|█████▋    | 142/250 [33:18<23:21, 12.98s/it][A  [OK] Task 7 Ep 142: SUCCESS (steps=241)
+
+put both the alphabet soup and...:  57%|█████▋    | 143/250 [33:30<22:36, 12.68s/it][A  [OK] Task 7 Ep 143: SUCCESS (steps=251)
+
+put both the alphabet soup and...:  58%|█████▊    | 144/250 [33:42<22:12, 12.57s/it][A  [OK] Task 7 Ep 144: SUCCESS (steps=274)
+
+put both the alphabet soup and...:  58%|█████▊    | 145/250 [33:56<22:37, 12.93s/it][A  [OK] Task 7 Ep 145: SUCCESS (steps=265)
+
+put both the alphabet soup and...:  58%|█████▊    | 146/250 [34:09<22:30, 12.98s/it][A  [OK] Task 7 Ep 146: SUCCESS (steps=257)
+
+put both the alphabet soup and...:  59%|█████▉    | 147/250 [34:22<22:09, 12.91s/it][A  [OK] Task 7 Ep 147: SUCCESS (steps=271)
+
+put both the alphabet soup and...:  59%|█████▉    | 148/250 [34:35<22:09, 13.03s/it][A  [OK] Task 7 Ep 148: SUCCESS (steps=478)
+
+put both the alphabet soup and...:  60%|█████▉    | 149/250 [34:57<26:29, 15.73s/it][A  [OK] Task 7 Ep 149: SUCCESS (steps=242)
+
+put both the alphabet soup and...:  60%|██████    | 150/250 [35:09<24:20, 14.60s/it][A  [OK] Task 7 Ep 150: SUCCESS (steps=240)
+
+put both the alphabet soup and...:  60%|██████    | 151/250 [35:21<22:44, 13.78s/it][A  [OK] Task 7 Ep 151: SUCCESS (steps=252)
+
+put both the alphabet soup and...:  61%|██████    | 152/250 [35:33<21:48, 13.36s/it][A  [OK] Task 7 Ep 152: SUCCESS (steps=251)
+
+put both the alphabet soup and...:  61%|██████    | 153/250 [35:46<21:16, 13.16s/it][A  [OK] Task 7 Ep 153: SUCCESS (steps=252)
+
+put both the alphabet soup and...:  62%|██████▏   | 154/250 [35:58<20:39, 12.91s/it][A  [OK] Task 7 Ep 154: SUCCESS (steps=243)
+
+put both the alphabet soup and...:  62%|██████▏   | 155/250 [36:10<19:57, 12.60s/it][A  [OK] Task 7 Ep 155: SUCCESS (steps=254)
+
+put both the alphabet soup and...:  62%|██████▏   | 156/250 [36:23<19:39, 12.54s/it][A  [OK] Task 7 Ep 156: SUCCESS (steps=267)
+
+put both the alphabet soup and...:  63%|██████▎   | 157/250 [36:36<19:48, 12.78s/it][A  [OK] Task 7 Ep 157: SUCCESS (steps=257)
+
+put both the alphabet soup and...:  63%|██████▎   | 158/250 [36:49<19:43, 12.87s/it][A  [OK] Task 7 Ep 158: SUCCESS (steps=385)
+
+put both the alphabet soup and...:  64%|██████▎   | 159/250 [37:07<21:56, 14.47s/it][A  [OK] Task 7 Ep 159: SUCCESS (steps=265)
+
+put both the alphabet soup and...:  64%|██████▍   | 160/250 [37:20<20:58, 13.99s/it][A  [OK] Task 7 Ep 160: SUCCESS (steps=247)
+
+put both the alphabet soup and...:  64%|██████▍   | 161/250 [37:32<19:56, 13.45s/it][A  [OK] Task 7 Ep 161: SUCCESS (steps=253)
+
+put both the alphabet soup and...:  65%|██████▍   | 162/250 [37:45<19:14, 13.12s/it][A  [OK] Task 7 Ep 162: SUCCESS (steps=260)
+
+put both the alphabet soup and...:  65%|██████▌   | 163/250 [37:57<18:51, 13.01s/it][A  [OK] Task 7 Ep 163: SUCCESS (steps=288)
+
+put both the alphabet soup and...:  66%|██████▌   | 164/250 [38:12<19:09, 13.37s/it][A  [OK] Task 7 Ep 164: SUCCESS (steps=248)
+
+put both the alphabet soup and...:  66%|██████▌   | 165/250 [38:24<18:29, 13.06s/it][A  [OK] Task 7 Ep 165: SUCCESS (steps=253)
+
+put both the alphabet soup and...:  66%|██████▋   | 166/250 [38:36<18:00, 12.87s/it][A  [OK] Task 7 Ep 166: SUCCESS (steps=252)
+
+put both the alphabet soup and...:  67%|██████▋   | 167/250 [38:49<17:35, 12.71s/it][A  [OK] Task 7 Ep 167: SUCCESS (steps=261)
+
+put both the alphabet soup and...:  67%|██████▋   | 168/250 [39:02<17:24, 12.74s/it][A  [OK] Task 7 Ep 168: SUCCESS (steps=262)
+
+put both the alphabet soup and...:  68%|██████▊   | 169/250 [39:15<17:17, 12.81s/it][A  [OK] Task 7 Ep 169: SUCCESS (steps=278)
+
+put both the alphabet soup and...:  68%|██████▊   | 170/250 [39:30<17:56, 13.45s/it][A  [OK] Task 7 Ep 170: SUCCESS (steps=260)
+
+put both the alphabet soup and...:  68%|██████▊   | 171/250 [39:42<17:31, 13.31s/it][A  [OK] Task 7 Ep 171: SUCCESS (steps=252)
+
+put both the alphabet soup and...:  69%|██████▉   | 172/250 [39:55<16:51, 12.97s/it][A  [OK] Task 7 Ep 172: SUCCESS (steps=328)
+
+put both the alphabet soup and...:  69%|██████▉   | 173/250 [40:11<17:51, 13.91s/it][A  [OK] Task 7 Ep 173: SUCCESS (steps=247)
+
+put both the alphabet soup and...:  70%|██████▉   | 174/250 [40:23<16:54, 13.34s/it][A  [OK] Task 7 Ep 174: SUCCESS (steps=272)
+
+put both the alphabet soup and...:  70%|███████   | 175/250 [40:36<16:37, 13.30s/it][A  [OK] Task 7 Ep 175: SUCCESS (steps=268)
+
+put both the alphabet soup and...:  70%|███████   | 176/250 [40:49<16:21, 13.26s/it][A  [OK] Task 7 Ep 176: SUCCESS (steps=251)
+
+put both the alphabet soup and...:  71%|███████   | 177/250 [41:02<15:52, 13.05s/it][A  [OK] Task 7 Ep 177: SUCCESS (steps=352)
+
+put both the alphabet soup and...:  71%|███████   | 178/250 [41:18<16:56, 14.12s/it][A  [OK] Task 7 Ep 178: SUCCESS (steps=257)
+
+put both the alphabet soup and...:  72%|███████▏  | 179/250 [41:31<16:10, 13.67s/it][A  [OK] Task 7 Ep 179: SUCCESS (steps=247)
+
+put both the alphabet soup and...:  72%|███████▏  | 180/250 [41:44<15:40, 13.43s/it][A  [OK] Task 7 Ep 180: SUCCESS (steps=246)
+
+put both the alphabet soup and...:  72%|███████▏  | 181/250 [41:56<15:06, 13.13s/it][A  [OK] Task 7 Ep 181: SUCCESS (steps=264)
+
+put both the alphabet soup and...:  73%|███████▎  | 182/250 [42:09<14:51, 13.11s/it][A  [OK] Task 7 Ep 182: SUCCESS (steps=280)
+
+put both the alphabet soup and...:  73%|███████▎  | 183/250 [42:23<14:47, 13.24s/it][A  [OK] Task 7 Ep 183: SUCCESS (steps=236)
+
+put both the alphabet soup and...:  74%|███████▎  | 184/250 [42:35<14:02, 12.76s/it][A  [OK] Task 7 Ep 184: SUCCESS (steps=250)
+
+put both the alphabet soup and...:  74%|███████▍  | 185/250 [42:48<13:55, 12.85s/it][A  [OK] Task 7 Ep 185: SUCCESS (steps=250)
+
+put both the alphabet soup and...:  74%|███████▍  | 186/250 [43:01<13:47, 12.93s/it][A  [OK] Task 7 Ep 186: SUCCESS (steps=273)
+
+put both the alphabet soup and...:  75%|███████▍  | 187/250 [43:14<13:45, 13.11s/it][A  [OK] Task 7 Ep 187: SUCCESS (steps=240)
+
+put both the alphabet soup and...:  75%|███████▌  | 188/250 [43:28<13:37, 13.19s/it][A  [OK] Task 7 Ep 188: SUCCESS (steps=256)
+
+put both the alphabet soup and...:  76%|███████▌  | 189/250 [43:40<13:16, 13.05s/it][A  [OK] Task 7 Ep 189: SUCCESS (steps=292)
+
+put both the alphabet soup and...:  76%|███████▌  | 190/250 [43:55<13:25, 13.42s/it][A  [OK] Task 7 Ep 190: SUCCESS (steps=259)
+
+put both the alphabet soup and...:  76%|███████▋  | 191/250 [44:07<13:02, 13.26s/it][A  [OK] Task 7 Ep 191: SUCCESS (steps=246)
+
+put both the alphabet soup and...:  77%|███████▋  | 192/250 [44:20<12:31, 12.96s/it][A  [OK] Task 7 Ep 192: SUCCESS (steps=252)
+
+put both the alphabet soup and...:  77%|███████▋  | 193/250 [44:32<12:07, 12.77s/it][A  [OK] Task 7 Ep 193: SUCCESS (steps=241)
+
+put both the alphabet soup and...:  78%|███████▊  | 194/250 [44:45<11:49, 12.68s/it][A  [OK] Task 7 Ep 194: SUCCESS (steps=262)
+
+put both the alphabet soup and...:  78%|███████▊  | 195/250 [44:58<11:48, 12.88s/it][A  [OK] Task 7 Ep 195: SUCCESS (steps=288)
+
+put both the alphabet soup and...:  78%|███████▊  | 196/250 [45:13<12:14, 13.60s/it][A  [OK] Task 7 Ep 196: SUCCESS (steps=276)
+
+put both the alphabet soup and...:  79%|███████▉  | 197/250 [45:28<12:18, 13.94s/it][A  [OK] Task 7 Ep 197: SUCCESS (steps=263)
+
+put both the alphabet soup and...:  79%|███████▉  | 198/250 [45:41<11:53, 13.73s/it][A  [OK] Task 7 Ep 198: SUCCESS (steps=268)
+
+put both the alphabet soup and...:  80%|███████▉  | 199/250 [45:54<11:32, 13.57s/it][A  [OK] Task 7 Ep 199: SUCCESS (steps=252)
+
+put both the alphabet soup and...:  80%|████████  | 200/250 [46:07<11:03, 13.27s/it][A  [OK] Task 7 Ep 200: SUCCESS (steps=247)
+
+put both the alphabet soup and...:  80%|████████  | 201/250 [46:19<10:37, 13.00s/it][A  [FAIL] Task 7 Ep 201: FAILURE (steps=910)
+
+put both the alphabet soup and...:  81%|████████  | 202/250 [47:01<17:15, 21.57s/it][A  [OK] Task 7 Ep 202: SUCCESS (steps=253)
+
+put both the alphabet soup and...:  81%|████████  | 203/250 [47:13<14:46, 18.87s/it][A  [OK] Task 7 Ep 203: SUCCESS (steps=259)
+
+put both the alphabet soup and...:  82%|████████▏ | 204/250 [47:28<13:26, 17.52s/it][A  [OK] Task 7 Ep 204: SUCCESS (steps=242)
+
+put both the alphabet soup and...:  82%|████████▏ | 205/250 [47:40<11:55, 15.90s/it][A  [OK] Task 7 Ep 205: SUCCESS (steps=237)
+
+put both the alphabet soup and...:  82%|████████▏ | 206/250 [47:52<10:45, 14.68s/it][A  [OK] Task 7 Ep 206: SUCCESS (steps=501)
+
+put both the alphabet soup and...:  83%|████████▎ | 207/250 [48:15<12:20, 17.22s/it][A  [FAIL] Task 7 Ep 207: FAILURE (steps=910)
+
+put both the alphabet soup and...:  83%|████████▎ | 208/250 [48:56<17:10, 24.53s/it][A  [OK] Task 7 Ep 208: SUCCESS (steps=244)
+
+put both the alphabet soup and...:  84%|████████▎ | 209/250 [49:09<14:13, 20.81s/it][A  [OK] Task 7 Ep 209: SUCCESS (steps=265)
+
+put both the alphabet soup and...:  84%|████████▍ | 210/250 [49:23<12:36, 18.92s/it][A  [OK] Task 7 Ep 210: SUCCESS (steps=731)
+
+put both the alphabet soup and...:  84%|████████▍ | 211/250 [49:56<15:05, 23.21s/it][A  [OK] Task 7 Ep 211: SUCCESS (steps=254)
+
+put both the alphabet soup and...:  85%|████████▍ | 212/250 [50:09<12:39, 19.97s/it][A  [OK] Task 7 Ep 212: SUCCESS (steps=382)
+
+put both the alphabet soup and...:  85%|████████▌ | 213/250 [50:27<11:59, 19.45s/it][A  [OK] Task 7 Ep 213: SUCCESS (steps=240)
+
+put both the alphabet soup and...:  86%|████████▌ | 214/250 [50:39<10:24, 17.35s/it][A  [OK] Task 7 Ep 214: SUCCESS (steps=278)
+
+put both the alphabet soup and...:  86%|████████▌ | 215/250 [50:53<09:28, 16.25s/it][A  [OK] Task 7 Ep 215: SUCCESS (steps=253)
+
+put both the alphabet soup and...:  86%|████████▋ | 216/250 [51:06<08:33, 15.10s/it][A  [OK] Task 7 Ep 216: SUCCESS (steps=253)
+
+put both the alphabet soup and...:  87%|████████▋ | 217/250 [51:18<07:52, 14.32s/it][A  [OK] Task 7 Ep 217: SUCCESS (steps=276)
+
+put both the alphabet soup and...:  87%|████████▋ | 218/250 [51:31<07:29, 14.04s/it][A  [OK] Task 7 Ep 218: SUCCESS (steps=329)
+
+put both the alphabet soup and...:  88%|████████▊ | 219/250 [51:47<07:29, 14.51s/it][A  [OK] Task 7 Ep 219: SUCCESS (steps=263)
+
+put both the alphabet soup and...:  88%|████████▊ | 220/250 [52:00<07:01, 14.06s/it][A  [OK] Task 7 Ep 220: SUCCESS (steps=253)
+
+put both the alphabet soup and...:  88%|████████▊ | 221/250 [52:13<06:39, 13.76s/it][A  [OK] Task 7 Ep 221: SUCCESS (steps=386)
+
+put both the alphabet soup and...:  89%|████████▉ | 222/250 [52:32<07:07, 15.28s/it][A  [OK] Task 7 Ep 222: SUCCESS (steps=255)
+
+put both the alphabet soup and...:  89%|████████▉ | 223/250 [52:45<06:30, 14.48s/it][A  [OK] Task 7 Ep 223: SUCCESS (steps=243)
+
+put both the alphabet soup and...:  90%|████████▉ | 224/250 [52:56<05:56, 13.70s/it][A  [OK] Task 7 Ep 224: SUCCESS (steps=267)
+
+put both the alphabet soup and...:  90%|█████████ | 225/250 [53:09<05:37, 13.49s/it][A  [OK] Task 7 Ep 225: SUCCESS (steps=282)
+
+put both the alphabet soup and...:  90%|█████████ | 226/250 [53:23<05:24, 13.53s/it][A  [OK] Task 7 Ep 226: SUCCESS (steps=239)
+
+put both the alphabet soup and...:  91%|█████████ | 227/250 [53:35<05:01, 13.09s/it][A  [OK] Task 7 Ep 227: SUCCESS (steps=291)
+
+put both the alphabet soup and...:  91%|█████████ | 228/250 [53:50<04:57, 13.52s/it][A  [OK] Task 7 Ep 228: SUCCESS (steps=253)
+
+put both the alphabet soup and...:  92%|█████████▏| 229/250 [54:02<04:37, 13.23s/it][A  [OK] Task 7 Ep 229: SUCCESS (steps=269)
+
+put both the alphabet soup and...:  92%|█████████▏| 230/250 [54:15<04:23, 13.17s/it][A  [OK] Task 7 Ep 230: SUCCESS (steps=269)
+
+put both the alphabet soup and...:  92%|█████████▏| 231/250 [54:29<04:13, 13.34s/it][A  [OK] Task 7 Ep 231: SUCCESS (steps=252)
+
+put both the alphabet soup and...:  93%|█████████▎| 232/250 [54:41<03:54, 13.05s/it][A  [OK] Task 7 Ep 232: SUCCESS (steps=264)
+
+put both the alphabet soup and...:  93%|█████████▎| 233/250 [54:54<03:40, 12.95s/it][A  [OK] Task 7 Ep 233: SUCCESS (steps=272)
+
+put both the alphabet soup and...:  94%|█████████▎| 234/250 [55:07<03:28, 13.05s/it][A  [OK] Task 7 Ep 234: SUCCESS (steps=243)
+
+put both the alphabet soup and...:  94%|█████████▍| 235/250 [55:19<03:11, 12.73s/it][A  [OK] Task 7 Ep 235: SUCCESS (steps=243)
+
+put both the alphabet soup and...:  94%|█████████▍| 236/250 [55:32<02:56, 12.63s/it][A  [OK] Task 7 Ep 236: SUCCESS (steps=261)
+
+put both the alphabet soup and...:  95%|█████████▍| 237/250 [55:45<02:45, 12.69s/it][A  [OK] Task 7 Ep 237: SUCCESS (steps=261)
+
+put both the alphabet soup and...:  95%|█████████▌| 238/250 [55:57<02:32, 12.68s/it][A  [OK] Task 7 Ep 238: SUCCESS (steps=248)
+
+put both the alphabet soup and...:  96%|█████████▌| 239/250 [56:09<02:17, 12.53s/it][A  [OK] Task 7 Ep 239: SUCCESS (steps=288)
+
+put both the alphabet soup and...:  96%|█████████▌| 240/250 [56:23<02:08, 12.88s/it][A  [OK] Task 7 Ep 240: SUCCESS (steps=247)
+
+put both the alphabet soup and...:  96%|█████████▋| 241/250 [56:35<01:53, 12.66s/it][A  [OK] Task 7 Ep 241: SUCCESS (steps=234)
+
+put both the alphabet soup and...:  97%|█████████▋| 242/250 [56:47<01:38, 12.30s/it][A  [OK] Task 7 Ep 242: SUCCESS (steps=264)
+
+put both the alphabet soup and...:  97%|█████████▋| 243/250 [56:59<01:27, 12.43s/it][A  [OK] Task 7 Ep 243: SUCCESS (steps=261)
+
+put both the alphabet soup and...:  98%|█████████▊| 244/250 [57:12<01:15, 12.51s/it][A  [OK] Task 7 Ep 244: SUCCESS (steps=275)
+
+put both the alphabet soup and...:  98%|█████████▊| 245/250 [57:27<01:06, 13.34s/it][A  [OK] Task 7 Ep 245: SUCCESS (steps=243)
+
+put both the alphabet soup and...:  98%|█████████▊| 246/250 [57:39<00:51, 12.92s/it][A  [OK] Task 7 Ep 246: SUCCESS (steps=252)
+
+put both the alphabet soup and...:  99%|█████████▉| 247/250 [57:52<00:38, 12.80s/it][A  [OK] Task 7 Ep 247: SUCCESS (steps=271)
+
+put both the alphabet soup and...:  99%|█████████▉| 248/250 [58:05<00:25, 12.92s/it][A  [OK] Task 7 Ep 248: SUCCESS (steps=268)
+
+put both the alphabet soup and...: 100%|█████████▉| 249/250 [58:18<00:12, 12.91s/it][A  [OK] Task 7 Ep 249: SUCCESS (steps=251)
+
+put both the alphabet soup and...: 100%|██████████| 250/250 [58:30<00:00, 12.75s/it][A
+                                                                                    [A   Task 7: 247/250 (98.8%)
+Tasks:   0%|          | 0/1 [58:33<?, ?it/s]
+
+Total success rate: 247/250 (98.8%)

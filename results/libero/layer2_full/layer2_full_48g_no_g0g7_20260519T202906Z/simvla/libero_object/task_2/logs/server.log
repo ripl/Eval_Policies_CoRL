@@ -1,0 +1,56 @@
+/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simvla_py310_overlay_tf4/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+2026-05-19 17:38:34.425877: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-05-19 17:38:34.425954: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-05-19 17:38:34.427367: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-05-19 17:38:34.433714: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-19 17:38:58.341121: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+INFO:__main__:Loading SimVLA from /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/checkpoints/simvla-libero...
+INFO:root:Loading SmolVLM from: HuggingFaceTB/SmolVLM-500M-Instruct
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO:root:SmolVLM hidden size: 960
+INFO:root:✓ Concat mode enabled: conditions concatenated to sequence
+INFO:root:[SmolVLMVLAProcessor] Initialized with image_size=384, mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5]
+INFO:__main__:Loading norm stats from: /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/simvla/norm_stats/libero_norm.json
+[LiberoJointActionSpace] Loaded state norm stats, dim=8
+[LiberoJointActionSpace] Loaded actions norm stats, dim=7
+INFO:__main__:   State norm: mean=[-0.07068316638469696, 0.018536901101469994, 0.8913209438323975]
+INFO:__main__:   Action norm: mean=[0.047240227460861206, 0.0508635975420475, -0.09378840774297714]
+INFO:__main__:Model loaded! Device: cuda, Image size: 384x384
+INFO:__main__:Starting SimVLA server on 127.0.0.1:8508
+INFO:__main__:  Image size: 384x384
+INFO:__main__:  Action horizon: 10
+INFO:__main__:Creating SimVLA server (host: 127.0.0.1, port: 8508)
+INFO:websockets.server:server listening on 127.0.0.1:8508
+INFO:__main__:SimVLA server listening on 127.0.0.1:8508
+ERROR:websockets.server:opening handshake failed
+Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simvla_py310_overlay_tf4/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simvla_py310_overlay_tf4/websockets/http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simvla_py310_overlay_tf4/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simvla_py310_overlay_tf4/websockets/server.py", line 547, in parse
+    request = yield from Request.parse(
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simvla_py310_overlay_tf4/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simvla_py310_overlay_tf4/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simvla_py310_overlay_tf4/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+INFO:websockets.server:connection open
+INFO:__main__:Connection from ('127.0.0.1', 39306) opened
+INFO:__main__:Connection from ('127.0.0.1', 39306) closed
