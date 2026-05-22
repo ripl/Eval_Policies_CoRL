@@ -1,0 +1,44 @@
+{
+  "artifact": "spatial_forcing_libero_adapter",
+  "purpose": "Record the intentional Spatial Forcing code state used by the LIBERO reproduction/calibration launchers without depending on the old dirty external checkout.",
+  "upstream_repo": {
+    "url": "https://github.com/OpenHelix-Team/Spatial-Forcing.git",
+    "base_commit": "4ffce69ed24cf32a73ab3af09676166a0a77567b",
+    "clean_checkout_path": "third_party/spatial_forcing",
+    "expected_status": "clean"
+  },
+  "adapter_checkout": {
+    "path": "third_party/spatial_forcing_libero_adapter",
+    "branch": "libero-artifact-adapter",
+    "commit": "c6eeaa11cf0c336ff8772bbbbfdceaceaea8caa7",
+    "base_commit": "4ffce69ed24cf32a73ab3af09676166a0a77567b",
+    "expected_status": "clean",
+    "patch_path": "patches/spatial_forcing_libero_artifact_eval.patch",
+    "patch_sha256": "82f92e72e2599bc4f10704aa0cd81ad8b9a32afed8ac89889a54f1a1baf9921e"
+  },
+  "adapter_patch_intent": [
+    "Teach openvla-SF/experiments/robot/libero/run_libero_eval.py to load LIBERO artifact-root .pruned_init init states.",
+    "Allow selected-task and episode-range evaluation for Slurm array cells and smoke tests.",
+    "Write per-episode CSV rows with policy, checkpoint, init-state path, success, step count, and error type.",
+    "Make rollout video saving optional so paper rollouts do not generate large video artifacts by default.",
+    "Leave FlashAttention2 disabled in openvla_utils.py because forcing it changed LIBERO evaluation behavior in local reproduction."
+  ],
+  "launcher_default": {
+    "env_var": "SF_REPO",
+    "value": "${PROJECT_ROOT}/third_party/spatial_forcing_libero_adapter/openvla-SF"
+  },
+  "launchers_using_adapter_default": [
+    "scripts/slurm/libero_spatial_forcing_goal_5k_array.sbatch",
+    "scripts/slurm/libero_openvla_oft_goal_smoke.sbatch",
+    "scripts/slurm/libero_openvla_oft_goal_5k_array.sbatch",
+    "scripts/slurm/libero_layer2_spatial_forcing_smoke_array.sbatch",
+    "scripts/slurm/libero_layer2_spatial_forcing_full_array.sbatch",
+    "scripts/slurm/libero_official_calibration_policy_suite.sbatch"
+  ],
+  "recreate_adapter_content": [
+    "Clone upstream Spatial-Forcing at base_commit.",
+    "Apply patches/spatial_forcing_libero_artifact_eval.patch from the repository root of the Spatial-Forcing checkout.",
+    "Use the resulting openvla-SF directory as SF_REPO for LIBERO calibration and Layer 2 launchers."
+  ],
+  "parent_repo_tracking_decision": "The nested adapter checkout is intentionally not added as a parent-repo gitlink here because its adapter commit is local to this shared artifact checkout and is recorded reproducibly by the patch file plus SHA256 instead."
+}

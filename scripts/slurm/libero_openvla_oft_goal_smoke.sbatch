@@ -12,7 +12,7 @@
 set -euo pipefail
 
 export PROJECT_ROOT="${PROJECT_ROOT:-/share/data/ripl/tianchong/projects/Eval_Policies_CoRL}"
-export SF_REPO="${SF_REPO:-/share/data/ripl/tianchong/projects/repro_policies/Spatial-Forcing/openvla-SF}"
+export SF_REPO="${SF_REPO:-${PROJECT_ROOT}/third_party/spatial_forcing_libero_adapter/openvla-SF}"
 export INIT_ROOT="${INIT_ROOT:-${PROJECT_ROOT}/artifacts/libero/init_state_goal_5000}"
 export CKPT_DIR="${CKPT_DIR:-${PROJECT_ROOT}/checkpoints/openvla-oft-libero-goal}"
 export RUN_GROUP="${RUN_GROUP:-openvla_oft_goal_smoke_${SLURM_JOB_ID:-manual}_$(date -u +%Y%m%dT%H%M%SZ)}"

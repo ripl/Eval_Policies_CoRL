@@ -20,7 +20,7 @@ TASK_ID=$((ARRAY_ID % 10))
 export TASK_SUITE="${SUITES[${SUITE_IDX}]}"
 export TASK_ID
 export PROJECT_ROOT="${PROJECT_ROOT:-/share/data/ripl/tianchong/projects/Eval_Policies_CoRL}"
-export SF_REPO="${SF_REPO:-/share/data/ripl/tianchong/projects/repro_policies/Spatial-Forcing/openvla-SF}"
+export SF_REPO="${SF_REPO:-${PROJECT_ROOT}/third_party/spatial_forcing_libero_adapter/openvla-SF}"
 export ARTIFACT_NAME="${ARTIFACT_NAME:-init_state_layer2_4suite_2500_seed20260519}"
 export INIT_ROOT="${INIT_ROOT:-${PROJECT_ROOT}/artifacts/libero/${ARTIFACT_NAME}}"
 if [[ -z "${CKPT_DIR:-}" ]]; then
