@@ -21,10 +21,6 @@ mkdir -p "${HF_HOME}" "${TORCH_HOME}" "${XDG_CACHE_HOME}" "${PIP_CACHE_DIR}" \
 cd "${PROJECT_ROOT}"
 git submodule update --init --recursive third_party/simplerenv_openvla
 
-PATCH_FILE="${PROJECT_ROOT}/patches/simplerenv_openvla/gymnasium_wrapper_attrs.patch"
-if [[ -f "${PATCH_FILE}" ]] && ! grep -q "_env_method" "${PROJECT_ROOT}/third_party/simplerenv_openvla/simpler_env/evaluation/maniskill2_evaluator.py"; then
-  patch -d "${PROJECT_ROOT}/third_party/simplerenv_openvla" -p1 < "${PATCH_FILE}"
-fi
 
 CONDA_BASE="$(conda info --base)"
 # shellcheck source=/dev/null
