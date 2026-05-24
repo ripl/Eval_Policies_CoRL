@@ -1,0 +1,17 @@
+{
+  "array_job_id": "",
+  "base_seed": 202605230,
+  "ckpt_path": "IPEC-COMMUNITY/spatialvla-4b-224-sft-bridge",
+  "cuda_visible_devices": "0",
+  "hostname": "g19.ttic.edu",
+  "job_id": "2063836",
+  "policy": "spatialvla",
+  "policy_state_reset": "model.reset(task_description) is called at the start of every rollout",
+  "preflight_report": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z/spatialvla/eggplant/preflight_report.json",
+  "python": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_spatialvla_py310/bin/python",
+  "python_version": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+  "rollout_seed_control": "PYTHONHASHSEED, Python random, NumPy, torch, and TensorFlow seeds are set from the manifest seed before each rollout",
+  "stochastic_action_sampling": "not intentionally active in the evaluated path: greedy action-token decoding",
+  "task": "eggplant",
+  "time_utc_epoch": 1779579968
+}

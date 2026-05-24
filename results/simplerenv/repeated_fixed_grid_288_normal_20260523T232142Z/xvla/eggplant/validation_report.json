@@ -1,0 +1,14 @@
+{
+  "actual_rows": 288,
+  "error_rows": 0,
+  "errors": [],
+  "expected_rows": 288,
+  "policy": "xvla",
+  "success_rate": 0.6840277777777778,
+  "successes": 197,
+  "task": "eggplant",
+  "timeout_rows": 0,
+  "unique_keys": 288,
+  "validation_status": "passed",
+  "warnings": []
+}

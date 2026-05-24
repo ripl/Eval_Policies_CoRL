@@ -1,0 +1,20 @@
+{
+  "actual_rows": 288,
+  "allow_errors": false,
+  "allow_timeouts": false,
+  "error_rows": 0,
+  "errors": [],
+  "expected_reset_count": 288,
+  "expected_rows": 288,
+  "policy": "dexbotic",
+  "reset_count": 288,
+  "reset_count_loose": 288,
+  "seed_column_semantics": "host/client/repeat identifier and client/simulator seed; not full model-server RNG control",
+  "success_rate": 0.4270833333333333,
+  "successes": 123,
+  "task": "carrot",
+  "timeout_rows": 0,
+  "unique_keys": 288,
+  "validation_status": "passed",
+  "warnings": []
+}

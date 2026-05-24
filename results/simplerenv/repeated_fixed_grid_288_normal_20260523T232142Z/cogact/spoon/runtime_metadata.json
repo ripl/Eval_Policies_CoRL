@@ -1,0 +1,17 @@
+{
+  "array_job_id": "",
+  "base_seed": 202605230,
+  "ckpt_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/hub/models--CogACT--CogACT-Base/snapshots/6550bf0992f162fc5d74f14ffee30771a9433363/checkpoints/CogACT-Base.pt",
+  "cuda_visible_devices": "0",
+  "hostname": "g19.ttic.edu",
+  "job_id": "2063930",
+  "policy": "cogact",
+  "policy_state_reset": "model.reset(task_description) is called at the start of every rollout",
+  "preflight_report": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z/cogact/spoon/preflight_report.json",
+  "python": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_cogact_py310_np126/bin/python",
+  "python_version": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+  "rollout_seed_control": "PYTHONHASHSEED, Python random, NumPy, torch, and TensorFlow seeds are set from the manifest seed before each rollout",
+  "stochastic_action_sampling": "active: CogACT-Base uses a diffusion action head seeded before each rollout",
+  "task": "spoon",
+  "time_utc_epoch": 1779583865
+}

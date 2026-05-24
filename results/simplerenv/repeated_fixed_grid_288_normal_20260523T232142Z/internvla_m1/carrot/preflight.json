@@ -1,0 +1,29 @@
+{
+  "actual_weight_sha256": {
+    "checkpoints/steps_50000_pytorch_model.pt": "383fd5357fe193396027bc3c93b64312680d6ba98207fb433aee07b22f74acc1",
+    "config.yaml": "552a1da418b6ecf1e829dd11c3a7603f8b8d046461320bf1a35c98873069727c",
+    "dataset_statistics.json": "0de823f284562492fac29c3057f01c6dbe4b3c82b0091f73824ad1d9d9de7cae"
+  },
+  "checkpoint": "/share/data/ripl/tianchong/projects/InternVLA-M1/cache/models/InternRobotics/InternVLA-M1-Pretrain-RT-1-Bridge/checkpoints/steps_50000_pytorch_model.pt",
+  "expected_rows": 288,
+  "expected_weight_sha256": {
+    "checkpoints/steps_50000_pytorch_model.pt": "383fd5357fe193396027bc3c93b64312680d6ba98207fb433aee07b22f74acc1",
+    "config.yaml": "552a1da418b6ecf1e829dd11c3a7603f8b8d046461320bf1a35c98873069727c",
+    "dataset_statistics.json": "0de823f284562492fac29c3057f01c6dbe4b3c82b0091f73824ad1d9d9de7cae"
+  },
+  "horizon": 60,
+  "internvla_commit": "21e6e8f4bd42bee269dd021a118133501e9d8ede",
+  "internvla_patch_classification": "launch/host/debugpy-only",
+  "internvla_patch_path": "examples/SimplerEnv/start_simpler_env.py",
+  "internvla_patch_sha256": "251f8e7e0e89dbd5ffa14b0ef5d6e89a9f54eb1806de15780f2925093cb5b733",
+  "policy": "InternVLA-M1",
+  "simpler_env_commit": "4ab7178e83e84ee06894034ec6dbf9e7aad1e882",
+  "simpler_env_patch_classification": "evaluation-launch compatibility: fixed task reset/logging/result capture and renderer path plumbing",
+  "simpler_env_patch_paths": [
+    "simpler_env/evaluation/maniskill2_evaluator.py",
+    "simpler_env/utils/env/env_builder.py"
+  ],
+  "simpler_env_patch_sha256": "cd3bdf02b2e5ac9949001fbbcb042e24505aa29868bc0396065b89b67c1522bc",
+  "status": "ok",
+  "task": "carrot"
+}

@@ -1,0 +1,13 @@
+post_submission_patch_utc=2026-05-23T23:50:16Z
+reason=spatialvla retry wrapper fix: pass env.unwrapped to observation helper; also copy finalizer filename fix
+affected_active_jobs=spatialvla retries only; failed initial spatialvla jobs 2063833-2063836 are preserved separately
+
+post_submission_patch_utc=2026-05-24T02:01:12Z
+reason=finalizer-only fix: compare launch snapshot hashes using the same project-relative path strings stored in submission_support_files.sha256
+affected_active_jobs=none; rollout code and active Slurm jobs unchanged
+verification=bundle validate_run_bundle returned no errors after refreshing submission_support_files.sha256
+
+post_submission_patch_utc=2026-05-24T07:41:52Z
+reason=finalizer-only compatibility fix: accept per-job validation reports that use status=passed instead of validation_status=passed
+affected_active_jobs=none; all active Slurm jobs had already completed 0:0
+verification=CogACT and SpatialVLA per-job reports have 288 rows, zero missing/duplicate/error rows, and status=passed

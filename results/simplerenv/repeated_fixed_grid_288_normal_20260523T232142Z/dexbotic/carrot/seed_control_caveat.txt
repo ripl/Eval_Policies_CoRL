@@ -1,0 +1,6 @@
+Rollout seed formula: 20260523 + policy_index*1000000 + task_index*10000 + repeat_id*100 + official_episode_id.
+For each Dexbotic client/evaluation subprocess, PYTHONHASHSEED, Python random, NumPy, and torch seeds are set to the manifest seed before evaluation/run_simpler_evaluation.py is executed.
+The Dexbotic model server is started once for the task job with startup seed 21280423.
+The server API exposes episode_first_frame for memory reset but does not expose a per-rollout RNG seed reset. Server-side diffusion sampling therefore follows the single server process RNG stream rather than being independently reset to each manifest seed.
+Treat the CSV seed column as a host/client/repeat identifier and client/simulator seed, not as full model RNG control.
+Validation requires 288 '** reset memory **' server-log entries, one per one-episode evaluation call.

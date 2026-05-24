@@ -1,0 +1,75 @@
+{
+  "checkpoint_identity": {
+    "cache_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/hub/models--IPEC-COMMUNITY--spatialvla-4b-224-sft-bridge",
+    "critical_files": [
+      {
+        "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/hub/models--IPEC-COMMUNITY--spatialvla-4b-224-sft-bridge/snapshots/cfb5ff76f7545d07c134f33810d8bf4070b5d517/config.json",
+        "sha256": "0c5d94be86f9e15b708650c4b829033ae99243f85507012b1dafa0263f799909",
+        "size_bytes": 8126
+      },
+      {
+        "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/hub/models--IPEC-COMMUNITY--spatialvla-4b-224-sft-bridge/snapshots/cfb5ff76f7545d07c134f33810d8bf4070b5d517/preprocessor_config.json",
+        "sha256": "bdb79dc3255a75c1c4be8ac1ddd4e2aa08b9a29eee0431755b7b0faa3b54e413",
+        "size_bytes": 512
+      },
+      {
+        "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/hub/models--IPEC-COMMUNITY--spatialvla-4b-224-sft-bridge/snapshots/cfb5ff76f7545d07c134f33810d8bf4070b5d517/tokenizer_config.json",
+        "sha256": "33f38858ac90afd5ac29942110dd3b98f40e1e194fca254714bab5d88f57cc65",
+        "size_bytes": 1717517
+      },
+      {
+        "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/hub/models--IPEC-COMMUNITY--spatialvla-4b-224-sft-bridge/snapshots/cfb5ff76f7545d07c134f33810d8bf4070b5d517/tokenizer.json",
+        "sha256": "2523a63c898ebf0a32c7282a2e459ef2c950a846c5f3172305089e4149b6b6c3",
+        "size_bytes": 36157680
+      }
+    ],
+    "expected_revision": "cfb5ff76f7545d07c134f33810d8bf4070b5d517",
+    "model_path": "IPEC-COMMUNITY/spatialvla-4b-224-sft-bridge",
+    "resolved_revision": "cfb5ff76f7545d07c134f33810d8bf4070b5d517",
+    "snapshot_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/hub/models--IPEC-COMMUNITY--spatialvla-4b-224-sft-bridge/snapshots/cfb5ff76f7545d07c134f33810d8bf4070b5d517",
+    "source_type": "hf_repo_id"
+  },
+  "checks": {
+    "env_python": {
+      "exists": true,
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_spatialvla_py310/bin/python"
+    },
+    "overlay": {
+      "exists": true,
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/sources/simplerenv_openvla_ccfe380/ManiSkill2_real2sim/data/real_inpainting/bridge_real_eval_1.png"
+    },
+    "project_root": {
+      "exists": true,
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL"
+    },
+    "spatialvla_maniskill2": {
+      "exists": true,
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/sources/simplerenv_openvla_ccfe380/ManiSkill2_real2sim"
+    },
+    "spatialvla_repo": {
+      "exists": true,
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/sources/simplerenv_openvla_ccfe380"
+    }
+  },
+  "current_commits": {
+    "project_root": "191bbe20d7cd068eceb167ec8b0f317ca972df68",
+    "spatialvla_maniskill2": "cd45dd27dc6bb26d048cb6570cdab4e3f935cc37",
+    "spatialvla_repo": "ccfe3809766839a2fcfb7a3d3c9abff585189188"
+  },
+  "dirty_status": {
+    "project_root": "M third_party/simplerenv_openvla\n?? MUJOCO_LOG.TXT\n?? deliverables/sam_libero_goal_3x5k_raw_20260514T171513Z.zip\n?? scratch/\n?? scripts/bitwise/\n?? scripts/slurm/bitwise_libero_trace.sbatch\n?? third_party/ABot-Manipulation/\n?? third_party/InternVLA-M1/\n?? third_party/alphabrain/\n?? third_party/dexbotic-benchmark/\n?? third_party/dexbotic/\n?? third_party/hif_vla/\n?? third_party/lerobot/\n?? third_party/robocasa-gr1-tabletop-tasks/\n?? third_party/robosuite/\n?? third_party/robosuite_models/\n?? third_party/simvla/\n?? third_party/spatial_forcing/\n?? third_party/spatial_forcing_libero_adapter/\n?? third_party/starVLA/\n?? third_party/vggt/",
+    "spatialvla_maniskill2": "",
+    "spatialvla_repo": ""
+  },
+  "errors": [],
+  "expected_commits": {
+    "spatialvla_maniskill2": "cd45dd27dc6bb26d048cb6570cdab4e3f935cc37",
+    "spatialvla_repo": "ccfe3809766839a2fcfb7a3d3c9abff585189188"
+  },
+  "output_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z/spatialvla/carrot",
+  "policy": "spatialvla",
+  "project_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL",
+  "scratch_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z/bundle/launch_snapshot",
+  "status": "passed",
+  "task": "carrot"
+}

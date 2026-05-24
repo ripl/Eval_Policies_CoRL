@@ -1,0 +1,19 @@
+{
+  "duplicate_key_count": 0,
+  "error_row_count": 0,
+  "errors": [],
+  "expected_rows": 288,
+  "failures": 145,
+  "manifest_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z/internvla_m1/carrot/manifest.csv",
+  "missing_key_count": 0,
+  "policy": "InternVLA-M1",
+  "result_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z/internvla_m1/carrot/per_episode_results.csv",
+  "row_count": 288,
+  "successes": 143,
+  "task": "carrot",
+  "task_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z/internvla_m1/carrot",
+  "timeout_row_count": 0,
+  "unique_key_count": 288,
+  "validation_status": "passed",
+  "warnings": []
+}

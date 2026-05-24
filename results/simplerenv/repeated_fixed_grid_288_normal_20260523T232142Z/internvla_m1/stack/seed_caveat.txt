@@ -1,0 +1,8 @@
+policy=InternVLA-M1
+task=stack
+seed_formula=BASE_SEED(20260523) + task_index*10000 + repeat_id*24 + official_episode_id
+server_seed_formula=BASE_SEED(20260523) + task_index*10000 + 9000
+client_seed_control=Each episode is run in a fresh simulator/client Python subprocess with PYTHONHASHSEED, random.seed, numpy.random.seed, and torch.manual_seed/torch.cuda.manual_seed_all set before importing the InternVLA client.
+server_seed_control=The policy server Python subprocess is seeded once at server startup with PYTHONHASHSEED, random.seed, numpy.random.seed, and torch.manual_seed/torch.cuda.manual_seed_all before loading InternVLA-M1.
+server_rng_caveat=InternVLA-M1 exposes no accepted per-episode server seed/reset RPC in this integration. Server-side diffusion/action RNG state advances across requests and is not reset to each manifest seed. Treat per-episode seeds as simulator/client seeds plus recorded rollout identifiers, not full control of server RNG.
+policy_state_reset=The accepted SimplerEnv evaluator calls M1Inference.reset(task_description) at the start of each episode; this launcher also isolates every official episode in a fresh client subprocess and logging directory.

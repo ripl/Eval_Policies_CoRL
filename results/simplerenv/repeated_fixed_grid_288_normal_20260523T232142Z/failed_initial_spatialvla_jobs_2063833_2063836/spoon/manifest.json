@@ -1,0 +1,40 @@
+{
+  "base_seed": 202605230,
+  "csv_columns": [
+    "policy",
+    "task",
+    "official_episode_id",
+    "repeat_id",
+    "seed",
+    "success",
+    "steps",
+    "error",
+    "timeout",
+    "horizon",
+    "job_id",
+    "video_path"
+  ],
+  "official_episode_ids": [
+    0,
+    23
+  ],
+  "policy": "spatialvla",
+  "policy_offset": 200000,
+  "repeat_ids": [
+    0,
+    11
+  ],
+  "row_count": 288,
+  "seed_formula": "base_seed + policy_offset + task_offset + repeat_id * 24 + official_episode_id",
+  "task": "spoon",
+  "task_offset": 3000,
+  "task_spec": {
+    "env_name": "PutSpoonOnTableClothInScene-v0",
+    "horizon": 60,
+    "overlay_name": "bridge_real_eval_1.png",
+    "robot": "widowx",
+    "robot_init_x": 0.147,
+    "robot_init_y": 0.028,
+    "scene_name": "bridge_table_1_v1"
+  }
+}

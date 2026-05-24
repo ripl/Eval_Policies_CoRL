@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/share/data/ripl/tianchong/conda/envs/internvla_m1_widowx_repro/bin/python",
+    "-u",
+    "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z/bundle/launch_snapshot/run_seeded_policy_server.py",
+    "--seed",
+    "20279523",
+    "--server-script",
+    "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/InternVLA-M1/deployment/model_server/server_policy_M1.py",
+    "--",
+    "--ckpt_path",
+    "/share/data/ripl/tianchong/projects/InternVLA-M1/cache/models/InternRobotics/InternVLA-M1-Pretrain-RT-1-Bridge/checkpoints/steps_50000_pytorch_model.pt",
+    "--port",
+    "23838",
+    "--use_bf16"
+  ],
+  "pid": 1326909,
+  "port": 23838,
+  "server_seed": 20279523
+}

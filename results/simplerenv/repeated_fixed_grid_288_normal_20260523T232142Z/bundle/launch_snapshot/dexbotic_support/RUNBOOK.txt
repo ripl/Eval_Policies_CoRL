@@ -1,0 +1,36 @@
+Repeated fixed-grid calibration support for Dexbotic / DB-MemVLA.
+
+Scope:
+- One invocation runs exactly one Dexbotic task.
+- Supported tasks: stack, carrot, spoon, eggplant.
+- Each normal run loops repeat_id 0..11 and official_episode_id 0..23.
+- Standard horizons are stack=60, carrot=60, spoon=60, eggplant=120.
+- Slurm arrays are intentionally not used.
+- The runner uses the official Dexbotic server image and official benchmark
+  image with the clean strict benchmark checkout discovered for the strict
+  calibration.
+- The runner requires the strict-run norm_stats file:
+  /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/strict_calibrations_20260523/dexbotic_official_workspace_strict_20260523T015147Z/run/norm_stats.json
+  sha256 ddbeb68786543c68f8fa198c33fd9a265025d35c5f7ebba144d6ec9c655693e6.
+  There is no Hugging Face network fallback.
+
+Dry-run/preflight examples:
+  bash run_one_task.sh --task stack --dry-run
+  bash run_one_task.sh --policy dexbotic --task eggplant --dry-run
+
+Sbatch examples for review only; do not submit from this file unless explicitly approved:
+  sbatch -J repcal_dexbotic_spoon launch/run_repeated_fixed_grid_task.sbatch spoon
+
+Normal output defaults to:
+  scratch/repeated_fixed_grid_calibration_288_20260523_v2/dexbotic_support/runs/dexbotic_<task>_<timestamp>_job<jobid>_<pid>/
+
+Every normal run writes manifest.csv before rollouts, per_episode_results.csv
+with the required exact columns, validation_report.json after the loop,
+seed_control_caveat.txt, runtime metadata, image-inspect files, code
+SHA/status files, norm_stats.sha256, and one saved config per episode.
+
+The server is kept alive for the task job because restarting the Dexbotic model
+server for every repeat would reload the model 12 times. The seed column is
+therefore a host/client/repeat identifier and client/simulator seed, not proof
+of full server RNG control. Validation requires 288 strict '** reset memory **'
+server-log entries when the reset marker is available in the server log.

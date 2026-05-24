@@ -1,0 +1,4 @@
+Rollout seed formula: 20260523 + task_index*10000 + repeat_id*100 + official_episode_id.
+For each X-VLA client rollout subprocess, PYTHONHASHSEED, Python random, NumPy, and torch seeds are set to the manifest seed before the official client module is loaded.
+The X-VLA model server is started once for the task job with startup seed 20300423.
+The server API does not expose a per-rollout RNG reset or seed field, so server-side torch sampling is not independently reset to each manifest seed. Treat the manifest seed as controlling the client/simulator subprocess and as an identifier for the rollout, not as full server RNG control.

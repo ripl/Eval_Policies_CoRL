@@ -1,0 +1,6 @@
+run_id=repeated_fixed_grid_288_normal_20260523T232142Z
+run_root=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z
+snapshot_dir=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z/bundle/launch_snapshot
+source_v2_dir=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2
+spatialvla_repo=/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/sources/simplerenv_openvla_ccfe380
+created_at_utc=2026-05-23T23:25:33Z

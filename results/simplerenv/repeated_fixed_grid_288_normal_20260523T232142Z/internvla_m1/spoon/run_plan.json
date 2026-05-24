@@ -1,0 +1,22 @@
+{
+  "episodes_to_run": 288,
+  "existing_result_rows": 0,
+  "first_planned": [
+    0,
+    0,
+    20280523
+  ],
+  "last_planned": [
+    11,
+    23,
+    20280810
+  ],
+  "manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z/internvla_m1/spoon/manifest.csv",
+  "output_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z/internvla_m1",
+  "per_episode_results": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z/internvla_m1/spoon/per_episode_results.csv",
+  "port": 23839,
+  "status": "planned",
+  "task": "spoon",
+  "task_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z/internvla_m1/spoon",
+  "total_manifest_rows": 288
+}

@@ -1,0 +1,57 @@
+{
+  "checkpoint_identity": {
+    "local_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/hub/models--CogACT--CogACT-Base/blobs/1d35ec754c5c1ed7ab9ac22c9aba478e7269bab7db5b40df2703b2dc1e1009c0",
+    "model_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/cache/huggingface/hub/models--CogACT--CogACT-Base/snapshots/6550bf0992f162fc5d74f14ffee30771a9433363/checkpoints/CogACT-Base.pt",
+    "source_type": "local_path"
+  },
+  "checks": {
+    "cogact_repo": {
+      "exists": true,
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/cogact"
+    },
+    "env_python": {
+      "exists": true,
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_cogact_py310_np126/bin/python"
+    },
+    "overlay": {
+      "exists": true,
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/simpler_env/ManiSkill2_real2sim/data/real_inpainting/bridge_real_eval_1.png"
+    },
+    "project_root": {
+      "exists": true,
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL"
+    },
+    "simpler_env_maniskill2": {
+      "exists": true,
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/simpler_env/ManiSkill2_real2sim"
+    },
+    "simpler_env_repo": {
+      "exists": true,
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/simpler_env"
+    }
+  },
+  "current_commits": {
+    "cogact_repo": "b174a1b86deedfab4d198d935207e7bb0527994e",
+    "project_root": "191bbe20d7cd068eceb167ec8b0f317ca972df68",
+    "simpler_env_maniskill2": "ef7a4d4fdf4b69f2c2154db5b15b9ac8dfe10682",
+    "simpler_env_repo": "06accaca93535902d408da4855f21cece12bceb7"
+  },
+  "dirty_status": {
+    "cogact_repo": "",
+    "project_root": "M third_party/simplerenv_openvla\n?? MUJOCO_LOG.TXT\n?? deliverables/sam_libero_goal_3x5k_raw_20260514T171513Z.zip\n?? scratch/\n?? scripts/bitwise/\n?? scripts/slurm/bitwise_libero_trace.sbatch\n?? third_party/ABot-Manipulation/\n?? third_party/InternVLA-M1/\n?? third_party/alphabrain/\n?? third_party/dexbotic-benchmark/\n?? third_party/dexbotic/\n?? third_party/hif_vla/\n?? third_party/lerobot/\n?? third_party/robocasa-gr1-tabletop-tasks/\n?? third_party/robosuite/\n?? third_party/robosuite_models/\n?? third_party/simvla/\n?? third_party/spatial_forcing/\n?? third_party/spatial_forcing_libero_adapter/\n?? third_party/starVLA/\n?? third_party/vggt/",
+    "simpler_env_maniskill2": "",
+    "simpler_env_repo": ""
+  },
+  "errors": [],
+  "expected_commits": {
+    "cogact_repo": "b174a1b86deedfab4d198d935207e7bb0527994e",
+    "simpler_env_maniskill2": "ef7a4d4fdf4b69f2c2154db5b15b9ac8dfe10682",
+    "simpler_env_repo": "06accaca93535902d408da4855f21cece12bceb7"
+  },
+  "output_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z/cogact/stack",
+  "policy": "cogact",
+  "project_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL",
+  "scratch_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/repeated_fixed_grid_288_normal_20260523T232142Z/bundle/launch_snapshot",
+  "status": "passed",
+  "task": "stack"
+}

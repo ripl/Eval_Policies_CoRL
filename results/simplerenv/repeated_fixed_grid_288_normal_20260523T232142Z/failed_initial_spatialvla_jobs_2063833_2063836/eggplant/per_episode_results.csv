@@ -1,0 +1,2 @@
+policy,task,official_episode_id,repeat_id,seed,success,steps,error,timeout,horizon,job_id,video_path
+spatialvla,eggplant,0,0,202809230,,,AttributeError: 'TimeLimit' object has no attribute 'robot_uid',,120,2063836,
