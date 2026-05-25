@@ -1,0 +1,319 @@
+{
+  "claim_scope": {
+    "benchmark": "CALVIN",
+    "conditions": [
+      "matched local official calibration",
+      "Protocol 1 official-D table-block reset randomization"
+    ],
+    "metric": "average tasks completed in a row (ATC)",
+    "num_sequences_per_policy_condition": 1000,
+    "policies": [
+      "X-VLA",
+      "GR-1",
+      "RoboFlamingo"
+    ],
+    "task_split": "ABC -> D / task_ABC_D"
+  },
+  "commands_and_logs": {
+    "array_job_id": "2048456",
+    "sacct_file": "results/calvin/aggregates/calvin_full_1000_2048456/release_metadata/sacct_2048456.txt",
+    "slurm_array_script": "scripts/slurm/calvin_full_1000_array.sbatch",
+    "slurm_log_glob": "logs/slurm/calvin_full_1k-2048456_*.{out,err}"
+  },
+  "environment": {
+    "calvin_env_pip_freeze": "results/calvin/aggregates/calvin_full_1000_2048456/release_metadata/calvin_env_pip_freeze.txt",
+    "calvin_overlay_pip_freeze": "results/calvin/aggregates/calvin_full_1000_2048456/release_metadata/calvin_overlay_pip_freeze.txt",
+    "runtime_metadata_pattern": "results/calvin/*/*1000seq_chunk*/metadata.txt",
+    "xvla_env_pip_freeze": "results/calvin/aggregates/calvin_full_1000_2048456/release_metadata/xvla_env_pip_freeze.txt"
+  },
+  "excluded_from_release": [
+    "model weights and Hugging Face cache blobs",
+    "CALVIN datasets and Policy_Eval_Done_Right_cache contents",
+    "conda environments and simulator caches",
+    "videos, full observations, and per-step action traces",
+    "historical training-segment reset-screening artifacts",
+    "scripts/slurm/calvin_train_pose_resets_50_array.sbatch",
+    "scripts/slurm/bitwise_calvin_gr1_trace.sbatch"
+  ],
+  "generated_utc": "2026-05-25T20:34:16+00:00",
+  "purpose": "Release metadata for CALVIN creeping-overfitting Protocol 1 artifacts supporting the paper claim.",
+  "repo": {
+    "commit_note": "head/upstream identify the checked code and result-artifact state at release-metadata generation time; a later metadata-only commit may be a descendant and does not change the run identity.",
+    "head": "d91e42c7db92887fdad73779af6708d58e2824f7",
+    "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL",
+    "release_path_status_short": [],
+    "remote_origin": "git@github.com:ripl/Eval_Policies_CoRL.git",
+    "upstream": "d91e42c7db92887fdad73779af6708d58e2824f7"
+  },
+  "result_validation": {
+    "combined_summary": "results/calvin/aggregates/calvin_full_1000_2048456/combined_summary.json",
+    "per_policy_condition": {
+      "gr1_calibration_summary": {
+        "avg_matches_summary_exact": true,
+        "chain_sr": {
+          "1": 0.875,
+          "2": 0.746,
+          "3": 0.645,
+          "4": 0.547,
+          "5": 0.431
+        },
+        "condition": "calibration",
+        "duplicate_global_indices": 0,
+        "missing_global_indices": 0,
+        "num_rows": 1000,
+        "per_sequence_sources": [
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_calibration_1000seq_chunk0_0_250_2048456_4/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_calibration_1000seq_chunk1_250_500_2048456_5/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_calibration_1000seq_chunk2_500_750_2048456_6/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_calibration_1000seq_chunk3_750_1000_2048456_7/per_sequence_results.json"
+        ],
+        "policy": "gr1",
+        "recomputed_avg_seq_len": 3.244,
+        "summary_avg_seq_len": 3.244,
+        "unique_global_indices": 1000
+      },
+      "gr1_protocol1_summary": {
+        "avg_matches_summary_exact": true,
+        "chain_sr": {
+          "1": 0.777,
+          "2": 0.582,
+          "3": 0.47,
+          "4": 0.37,
+          "5": 0.296
+        },
+        "condition": "protocol1",
+        "duplicate_global_indices": 0,
+        "missing_global_indices": 0,
+        "num_rows": 1000,
+        "per_sequence_sources": [
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_official_d_table_resets_seed0_1000seq_chunk0_0_250_2048456_16/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_official_d_table_resets_seed0_1000seq_chunk1_250_500_2048456_17/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_official_d_table_resets_seed0_1000seq_chunk2_500_750_2048456_18/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/gr1_abc_d/gr1_abc_d_official_d_table_resets_seed0_1000seq_chunk3_750_1000_2048456_19/per_sequence_results.json"
+        ],
+        "policy": "gr1",
+        "recomputed_avg_seq_len": 2.495,
+        "summary_avg_seq_len": 2.495,
+        "unique_global_indices": 1000
+      },
+      "roboflamingo_calibration_summary": {
+        "avg_matches_summary_exact": true,
+        "chain_sr": {
+          "1": 0.802,
+          "2": 0.598,
+          "3": 0.445,
+          "4": 0.313,
+          "5": 0.209
+        },
+        "condition": "calibration",
+        "duplicate_global_indices": 0,
+        "missing_global_indices": 0,
+        "num_rows": 1000,
+        "per_sequence_sources": [
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/roboflamingo_abc_d/roboflamingo_abc_d_calibration_1000seq_chunk0_0_250_2048456_8/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/roboflamingo_abc_d/roboflamingo_abc_d_calibration_1000seq_chunk1_250_500_2048456_9/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/roboflamingo_abc_d/roboflamingo_abc_d_calibration_1000seq_chunk2_500_750_2048456_10/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/roboflamingo_abc_d/roboflamingo_abc_d_calibration_1000seq_chunk3_750_1000_2048456_11/per_sequence_results.json"
+        ],
+        "policy": "roboflamingo",
+        "recomputed_avg_seq_len": 2.367,
+        "summary_avg_seq_len": 2.367,
+        "unique_global_indices": 1000
+      },
+      "roboflamingo_protocol1_summary": {
+        "avg_matches_summary_exact": true,
+        "chain_sr": {
+          "1": 0.708,
+          "2": 0.469,
+          "3": 0.321,
+          "4": 0.226,
+          "5": 0.145
+        },
+        "condition": "protocol1",
+        "duplicate_global_indices": 0,
+        "missing_global_indices": 0,
+        "num_rows": 1000,
+        "per_sequence_sources": [
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/roboflamingo_abc_d/roboflamingo_abc_d_official_d_table_resets_seed0_1000seq_chunk0_0_250_2048456_20/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/roboflamingo_abc_d/roboflamingo_abc_d_official_d_table_resets_seed0_1000seq_chunk1_250_500_2048456_21/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/roboflamingo_abc_d/roboflamingo_abc_d_official_d_table_resets_seed0_1000seq_chunk2_500_750_2048456_22/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/roboflamingo_abc_d/roboflamingo_abc_d_official_d_table_resets_seed0_1000seq_chunk3_750_1000_2048456_23/per_sequence_results.json"
+        ],
+        "policy": "roboflamingo",
+        "recomputed_avg_seq_len": 1.869,
+        "summary_avg_seq_len": 1.869,
+        "unique_global_indices": 1000
+      },
+      "xvla_calibration_summary": {
+        "avg_matches_summary_exact": true,
+        "chain_sr": {
+          "1": 0.951,
+          "2": 0.886,
+          "3": 0.834,
+          "4": 0.785,
+          "5": 0.709
+        },
+        "condition": "calibration",
+        "duplicate_global_indices": 0,
+        "missing_global_indices": 0,
+        "num_rows": 1000,
+        "per_sequence_sources": [
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/xvla_abc_d/xvla_abc_d_calibration_1000seq_chunk0_0_250_2048456_0/client/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/xvla_abc_d/xvla_abc_d_calibration_1000seq_chunk1_250_500_2048456_1/client/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/xvla_abc_d/xvla_abc_d_calibration_1000seq_chunk2_500_750_2048456_2/client/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/xvla_abc_d/xvla_abc_d_calibration_1000seq_chunk3_750_1000_2048456_3/client/per_sequence_results.json"
+        ],
+        "policy": "xvla",
+        "recomputed_avg_seq_len": 4.165,
+        "summary_avg_seq_len": 4.165,
+        "unique_global_indices": 1000
+      },
+      "xvla_protocol1_summary": {
+        "avg_matches_summary_exact": true,
+        "chain_sr": {
+          "1": 0.838,
+          "2": 0.705,
+          "3": 0.609,
+          "4": 0.527,
+          "5": 0.459
+        },
+        "condition": "protocol1",
+        "duplicate_global_indices": 0,
+        "missing_global_indices": 0,
+        "num_rows": 1000,
+        "per_sequence_sources": [
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/xvla_abc_d/xvla_abc_d_official_d_table_resets_seed0_1000seq_chunk0_0_250_2048456_12/client/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/xvla_abc_d/xvla_abc_d_official_d_table_resets_seed0_1000seq_chunk1_250_500_2048456_13/client/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/xvla_abc_d/xvla_abc_d_official_d_table_resets_seed0_1000seq_chunk2_500_750_2048456_14/client/per_sequence_results.json",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/xvla_abc_d/xvla_abc_d_official_d_table_resets_seed0_1000seq_chunk3_750_1000_2048456_15/client/per_sequence_results.json"
+        ],
+        "policy": "xvla",
+        "recomputed_avg_seq_len": 3.138,
+        "summary_avg_seq_len": 3.138,
+        "unique_global_indices": 1000
+      }
+    },
+    "slurm": {
+      "all_array_tasks_alloc_cpus_4": true,
+      "all_array_tasks_completed_exit_0": true,
+      "array_job_id": "2048456",
+      "array_task_count": 24,
+      "sacct_file": "results/calvin/aggregates/calvin_full_1000_2048456/release_metadata/sacct_2048456.txt",
+      "tracked_log_file_count": 48
+    },
+    "summary_dir": "results/calvin/aggregates/calvin_full_1000_2048456"
+  },
+  "source_code": {
+    "source_files": [
+      "scripts/calvin/calvin_sequence_manifest.py",
+      "scripts/calvin/calvin_reset_bank.py",
+      "scripts/calvin/calvin_reset_override.py",
+      "scripts/calvin/calvin_aggregate_chunks.py",
+      "scripts/calvin/xvla_calvin_client_no_video.py",
+      "scripts/calvin/gr1_smoke_eval.py",
+      "scripts/calvin/roboflamingo_smoke_eval.py",
+      "scripts/calvin/run_xvla_calvin_smoke.sh",
+      "scripts/calvin/run_gr1_calvin_smoke.sh",
+      "scripts/calvin/run_roboflamingo_calvin_smoke.sh",
+      "scripts/slurm/calvin_sequence_manifest.sbatch",
+      "scripts/slurm/calvin_train_pose_reset_bank.sbatch",
+      "scripts/slurm/calvin_1seq_validation_array.sbatch",
+      "scripts/slurm/calvin_full_1000_array.sbatch"
+    ],
+    "submodules": [
+      {
+        "commit": "4a2e956bb497586d82489eb4c98b27fb82b5ff47",
+        "path": "third_party/gr1",
+        "status_short": [],
+        "url": "https://github.com/bytedance/GR-1.git"
+      },
+      {
+        "commit": "1475a07d043a62bb07ab11abfc71115bb72e2a16",
+        "path": "third_party/roboflamingo",
+        "status_short": [],
+        "url": "https://github.com/RoboFlamingo/RoboFlamingo.git"
+      },
+      {
+        "commit": "ccd1992f3ecce554e3ebe68e21c759acf111f2b0",
+        "path": "third_party/x_vla",
+        "status_short": [],
+        "url": "https://github.com/2toinf/X-VLA.git"
+      }
+    ]
+  },
+  "test_artifacts": {
+    "reset_bank": {
+      "bytes": 162374,
+      "path": "results/calvin/reset_banks/abc_d_official_d_table_resets_1000seq_seed0.npz"
+    },
+    "sequence_manifest": {
+      "bytes": 802670,
+      "path": "results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json"
+    },
+    "sequence_manifest_eval_sequence_sha256": "d1776b89d82e8a989d68588a74ffa2ba1ff9f5bca9b746edfbf0bd16cb94aa71",
+    "sequence_manifest_initial_state_sha256": "6a30b90b01f4fba0f2b20fd6ed0f791b46e7fe16ab6612c5adfe5fc7f2f12fa6"
+  },
+  "weights": {
+    "files": [
+      {
+        "bytes": 196921765,
+        "path": "checkpoints/gr1/snapshot_ABC.pt",
+        "sha256": "7f92a1674c0af70bcf8ee119192c532670eb63134e2432c9aacbc1d01a76ac6b"
+      },
+      {
+        "bytes": 343249461,
+        "path": "checkpoints/gr1/mae_pretrain_vit_base.pth",
+        "sha256": "aec5f0b68e5f3193a00b07bc65a37440db549c15b36b8bea242606cc40c4bc5d"
+      },
+      {
+        "bytes": 1945,
+        "path": "cache/huggingface/hub/models--2toINF--X-VLA-Calvin-ABC_D/snapshots/d76710ee314ee1fa8506f421664c989b40bae415/config.json",
+        "sha256": "8d72d8a80b16ebdedeae7bb408951a1b25a446df3790731d79fab35a8644db62"
+      },
+      {
+        "bytes": 3519068172,
+        "path": "cache/huggingface/hub/models--2toINF--X-VLA-Calvin-ABC_D/snapshots/d76710ee314ee1fa8506f421664c989b40bae415/model.safetensors",
+        "sha256": "98813bb2063fa62f8ffb21696546005b61defca6c0724adeab524c8f82f84bd4"
+      },
+      {
+        "bytes": 766,
+        "path": "cache/huggingface/hub/models--2toINF--X-VLA-Calvin-ABC_D/snapshots/d76710ee314ee1fa8506f421664c989b40bae415/preprocessor_config.json",
+        "sha256": "0a4e041cb57d07f735844a3d06a89bace2c9eb2a46eb6ddc2e6fbdae17504692"
+      },
+      {
+        "bytes": 1355863,
+        "path": "cache/huggingface/hub/models--2toINF--X-VLA-Calvin-ABC_D/snapshots/d76710ee314ee1fa8506f421664c989b40bae415/tokenizer.json",
+        "sha256": "847bbeab6174d66a88898f729d52fa8d355fafe1bea101cf960dd404581df70e"
+      },
+      {
+        "bytes": 34,
+        "path": "cache/huggingface/hub/models--2toINF--X-VLA-Calvin-ABC_D/snapshots/d76710ee314ee1fa8506f421664c989b40bae415/tokenizer_config.json",
+        "sha256": "79ffcf43af8ebda99d165f61d243180da2e2639952e41e71e11611c18770489c"
+      },
+      {
+        "bytes": 1099884,
+        "path": "cache/huggingface/hub/models--2toINF--X-VLA-Calvin-ABC_D/snapshots/d76710ee314ee1fa8506f421664c989b40bae415/vocab.json",
+        "sha256": "394fdc63c71aabe0a9b97117f5d62fb5fcc4d59b2b3ea929a3929e6a53217b3c"
+      },
+      {
+        "bytes": 17598103223,
+        "path": "cache/huggingface/models--robovlms--RoboFlamingo/snapshots/b08c0a2ac4d2a92927ddc066e3eb077319bc5a94/ABC_D/checkpoint_gripper_post_hist_1_aug_10_4_traj_cons_ws_12_mpt_dolly_3b_4.pth",
+        "sha256": "752115c602b9245a798a2c8eb28b83c413fb95748681ec36372da8a4c63e4cd7"
+      },
+      {
+        "bytes": 4188086933,
+        "path": "cache/huggingface/models--openflamingo--OpenFlamingo-3B-vitl-mpt1b-langinstruct/snapshots/656bbbcd4508db84ccc83c02361011c6fe92ae93/checkpoint.pt",
+        "sha256": "9dc045d02933a46f012b52b96aa10dbaedec84594dd202ac4c3c6f2ece51dbe3"
+      }
+    ],
+    "hash_file": "results/calvin/aggregates/calvin_full_1000_2048456/release_metadata/checkpoint_hashes.sha256",
+    "release_note": "Weights and caches are not included in the release artifact; this manifest records sources, snapshot identifiers, sizes, and SHA256 hashes for verification.",
+    "sources": {
+      "gr1_mae_pretrain_vit_base.pth": "https://dl.fbaipublicfiles.com/mae/pretrain/mae_pretrain_vit_base.pth",
+      "gr1_snapshot_ABC.pt": "https://lf-robot-opensource.bytetos.com/obj/lab-robot-public/gr1_code_release/snapshot_ABC.pt",
+      "openflamingo": "Hugging Face model openflamingo/OpenFlamingo-3B-vitl-mpt1b-langinstruct, snapshot 656bbbcd4508db84ccc83c02361011c6fe92ae93",
+      "roboflamingo": "Hugging Face model robovlms/RoboFlamingo, snapshot b08c0a2ac4d2a92927ddc066e3eb077319bc5a94",
+      "xvla": "Hugging Face model 2toINF/X-VLA-Calvin-ABC_D, snapshot d76710ee314ee1fa8506f421664c989b40bae415"
+    }
+  }
+}
