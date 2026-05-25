@@ -1,0 +1,1004 @@
+{
+  "accepted_asset_ids": [
+    "render_candidate_blue_hybrid_v4",
+    "render_candidate_red_corrected_v6e",
+    "render_candidate_white_offwhite_hybrid_v4"
+  ],
+  "asset_ids": [
+    "render_candidate_blue_hybrid_v4",
+    "render_candidate_red_corrected_v6e",
+    "render_candidate_white_offwhite_hybrid_v4"
+  ],
+  "mode": "write",
+  "policy_targets": [
+    {
+      "assets": {
+        "render_candidate_blue_hybrid_v4": {
+          "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_blue_hybrid_v4",
+          "source_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+          },
+          "source_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          },
+          "target_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_blue_hybrid_v4",
+          "target_exists": true,
+          "target_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+          },
+          "target_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          }
+        },
+        "render_candidate_red_corrected_v6e": {
+          "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_red_corrected_v6e",
+          "source_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+          },
+          "source_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          },
+          "target_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_red_corrected_v6e",
+          "target_exists": true,
+          "target_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+          },
+          "target_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          }
+        },
+        "render_candidate_white_offwhite_hybrid_v4": {
+          "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_white_offwhite_hybrid_v4",
+          "source_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+          },
+          "source_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          },
+          "target_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_white_offwhite_hybrid_v4",
+          "target_exists": true,
+          "target_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+          },
+          "target_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          }
+        }
+      },
+      "errors": [],
+      "policy": "cogact",
+      "status": "passed",
+      "target_custom_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/simpler_env/ManiSkill2_real2sim/data/custom",
+      "target_info": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/simpler_env/ManiSkill2_real2sim/data/custom/info_bridge_custom_baked_tex_v0.json"
+    },
+    {
+      "assets": {
+        "render_candidate_blue_hybrid_v4": {
+          "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_blue_hybrid_v4",
+          "source_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+          },
+          "source_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          },
+          "target_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/sources/simplerenv_openvla_ccfe380/ManiSkill2_real2sim/data/custom/models/render_candidate_blue_hybrid_v4",
+          "target_exists": true,
+          "target_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+          },
+          "target_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          }
+        },
+        "render_candidate_red_corrected_v6e": {
+          "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_red_corrected_v6e",
+          "source_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+          },
+          "source_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          },
+          "target_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/sources/simplerenv_openvla_ccfe380/ManiSkill2_real2sim/data/custom/models/render_candidate_red_corrected_v6e",
+          "target_exists": true,
+          "target_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+          },
+          "target_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          }
+        },
+        "render_candidate_white_offwhite_hybrid_v4": {
+          "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_white_offwhite_hybrid_v4",
+          "source_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+          },
+          "source_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          },
+          "target_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/sources/simplerenv_openvla_ccfe380/ManiSkill2_real2sim/data/custom/models/render_candidate_white_offwhite_hybrid_v4",
+          "target_exists": true,
+          "target_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+          },
+          "target_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          }
+        }
+      },
+      "errors": [],
+      "policy": "spatialvla",
+      "status": "passed",
+      "target_custom_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/sources/simplerenv_openvla_ccfe380/ManiSkill2_real2sim/data/custom",
+      "target_info": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/sources/simplerenv_openvla_ccfe380/ManiSkill2_real2sim/data/custom/info_bridge_custom_baked_tex_v0.json"
+    },
+    {
+      "assets": {
+        "render_candidate_blue_hybrid_v4": {
+          "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_blue_hybrid_v4",
+          "source_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+          },
+          "source_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          },
+          "target_dir": "/share/data/ripl/tianchong/projects/InternVLA-M1/cache/Projects/SimplerEnv/ManiSkill2_real2sim/data/custom/models/render_candidate_blue_hybrid_v4",
+          "target_exists": true,
+          "target_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+          },
+          "target_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          }
+        },
+        "render_candidate_red_corrected_v6e": {
+          "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_red_corrected_v6e",
+          "source_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+          },
+          "source_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          },
+          "target_dir": "/share/data/ripl/tianchong/projects/InternVLA-M1/cache/Projects/SimplerEnv/ManiSkill2_real2sim/data/custom/models/render_candidate_red_corrected_v6e",
+          "target_exists": true,
+          "target_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+          },
+          "target_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          }
+        },
+        "render_candidate_white_offwhite_hybrid_v4": {
+          "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_white_offwhite_hybrid_v4",
+          "source_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+          },
+          "source_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          },
+          "target_dir": "/share/data/ripl/tianchong/projects/InternVLA-M1/cache/Projects/SimplerEnv/ManiSkill2_real2sim/data/custom/models/render_candidate_white_offwhite_hybrid_v4",
+          "target_exists": true,
+          "target_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+          },
+          "target_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          }
+        }
+      },
+      "errors": [],
+      "policy": "internvla_m1",
+      "status": "passed",
+      "target_custom_dir": "/share/data/ripl/tianchong/projects/InternVLA-M1/cache/Projects/SimplerEnv/ManiSkill2_real2sim/data/custom",
+      "target_info": "/share/data/ripl/tianchong/projects/InternVLA-M1/cache/Projects/SimplerEnv/ManiSkill2_real2sim/data/custom/info_bridge_custom_baked_tex_v0.json"
+    },
+    {
+      "assets": {
+        "render_candidate_blue_hybrid_v4": {
+          "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_blue_hybrid_v4",
+          "source_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+          },
+          "source_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          },
+          "target_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_blue_hybrid_v4",
+          "target_exists": true,
+          "target_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+          },
+          "target_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          }
+        },
+        "render_candidate_red_corrected_v6e": {
+          "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_red_corrected_v6e",
+          "source_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+          },
+          "source_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          },
+          "target_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_red_corrected_v6e",
+          "target_exists": true,
+          "target_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+          },
+          "target_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          }
+        },
+        "render_candidate_white_offwhite_hybrid_v4": {
+          "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_white_offwhite_hybrid_v4",
+          "source_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+          },
+          "source_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          },
+          "target_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_white_offwhite_hybrid_v4",
+          "target_exists": true,
+          "target_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+          },
+          "target_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          }
+        }
+      },
+      "errors": [],
+      "policy": "xvla",
+      "status": "passed",
+      "target_custom_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom",
+      "target_info": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/info_bridge_custom_baked_tex_v0.json"
+    },
+    {
+      "assets": {
+        "render_candidate_blue_hybrid_v4": {
+          "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_blue_hybrid_v4",
+          "source_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+          },
+          "source_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          },
+          "target_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/strict_calibrations_20260523/sources/dexbotic-benchmark_54a6c749_simpler4ab717_clean_20260523T0152Z/simpler/ManiSkill2_real2sim/data/custom/models/render_candidate_blue_hybrid_v4",
+          "target_exists": true,
+          "target_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+          },
+          "target_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          }
+        },
+        "render_candidate_red_corrected_v6e": {
+          "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_red_corrected_v6e",
+          "source_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+          },
+          "source_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          },
+          "target_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/strict_calibrations_20260523/sources/dexbotic-benchmark_54a6c749_simpler4ab717_clean_20260523T0152Z/simpler/ManiSkill2_real2sim/data/custom/models/render_candidate_red_corrected_v6e",
+          "target_exists": true,
+          "target_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+          },
+          "target_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          }
+        },
+        "render_candidate_white_offwhite_hybrid_v4": {
+          "source_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/models/render_candidate_white_offwhite_hybrid_v4",
+          "source_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+          },
+          "source_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          },
+          "target_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/strict_calibrations_20260523/sources/dexbotic-benchmark_54a6c749_simpler4ab717_clean_20260523T0152Z/simpler/ManiSkill2_real2sim/data/custom/models/render_candidate_white_offwhite_hybrid_v4",
+          "target_exists": true,
+          "target_file_sha256": {
+            "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+            "textured.dae": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+          },
+          "target_info_entry": {
+            "bbox": {
+              "max": [
+                0.015,
+                0.015,
+                0.015
+              ],
+              "min": [
+                -0.015,
+                -0.015,
+                -0.015
+              ]
+            },
+            "density": 1000,
+            "scales": [
+              1.0
+            ]
+          }
+        }
+      },
+      "errors": [],
+      "policy": "dexbotic",
+      "status": "passed",
+      "target_custom_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/strict_calibrations_20260523/sources/dexbotic-benchmark_54a6c749_simpler4ab717_clean_20260523T0152Z/simpler/ManiSkill2_real2sim/data/custom",
+      "target_info": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/strict_calibrations_20260523/sources/dexbotic-benchmark_54a6c749_simpler4ab717_clean_20260523T0152Z/simpler/ManiSkill2_real2sim/data/custom/info_bridge_custom_baked_tex_v0.json"
+    }
+  ],
+  "runtime_paths": [
+    {
+      "asset_files": [
+        {
+          "asset_id": "render_candidate_blue_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_blue_hybrid_v4/collision.obj",
+          "sha256": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        },
+        {
+          "asset_id": "render_candidate_blue_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_blue_hybrid_v4/textured.dae",
+          "sha256": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+        },
+        {
+          "asset_id": "render_candidate_red_corrected_v6e",
+          "relative_path": "data/custom/models/render_candidate_red_corrected_v6e/collision.obj",
+          "sha256": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        },
+        {
+          "asset_id": "render_candidate_red_corrected_v6e",
+          "relative_path": "data/custom/models/render_candidate_red_corrected_v6e/textured.dae",
+          "sha256": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+        },
+        {
+          "asset_id": "render_candidate_white_offwhite_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_white_offwhite_hybrid_v4/collision.obj",
+          "sha256": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        },
+        {
+          "asset_id": "render_candidate_white_offwhite_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_white_offwhite_hybrid_v4/textured.dae",
+          "sha256": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+        }
+      ],
+      "info_json": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/simpler_env/ManiSkill2_real2sim/data/custom/info_bridge_custom_baked_tex_v0.json",
+      "info_json_sha256": "5304d210acc4a591adb0f27a8143cc96072709ced7e9d78868ff43b0fc23f372",
+      "maniskill2_real2sim": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/simpler_env/ManiSkill2_real2sim",
+      "policy": "cogact"
+    },
+    {
+      "asset_files": [
+        {
+          "asset_id": "render_candidate_blue_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_blue_hybrid_v4/collision.obj",
+          "sha256": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        },
+        {
+          "asset_id": "render_candidate_blue_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_blue_hybrid_v4/textured.dae",
+          "sha256": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+        },
+        {
+          "asset_id": "render_candidate_red_corrected_v6e",
+          "relative_path": "data/custom/models/render_candidate_red_corrected_v6e/collision.obj",
+          "sha256": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        },
+        {
+          "asset_id": "render_candidate_red_corrected_v6e",
+          "relative_path": "data/custom/models/render_candidate_red_corrected_v6e/textured.dae",
+          "sha256": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+        },
+        {
+          "asset_id": "render_candidate_white_offwhite_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_white_offwhite_hybrid_v4/collision.obj",
+          "sha256": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        },
+        {
+          "asset_id": "render_candidate_white_offwhite_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_white_offwhite_hybrid_v4/textured.dae",
+          "sha256": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+        }
+      ],
+      "info_json": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/sources/simplerenv_openvla_ccfe380/ManiSkill2_real2sim/data/custom/info_bridge_custom_baked_tex_v0.json",
+      "info_json_sha256": "5304d210acc4a591adb0f27a8143cc96072709ced7e9d78868ff43b0fc23f372",
+      "maniskill2_real2sim": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/sources/simplerenv_openvla_ccfe380/ManiSkill2_real2sim",
+      "policy": "spatialvla"
+    },
+    {
+      "asset_files": [
+        {
+          "asset_id": "render_candidate_blue_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_blue_hybrid_v4/collision.obj",
+          "sha256": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        },
+        {
+          "asset_id": "render_candidate_blue_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_blue_hybrid_v4/textured.dae",
+          "sha256": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+        },
+        {
+          "asset_id": "render_candidate_red_corrected_v6e",
+          "relative_path": "data/custom/models/render_candidate_red_corrected_v6e/collision.obj",
+          "sha256": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        },
+        {
+          "asset_id": "render_candidate_red_corrected_v6e",
+          "relative_path": "data/custom/models/render_candidate_red_corrected_v6e/textured.dae",
+          "sha256": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+        },
+        {
+          "asset_id": "render_candidate_white_offwhite_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_white_offwhite_hybrid_v4/collision.obj",
+          "sha256": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        },
+        {
+          "asset_id": "render_candidate_white_offwhite_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_white_offwhite_hybrid_v4/textured.dae",
+          "sha256": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+        }
+      ],
+      "info_json": "/share/data/ripl/tianchong/projects/InternVLA-M1/cache/Projects/SimplerEnv/ManiSkill2_real2sim/data/custom/info_bridge_custom_baked_tex_v0.json",
+      "info_json_sha256": "5304d210acc4a591adb0f27a8143cc96072709ced7e9d78868ff43b0fc23f372",
+      "maniskill2_real2sim": "/share/data/ripl/tianchong/projects/InternVLA-M1/cache/Projects/SimplerEnv/ManiSkill2_real2sim",
+      "policy": "internvla_m1"
+    },
+    {
+      "asset_files": [
+        {
+          "asset_id": "render_candidate_blue_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_blue_hybrid_v4/collision.obj",
+          "sha256": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        },
+        {
+          "asset_id": "render_candidate_blue_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_blue_hybrid_v4/textured.dae",
+          "sha256": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+        },
+        {
+          "asset_id": "render_candidate_red_corrected_v6e",
+          "relative_path": "data/custom/models/render_candidate_red_corrected_v6e/collision.obj",
+          "sha256": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        },
+        {
+          "asset_id": "render_candidate_red_corrected_v6e",
+          "relative_path": "data/custom/models/render_candidate_red_corrected_v6e/textured.dae",
+          "sha256": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+        },
+        {
+          "asset_id": "render_candidate_white_offwhite_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_white_offwhite_hybrid_v4/collision.obj",
+          "sha256": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        },
+        {
+          "asset_id": "render_candidate_white_offwhite_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_white_offwhite_hybrid_v4/textured.dae",
+          "sha256": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+        }
+      ],
+      "info_json": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/info_bridge_custom_baked_tex_v0.json",
+      "info_json_sha256": "5304d210acc4a591adb0f27a8143cc96072709ced7e9d78868ff43b0fc23f372",
+      "maniskill2_real2sim": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim",
+      "policy": "xvla"
+    },
+    {
+      "asset_files": [
+        {
+          "asset_id": "render_candidate_blue_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_blue_hybrid_v4/collision.obj",
+          "sha256": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        },
+        {
+          "asset_id": "render_candidate_blue_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_blue_hybrid_v4/textured.dae",
+          "sha256": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+        },
+        {
+          "asset_id": "render_candidate_red_corrected_v6e",
+          "relative_path": "data/custom/models/render_candidate_red_corrected_v6e/collision.obj",
+          "sha256": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        },
+        {
+          "asset_id": "render_candidate_red_corrected_v6e",
+          "relative_path": "data/custom/models/render_candidate_red_corrected_v6e/textured.dae",
+          "sha256": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+        },
+        {
+          "asset_id": "render_candidate_white_offwhite_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_white_offwhite_hybrid_v4/collision.obj",
+          "sha256": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        },
+        {
+          "asset_id": "render_candidate_white_offwhite_hybrid_v4",
+          "relative_path": "data/custom/models/render_candidate_white_offwhite_hybrid_v4/textured.dae",
+          "sha256": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+        }
+      ],
+      "info_json": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/strict_calibrations_20260523/sources/dexbotic-benchmark_54a6c749_simpler4ab717_clean_20260523T0152Z/simpler/ManiSkill2_real2sim/data/custom/info_bridge_custom_baked_tex_v0.json",
+      "info_json_sha256": "5304d210acc4a591adb0f27a8143cc96072709ced7e9d78868ff43b0fc23f372",
+      "maniskill2_real2sim": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/strict_calibrations_20260523/sources/dexbotic-benchmark_54a6c749_simpler4ab717_clean_20260523T0152Z/simpler/ManiSkill2_real2sim",
+      "policy": "dexbotic"
+    }
+  ],
+  "source_asset_file_sha256": {
+    "render_candidate_blue_hybrid_v4": {
+      "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+      "textured.dae": "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7"
+    },
+    "render_candidate_red_corrected_v6e": {
+      "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+      "textured.dae": "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f"
+    },
+    "render_candidate_white_offwhite_hybrid_v4": {
+      "collision.obj": "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237",
+      "textured.dae": "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd"
+    }
+  },
+  "source_custom_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom",
+  "source_info": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim/data/custom/info_bridge_custom_baked_tex_v0.json",
+  "source_info_sha256": "5304d210acc4a591adb0f27a8143cc96072709ced7e9d78868ff43b0fc23f372"
+}

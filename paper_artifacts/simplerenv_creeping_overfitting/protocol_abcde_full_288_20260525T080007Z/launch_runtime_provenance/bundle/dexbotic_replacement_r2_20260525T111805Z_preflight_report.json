@@ -1,0 +1,40 @@
+{
+  "asset_preflight_report": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_asset_preflight/dexbotic_runtime_asset_preflight.json",
+  "conditions": [
+    "protocol_C2_blue_on_red",
+    "protocol_C3_red_on_blue",
+    "protocol_D",
+    "protocol_E"
+  ],
+  "episode_ids": [
+    0,
+    287
+  ],
+  "episodes_per_job": 288,
+  "fix": "Dexbotic benchmark container sets MS2_REAL2SIM_ASSET_DIR to the staged /workspace/simpler/ManiSkill2_real2sim/data asset tree.",
+  "horizon": 60,
+  "job_count": 4,
+  "log_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_r2_20260525T111805Z",
+  "ms2_real2sim_asset_dir": "/workspace/simpler/ManiSkill2_real2sim/data",
+  "no_arrays": true,
+  "norm_stats_sha256": "ddbeb68786543c68f8fa198c33fd9a265025d35c5f7ebba144d6ec9c655693e6",
+  "norm_stats_source": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/strict_calibrations_20260523/dexbotic_official_workspace_strict_20260523T015147Z/run/norm_stats.json",
+  "policy": "dexbotic",
+  "protocol_sha256": "1f2b4ea48e38df7d25304638d998c40902d79634433f725f0895e26f04ad810b",
+  "replacement_id": "dexbotic_replacement_r2_20260525T111805Z",
+  "replacement_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z",
+  "source_run_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z",
+  "status": "passed",
+  "submission_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_submission.tsv",
+  "support_files": {
+    "bin/launch_memvla_server_seeded.py": "532840c62341bab520818ed5eadd35b8c5b28d22a02b66d8f2859cbb99a0b3af",
+    "check_dexbotic_runtime_assets.py": "f48019c4c2e8850eb5b0d82dd871e1926226810da205c4fda418a6f804fbb1df",
+    "make_dexbotic_abcde_config.py": "fdef6b916ab4e03349c68e5800f90e2d9c1c502b606be78710eea3df2f1220df",
+    "protocol_abcde_common.py": "96722df50ecad6598686f19bd0eb1e42a57585eeb7c479fdedaa085916223e37",
+    "run_dexbotic_asset_preflight.sbatch": "5ee807130064ced467bce06fb4706f0e45e9c133ac020abf205d5bd4066a8b62",
+    "run_dexbotic_condition.sbatch": "ec3ea4b6b2080490d19f5e8112f89453606605034e8606e7a3d7ec2b77c1b43c",
+    "run_dexbotic_condition.sh": "940ec9ea7ad64e5228f79854c081ea683a5ef0b0e7ddea7d0a17243454642608",
+    "seeded_runpy_with_protocol.py": "e975b39526eb742d5ee17c6af748f0e861cb9564a741a3611f6a40f03b6d01e0",
+    "submit_dexbotic_r2_replacements.sh": "b9d600ee2e407749e823303bb3848277f670b0a3c148d270191f8d1c88eff4fe"
+  }
+}

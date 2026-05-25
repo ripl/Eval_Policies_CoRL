@@ -1,0 +1,65 @@
+{
+  "condition_episode0_missing_model_ids": {
+    "protocol_C2_blue_on_red": [],
+    "protocol_C3_red_on_blue": [],
+    "protocol_D": [],
+    "protocol_E": []
+  },
+  "condition_episode0_model_ids": {
+    "protocol_C2_blue_on_red": [
+      "render_candidate_blue_hybrid_v4",
+      "render_candidate_red_corrected_v6e"
+    ],
+    "protocol_C3_red_on_blue": [
+      "render_candidate_red_corrected_v6e",
+      "render_candidate_blue_hybrid_v4"
+    ],
+    "protocol_D": [
+      "baked_green_cube_3cm",
+      "baked_yellow_cube_3cm",
+      "render_candidate_red_corrected_v6e",
+      "render_candidate_white_offwhite_hybrid_v4",
+      "render_candidate_blue_hybrid_v4",
+      "render_candidate_white_offwhite_hybrid_v4",
+      "render_candidate_red_corrected_v6e"
+    ],
+    "protocol_E": [
+      "baked_green_cube_3cm",
+      "baked_yellow_cube_3cm",
+      "render_candidate_blue_hybrid_v4",
+      "render_candidate_red_corrected_v6e",
+      "render_candidate_white_offwhite_hybrid_v4"
+    ]
+  },
+  "env_class": "mani_skill2_real2sim.envs.custom_scenes.put_on_in_scene.StackGreenCubeOnYellowCubeBakedTexInScene",
+  "errors": [],
+  "expected_asset_ids": [
+    "render_candidate_blue_hybrid_v4",
+    "render_candidate_red_corrected_v6e",
+    "render_candidate_white_offwhite_hybrid_v4"
+  ],
+  "info_json": "/workspace/simpler/ManiSkill2_real2sim/data/custom/info_bridge_custom_baked_tex_v0.json",
+  "info_json_has_expected": {
+    "render_candidate_blue_hybrid_v4": true,
+    "render_candidate_red_corrected_v6e": true,
+    "render_candidate_white_offwhite_hybrid_v4": true
+  },
+  "model_db_has_expected": {
+    "render_candidate_blue_hybrid_v4": true,
+    "render_candidate_red_corrected_v6e": true,
+    "render_candidate_white_offwhite_hybrid_v4": true
+  },
+  "model_db_size": 5,
+  "ms2_real2sim_asset_dir_env": "/workspace/simpler/ManiSkill2_real2sim/data",
+  "python": "/opt/conda/envs/simpler_env/bin/python",
+  "pythonpath": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_r2_20260525T111805Z:/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scripts/simplerenv:/workspace:",
+  "requested_asset_dir": "/workspace/simpler/ManiSkill2_real2sim/data",
+  "rerun_conditions": [
+    "protocol_C2_blue_on_red",
+    "protocol_C3_red_on_blue",
+    "protocol_D",
+    "protocol_E"
+  ],
+  "resolved_asset_dir": "/workspace/simpler/ManiSkill2_real2sim/data",
+  "status": "passed"
+}

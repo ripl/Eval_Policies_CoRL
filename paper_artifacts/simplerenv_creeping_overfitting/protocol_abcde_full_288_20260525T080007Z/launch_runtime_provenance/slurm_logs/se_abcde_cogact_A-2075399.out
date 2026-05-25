@@ -1,0 +1,339 @@
+*** policy_setup: widowx_bridge, unnorm_key: bridge_orig ***
+05/25 [03:10:48] INFO     | >> [*] Checking HF for                   load.py:146
+                          `CogACT/CogACT-Base`                                  
+                 INFO     | >> [*] Downloading Model                 load.py:156
+                          `CogACT/CogACT-Base` Config & Checkpoint              
+                          `CogACT-Base.pt`                                      
+                 INFO     | >> [*] Found Config =>> Loading &        load.py:180
+                          Freezing prism-dinosiglip-224px+7b with:              
+                                       Vision Backbone =>>                      
+                          dinosiglip-vit-so-224px                               
+                                       LLM Backbone    =>>                      
+                          llama2-7b-pure                                        
+                                       Arch Specifier  =>>                      
+                          no-align+fused-gelu-mlp                               
+                                       Checkpoint Path =>>                      
+                          `/share/data/ripl/tianchong/projects/Eval_            
+                          Policies_CoRL/cache/huggingface/hub/models            
+                          --CogACT--CogACT-Base/snapshots/6550bf0992            
+                          f162fc5d74f14ffee30771a9433363/checkpoints            
+                          /CogACT-Base.pt`                                      
+                 INFO     | >> [*] Loading Vision Backbone           load.py:189
+                          dinosiglip-vit-so-224px                               
+05/25 [03:10:55] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (timm/vit_large_patch14_reg4_dinov2.lv                
+                          d142m)                                                
+                 INFO     | >>  Safe alternative available for       _hub.py:180
+                          'pytorch_model.bin' (as                               
+                          'model.safetensors'). Loading weights                 
+                          using safetensors.                                    
+                 INFO     | >> Resized position embedding: (37,  pos_embed.py:55
+                          37) to (16, 16).                                      
+05/25 [03:11:14] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub                                      
+                          (('timm/ViT-SO400M-14-SigLIP',                        
+                          'open_clip_pytorch_model.bin'))                       
+                 INFO     | >>  Safe alternative available for       _hub.py:180
+                          'open_clip_pytorch_model.bin' (as                     
+                          'open_clip_model.safetensors'). Loading               
+                          weights using safetensors.                            
+05/25 [03:11:35] INFO     | >> [*] Loading Pretrained LLM            load.py:196
+                          llama2-7b-pure via HF Transformers                    
+                 INFO     | >>     |=> Building empty llama2 LLM base_llm.py:134
+                          from `meta-llama/Llama-2-7b-hf`                       
+05/25 [03:13:17] INFO     | >>     |=> Loading llama2 (Fast)     base_llm.py:151
+                          Tokenizer via the AutoTokenizer API                   
+05/25 [03:13:22] INFO     | >> [*] Loading VLA                       load.py:205
+                          prism-dinosiglip-224px+7b from Checkpoint             
+[widowx_protocol] loaded /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/configs/simplerenv/protocol_abcde/simplerenv_protocol_abcde_stack_v1.json sha256=1f2b4ea48e38df7d25304638d998c40902d79634433f725f0895e26f04ad810b
+[widowx_protocol] simplerenv_protocol_abcde_stack_v1 stack language/success patch installed
+[widowx_protocol] reset patch installed
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos
+Control mode:  arm_pd_ee_target_delta_pose_align2_gripper_pd_joint_pos

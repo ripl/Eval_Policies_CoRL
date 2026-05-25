@@ -1,0 +1,591 @@
+2026-05-25 03:06:18.112338: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-05-25 03:06:18.112415: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-05-25 03:06:18.114241: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-05-25 03:06:18.121885: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-25 03:06:48.200735: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_spatialvla_py310/lib/python3.10/site-packages/sapien/core/renderer_config.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_spatialvla_py310/lib/python3.10/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Some kwargs in processor config are unused and will not have any effect: min_sigma, intrinsic_config, action_chunk_size, action_config, obs_delta, statistics, num_obs_steps, bin_policy. 
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.99s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.45s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.68s/it]
+[2026-05-25 03:11:25.889] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:11:25.889] [svulkan2] [warning] Continue without GLFW.
+The 'batch_size' attribute of HybridCache is deprecated and will be removed in v4.49. Use the more precisely named 'self.max_batch_size' attribute instead.
+[2026-05-25 03:12:42.950] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:12:42.950] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:13:28.375] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:13:28.375] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:14:08.253] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:14:08.253] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:14:48.733] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:14:48.733] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:15:29.270] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:15:29.270] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:16:09.625] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:16:09.625] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:16:48.316] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:16:48.316] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:17:29.297] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:17:29.297] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:18:11.633] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:18:11.633] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:18:49.960] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:18:49.960] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:19:29.620] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:19:29.620] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:20:09.386] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:20:09.386] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:20:49.715] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:20:49.715] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:21:29.922] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:21:29.922] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:22:10.534] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:22:10.534] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:22:50.194] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:22:50.194] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:23:32.585] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:23:32.585] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:24:14.980] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:24:14.980] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:24:54.387] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:24:54.387] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:25:35.342] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:25:35.342] [svulkan2] [warning] Continue without GLFW.
+/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/sources/simplerenv_openvla_ccfe380/simpler_env/policies/spatialvla/spatialvla_model.py:217: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, axs = plt.subplot_mosaic(figure_layout)
+[2026-05-25 03:26:15.394] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:26:15.394] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:26:56.181] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:26:56.181] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:27:37.482] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:27:37.482] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:28:17.432] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:28:17.432] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:28:56.092] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:28:56.092] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:29:37.635] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:29:37.635] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:30:18.646] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:30:18.646] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:30:58.728] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:30:58.728] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:31:39.240] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:31:39.240] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:32:21.408] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:32:21.408] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:33:00.943] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:33:00.943] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:33:42.338] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:33:42.338] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:34:22.194] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:34:22.194] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:35:02.210] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:35:02.210] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:35:42.924] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:35:42.924] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:36:22.755] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:36:22.755] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:37:05.061] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:37:05.061] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:37:44.024] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:37:44.024] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:38:25.650] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:38:25.650] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:39:06.216] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:39:06.216] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:39:45.526] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:39:45.526] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:40:25.424] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:40:25.424] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:41:05.757] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:41:05.757] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:41:44.637] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:41:44.637] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:42:25.963] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:42:25.963] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:43:07.497] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:43:07.497] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:43:46.745] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:43:46.745] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:44:27.730] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:44:27.730] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:45:11.058] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:45:11.058] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:45:50.966] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:45:50.966] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:46:32.708] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:46:32.708] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:47:12.792] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:47:12.792] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:47:53.579] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:47:53.579] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:48:32.928] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:48:32.928] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:49:12.675] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:49:12.675] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:49:51.913] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:49:51.913] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:50:34.601] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:50:34.601] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:51:14.473] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:51:14.473] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:51:55.769] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:51:55.769] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:52:34.820] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:52:34.821] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:53:14.503] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:53:14.503] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:53:53.772] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:53:53.772] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:54:33.694] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:54:33.694] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:55:14.123] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:55:14.123] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:55:55.628] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:55:55.628] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:56:37.596] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:56:37.596] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:57:20.572] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:57:20.572] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:58:00.755] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:58:00.755] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:58:41.651] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:58:41.651] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:59:21.792] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:59:21.792] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 03:59:59.998] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 03:59:59.998] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:00:39.680] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:00:39.681] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:01:20.490] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:01:20.490] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:02:01.471] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:02:01.471] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:02:41.553] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:02:41.553] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:03:21.185] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:03:21.185] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:03:59.923] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:03:59.923] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:04:41.217] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:04:41.217] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:05:21.173] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:05:21.173] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:06:01.363] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:06:01.363] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:06:42.818] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:06:42.818] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:07:26.052] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:07:26.052] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:08:05.872] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:08:05.872] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:08:44.086] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:08:44.086] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:09:23.286] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:09:23.286] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:10:04.012] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:10:04.012] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:10:43.443] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:10:43.443] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:11:24.824] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:11:24.824] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:12:05.167] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:12:05.167] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:12:47.889] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:12:47.889] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:13:28.711] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:13:28.711] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:14:08.367] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:14:08.367] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:14:48.089] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:14:48.089] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:15:29.262] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:15:29.262] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:16:10.079] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:16:10.079] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:16:48.867] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:16:48.867] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:17:29.137] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:17:29.137] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:18:09.023] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:18:09.023] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:18:48.937] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:18:48.937] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:19:30.243] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:19:30.243] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:20:10.488] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:20:10.488] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:20:49.183] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:20:49.183] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:21:30.401] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:21:30.401] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:22:10.676] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:22:10.676] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:22:49.155] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:22:49.155] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:23:28.445] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:23:28.445] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:24:08.154] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:24:08.154] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:24:46.828] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:24:46.828] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:25:27.532] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:25:27.532] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:26:07.942] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:26:07.942] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:26:47.633] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:26:47.634] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:27:28.708] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:27:28.708] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:28:08.817] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:28:08.817] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:28:47.793] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:28:47.793] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:29:29.156] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:29:29.157] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:30:09.111] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:30:09.111] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:30:49.269] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:30:49.269] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:31:32.692] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:31:32.692] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:32:12.615] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:32:12.615] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:32:51.906] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:32:51.906] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:33:33.039] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:33:33.039] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:34:13.562] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:34:13.562] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:34:53.028] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:34:53.028] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:35:34.037] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:35:34.038] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:36:13.948] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:36:13.949] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:36:53.464] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:36:53.464] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:37:35.164] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:37:35.164] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:38:15.623] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:38:15.623] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:38:54.154] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:38:54.154] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:39:36.721] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:39:36.721] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:40:17.385] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:40:17.385] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:40:57.464] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:40:57.464] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:41:38.158] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:41:38.159] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:42:20.809] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:42:20.809] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:43:00.529] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:43:00.529] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:43:40.435] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:43:40.435] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:44:22.985] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:44:22.985] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:45:03.797] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:45:03.797] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:45:42.464] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:45:42.464] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:46:22.962] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:46:22.962] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:47:03.431] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:47:03.431] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:47:42.400] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:47:42.400] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:48:22.395] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:48:22.395] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:49:04.466] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:49:04.466] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:49:43.475] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:49:43.475] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:50:23.440] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:50:23.440] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:51:01.759] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:51:01.759] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:51:41.365] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:51:41.365] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:52:20.917] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:52:20.917] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:52:58.423] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:52:58.423] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:53:38.193] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:53:38.193] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:54:18.617] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:54:18.617] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:54:59.725] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:54:59.725] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:55:39.573] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:55:39.573] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:56:18.963] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:56:18.963] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:56:57.587] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:56:57.587] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:57:37.029] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:57:37.029] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:58:16.776] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:58:16.776] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:58:54.924] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:58:54.924] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 04:59:34.882] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 04:59:34.882] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:00:15.790] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:00:15.790] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:00:54.291] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:00:54.291] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:01:34.145] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:01:34.145] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:02:14.747] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:02:14.747] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:02:52.927] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:02:52.927] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:03:32.748] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:03:32.748] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:04:13.459] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:04:13.459] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:04:52.755] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:04:52.755] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:05:33.898] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:05:33.898] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:06:14.383] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:06:14.383] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:06:52.849] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:06:52.849] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:07:34.321] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:07:34.321] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:08:16.451] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:08:16.451] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:08:55.906] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:08:55.906] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:09:35.838] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:09:35.838] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:10:15.652] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:10:15.652] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:10:55.742] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:10:55.742] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:11:35.171] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:11:35.171] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:12:15.285] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:12:15.285] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:12:54.811] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:12:54.811] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:13:35.435] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:13:35.435] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:14:17.093] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:14:17.093] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:14:55.473] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:14:55.473] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:15:35.401] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:15:35.401] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:16:14.761] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:16:14.761] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:16:53.132] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:16:53.132] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:17:33.907] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:17:33.907] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:18:13.365] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:18:13.366] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:18:52.087] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:18:52.087] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:19:34.106] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:19:34.106] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:20:13.911] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:20:13.911] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:20:52.471] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:20:52.471] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:21:32.536] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:21:32.536] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:22:14.569] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:22:14.569] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:22:54.067] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:22:54.067] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:23:36.633] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:23:36.633] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:24:16.444] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:24:16.444] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:24:54.431] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:24:54.431] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:25:34.462] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:25:34.462] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:26:14.165] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:26:14.165] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:26:52.491] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:26:52.491] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:27:33.117] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:27:33.117] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:28:13.492] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:28:13.492] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:28:51.263] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:28:51.263] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:29:30.822] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:29:30.822] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:30:10.124] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:30:10.124] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:30:48.239] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:30:48.239] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:31:27.888] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:31:27.888] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:32:09.307] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:32:09.307] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:32:48.551] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:32:48.551] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:33:28.006] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:33:28.006] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:34:07.681] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:34:07.681] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:34:46.026] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:34:46.026] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:35:26.046] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:35:26.046] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:36:07.572] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:36:07.572] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:36:46.041] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:36:46.041] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:37:26.168] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:37:26.168] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:38:07.701] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:38:07.701] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:38:45.503] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:38:45.503] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:39:25.078] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:39:25.078] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:40:05.289] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:40:05.289] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:40:46.440] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:40:46.440] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:41:26.679] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:41:26.679] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:42:06.401] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:42:06.401] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:42:44.362] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:42:44.362] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:43:24.469] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:43:24.470] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:44:04.632] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:44:04.632] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:44:44.002] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:44:44.002] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:45:23.754] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:45:23.754] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:46:03.934] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:46:03.934] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:46:43.161] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:46:43.161] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:47:26.319] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:47:26.319] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:48:05.884] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:48:05.884] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:48:44.110] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:48:44.110] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:49:25.021] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:49:25.021] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:50:04.408] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:50:04.408] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:50:42.476] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:50:42.476] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:51:21.961] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:51:21.961] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:52:04.080] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:52:04.080] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:52:41.940] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:52:41.940] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:53:21.350] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:53:21.350] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:54:00.013] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:54:00.013] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:54:40.080] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:54:40.080] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:55:20.287] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:55:20.287] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:55:58.481] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:55:58.481] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:56:38.485] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:56:38.485] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:57:18.419] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:57:18.419] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:57:57.545] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:57:57.545] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:58:37.132] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:58:37.132] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:59:16.998] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 05:59:16.998] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:00:00.142] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:00:00.142] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:00:40.163] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:00:40.163] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:01:20.065] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:01:20.065] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:01:58.531] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:01:58.531] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:02:38.310] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:02:38.310] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:03:17.927] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:03:17.927] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:03:56.822] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:03:56.822] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:04:37.004] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:04:37.004] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:05:16.093] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:05:16.093] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:05:54.190] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:05:54.190] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:06:33.907] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:06:33.907] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:07:13.486] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:07:13.486] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:07:52.920] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:07:52.920] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:08:32.011] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:08:32.011] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:09:11.638] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:09:11.638] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:09:51.417] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:09:51.417] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:10:32.048] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:10:32.048] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:11:12.651] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:11:12.651] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:11:51.207] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:11:51.207] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:12:31.053] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:12:31.053] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:13:10.521] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:13:10.521] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:13:50.177] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:13:50.177] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:14:29.512] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:14:29.512] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:15:09.471] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:15:09.471] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:15:48.589] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:15:48.589] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:16:29.466] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:16:29.466] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:17:09.014] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:17:09.014] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:17:48.039] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:17:48.040] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:18:27.709] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:18:27.709] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:19:07.112] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:19:07.112] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:19:45.212] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:19:45.212] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:20:26.441] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:20:26.441] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:21:10.888] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:21:10.888] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:21:48.745] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:21:48.745] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:22:28.543] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:22:28.543] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:23:08.170] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:23:08.170] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:23:46.426] [svulkan2] [error] GLFW error: X11: Failed to open display 
+[2026-05-25 06:23:46.426] [svulkan2] [warning] Continue without GLFW.

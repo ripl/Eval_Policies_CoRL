@@ -1,0 +1,400 @@
+{
+  "generated_at_utc": "2026-05-25T10:33:18.841533Z",
+  "identification_method": [
+    "Parsed live run submission.tsv for the 35 submitted policy/condition jobs.",
+    "Searched immutable launch_snapshot scripts for direct PROJECT_ROOT/scratch/third_party entrypoints and imports outside the snapshot.",
+    "Included the two critic-named scripts/simplerenv files and other direct outside-snapshot script entrypoints used by InternVLA, X-VLA, and Dexbotic jobs."
+  ],
+  "job_count": 35,
+  "launch_snapshot": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/launch_snapshot",
+  "limitations": [
+    "This manifest records current filesystem provenance for direct outside-snapshot runtime scripts; it does not freeze or copy those scripts.",
+    "If a pending job imports one of these paths after a later edit, Slurm will execute the later filesystem state unless the job/runtime has already imported the module.",
+    "Imported library files inside policy repositories are not exhaustively enumerated; this is a minimal manifest for direct runtime script entrypoints exposed by the launch snapshot."
+  ],
+  "manifest_type": "shared_runtime_script_provenance",
+  "project_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL",
+  "provenance_entries": [
+    {
+      "current_file_reference_evidence": [],
+      "git": {
+        "available": true,
+        "branch": "main",
+        "errors": [],
+        "head_sha": "36b558d4c78f0e3b0351f51de91ad2b28d416da0",
+        "relative_path": "scripts/simplerenv/widowx_protocol1.py",
+        "repo_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL",
+        "status_short": "M scripts/simplerenv/widowx_protocol1.py",
+        "tracked_stage": "100644 f9bf9594d202565a500dfedf8fb7be464e53d223 0\tscripts/simplerenv/widowx_protocol1.py"
+      },
+      "mtime_epoch": 1779689403.94909,
+      "mtime_predates_first_submission": true,
+      "mtime_predates_last_submission": true,
+      "mtime_utc": "2026-05-25T06:10:03.949090Z",
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scripts/simplerenv/widowx_protocol1.py",
+      "reason": "Protocol A-E install hook imported from shared scripts/simplerenv via PYTHONPATH or by the X-VLA client.",
+      "risk_if_mutated": "Can change condition/config installation, language/asset/predicate wiring, or protocol selection for jobs that import after mutation.",
+      "sha256_current": "a58bec1a10dcd8c1f44051c492b87471d11a7038f5b7a218ef92f01f1b455887",
+      "size_bytes": 43654,
+      "snapshot_reference_evidence": [
+        {
+          "line": 39,
+          "snapshot_file": "bundle/launch_snapshot/run_cogact_spatialvla_condition.py",
+          "text": "\"pythonpath\": [PROJECT_ROOT / \"scripts/simplerenv\", PROJECT_ROOT / \"third_party/cogact\", PROJECT_ROOT / \"third_party/simpler_env\"],"
+        },
+        {
+          "line": 47,
+          "snapshot_file": "bundle/launch_snapshot/run_cogact_spatialvla_condition.py",
+          "text": "PROJECT_ROOT / \"scripts/simplerenv\","
+        },
+        {
+          "line": 167,
+          "snapshot_file": "bundle/launch_snapshot/run_cogact_spatialvla_condition.py",
+          "text": "from widowx_protocol1 import install_from_env"
+        },
+        {
+          "line": 143,
+          "snapshot_file": "bundle/launch_snapshot/run_dexbotic_condition.sh",
+          "text": "--bind \"${PROJECT_ROOT}/scripts/simplerenv:${PROJECT_ROOT}/scripts/simplerenv\" \\"
+        },
+        {
+          "line": 162,
+          "snapshot_file": "bundle/launch_snapshot/run_dexbotic_condition.sh",
+          "text": "--env \"PYTHONPATH=${SUPPORT_ROOT}:${PROJECT_ROOT}/scripts/simplerenv:/workspace:${PYTHONPATH:-}\" \\"
+        },
+        {
+          "line": 99,
+          "snapshot_file": "bundle/launch_snapshot/run_internvla_condition.py",
+          "text": "env[\"PYTHONPATH\"] = \":\".join([str(support_root), str(PROJECT_ROOT / \"scripts/simplerenv\"), str(CLONE), str(SIMPLER), env.get(\"PYTHONPATH\", \"\")])"
+        },
+        {
+          "line": 10,
+          "snapshot_file": "bundle/launch_snapshot/run_seeded_simpler_episode_with_protocol.py",
+          "text": "from widowx_protocol1 import install_from_env"
+        },
+        {
+          "line": 47,
+          "snapshot_file": "bundle/launch_snapshot/run_xvla_condition.sh",
+          "text": "export PYTHONPATH=\"${SUPPORT_ROOT}:${PROJECT_ROOT}/scripts/simplerenv:${PROJECT_ROOT}/third_party/x_vla:${PROJECT_ROOT}/third_party/xvla_simpler_env:${PYTHONPATH:-}\""
+        },
+        {
+          "line": 95,
+          "snapshot_file": "bundle/launch_snapshot/run_xvla_condition.sh",
+          "text": "python \"${PROJECT_ROOT}/scripts/simplerenv/xvla_widowx_protocol_client.py\" \\"
+        },
+        {
+          "line": 10,
+          "snapshot_file": "bundle/launch_snapshot/seeded_runpy_with_protocol.py",
+          "text": "from widowx_protocol1 import install_from_env"
+        }
+      ],
+      "used_by_policies": [
+        "cogact",
+        "spatialvla",
+        "internvla_m1",
+        "xvla",
+        "dexbotic"
+      ]
+    },
+    {
+      "current_file_reference_evidence": [
+        {
+          "file": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scripts/simplerenv/xvla_widowx_protocol_client.py",
+          "line": 11,
+          "text": "from widowx_protocol1 import install_from_env"
+        },
+        {
+          "file": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scripts/simplerenv/xvla_widowx_protocol_client.py",
+          "line": 195,
+          "text": "install_from_env(required=True)"
+        }
+      ],
+      "git": {
+        "available": true,
+        "branch": "main",
+        "errors": [],
+        "head_sha": "36b558d4c78f0e3b0351f51de91ad2b28d416da0",
+        "relative_path": "scripts/simplerenv/xvla_widowx_protocol_client.py",
+        "repo_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL",
+        "status_short": "M scripts/simplerenv/xvla_widowx_protocol_client.py",
+        "tracked_stage": "100644 bf911b330ba9064ad57fdc2d33ad971f4d40a881 0\tscripts/simplerenv/xvla_widowx_protocol_client.py"
+      },
+      "mtime_epoch": 1779673865.0369072,
+      "mtime_predates_first_submission": true,
+      "mtime_predates_last_submission": true,
+      "mtime_utc": "2026-05-25T01:51:05.036907Z",
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scripts/simplerenv/xvla_widowx_protocol_client.py",
+      "reason": "X-VLA job calls this client by absolute PROJECT_ROOT path outside the launch snapshot.",
+      "risk_if_mutated": "Can change X-VLA rollout loop, protocol install hook, episode IDs, result rows, or success parsing for pending X-VLA jobs.",
+      "sha256_current": "b0f3552edcb06d0789a6a25218b60097ec088696ee5b565123cabada263f83e3",
+      "size_bytes": 8595,
+      "snapshot_reference_evidence": [
+        {
+          "line": 95,
+          "snapshot_file": "bundle/launch_snapshot/run_xvla_condition.sh",
+          "text": "python \"${PROJECT_ROOT}/scripts/simplerenv/xvla_widowx_protocol_client.py\" \\"
+        }
+      ],
+      "used_by_policies": [
+        "xvla"
+      ]
+    },
+    {
+      "current_file_reference_evidence": [],
+      "git": {
+        "available": true,
+        "branch": "main",
+        "errors": [],
+        "head_sha": "36b558d4c78f0e3b0351f51de91ad2b28d416da0",
+        "relative_path": "scratch/repeated_fixed_grid_calibration_288_20260523_v2/run_seeded_policy_server.py",
+        "repo_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL",
+        "status_short": "?? scratch/repeated_fixed_grid_calibration_288_20260523_v2/run_seeded_policy_server.py",
+        "tracked_stage": ""
+      },
+      "mtime_epoch": 1779571549.7399554,
+      "mtime_predates_first_submission": true,
+      "mtime_predates_last_submission": true,
+      "mtime_utc": "2026-05-23T21:25:49.739955Z",
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/run_seeded_policy_server.py",
+      "reason": "InternVLA launch snapshot calls this seeded server wrapper by PROJECT_ROOT scratch path.",
+      "risk_if_mutated": "Can change InternVLA server seeding or server-script invocation for pending InternVLA jobs.",
+      "sha256_current": "cbb335f4d896ba31df0541a695ed09ac9b340c4ffc3934184c5c1505e7de18a9",
+      "size_bytes": 1532,
+      "snapshot_reference_evidence": [
+        {
+          "line": 108,
+          "snapshot_file": "bundle/launch_snapshot/run_internvla_condition.py",
+          "text": "str(PROJECT_ROOT / \"scratch/repeated_fixed_grid_calibration_288_20260523_v2/run_seeded_policy_server.py\"),"
+        }
+      ],
+      "used_by_policies": [
+        "internvla_m1"
+      ]
+    },
+    {
+      "current_file_reference_evidence": [],
+      "git": {
+        "available": true,
+        "branch": "InternVLA-M1",
+        "errors": [],
+        "head_sha": "21e6e8f4bd42bee269dd021a118133501e9d8ede",
+        "relative_path": "deployment/model_server/server_policy_M1.py",
+        "repo_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/InternVLA-M1",
+        "status_short": "",
+        "tracked_stage": "100644 80ab0e987cc3cd5775ddee454b7185ad53078d72 0\tdeployment/model_server/server_policy_M1.py"
+      },
+      "mtime_epoch": 1779482742.3749397,
+      "mtime_predates_first_submission": true,
+      "mtime_predates_last_submission": true,
+      "mtime_utc": "2026-05-22T20:45:42.374940Z",
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/InternVLA-M1/deployment/model_server/server_policy_M1.py",
+      "reason": "InternVLA seeded wrapper passes this server script as the model server entrypoint.",
+      "risk_if_mutated": "Can change InternVLA policy server behavior for pending InternVLA jobs.",
+      "sha256_current": "6306df879d1aa479081347d62d734da94664c7bfdf10c4735651ac4121976ee5",
+      "size_bytes": 2016,
+      "snapshot_reference_evidence": [
+        {
+          "line": 112,
+          "snapshot_file": "bundle/launch_snapshot/run_internvla_condition.py",
+          "text": "str(CLONE / \"deployment/model_server/server_policy_M1.py\"),"
+        }
+      ],
+      "used_by_policies": [
+        "internvla_m1"
+      ]
+    },
+    {
+      "current_file_reference_evidence": [],
+      "git": {
+        "available": true,
+        "branch": "InternVLA-M1",
+        "errors": [],
+        "head_sha": "21e6e8f4bd42bee269dd021a118133501e9d8ede",
+        "relative_path": "examples/SimplerEnv/start_simpler_env.py",
+        "repo_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/InternVLA-M1",
+        "status_short": "M examples/SimplerEnv/start_simpler_env.py",
+        "tracked_stage": "100644 2c9b37a68c534acb2da57b5bfd3bcee5aa78b64b 0\texamples/SimplerEnv/start_simpler_env.py"
+      },
+      "mtime_epoch": 1779482745.1740367,
+      "mtime_predates_first_submission": true,
+      "mtime_predates_last_submission": true,
+      "mtime_utc": "2026-05-22T20:45:45.174037Z",
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/InternVLA-M1/examples/SimplerEnv/start_simpler_env.py",
+      "reason": "InternVLA per-episode wrapper runpy executes this SimplerEnv client entrypoint.",
+      "risk_if_mutated": "Can change InternVLA SimplerEnv rollout loop or result emission for pending InternVLA jobs.",
+      "sha256_current": "7113eb81cfeea04c8ed7d8a3545cdc9230a9c1c2c88bfec3a0ac9d4dd2303d4e",
+      "size_bytes": 1640,
+      "snapshot_reference_evidence": [
+        {
+          "line": 176,
+          "snapshot_file": "bundle/launch_snapshot/run_internvla_condition.py",
+          "text": "str(CLONE / \"examples/SimplerEnv/start_simpler_env.py\"),"
+        }
+      ],
+      "used_by_policies": [
+        "internvla_m1"
+      ]
+    },
+    {
+      "current_file_reference_evidence": [],
+      "git": {
+        "available": true,
+        "branch": "main",
+        "errors": [],
+        "head_sha": "ccd1992f3ecce554e3ebe68e21c759acf111f2b0",
+        "relative_path": "deploy.py",
+        "repo_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla",
+        "status_short": "",
+        "tracked_stage": "100644 a2c9d6d79cc7736a9a534b7a974fd487ff497bc9 0\tdeploy.py"
+      },
+      "mtime_epoch": 1778717004.125963,
+      "mtime_predates_first_submission": true,
+      "mtime_predates_last_submission": true,
+      "mtime_utc": "2026-05-14T00:03:24.125963Z",
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/x_vla/deploy.py",
+      "reason": "X-VLA launch snapshot cd's into third_party/x_vla and starts python deploy.py.",
+      "risk_if_mutated": "Can change X-VLA policy server behavior for pending X-VLA jobs.",
+      "sha256_current": "e2f40c54dc09d01a5942e43b0680d160861cf40f7d9dfc08e0e2bdad1350cef6",
+      "size_bytes": 6759,
+      "snapshot_reference_evidence": [
+        {
+          "line": 19,
+          "snapshot_file": "bundle/launch_snapshot/run_xvla_condition.sh",
+          "text": "export X_VLA_REPO=\"${PROJECT_ROOT}/third_party/x_vla\""
+        },
+        {
+          "line": 65,
+          "snapshot_file": "bundle/launch_snapshot/run_xvla_condition.sh",
+          "text": "\"x_vla_repo\": os.environ[\"X_VLA_REPO\"],"
+        },
+        {
+          "line": 71,
+          "snapshot_file": "bundle/launch_snapshot/run_xvla_condition.sh",
+          "text": "cd \"${X_VLA_REPO}\""
+        },
+        {
+          "line": 72,
+          "snapshot_file": "bundle/launch_snapshot/run_xvla_condition.sh",
+          "text": "python deploy.py \\"
+        }
+      ],
+      "used_by_policies": [
+        "xvla"
+      ]
+    },
+    {
+      "current_file_reference_evidence": [],
+      "git": {
+        "available": true,
+        "branch": "main",
+        "errors": [],
+        "head_sha": "36b558d4c78f0e3b0351f51de91ad2b28d416da0",
+        "relative_path": "scratch/repeated_fixed_grid_calibration_288_20260523_v2/dexbotic_support/bin/launch_memvla_server_seeded.py",
+        "repo_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL",
+        "status_short": "?? scratch/repeated_fixed_grid_calibration_288_20260523_v2/dexbotic_support/bin/launch_memvla_server_seeded.py",
+        "tracked_stage": ""
+      },
+      "mtime_epoch": 1779571996.8764849,
+      "mtime_predates_first_submission": true,
+      "mtime_predates_last_submission": true,
+      "mtime_utc": "2026-05-23T21:33:16.876485Z",
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/dexbotic_support/bin/launch_memvla_server_seeded.py",
+      "reason": "Dexbotic launch snapshot starts this seeded MemVLA server launcher by absolute PROJECT_ROOT path inside the server container.",
+      "risk_if_mutated": "Can change Dexbotic server seeding or model-server launch for pending Dexbotic jobs.",
+      "sha256_current": "675e084392dd75763f7596c4e58f0487ae13b6fdd6db51411e28795748764dd3",
+      "size_bytes": 846,
+      "snapshot_reference_evidence": [
+        {
+          "line": 103,
+          "snapshot_file": "bundle/launch_snapshot/run_dexbotic_condition.sh",
+          "text": "bash -lc 'set -Eeuo pipefail; source /opt/conda/etc/profile.d/conda.sh; conda activate dexbotic; export PYTHONPATH=/mnt/dexbotic:'\"${SUPPORT_ROOT}\"':${PYTHONPATH:-}; cd /mnt/dexbotic; python -u /share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_2026052"
+        }
+      ],
+      "used_by_policies": [
+        "dexbotic"
+      ]
+    },
+    {
+      "current_file_reference_evidence": [],
+      "git": {
+        "available": true,
+        "branch": "HEAD",
+        "errors": [],
+        "head_sha": "54a6c749a9fe36e72654efe899ad9dc3712b849c",
+        "relative_path": "evaluation/run_simpler_evaluation.py",
+        "repo_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/strict_calibrations_20260523/sources/dexbotic-benchmark_54a6c749_simpler4ab717_clean_20260523T0152Z",
+        "status_short": "",
+        "tracked_stage": "100644 73323d50d81603bb9feac603bcde5e74c6cd3880 0\tevaluation/run_simpler_evaluation.py"
+      },
+      "mtime_epoch": 1779501025.310117,
+      "mtime_predates_first_submission": true,
+      "mtime_predates_last_submission": true,
+      "mtime_utc": "2026-05-23T01:50:25.310117Z",
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/strict_calibrations_20260523/sources/dexbotic-benchmark_54a6c749_simpler4ab717_clean_20260523T0152Z/evaluation/run_simpler_evaluation.py",
+      "reason": "Dexbotic launch snapshot binds this benchmark source as /workspace and runpy executes /workspace/evaluation/run_simpler_evaluation.py.",
+      "risk_if_mutated": "Can change Dexbotic benchmark evaluation loop, output layout, or success aggregation for pending Dexbotic jobs.",
+      "sha256_current": "4c094f155b04e3635d6ec456eb9474fb1e3845bb8a7284117e67c81d5d066950",
+      "size_bytes": 9361,
+      "snapshot_reference_evidence": [
+        {
+          "line": 13,
+          "snapshot_file": "bundle/launch_snapshot/run_dexbotic_condition.sh",
+          "text": "BENCHMARK_SRC=\"${BENCHMARK_SRC:-${PROJECT_ROOT}/scratch/strict_calibrations_20260523/sources/dexbotic-benchmark_54a6c749_simpler4ab717_clean_20260523T0152Z}\""
+        },
+        {
+          "line": 28,
+          "snapshot_file": "bundle/launch_snapshot/run_dexbotic_condition.sh",
+          "text": "export PROJECT_ROOT SUPPORT_ROOT CONDITION RUN_ID OUTPUT_ROOT DEXBOTIC_MODEL_ID DEXBOTIC_SERVER_IMAGE DEXBOTIC_BENCHMARK_IMAGE DEXBOTIC_SRC BENCHMARK_SRC"
+        },
+        {
+          "line": 69,
+          "snapshot_file": "bundle/launch_snapshot/run_dexbotic_condition.sh",
+          "text": "\"benchmark_src\": os.environ[\"BENCHMARK_SRC\"],"
+        },
+        {
+          "line": 141,
+          "snapshot_file": "bundle/launch_snapshot/run_dexbotic_condition.sh",
+          "text": "--bind \"${BENCHMARK_SRC}:/workspace\" \\"
+        },
+        {
+          "line": 164,
+          "snapshot_file": "bundle/launch_snapshot/run_dexbotic_condition.sh",
+          "text": "bash -lc 'set -Eeuo pipefail; source /opt/conda/etc/profile.d/conda.sh; conda activate simpler_env; cd /workspace; python '\"${SUPPORT_ROOT}\"'/seeded_runpy_with_protocol.py --seed \"${EVAL_ROLLOUT_SEED}\" --script /workspace/evaluation/run_simpler_evaluation.py -- --config '\"${CONFIG_PATH}\" \\"
+        }
+      ],
+      "used_by_policies": [
+        "dexbotic"
+      ]
+    }
+  ],
+  "risk_summary": [
+    {
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scripts/simplerenv/widowx_protocol1.py",
+      "risk": "git status is not clean: M scripts/simplerenv/widowx_protocol1.py"
+    },
+    {
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scripts/simplerenv/xvla_widowx_protocol_client.py",
+      "risk": "git status is not clean: M scripts/simplerenv/xvla_widowx_protocol_client.py"
+    },
+    {
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/run_seeded_policy_server.py",
+      "risk": "git status is not clean: ?? scratch/repeated_fixed_grid_calibration_288_20260523_v2/run_seeded_policy_server.py"
+    },
+    {
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/InternVLA-M1/examples/SimplerEnv/start_simpler_env.py",
+      "risk": "git status is not clean: M examples/SimplerEnv/start_simpler_env.py"
+    },
+    {
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/dexbotic_support/bin/launch_memvla_server_seeded.py",
+      "risk": "git status is not clean: ?? scratch/repeated_fixed_grid_calibration_288_20260523_v2/dexbotic_support/bin/launch_memvla_server_seeded.py"
+    }
+  ],
+  "run_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z",
+  "schema_version": 1,
+  "submission_time_window_utc": {
+    "first": "2026-05-25T08:00:11Z",
+    "last": "2026-05-25T08:00:12Z"
+  },
+  "submission_tsv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/submission.tsv",
+  "submission_tsv_sha256": "9c29c8e9e4b9110ff46db5ed8e04271cd032d0f29ebb1196638343ac51b6705d"
+}

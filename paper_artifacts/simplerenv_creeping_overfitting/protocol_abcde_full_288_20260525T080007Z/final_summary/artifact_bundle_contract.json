@@ -1,0 +1,82 @@
+{
+  "accepted_runtime_assets": {
+    "blue": "render_candidate_blue_hybrid_v4",
+    "red": "render_candidate_red_corrected_v6e",
+    "white": "render_candidate_white_offwhite_hybrid_v4"
+  },
+  "curated_outputs": [
+    "validation_report.json",
+    "per_episode_results_all.csv",
+    "per_policy_condition_summary.csv",
+    "per_condition_summary.csv",
+    "per_policy_summary.csv",
+    "job_records.csv",
+    "replacement_job_records.csv",
+    "test_set_manifest.csv"
+  ],
+  "excluded_from_curated_bundle": [
+    ".avi",
+    ".gif",
+    ".h5",
+    ".hdf5",
+    ".jpeg",
+    ".jpg",
+    ".mkv",
+    ".mov",
+    ".mp4",
+    ".npy",
+    ".npz",
+    ".png",
+    ".webm"
+  ],
+  "required_job_record_fields": [
+    "policy",
+    "condition",
+    "job_id",
+    "result_dir",
+    "job_name plus job_id, or explicit stdout/stderr log paths",
+    "command or command_file/sbatch_script",
+    "protocol_sha256 if not captured per row/job metadata"
+  ],
+  "required_metadata": [
+    "launch snapshot hash manifest in bundle/submission_support_files.sha256",
+    "frozen config SHA and sidecar",
+    "launch preflight report with 35 policy x condition jobs",
+    "frozen config SHA on every row",
+    "per-job runtime_metadata.json with policy, condition, horizon, final protocol SHA, and asset manifest reference",
+    "runtime asset manifest with target runtime paths and hashes for accepted blue/red/white assets",
+    "per-job validation_report.json with integer_step_rows=288 and non_integer_step_rows=0"
+  ],
+  "required_per_episode_identity": [
+    "policy",
+    "condition",
+    "episode_id 0..287",
+    "success 0/1",
+    "steps",
+    "horizon=60",
+    "job_id",
+    "runtime-captured protocol_sha256 per row or per job"
+  ],
+  "required_runtime_asset_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/runtime_asset_manifest.json",
+  "required_runtime_asset_manifest_sha256": "91a916616134b84af7ed5edafb9983b0c81fd14847463d3f104033c32aa3300a",
+  "run_shape": {
+    "conditions": [
+      "protocol_A",
+      "protocol_B",
+      "protocol_C1_yellow_on_green",
+      "protocol_C2_blue_on_red",
+      "protocol_C3_red_on_blue",
+      "protocol_D",
+      "protocol_E"
+    ],
+    "policies": [
+      "cogact",
+      "spatialvla",
+      "internvla_m1",
+      "xvla",
+      "dexbotic"
+    ],
+    "rows_per_policy_condition": 288,
+    "total_rows": 10080
+  }
+}

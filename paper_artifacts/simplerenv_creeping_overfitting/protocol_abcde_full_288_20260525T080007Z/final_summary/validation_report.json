@@ -1,0 +1,699 @@
+{
+  "actual_total_rows": 10080,
+  "asset_manifest": {
+    "accepted_asset_ids": [
+      "render_candidate_blue_hybrid_v4",
+      "render_candidate_red_corrected_v6e",
+      "render_candidate_white_offwhite_hybrid_v4"
+    ],
+    "asset_hashes": {
+      "render_candidate_blue_hybrid_v4": [
+        "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7",
+        "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+      ],
+      "render_candidate_red_corrected_v6e": [
+        "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f",
+        "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+      ],
+      "render_candidate_white_offwhite_hybrid_v4": [
+        "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd",
+        "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+      ]
+    },
+    "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/runtime_asset_manifest.json",
+    "policy_asset_hashes": {
+      "cogact": {
+        "render_candidate_blue_hybrid_v4": [
+          "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7",
+          "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        ],
+        "render_candidate_red_corrected_v6e": [
+          "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f",
+          "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        ],
+        "render_candidate_white_offwhite_hybrid_v4": [
+          "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd",
+          "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        ]
+      },
+      "dexbotic": {
+        "render_candidate_blue_hybrid_v4": [
+          "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7",
+          "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        ],
+        "render_candidate_red_corrected_v6e": [
+          "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f",
+          "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        ],
+        "render_candidate_white_offwhite_hybrid_v4": [
+          "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd",
+          "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        ]
+      },
+      "internvla_m1": {
+        "render_candidate_blue_hybrid_v4": [
+          "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7",
+          "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        ],
+        "render_candidate_red_corrected_v6e": [
+          "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f",
+          "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        ],
+        "render_candidate_white_offwhite_hybrid_v4": [
+          "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd",
+          "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        ]
+      },
+      "spatialvla": {
+        "render_candidate_blue_hybrid_v4": [
+          "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7",
+          "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        ],
+        "render_candidate_red_corrected_v6e": [
+          "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f",
+          "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        ],
+        "render_candidate_white_offwhite_hybrid_v4": [
+          "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd",
+          "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        ]
+      },
+      "xvla": {
+        "render_candidate_blue_hybrid_v4": [
+          "b3d532cba8e95babb4bce99123c755b76d1735caf35a5e1e7a7ed9e9736b5db7",
+          "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        ],
+        "render_candidate_red_corrected_v6e": [
+          "3ef84157637dac90b68b11f98069095b248d298911368ba11fd49cd1b14a404f",
+          "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        ],
+        "render_candidate_white_offwhite_hybrid_v4": [
+          "8108c9534a821533f76b5db7f9c76ac90fa44afb5c0e21908744b600e1a658cd",
+          "b57ba99c4a72caa36e99329c604f412834014726f2fc077eab6b07629abbc237"
+        ]
+      }
+    },
+    "policy_runtime_paths": {
+      "cogact": [
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/simpler_env/ManiSkill2_real2sim"
+      ],
+      "dexbotic": [
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/strict_calibrations_20260523/sources/dexbotic-benchmark_54a6c749_simpler4ab717_clean_20260523T0152Z/simpler/ManiSkill2_real2sim"
+      ],
+      "internvla_m1": [
+        "/share/data/ripl/tianchong/projects/InternVLA-M1/cache/Projects/SimplerEnv/ManiSkill2_real2sim"
+      ],
+      "spatialvla": [
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/scratch/repeated_fixed_grid_calibration_288_20260523_v2/sources/simplerenv_openvla_ccfe380/ManiSkill2_real2sim"
+      ],
+      "xvla": [
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/third_party/xvla_simpler_env/ManiSkill2_real2sim"
+      ]
+    },
+    "schema": "runtime_paths",
+    "sha256": "91a916616134b84af7ed5edafb9983b0c81fd14847463d3f104033c32aa3300a"
+  },
+  "current_repo_state": {
+    "branch": "main",
+    "head_sha": "36b558d4c78f0e3b0351f51de91ad2b28d416da0",
+    "project_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL",
+    "status_short": "M scripts/simplerenv/widowx_protocol1.py\n M scripts/simplerenv/xvla_widowx_protocol_client.py\n m third_party/simpler_env\n m third_party/simplerenv_openvla\n m third_party/xvla_simpler_env\n?? MUJOCO_LOG.TXT\n?? configs/simplerenv/protocol_abcde/\n?? scratch/\n?? scripts/bitwise/\n?? scripts/simplerenv/copy_xvla_protocol_abcde_smoke_videos.py\n?? scripts/simplerenv/run_xvla_widowx_protocol_abcde_smoke.sh\n?? scripts/simplerenv/validate_protocol_abcde_full_run.py\n?? scripts/slurm/bitwise_calvin_gr1_trace.sbatch\n?? scripts/slurm/bitwise_libero_trace.sbatch\n?? scripts/slurm/bitwise_robocasa_starvla_trace.sbatch\n?? scripts/slurm/bitwise_simplerenv_cogact_trace.sbatch\n?? third_party/ABot-Manipulation/\n?? third_party/InternVLA-M1/\n?? third_party/alphabrain/\n?? third_party/dexbotic-benchmark/\n?? third_party/dexbotic/\n?? third_party/hif_vla/\n?? third_party/lerobot/\n?? third_party/robocasa-gr1-tabletop-tasks/\n?? third_party/robosuite/\n?? third_party/robosuite_models/\n?? third_party/simvla/\n?? third_party/spatial_forcing/\n?? third_party/spatial_forcing_libero_adapter/\n?? third_party/starVLA/\n?? third_party/vggt/",
+    "submodule_status": "b174a1b86deedfab4d198d935207e7bb0527994e third_party/cogact (heads/main)\n 4a2e956bb497586d82489eb4c98b27fb82b5ff47 third_party/gr1 (heads/main)\n 1475a07d043a62bb07ab11abfc71115bb72e2a16 third_party/roboflamingo (heads/main)\n 06accaca93535902d408da4855f21cece12bceb7 third_party/simpler_env (heads/main)\n ef7a4d4fdf4b69f2c2154db5b15b9ac8dfe10682 third_party/simpler_env/ManiSkill2_real2sim (heads/main)\n ccfe3809766839a2fcfb7a3d3c9abff585189188 third_party/simplerenv_openvla (heads/main)\n cd45dd27dc6bb26d048cb6570cdab4e3f935cc37 third_party/simplerenv_openvla/ManiSkill2_real2sim (cd45dd2)\n ccd1992f3ecce554e3ebe68e21c759acf111f2b0 third_party/x_vla (heads/main)\n 4233e3fcf006f0bd0e951c190db3b209dc3f3543 third_party/xvla_simpler_env (heads/main)\n 54ae2e0e9422807d060aa15ff7c04970d38d3cf8 third_party/xvla_simpler_env/ManiSkill2_real2sim (heads/main-2-g54ae2e0)"
+  },
+  "errors": [],
+  "expected_total_rows": 10080,
+  "large_artifact_git_check": {
+    "output_banned_files": [],
+    "tracked_banned_files": []
+  },
+  "metadata_summary": [
+    {
+      "metadata_files": [
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/launch_preflight_report.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/runtime_asset_manifest.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/submission_support_files.sha256",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/cogact/protocol_A/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/cogact/protocol_B/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/cogact/protocol_C1_yellow_on_green/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/cogact/protocol_C2_blue_on_red/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/cogact/protocol_C3_red_on_blue/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/cogact/protocol_D/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/cogact/protocol_E/runtime_metadata.json"
+      ],
+      "policy": "cogact"
+    },
+    {
+      "metadata_files": [
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/launch_preflight_report.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/runtime_asset_manifest.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/submission_support_files.sha256",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/spatialvla/protocol_A/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/spatialvla/protocol_B/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/spatialvla/protocol_C1_yellow_on_green/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/spatialvla/protocol_C2_blue_on_red/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/spatialvla/protocol_C3_red_on_blue/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/spatialvla/protocol_D/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/spatialvla/protocol_E/runtime_metadata.json"
+      ],
+      "policy": "spatialvla"
+    },
+    {
+      "metadata_files": [
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/launch_preflight_report.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/runtime_asset_manifest.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/submission_support_files.sha256",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/internvla_m1/protocol_A/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/internvla_m1/protocol_B/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/internvla_m1/protocol_C1_yellow_on_green/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/internvla_m1/protocol_C2_blue_on_red/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/internvla_m1/protocol_C3_red_on_blue/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/internvla_m1/protocol_D/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/internvla_m1/protocol_E/runtime_metadata.json"
+      ],
+      "policy": "internvla_m1"
+    },
+    {
+      "metadata_files": [
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/launch_preflight_report.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/runtime_asset_manifest.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/submission_support_files.sha256",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/xvla/protocol_A/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/xvla/protocol_A/server/info.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/xvla/protocol_B/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/xvla/protocol_B/server/info.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/xvla/protocol_C1_yellow_on_green/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/xvla/protocol_C1_yellow_on_green/server/info.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/xvla/protocol_C2_blue_on_red/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/xvla/protocol_C2_blue_on_red/server/info.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/xvla/protocol_C3_red_on_blue/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/xvla/protocol_C3_red_on_blue/server/info.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/xvla/protocol_D/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/xvla/protocol_D/server/info.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/xvla/protocol_E/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/xvla/protocol_E/server/info.json"
+      ],
+      "policy": "xvla"
+    },
+    {
+      "metadata_files": [
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/launch_preflight_report.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/runtime_asset_manifest.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/submission_support_files.sha256",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_A/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_B/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C1_yellow_on_green/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_C2_blue_on_red/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_C3_red_on_blue/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_D/runtime_metadata.json",
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_E/runtime_metadata.json"
+      ],
+      "policy": "dexbotic"
+    }
+  ],
+  "output_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/final_summary",
+  "protocol_config": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/configs/simplerenv/protocol_abcde/simplerenv_protocol_abcde_stack_v1.json",
+  "protocol_sha256": "1f2b4ea48e38df7d25304638d998c40902d79634433f725f0895e26f04ad810b",
+  "replacement_submissions": [
+    "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv",
+    "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_submission.tsv"
+  ],
+  "replacement_summary": {
+    "active_replacement_rows": 7,
+    "chains": [
+      {
+        "active_job_id": "2076512",
+        "active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_A",
+        "chain_job_ids": [
+          "2075427",
+          "2076512"
+        ],
+        "chain_result_dirs": [
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_A",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_A"
+        ],
+        "chain_tsvs": [
+          "original_submission",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv"
+        ],
+        "condition": "protocol_A",
+        "policy": "dexbotic"
+      },
+      {
+        "active_job_id": "2076513",
+        "active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_B",
+        "chain_job_ids": [
+          "2075428",
+          "2076513"
+        ],
+        "chain_result_dirs": [
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_B",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_B"
+        ],
+        "chain_tsvs": [
+          "original_submission",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv"
+        ],
+        "condition": "protocol_B",
+        "policy": "dexbotic"
+      },
+      {
+        "active_job_id": "2076514",
+        "active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C1_yellow_on_green",
+        "chain_job_ids": [
+          "2075429",
+          "2076514"
+        ],
+        "chain_result_dirs": [
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_C1_yellow_on_green",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C1_yellow_on_green"
+        ],
+        "chain_tsvs": [
+          "original_submission",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv"
+        ],
+        "condition": "protocol_C1_yellow_on_green",
+        "policy": "dexbotic"
+      },
+      {
+        "active_job_id": "2076709",
+        "active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_C2_blue_on_red",
+        "chain_job_ids": [
+          "2075430",
+          "2076515",
+          "2076709"
+        ],
+        "chain_result_dirs": [
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_C2_blue_on_red",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C2_blue_on_red",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_C2_blue_on_red"
+        ],
+        "chain_tsvs": [
+          "original_submission",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_submission.tsv"
+        ],
+        "condition": "protocol_C2_blue_on_red",
+        "policy": "dexbotic"
+      },
+      {
+        "active_job_id": "2076710",
+        "active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_C3_red_on_blue",
+        "chain_job_ids": [
+          "2075431",
+          "2076516",
+          "2076710"
+        ],
+        "chain_result_dirs": [
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_C3_red_on_blue",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C3_red_on_blue",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_C3_red_on_blue"
+        ],
+        "chain_tsvs": [
+          "original_submission",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_submission.tsv"
+        ],
+        "condition": "protocol_C3_red_on_blue",
+        "policy": "dexbotic"
+      },
+      {
+        "active_job_id": "2076711",
+        "active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_D",
+        "chain_job_ids": [
+          "2075432",
+          "2076517",
+          "2076711"
+        ],
+        "chain_result_dirs": [
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_D",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_D",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_D"
+        ],
+        "chain_tsvs": [
+          "original_submission",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_submission.tsv"
+        ],
+        "condition": "protocol_D",
+        "policy": "dexbotic"
+      },
+      {
+        "active_job_id": "2076712",
+        "active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_E",
+        "chain_job_ids": [
+          "2075433",
+          "2076518",
+          "2076712"
+        ],
+        "chain_result_dirs": [
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_E",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_E",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_E"
+        ],
+        "chain_tsvs": [
+          "original_submission",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv",
+          "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_submission.tsv"
+        ],
+        "condition": "protocol_E",
+        "policy": "dexbotic"
+      }
+    ],
+    "records": [
+      {
+        "asset_preflight_report": "",
+        "chain_job_ids": "[\"2075427\", \"2076512\"]",
+        "chain_result_dirs": "[\"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_A\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_A\"]",
+        "chain_tsvs": "[\"original_submission\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv\"]",
+        "condition": "protocol_A",
+        "failed_job_id": "2075427",
+        "failed_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_A",
+        "failed_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/se_abcde_dexbotic_A-2075427.err",
+        "failed_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/se_abcde_dexbotic_A-2075427.out",
+        "fix_summary": "bundled Dexbotic seeded server launcher plus strict norm_stats bind into /dex_run",
+        "policy": "dexbotic",
+        "previous_active_job_id": "2075427",
+        "previous_active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_A",
+        "protocol_sha256": "1f2b4ea48e38df7d25304638d998c40902d79634433f725f0895e26f04ad810b",
+        "replacement_id": "dexbotic_replacement_20260525T104356Z",
+        "replacement_job_id": "2076512",
+        "replacement_order": 1,
+        "replacement_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_A",
+        "replacement_sbatch_script": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_20260525T104356Z/run_dexbotic_condition.sbatch",
+        "replacement_source_tsv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv",
+        "replacement_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_A_r1-2076512.err",
+        "replacement_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_A_r1-2076512.out",
+        "support_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_20260525T104356Z"
+      },
+      {
+        "asset_preflight_report": "",
+        "chain_job_ids": "[\"2075428\", \"2076513\"]",
+        "chain_result_dirs": "[\"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_B\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_B\"]",
+        "chain_tsvs": "[\"original_submission\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv\"]",
+        "condition": "protocol_B",
+        "failed_job_id": "2075428",
+        "failed_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_B",
+        "failed_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/se_abcde_dexbotic_B-2075428.err",
+        "failed_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/se_abcde_dexbotic_B-2075428.out",
+        "fix_summary": "bundled Dexbotic seeded server launcher plus strict norm_stats bind into /dex_run",
+        "policy": "dexbotic",
+        "previous_active_job_id": "2075428",
+        "previous_active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_B",
+        "protocol_sha256": "1f2b4ea48e38df7d25304638d998c40902d79634433f725f0895e26f04ad810b",
+        "replacement_id": "dexbotic_replacement_20260525T104356Z",
+        "replacement_job_id": "2076513",
+        "replacement_order": 2,
+        "replacement_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_B",
+        "replacement_sbatch_script": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_20260525T104356Z/run_dexbotic_condition.sbatch",
+        "replacement_source_tsv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv",
+        "replacement_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_B_r1-2076513.err",
+        "replacement_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_B_r1-2076513.out",
+        "support_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_20260525T104356Z"
+      },
+      {
+        "asset_preflight_report": "",
+        "chain_job_ids": "[\"2075429\", \"2076514\"]",
+        "chain_result_dirs": "[\"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_C1_yellow_on_green\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C1_yellow_on_green\"]",
+        "chain_tsvs": "[\"original_submission\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv\"]",
+        "condition": "protocol_C1_yellow_on_green",
+        "failed_job_id": "2075429",
+        "failed_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_C1_yellow_on_green",
+        "failed_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/se_abcde_dexbotic_C1-yellow-on-green-2075429.err",
+        "failed_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/se_abcde_dexbotic_C1-yellow-on-green-2075429.out",
+        "fix_summary": "bundled Dexbotic seeded server launcher plus strict norm_stats bind into /dex_run",
+        "policy": "dexbotic",
+        "previous_active_job_id": "2075429",
+        "previous_active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_C1_yellow_on_green",
+        "protocol_sha256": "1f2b4ea48e38df7d25304638d998c40902d79634433f725f0895e26f04ad810b",
+        "replacement_id": "dexbotic_replacement_20260525T104356Z",
+        "replacement_job_id": "2076514",
+        "replacement_order": 3,
+        "replacement_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C1_yellow_on_green",
+        "replacement_sbatch_script": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_20260525T104356Z/run_dexbotic_condition.sbatch",
+        "replacement_source_tsv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv",
+        "replacement_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_C1-yellow-on-green_r1-2076514.err",
+        "replacement_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_C1-yellow-on-green_r1-2076514.out",
+        "support_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_20260525T104356Z"
+      },
+      {
+        "asset_preflight_report": "",
+        "chain_job_ids": "[\"2075430\", \"2076515\"]",
+        "chain_result_dirs": "[\"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_C2_blue_on_red\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C2_blue_on_red\"]",
+        "chain_tsvs": "[\"original_submission\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv\"]",
+        "condition": "protocol_C2_blue_on_red",
+        "failed_job_id": "2075430",
+        "failed_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_C2_blue_on_red",
+        "failed_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/se_abcde_dexbotic_C2-blue-on-red-2075430.err",
+        "failed_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/se_abcde_dexbotic_C2-blue-on-red-2075430.out",
+        "fix_summary": "bundled Dexbotic seeded server launcher plus strict norm_stats bind into /dex_run",
+        "policy": "dexbotic",
+        "previous_active_job_id": "2075430",
+        "previous_active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_C2_blue_on_red",
+        "protocol_sha256": "1f2b4ea48e38df7d25304638d998c40902d79634433f725f0895e26f04ad810b",
+        "replacement_id": "dexbotic_replacement_20260525T104356Z",
+        "replacement_job_id": "2076515",
+        "replacement_order": 4,
+        "replacement_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C2_blue_on_red",
+        "replacement_sbatch_script": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_20260525T104356Z/run_dexbotic_condition.sbatch",
+        "replacement_source_tsv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv",
+        "replacement_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_C2-blue-on-red_r1-2076515.err",
+        "replacement_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_C2-blue-on-red_r1-2076515.out",
+        "support_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_20260525T104356Z"
+      },
+      {
+        "asset_preflight_report": "",
+        "chain_job_ids": "[\"2075431\", \"2076516\"]",
+        "chain_result_dirs": "[\"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_C3_red_on_blue\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C3_red_on_blue\"]",
+        "chain_tsvs": "[\"original_submission\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv\"]",
+        "condition": "protocol_C3_red_on_blue",
+        "failed_job_id": "2075431",
+        "failed_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_C3_red_on_blue",
+        "failed_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/se_abcde_dexbotic_C3-red-on-blue-2075431.err",
+        "failed_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/se_abcde_dexbotic_C3-red-on-blue-2075431.out",
+        "fix_summary": "bundled Dexbotic seeded server launcher plus strict norm_stats bind into /dex_run",
+        "policy": "dexbotic",
+        "previous_active_job_id": "2075431",
+        "previous_active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_C3_red_on_blue",
+        "protocol_sha256": "1f2b4ea48e38df7d25304638d998c40902d79634433f725f0895e26f04ad810b",
+        "replacement_id": "dexbotic_replacement_20260525T104356Z",
+        "replacement_job_id": "2076516",
+        "replacement_order": 5,
+        "replacement_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C3_red_on_blue",
+        "replacement_sbatch_script": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_20260525T104356Z/run_dexbotic_condition.sbatch",
+        "replacement_source_tsv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv",
+        "replacement_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_C3-red-on-blue_r1-2076516.err",
+        "replacement_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_C3-red-on-blue_r1-2076516.out",
+        "support_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_20260525T104356Z"
+      },
+      {
+        "asset_preflight_report": "",
+        "chain_job_ids": "[\"2075432\", \"2076517\"]",
+        "chain_result_dirs": "[\"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_D\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_D\"]",
+        "chain_tsvs": "[\"original_submission\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv\"]",
+        "condition": "protocol_D",
+        "failed_job_id": "2075432",
+        "failed_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_D",
+        "failed_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/se_abcde_dexbotic_D-2075432.err",
+        "failed_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/se_abcde_dexbotic_D-2075432.out",
+        "fix_summary": "bundled Dexbotic seeded server launcher plus strict norm_stats bind into /dex_run",
+        "policy": "dexbotic",
+        "previous_active_job_id": "2075432",
+        "previous_active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_D",
+        "protocol_sha256": "1f2b4ea48e38df7d25304638d998c40902d79634433f725f0895e26f04ad810b",
+        "replacement_id": "dexbotic_replacement_20260525T104356Z",
+        "replacement_job_id": "2076517",
+        "replacement_order": 6,
+        "replacement_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_D",
+        "replacement_sbatch_script": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_20260525T104356Z/run_dexbotic_condition.sbatch",
+        "replacement_source_tsv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv",
+        "replacement_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_D_r1-2076517.err",
+        "replacement_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_D_r1-2076517.out",
+        "support_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_20260525T104356Z"
+      },
+      {
+        "asset_preflight_report": "",
+        "chain_job_ids": "[\"2075433\", \"2076518\"]",
+        "chain_result_dirs": "[\"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_E\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_E\"]",
+        "chain_tsvs": "[\"original_submission\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv\"]",
+        "condition": "protocol_E",
+        "failed_job_id": "2075433",
+        "failed_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_E",
+        "failed_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/se_abcde_dexbotic_E-2075433.err",
+        "failed_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/se_abcde_dexbotic_E-2075433.out",
+        "fix_summary": "bundled Dexbotic seeded server launcher plus strict norm_stats bind into /dex_run",
+        "policy": "dexbotic",
+        "previous_active_job_id": "2075433",
+        "previous_active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_E",
+        "protocol_sha256": "1f2b4ea48e38df7d25304638d998c40902d79634433f725f0895e26f04ad810b",
+        "replacement_id": "dexbotic_replacement_20260525T104356Z",
+        "replacement_job_id": "2076518",
+        "replacement_order": 7,
+        "replacement_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_E",
+        "replacement_sbatch_script": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_20260525T104356Z/run_dexbotic_condition.sbatch",
+        "replacement_source_tsv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv",
+        "replacement_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_E_r1-2076518.err",
+        "replacement_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_E_r1-2076518.out",
+        "support_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_20260525T104356Z"
+      },
+      {
+        "asset_preflight_report": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_asset_preflight/dexbotic_runtime_asset_preflight.json",
+        "chain_job_ids": "[\"2075430\", \"2076515\", \"2076709\"]",
+        "chain_result_dirs": "[\"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_C2_blue_on_red\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C2_blue_on_red\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_C2_blue_on_red\"]",
+        "chain_tsvs": "[\"original_submission\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_submission.tsv\"]",
+        "condition": "protocol_C2_blue_on_red",
+        "failed_job_id": "2076515",
+        "failed_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C2_blue_on_red",
+        "failed_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_C2-blue-on-red_r1-2076515.err",
+        "failed_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_C2-blue-on-red_r1-2076515.out",
+        "fix_summary": "set MS2_REAL2SIM_ASSET_DIR=/workspace/simpler/ManiSkill2_real2sim/data for Dexbotic benchmark runtime",
+        "policy": "dexbotic",
+        "previous_active_job_id": "2076515",
+        "previous_active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C2_blue_on_red",
+        "protocol_sha256": "1f2b4ea48e38df7d25304638d998c40902d79634433f725f0895e26f04ad810b",
+        "replacement_id": "dexbotic_replacement_r2_20260525T111805Z",
+        "replacement_job_id": "2076709",
+        "replacement_order": 8,
+        "replacement_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_C2_blue_on_red",
+        "replacement_sbatch_script": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_r2_20260525T111805Z/run_dexbotic_condition.sbatch",
+        "replacement_source_tsv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_submission.tsv",
+        "replacement_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_r2_20260525T111805Z/se_abcde_dexbotic_C2-blue-on-red_r2-2076709.err",
+        "replacement_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_r2_20260525T111805Z/se_abcde_dexbotic_C2-blue-on-red_r2-2076709.out",
+        "support_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_r2_20260525T111805Z"
+      },
+      {
+        "asset_preflight_report": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_asset_preflight/dexbotic_runtime_asset_preflight.json",
+        "chain_job_ids": "[\"2075431\", \"2076516\", \"2076710\"]",
+        "chain_result_dirs": "[\"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_C3_red_on_blue\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C3_red_on_blue\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_C3_red_on_blue\"]",
+        "chain_tsvs": "[\"original_submission\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_submission.tsv\"]",
+        "condition": "protocol_C3_red_on_blue",
+        "failed_job_id": "2076516",
+        "failed_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C3_red_on_blue",
+        "failed_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_C3-red-on-blue_r1-2076516.err",
+        "failed_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_C3-red-on-blue_r1-2076516.out",
+        "fix_summary": "set MS2_REAL2SIM_ASSET_DIR=/workspace/simpler/ManiSkill2_real2sim/data for Dexbotic benchmark runtime",
+        "policy": "dexbotic",
+        "previous_active_job_id": "2076516",
+        "previous_active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_C3_red_on_blue",
+        "protocol_sha256": "1f2b4ea48e38df7d25304638d998c40902d79634433f725f0895e26f04ad810b",
+        "replacement_id": "dexbotic_replacement_r2_20260525T111805Z",
+        "replacement_job_id": "2076710",
+        "replacement_order": 9,
+        "replacement_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_C3_red_on_blue",
+        "replacement_sbatch_script": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_r2_20260525T111805Z/run_dexbotic_condition.sbatch",
+        "replacement_source_tsv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_submission.tsv",
+        "replacement_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_r2_20260525T111805Z/se_abcde_dexbotic_C3-red-on-blue_r2-2076710.err",
+        "replacement_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_r2_20260525T111805Z/se_abcde_dexbotic_C3-red-on-blue_r2-2076710.out",
+        "support_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_r2_20260525T111805Z"
+      },
+      {
+        "asset_preflight_report": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_asset_preflight/dexbotic_runtime_asset_preflight.json",
+        "chain_job_ids": "[\"2075432\", \"2076517\", \"2076711\"]",
+        "chain_result_dirs": "[\"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_D\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_D\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_D\"]",
+        "chain_tsvs": "[\"original_submission\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_submission.tsv\"]",
+        "condition": "protocol_D",
+        "failed_job_id": "2076517",
+        "failed_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_D",
+        "failed_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_D_r1-2076517.err",
+        "failed_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_D_r1-2076517.out",
+        "fix_summary": "set MS2_REAL2SIM_ASSET_DIR=/workspace/simpler/ManiSkill2_real2sim/data for Dexbotic benchmark runtime",
+        "policy": "dexbotic",
+        "previous_active_job_id": "2076517",
+        "previous_active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_D",
+        "protocol_sha256": "1f2b4ea48e38df7d25304638d998c40902d79634433f725f0895e26f04ad810b",
+        "replacement_id": "dexbotic_replacement_r2_20260525T111805Z",
+        "replacement_job_id": "2076711",
+        "replacement_order": 10,
+        "replacement_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_D",
+        "replacement_sbatch_script": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_r2_20260525T111805Z/run_dexbotic_condition.sbatch",
+        "replacement_source_tsv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_submission.tsv",
+        "replacement_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_r2_20260525T111805Z/se_abcde_dexbotic_D_r2-2076711.err",
+        "replacement_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_r2_20260525T111805Z/se_abcde_dexbotic_D_r2-2076711.out",
+        "support_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_r2_20260525T111805Z"
+      },
+      {
+        "asset_preflight_report": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_asset_preflight/dexbotic_runtime_asset_preflight.json",
+        "chain_job_ids": "[\"2075433\", \"2076518\", \"2076712\"]",
+        "chain_result_dirs": "[\"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic/protocol_E\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_E\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_E\"]",
+        "chain_tsvs": "[\"original_submission\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_20260525T104356Z_submission.tsv\", \"/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_submission.tsv\"]",
+        "condition": "protocol_E",
+        "failed_job_id": "2076518",
+        "failed_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_E",
+        "failed_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_E_r1-2076518.err",
+        "failed_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_20260525T104356Z/se_abcde_dexbotic_E_r1-2076518.out",
+        "fix_summary": "set MS2_REAL2SIM_ASSET_DIR=/workspace/simpler/ManiSkill2_real2sim/data for Dexbotic benchmark runtime",
+        "policy": "dexbotic",
+        "previous_active_job_id": "2076518",
+        "previous_active_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_20260525T104356Z/protocol_E",
+        "protocol_sha256": "1f2b4ea48e38df7d25304638d998c40902d79634433f725f0895e26f04ad810b",
+        "replacement_id": "dexbotic_replacement_r2_20260525T111805Z",
+        "replacement_job_id": "2076712",
+        "replacement_order": 11,
+        "replacement_result_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/dexbotic_replacements/dexbotic_replacement_r2_20260525T111805Z/protocol_E",
+        "replacement_sbatch_script": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_r2_20260525T111805Z/run_dexbotic_condition.sbatch",
+        "replacement_source_tsv": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_r2_20260525T111805Z_submission.tsv",
+        "replacement_stderr_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_r2_20260525T111805Z/se_abcde_dexbotic_E_r2-2076712.err",
+        "replacement_stdout_log": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/logs/slurm/dexbotic_replacement_r2_20260525T111805Z/se_abcde_dexbotic_E_r2-2076712.out",
+        "support_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/dexbotic_replacement_support_r2_20260525T111805Z"
+      }
+    ],
+    "total_replacement_rows": 11
+  },
+  "row_counts": {
+    "per_condition": {
+      "protocol_A": 1440,
+      "protocol_B": 1440,
+      "protocol_C1_yellow_on_green": 1440,
+      "protocol_C2_blue_on_red": 1440,
+      "protocol_C3_red_on_blue": 1440,
+      "protocol_D": 1440,
+      "protocol_E": 1440
+    },
+    "per_policy": {
+      "cogact": 2016,
+      "dexbotic": 2016,
+      "internvla_m1": 2016,
+      "spatialvla": 2016,
+      "xvla": 2016
+    },
+    "per_policy_condition": {
+      "cogact/protocol_A": 288,
+      "cogact/protocol_B": 288,
+      "cogact/protocol_C1_yellow_on_green": 288,
+      "cogact/protocol_C2_blue_on_red": 288,
+      "cogact/protocol_C3_red_on_blue": 288,
+      "cogact/protocol_D": 288,
+      "cogact/protocol_E": 288,
+      "dexbotic/protocol_A": 288,
+      "dexbotic/protocol_B": 288,
+      "dexbotic/protocol_C1_yellow_on_green": 288,
+      "dexbotic/protocol_C2_blue_on_red": 288,
+      "dexbotic/protocol_C3_red_on_blue": 288,
+      "dexbotic/protocol_D": 288,
+      "dexbotic/protocol_E": 288,
+      "internvla_m1/protocol_A": 288,
+      "internvla_m1/protocol_B": 288,
+      "internvla_m1/protocol_C1_yellow_on_green": 288,
+      "internvla_m1/protocol_C2_blue_on_red": 288,
+      "internvla_m1/protocol_C3_red_on_blue": 288,
+      "internvla_m1/protocol_D": 288,
+      "internvla_m1/protocol_E": 288,
+      "spatialvla/protocol_A": 288,
+      "spatialvla/protocol_B": 288,
+      "spatialvla/protocol_C1_yellow_on_green": 288,
+      "spatialvla/protocol_C2_blue_on_red": 288,
+      "spatialvla/protocol_C3_red_on_blue": 288,
+      "spatialvla/protocol_D": 288,
+      "spatialvla/protocol_E": 288,
+      "xvla/protocol_A": 288,
+      "xvla/protocol_B": 288,
+      "xvla/protocol_C1_yellow_on_green": 288,
+      "xvla/protocol_C2_blue_on_red": 288,
+      "xvla/protocol_C3_red_on_blue": 288,
+      "xvla/protocol_D": 288,
+      "xvla/protocol_E": 288
+    }
+  },
+  "run_root": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z",
+  "submission_jobs": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/submission.tsv",
+  "validation_status": "passed"
+}

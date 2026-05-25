@@ -11,7 +11,7 @@ from typing import Any
 import numpy as np
 import sapien.core as sapien
 from transforms3d.euler import euler2mat
-from transforms3d.quaternions import mat2quat
+from transforms3d.quaternions import mat2quat, quat2mat
 
 
 _PROTOCOL3_FLAG = "SIMPLERENV_PROTOCOL3_STACK_YELLOW_ON_GREEN"
@@ -19,10 +19,28 @@ _PROTOCOL3_NAME = "widowx_protocol3_stack_yellow_on_green_protocol1_positions"
 _PROTOCOL3_INSTRUCTION = "stack the yellow block on the green block"
 _PROTOCOL3_STACK_PAIR = ("baked_green_cube_3cm", "baked_yellow_cube_3cm")
 
+_ABCDE_NAME = "simplerenv_protocol_abcde_stack_v1"
+_ABCDE_CONDITION_ENV = "SIMPLERENV_PROTOCOL_CONDITION"
+_ABCDE_NUM_EPISODES_PER_CONDITION = 288
+_ABCDE_CONDITIONS = (
+    "protocol_A",
+    "protocol_B",
+    "protocol_C1_yellow_on_green",
+    "protocol_C2_blue_on_red",
+    "protocol_C3_red_on_blue",
+    "protocol_D",
+    "protocol_E",
+)
+_ABCDE_EPISODE_ATTR = "_simplerenv_protocol_abcde_episode"
+_ABCDE_CONDITION_ATTR = "_simplerenv_protocol_abcde_condition"
+_ABCDE_INSTRUCTION_ATTR = "_simplerenv_protocol_abcde_instruction"
+
 _CONFIG: dict[str, Any] | None = None
 _INSTALLED = False
 _PROTOCOL3_INSTALLED = False
+_ABCDE_STACK_PATCH_INSTALLED = False
 _ORIGINAL_RESET = None
+_ABCDE_ORIGINAL_STACK_EVALUATE = None
 
 _TASK_BY_MODEL_PAIR = {
     ("baked_green_cube_3cm", "baked_yellow_cube_3cm"): "stack",
@@ -38,6 +56,253 @@ _SUPPORTED_PROTOCOLS = {
 _MAT_TRANSFORM = np.array(
     [[0.0, 0.0, 1.0], [0.0, 1.0, 0.0], [-1.0, 0.0, 0.0]], dtype=np.float64
 )
+
+
+def _require_mapping(value: Any, context: str) -> dict[str, Any]:
+    if not isinstance(value, dict):
+        raise RuntimeError(f"{context} must be an object, got {type(value).__name__}")
+    return value
+
+
+def _require_finite_array(value: Any, shape: tuple[int, ...], context: str) -> np.ndarray:
+    try:
+        arr = np.asarray(value, dtype=float)
+    except (TypeError, ValueError) as exc:
+        raise RuntimeError(f"{context} must be numeric") from exc
+    if arr.shape != shape or not np.isfinite(arr).all():
+        raise RuntimeError(f"{context} must have finite shape {shape}, got {arr.shape}: {value!r}")
+    return arr
+
+
+def _require_obj_id(value: Any, n_objects: int, context: str) -> int:
+    if not isinstance(value, int) or isinstance(value, bool):
+        raise RuntimeError(f"{context} must be an integer, got {value!r}")
+    if value < 0 or value >= n_objects:
+        raise RuntimeError(f"{context}={value} outside object range [0, {n_objects})")
+    return value
+
+
+def _require_nonnegative_int(value: Any, context: str) -> int:
+    if not isinstance(value, int) or isinstance(value, bool) or value < 0:
+        raise RuntimeError(f"{context} must be a nonnegative integer, got {value!r}")
+    return value
+
+
+def _validate_legacy_config(config: dict[str, Any]) -> None:
+    protocol_name = config.get("name")
+    tasks = config.get("tasks")
+    if set(tasks or {}) != {"stack", "carrot", "spoon"}:
+        raise RuntimeError(f"Protocol must contain stack/carrot/spoon tasks, got {sorted((tasks or {}).keys())}")
+
+    for task_name, task in tasks.items():
+        episodes = task.get("episodes", [])
+        if len(episodes) != int(task.get("num_episodes", -1)):
+            raise RuntimeError(f"{task_name} episode count mismatch in protocol config")
+        if len(episodes) != int(config.get("num_episodes_per_task", -1)):
+            raise RuntimeError(f"{task_name} does not match num_episodes_per_task")
+        for idx, episode in enumerate(episodes):
+            if int(episode.get("episode_id", -1)) != idx:
+                raise RuntimeError(f"{task_name} episode id mismatch at index {idx}")
+            if protocol_name == "widowx_protocol2_random_positions_robot_initial_states":
+                state = episode.get("robot_initial_state")
+                if not isinstance(state, dict):
+                    raise RuntimeError(f"{task_name} episode {idx} is missing robot_initial_state")
+                vec = state.get("state_xyz_rpy_pad_gripper")
+                if len(vec or []) != 8:
+                    raise RuntimeError(f"{task_name} episode {idx} has invalid robot_initial_state vector")
+
+
+def _validate_abcde_episode(condition: str, idx: int, episode: Any) -> None:
+    episode = _require_mapping(episode, f"{condition} episode {idx}")
+
+    model_ids = episode.get("model_ids")
+    if (
+        not isinstance(model_ids, list)
+        or not model_ids
+        or not all(isinstance(model_id, str) and model_id for model_id in model_ids)
+    ):
+        raise RuntimeError(f"{condition} episode {idx} must contain nonempty string model_ids")
+    n_objects = len(model_ids)
+
+    source_obj_id = _require_obj_id(episode.get("source_obj_id"), n_objects, f"{condition} episode {idx} source_obj_id")
+    target_obj_id = _require_obj_id(episode.get("target_obj_id"), n_objects, f"{condition} episode {idx} target_obj_id")
+    if source_obj_id == target_obj_id:
+        raise RuntimeError(f"{condition} episode {idx} source_obj_id and target_obj_id must differ")
+
+    if condition == "protocol_D":
+        if source_obj_id != 0 or target_obj_id != 1:
+            raise RuntimeError(
+                f"{condition} episode {idx} must use source_obj_id=0 and target_obj_id=1, "
+                f"got {source_obj_id} and {target_obj_id}"
+            )
+        expected_source = {"color": "green", "model_id": "baked_green_cube_3cm", "obj_id": 0}
+        expected_target = {"color": "yellow", "model_id": "baked_yellow_cube_3cm", "obj_id": 1}
+        if model_ids[0] != expected_source["model_id"] or episode.get("source") != expected_source:
+            raise RuntimeError(f"{condition} episode {idx} source must be green object 0")
+        if model_ids[1] != expected_target["model_id"] or episode.get("target") != expected_target:
+            raise RuntimeError(f"{condition} episode {idx} target must be yellow object 1")
+
+        source_support_blocks = _require_nonnegative_int(
+            episode.get("source_support_blocks"),
+            f"{condition} episode {idx} source_support_blocks",
+        )
+        target_support_blocks = _require_nonnegative_int(
+            episode.get("target_support_blocks"),
+            f"{condition} episode {idx} target_support_blocks",
+        )
+        source_tower_height = _require_nonnegative_int(
+            episode.get("source_tower_height"),
+            f"{condition} episode {idx} source_tower_height",
+        )
+        target_tower_height = _require_nonnegative_int(
+            episode.get("target_tower_height"),
+            f"{condition} episode {idx} target_tower_height",
+        )
+        if source_support_blocks + target_support_blocks < 1:
+            raise RuntimeError(f"{condition} episode {idx} must have at least one support block")
+        if target_support_blocks > 2:
+            raise RuntimeError(f"{condition} episode {idx} target_support_blocks must be <= 2")
+        if target_tower_height > 3:
+            raise RuntimeError(f"{condition} episode {idx} target_tower_height must be <= 3")
+        if source_tower_height != source_support_blocks + 1:
+            raise RuntimeError(f"{condition} episode {idx} source tower/support count mismatch")
+        if target_tower_height != target_support_blocks + 1:
+            raise RuntimeError(f"{condition} episode {idx} target tower/support count mismatch")
+
+        source_support_colors = episode.get("source_support_colors")
+        target_support_colors = episode.get("target_support_colors")
+        if not isinstance(source_support_colors, list) or not isinstance(target_support_colors, list):
+            raise RuntimeError(f"{condition} episode {idx} support color fields must be lists")
+        if len(source_support_colors) != source_support_blocks:
+            raise RuntimeError(f"{condition} episode {idx} source support color count mismatch")
+        if len(target_support_colors) != target_support_blocks:
+            raise RuntimeError(f"{condition} episode {idx} target support color count mismatch")
+        allowed_support_colors = {"blue", "red", "white"}
+        for support_field, support_colors in (
+            ("source_support_colors", source_support_colors),
+            ("target_support_colors", target_support_colors),
+        ):
+            unexpected_support_colors = sorted(set(support_colors) - allowed_support_colors)
+            if unexpected_support_colors:
+                raise RuntimeError(
+                    f"{condition} episode {idx} has unexpected {support_field}: "
+                    f"{unexpected_support_colors}"
+                )
+            if len(support_colors) != len(set(support_colors)):
+                raise RuntimeError(f"{condition} episode {idx} repeats a {support_field} color")
+        if "post_set_poses" not in episode:
+            raise RuntimeError(f"{condition} episode {idx} must contain post_set_poses")
+
+    instruction = episode.get("instruction")
+    if not isinstance(instruction, str) or not instruction.strip():
+        raise RuntimeError(f"{condition} episode {idx} must contain a nonempty instruction")
+
+    _require_finite_array(episode.get("init_xys"), (n_objects, 2), f"{condition} episode {idx} init_xys")
+    _require_finite_array(
+        episode.get("init_rot_quats"),
+        (n_objects, 4),
+        f"{condition} episode {idx} init_rot_quats",
+    )
+
+    if "episode_id" in episode and episode["episode_id"] != idx:
+        raise RuntimeError(f"{condition} episode index {idx} has episode_id={episode['episode_id']!r}")
+
+    model_scales = episode.get("model_scales")
+    if model_scales is not None:
+        _require_finite_array(model_scales, (n_objects,), f"{condition} episode {idx} model_scales")
+
+    robot_qpos = episode.get("robot_qpos")
+    if robot_qpos is not None:
+        try:
+            qpos = np.asarray(robot_qpos, dtype=float)
+        except (TypeError, ValueError) as exc:
+            raise RuntimeError(f"{condition} episode {idx} robot_qpos must be numeric") from exc
+        if qpos.ndim != 1 or not np.isfinite(qpos).all():
+            raise RuntimeError(f"{condition} episode {idx} robot_qpos must be a finite vector")
+        if qpos.size == 0:
+            raise RuntimeError(f"{condition} episode {idx} robot_qpos must be nonempty")
+
+    robot_initial_state = episode.get("robot_initial_state")
+    if robot_initial_state is not None:
+        state = _require_mapping(robot_initial_state, f"{condition} episode {idx} robot_initial_state")
+        has_base_init = "init_xy" in state or "init_rot_quat" in state
+        if has_base_init and ("init_xy" not in state or "init_rot_quat" not in state):
+            raise RuntimeError(
+                f"{condition} episode {idx} robot_initial_state base init requires both "
+                "init_xy and init_rot_quat"
+            )
+        if "init_xy" in state:
+            _require_finite_array(state["init_xy"], (2,), f"{condition} episode {idx} robot_initial_state.init_xy")
+        if "init_rot_quat" in state:
+            _require_finite_array(
+                state["init_rot_quat"],
+                (4,),
+                f"{condition} episode {idx} robot_initial_state.init_rot_quat",
+            )
+        if "state_xyz_rpy_pad_gripper" in state:
+            _require_finite_array(
+                state["state_xyz_rpy_pad_gripper"],
+                (8,),
+                f"{condition} episode {idx} robot_initial_state.state_xyz_rpy_pad_gripper",
+            )
+        if (
+            not has_base_init
+            and "state_xyz_rpy_pad_gripper" not in state
+        ):
+            raise RuntimeError(
+                f"{condition} episode {idx} robot_initial_state must contain init_xy/init_rot_quat "
+                "or state_xyz_rpy_pad_gripper"
+            )
+
+    robot_ik_state = episode.get("robot_ik_initial_state")
+    if robot_ik_state is not None:
+        state = _require_mapping(robot_ik_state, f"{condition} episode {idx} robot_ik_initial_state")
+        _require_finite_array(
+            state.get("state_xyz_rpy_pad_gripper"),
+            (8,),
+            f"{condition} episode {idx} robot_ik_initial_state.state_xyz_rpy_pad_gripper",
+        )
+
+    robot_init_xy = episode.get("robot_init_xy")
+    if robot_init_xy is not None:
+        _require_finite_array(robot_init_xy, (2,), f"{condition} episode {idx} robot_init_xy")
+
+    post_set_poses = episode.get("post_set_poses")
+    if post_set_poses is not None:
+        if not isinstance(post_set_poses, list) or len(post_set_poses) != n_objects:
+            raise RuntimeError(f"{condition} episode {idx} post_set_poses must have {n_objects} entries")
+        for pose_idx, pose in enumerate(post_set_poses):
+            pose = _require_mapping(pose, f"{condition} episode {idx} post_set_poses[{pose_idx}]")
+            _require_finite_array(pose.get("p"), (3,), f"{condition} episode {idx} post_set_poses[{pose_idx}].p")
+            _require_finite_array(pose.get("q"), (4,), f"{condition} episode {idx} post_set_poses[{pose_idx}].q")
+
+    metadata = episode.get("metadata")
+    if metadata is not None and not isinstance(metadata, dict):
+        raise RuntimeError(f"{condition} episode {idx} metadata must be an object when present")
+
+
+def _validate_abcde_config(config: dict[str, Any]) -> None:
+    conditions = _require_mapping(config.get("conditions"), f"{_ABCDE_NAME}.conditions")
+    if set(conditions) != set(_ABCDE_CONDITIONS):
+        raise RuntimeError(
+            f"{_ABCDE_NAME} conditions must be exactly {list(_ABCDE_CONDITIONS)}, "
+            f"got {sorted(conditions)}"
+        )
+
+    for condition in _ABCDE_CONDITIONS:
+        condition_config = _require_mapping(conditions[condition], f"{_ABCDE_NAME}.{condition}")
+        episodes = condition_config.get("episodes")
+        if not isinstance(episodes, list):
+            raise RuntimeError(f"{condition}.episodes must be a list")
+        if len(episodes) != _ABCDE_NUM_EPISODES_PER_CONDITION:
+            raise RuntimeError(
+                f"{condition}.episodes must contain {_ABCDE_NUM_EPISODES_PER_CONDITION} episodes, "
+                f"got {len(episodes)}"
+            )
+        if "num_episodes" in condition_config and int(condition_config["num_episodes"]) != len(episodes):
+            raise RuntimeError(f"{condition}.num_episodes does not match episodes length")
+        for idx, episode in enumerate(episodes):
+            _validate_abcde_episode(condition, idx, episode)
 
 
 def _load_config() -> dict[str, Any]:
@@ -63,30 +328,14 @@ def _load_config() -> dict[str, Any]:
         )
 
     config = json.loads(raw)
+    config = _require_mapping(config, f"Protocol config {path}")
     protocol_name = config.get("name")
-    if protocol_name not in _SUPPORTED_PROTOCOLS:
+    if protocol_name in _SUPPORTED_PROTOCOLS:
+        _validate_legacy_config(config)
+    elif protocol_name == _ABCDE_NAME:
+        _validate_abcde_config(config)
+    else:
         raise RuntimeError(f"Unexpected protocol name: {config.get('name')!r}")
-
-    tasks = config.get("tasks")
-    if set(tasks or {}) != {"stack", "carrot", "spoon"}:
-        raise RuntimeError(f"Protocol must contain stack/carrot/spoon tasks, got {sorted((tasks or {}).keys())}")
-
-    for task_name, task in tasks.items():
-        episodes = task.get("episodes", [])
-        if len(episodes) != int(task.get("num_episodes", -1)):
-            raise RuntimeError(f"{task_name} episode count mismatch in protocol config")
-        if len(episodes) != int(config.get("num_episodes_per_task", -1)):
-            raise RuntimeError(f"{task_name} does not match num_episodes_per_task")
-        for idx, episode in enumerate(episodes):
-            if int(episode.get("episode_id", -1)) != idx:
-                raise RuntimeError(f"{task_name} episode id mismatch at index {idx}")
-            if protocol_name == "widowx_protocol2_random_positions_robot_initial_states":
-                state = episode.get("robot_initial_state")
-                if not isinstance(state, dict):
-                    raise RuntimeError(f"{task_name} episode {idx} is missing robot_initial_state")
-                vec = state.get("state_xyz_rpy_pad_gripper")
-                if len(vec or []) != 8:
-                    raise RuntimeError(f"{task_name} episode {idx} has invalid robot_initial_state vector")
 
     _CONFIG = config
     print(f"[widowx_protocol] loaded {path} sha256={actual_sha256}", flush=True)
@@ -96,6 +345,57 @@ def _load_config() -> dict[str, Any]:
 def _env_flag_enabled(name: str) -> bool:
     value = os.environ.get(name, "").strip().lower()
     return value in {"1", "true", "yes", "on"}
+
+
+def _is_abcde_config(config: dict[str, Any]) -> bool:
+    return config.get("name") == _ABCDE_NAME
+
+
+def _selected_abcde_condition(config: dict[str, Any]) -> str:
+    condition = os.environ.get(_ABCDE_CONDITION_ENV, "").strip()
+    if not condition:
+        raise RuntimeError(f"{_ABCDE_NAME} requires {_ABCDE_CONDITION_ENV}")
+    conditions = config["conditions"]
+    if condition not in conditions:
+        raise RuntimeError(
+            f"{_ABCDE_CONDITION_ENV}={condition!r} is not in protocol config; "
+            f"expected one of {list(_ABCDE_CONDITIONS)}"
+        )
+    return condition
+
+
+def _clear_abcde_episode_state(env: Any) -> None:
+    setattr(env, _ABCDE_EPISODE_ATTR, None)
+    setattr(env, _ABCDE_CONDITION_ATTR, None)
+    setattr(env, _ABCDE_INSTRUCTION_ATTR, None)
+
+
+def _require_abcde_episode_id(condition: str, obj_init_options: dict[str, Any]) -> int:
+    if "episode_id" not in obj_init_options:
+        raise RuntimeError(
+            f"{_ABCDE_NAME}/{condition} requires obj_init_options.episode_id"
+        )
+    try:
+        episode_id = int(obj_init_options["episode_id"])
+    except (TypeError, ValueError) as exc:
+        raise RuntimeError(
+            f"{_ABCDE_NAME}/{condition} episode_id must be an integer, "
+            f"got {obj_init_options['episode_id']!r}"
+        ) from exc
+    return episode_id
+
+
+def _get_abcde_episode(
+    config: dict[str, Any], obj_init_options: dict[str, Any]
+) -> tuple[str, int, dict[str, Any]]:
+    condition = _selected_abcde_condition(config)
+    episode_id = _require_abcde_episode_id(condition, obj_init_options)
+    episodes = config["conditions"][condition]["episodes"]
+    if episode_id < 0 or episode_id >= len(episodes):
+        raise RuntimeError(
+            f"{_ABCDE_NAME}/{condition} episode_id {episode_id} out of range [0, {len(episodes)})"
+        )
+    return condition, episode_id, episodes[episode_id]
 
 
 def _resolve_task_key(env: Any) -> str:
@@ -275,7 +575,7 @@ def _quat_angle(a: np.ndarray, b: np.ndarray) -> float:
 def _robot_pose_from_state(robot_state: dict[str, Any]) -> sapien.Pose:
     state = np.array(robot_state["state_xyz_rpy_pad_gripper"], dtype=np.float64)
     if state.shape != (8,) or not np.isfinite(state).all():
-        raise RuntimeError(f"Invalid Protocol 2 robot state: {state}")
+        raise RuntimeError(f"Invalid protocol robot_initial_state: {state}")
     quat_wxyz = mat2quat(euler2mat(*state[3:6]) @ _MAT_TRANSFORM)
     return sapien.Pose(p=state[:3], q=quat_wxyz)
 
@@ -286,7 +586,7 @@ def _apply_robot_initial_state(env: Any, robot_state: dict[str, Any]) -> tuple[d
     init_arm_qpos = controller.compute_ik(target_pose)
     if init_arm_qpos is None:
         raise RuntimeError(
-            "Protocol 2 IK failed for robot_initial_state "
+            "Protocol IK failed for robot_initial_state "
             f"candidate_index={robot_state.get('candidate_index')} "
             f"episode_index={robot_state.get('episode_index')}"
         )
@@ -300,13 +600,237 @@ def _apply_robot_initial_state(env: Any, robot_state: dict[str, Any]) -> tuple[d
     rot_error = _quat_angle(np.asarray(actual_pose.q, dtype=float), np.asarray(target_pose.q, dtype=float))
     if pos_error > 0.035 or rot_error > 0.60:
         raise RuntimeError(
-            "Protocol 2 IK error too large for robot_initial_state "
+            "Protocol IK error too large for robot_initial_state "
             f"candidate_index={robot_state.get('candidate_index')} "
             f"episode_index={robot_state.get('episode_index')}: "
             f"pos_error={pos_error:.6f}, rot_error={rot_error:.6f}"
         )
 
     return env.get_obs(), pos_error, rot_error
+
+
+def _abcde_robot_ik_state(episode: dict[str, Any]) -> dict[str, Any] | None:
+    robot_ik_state = episode.get("robot_ik_initial_state")
+    if robot_ik_state is not None:
+        return robot_ik_state
+    robot_initial_state = episode.get("robot_initial_state")
+    if isinstance(robot_initial_state, dict) and "state_xyz_rpy_pad_gripper" in robot_initial_state:
+        return robot_initial_state
+    return None
+
+
+def _apply_robot_qpos(env: Any, episode: dict[str, Any]) -> dict[str, Any]:
+    qpos = np.asarray(episode["robot_qpos"], dtype=float)
+    current_qpos = np.asarray(env.agent.robot.get_qpos(), dtype=float)
+    if qpos.shape != current_qpos.shape:
+        raise RuntimeError(
+            f"{_ABCDE_NAME} robot_qpos shape {qpos.shape} does not match env qpos shape {current_qpos.shape}"
+        )
+    env.agent.reset(qpos)
+    return env.get_obs()
+
+
+def _apply_post_set_poses(
+    env: Any,
+    episode: dict[str, Any],
+    *,
+    source_obj_id: int,
+    target_obj_id: int,
+) -> dict[str, Any]:
+    post_set_poses = episode.get("post_set_poses")
+    if post_set_poses is None:
+        return env.get_obs()
+    if len(post_set_poses) != len(env.episode_objs):
+        raise RuntimeError(
+            f"{_ABCDE_NAME} post_set_poses count {len(post_set_poses)} "
+            f"does not match actor count {len(env.episode_objs)}"
+        )
+
+    for actor, pose in zip(env.episode_objs, post_set_poses):
+        actor.set_pose(
+            sapien.Pose(
+                np.asarray(pose["p"], dtype=float),
+                np.asarray(pose["q"], dtype=float),
+            )
+        )
+        actor.set_velocity(np.zeros(3))
+        actor.set_angular_velocity(np.zeros(3))
+
+    env.episode_obj_xyzs_after_settle = [
+        np.asarray(obj.pose.p, dtype=float).copy() for obj in env.episode_objs
+    ]
+    env.episode_source_obj_xyz_after_settle = env.episode_obj_xyzs_after_settle[source_obj_id]
+    env.episode_target_obj_xyz_after_settle = env.episode_obj_xyzs_after_settle[target_obj_id]
+    env.episode_source_obj_bbox_world = (
+        quat2mat(np.asarray(env.episode_source_obj.pose.q, dtype=float))
+        @ np.asarray(env.episode_model_bbox_sizes[source_obj_id], dtype=float)
+    )
+    env.episode_target_obj_bbox_world = (
+        quat2mat(np.asarray(env.episode_target_obj.pose.q, dtype=float))
+        @ np.asarray(env.episode_model_bbox_sizes[target_obj_id], dtype=float)
+    )
+    return env.get_obs()
+
+
+def _reset_abcde(
+    env: Any,
+    config: dict[str, Any],
+    parent_reset: Any,
+    *,
+    seed: Any,
+    options: dict[str, Any] | None,
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    _clear_abcde_episode_state(env)
+    if options is None:
+        options = {}
+    else:
+        options = options.copy()
+    obj_init_options = dict(options.get("obj_init_options") or {})
+
+    if "episode_id" not in obj_init_options and options.get("reconfigure") is True:
+        return _ORIGINAL_RESET(env, seed=seed, options=options)
+
+    env_pair = (getattr(env, "_source_obj_name", None), getattr(env, "_target_obj_name", None))
+    if _TASK_BY_MODEL_PAIR.get(env_pair) != "stack":
+        raise RuntimeError(f"{_ABCDE_NAME} only supports the stack env, got source/target pair {env_pair!r}")
+
+    condition, episode_id, episode = _get_abcde_episode(config, obj_init_options)
+    model_ids = list(episode["model_ids"])
+    missing_model_ids = [model_id for model_id in model_ids if model_id not in env.model_db]
+    if missing_model_ids:
+        raise RuntimeError(
+            f"{_ABCDE_NAME}/{condition} episode {episode_id} model_ids missing from env.model_db: "
+            f"{missing_model_ids}"
+        )
+
+    n_objects = len(model_ids)
+    source_obj_id = int(episode["source_obj_id"])
+    target_obj_id = int(episode["target_obj_id"])
+
+    options["model_ids"] = model_ids
+    options["model_scales"] = list(episode.get("model_scales") or [1.0] * n_objects)
+
+    obj_init_options["source_obj_id"] = source_obj_id
+    obj_init_options["target_obj_id"] = target_obj_id
+    obj_init_options["init_xys"] = np.asarray(episode["init_xys"], dtype=float)
+    obj_init_options["init_rot_quats"] = np.asarray(episode["init_rot_quats"], dtype=float)
+    options["obj_init_options"] = obj_init_options
+
+    robot_init_options = dict(options.get("robot_init_options") or {})
+    robot_initial_state = episode.get("robot_initial_state")
+    if isinstance(robot_initial_state, dict):
+        if robot_initial_state.get("init_xy") is not None:
+            robot_init_options["init_xy"] = np.asarray(robot_initial_state["init_xy"], dtype=float)
+        if robot_initial_state.get("init_rot_quat") is not None:
+            robot_init_options["init_rot_quat"] = np.asarray(
+                robot_initial_state["init_rot_quat"], dtype=float
+            )
+    if episode.get("robot_init_xy") is not None:
+        robot_init_options["init_xy"] = np.asarray(episode["robot_init_xy"], dtype=float)
+    if robot_init_options:
+        options["robot_init_options"] = robot_init_options
+
+    obs, info = parent_reset(env, seed=seed, options=options)
+
+    if episode.get("robot_qpos") is not None:
+        obs = _apply_robot_qpos(env, episode)
+        info["protocol_robot_qpos_applied"] = True
+    elif (robot_ik_state := _abcde_robot_ik_state(episode)) is not None:
+        obs, ik_pos_error, ik_rot_error = _apply_robot_initial_state(env, robot_ik_state)
+        info.update(
+            {
+                "protocol_robot_initial_state_applied": True,
+                "protocol_robot_ik_pos_error_m": ik_pos_error,
+                "protocol_robot_ik_rot_error_rad": ik_rot_error,
+            }
+        )
+
+    if episode.get("post_set_poses") is not None:
+        obs = _apply_post_set_poses(
+            env,
+            episode,
+            source_obj_id=source_obj_id,
+            target_obj_id=target_obj_id,
+        )
+        info["protocol_post_set_poses_applied"] = True
+
+    setattr(env, _ABCDE_EPISODE_ATTR, episode)
+    setattr(env, _ABCDE_CONDITION_ATTR, condition)
+    setattr(env, _ABCDE_INSTRUCTION_ATTR, episode["instruction"])
+
+    info.update(
+        {
+            "protocol": config["name"],
+            "protocol_version": config.get("version"),
+            "protocol_condition": condition,
+            "protocol_episode_id": episode_id,
+            "protocol_instruction": episode["instruction"],
+            "protocol_model_ids": model_ids,
+            "protocol_source_obj_id": source_obj_id,
+            "protocol_target_obj_id": target_obj_id,
+            "protocol_source_obj_name": model_ids[source_obj_id],
+            "protocol_target_obj_name": model_ids[target_obj_id],
+            "protocol_metadata": episode.get("metadata", {}),
+        }
+    )
+    if "case_id" in episode:
+        info["protocol_case_id"] = episode["case_id"]
+    return obs, info
+
+
+def _install_abcde_stack_patch(put_on_in_scene: Any) -> None:
+    global _ABCDE_STACK_PATCH_INSTALLED
+    global _ABCDE_ORIGINAL_STACK_EVALUATE
+    if _ABCDE_STACK_PATCH_INSTALLED:
+        return
+
+    stack_cls = put_on_in_scene.StackGreenCubeOnYellowCubeInScene
+    _ABCDE_ORIGINAL_STACK_EVALUATE = stack_cls.evaluate
+
+    def abcde_language(self, **kwargs):
+        instruction = getattr(self, _ABCDE_INSTRUCTION_ATTR, None)
+        if not isinstance(instruction, str) or not instruction:
+            raise RuntimeError(
+                f"{_ABCDE_NAME} language requested before a configured episode reset; "
+                "reset with obj_init_options.episode_id first"
+            )
+        return instruction
+
+    def abcde_evaluate(self, *args, **kwargs):
+        episode = getattr(self, _ABCDE_EPISODE_ATTR, None)
+        condition = getattr(self, _ABCDE_CONDITION_ATTR, None)
+        if episode is None or condition is None:
+            raise RuntimeError(
+                f"{_ABCDE_NAME} success requested before a configured episode reset; "
+                "reset with obj_init_options.episode_id first"
+            )
+
+        result = _ABCDE_ORIGINAL_STACK_EVALUATE(self, *args, **kwargs)
+        if condition == "protocol_C1_yellow_on_green":
+            success_require_src_completely_on_target = (
+                args[0]
+                if len(args) >= 1
+                else kwargs.get("success_require_src_completely_on_target", True)
+            )
+            z_flag_required_offset = (
+                args[1] if len(args) >= 2 else kwargs.get("z_flag_required_offset", 0.02)
+            )
+            green_on_yellow = _protocol3_src_on_target(
+                self,
+                "baked_green_cube_3cm",
+                "baked_yellow_cube_3cm",
+                success_require_src_completely_on_target=success_require_src_completely_on_target,
+                z_flag_required_offset=z_flag_required_offset,
+            )
+            self.episode_stats["env_success_green_on_yellow"] = green_on_yellow
+            result["env_success_green_on_yellow"] = green_on_yellow
+            result["episode_stats"] = self.episode_stats
+        return result
+
+    stack_cls.get_language_instruction = abcde_language
+    stack_cls.evaluate = abcde_evaluate
+    _ABCDE_STACK_PATCH_INSTALLED = True
+    print(f"[widowx_protocol] {_ABCDE_NAME} stack language/success patch installed", flush=True)
 
 
 def _install_protocol3_stack_patch(put_on_in_scene: Any, config: dict[str, Any]) -> None:
@@ -394,8 +918,17 @@ def install_from_env(*, required: bool = False) -> dict[str, Any] | None:
         return None
 
     config = _load_config()
-    if _INSTALLED:
+    if _is_abcde_config(config):
         if _env_flag_enabled(_PROTOCOL3_FLAG):
+            raise RuntimeError(f"{_PROTOCOL3_FLAG} cannot be combined with {_ABCDE_NAME}")
+        _selected_abcde_condition(config)
+
+    if _INSTALLED:
+        if _is_abcde_config(config):
+            from mani_skill2_real2sim.envs.custom_scenes import put_on_in_scene
+
+            _install_abcde_stack_patch(put_on_in_scene)
+        elif _env_flag_enabled(_PROTOCOL3_FLAG):
             from mani_skill2_real2sim.envs.custom_scenes import put_on_in_scene
 
             _install_protocol3_stack_patch(put_on_in_scene, config)
@@ -405,8 +938,18 @@ def install_from_env(*, required: bool = False) -> dict[str, Any] | None:
 
     cls = put_on_in_scene.PutOnBridgeInSceneEnv
     _ORIGINAL_RESET = cls.reset
+    abcde_parent_reset = put_on_in_scene.PutOnInSceneEnv.reset
 
     def protocol_reset(self, seed=None, options=None):
+        if _is_abcde_config(config):
+            return _reset_abcde(
+                self,
+                config,
+                abcde_parent_reset,
+                seed=seed,
+                options=options,
+            )
+
         task_key = _resolve_task_key(self)
         if _env_flag_enabled(_PROTOCOL3_FLAG) and task_key != "stack":
             raise RuntimeError(f"{_PROTOCOL3_NAME} only supports stack, got task {task_key!r}")
@@ -475,7 +1018,9 @@ def install_from_env(*, required: bool = False) -> dict[str, Any] | None:
 
     cls.reset = protocol_reset
     _INSTALLED = True
-    if _env_flag_enabled(_PROTOCOL3_FLAG):
+    if _is_abcde_config(config):
+        _install_abcde_stack_patch(put_on_in_scene)
+    elif _env_flag_enabled(_PROTOCOL3_FLAG):
         _install_protocol3_stack_patch(put_on_in_scene, config)
 
     print("[widowx_protocol] reset patch installed", flush=True)

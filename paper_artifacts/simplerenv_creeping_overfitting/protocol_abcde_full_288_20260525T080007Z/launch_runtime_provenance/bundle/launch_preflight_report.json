@@ -1,0 +1,173 @@
+{
+  "asset_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/simplerenv/protocol_abcde_full_288/protocol_abcde_full_288_20260525T080007Z/bundle/runtime_asset_manifest.json",
+  "conditions": [
+    "protocol_A",
+    "protocol_B",
+    "protocol_C1_yellow_on_green",
+    "protocol_C2_blue_on_red",
+    "protocol_C3_red_on_blue",
+    "protocol_D",
+    "protocol_E"
+  ],
+  "episode_ids": [
+    0,
+    287
+  ],
+  "episodes_per_job": 288,
+  "errors": [],
+  "horizon": 60,
+  "job_count": 35,
+  "matrix": [
+    {
+      "condition": "protocol_A",
+      "policy": "cogact"
+    },
+    {
+      "condition": "protocol_B",
+      "policy": "cogact"
+    },
+    {
+      "condition": "protocol_C1_yellow_on_green",
+      "policy": "cogact"
+    },
+    {
+      "condition": "protocol_C2_blue_on_red",
+      "policy": "cogact"
+    },
+    {
+      "condition": "protocol_C3_red_on_blue",
+      "policy": "cogact"
+    },
+    {
+      "condition": "protocol_D",
+      "policy": "cogact"
+    },
+    {
+      "condition": "protocol_E",
+      "policy": "cogact"
+    },
+    {
+      "condition": "protocol_A",
+      "policy": "spatialvla"
+    },
+    {
+      "condition": "protocol_B",
+      "policy": "spatialvla"
+    },
+    {
+      "condition": "protocol_C1_yellow_on_green",
+      "policy": "spatialvla"
+    },
+    {
+      "condition": "protocol_C2_blue_on_red",
+      "policy": "spatialvla"
+    },
+    {
+      "condition": "protocol_C3_red_on_blue",
+      "policy": "spatialvla"
+    },
+    {
+      "condition": "protocol_D",
+      "policy": "spatialvla"
+    },
+    {
+      "condition": "protocol_E",
+      "policy": "spatialvla"
+    },
+    {
+      "condition": "protocol_A",
+      "policy": "internvla_m1"
+    },
+    {
+      "condition": "protocol_B",
+      "policy": "internvla_m1"
+    },
+    {
+      "condition": "protocol_C1_yellow_on_green",
+      "policy": "internvla_m1"
+    },
+    {
+      "condition": "protocol_C2_blue_on_red",
+      "policy": "internvla_m1"
+    },
+    {
+      "condition": "protocol_C3_red_on_blue",
+      "policy": "internvla_m1"
+    },
+    {
+      "condition": "protocol_D",
+      "policy": "internvla_m1"
+    },
+    {
+      "condition": "protocol_E",
+      "policy": "internvla_m1"
+    },
+    {
+      "condition": "protocol_A",
+      "policy": "xvla"
+    },
+    {
+      "condition": "protocol_B",
+      "policy": "xvla"
+    },
+    {
+      "condition": "protocol_C1_yellow_on_green",
+      "policy": "xvla"
+    },
+    {
+      "condition": "protocol_C2_blue_on_red",
+      "policy": "xvla"
+    },
+    {
+      "condition": "protocol_C3_red_on_blue",
+      "policy": "xvla"
+    },
+    {
+      "condition": "protocol_D",
+      "policy": "xvla"
+    },
+    {
+      "condition": "protocol_E",
+      "policy": "xvla"
+    },
+    {
+      "condition": "protocol_A",
+      "policy": "dexbotic"
+    },
+    {
+      "condition": "protocol_B",
+      "policy": "dexbotic"
+    },
+    {
+      "condition": "protocol_C1_yellow_on_green",
+      "policy": "dexbotic"
+    },
+    {
+      "condition": "protocol_C2_blue_on_red",
+      "policy": "dexbotic"
+    },
+    {
+      "condition": "protocol_C3_red_on_blue",
+      "policy": "dexbotic"
+    },
+    {
+      "condition": "protocol_D",
+      "policy": "dexbotic"
+    },
+    {
+      "condition": "protocol_E",
+      "policy": "dexbotic"
+    }
+  ],
+  "policies": [
+    "cogact",
+    "spatialvla",
+    "internvla_m1",
+    "xvla",
+    "dexbotic"
+  ],
+  "protocol_name": "simplerenv_protocol_abcde_stack_v1",
+  "protocol_sha256": "1f2b4ea48e38df7d25304638d998c40902d79634433f725f0895e26f04ad810b",
+  "stack_only": true,
+  "status": "passed"
+}

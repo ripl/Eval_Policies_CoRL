@@ -1,0 +1,582 @@
+/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/sapien/core/renderer_config.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[2026-05-25 05:26:20.992] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:26:20.993] [svulkan2] [warning] Continue without GLFW.
+/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/gymnasium/core.py:311: UserWarning: [33mWARN: env.get_language_instruction to get variables from other wrappers is deprecated and will be removed in v1.0, to get this variable you can do `env.unwrapped.get_language_instruction` for environment variables or `env.get_wrapper_attr('get_language_instruction')` that will search the reminding wrappers.[0m
+  logger.warn(
+/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/envs/simplerenv_xvla_py310/lib/python3.10/site-packages/gymnasium/core.py:311: UserWarning: [33mWARN: env.robot_uid to get variables from other wrappers is deprecated and will be removed in v1.0, to get this variable you can do `env.unwrapped.robot_uid` for environment variables or `env.get_wrapper_attr('robot_uid')` that will search the reminding wrappers.[0m
+  logger.warn(
+[2026-05-25 05:26:40.318] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:26:40.318] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:26:48.280] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:26:48.280] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:26:59.864] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:26:59.864] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:27:10.814] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:27:10.814] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:27:18.654] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:27:18.654] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:27:27.533] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:27:27.533] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:27:33.257] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:27:33.257] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:27:38.944] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:27:38.944] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:27:45.379] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:27:45.379] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:27:53.383] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:27:53.383] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:28:01.180] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:28:01.181] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:28:07.635] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:28:07.635] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:28:16.457] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:28:16.457] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:28:25.009] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:28:25.009] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:28:34.044] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:28:34.044] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:28:44.050] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:28:44.050] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:28:52.183] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:28:52.183] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:29:00.401] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:29:00.401] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:29:10.430] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:29:10.430] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:29:19.651] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:29:19.651] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:29:26.167] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:29:26.167] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:29:33.864] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:29:33.864] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:29:41.719] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:29:41.719] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:29:46.743] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:29:46.743] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:29:55.272] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:29:55.272] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:30:05.122] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:30:05.122] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:30:10.256] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:30:10.256] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:30:18.827] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:30:18.827] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:30:25.112] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:30:25.113] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:30:33.522] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:30:33.522] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:30:39.937] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:30:39.937] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:30:45.398] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:30:45.398] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:30:51.021] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:30:51.021] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:30:57.210] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:30:57.210] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:31:05.148] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:31:05.148] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:31:09.947] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:31:09.947] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:31:18.976] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:31:18.976] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:31:26.608] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:31:26.608] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:31:34.435] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:31:34.435] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:31:42.123] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:31:42.123] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:31:50.026] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:31:50.026] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:31:58.037] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:31:58.037] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:32:07.902] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:32:07.902] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:32:16.318] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:32:16.318] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:32:22.150] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:32:22.150] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:32:29.755] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:32:29.755] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:32:37.474] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:32:37.474] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:32:46.091] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:32:46.091] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:32:53.841] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:32:53.841] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:33:03.790] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:33:03.790] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:33:11.967] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:33:11.967] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:33:20.133] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:33:20.133] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:33:28.131] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:33:28.131] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:33:36.099] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:33:36.099] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:33:41.818] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:33:41.818] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:33:47.352] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:33:47.352] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:33:53.116] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:33:53.116] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:34:03.596] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:34:03.596] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:34:12.586] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:34:12.586] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:34:18.285] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:34:18.285] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:34:26.475] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:34:26.475] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:34:34.739] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:34:34.739] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:34:42.553] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:34:42.553] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:34:50.872] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:34:50.872] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:34:58.688] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:34:58.688] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:35:08.730] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:35:08.730] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:35:15.063] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:35:15.063] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:35:23.186] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:35:23.186] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:35:29.136] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:35:29.136] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:35:37.080] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:35:37.080] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:35:44.938] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:35:44.938] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:35:50.433] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:35:50.433] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:35:58.528] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:35:58.528] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:36:08.149] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:36:08.149] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:36:16.743] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:36:16.743] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:36:25.594] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:36:25.594] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:36:34.159] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:36:34.159] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:36:43.015] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:36:43.015] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:36:48.584] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:36:48.584] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:36:54.240] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:36:54.240] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:36:59.448] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:36:59.448] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:37:09.575] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:37:09.575] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:37:15.006] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:37:15.006] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:37:19.968] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:37:19.968] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:37:28.912] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:37:28.912] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:37:36.804] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:37:36.804] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:37:46.046] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:37:46.046] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:37:53.918] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:37:53.919] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:38:04.455] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:38:04.455] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:38:12.519] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:38:12.519] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:38:20.530] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:38:20.530] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:38:29.879] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:38:29.879] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:38:35.761] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:38:35.761] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:38:43.423] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:38:43.423] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:38:51.487] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:38:51.487] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:39:00.011] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:39:00.011] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:39:10.535] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:39:10.535] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:39:18.300] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:39:18.300] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:39:26.225] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:39:26.225] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:39:35.329] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:39:35.329] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:39:43.739] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:39:43.739] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:39:51.647] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:39:51.647] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:40:00.656] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:40:00.656] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:40:08.287] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:40:08.288] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:40:13.920] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:40:13.920] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:40:21.814] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:40:21.815] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:40:33.036] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:40:33.036] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:40:39.584] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:40:39.584] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:40:45.655] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:40:45.655] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:40:54.196] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:40:54.196] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:41:04.198] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:41:04.198] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:41:12.507] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:41:12.507] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:41:21.172] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:41:21.172] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:41:28.929] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:41:28.929] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:41:36.807] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:41:36.807] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:41:44.641] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:41:44.641] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:41:51.229] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:41:51.229] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:42:00.177] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:42:00.177] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:42:10.409] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:42:10.409] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:42:18.601] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:42:18.601] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:42:26.055] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:42:26.055] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:42:34.643] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:42:34.644] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:42:42.496] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:42:42.496] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:42:50.220] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:42:50.220] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:42:56.690] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:42:56.690] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:43:06.408] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:43:06.408] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:43:12.918] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:43:12.918] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:43:21.608] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:43:21.608] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:43:26.774] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:43:26.774] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:43:34.834] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:43:34.834] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:43:40.312] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:43:40.312] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:43:45.272] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:43:45.272] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:43:53.086] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:43:53.086] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:44:01.008] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:44:01.009] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:44:10.895] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:44:10.895] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:44:18.821] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:44:18.821] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:44:26.821] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:44:26.821] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:44:34.854] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:44:34.854] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:44:42.761] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:44:42.761] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:44:50.790] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:44:50.790] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:44:57.952] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:44:57.952] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:45:07.663] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:45:07.663] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:45:15.234] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:45:15.234] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:45:24.041] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:45:24.041] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:45:31.768] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:45:31.768] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:45:39.735] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:45:39.735] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:45:48.328] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:45:48.328] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:45:56.088] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:45:56.088] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:46:07.010] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:46:07.010] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:46:15.585] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:46:15.585] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:46:22.483] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:46:22.483] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:46:30.499] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:46:30.499] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:46:36.092] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:46:36.092] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:46:45.289] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:46:45.289] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:46:50.497] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:46:50.497] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:46:55.480] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:46:55.480] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:47:01.146] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:47:01.146] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:47:12.615] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:47:12.615] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:47:20.390] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:47:20.390] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:47:28.200] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:47:28.200] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:47:36.667] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:47:36.667] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:47:45.383] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:47:45.383] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:47:53.109] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:47:53.109] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:48:01.031] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:48:01.031] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:48:08.862] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:48:08.862] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:48:16.616] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:48:16.616] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:48:24.255] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:48:24.255] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:48:33.866] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:48:33.866] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:48:41.456] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:48:41.456] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:48:50.071] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:48:50.071] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:48:58.442] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:48:58.442] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:49:08.269] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:49:08.269] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:49:16.217] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:49:16.218] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:49:24.196] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:49:24.196] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:49:29.791] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:49:29.791] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:49:35.118] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:49:35.118] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:49:41.164] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:49:41.164] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:49:46.969] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:49:46.969] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:49:51.849] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:49:51.849] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:49:56.811] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:49:56.812] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:50:10.311] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:50:10.311] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:50:18.181] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:50:18.181] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:50:26.267] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:50:26.267] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:50:34.082] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:50:34.082] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:50:42.518] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:50:42.518] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:50:50.571] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:50:50.571] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:50:59.634] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:50:59.634] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:51:09.831] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:51:09.831] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:51:16.373] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:51:16.373] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:51:26.191] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:51:26.191] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:51:34.178] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:51:34.178] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:51:39.379] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:51:39.379] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:51:46.967] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:51:46.967] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:51:52.366] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:51:52.366] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:52:00.444] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:52:00.444] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:52:10.155] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:52:10.155] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:52:18.072] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:52:18.072] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:52:27.356] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:52:27.356] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:52:35.214] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:52:35.214] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:52:40.812] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:52:40.812] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:52:46.239] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:52:46.239] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:52:54.802] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:52:54.802] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:52:59.773] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:52:59.773] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:53:07.536] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:53:07.536] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:53:15.407] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:53:15.407] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:53:24.041] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:53:24.041] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:53:33.080] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:53:33.080] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:53:39.247] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:53:39.247] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:53:47.212] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:53:47.212] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:53:54.912] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:53:54.912] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:54:04.329] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:54:04.329] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:54:12.321] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:54:12.321] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:54:18.616] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:54:18.616] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:54:27.966] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:54:27.966] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:54:35.964] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:54:35.964] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:54:44.198] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:54:44.198] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:54:51.928] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:54:51.928] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:55:01.075] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:55:01.075] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:55:10.460] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:55:10.460] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:55:18.285] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:55:18.285] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:55:26.108] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:55:26.109] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:55:34.598] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:55:34.598] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:55:39.871] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:55:39.871] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:55:45.996] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:55:45.996] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:55:53.557] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:55:53.557] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:56:04.511] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:56:04.511] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:56:09.779] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:56:09.779] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:56:16.306] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:56:16.306] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:56:24.276] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:56:24.276] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:56:33.019] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:56:33.019] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:56:40.839] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:56:40.839] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:56:49.527] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:56:49.528] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:56:58.009] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:56:58.009] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:57:07.955] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:57:07.955] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:57:15.985] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:57:15.985] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:57:24.682] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:57:24.682] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:57:31.033] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:57:31.033] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:57:39.315] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:57:39.315] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:57:47.782] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:57:47.782] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:57:53.769] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:57:53.769] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:58:04.061] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:58:04.061] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:58:12.183] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:58:12.183] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:58:20.517] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:58:20.517] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:58:28.564] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:58:28.564] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:58:36.301] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:58:36.301] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:58:44.457] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:58:44.457] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:58:50.026] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:58:50.026] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:58:56.917] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:58:56.917] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:59:04.437] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:59:04.437] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:59:12.791] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:59:12.791] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:59:20.876] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:59:20.876] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:59:28.003] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:59:28.004] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:59:36.142] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:59:36.142] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:59:43.945] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:59:43.945] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 05:59:52.027] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 05:59:52.027] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:00:00.059] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:00:00.059] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:00:10.618] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:00:10.619] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:00:19.330] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:00:19.330] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:00:27.297] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:00:27.297] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:00:35.272] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:00:35.272] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:00:42.961] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:00:42.961] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:00:52.525] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:00:52.525] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:01:00.256] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:01:00.256] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:01:11.018] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:01:11.018] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:01:20.052] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:01:20.052] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:01:28.261] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:01:28.261] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:01:37.380] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:01:37.380] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:01:45.362] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:01:45.362] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:01:51.028] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:01:51.028] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:01:58.896] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:01:58.896] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:02:06.778] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:02:06.778] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:02:15.285] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:02:15.285] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:02:21.109] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:02:21.109] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:02:28.861] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:02:28.861] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:02:34.031] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:02:34.031] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:02:38.902] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:02:38.902] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:02:46.634] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:02:46.634] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:02:56.178] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:02:56.178] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:03:07.562] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:03:07.562] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:03:15.367] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:03:15.367] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:03:23.101] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:03:23.101] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:03:31.097] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:03:31.097] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:03:38.883] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:03:38.883] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:03:46.841] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:03:46.842] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:03:53.042] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:03:53.042] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:04:00.720] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:04:00.720] [svulkan2] [warning] Continue without GLFW.
+[2026-05-25 06:04:10.517] [svulkan2] [error] GLFW error: X11: The DISPLAY environment variable is missing
+[2026-05-25 06:04:10.517] [svulkan2] [warning] Continue without GLFW.

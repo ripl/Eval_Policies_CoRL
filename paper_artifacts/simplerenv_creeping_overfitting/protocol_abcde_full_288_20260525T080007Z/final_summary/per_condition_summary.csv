@@ -1,0 +1,8 @@
+condition,successes,total,success_rate,error_rows,timeout_rows
+protocol_A,471,1440,0.32708333,0,0
+protocol_B,373,1440,0.25902778,0,0
+protocol_C1_yellow_on_green,376,1440,0.26111111,0,0
+protocol_C2_blue_on_red,330,1440,0.22916667,0,0
+protocol_C3_red_on_blue,387,1440,0.26875000,0,0
+protocol_D,343,1440,0.23819444,0,0
+protocol_E,272,1440,0.18888889,0,0

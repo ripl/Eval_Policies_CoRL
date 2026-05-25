@@ -1,0 +1,3 @@
+# Keep small Slurm logs in this curated package despite repo-wide *.out/*.err ignores.
+!launch_runtime_provenance/slurm_logs/**/*.out
+!launch_runtime_provenance/slurm_logs/**/*.err

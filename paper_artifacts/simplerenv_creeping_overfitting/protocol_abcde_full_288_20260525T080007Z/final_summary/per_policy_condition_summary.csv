@@ -1,0 +1,36 @@
+policy,policy_label,condition,successes,total,success_rate,error_rows,timeout_rows
+cogact,CogACT-Base,protocol_A,37,288,0.12847222,0,0
+cogact,CogACT-Base,protocol_B,31,288,0.10763889,0,0
+cogact,CogACT-Base,protocol_C1_yellow_on_green,28,288,0.09722222,0,0
+cogact,CogACT-Base,protocol_C2_blue_on_red,22,288,0.07638889,0,0
+cogact,CogACT-Base,protocol_C3_red_on_blue,26,288,0.09027778,0,0
+cogact,CogACT-Base,protocol_D,64,288,0.22222222,0,0
+cogact,CogACT-Base,protocol_E,22,288,0.07638889,0,0
+spatialvla,SpatialVLA,protocol_A,36,288,0.12500000,0,0
+spatialvla,SpatialVLA,protocol_B,24,288,0.08333333,0,0
+spatialvla,SpatialVLA,protocol_C1_yellow_on_green,12,288,0.04166667,0,0
+spatialvla,SpatialVLA,protocol_C2_blue_on_red,12,288,0.04166667,0,0
+spatialvla,SpatialVLA,protocol_C3_red_on_blue,24,288,0.08333333,0,0
+spatialvla,SpatialVLA,protocol_D,50,288,0.17361111,0,0
+spatialvla,SpatialVLA,protocol_E,24,288,0.08333333,0,0
+internvla_m1,InternVLA-M1,protocol_A,52,288,0.18055556,0,0
+internvla_m1,InternVLA-M1,protocol_B,46,288,0.15972222,0,0
+internvla_m1,InternVLA-M1,protocol_C1_yellow_on_green,46,288,0.15972222,0,0
+internvla_m1,InternVLA-M1,protocol_C2_blue_on_red,10,288,0.03472222,0,0
+internvla_m1,InternVLA-M1,protocol_C3_red_on_blue,54,288,0.18750000,0,0
+internvla_m1,InternVLA-M1,protocol_D,60,288,0.20833333,0,0
+internvla_m1,InternVLA-M1,protocol_E,19,288,0.06597222,0,0
+xvla,X-VLA-WidowX,protocol_A,207,288,0.71875000,0,0
+xvla,X-VLA-WidowX,protocol_B,160,288,0.55555556,0,0
+xvla,X-VLA-WidowX,protocol_C1_yellow_on_green,153,288,0.53125000,0,0
+xvla,X-VLA-WidowX,protocol_C2_blue_on_red,175,288,0.60763889,0,0
+xvla,X-VLA-WidowX,protocol_C3_red_on_blue,137,288,0.47569444,0,0
+xvla,X-VLA-WidowX,protocol_D,90,288,0.31250000,0,0
+xvla,X-VLA-WidowX,protocol_E,90,288,0.31250000,0,0
+dexbotic,Dexbotic / DB-MemVLA,protocol_A,139,288,0.48263889,0,0
+dexbotic,Dexbotic / DB-MemVLA,protocol_B,112,288,0.38888889,0,0
+dexbotic,Dexbotic / DB-MemVLA,protocol_C1_yellow_on_green,137,288,0.47569444,0,0
+dexbotic,Dexbotic / DB-MemVLA,protocol_C2_blue_on_red,111,288,0.38541667,0,0
+dexbotic,Dexbotic / DB-MemVLA,protocol_C3_red_on_blue,146,288,0.50694444,0,0
+dexbotic,Dexbotic / DB-MemVLA,protocol_D,79,288,0.27430556,0,0
+dexbotic,Dexbotic / DB-MemVLA,protocol_E,117,288,0.40625000,0,0
