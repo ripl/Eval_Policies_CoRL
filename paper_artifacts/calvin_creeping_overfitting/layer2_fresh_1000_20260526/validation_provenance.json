@@ -1,0 +1,225 @@
+{
+  "schema": "calvin_layer2_fresh_manifest_validation_provenance_v1",
+  "created_utc": "2026-05-26T06:11:34Z",
+  "repo": {
+    "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL",
+    "head": "a415f11aa110eefa4223e998e60a47b46265c583",
+    "status_short_at_package_creation": [
+      " M scripts/calvin/calvin_sequence_manifest.py",
+      " m third_party/simpler_env",
+      " m third_party/simplerenv_openvla",
+      " m third_party/xvla_simpler_env",
+      "?? MUJOCO_LOG.TXT",
+      "?? configs/simplerenv/protocol_abcde/",
+      "?? scratch/",
+      "?? scripts/bitwise/",
+      "?? scripts/simplerenv/copy_xvla_protocol_abcde_smoke_videos.py",
+      "?? scripts/simplerenv/run_xvla_widowx_protocol_abcde_smoke.sh",
+      "?? scripts/slurm/bitwise_calvin_gr1_trace.sbatch",
+      "?? scripts/slurm/bitwise_libero_trace.sbatch",
+      "?? scripts/slurm/bitwise_robocasa_starvla_trace.sbatch",
+      "?? scripts/slurm/bitwise_simplerenv_cogact_trace.sbatch",
+      "?? third_party/ABot-Manipulation/",
+      "?? third_party/InternVLA-M1/",
+      "?? third_party/alphabrain/",
+      "?? third_party/dexbotic-benchmark/",
+      "?? third_party/dexbotic/",
+      "?? third_party/hif_vla/",
+      "?? third_party/lerobot/",
+      "?? third_party/robocasa-gr1-tabletop-tasks/",
+      "?? third_party/robosuite/",
+      "?? third_party/robosuite_models/",
+      "?? third_party/simvla/",
+      "?? third_party/spatial_forcing/",
+      "?? third_party/spatial_forcing_libero_adapter/",
+      "?? third_party/starVLA/",
+      "?? third_party/vggt/"
+    ],
+    "status_note": "Existing dirty/untracked files were not modified except for files under the requested package path."
+  },
+  "package_repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526",
+  "validation_summary": {
+    "overall_passed": true,
+    "expected_num_sequences_per_manifest": 1000,
+    "expected_index_values": "index and global_index each exactly ordered 0..999",
+    "expected_symbolic_state_count": 192,
+    "expected_quota_counts": {
+      "5": 152,
+      "6": 40
+    },
+    "expected_initial_state_key_order": [
+      "led",
+      "lightbulb",
+      "slider",
+      "drawer",
+      "red_block",
+      "blue_block",
+      "pink_block",
+      "grasped"
+    ],
+    "calvin_reset_bank_used_required": false,
+    "eval_sequence_hashes_recomputed_from_rows": true,
+    "copied_hashes_verified_identical": true
+  },
+  "manifest_validations": [
+    {
+      "condition_tag": "layer2_fresh_seed2026052601",
+      "sample_seed": 2026052601,
+      "source_repo_relative_path": "results/calvin/sequence_manifests/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+      "source_absolute_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+      "source_sha256": "f2a339b2ec42320cac1b001aa6763d477015f26f55089528914f9ecb5a137e93",
+      "sample_kind": "layer2_fresh_stratified",
+      "num_sequences": 1000,
+      "sequence_workers": 4,
+      "protocol": "calvin_official_sequence_manifest_v1",
+      "calvin_reset_bank_used": false,
+      "official_sources": {
+        "multistep_sequences.py": {
+          "path": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/CALVIN/calvin_models/calvin_agent/evaluation/multistep_sequences.py",
+          "sha256": "fbd08f8501b1c96ce564b085881e31a48396e9ab1aebdda1e75570e3387fad29"
+        },
+        "utils.py": {
+          "path": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/CALVIN/calvin_models/calvin_agent/evaluation/utils.py",
+          "sha256": "35e444a68a4a2cc9a8b3195a4f9ad957c2384d7096306e113557d3c0dd8788e8"
+        }
+      },
+      "generation": {
+        "sample_seed": 2026052601,
+        "chain_seed_strategy": "sha256('calvin-layer2-fresh-v1:{sample_seed}:state-chain:{state_index}')[:32bits]",
+        "shuffle_seed_strategy": "sha256('calvin-layer2-fresh-v1:{sample_seed}:shuffle:')[:32bits]",
+        "shuffle_seed": 2238405477,
+        "initial_state_count": 192,
+        "initial_state_key_order": [
+          "led",
+          "lightbulb",
+          "slider",
+          "drawer",
+          "red_block",
+          "blue_block",
+          "pink_block",
+          "grasped"
+        ],
+        "sequence_workers": 4,
+        "state_chain_seed_sha256": "da99aea18d493923f9ec4b79725c881eb0ce201c6208a55f18000a8912c0a530",
+        "quota_counts": {
+          "5": 152,
+          "6": 40
+        },
+        "quota_by_state_sha256": "3b8e9e706b3579fccccaaef6ef3a6baab813e983bde60239561b1e55c23e5b82"
+      },
+      "expected_initial_state_sha256": "5c8683594fdc57a5ea52bdea6bf0c693531d26aa66cbe6e50b97eefe16fb94d7",
+      "expected_initial_state_ordered_sha256": "101cf6d80128f0166a4bf58a6ad884caa1c41df40a3baf0be9ddb140efd0e349",
+      "expected_eval_sequence_sha256": "42966ea133d4cf17927353d308c1cec176476d02ecec34b059659f2745b7f416",
+      "recomputed_initial_state_sha256": "5c8683594fdc57a5ea52bdea6bf0c693531d26aa66cbe6e50b97eefe16fb94d7",
+      "recomputed_initial_state_ordered_sha256": "101cf6d80128f0166a4bf58a6ad884caa1c41df40a3baf0be9ddb140efd0e349",
+      "recomputed_eval_sequence_sha256": "42966ea133d4cf17927353d308c1cec176476d02ecec34b059659f2745b7f416",
+      "represented_symbolic_state_count": 192,
+      "quota_counts_observed": {
+        "5": 152,
+        "6": 40
+      },
+      "index_range_valid": true,
+      "global_index_range_valid": true,
+      "initial_state_key_order_valid": true,
+      "eval_sequence_hash_valid": true,
+      "curated_repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+      "curated_absolute_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+      "curated_sha256": "f2a339b2ec42320cac1b001aa6763d477015f26f55089528914f9ecb5a137e93",
+      "copy_hash_verified_identical": true
+    },
+    {
+      "condition_tag": "layer2_fresh_seed2026052602",
+      "sample_seed": 2026052602,
+      "source_repo_relative_path": "results/calvin/sequence_manifests/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+      "source_absolute_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+      "source_sha256": "bf2b9a19c73b8a54c5c2aa5f85ef26210df508c41e9a37385da16b5da1f73ee6",
+      "sample_kind": "layer2_fresh_stratified",
+      "num_sequences": 1000,
+      "sequence_workers": 4,
+      "protocol": "calvin_official_sequence_manifest_v1",
+      "calvin_reset_bank_used": false,
+      "official_sources": {
+        "multistep_sequences.py": {
+          "path": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/CALVIN/calvin_models/calvin_agent/evaluation/multistep_sequences.py",
+          "sha256": "fbd08f8501b1c96ce564b085881e31a48396e9ab1aebdda1e75570e3387fad29"
+        },
+        "utils.py": {
+          "path": "/share/data/ripl/tianchong/projects/Policy_Eval_Done_Right/CALVIN/calvin_models/calvin_agent/evaluation/utils.py",
+          "sha256": "35e444a68a4a2cc9a8b3195a4f9ad957c2384d7096306e113557d3c0dd8788e8"
+        }
+      },
+      "generation": {
+        "sample_seed": 2026052602,
+        "chain_seed_strategy": "sha256('calvin-layer2-fresh-v1:{sample_seed}:state-chain:{state_index}')[:32bits]",
+        "shuffle_seed_strategy": "sha256('calvin-layer2-fresh-v1:{sample_seed}:shuffle:')[:32bits]",
+        "shuffle_seed": 3177164480,
+        "initial_state_count": 192,
+        "initial_state_key_order": [
+          "led",
+          "lightbulb",
+          "slider",
+          "drawer",
+          "red_block",
+          "blue_block",
+          "pink_block",
+          "grasped"
+        ],
+        "sequence_workers": 4,
+        "state_chain_seed_sha256": "f35ad97534ff5ee0453edef4db4292c6d1bc65ce3417551bebc4c244f1118f3b",
+        "quota_counts": {
+          "5": 152,
+          "6": 40
+        },
+        "quota_by_state_sha256": "3b8e9e706b3579fccccaaef6ef3a6baab813e983bde60239561b1e55c23e5b82"
+      },
+      "expected_initial_state_sha256": "e90a0b07eda02c783b076ee0ed1cccc758df3f33d95b90caf6b4f5da5f437d93",
+      "expected_initial_state_ordered_sha256": "321c268a9c061aaac726b5346799ba07d7c925f51f75c3b40ef7f8f056648061",
+      "expected_eval_sequence_sha256": "bd7cdc927bf88ac00731da2b4cf04ab79deb42a4a94310aa4bb3f43b50efc75a",
+      "recomputed_initial_state_sha256": "e90a0b07eda02c783b076ee0ed1cccc758df3f33d95b90caf6b4f5da5f437d93",
+      "recomputed_initial_state_ordered_sha256": "321c268a9c061aaac726b5346799ba07d7c925f51f75c3b40ef7f8f056648061",
+      "recomputed_eval_sequence_sha256": "bd7cdc927bf88ac00731da2b4cf04ab79deb42a4a94310aa4bb3f43b50efc75a",
+      "represented_symbolic_state_count": 192,
+      "quota_counts_observed": {
+        "5": 152,
+        "6": 40
+      },
+      "index_range_valid": true,
+      "global_index_range_valid": true,
+      "initial_state_key_order_valid": true,
+      "eval_sequence_hash_valid": true,
+      "curated_repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+      "curated_absolute_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+      "curated_sha256": "bf2b9a19c73b8a54c5c2aa5f85ef26210df508c41e9a37385da16b5da1f73ee6",
+      "copy_hash_verified_identical": true
+    }
+  ],
+  "excluded_files": [
+    {
+      "source_repo_relative_path": "results/calvin/sequence_manifests/abc_d_layer2_fresh_151seq_seed2026052601.json",
+      "source_absolute_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_layer2_fresh_151seq_seed2026052601.json",
+      "sha256": "d8ec0fec37c0d5cc95484455c1649c461765b47ba1f201d5112cd16d69096930",
+      "num_sequences": 151,
+      "row_count": 151,
+      "represented_symbolic_state_count": 151,
+      "omitted_symbolic_state_count": 41,
+      "reason": "excluded wrong-size candidate from temporary 151-sequence generation; required package includes only the two validated 1000-sequence manifests",
+      "included_in_package": false
+    },
+    {
+      "source_repo_relative_path": "results/calvin/sequence_manifests/abc_d_layer2_fresh_151seq_seed2026052602.json",
+      "source_absolute_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_layer2_fresh_151seq_seed2026052602.json",
+      "sha256": "0935bbaba47ff22b061ffd5a4605756a78ee7ae227db9b94108384e7f5a830dc",
+      "num_sequences": 151,
+      "row_count": 151,
+      "represented_symbolic_state_count": 151,
+      "omitted_symbolic_state_count": 41,
+      "reason": "excluded wrong-size candidate from temporary 151-sequence generation; required package includes only the two validated 1000-sequence manifests",
+      "included_in_package": false
+    }
+  ],
+  "excluded_file_policy": "Wrong-size 151-sequence candidates are recorded only as excluded metadata and were not copied into this package.",
+  "sha256_manifest": {
+    "repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/SHA256SUMS",
+    "excludes_self": true
+  }
+}

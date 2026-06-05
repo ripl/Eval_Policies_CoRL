@@ -1,0 +1,332 @@
+{
+  "aggregate_dir": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072",
+  "averages_across_fresh_manifests": {
+    "gr1": {
+      "average_fresh_atc": 3.137,
+      "average_layer2_minus_baseline_delta": -0.1070000000000002,
+      "baseline_atc": 3.244
+    },
+    "roboflamingo": {
+      "average_fresh_atc": 2.298,
+      "average_layer2_minus_baseline_delta": -0.06899999999999995,
+      "baseline_atc": 2.367
+    },
+    "xvla": {
+      "average_fresh_atc": 4.1795,
+      "average_layer2_minus_baseline_delta": 0.014499999999999957,
+      "baseline_atc": 4.165
+    }
+  },
+  "baseline_summary": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_full_1000_2048456/combined_summary.json",
+  "baseline_summary_sha256": "40961c86c07b49a7dac80ac1003db3f7c048544abc6d1acbf6a1c0efdf13b798",
+  "checks": {
+    "baseline_references_only_calvin_full_1000_2048456": true,
+    "combined_summary_exists": true,
+    "each_cell_has_1000_rows_via_summary_and_sources": true,
+    "exact_manifest_sha256s": true,
+    "expected_summary_count": 6,
+    "manifest_package_sha256_check_passed": true,
+    "no_reset_bank_or_protocol_metadata_found": true,
+    "per_policy_condition_summary_count": 6,
+    "sacct_24_array_tasks_completed_0_0": true
+  },
+  "chunking": {
+    "chunk_size": 250,
+    "num_chunks": 4,
+    "num_sequences": 1000
+  },
+  "combined_summary": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/combined_summary.json",
+  "combined_summary_sha256": "2c2561c2baf38aef581bd59b462691c7e1a6454d25c7c0530ef66b1dd8e963e9",
+  "conditions": [
+    "layer2_fresh_seed2026052601",
+    "layer2_fresh_seed2026052602"
+  ],
+  "curated_manifests": [
+    {
+      "actual_sha256": "f2a339b2ec42320cac1b001aa6763d477015f26f55089528914f9ecb5a137e93",
+      "condition_tag": "layer2_fresh_seed2026052601",
+      "expected_eval_sequence_sha256": "42966ea133d4cf17927353d308c1cec176476d02ecec34b059659f2745b7f416",
+      "expected_initial_state_ordered_sha256": "101cf6d80128f0166a4bf58a6ad884caa1c41df40a3baf0be9ddb140efd0e349",
+      "num_sequences": 1000,
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+      "repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+      "sample_kind": "layer2_fresh_stratified",
+      "sample_seed": 2026052601,
+      "sha256": "f2a339b2ec42320cac1b001aa6763d477015f26f55089528914f9ecb5a137e93"
+    },
+    {
+      "actual_sha256": "bf2b9a19c73b8a54c5c2aa5f85ef26210df508c41e9a37385da16b5da1f73ee6",
+      "condition_tag": "layer2_fresh_seed2026052602",
+      "expected_eval_sequence_sha256": "bd7cdc927bf88ac00731da2b4cf04ab79deb42a4a94310aa4bb3f43b50efc75a",
+      "expected_initial_state_ordered_sha256": "321c268a9c061aaac726b5346799ba07d7c925f51f75c3b40ef7f8f056648061",
+      "num_sequences": 1000,
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+      "repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+      "sample_kind": "layer2_fresh_stratified",
+      "sample_seed": 2026052602,
+      "sha256": "bf2b9a19c73b8a54c5c2aa5f85ef26210df508c41e9a37385da16b5da1f73ee6"
+    }
+  ],
+  "errors": [],
+  "generated_utc": "2026-05-26T17:32:17Z",
+  "old_artifact_status": "old_artifact_tree_status=UNCHANGED",
+  "old_baseline_expected_sha256": "40961c86c07b49a7dac80ac1003db3f7c048544abc6d1acbf6a1c0efdf13b798",
+  "per_cell_validation": {
+    "gr1_layer2_fresh_seed2026052601": {
+      "baseline_key": "gr1_calibration",
+      "baseline_reference": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_full_1000_2048456/combined_summary.json",
+      "manifest_sha256": "f2a339b2ec42320cac1b001aa6763d477015f26f55089528914f9ecb5a137e93",
+      "num_sequences": 1000,
+      "source_file_count": 4,
+      "source_row_counts": {
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052601/gr1/gr1_abc_d_paper_layer2_fresh_seed2026052601_1000seq_chunk0_0_250_2089072_4/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052601/gr1/gr1_abc_d_paper_layer2_fresh_seed2026052601_1000seq_chunk1_250_500_2089072_5/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052601/gr1/gr1_abc_d_paper_layer2_fresh_seed2026052601_1000seq_chunk2_500_750_2089072_6/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052601/gr1/gr1_abc_d_paper_layer2_fresh_seed2026052601_1000seq_chunk3_750_1000_2089072_7/per_sequence_results.json": 250
+      },
+      "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/gr1_layer2_fresh_seed2026052601_summary.json",
+      "summary_sha256": "c3b3f33c58ad24340eeed502735f905a4066f6157721229cb97a7a330885b8bf",
+      "validation_errors": []
+    },
+    "gr1_layer2_fresh_seed2026052602": {
+      "baseline_key": "gr1_calibration",
+      "baseline_reference": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_full_1000_2048456/combined_summary.json",
+      "manifest_sha256": "bf2b9a19c73b8a54c5c2aa5f85ef26210df508c41e9a37385da16b5da1f73ee6",
+      "num_sequences": 1000,
+      "source_file_count": 4,
+      "source_row_counts": {
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052602/gr1/gr1_abc_d_paper_layer2_fresh_seed2026052602_1000seq_chunk0_0_250_2089072_16/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052602/gr1/gr1_abc_d_paper_layer2_fresh_seed2026052602_1000seq_chunk1_250_500_2089072_17/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052602/gr1/gr1_abc_d_paper_layer2_fresh_seed2026052602_1000seq_chunk2_500_750_2089072_18/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052602/gr1/gr1_abc_d_paper_layer2_fresh_seed2026052602_1000seq_chunk3_750_1000_2089072_19/per_sequence_results.json": 250
+      },
+      "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/gr1_layer2_fresh_seed2026052602_summary.json",
+      "summary_sha256": "92a1d4a1e7276f8515efd73c5d6f71f6cd728919e9a778b6b463660cf5b4eb41",
+      "validation_errors": []
+    },
+    "roboflamingo_layer2_fresh_seed2026052601": {
+      "baseline_key": "roboflamingo_calibration",
+      "baseline_reference": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_full_1000_2048456/combined_summary.json",
+      "manifest_sha256": "f2a339b2ec42320cac1b001aa6763d477015f26f55089528914f9ecb5a137e93",
+      "num_sequences": 1000,
+      "source_file_count": 4,
+      "source_row_counts": {
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052601/roboflamingo/roboflamingo_abc_d_paper_layer2_fresh_seed2026052601_1000seq_chunk0_0_250_2089072_8/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052601/roboflamingo/roboflamingo_abc_d_paper_layer2_fresh_seed2026052601_1000seq_chunk1_250_500_2089072_9/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052601/roboflamingo/roboflamingo_abc_d_paper_layer2_fresh_seed2026052601_1000seq_chunk2_500_750_2089072_10/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052601/roboflamingo/roboflamingo_abc_d_paper_layer2_fresh_seed2026052601_1000seq_chunk3_750_1000_2089072_11/per_sequence_results.json": 250
+      },
+      "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/roboflamingo_layer2_fresh_seed2026052601_summary.json",
+      "summary_sha256": "62974a39dd0a2d211d2b32f08a1ecd373352b2c17f188574ab55321e2590cfb7",
+      "validation_errors": []
+    },
+    "roboflamingo_layer2_fresh_seed2026052602": {
+      "baseline_key": "roboflamingo_calibration",
+      "baseline_reference": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_full_1000_2048456/combined_summary.json",
+      "manifest_sha256": "bf2b9a19c73b8a54c5c2aa5f85ef26210df508c41e9a37385da16b5da1f73ee6",
+      "num_sequences": 1000,
+      "source_file_count": 4,
+      "source_row_counts": {
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052602/roboflamingo/roboflamingo_abc_d_paper_layer2_fresh_seed2026052602_1000seq_chunk0_0_250_2089072_20/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052602/roboflamingo/roboflamingo_abc_d_paper_layer2_fresh_seed2026052602_1000seq_chunk1_250_500_2089072_21/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052602/roboflamingo/roboflamingo_abc_d_paper_layer2_fresh_seed2026052602_1000seq_chunk2_500_750_2089072_22/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052602/roboflamingo/roboflamingo_abc_d_paper_layer2_fresh_seed2026052602_1000seq_chunk3_750_1000_2089072_23/per_sequence_results.json": 250
+      },
+      "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/roboflamingo_layer2_fresh_seed2026052602_summary.json",
+      "summary_sha256": "38ae6b8e64f203676f304f97c1a26e99bc558c93b36af946e782c71f897177e3",
+      "validation_errors": []
+    },
+    "xvla_layer2_fresh_seed2026052601": {
+      "baseline_key": "xvla_calibration",
+      "baseline_reference": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_full_1000_2048456/combined_summary.json",
+      "manifest_sha256": "f2a339b2ec42320cac1b001aa6763d477015f26f55089528914f9ecb5a137e93",
+      "num_sequences": 1000,
+      "source_file_count": 4,
+      "source_row_counts": {
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052601/xvla/xvla_abc_d_paper_layer2_fresh_seed2026052601_1000seq_chunk0_0_250_2089072_0/client/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052601/xvla/xvla_abc_d_paper_layer2_fresh_seed2026052601_1000seq_chunk1_250_500_2089072_1/client/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052601/xvla/xvla_abc_d_paper_layer2_fresh_seed2026052601_1000seq_chunk2_500_750_2089072_2/client/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052601/xvla/xvla_abc_d_paper_layer2_fresh_seed2026052601_1000seq_chunk3_750_1000_2089072_3/client/per_sequence_results.json": 250
+      },
+      "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/xvla_layer2_fresh_seed2026052601_summary.json",
+      "summary_sha256": "b65083e42bbe8b301102f03b735a73d7cee1566efe080f2121401be05f38a99b",
+      "validation_errors": []
+    },
+    "xvla_layer2_fresh_seed2026052602": {
+      "baseline_key": "xvla_calibration",
+      "baseline_reference": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_full_1000_2048456/combined_summary.json",
+      "manifest_sha256": "bf2b9a19c73b8a54c5c2aa5f85ef26210df508c41e9a37385da16b5da1f73ee6",
+      "num_sequences": 1000,
+      "source_file_count": 4,
+      "source_row_counts": {
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052602/xvla/xvla_abc_d_paper_layer2_fresh_seed2026052602_1000seq_chunk0_0_250_2089072_12/client/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052602/xvla/xvla_abc_d_paper_layer2_fresh_seed2026052602_1000seq_chunk1_250_500_2089072_13/client/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052602/xvla/xvla_abc_d_paper_layer2_fresh_seed2026052602_1000seq_chunk2_500_750_2089072_14/client/per_sequence_results.json": 250,
+        "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/paper/layer2_fresh_seed2026052602/xvla/xvla_abc_d_paper_layer2_fresh_seed2026052602_1000seq_chunk3_750_1000_2089072_15/client/per_sequence_results.json": 250
+      },
+      "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/xvla_layer2_fresh_seed2026052602_summary.json",
+      "summary_sha256": "f6c072c3a9fd33a50ee9dbe5d3c8a846cb9c4475384e0b60b022dfe99280a8d9",
+      "validation_errors": []
+    }
+  },
+  "policies": [
+    "xvla",
+    "gr1",
+    "roboflamingo"
+  ],
+  "results": [
+    {
+      "atc": 4.168,
+      "baseline_atc": 4.165,
+      "chain_sr": {
+        "1": 0.956,
+        "2": 0.897,
+        "3": 0.839,
+        "4": 0.776,
+        "5": 0.7
+      },
+      "condition_tag": "layer2_fresh_seed2026052601",
+      "layer2_minus_baseline_delta": 0.0030000000000001137,
+      "policy": "xvla",
+      "sample_seed": 2026052601,
+      "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/xvla_layer2_fresh_seed2026052601_summary.json",
+      "summary_sha256": "b65083e42bbe8b301102f03b735a73d7cee1566efe080f2121401be05f38a99b"
+    },
+    {
+      "atc": 4.191,
+      "baseline_atc": 4.165,
+      "chain_sr": {
+        "1": 0.954,
+        "2": 0.906,
+        "3": 0.849,
+        "4": 0.782,
+        "5": 0.7
+      },
+      "condition_tag": "layer2_fresh_seed2026052602",
+      "layer2_minus_baseline_delta": 0.0259999999999998,
+      "policy": "xvla",
+      "sample_seed": 2026052602,
+      "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/xvla_layer2_fresh_seed2026052602_summary.json",
+      "summary_sha256": "f6c072c3a9fd33a50ee9dbe5d3c8a846cb9c4475384e0b60b022dfe99280a8d9"
+    },
+    {
+      "atc": 3.134,
+      "baseline_atc": 3.244,
+      "chain_sr": {
+        "1": 0.841,
+        "2": 0.729,
+        "3": 0.62,
+        "4": 0.51,
+        "5": 0.434
+      },
+      "condition_tag": "layer2_fresh_seed2026052601",
+      "layer2_minus_baseline_delta": -0.11000000000000032,
+      "policy": "gr1",
+      "sample_seed": 2026052601,
+      "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/gr1_layer2_fresh_seed2026052601_summary.json",
+      "summary_sha256": "c3b3f33c58ad24340eeed502735f905a4066f6157721229cb97a7a330885b8bf"
+    },
+    {
+      "atc": 3.14,
+      "baseline_atc": 3.244,
+      "chain_sr": {
+        "1": 0.85,
+        "2": 0.718,
+        "3": 0.617,
+        "4": 0.521,
+        "5": 0.434
+      },
+      "condition_tag": "layer2_fresh_seed2026052602",
+      "layer2_minus_baseline_delta": -0.10400000000000009,
+      "policy": "gr1",
+      "sample_seed": 2026052602,
+      "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/gr1_layer2_fresh_seed2026052602_summary.json",
+      "summary_sha256": "92a1d4a1e7276f8515efd73c5d6f71f6cd728919e9a778b6b463660cf5b4eb41"
+    },
+    {
+      "atc": 2.289,
+      "baseline_atc": 2.367,
+      "chain_sr": {
+        "1": 0.81,
+        "2": 0.589,
+        "3": 0.427,
+        "4": 0.271,
+        "5": 0.192
+      },
+      "condition_tag": "layer2_fresh_seed2026052601",
+      "layer2_minus_baseline_delta": -0.07799999999999985,
+      "policy": "roboflamingo",
+      "sample_seed": 2026052601,
+      "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/roboflamingo_layer2_fresh_seed2026052601_summary.json",
+      "summary_sha256": "62974a39dd0a2d211d2b32f08a1ecd373352b2c17f188574ab55321e2590cfb7"
+    },
+    {
+      "atc": 2.307,
+      "baseline_atc": 2.367,
+      "chain_sr": {
+        "1": 0.803,
+        "2": 0.587,
+        "3": 0.425,
+        "4": 0.302,
+        "5": 0.19
+      },
+      "condition_tag": "layer2_fresh_seed2026052602",
+      "layer2_minus_baseline_delta": -0.06000000000000005,
+      "policy": "roboflamingo",
+      "sample_seed": 2026052602,
+      "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/roboflamingo_layer2_fresh_seed2026052602_summary.json",
+      "summary_sha256": "38ae6b8e64f203676f304f97c1a26e99bc558c93b36af946e782c71f897177e3"
+    }
+  ],
+  "sacct_summary": {
+    "alloc_cpus": [
+      "4"
+    ],
+    "array_task_count": 24,
+    "array_task_ids": [
+      "2089072_0",
+      "2089072_1",
+      "2089072_10",
+      "2089072_11",
+      "2089072_12",
+      "2089072_13",
+      "2089072_14",
+      "2089072_15",
+      "2089072_16",
+      "2089072_17",
+      "2089072_18",
+      "2089072_19",
+      "2089072_2",
+      "2089072_20",
+      "2089072_21",
+      "2089072_22",
+      "2089072_23",
+      "2089072_3",
+      "2089072_4",
+      "2089072_5",
+      "2089072_6",
+      "2089072_7",
+      "2089072_8",
+      "2089072_9"
+    ],
+    "array_tasks_completed_0_0": true,
+    "bad_array_rows": [],
+    "exit_codes": [
+      "0:0"
+    ],
+    "nodes": [
+      "g14",
+      "g15",
+      "g19",
+      "g21",
+      "g22",
+      "g6"
+    ],
+    "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/release_metadata/sacct_2089072.txt",
+    "states": [
+      "COMPLETED"
+    ]
+  },
+  "schema": "calvin_layer2_fresh_aggregate_validation_v1",
+  "status": "PASS"
+}

@@ -15,8 +15,14 @@ if str(SCRIPT_DIR) not in sys.path:
 
 from calvin_reset_override import patch_module_from_env
 from calvin_sequence_manifest import (
-    load_manifest,
+    MANIFEST_SEQUENCE_SOURCE,
+    load_manifest_from_env,
+    manifest_sequences,
+    result_row,
+    runtime_metadata,
+    sequence_source_for_manifest,
     validate_bank_metadata_against_manifest,
+    validate_result_rows_against_manifest,
     validate_sequences_against_manifest,
 )
 
@@ -121,7 +127,8 @@ def main() -> None:
         builtins.__import__ = original_import
 
     os.environ["PYOPENGL_PLATFORM"] = "egl"
-    manifest = load_manifest(os.environ["CALVIN_SEQUENCE_MANIFEST"]) if os.environ.get("CALVIN_SEQUENCE_MANIFEST") else None
+    manifest = load_manifest_from_env("RoboFlamingo")
+    sequence_source = sequence_source_for_manifest(manifest)
     reset_bank, metadata = reset_bank_metadata()
     sequence_count = int(manifest["num_sequences"]) if manifest is not None else int(args.num_sequences)
     workers = int(manifest.get("sequence_workers", 4)) if manifest is not None else 4
@@ -132,8 +139,12 @@ def main() -> None:
         workers = int(metadata.get("sequence_workers", 4))
     if args.eval_end > sequence_count:
         raise RuntimeError(f"eval_end={args.eval_end} exceeds canonical sequence count {sequence_count}")
-    eval_sequences = eval_utils.get_sequences(sequence_count, num_workers=workers)
-    if manifest is not None:
+    original_get_sequences = eval_utils.get_sequences
+    if sequence_source == MANIFEST_SEQUENCE_SOURCE:
+        eval_sequences = manifest_sequences(manifest, 0, sequence_count, "RoboFlamingo")
+    else:
+        eval_sequences = original_get_sequences(sequence_count, num_workers=workers)
+    if manifest is not None and sequence_source != MANIFEST_SEQUENCE_SOURCE:
         validate_sequences_against_manifest(eval_sequences, manifest, "RoboFlamingo")
     if reset_bank is not None:
         expected = str(reset_bank["initial_state_json"][args.eval_start])
@@ -143,7 +154,26 @@ def main() -> None:
     selected_sequences = eval_sequences[args.eval_start : args.eval_end]
     if len(selected_sequences) != args.eval_end - args.eval_start:
         raise RuntimeError(f"bad selected sequence range: got {len(selected_sequences)}")
+    run_metadata = runtime_metadata(manifest, sequence_source)
+    run_metadata.update({
+        "policy": "RoboFlamingo",
+        "eval_start": int(args.eval_start),
+        "eval_end": int(args.eval_end),
+        "num_sequences": int(args.eval_end - args.eval_start),
+    })
+    (eval_dir / "runtime_metadata.json").write_text(json.dumps(run_metadata, indent=2, sort_keys=True) + "\n")
     eval_utils.NUM_SEQUENCES = len(selected_sequences)
+
+    def get_sequences_with_range(num_sequences=len(selected_sequences), num_workers=None):
+        if int(num_sequences) == len(selected_sequences):
+            return selected_sequences
+        if int(num_sequences) == sequence_count:
+            return eval_sequences
+        if sequence_source == MANIFEST_SEQUENCE_SOURCE:
+            raise RuntimeError(f"RoboFlamingo: refusing to regenerate CALVIN sequences in manifest_direct mode; requested {num_sequences}")
+        return original_get_sequences(num_sequences, num_workers=workers if num_workers is None else num_workers)
+
+    eval_utils.get_sequences = get_sequences_with_range
     patch_module_from_env(eval_utils, eval_start=args.eval_start)
 
     def fixed_log_dir(log_dir):
@@ -159,14 +189,12 @@ def main() -> None:
     original_print_and_save = eval_utils.print_and_save
 
     def print_and_save_with_rows(results, eval_sequences_for_save, eval_log_dir, epoch):
+        if len(results) != len(eval_sequences_for_save):
+            raise RuntimeError(f"RoboFlamingo returned {len(results)} results for {len(eval_sequences_for_save)} sequences")
         rows = []
         for offset, (result, (initial_state, eval_sequence)) in enumerate(zip(results, eval_sequences_for_save)):
-            rows.append({
-                "global_index": int(args.eval_start + offset),
-                "success": int(result),
-                "initial_state_json": stable_json(initial_state),
-                "eval_sequence": eval_sequence,
-            })
+            rows.append(result_row(args.eval_start + offset, result, initial_state, eval_sequence, manifest))
+        validate_result_rows_against_manifest(rows, manifest, "RoboFlamingo results")
         Path(eval_log_dir, "per_sequence_results.json").write_text(json.dumps(rows, indent=2, sort_keys=True) + "\n")
         return original_print_and_save(results, eval_sequences_for_save, eval_log_dir, epoch)
 
@@ -214,8 +242,7 @@ def main() -> None:
                 "eval_start": int(args.eval_start),
                 "eval_end": int(args.eval_end),
                 "num_sequences": int(args.eval_end - args.eval_start),
-                "calvin_sequence_manifest": os.environ.get("CALVIN_SEQUENCE_MANIFEST", ""),
-                "calvin_reset_bank": os.environ.get("CALVIN_RESET_BANK", ""),
+                **run_metadata,
             })
         (eval_dir / "summary.json").write_text(json.dumps(payload, indent=2, default=float) + "\n")
 

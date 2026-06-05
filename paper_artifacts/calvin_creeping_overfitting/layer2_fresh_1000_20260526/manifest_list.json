@@ -1,0 +1,57 @@
+{
+  "schema": "calvin_layer2_fresh_manifest_list_v1",
+  "created_utc": "2026-05-26T06:11:34Z",
+  "repo_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL",
+  "repo_head": "a415f11aa110eefa4223e998e60a47b46265c583",
+  "package_repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526",
+  "launcher_use": {
+    "runtime_source_of_truth": "curated manifest rows",
+    "condition_tag_field": "condition_tag",
+    "manifest_path_field": "curated_repo_relative_path",
+    "required_manifest_row_fields": [
+      "global_index",
+      "index",
+      "initial_state_items",
+      "eval_sequence"
+    ],
+    "initial_state_reconstruction": "reconstruct from ordered initial_state_items and preserve the stored key order",
+    "eval_sequence_reconstruction": "use row eval_sequence exactly",
+    "forbidden_layer2_reset_env_vars": [
+      "CALVIN_RESET_BANK",
+      "RESET_BANK",
+      "CALVIN_RESET_PROTOCOL"
+    ],
+    "do_not_use_files": [
+      "results/calvin/sequence_manifests/abc_d_layer2_fresh_151seq_seed2026052601.json",
+      "results/calvin/sequence_manifests/abc_d_layer2_fresh_151seq_seed2026052602.json"
+    ]
+  },
+  "manifests": [
+    {
+      "condition_tag": "layer2_fresh_seed2026052601",
+      "sample_seed": 2026052601,
+      "num_sequences": 1000,
+      "sample_kind": "layer2_fresh_stratified",
+      "curated_repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+      "source_path": "results/calvin/sequence_manifests/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+      "source_absolute_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+      "sha256": "f2a339b2ec42320cac1b001aa6763d477015f26f55089528914f9ecb5a137e93",
+      "expected_initial_state_sha256": "5c8683594fdc57a5ea52bdea6bf0c693531d26aa66cbe6e50b97eefe16fb94d7",
+      "expected_initial_state_ordered_sha256": "101cf6d80128f0166a4bf58a6ad884caa1c41df40a3baf0be9ddb140efd0e349",
+      "expected_eval_sequence_sha256": "42966ea133d4cf17927353d308c1cec176476d02ecec34b059659f2745b7f416"
+    },
+    {
+      "condition_tag": "layer2_fresh_seed2026052602",
+      "sample_seed": 2026052602,
+      "num_sequences": 1000,
+      "sample_kind": "layer2_fresh_stratified",
+      "curated_repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+      "source_path": "results/calvin/sequence_manifests/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+      "source_absolute_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+      "sha256": "bf2b9a19c73b8a54c5c2aa5f85ef26210df508c41e9a37385da16b5da1f73ee6",
+      "expected_initial_state_sha256": "e90a0b07eda02c783b076ee0ed1cccc758df3f33d95b90caf6b4f5da5f437d93",
+      "expected_initial_state_ordered_sha256": "321c268a9c061aaac726b5346799ba07d7c925f51f75c3b40ef7f8f056648061",
+      "expected_eval_sequence_sha256": "bd7cdc927bf88ac00731da2b4cf04ab79deb42a4a94310aa4bb3f43b50efc75a"
+    }
+  ]
+}

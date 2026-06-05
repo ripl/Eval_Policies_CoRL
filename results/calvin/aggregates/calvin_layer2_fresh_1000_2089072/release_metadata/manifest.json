@@ -1,0 +1,367 @@
+{
+  "aggregate": {
+    "combined_summary": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/combined_summary.json",
+    "combined_summary_sha256": "2c2561c2baf38aef581bd59b462691c7e1a6454d25c7c0530ef66b1dd8e963e9",
+    "output_dir_precondition": "Directory was absent before aggregation; --force was not used.",
+    "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072",
+    "per_summary_sha256": {
+      "results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/gr1_layer2_fresh_seed2026052601_summary.json": "c3b3f33c58ad24340eeed502735f905a4066f6157721229cb97a7a330885b8bf",
+      "results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/gr1_layer2_fresh_seed2026052602_summary.json": "92a1d4a1e7276f8515efd73c5d6f71f6cd728919e9a778b6b463660cf5b4eb41",
+      "results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/roboflamingo_layer2_fresh_seed2026052601_summary.json": "62974a39dd0a2d211d2b32f08a1ecd373352b2c17f188574ab55321e2590cfb7",
+      "results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/roboflamingo_layer2_fresh_seed2026052602_summary.json": "38ae6b8e64f203676f304f97c1a26e99bc558c93b36af946e782c71f897177e3",
+      "results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/xvla_layer2_fresh_seed2026052601_summary.json": "b65083e42bbe8b301102f03b735a73d7cee1566efe080f2121401be05f38a99b",
+      "results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/xvla_layer2_fresh_seed2026052602_summary.json": "f6c072c3a9fd33a50ee9dbe5d3c8a846cb9c4475384e0b60b022dfe99280a8d9"
+    }
+  },
+  "baseline": {
+    "comparison_reference": "calvin_full_1000_2048456 calibration summaries only; Protocol 1 is separate context and not the Layer 2 baseline.",
+    "expected_sha256": "40961c86c07b49a7dac80ac1003db3f7c048544abc6d1acbf6a1c0efdf13b798",
+    "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_full_1000_2048456/combined_summary.json",
+    "sha256": "40961c86c07b49a7dac80ac1003db3f7c048544abc6d1acbf6a1c0efdf13b798"
+  },
+  "commands": {
+    "aggregation_command": "/share/data/ripl/tianchong/conda/envs/calvin/bin/python scripts/calvin/calvin_aggregate_layer2_fresh.py --array-job-id 2089072",
+    "aggregation_force_used": false,
+    "rollout_launch_command_from_prelaunch": "sbatch --parsable scripts/slurm/calvin_layer2_fresh_1000_array.sbatch"
+  },
+  "exclusions": [
+    "model weights and checkpoints",
+    "datasets and CALVIN raw data",
+    "rollout videos",
+    "full raw run directories",
+    "raw observations",
+    "per-step action traces",
+    "simulator caches",
+    "conda environments and package caches",
+    "containers",
+    "tokens or secrets"
+  ],
+  "generated_utc": "2026-05-26T17:32:17Z",
+  "jobs": {
+    "rollout_array_job_id": "2089072",
+    "rollout_sacct_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/release_metadata/sacct_2089072.txt",
+    "rollout_sacct_summary": {
+      "alloc_cpus": [
+        "4"
+      ],
+      "array_task_count": 24,
+      "array_task_ids": [
+        "2089072_0",
+        "2089072_1",
+        "2089072_10",
+        "2089072_11",
+        "2089072_12",
+        "2089072_13",
+        "2089072_14",
+        "2089072_15",
+        "2089072_16",
+        "2089072_17",
+        "2089072_18",
+        "2089072_19",
+        "2089072_2",
+        "2089072_20",
+        "2089072_21",
+        "2089072_22",
+        "2089072_23",
+        "2089072_3",
+        "2089072_4",
+        "2089072_5",
+        "2089072_6",
+        "2089072_7",
+        "2089072_8",
+        "2089072_9"
+      ],
+      "array_tasks_completed_0_0": true,
+      "bad_array_rows": [],
+      "exit_codes": [
+        "0:0"
+      ],
+      "nodes": [
+        "g14",
+        "g15",
+        "g19",
+        "g21",
+        "g22",
+        "g6"
+      ],
+      "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/release_metadata/sacct_2089072.txt",
+      "states": [
+        "COMPLETED"
+      ]
+    },
+    "smoke_job_id": "2089048"
+  },
+  "layer2_design": {
+    "chunking": {
+      "chunk_size": 250,
+      "num_chunks": 4,
+      "num_sequences_per_policy_condition": 1000
+    },
+    "conditions": [
+      "layer2_fresh_seed2026052601",
+      "layer2_fresh_seed2026052602"
+    ],
+    "curated_manifest_package": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526",
+    "curated_manifest_package_sha256s": {
+      "abc_d_layer2_fresh_1000seq_seed2026052601.json": "f2a339b2ec42320cac1b001aa6763d477015f26f55089528914f9ecb5a137e93",
+      "abc_d_layer2_fresh_1000seq_seed2026052602.json": "bf2b9a19c73b8a54c5c2aa5f85ef26210df508c41e9a37385da16b5da1f73ee6",
+      "layer2_fresh_manifest_list.json": "a4ed10fe175d81738c584a461814d1ba08c17bdd3b48748a76c0d071f5a85db0",
+      "manifest_list.json": "a4ed10fe175d81738c584a461814d1ba08c17bdd3b48748a76c0d071f5a85db0",
+      "predeclared_reporting_statistics.json": "0755e5dbb9d0406f2e8ceeac7ee9400011031bb0b437cb36da8aae4c60aae82c",
+      "validation_provenance.json": "bd1d6d3eee9e44961d3f858e8da345ad25ec5bb97387730a70e464eb7d639136"
+    },
+    "curated_manifests": [
+      {
+        "actual_sha256": "f2a339b2ec42320cac1b001aa6763d477015f26f55089528914f9ecb5a137e93",
+        "condition_tag": "layer2_fresh_seed2026052601",
+        "expected_eval_sequence_sha256": "42966ea133d4cf17927353d308c1cec176476d02ecec34b059659f2745b7f416",
+        "expected_initial_state_ordered_sha256": "101cf6d80128f0166a4bf58a6ad884caa1c41df40a3baf0be9ddb140efd0e349",
+        "num_sequences": 1000,
+        "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+        "repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+        "sample_kind": "layer2_fresh_stratified",
+        "sample_seed": 2026052601,
+        "sha256": "f2a339b2ec42320cac1b001aa6763d477015f26f55089528914f9ecb5a137e93"
+      },
+      {
+        "actual_sha256": "bf2b9a19c73b8a54c5c2aa5f85ef26210df508c41e9a37385da16b5da1f73ee6",
+        "condition_tag": "layer2_fresh_seed2026052602",
+        "expected_eval_sequence_sha256": "bd7cdc927bf88ac00731da2b4cf04ab79deb42a4a94310aa4bb3f43b50efc75a",
+        "expected_initial_state_ordered_sha256": "321c268a9c061aaac726b5346799ba07d7c925f51f75c3b40ef7f8f056648061",
+        "num_sequences": 1000,
+        "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+        "repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+        "sample_kind": "layer2_fresh_stratified",
+        "sample_seed": 2026052602,
+        "sha256": "bf2b9a19c73b8a54c5c2aa5f85ef26210df508c41e9a37385da16b5da1f73ee6"
+      }
+    ],
+    "does_not_use_protocol1_reset_bank": true,
+    "forbidden_reset_env_vars": [
+      "CALVIN_RESET_BANK",
+      "RESET_BANK",
+      "CALVIN_RESET_PROTOCOL"
+    ],
+    "policies": [
+      "xvla",
+      "gr1",
+      "roboflamingo"
+    ],
+    "sample_kind": "layer2_fresh_stratified",
+    "uses_official_reset_function_unchanged": true
+  },
+  "prelaunch_metadata": {
+    "old_artifact_status": "old_artifact_tree_status=UNCHANGED",
+    "old_artifact_touch_check": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/launch_metadata/prelaunch_20260526T070031Z_worker_e/old_artifact_touch_check_2089072.txt",
+    "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/launch_metadata/prelaunch_20260526T070031Z_worker_e",
+    "postmonitor_summary": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/launch_metadata/prelaunch_20260526T070031Z_worker_e/postmonitor_summary_2089072.txt",
+    "prelaunch_summary": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/layer2_fresh_1000/launch_metadata/prelaunch_20260526T070031Z_worker_e/prelaunch_summary.txt"
+  },
+  "purpose": "Lightweight release metadata for CALVIN Layer 2 fresh 1000-sequence aggregate from Slurm array 2089072.",
+  "release_metadata_files": {
+    "manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/release_metadata/manifest.json",
+    "manifest_package_sha256_check": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/release_metadata/manifest_package_SHA256SUMS_check.txt",
+    "sacct": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/release_metadata/sacct_2089072.txt",
+    "script_hashes": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/release_metadata/script_hashes.sha256",
+    "validation_summary": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/release_metadata/validation_summary.json"
+  },
+  "repo": {
+    "branch": "main",
+    "dirty": true,
+    "head": "a415f11aa110eefa4223e998e60a47b46265c583",
+    "origin_url": "git@github.com:ripl/Eval_Policies_CoRL.git",
+    "path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL",
+    "status_note": "Status includes pre-existing Layer 2 wrapper/script changes and untracked local checkouts; no commit or push was made by Worker F.",
+    "status_short": [
+      "M scripts/calvin/calvin_sequence_manifest.py",
+      " M scripts/calvin/gr1_smoke_eval.py",
+      " M scripts/calvin/roboflamingo_smoke_eval.py",
+      " M scripts/calvin/xvla_calvin_client_no_video.py",
+      " m third_party/simpler_env",
+      " m third_party/simplerenv_openvla",
+      " m third_party/xvla_simpler_env",
+      "?? MUJOCO_LOG.TXT",
+      "?? configs/simplerenv/protocol_abcde/",
+      "?? paper_artifacts/calvin_creeping_overfitting/",
+      "?? scratch/",
+      "?? scripts/bitwise/",
+      "?? scripts/calvin/calvin_aggregate_layer2_fresh.py",
+      "?? scripts/simplerenv/copy_xvla_protocol_abcde_smoke_videos.py",
+      "?? scripts/simplerenv/run_xvla_widowx_protocol_abcde_smoke.sh",
+      "?? scripts/slurm/bitwise_calvin_gr1_trace.sbatch",
+      "?? scripts/slurm/bitwise_libero_trace.sbatch",
+      "?? scripts/slurm/bitwise_robocasa_starvla_trace.sbatch",
+      "?? scripts/slurm/bitwise_simplerenv_cogact_trace.sbatch",
+      "?? scripts/slurm/calvin_layer2_fresh_1000_array.sbatch",
+      "?? third_party/ABot-Manipulation/",
+      "?? third_party/InternVLA-M1/",
+      "?? third_party/alphabrain/",
+      "?? third_party/dexbotic-benchmark/",
+      "?? third_party/dexbotic/",
+      "?? third_party/hif_vla/",
+      "?? third_party/lerobot/",
+      "?? third_party/robocasa-gr1-tabletop-tasks/",
+      "?? third_party/robosuite/",
+      "?? third_party/robosuite_models/",
+      "?? third_party/simvla/",
+      "?? third_party/spatial_forcing/",
+      "?? third_party/spatial_forcing_libero_adapter/",
+      "?? third_party/starVLA/",
+      "?? third_party/vggt/"
+    ]
+  },
+  "results": {
+    "averages_across_fresh_manifests": {
+      "gr1": {
+        "average_fresh_atc": 3.137,
+        "average_layer2_minus_baseline_delta": -0.1070000000000002,
+        "baseline_atc": 3.244
+      },
+      "roboflamingo": {
+        "average_fresh_atc": 2.298,
+        "average_layer2_minus_baseline_delta": -0.06899999999999995,
+        "baseline_atc": 2.367
+      },
+      "xvla": {
+        "average_fresh_atc": 4.1795,
+        "average_layer2_minus_baseline_delta": 0.014499999999999957,
+        "baseline_atc": 4.165
+      }
+    },
+    "per_manifest_rows": [
+      {
+        "atc": 4.168,
+        "baseline_atc": 4.165,
+        "chain_sr": {
+          "1": 0.956,
+          "2": 0.897,
+          "3": 0.839,
+          "4": 0.776,
+          "5": 0.7
+        },
+        "condition_tag": "layer2_fresh_seed2026052601",
+        "layer2_minus_baseline_delta": 0.0030000000000001137,
+        "policy": "xvla",
+        "sample_seed": 2026052601,
+        "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/xvla_layer2_fresh_seed2026052601_summary.json",
+        "summary_sha256": "b65083e42bbe8b301102f03b735a73d7cee1566efe080f2121401be05f38a99b"
+      },
+      {
+        "atc": 4.191,
+        "baseline_atc": 4.165,
+        "chain_sr": {
+          "1": 0.954,
+          "2": 0.906,
+          "3": 0.849,
+          "4": 0.782,
+          "5": 0.7
+        },
+        "condition_tag": "layer2_fresh_seed2026052602",
+        "layer2_minus_baseline_delta": 0.0259999999999998,
+        "policy": "xvla",
+        "sample_seed": 2026052602,
+        "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/xvla_layer2_fresh_seed2026052602_summary.json",
+        "summary_sha256": "f6c072c3a9fd33a50ee9dbe5d3c8a846cb9c4475384e0b60b022dfe99280a8d9"
+      },
+      {
+        "atc": 3.134,
+        "baseline_atc": 3.244,
+        "chain_sr": {
+          "1": 0.841,
+          "2": 0.729,
+          "3": 0.62,
+          "4": 0.51,
+          "5": 0.434
+        },
+        "condition_tag": "layer2_fresh_seed2026052601",
+        "layer2_minus_baseline_delta": -0.11000000000000032,
+        "policy": "gr1",
+        "sample_seed": 2026052601,
+        "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/gr1_layer2_fresh_seed2026052601_summary.json",
+        "summary_sha256": "c3b3f33c58ad24340eeed502735f905a4066f6157721229cb97a7a330885b8bf"
+      },
+      {
+        "atc": 3.14,
+        "baseline_atc": 3.244,
+        "chain_sr": {
+          "1": 0.85,
+          "2": 0.718,
+          "3": 0.617,
+          "4": 0.521,
+          "5": 0.434
+        },
+        "condition_tag": "layer2_fresh_seed2026052602",
+        "layer2_minus_baseline_delta": -0.10400000000000009,
+        "policy": "gr1",
+        "sample_seed": 2026052602,
+        "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/gr1_layer2_fresh_seed2026052602_summary.json",
+        "summary_sha256": "92a1d4a1e7276f8515efd73c5d6f71f6cd728919e9a778b6b463660cf5b4eb41"
+      },
+      {
+        "atc": 2.289,
+        "baseline_atc": 2.367,
+        "chain_sr": {
+          "1": 0.81,
+          "2": 0.589,
+          "3": 0.427,
+          "4": 0.271,
+          "5": 0.192
+        },
+        "condition_tag": "layer2_fresh_seed2026052601",
+        "layer2_minus_baseline_delta": -0.07799999999999985,
+        "policy": "roboflamingo",
+        "sample_seed": 2026052601,
+        "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/roboflamingo_layer2_fresh_seed2026052601_summary.json",
+        "summary_sha256": "62974a39dd0a2d211d2b32f08a1ecd373352b2c17f188574ab55321e2590cfb7"
+      },
+      {
+        "atc": 2.307,
+        "baseline_atc": 2.367,
+        "chain_sr": {
+          "1": 0.803,
+          "2": 0.587,
+          "3": 0.425,
+          "4": 0.302,
+          "5": 0.19
+        },
+        "condition_tag": "layer2_fresh_seed2026052602",
+        "layer2_minus_baseline_delta": -0.06000000000000005,
+        "policy": "roboflamingo",
+        "sample_seed": 2026052602,
+        "summary_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/roboflamingo_layer2_fresh_seed2026052602_summary.json",
+        "summary_sha256": "38ae6b8e64f203676f304f97c1a26e99bc558c93b36af946e782c71f897177e3"
+      }
+    ]
+  },
+  "schema": "calvin_layer2_fresh_release_manifest_v1",
+  "scripts": {
+    "evaluation_semantic_files": [
+      "scripts/calvin/calvin_sequence_manifest.py",
+      "scripts/calvin/xvla_calvin_client_no_video.py",
+      "scripts/calvin/gr1_smoke_eval.py",
+      "scripts/calvin/roboflamingo_smoke_eval.py",
+      "scripts/slurm/calvin_layer2_fresh_1000_array.sbatch",
+      "scripts/calvin/calvin_aggregate_layer2_fresh.py"
+    ],
+    "evaluation_semantic_note": "Layer 2 wrappers consume serialized fresh manifest rows directly, reconstruct ordered initial_state_items, use row eval_sequence, and reject reset-bank/protocol env vars; these affect evaluation sample identity and are therefore evaluation-semantic.",
+    "script_hashes_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/release_metadata/script_hashes.sha256",
+    "sha256": {
+      "scripts/calvin/calvin_aggregate_layer2_fresh.py": "1248ab2e0c576e897d0d203603d83eebe42e4f06ca847682eee3c3a8afc9a665",
+      "scripts/calvin/calvin_sequence_manifest.py": "f4f129ce1ba29e1676fb66d3868fae3f74017c357f9e974668d8d69c14ba7836",
+      "scripts/calvin/gr1_smoke_eval.py": "a055da7b344e43405384b4944d9b0ade10a1137485c63d854815ac54920d668a",
+      "scripts/calvin/roboflamingo_smoke_eval.py": "0b16cabe2051f44a4f62acd8a38302ce979493c7784594f8eaa60fb58d0a5eea",
+      "scripts/calvin/run_gr1_calvin_smoke.sh": "e480ef790221ab658aa5f53d9c652b76aae3cfa77eed8e10876fd4fc2872067e",
+      "scripts/calvin/run_roboflamingo_calvin_smoke.sh": "d26bfeca552c754885a97f2409da2943950795f62d6ddbce63b1ff2483aaa4c4",
+      "scripts/calvin/run_xvla_calvin_smoke.sh": "5e6f8e2a46a8e9325f50f095817851021c487b41a2735457580f65ee6ac3de21",
+      "scripts/calvin/xvla_calvin_client_no_video.py": "606091b9864cc9e5566513a52d33de7bad7bbe297ab0082b56f91953ab059549",
+      "scripts/slurm/calvin_layer2_fresh_1000_array.sbatch": "5565f71a7598cb774a853f4139698e247601189050e54330932be251469da6f9"
+    },
+    "wrapper_changes_are_evaluation_semantic": true
+  },
+  "validation": {
+    "baseline_references_only_calvin_full_1000_2048456": true,
+    "no_reset_bank_or_protocol_metadata_found": true,
+    "status": "PASS",
+    "summary": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/aggregates/calvin_layer2_fresh_1000_2089072/release_metadata/validation_summary.json"
+  }
+}

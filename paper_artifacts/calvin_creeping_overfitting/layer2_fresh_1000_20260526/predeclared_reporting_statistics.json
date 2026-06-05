@@ -1,0 +1,311 @@
+{
+  "schema": "calvin_layer2_fresh_predeclared_reporting_statistics_v1",
+  "created_utc": "2026-05-26T06:11:34Z",
+  "created_before_layer2_rollouts": true,
+  "layer2_rollout_results_inspected_or_included": false,
+  "scope": {
+    "benchmark": "CALVIN",
+    "split": "ABC->D",
+    "layer": "Layer 2 fresh fixed-test-sample audit",
+    "policies": [
+      "X-VLA",
+      "GR-1",
+      "RoboFlamingo"
+    ],
+    "fresh_manifest_conditions": [
+      {
+        "condition_tag": "layer2_fresh_seed2026052601",
+        "sample_seed": 2026052601,
+        "num_sequences": 1000,
+        "sample_kind": "layer2_fresh_stratified",
+        "curated_repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+        "source_path": "results/calvin/sequence_manifests/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+        "source_absolute_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+        "sha256": "f2a339b2ec42320cac1b001aa6763d477015f26f55089528914f9ecb5a137e93",
+        "expected_initial_state_sha256": "5c8683594fdc57a5ea52bdea6bf0c693531d26aa66cbe6e50b97eefe16fb94d7",
+        "expected_initial_state_ordered_sha256": "101cf6d80128f0166a4bf58a6ad884caa1c41df40a3baf0be9ddb140efd0e349",
+        "expected_eval_sequence_sha256": "42966ea133d4cf17927353d308c1cec176476d02ecec34b059659f2745b7f416"
+      },
+      {
+        "condition_tag": "layer2_fresh_seed2026052602",
+        "sample_seed": 2026052602,
+        "num_sequences": 1000,
+        "sample_kind": "layer2_fresh_stratified",
+        "curated_repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+        "source_path": "results/calvin/sequence_manifests/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+        "source_absolute_path": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+        "sha256": "bf2b9a19c73b8a54c5c2aa5f85ef26210df508c41e9a37385da16b5da1f73ee6",
+        "expected_initial_state_sha256": "e90a0b07eda02c783b076ee0ed1cccc758df3f33d95b90caf6b4f5da5f437d93",
+        "expected_initial_state_ordered_sha256": "321c268a9c061aaac726b5346799ba07d7c925f51f75c3b40ef7f8f056648061",
+        "expected_eval_sequence_sha256": "bd7cdc927bf88ac00731da2b4cf04ab79deb42a4a94310aa4bb3f43b50efc75a"
+      }
+    ],
+    "excluded_from_analysis": [
+      "results/calvin/sequence_manifests/abc_d_layer2_fresh_151seq_seed2026052601.json",
+      "results/calvin/sequence_manifests/abc_d_layer2_fresh_151seq_seed2026052602.json"
+    ]
+  },
+  "primary_metric": {
+    "name": "ATC",
+    "source_field": "avg_seq_len",
+    "description": "Average number of tasks completed in the five-task CALVIN chain.",
+    "comparison_baseline": "matched local official calibration from Slurm job 2048456",
+    "delta_formula": "fresh_manifest_atc - matched_local_official_calibration_atc",
+    "negative_delta_meaning": "fresh manifest ATC is lower than matched local official calibration"
+  },
+  "diagnostic_metrics": {
+    "chain_success_rates": {
+      "source_field": "chain_sr",
+      "role": "diagnostic only; not the primary Layer 2 metric"
+    }
+  },
+  "baseline_source": {
+    "job_id": "2048456",
+    "combined_summary_repo_relative_path": "results/calvin/aggregates/calvin_full_1000_2048456/combined_summary.json",
+    "combined_summary_sha256": "40961c86c07b49a7dac80ac1003db3f7c048544abc6d1acbf6a1c0efdf13b798",
+    "calvin_sequence_manifest": "/share/data/ripl/tianchong/projects/Eval_Policies_CoRL/results/calvin/sequence_manifests/abc_d_official_1000seq_workers4.json",
+    "num_sequences": 1000
+  },
+  "policy_baselines": [
+    {
+      "policy": "X-VLA",
+      "baseline_condition": "matched_local_official_calibration",
+      "baseline_source_job_id": "2048456",
+      "baseline_summary_repo_relative_path": "results/calvin/aggregates/calvin_full_1000_2048456/xvla_calibration_summary.json",
+      "baseline_atc": 4.165,
+      "baseline_chain_success_rates_diagnostic": {
+        "1": 0.951,
+        "2": 0.886,
+        "3": 0.834,
+        "4": 0.785,
+        "5": 0.709
+      },
+      "protocol1_context_only": {
+        "summary_repo_relative_path": "results/calvin/aggregates/calvin_full_1000_2048456/xvla_protocol1_summary.json",
+        "atc": 3.138,
+        "chain_success_rates_diagnostic": {
+          "1": 0.838,
+          "2": 0.705,
+          "3": 0.609,
+          "4": 0.527,
+          "5": 0.459
+        },
+        "not_layer2_baseline": true
+      }
+    },
+    {
+      "policy": "GR-1",
+      "baseline_condition": "matched_local_official_calibration",
+      "baseline_source_job_id": "2048456",
+      "baseline_summary_repo_relative_path": "results/calvin/aggregates/calvin_full_1000_2048456/gr1_calibration_summary.json",
+      "baseline_atc": 3.244,
+      "baseline_chain_success_rates_diagnostic": {
+        "1": 0.875,
+        "2": 0.746,
+        "3": 0.645,
+        "4": 0.547,
+        "5": 0.431
+      },
+      "protocol1_context_only": {
+        "summary_repo_relative_path": "results/calvin/aggregates/calvin_full_1000_2048456/gr1_protocol1_summary.json",
+        "atc": 2.495,
+        "chain_success_rates_diagnostic": {
+          "1": 0.777,
+          "2": 0.582,
+          "3": 0.47,
+          "4": 0.37,
+          "5": 0.296
+        },
+        "not_layer2_baseline": true
+      }
+    },
+    {
+      "policy": "RoboFlamingo",
+      "baseline_condition": "matched_local_official_calibration",
+      "baseline_source_job_id": "2048456",
+      "baseline_summary_repo_relative_path": "results/calvin/aggregates/calvin_full_1000_2048456/roboflamingo_calibration_summary.json",
+      "baseline_atc": 2.367,
+      "baseline_chain_success_rates_diagnostic": {
+        "1": 0.802,
+        "2": 0.598,
+        "3": 0.445,
+        "4": 0.313,
+        "5": 0.209
+      },
+      "protocol1_context_only": {
+        "summary_repo_relative_path": "results/calvin/aggregates/calvin_full_1000_2048456/roboflamingo_protocol1_summary.json",
+        "atc": 1.869,
+        "chain_success_rates_diagnostic": {
+          "1": 0.708,
+          "2": 0.469,
+          "3": 0.321,
+          "4": 0.226,
+          "5": 0.145
+        },
+        "not_layer2_baseline": true
+      }
+    }
+  ],
+  "protocol1_role": "Context only. Protocol 1 is not the Layer 2 baseline and must not be averaged with fresh-manifest Layer 2 results.",
+  "required_seed_specific_reporting_rows": [
+    {
+      "policy": "X-VLA",
+      "condition_tag": "layer2_fresh_seed2026052601",
+      "sample_seed": 2026052601,
+      "fresh_manifest_repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+      "fresh_manifest_sha256": "f2a339b2ec42320cac1b001aa6763d477015f26f55089528914f9ecb5a137e93",
+      "fresh_atc": null,
+      "calibration_atc": 4.165,
+      "delta_atc_fresh_minus_calibration": null,
+      "fresh_chain_success_rates_diagnostic": null,
+      "calibration_chain_success_rates_diagnostic": {
+        "1": 0.951,
+        "2": 0.886,
+        "3": 0.834,
+        "4": 0.785,
+        "5": 0.709
+      },
+      "status": "predeclared_pending_layer2_rollout"
+    },
+    {
+      "policy": "X-VLA",
+      "condition_tag": "layer2_fresh_seed2026052602",
+      "sample_seed": 2026052602,
+      "fresh_manifest_repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+      "fresh_manifest_sha256": "bf2b9a19c73b8a54c5c2aa5f85ef26210df508c41e9a37385da16b5da1f73ee6",
+      "fresh_atc": null,
+      "calibration_atc": 4.165,
+      "delta_atc_fresh_minus_calibration": null,
+      "fresh_chain_success_rates_diagnostic": null,
+      "calibration_chain_success_rates_diagnostic": {
+        "1": 0.951,
+        "2": 0.886,
+        "3": 0.834,
+        "4": 0.785,
+        "5": 0.709
+      },
+      "status": "predeclared_pending_layer2_rollout"
+    },
+    {
+      "policy": "GR-1",
+      "condition_tag": "layer2_fresh_seed2026052601",
+      "sample_seed": 2026052601,
+      "fresh_manifest_repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+      "fresh_manifest_sha256": "f2a339b2ec42320cac1b001aa6763d477015f26f55089528914f9ecb5a137e93",
+      "fresh_atc": null,
+      "calibration_atc": 3.244,
+      "delta_atc_fresh_minus_calibration": null,
+      "fresh_chain_success_rates_diagnostic": null,
+      "calibration_chain_success_rates_diagnostic": {
+        "1": 0.875,
+        "2": 0.746,
+        "3": 0.645,
+        "4": 0.547,
+        "5": 0.431
+      },
+      "status": "predeclared_pending_layer2_rollout"
+    },
+    {
+      "policy": "GR-1",
+      "condition_tag": "layer2_fresh_seed2026052602",
+      "sample_seed": 2026052602,
+      "fresh_manifest_repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+      "fresh_manifest_sha256": "bf2b9a19c73b8a54c5c2aa5f85ef26210df508c41e9a37385da16b5da1f73ee6",
+      "fresh_atc": null,
+      "calibration_atc": 3.244,
+      "delta_atc_fresh_minus_calibration": null,
+      "fresh_chain_success_rates_diagnostic": null,
+      "calibration_chain_success_rates_diagnostic": {
+        "1": 0.875,
+        "2": 0.746,
+        "3": 0.645,
+        "4": 0.547,
+        "5": 0.431
+      },
+      "status": "predeclared_pending_layer2_rollout"
+    },
+    {
+      "policy": "RoboFlamingo",
+      "condition_tag": "layer2_fresh_seed2026052601",
+      "sample_seed": 2026052601,
+      "fresh_manifest_repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052601.json",
+      "fresh_manifest_sha256": "f2a339b2ec42320cac1b001aa6763d477015f26f55089528914f9ecb5a137e93",
+      "fresh_atc": null,
+      "calibration_atc": 2.367,
+      "delta_atc_fresh_minus_calibration": null,
+      "fresh_chain_success_rates_diagnostic": null,
+      "calibration_chain_success_rates_diagnostic": {
+        "1": 0.802,
+        "2": 0.598,
+        "3": 0.445,
+        "4": 0.313,
+        "5": 0.209
+      },
+      "status": "predeclared_pending_layer2_rollout"
+    },
+    {
+      "policy": "RoboFlamingo",
+      "condition_tag": "layer2_fresh_seed2026052602",
+      "sample_seed": 2026052602,
+      "fresh_manifest_repo_relative_path": "paper_artifacts/calvin_creeping_overfitting/layer2_fresh_1000_20260526/abc_d_layer2_fresh_1000seq_seed2026052602.json",
+      "fresh_manifest_sha256": "bf2b9a19c73b8a54c5c2aa5f85ef26210df508c41e9a37385da16b5da1f73ee6",
+      "fresh_atc": null,
+      "calibration_atc": 2.367,
+      "delta_atc_fresh_minus_calibration": null,
+      "fresh_chain_success_rates_diagnostic": null,
+      "calibration_chain_success_rates_diagnostic": {
+        "1": 0.802,
+        "2": 0.598,
+        "3": 0.445,
+        "4": 0.313,
+        "5": 0.209
+      },
+      "status": "predeclared_pending_layer2_rollout"
+    }
+  ],
+  "required_average_reporting_rows": [
+    {
+      "policy": "X-VLA",
+      "fresh_condition_tags_to_average": [
+        "layer2_fresh_seed2026052601",
+        "layer2_fresh_seed2026052602"
+      ],
+      "fresh_atc_mean_over_two_manifests": null,
+      "calibration_atc": 4.165,
+      "delta_mean_fresh_minus_calibration": null,
+      "fresh_chain_success_rates_mean_diagnostic": null,
+      "status": "predeclared_pending_layer2_rollout"
+    },
+    {
+      "policy": "GR-1",
+      "fresh_condition_tags_to_average": [
+        "layer2_fresh_seed2026052601",
+        "layer2_fresh_seed2026052602"
+      ],
+      "fresh_atc_mean_over_two_manifests": null,
+      "calibration_atc": 3.244,
+      "delta_mean_fresh_minus_calibration": null,
+      "fresh_chain_success_rates_mean_diagnostic": null,
+      "status": "predeclared_pending_layer2_rollout"
+    },
+    {
+      "policy": "RoboFlamingo",
+      "fresh_condition_tags_to_average": [
+        "layer2_fresh_seed2026052601",
+        "layer2_fresh_seed2026052602"
+      ],
+      "fresh_atc_mean_over_two_manifests": null,
+      "calibration_atc": 2.367,
+      "delta_mean_fresh_minus_calibration": null,
+      "fresh_chain_success_rates_mean_diagnostic": null,
+      "status": "predeclared_pending_layer2_rollout"
+    }
+  ],
+  "statistics_plan": {
+    "primary_report": "For each policy, report each seed-specific fresh ATC and delta versus matched local official calibration, then report the arithmetic mean over the two fresh manifests and its delta versus the same calibration ATC.",
+    "fresh_manifest_average_formula": "mean(ATC_layer2_fresh_seed2026052601, ATC_layer2_fresh_seed2026052602)",
+    "average_delta_formula": "mean_fresh_atc_over_two_manifests - matched_local_official_calibration_atc",
+    "chain_success_reporting": "Report seed-specific and averaged chain success rates only as diagnostic/supporting values.",
+    "do_not_inspect_or_include": "No Layer 2 rollout outputs are inputs to this predeclared file; fill null result fields only after rollouts complete and validate against this manifest package."
+  }
+}

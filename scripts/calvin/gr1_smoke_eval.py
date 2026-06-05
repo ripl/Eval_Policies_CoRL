@@ -13,8 +13,14 @@ if str(SCRIPT_DIR) not in sys.path:
 
 from calvin_reset_override import patch_module_from_env
 from calvin_sequence_manifest import (
-    load_manifest,
+    MANIFEST_SEQUENCE_SOURCE,
+    load_manifest_from_env,
+    manifest_sequences,
+    result_row,
+    runtime_metadata,
+    sequence_source_for_manifest,
     validate_bank_metadata_against_manifest,
+    validate_result_rows_against_manifest,
     validate_sequences_against_manifest,
 )
 
@@ -74,7 +80,8 @@ def main() -> None:
 
     import evaluate_calvin as ec
 
-    manifest = load_manifest(os.environ["CALVIN_SEQUENCE_MANIFEST"]) if os.environ.get("CALVIN_SEQUENCE_MANIFEST") else None
+    manifest = load_manifest_from_env("GR-1")
+    sequence_source = sequence_source_for_manifest(manifest)
     reset_bank, reset_metadata = reset_bank_metadata()
     sequence_count = int(manifest["num_sequences"]) if manifest is not None else int(args.num_sequences)
     workers = int(manifest.get("sequence_workers", 4)) if manifest is not None else 4
@@ -86,8 +93,11 @@ def main() -> None:
     if args.eval_end > sequence_count:
         raise RuntimeError(f"eval_end={args.eval_end} exceeds canonical sequence count {sequence_count}")
     original_get_sequences = ec.get_sequences
-    canonical_sequences = list(original_get_sequences(sequence_count, num_workers=workers))
-    if manifest is not None:
+    if sequence_source == MANIFEST_SEQUENCE_SOURCE:
+        canonical_sequences = manifest_sequences(manifest, 0, sequence_count, "GR-1")
+    else:
+        canonical_sequences = list(original_get_sequences(sequence_count, num_workers=workers))
+    if manifest is not None and sequence_source != MANIFEST_SEQUENCE_SOURCE:
         validate_sequences_against_manifest(canonical_sequences, manifest, "GR-1")
     if reset_bank is not None:
         actual = stable_json(canonical_sequences[args.eval_start][0])
@@ -97,12 +107,22 @@ def main() -> None:
     selected_sequences = canonical_sequences[args.eval_start : args.eval_end]
     if len(selected_sequences) != args.eval_end - args.eval_start:
         raise RuntimeError(f"bad selected sequence range: got {len(selected_sequences)}")
+    run_metadata = runtime_metadata(manifest, sequence_source)
+    run_metadata.update({
+        "policy": "GR-1",
+        "eval_start": int(args.eval_start),
+        "eval_end": int(args.eval_end),
+        "num_sequences": int(args.eval_end - args.eval_start),
+    })
+    (eval_dir / "runtime_metadata.json").write_text(json.dumps(run_metadata, indent=2, sort_keys=True) + "\n")
 
     def get_sequences_with_range(num_sequences=len(selected_sequences), num_workers=None):
         if int(num_sequences) == len(selected_sequences):
             return selected_sequences
         if int(num_sequences) == sequence_count:
             return canonical_sequences
+        if sequence_source == MANIFEST_SEQUENCE_SOURCE:
+            raise RuntimeError(f"GR-1: refusing to regenerate CALVIN sequences in manifest_direct mode; requested {num_sequences}")
         return original_get_sequences(num_sequences, num_workers=workers if num_workers is None else num_workers)
 
     ec.NUM_SEQUENCES = len(selected_sequences)
@@ -111,6 +131,8 @@ def main() -> None:
 
     def evaluate_policy_with_rows(*eval_args, **eval_kwargs):
         results = original_evaluate_policy(*eval_args, **eval_kwargs)
+        if len(results) != len(selected_sequences):
+            raise RuntimeError(f"GR-1 returned {len(results)} results for {len(selected_sequences)} selected sequences")
         eval_output_dir = eval_kwargs.get("eval_dir")
         if eval_output_dir is None and len(eval_args) >= 5:
             eval_output_dir = eval_args[4]
@@ -118,12 +140,8 @@ def main() -> None:
             eval_output_dir = eval_dir
         rows = []
         for offset, (result, (initial_state, eval_sequence)) in enumerate(zip(results, selected_sequences)):
-            rows.append({
-                "global_index": int(args.eval_start + offset),
-                "success": int(result),
-                "initial_state_json": stable_json(initial_state),
-                "eval_sequence": eval_sequence,
-            })
+            rows.append(result_row(args.eval_start + offset, result, initial_state, eval_sequence, manifest))
+        validate_result_rows_against_manifest(rows, manifest, "GR-1 results")
         Path(eval_output_dir, "per_sequence_results.json").write_text(json.dumps(rows, indent=2, sort_keys=True) + "\n")
         return results
 
@@ -157,8 +175,7 @@ def main() -> None:
                     "eval_start": int(args.eval_start),
                     "eval_end": int(args.eval_end),
                     "num_sequences": int(args.eval_end - args.eval_start),
-                    "calvin_sequence_manifest": os.environ.get("CALVIN_SEQUENCE_MANIFEST", ""),
-                    "calvin_reset_bank": os.environ.get("CALVIN_RESET_BANK", ""),
+                    **run_metadata,
                 })
             summary_path.write_text(json.dumps(payload, indent=2, default=float) + "\n")
         except Exception as exc:

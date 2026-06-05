@@ -14,8 +14,14 @@ if str(SCRIPT_DIR) not in sys.path:
 
 from calvin_reset_override import patch_module_from_env
 from calvin_sequence_manifest import (
-    load_manifest,
+    MANIFEST_SEQUENCE_SOURCE,
+    load_manifest_from_env,
+    manifest_sequences,
+    result_row,
+    runtime_metadata,
+    sequence_source_for_manifest,
     validate_bank_metadata_against_manifest,
+    validate_result_rows_against_manifest,
     validate_sequences_against_manifest,
 )
 
@@ -31,11 +37,6 @@ def reset_bank_context():
     data = np.load(path, allow_pickle=False)
     metadata = json.loads(str(data["metadata_json"].item()))
     return data, metadata
-
-
-def sequence_manifest_context():
-    path = os.environ.get("CALVIN_SEQUENCE_MANIFEST")
-    return load_manifest(path) if path else None
 
 
 def main() -> None:
@@ -64,8 +65,9 @@ def main() -> None:
 
     module.save_video = skip_video
     module.OmegaConf.load = load_with_upstream_yaml
+    manifest = load_manifest_from_env("X-VLA")
+    sequence_source = sequence_source_for_manifest(manifest)
     reset_bank, reset_metadata = reset_bank_context()
-    manifest = sequence_manifest_context()
     sequence_count = int(manifest["num_sequences"]) if manifest is not None else None
     workers = int(manifest.get("sequence_workers", 4)) if manifest is not None else 4
     if reset_metadata is not None:
@@ -81,22 +83,39 @@ def main() -> None:
         if eval_end > sequence_count:
             raise RuntimeError(f"eval_end={eval_end} exceeds canonical sequence count {sequence_count}")
         original_get_sequences = module.get_sequences
-        canonical_sequences = list(original_get_sequences(sequence_count, num_workers=workers))
-        if manifest is not None:
+        if sequence_source == MANIFEST_SEQUENCE_SOURCE:
+            canonical_sequences = manifest_sequences(manifest, 0, sequence_count, "X-VLA")
+        else:
+            canonical_sequences = list(original_get_sequences(sequence_count, num_workers=workers))
+        if manifest is not None and sequence_source != MANIFEST_SEQUENCE_SOURCE:
             validate_sequences_against_manifest(canonical_sequences, manifest, "X-VLA")
         if reset_bank is not None:
             expected = str(reset_bank["initial_state_json"][0])
             actual = stable_json(canonical_sequences[0][0])
             if actual != expected:
                 raise RuntimeError(f"canonical X-VLA sequence mismatch: actual={actual}, expected={expected}")
+        run_metadata = runtime_metadata(manifest, sequence_source)
+        run_metadata.update({
+            "policy": "X-VLA",
+            "eval_start": int(eval_start),
+            "eval_end": int(eval_end),
+            "num_sequences": int(eval_end - eval_start),
+        })
+        output_arg = Path(rest[rest.index("--output_dir") + 1]).resolve() if "--output_dir" in rest else Path.cwd()
+        output_arg.mkdir(parents=True, exist_ok=True)
+        (output_arg / "runtime_metadata.json").write_text(json.dumps(run_metadata, indent=2, sort_keys=True) + "\n")
 
         def get_sequences_with_bank_order(num_sequences=sequence_count, num_workers=None):
             if int(num_sequences) == sequence_count:
                 return canonical_sequences
+            if sequence_source == MANIFEST_SEQUENCE_SOURCE:
+                raise RuntimeError(f"X-VLA: refusing to regenerate CALVIN sequences in manifest_direct mode; requested {num_sequences}")
             return original_get_sequences(num_sequences, num_workers=workers if num_workers is None else num_workers)
 
         module.NUM_SEQUENCES = sequence_count
         module.get_sequences = get_sequences_with_bank_order
+    else:
+        run_metadata = runtime_metadata(manifest, sequence_source)
     ep_len = int(os.environ.get("XVLA_EP_LEN", os.environ.get("EP_LEN", str(module.EP_LEN))))
     module.EP_LEN = ep_len
     required_ep_len = os.environ.get("REQUIRE_XVLA_EP_LEN")
@@ -106,16 +125,15 @@ def main() -> None:
 
     def evaluate_policy_with_rows(model, env, output_dir, debug=False, eval_start=0, eval_end=module.NUM_SEQUENCES):
         results = original_evaluate_policy(model, env, output_dir, debug=debug, eval_start=eval_start, eval_end=eval_end)
+        expected_count = int(eval_end) - int(eval_start)
+        if len(results) != expected_count:
+            raise RuntimeError(f"X-VLA returned {len(results)} results for {expected_count} requested sequences")
         eval_sequences = list(module.get_sequences(module.NUM_SEQUENCES))
         rows = []
         for global_idx, result in zip(range(int(eval_start), int(eval_end)), results):
             initial_state, eval_sequence = eval_sequences[global_idx]
-            rows.append({
-                "global_index": int(global_idx),
-                "success": int(result),
-                "initial_state_json": stable_json(initial_state),
-                "eval_sequence": eval_sequence,
-            })
+            rows.append(result_row(global_idx, result, initial_state, eval_sequence, manifest))
+        validate_result_rows_against_manifest(rows, manifest, "X-VLA results")
         Path(output_dir, "per_sequence_results.json").write_text(json.dumps(rows, indent=2, sort_keys=True) + "\n")
         return results
 
